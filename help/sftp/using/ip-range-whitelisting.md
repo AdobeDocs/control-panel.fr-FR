@@ -1,0 +1,73 @@
+---
+title: Mise en whiteliste des plages d'adresses IP
+description: Découvrez comment mettre en liste blanche les plages d’adresses IP pour l’accès aux serveurs SFTP
+translation-type: tm+mt
+source-git-commit: e080a86cc598581b75cffd622b2109e10355130a
+
+---
+
+
+# Mise en whiteliste des plages d'adresses IP {#ip-range-whitelisting}
+
+Les serveurs SFTP sont protégés. Afin de pouvoir y accéder pour afficher des fichiers ou en écrire de nouveaux, vous devez whitelister l'adresse IP publique du système ou du client qui accède aux serveurs.
+
+## Format CIDR {#about-cidr-format}
+
+Le format CIDR (Classless Inter-Domain Routing) est le format pris en charge lors de l'ajout de plages IP avec l'interface du panneau de contrôle.
+
+La syntaxe se compose d'une adresse IP, suivie d'un caractère / et d'un nombre décimal. Le format et sa syntaxe sont présentés en détail dans [cet article](https://whatismyipaddress.com/cidr).
+
+Vous pouvez rechercher sur Internet des outils en ligne gratuits qui vous permettront de convertir la plage IP qui vous intéresse au format CIDR.
+
+## Bonnes pratiques {#best-practices}
+
+Veillez à suivre les recommandations et les limites ci-dessous lors de la mise en whiteliste des adresses IP dans le panneau de contrôle.
+
+* **Whitelistez des plages IP** plutôt que des adresses IP uniques. Pour whitelister une seule adresse IP, ajoutez-lui "/32" afin d'indiquer qu'une seule adresse IP est comprise dans la plage.
+* **Ne whitelistez pas des plages très larges**, incluant par exemple plus de 265 adresses IP. Le panneau de contrôle rejettera les plages au format CIDR comprises entre /0 et /23.
+* Only **public IP addresses** can be whitelisted.
+* Make sure to **regularly delete whitelisted IP addresses** that you don't need anymore.
+
+## Mise en whiteliste des adresses IP {#whitelisting-ip-addresses}
+
+Pour mettre en liste blanche une plage d’adresses IP, procédez comme suit :
+
+1. Ouvrez la carte **[!UICONTROL SFTP]**, puis sélectionnez l’onglet **[!UICONTROL Liste blanche des adresses IP]**.
+1. La liste des adresses IP whitelistées s'affiche pour chaque instance. Sélectionnez l'instance souhaitée dans la liste de gauche, puis cliquez sur le bouton **[!UICONTROL Ajouter une plage d'adresses IP].**
+
+   ![](assets/control_panel_add_range.png)
+
+1. Indiquez la plage IP que vous voulez whitelister, au format CIDR, puis définissez le libellé qui s'affichera dans la liste.
+
+   >[!NOTE]
+   >
+   >Les caractères spéciaux ci-après sont autorisés dans le champ Libellé :
+   > `. _ - : / ( ) # , @ [ ] + = & ; { } ! $`
+
+   ![](assets/control_panel_add_range2.png)
+
+   >[!CAUTION]
+   >
+   >Une plage IP ne peut pas contenir une plage whitelistée existante. Dans ce cas, supprimez d'abord la plage qui contient l'IP whitelistée.
+   >
+   >Il est possible de whitelister une plage pour plusieurs instances. Pour ce faire, appuyez sur la touche Flèche vers le bas ou saisissez les premières lettres de l'instance souhaitée, puis sélectionnez-la dans la liste de suggestions.
+
+   ![](assets/control_panel_add_range3.png)
+
+1. Cliquez sur le bouton **[!UICONTROL Enregistrer.]** Tant que la demande n'est pas entièrement traitée, la mise en whiteliste des adresses IP apparaît comme étant EN ATTENTE. Cela ne devrait pas durer plus de quelques secondes.
+
+To delete whitelisted IP ranges, select them then click the **[!UICONTROL Delete IP range]** button.
+
+![](assets/control_panel_delete_range2.png)
+
+>[!NOTE]
+>
+>Il n'est actuellement pas possible d'éditer une plage whitelistée. Pour modifier une plage IP, supprimez-la, puis créez-en une correspondant à vos besoins.
+
+## Surveiller les changements {#monitoring-changes}
+
+The **[!UICONTROL Job Logs]** in the Control Panel home page let you monitor all changes that have been made to whitelisted IP addresses.
+
+Pour plus d'informations sur l'interface du panneau de contrôle, reportez-vous à [cette section](../../discover/using/discovering-the-interface.md).
+
+![](assets/control_panel_ip_logNEW.png)
