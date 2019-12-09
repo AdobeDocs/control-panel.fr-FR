@@ -1,35 +1,35 @@
 ---
 title: Documentation du produit
 translation-type: tm+mt
-source-git-commit: 4d8c8cb517df36e814644127746550759d5d2a46
+source-git-commit: 66d64c1b9819090f9d0bfd778d0ce6cb96b4565b
 
 ---
 
 
-# Centre d'aide {#control-panel-documentation}
+# Centre d&#39;aide {#control-panel-documentation}
 
 ![](assets/banner.png)
 
 ## A propos du Panneau de configuration {#about-control-panel}
 
-Le Panneau de configuration vous permet d’accroître l’efficacité de votre travail en tant qu’administrateur de produit d’Adobe Campaign Standard et/ou Classic, en vous permettant de gérer les paramètres et d’effectuer le suivi des utilisations pour chacune de vos instances. Dans son interface intuitive, vous pouvez facilement surveiller l'utilisation des principales ressources ou effectuer certaines tâches administratives telles que la mise en whiteliste d'adresses IP, la surveillance de l'espace de stockage SFTP, la gestion des clés, etc.
+Le Panneau de configuration vous permet d’accroître l’efficacité de votre travail en tant qu’administrateur de produit d’Adobe Campaign Standard et/ou Classic, en vous permettant de gérer les paramètres et d’effectuer le suivi des utilisations pour chacune de vos instances. Son interface intuitive vous permet de surveiller facilement l’utilisation des ressources clés et d’effectuer des tâches administratives telles que la liste blanche des adresses IP, la surveillance du stockage SFTP, la gestion des clés, etc.
 
-Principaux avantages :
+Principaux avantages :
 
-* Modifiez rapidement par vous-même les paramètres sans contacter l'assistance clientèle.
-* Configurez les paramètres en fonction de vos besoins métier à différents instants.
-* Renforcez la sécurité en contrôlant les paramètres d'accès au cas par cas.
+* Apportez rapidement des modifications aux paramètres par vous-même sans contacter le service d’assistance clientèle.
+* Configurez les paramètres en fonction des besoins de votre entreprise à différents moments.
+* Améliorer la sécurité en contrôlant les paramètres d&#39;accès selon les besoins.
 
 >[!NOTE]
->Seuls les utilisateurs administrateurs ont accès au panneau de contrôle, disponible pour tous les clients hébergés sur AWS. Les étapes permettant d'accorder un accès administrateur à un utilisateur sont présentées dans [cette section](discover/using/managing-permissions.md). Pour vérifier si votre instance est hébergée sur AWS, suivez les étapes présentées dans [cette section](faq.md).
+>Le Panneau de configuration est accessible uniquement aux administrateurs et disponible pour tous les clients hébergés sur AWS. Les étapes pour accorder l’accès administrateur à un utilisateur sont détaillées dans [cette section](discover/using/managing-permissions.md). Pour vérifier si votre instance est hébergée sur AWS, suivez les étapes détaillées dans [cette section](faq.md).
 >
->Pour accéder au panneau de contrôle, il n'est pas nécessaire d'effectuer une mise à niveau vers le dernier build de Campaign.
+>Notez que la mise à niveau vers la dernière version de Campaign n’est pas nécessaire pour accéder au Panneau de configuration.
 
 <table>
 <tr>
     <td>
         <a href="discover/using/accessing-control-panel.md"><img alt="conditions" src="assets/discover.png"/></a>
-        <div><a href="discover/using/accessing-control-panel.md"><strong>Découverte du panneau de contrôle</strong></a></div>
+        <div><a href="discover/using/accessing-control-panel.md"><strong>Découvrir le panneau de contrôle</strong></a></div>
         <em>En savoir plus sur le Panneau de configuration et comment y accéder.</em>
     </td>
     <td>
@@ -38,8 +38,8 @@ Principaux avantages :
         <em>Découvrez comment gérer vos serveurs SFTP.</em>
     </td>
     <td>
-        <a href="subdomains-certificates/using/about-ssl-certificates.md"><img alt="conditions" src="assets/subdomains.png"/></a>
-        <div><a href="subdomains-certificates/using/about-ssl-certificates.md"><strong>Surveiller vos sous-domaines</strong></a></div>
+        <a href="subdomains-certificates/using/about-subdomains.md"><img alt="conditions" src="assets/subdomains.png"/></a>
+        <div><a href="subdomains-certificates/using/about-subdomains.md"><strong>Surveiller vos sous-domaines</strong></a></div>
         <em>Découvrez comment surveiller vos sous-domaines et leurs certificats.</em>
     </td>
     <td>
@@ -57,7 +57,7 @@ Principaux avantages :
         <td><b>Campaign Standard</b><br/>
         <ul>
             <li><a href="https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/administrating/control-panel/control-panel-overview.html">Didacticiels vidéo du Panneau de configuration pour Campaign Standard</a></li>
-            <li><a href="https://docs.adobe.com/content/help/en/campaign-standard/using/campaign-standard-home.html">Documentation du produit Campaign Standard</a></li>
+            <li><a href="https://docs.adobe.com/content/help/en/campaign-standard/using/campaign-standard-home.html">Documentation du produit  Campaign Standard</a></li>
         </ul>
         </td>
         <td><b>Campaign Classic</b><br/>
