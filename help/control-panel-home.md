@@ -1,7 +1,7 @@
 ---
 title: Documentation du produit
 translation-type: tm+mt
-source-git-commit: 66d64c1b9819090f9d0bfd778d0ce6cb96b4565b
+source-git-commit: 6bc165f995d34d21b5bce379db3095317db10906
 
 ---
 
@@ -38,8 +38,8 @@ Principaux avantages :
         <em>Découvrez comment gérer vos serveurs SFTP.</em>
     </td>
     <td>
-        <a href="subdomains-certificates/using/about-subdomains.md"><img alt="conditions" src="assets/subdomains.png"/></a>
-        <div><a href="subdomains-certificates/using/about-subdomains.md"><strong>Surveiller vos sous-domaines</strong></a></div>
+        <a href="subdomains-certificates/using/about-ssl-certificates.md"><img alt="conditions" src="assets/subdomains.png"/></a>
+        <div><a href="subdomains-certificates/using/about-ssl-certificates.md"><strong>Surveiller vos sous-domaines</strong></a></div>
         <em>Découvrez comment surveiller vos sous-domaines et leurs certificats.</em>
     </td>
     <td>
