@@ -2,7 +2,7 @@
 title: Gestion des clés
 description: Découvrez comment gérer les clés pour établir une connexion aux serveurs SFTP
 translation-type: tm+mt
-source-git-commit: 8ee999b89af88a1a59956838d5722ce8fc6b3955
+source-git-commit: 85bef8fa652be883bc2afbc42a2d893ea75a4e77
 
 ---
 
@@ -11,27 +11,27 @@ source-git-commit: 8ee999b89af88a1a59956838d5722ce8fc6b3955
 
 Adobe recommande à tous les clients d’établir une connexion à leurs serveurs SFTP avec une **paire de clés publique et privée**.
 
-Les étapes de génération d’une clé SSH publique et de son ajout pour accéder au serveur SFTP sont décrites ci-dessous, ainsi que les recommandations concernant l’authentification.
+Les étapes de génération d’une clé SSH publique et de son ajout pour accéder au serveur SFTP sont décrites ci-dessous, ainsi que les recommandations concernant l’authentification.
 
-Once access to the server is set up, remember to **whitelist the IP addresses** that will require access to the server so that you can connect to it. Voir à ce propos [cette section](../../instances-settings/using/ip-whitelisting-instance-access.md).
+Une fois l’accès au serveur configuré, pensez à **whitelister les adresses IP** qui requièrent l’accès au serveur, afin de pouvoir vous y connecter. Voir à ce propos [cette section](../../instances-settings/using/ip-whitelisting-instance-access.md).
 
 >[!NOTE]
 >
->Il n'est actuellement pas possible de supprimer une clé SSH publique.
+>Il n’est actuellement pas possible de supprimer une clé SSH publique.
 
 ## Bonnes pratiques {#best-practices}
 
-**Clé SSH publique**
+**À propos de la clé SSH publique**
 
-Assurez-vous que vous utilisez toujours la même authentification pour vous connecter au serveur et que vous utilisez un format pris en charge pour la clé.
+Veillez à toujours utiliser la même authentification pour vous connecter au serveur et vérifiez que vous utilisez un format pris en charge pour la clé.
 
-**Intégration de l'API avec nom d'utilisateur et mot de passe**
+**Intégration de l’API avec nom d’utilisateur et mot de passe**
 
-Dans de très rares cas, l'authentification par mot de passe est activée sur certains serveurs SFTP. Adobe vous recommande d'utiliser l'authentification par clé, car cette méthode est plus efficace et plus sûre. Vous pouvez demander à passer à l'authentification par clé en contactant l'Assistance clientèle.
+Dans de très rares cas, l’authentification par mot de passe est activée sur certains serveurs SFTP. Adobe vous recommande d’utiliser l’authentification par clé, car cette méthode est plus efficace et plus sûre. Vous pouvez demander à passer à l’authentification par clé en contactant l’Assistance clientèle.
 
 >[!CAUTION]
 >
->Si votre mot de passe expire, même si des clés sont installées sur votre système, vous ne pourrez pas vous connecter à vos comptes SFTP.
+>Si votre mot de passe arrive à expiration, même si des clés sont installées sur votre système, vous ne pourrez pas vous connecter à vos comptes SFTP.
 
 ![](assets/control_panel_passwordexpires.png)
 
@@ -39,49 +39,49 @@ Dans de très rares cas, l'authentification par mot de passe est activée sur ce
 
 >[!CAUTION]
 >
->Les étapes ci-dessous sont un exemple de création de clé SSH uniquement. Veuillez suivre les directives de votre organisation en ce qui concerne les clés SSH. L'exemple ci-dessous n'est qu'un exemple de la façon dont cela peut être fait et sert de point de référence utile pour communiquer les exigences à votre équipe ou groupe réseau interne.
+>Les étapes ci-dessous sont un exemple de création de clé SSH uniquement. Veuillez suivre les directives de votre organisation en ce qui concerne les clés SSH. L’exemple ci-dessous n’est qu’un exemple parmi d’autres et sert de point de référence utile pour communiquer les exigences à votre équipe ou à votre groupe réseau interne.
 
-1. Accédez à l’onglet **[!UICONTROL Gestion des clés]**, puis cliquez sur le bouton **[!UICONTROL Ajouter une clé publique]**.
+1. Accédez à l’onglet **[!UICONTROL Gestion des clés]**, puis cliquez sur le bouton**[!UICONTROL  Ajouter une clé publique]**.
 
    ![](assets/key0.png)
 
-1. Dans la boîte de dialogue qui s'ouvre, sélectionnez le nom d'utilisateur pour lequel vous souhaitez créer la clé publique et le serveur pour lequel vous souhaitez activer la clé.
+1. Dans la boîte de dialogue qui s’ouvre, sélectionnez le nom d’utilisateur pour lequel vous voulez créer la clé publique et le serveur pour lequel vous voulez activer la clé.
 
    >[!NOTE]
    >
-   >L'interface vérifie si un nom d'utilisateur donné est actif sur une instance particulière et permet d'activer la clé sur une ou plusieurs instances.
+   >L’interface vérifie si un nom d’utilisateur donné est actif sur une instance particulière et permet d’activer la clé sur une ou plusieurs instances.
    >
-   >Il est possible d'ajouter une ou plusieurs clés SSH publiques pour chaque utilisateur.
+   >Il est possible d’ajouter une ou plusieurs clés SSH publiques pour chaque utilisateur.
 
    ![](assets/key1.png)
 
-1. Copiez-collez la clé SSH publique. Pour générer une clé publique, suivez les étapes ci-dessous correspondant à votre système d'exploitation :
+1. Copiez-collez la clé SSH publique. Pour générer une clé publique, suivez les étapes ci-dessous correspondant à votre système d’exploitation :
 
    >[!NOTE]
    >
-   >The public SSH key size should be **2048 bits**.
+   >La taille de la clé SSH publique doit être de **2 048 bits**.
 
    **Linux et Mac :**
 
    Utilisez le terminal pour générer une paire de clés publique et privée :
-   1. Saisissez cette commande : `ssh-keygen -t rsa -C <your_email@example.com>`.
-   1. Attribuez un nom à votre clé lorsque vous y êtes invité. Si le répertoire .ssh n’existe pas, le système en créera un pour vous.
-   1. Entrez à deux reprises un mot de passe lorsque vous y êtes invité. Il peut également être laissé vide.
-   1. Une paire de clés "name" et "name.pub" est créée par le système. Recherchez le fichier "name.pub", puis ouvrez-le. Il doit comporter une chaîne alphanumérique se terminant par l'adresse email que vous avez spécifiée.
+   1. Saisissez cette commande : `ssh-keygen -t rsa -C <your_email@example.com>`.
+   1. Attribuez un nom à votre clé lorsque vous y êtes invité. Si le répertoire .ssh n’existe pas, le système en créera un pour vous.
+   1. Saisissez à deux reprises un mot de passe lorsque vous y êtes invité. Il peut également être laissé vide.
+   1. Une paire de clés « name » et « name.pub » est créée par le système. Recherchez le fichier « name.pub », puis ouvrez-le. Il doit comporter une chaîne alphanumérique se terminant par l’adresse email que vous avez spécifiée.
    **Windows :**
 
-   Il se peut que vous deviez installer un outil tiers qui vous aidera à générer une paire de clés privée/publique au même format "name.pub".
+   Il se peut que vous deviez installer un outil tiers qui vous aidera à générer une paire de clés privée/publique au même format « name.pub ».
 
-1. Ouvrez le fichier .pub, puis copiez-collez toute la chaîne commençant par "ssh..." dans le panneau de contrôle.
+1. Ouvrez le fichier .pub, puis copiez-collez toute la chaîne commençant par « ssh... » dans le panneau de contrôle.
 
    ![](assets/publickey.png)
 
-1. Cliquez sur le bouton **[!UICONTROL Enregistrer]pour créer la clé.** Le panneau de contrôle enregistre la clé publique et son empreinte digitale associée, cryptée au format SHA256.
+1. Cliquez sur le bouton **[!UICONTROL Enregistrer]**pour créer la clé. Le panneau de contrôle enregistre la clé publique et son empreinte digitale associée, cryptée au format SHA256.
 
 Vous pouvez utiliser les empreintes digitales pour faire correspondre les clés privées enregistrées sur votre ordinateur avec les clés publiques correspondantes enregistrées dans le panneau de contrôle.
 
-![](assets/fingerprintNEW2.png)
+![](assets/fingerprint_compare.png)
 
-The "**...**" button allows you to delete an existing key, or to copy its associated fingerprint into your clipboard.
+Le bouton « **...** » permet de supprimer une clé existante ou de copier son empreinte associée dans le presse-papiers.
 
 ![](assets/key_options.png)
