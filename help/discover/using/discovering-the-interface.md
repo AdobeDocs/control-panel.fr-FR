@@ -1,36 +1,36 @@
 ---
-title: Découverte de l'interface du Panneau de configuration
-description: En savoir plus sur l’interface du Panneau de configuration
+title: Découverte de l’interface du panneau de contrôle
+description: En savoir plus sur l’interface du panneau de contrôle
 translation-type: tm+mt
-source-git-commit: ac7d673028d823516c48a1d6874e05086d672647
+source-git-commit: 85bef8fa652be883bc2afbc42a2d893ea75a4e77
 
 ---
 
 
-# Découverte de l'interface du Panneau de configuration {#discovering-interface}
+# Découverte de l’interface du panneau de contrôle {#discovering-interface}
 
-La page d'accueil du panneau de contrôle vous donne accès à toutes les actions qui peuvent être effectuées sur vos instances Campaign.
+La page d’accueil du panneau de contrôle vous donne accès à toutes les actions qui peuvent être effectuées sur vos instances Campaign.
 
-They are represented by cards that are organized into topics, for example **Storage &amp; Database Management**.
+Elles sont représentées par des cartes qui sont organisées en rubriques, par exemple **Gestion du stockage et des bases de données**
 
-D'autres rubriques et vignettes seront disponibles avec les prochaines versions de Campaign.
+D’autres rubriques et cartes seront disponibles avec les prochaines versions de Campaign.
 
 ![](assets/control_panel_interface.png)
 
 ## Logs de traitement {#job-logs}
 
-Le bouton **[!UICONTROL Logs de traitement]** situé dans le coin supérieur droit vous permet de contrôler toutes les modifications apportées par les utilisateurs de votre entreprise.
+Le bouton **[!UICONTROL Logs de traitement]**situé dans le coin supérieur droit vous permet de contrôler toutes les modifications apportées par les utilisateurs de votre entreprise.
 
 ![](assets/control_panel_interface2.png)
 
 Pour obtenir des détails supplémentaires, cliquez sur un élément de la liste.
 
-Le bouton **[!UICONTROL Ouvrir]** vous permet d’accéder directement à l’onglet Panneau de configuration où la modification a été effectuée.
+Le bouton **[!UICONTROL Ouvrir]**vous permet d’accéder directement à l’onglet Panneau de contrôle où la modification a été effectuée.
 
-![](assets/control_panel_logdetails2.png)
+![](assets/control_panel_logdetails.png)
 
-## Ressources d'aide {#help-resources}
+## Ressources d’aide {#help-resources}
 
-The **[!UICONTROL Help Resources]** section provides useful documentation to help you in your use of the Control Panel and Campaign products. N'hésitez pas à l'explorer.
+La section **[!UICONTROL Ressources d’aide]**propose de la documentation pour vous aider à utiliser le panneau de contrôle et les produits Campaign. N’hésitez pas à l’explorer.
 
-![](assets/helpresources2.png)
+![](assets/helpresources.png)
