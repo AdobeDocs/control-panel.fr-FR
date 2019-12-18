@@ -4,7 +4,7 @@ sub-product: control panel
 audience: end-user
 user-guide-title: Control Panel Help
 translation-type: tm+mt
-source-git-commit: 85bef8fa652be883bc2afbc42a2d893ea75a4e77
+source-git-commit: bc7cf3633b7310fcb5842896172647659f0877eb
 
 ---
 
@@ -28,7 +28,7 @@ source-git-commit: 85bef8fa652be883bc2afbc42a2d893ea75a4e77
       + [Marque des sous-domaines](subdomains-certificates/using/subdomains-branding.md)
       + [Surveillance des sous-domaines](subdomains-certificates/using/monitoring-subdomains.md)
       + [Configuration d’un nouveau sous-domaine](subdomains-certificates/using/setting-up-new-subdomain.md)
-   + Gestion des certificats SSL {managing-ceritficates}
+   + Gestion des certificats SSL {#managing-ceritficates}
       + [Surveillance des certificats SSL](subdomains-certificates/using/monitoring-ssl-certificates.md)
       + [Renouvellement des certificats SSL](subdomains-certificates/using/renewing-subdomain-certificate.md)
 + Paramètres des instances (Campaign Classic) {#instances-settings}
