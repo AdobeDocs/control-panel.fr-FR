@@ -1,6 +1,6 @@
 ---
 title: Documentation du produit
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 85bef8fa652be883bc2afbc42a2d893ea75a4e77
 
 ---
@@ -57,7 +57,7 @@ Principaux avantages :
         <td><b>Campaign Standard</b><br/>
         <ul>
             <li><a href="https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/administrating/control-panel/control-panel-overview.html">Tutoriels vidéo sur le panneau de contrôle pour Campaign Standard</a></li>
-            <li><a href="https://docs.adobe.com/content/help/en/campaign-standard/using/campaign-standard-home.html">Documentation du produit Campaign Standard</a></li>
+            <li><a href="https://docs.adobe.com/content/help/fr-FR/campaign-standard/using/campaign-standard-home.html">Documentation du produit Campaign Standard</a></li>
         </ul>
         </td>
         <td><b>Campaign Classic</b><br/>
