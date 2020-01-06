@@ -52,7 +52,7 @@ Les informations disponibles sont les suivantes :
 
 * **[!UICONTROL Type]** : type du serveur. Les valeurs possibles sont MKT (Marketing), MID (Mid-sourcing) et RT (Message Center/Real-time messaging).
 * **[!UICONTROL Nom]** : nom du serveur.
-* **[!UICONTROL Build :]**la version de build installée sur le serveur.
+* **[!UICONTROL Build]** : la version de build installée sur le serveur.
 * **[!UICONTROL Infos sur la mise à niveau]** : cette colonne vous indique si une mise à jour est requise pour le serveur.
    * Vert : votre serveur est à jour et aucun upgrade n’est requis.
    * Jaune : vous devez envisager un upgrade. Vous ne disposez pas des fonctionnalités et des correctifs les plus récents.
