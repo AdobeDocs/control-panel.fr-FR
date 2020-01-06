@@ -1,7 +1,7 @@
 ---
 title: Mise en whiteliste d’adresses IP
 description: Découvrez la mise en whiteliste d’adresses IP dans le panneau de contrôle pour l’accès aux instances
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 85bef8fa652be883bc2afbc42a2d893ea75a4e77
 
 ---
@@ -55,7 +55,7 @@ Pour whitelister des adresses IP, procédez comme suit :
    >
    >Vous pouvez rechercher sur Internet des outils en ligne gratuits qui vous permettront de convertir la plage IP qui vous intéresse au format CIDR.
 
-   * **[!UICONTROL Étiquette]**: Libellé qui s’affichera dans la liste des adresses IP en liste blanche.
+   * **[!UICONTROL Libellé]** : le libellé qui s’affichera dans la liste d’adresses IP whitelistées.
    * **[!UICONTROL Nom]** : le nom doit être unique pour le type d’accès, l’instance (dans le cas d’une connexion API externe) et l’adresse IP.
 
 
@@ -74,4 +74,4 @@ Pour supprimer des plages d’adresses IP whitelistées, sélectionnez-les, pui
 
 **Rubriques connexes :**
 * [Mise en whiteliste d’adresses IP (tutoriel vidéo)](https://docs.adobe.com/content/help/en/campaign-learn/campaign-classic-tutorials/administrating/control-panel-acc/ip-whitelisting.html)
-* [Liaison d’une zone de sécurité à un opérateur](https://docs.campaign.adobe.com/doc/AC/en/INS_Additional_configurations_Configuring_Campaign_server.html#Linking_a_security_zone_to_an_operator)
+* [Liaison d’une zone de sécurité à un opérateur](https://docs.campaign.adobe.com/doc/AC/fr/INS_Parametrages_additionnels_Configuration_du_serveur_Campaign.html#Associer_une_zone_de_securite_a_un_operateur)
