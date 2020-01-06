@@ -1,7 +1,7 @@
 ---
 title: Gestion des clés
 description: Découvrez comment gérer les clés pour établir une connexion aux serveurs SFTP
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 85bef8fa652be883bc2afbc42a2d893ea75a4e77
 
 ---
