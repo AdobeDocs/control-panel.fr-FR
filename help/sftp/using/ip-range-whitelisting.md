@@ -1,7 +1,7 @@
 ---
 title: Mise en whiteliste des plages d’adresses IP
 description: Découvrez comment mettre en whiteliste des plages d’adresses IP pour l’accès aux serveurs SFTP
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 85bef8fa652be883bc2afbc42a2d893ea75a4e77
 
 ---
@@ -15,7 +15,7 @@ Les serveurs SFTP sont protégés. Afin de pouvoir y accéder pour afficher des
 
 Le format CIDR (Classless Inter-Domain Routing) est le format pris en charge lors de l’ajout de plages IP avec l’interface du panneau de contrôle.
 
-La syntaxe se compose d’une adresse IP, suivie d’un caractère  « / » et d’un nombre décimal. Le format et sa syntaxe sont présentés en détail dans [cet article](https://whatismyipaddress.com/cidr).
+La syntaxe se compose d’une adresse IP, suivie d’un caractère « / » et d’un nombre décimal. Le format et sa syntaxe sont présentés en détail dans [cet article](https://whatismyipaddress.com/cidr).
 
 Vous pouvez rechercher sur Internet des outils en ligne gratuits qui vous permettront de convertir la plage IP qui vous intéresse au format CIDR.
 
