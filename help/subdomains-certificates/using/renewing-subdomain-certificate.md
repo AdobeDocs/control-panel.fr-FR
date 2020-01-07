@@ -2,18 +2,18 @@
 title: Renouvellement du certificat SSL d’un sous-domaine
 description: Découvrez comment renouveler les certificats SSL de vos sous-domaines
 translation-type: tm+mt
-source-git-commit: 2c5a4f4f48e975bd9c9de4a86d2691cfddf58354
+source-git-commit: c44f6800a0f7905fe9e5619388c7007f0af8f973
 
 ---
 
 
 # Renouvellement du certificat SSL d’un sous-domaine {#renewing-subdomains-ssl-certificates}
 
->[!NOTE]
+>[!IMPORTANT]
 >
->Le renouvellement du certificat du Panneau de configuration sera disponible en version bêta à la fin du mois de janvier.
+>La délégation de sous-domaines du Panneau de configuration sera disponible en version bêta d&#39;ici la fin janvier et sujette à de fréquentes mises à jour et modifications sans préavis.
 
-## AÀ propos du renouvellement des certificats {#about-certificate-renewal-process}
+## A propos du renouvellement des certificats {#about-certificate-renewal-process}
 
 La procédure de renouvellement des certificats SSL comprend 3 étapes :
 
