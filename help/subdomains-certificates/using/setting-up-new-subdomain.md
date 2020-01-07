@@ -2,16 +2,18 @@
 title: Configuration d’un nouveau sous-domaine
 description: Découvrez comment configurer un nouveau sous-domaine pour vos instances de campagne
 translation-type: tm+mt
-source-git-commit: 766ff590d83929eeddb69113904643517c1475ad
+source-git-commit: c44f6800a0f7905fe9e5619388c7007f0af8f973
 
 ---
 
 
 # Configuration d’un nouveau sous-domaine {#setting-up-subdomain}
 
->[!NOTE]
+>[!IMPORTANT]
 >
->La délégation de sous-domaines du Panneau de configuration est actuellement en version bêta et sujette à de fréquentes mises à jour et modifications sans notification.
+>La délégation de sous-domaines du Panneau de configuration sera disponible en version bêta d&#39;ici la fin janvier et sujette à de fréquentes mises à jour et modifications sans préavis.
+
+Si vous avez des questions sur les méthodes de délégation de sous-domaines, contactez l’équipe de délivrabilité d’Adobe ou contactez le service à la clientèle pour demander des conseils sur la délivrabilité.
 
 ## Délégation complète de sous-domaine {#full-subdomain-delegation}
 
@@ -19,8 +21,9 @@ Le Panneau de contrôle vous permet de déléguer entièrement un sous-domaine �
 
 >[!NOTE]
 >
->Si aucun sous-domaine n’est configuré pour Adobe, le premier sous-domaine que vous allez configurer sera considéré comme sous-domaine ****principal.
->Un enregistrement **DNS** inverse sera créé et défini comme sous-domaine d’envoi par défaut pour les boîtes de réception (expéditeur, réponse, adresses électroniques d’erreur).
+>Si l’instance sélectionnée ne comporte aucun sous-domaine précédemment configuré, le premier sous-domaine délégué à Adobe deviendra le sous-domaine **** principal de cette instance, vous ne pourrez plus le modifier à l’avenir.
+>
+>Les enregistrements DNS inversés seront créés pour d’autres sous-domaines utilisant le sous-domaine principal. Les adresses de réponse et de rebond pour les autres sous-domaines seront générées à partir du sous-domaine principal.
 
 1. Dans la carte **[!UICONTROL Sous-domaines et certificats]**, sélectionnez l’instance de production souhaitée, puis cliquez sur**[!UICONTROL  Configurer un nouveau sous-domaine]**.
 
@@ -50,8 +53,8 @@ Le Panneau de contrôle vous permet de déléguer entièrement un sous-domaine �
 
 1. Sélectionnez le cas d’utilisation souhaité pour le sous-domaine :
 
-   * **Communications marketing** : communications destinées à un usage commercial. Exemple : campagne par e-mail de vente.
-   * **Communications** transactionnelles et opérationnelles : les communications transactionnelles contiennent des informations visant à terminer un processus que le destinataire a commencé avec vous. Exemple : confirmation d’achat, e-mail de réinitialisation de mot de passe. Les communications organisationnelles se rapportent à l&#39;échange d&#39;informations, d&#39;idées et de vues au sein et à l&#39;extérieur de l&#39;organisation, sans but commercial.
+   * **Communications marketing** : communications destinées à un usage commercial. Exemple : campagne par email de vente.
+   * **Communications** transactionnelles et opérationnelles : les communications transactionnelles contiennent des informations visant à terminer un processus que le destinataire a commencé avec vous. Exemple : confirmation d’achat, email de réinitialisation de mot de passe. Les communications organisationnelles se rapportent à l&#39;échange d&#39;informations, d&#39;idées et de vues au sein et à l&#39;extérieur de l&#39;organisation, sans but commercial.
    >[!NOTE]
    >
    >La ventilation de vos sous-domaines selon les cas d’utilisation est une bonne pratique en matière de délivrabilité. Elle permet d’isoler et de protéger la réputation de chaque sous-domaine.
@@ -105,4 +108,4 @@ You can get more details on the subdomain by clicking the **[!UICONTROL Subdomai
 
 ## Utilisation des CNAME {#use-cnames}
 
-L’utilisation de CNAME pour la délégation de sous-domaine n’est pas recommandée par Adobe et n’est pas prise en charge par le Panneau de contrôle. Pour utiliser cette méthode, contactez le service à la clientèle Adobe.
+L’utilisation de CNAME pour la délégation de sous-domaines n’est pas prise en charge par le Panneau de configuration. Pour utiliser cette méthode, contactez le service à la clientèle Adobe.
