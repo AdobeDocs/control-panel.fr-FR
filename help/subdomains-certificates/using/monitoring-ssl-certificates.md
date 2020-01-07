@@ -2,12 +2,12 @@
 title: Surveillance des certificats SSL des sous-domaines
 description: Découvrez comment surveiller les certificats SSL de vos sous-domaines
 translation-type: tm+mt
-source-git-commit: 001064877594a10733c054f925f254545f93145d
+source-git-commit: c44f6800a0f7905fe9e5619388c7007f0af8f973
 
 ---
 
 
-# Monitoring subdomains&#39; SSL certificates {#monitoring-ssl-certificates}
+# Surveillance des certificats SSL des sous-domaines {#monitoring-ssl-certificates}
 
 ## À propos des certificats SSL {#about-ssl-certificates}
 
@@ -34,15 +34,15 @@ Les sous-domaines sont classés en fonction de la date d’expiration la plus pr
 
 ![](assets/subdomains_list.png)
 
-To get more details on a subdomain, click the **[!UICONTROL Subdomain Details]**button.
-La liste de tous les sous-domaines connexes s’affiche. En règle générale, elle contient les sous-domaines des landing pages, des pages de ressources, etc.
+Pour obtenir plus de détails sur un sous-domaine, cliquez sur le bouton **[!UICONTROL Détails du sous-domaine]**.
+La liste de tous les sous-domaines associés s&#39;affiche. En règle générale, elle contient les sous-domaines des landing pages, des pages de ressources, etc.
 
-L’onglet Informations **[!UICONTROL sur l’]**expéditeur fournit des informations sur les boîtes de réception configurées (expéditeur, réponse, courrier électronique d’erreur).
+L’onglet **[!UICONTROL Infos sur l’expéditeur]**fournit des informations sur les boîtes de réception configurées (Expéditeur, Réponse, Email d’erreur).
 
 ![](assets/subdomain_details.png)
 
-Si l’un des certificats SSL de votre sous-domaine est sur le point d’expirer, vous pouvez le renouveler directement à partir du Panneau de configuration. Pour plus d&#39;informations à ce sujet, reportez-vous à cette section : [Renouvellement du certificat](../../subdomains-certificates/using/renewing-subdomain-certificate.md)SSL d’un sous-domaine.
+Si l’un des certificats SSL de votre sous-domaine est sur le point d’expirer, vous pouvez le renouveler directement à partir du Panneau de configuration. Pour plus d&#39;informations à ce sujet, reportez-vous à cette section : [Renouvellement du certificat SSL d’un sous-domaine](../../subdomains-certificates/using/renewing-subdomain-certificate.md).
 
->[!NOTE]
+>[!IMPORTANT]
 >
->Le renouvellement du certificat du Panneau de configuration sera bientôt disponible en version bêta. En attendant, reportez-vous à [cette page](https://helpx.adobe.com/campaign/kb/control-panel-subdomains-certificates.html) pour en savoir plus sur la manière de surveiller les certificats dans le Panneau de configuration.
+>Le renouvellement du certificat du Panneau de configuration sera disponible en version bêta d&#39;ici la fin janvier, sous réserve de fréquentes mises à jour et modifications sans préavis.
