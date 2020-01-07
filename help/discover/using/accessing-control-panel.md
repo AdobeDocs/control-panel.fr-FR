@@ -1,8 +1,8 @@
 ---
 title: Accès au panneau de contrôle
 description: Découvrez comment accéder au panneau de contrôle
-translation-type: ht
-source-git-commit: 85bef8fa652be883bc2afbc42a2d893ea75a4e77
+translation-type: tm+mt
+source-git-commit: b7b48c01cb7d7c618f4622173c9bd059a8e7098e
 
 ---
 
@@ -33,7 +33,7 @@ Le panneau de contrôle est également accessible à partir du **sélecteur de s
 
 >[!NOTE]
 >
->Pour les instances de **Campaign Classic**, l’accès depuis le produit est disponible à partir de la version 19.1 et les versions ultérieures.
+>L’accès depuis le produit est disponible pour Campaign Standard uniquement.
 
 1. Ouvrez votre produit Campaign Standard, puis sélectionnez le menu **[!UICONTROL Administration]**dans le volet**[!UICONTROL  Navigation]**.
 
