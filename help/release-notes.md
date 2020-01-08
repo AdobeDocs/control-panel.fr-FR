@@ -1,7 +1,7 @@
 ---
 title: Versions du Panneau de configuration
 translation-type: tm+mt
-source-git-commit: 5a7200038abd647a3e77d043d14579590449218c
+source-git-commit: 5a2c66df101516a33c194851263d309ad6f29971
 
 ---
 
@@ -18,7 +18,15 @@ Vous trouverez ici des informations sur les dernières versions du Panneau de co
 
 *22 janvier 2020*
 
-à définir
+Nous avons ajouté de nouvelles fonctionnalités permettant aux administrateurs de déléguer des sous-domaines et de renouveler les certificats SSL à partir du Panneau de configuration.
+
+Pour plus d’informations, reportez-vous aux pages suivantes :
+* [Configuration d’un nouveau sous-domaine](subdomains-certificates/using/setting-up-new-subdomain.md)
+* [Renouvellement du certificat SSL d’un sous-domaine](subdomains-certificates/using/renewing-subdomain-certificate.md)
+
+>[!IMPORTANT]
+>
+>Ces fonctionnalités seront disponibles en version bêta et sujettes à de fréquentes mises à jour et modifications sans préavis.
 
 ## September 2019 {#september-2019}
 
