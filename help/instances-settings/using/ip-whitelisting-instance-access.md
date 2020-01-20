@@ -35,7 +35,7 @@ Veillez à suivre les recommandations et les limites ci-dessous lors de la mise 
 
 Pour whitelister des adresses IP, procédez comme suit :
 
-1. Ouvrez la **[!UICONTROL carte Paramètres des instances]**pour accéder à l’onglet Whiteliste d’adresses IP, puis cliquez sur**[!UICONTROL  Ajouter une plage d’adresses IP]**.
+1. Ouvrez la carte **[!UICONTROL Paramètres des instances]**pour accéder à l’onglet Whiteliste d’adresses IP, puis cliquez sur**[!UICONTROL  Ajouter une plage d’adresses IP]**.
 
    >[!NOTE]
    >
