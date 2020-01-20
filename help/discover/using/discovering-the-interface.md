@@ -11,7 +11,7 @@ source-git-commit: 85bef8fa652be883bc2afbc42a2d893ea75a4e77
 
 La page d’accueil du panneau de contrôle vous donne accès à toutes les actions qui peuvent être effectuées sur vos instances Campaign.
 
-Elles sont représentées par des cartes qui sont organisées en rubriques, par exemple **Gestion du stockage et des bases de données**
+Elles sont représentées par des cartes qui sont organisées en rubriques, par exemple **Gestion des espaces de stockage et des bases de données**
 
 D’autres rubriques et cartes seront disponibles avec les prochaines versions de Campaign.
 
