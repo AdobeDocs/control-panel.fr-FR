@@ -1,7 +1,7 @@
 ---
 title: Marque des sous-domaines
 description: En savoir plus sur la marque des sous-domaines
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c44f6800a0f7905fe9e5619388c7007f0af8f973
 
 ---
@@ -11,7 +11,7 @@ source-git-commit: c44f6800a0f7905fe9e5619388c7007f0af8f973
 
 >[!IMPORTANT]
 >
->La délégation de sous-domaines du Panneau de configuration sera disponible en version bêta d&#39;ici la fin janvier et sujette à de fréquentes mises à jour et modifications sans préavis.
+>La délégation de sous-domaine depuis le panneau de contrôle sera disponible en version bêta d’ici la fin janvier. Elle sera sujette à de fréquentes mises à jour et modifications sans préavis.
 
 ## Pourquoi configurer des sous-domaines ? {#why-setting-up-subdomains}
 
@@ -39,6 +39,6 @@ Le tableau ci-dessous résume le fonctionnement de ces méthodes, ainsi que le n
 | **Délégation complète** | Créez l’enregistrement du sous-domaine et de l’espace de nommage. Adobe configurera alors tous les enregistrements DNS nécessaires à Adobe Campaign.<br/><br/>Dans cette configuration, Adobe est entièrement responsable de la gestion du sous-domaine et de tous les enregistrements DNS. | Faible |
 | **CNAME, méthode personnalisée** | Créez l’enregistrement du sous-domaine et de l’espace de nommage. Adobe fournira alors les enregistrements à placer sur vos serveurs DNS et configurera les valeurs correspondantes sur les serveurs DNS Adobe Campaign.<br/><br/>Dans cette configuration, vous partagez avec Adobe la responsabilité de la maintenance du DNS. | Élevée |
 
-Des informations supplémentaires sur la délégation de domaine sont disponibles [dans cette documentation](https://helpx.adobe.com/campaign/kb/domain-name-delegation.html).
+Des informations supplémentaires sur la délégation de domaine sont disponibles [dans cette documentation](https://helpx.adobe.com/fr/campaign/kb/domain-name-delegation.html).
 
-Si vous avez des questions sur les méthodes de délégation de sous-domaines, contactez l’équipe de délivrabilité d’Adobe ou contactez le service à la clientèle pour demander des conseils sur la délivrabilité.
+Si vous avez des questions concernant les méthodes de délégation de sous-domaine, contactez l’équipe chargée de la délivrabilité d’Adobe ou l’Assistance clientèle pour demander des conseils sur la délivrabilité.
