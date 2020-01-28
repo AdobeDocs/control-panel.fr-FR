@@ -1,7 +1,7 @@
 ---
 title: Accès au panneau de contrôle
 description: Découvrez comment accéder au panneau de contrôle
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 5a7200038abd647a3e77d043d14579590449218c
 
 ---
