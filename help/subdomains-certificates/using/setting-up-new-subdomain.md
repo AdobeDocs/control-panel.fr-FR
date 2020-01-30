@@ -1,8 +1,8 @@
 ---
 title: Configuration d’un nouveau sous-domaine
 description: Découvrez comment configurer un nouveau sous-domaine pour vos instances de campagne
-translation-type: ht
-source-git-commit: c44f6800a0f7905fe9e5619388c7007f0af8f973
+translation-type: tm+mt
+source-git-commit: 762c445713e6e728fc1a45d5fcf8c9c1cb0dcdf6
 
 ---
 
@@ -13,7 +13,7 @@ source-git-commit: c44f6800a0f7905fe9e5619388c7007f0af8f973
 >
 >La délégation de sous-domaine depuis le panneau de contrôle sera disponible en version bêta d’ici la fin janvier. Elle sera sujette à de fréquentes mises à jour et modifications sans préavis.
 
-Si vous avez des questions concernant les méthodes de délégation de sous-domaine, contactez l’équipe chargée de la délivrabilité d’Adobe ou l’Assistance clientèle pour demander des conseils sur la délivrabilité.
+Si vous avez des questions concernant les méthodes de délégation de sous-domaines, contactez l’équipe de délivrabilité d’Adobe ou contactez le service à la clientèle pour demander des conseils sur la délivrabilité.
 
 ## Délégation complète de sous-domaine {#full-subdomain-delegation}
 
@@ -109,3 +109,9 @@ Pour obtenir plus de détails sur un sous-domaine, cliquez sur le bouton **[!UIC
 ## Utilisation des CNAME {#use-cnames}
 
 L’utilisation des CNAME pour la délégation de sous-domaine n’est pas prise en charge par le panneau de contrôle. Pour utiliser cette méthode, contactez l’Assistance clientèle Adobe.
+
+**Rubriques connexes :**
+
+* [Délégation de sous-domaines (vidéo du didacticiel)](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/administrating/control-panel/subdomain-delegation.html)
+* [Marque des sous-domaines](../../subdomains-certificates/using/subdomains-branding.md)
+* [Surveillance de vos sous-domaines](../../subdomains-certificates/using/monitoring-subdomains.md)
