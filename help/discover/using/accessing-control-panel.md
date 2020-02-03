@@ -1,8 +1,8 @@
 ---
 title: Accès au panneau de contrôle
 description: Découvrez comment accéder au panneau de contrôle
-translation-type: ht
-source-git-commit: b7b48c01cb7d7c618f4622173c9bd059a8e7098e
+translation-type: tm+mt
+source-git-commit: ddf4ca24c1583e388c07aae110522627220d5e66
 
 ---
 
@@ -15,13 +15,13 @@ Il est accessible uniquement aux **utilisateurs administrateurs**. Pour plus d�
 
 ## Accès à partir d’Experience Cloud Platform {#access-experience-cloud-platform}
 
-Pour accéder au panneau de contrôle depuis Experience Cloud Platform, accédez à la [page d’accueil Experience Cloud Platform](https://amc.experiencecloud.adobe.com/), puis cliquez sur le lien dédié dans la section **Accès rapide**.
+Pour accéder au panneau de contrôle depuis Experience Cloud Platform, accédez à la [page d’accueil Experience Cloud Platform](https://experiencecloud.adobe.com/), puis cliquez sur le lien dédié dans la section **Accès rapide**.
 
 ![](assets/do-not-localize/quickaccess.png)
 
 Le panneau de contrôle est également accessible à partir du **sélecteur de solution** Experience Cloud Platform :
 
-1. Accédez à [Adobe Experience Cloud](https://amc.experiencecloud.adobe.com/), puis sélectionnez **Campaign** dans le sélecteur de solution.
+1. Accédez à [Adobe Experience Cloud](https://experiencecloud.adobe.com/), puis sélectionnez **Campaign** dans le sélecteur de solution.
 
    ![](assets/do-not-localize/control_panel_access1.png)
 
