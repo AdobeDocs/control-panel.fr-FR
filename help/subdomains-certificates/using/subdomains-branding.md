@@ -2,7 +2,7 @@
 title: Marque des sous-domaines
 description: En savoir plus sur la marque des sous-domaines
 translation-type: tm+mt
-source-git-commit: 762c445713e6e728fc1a45d5fcf8c9c1cb0dcdf6
+source-git-commit: ee5567a41f68d4dc51c19ae70e8b25693a1d33fa
 
 ---
 
@@ -11,7 +11,7 @@ source-git-commit: 762c445713e6e728fc1a45d5fcf8c9c1cb0dcdf6
 
 >[!IMPORTANT]
 >
->La délégation de sous-domaine depuis le panneau de contrôle sera disponible en version bêta d’ici la fin janvier. Elle sera sujette à de fréquentes mises à jour et modifications sans préavis.
+>La délégation de sous-domaine du Panneau de configuration est disponible en version bêta et sujette à de fréquentes mises à jour et modifications sans préavis.
 
 ## Pourquoi configurer des sous-domaines ? {#why-setting-up-subdomains}
 
