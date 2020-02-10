@@ -1,7 +1,7 @@
 ---
 title: Surveillance des certificats SSL des sous-domaines
 description: Découvrez comment surveiller les certificats SSL de vos sous-domaines
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: ce15da4aabb0350cb9a60cc16556ffcf691fc3df
 
 ---
@@ -23,7 +23,7 @@ Le **cryptage SSL (Secure Socket Layer)** garantit la sécurité des sous-domain
 
 ## Surveillance des certificats SSL {#monitoring-certificates}
 
-L’état des certificats SSL de vos sous-domaines est disponible directement dans la liste des sous-domaines en sélectionnant la carte **[!UICONTROL Sous-domaines et certificats]**.
+L’état des certificats SSL de vos sous-domaines est disponible directement dans la liste des sous-domaines en sélectionnant la carte **[!UICONTROL Sous-domaines et certificats]** .
 
 Les sous-domaines sont classés en fonction de la date d’expiration la plus proche du certificat SSL. De plus, des informations visuelles sur l’expiration (délai en jours) sont proposées :
 
@@ -37,7 +37,7 @@ Les sous-domaines sont classés en fonction de la date d’expiration la plus pr
 Pour obtenir plus de détails sur un sous-domaine, cliquez sur le bouton **[!UICONTROL Détails du sous-domaine]**.
 La liste de tous les sous-domaines associés s&#39;affiche. En règle générale, elle contient les sous-domaines des landing pages, des pages de ressources, etc.
 
-L’onglet **[!UICONTROL Infos sur l’expéditeur]**fournit des informations sur les boîtes de réception configurées (Expéditeur, Réponse, Email d’erreur).
+L’onglet **[!UICONTROL Infos sur l’expéditeur]** fournit des informations sur les boîtes de réception configurées (Expéditeur, Réponse, Email d’erreur).
 
 ![](assets/subdomain_details.png)
 
@@ -49,6 +49,6 @@ Si l’un des certificats SSL de votre sous-domaine est sur le point d’arriver
 
 **Rubriques connexes :**
 
-* [Ajout de certificats SSL (vidéo du didacticiel)](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/administrating/control-panel/adding-ssl-certificates.html)
+* [Ajout de certificats SSL (tutoriel vidéo)](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/administrating/control-panel/adding-ssl-certificates.html)
 * [Renouvellement du certificat SSL d’un sous-domaine](../../subdomains-certificates/using/renewing-subdomain-certificate.md)
 * [Marque des sous-domaines](../../subdomains-certificates/using/subdomains-branding.md)
