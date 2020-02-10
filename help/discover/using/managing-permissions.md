@@ -1,7 +1,7 @@
 ---
 title: Gestion des autorisations pour le panneau de contrôle
 description: Découvrez comment gérer les autorisations du panneau de contrôle
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: ddf4ca24c1583e388c07aae110522627220d5e66
 
 ---
@@ -39,7 +39,7 @@ Tous les utilisateurs administrateurs d’une instance Campaign ont accès au pa
    >
    >Vous pouvez ajouter différents utilisateurs administrateurs pour chaque instance Campaign. Dans ce cas, les utilisateurs administrateurs accéderont uniquement au panneau de contrôle de l’instance à laquelle ils appartiennent.
 
-1. La liste des profils de produit pour l’instance sélectionnée s’affiche. Cliquez sur le profil de produit **[!UICONTROL Administrateurs]**pour accéder à la liste des utilisateurs administrateurs.
+1. La liste des profils de produit pour l’instance sélectionnée s’affiche. Cliquez sur le profil de produit **[!UICONTROL Administrateurs]** pour accéder à la liste des utilisateurs administrateurs.
 
    ![](assets/do-not-localize/control_panel_add_user_5.png)
 
@@ -47,6 +47,6 @@ Tous les utilisateurs administrateurs d’une instance Campaign ont accès au pa
    >
    >Par défaut, les utilisateurs administrateurs font partie du profil de produit « Administrateurs ». Selon la configuration de votre organisation, le profil de produit peut être appelé différemment (« admin », « admins », etc.).
 
-1. La liste des utilisateurs administrateurs s’affiche. Cliquez sur le bouton **[!UICONTROL Ajouter un utilisateur]**pour ajouter un nouvel utilisateur.
+1. La liste des utilisateurs administrateurs s’affiche. Cliquez sur le bouton **[!UICONTROL Ajouter un utilisateur]** pour ajouter un nouvel utilisateur.
 
    ![](assets/do-not-localize/control_panel_add_user_6.png)
