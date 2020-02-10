@@ -1,7 +1,7 @@
 ---
 title: Surveillance des certificats SSL des sous-domaines
 description: Découvrez comment surveiller les certificats SSL de vos sous-domaines
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: ce15da4aabb0350cb9a60cc16556ffcf691fc3df
 
 ---
@@ -13,7 +13,7 @@ Il est essentiel de surveiller vos sous-domaines pour vous assurer qu’ils sont
 
 La liste des sous-domaines de chacune de vos instances de production est directement accessible en sélectionnant la carte **[!UICONTROL Sous-domaines et certificats]**.
 
-La colonne **[!UICONTROL Dernière vérification]**indique à quel moment un sous-domaine a été vérifié pour la dernière fois. Vous pouvez lancer une vérification à tout moment en cliquant sur le bouton**...**/**[!UICONTROL  Vérifier le sous-domaine]**.
+La colonne **[!UICONTROL Dernière vérification]** indique à quel moment un sous-domaine a été vérifié pour la dernière fois. Vous pouvez lancer une vérification à tout moment en cliquant sur le bouton **...** / **[!UICONTROL Vérifier le sous-domaine]**.
 
 ![](assets/subdomain_verification.png)
 
@@ -27,6 +27,6 @@ Si la vérification du sous-domaine échoue, contactez l’Assistance clientèle
 
 **Rubriques connexes :**
 
-* [Ajout de certificats SSL (vidéo du didacticiel)](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/administrating/control-panel/adding-ssl-certificates.html)
+* [Ajout de certificats SSL (tutoriel vidéo)](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/administrating/control-panel/adding-ssl-certificates.html)
 * [Renouvellement du certificat SSL d’un sous-domaine](../../subdomains-certificates/using/renewing-subdomain-certificate.md)
 * [Marque des sous-domaines](../../subdomains-certificates/using/subdomains-branding.md)
