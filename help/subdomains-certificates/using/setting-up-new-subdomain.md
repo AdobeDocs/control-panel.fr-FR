@@ -1,7 +1,7 @@
 ---
 title: Configuration d’un nouveau sous-domaine
 description: Découvrez comment configurer un nouveau sous-domaine pour vos instances de campagne
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: ee5567a41f68d4dc51c19ae70e8b25693a1d33fa
 
 ---
@@ -11,9 +11,9 @@ source-git-commit: ee5567a41f68d4dc51c19ae70e8b25693a1d33fa
 
 >[!IMPORTANT]
 >
->La délégation de sous-domaine du Panneau de configuration est disponible en version bêta et sujette à de fréquentes mises à jour et modifications sans préavis.
+>La délégation de sous-domaine depuis le panneau de contrôle est disponible en version bêta et sujette à de fréquentes mises à jour et modifications sans préavis.
 
-Si vous avez des questions concernant les méthodes de délégation de sous-domaines, contactez l’équipe de délivrabilité d’Adobe ou contactez le service à la clientèle pour demander des conseils sur la délivrabilité.
+Si vous avez des questions concernant les méthodes de délégation de sous-domaine, contactez l’équipe d&#39;Adobe chargée de la délivrabilité d’Adobe ou l’Assistance clientèle pour demander des conseils sur la délivrabilité.
 
 ## Délégation complète de sous-domaine {#full-subdomain-delegation}
 
@@ -25,7 +25,7 @@ Le panneau de contrôle vous permet de déléguer entièrement un sous-domaine �
 >
 >Des enregistrements DNS inversés seront créés pour d’autres sous-domaines utilisant le sous-domaine principal. Les adresses de réponse et bounce pour les autres sous-domaines seront générées à partir du sous-domaine principal.
 
-1. Dans la carte **[!UICONTROL Sous-domaines et certificats]**, sélectionnez l’instance de production souhaitée, puis cliquez sur**[!UICONTROL  Configurer un nouveau sous-domaine]**.
+1. Dans la carte **[!UICONTROL Sous-domaines et certificats]**, sélectionnez l’instance de production souhaitée, puis cliquez sur **[!UICONTROL Configurer un nouveau sous-domaine]**.
 
    ![](assets/subdomain1.png)
 
@@ -33,7 +33,7 @@ Le panneau de contrôle vous permet de déléguer entièrement un sous-domaine �
    >
    >La délégation de sous-domaine n’est disponible que pour les instances de **production**.
 
-1. Cliquez sur **[!UICONTROL Suivant]**pour confirmer votre choix de la méthode de délégation complète.
+1. Cliquez sur **[!UICONTROL Suivant]** pour confirmer votre choix de la méthode de délégation complète.
 
    ![](assets/subdomain3.png)
 
@@ -79,7 +79,7 @@ Le panneau de contrôle vous permet de déléguer entièrement un sous-domaine �
 
    >[!NOTE]
    >
-   >Dans certains cas, la délégation est effectuée, mais pas la vérification du sous-domaine. Le sous-domaine est directement ajouté à la liste des **[!UICONTROL sous-domaines vérifiés]**, et l’état**[!UICONTROL  Non vérifié]** et un log de traitement donnent des informations sur l’erreur. Contactez l’Assistance clientèle si vous avez des difficultés à résoudre le problème.
+   >Dans certains cas, la délégation est effectuée, mais pas la vérification du sous-domaine. Le sous-domaine est directement ajouté à la liste des **[!UICONTROL sous-domaines vérifiés]**, et l’état **[!UICONTROL Non vérifié]** et un log de traitement donnent des informations sur l’erreur. Contactez l’Assistance clientèle si vous avez des difficultés à résoudre le problème.
    >
    >Pendant l’exécution de la délégation de sous-domaine, d’autres requêtes effectuées via le panneau de contrôle seront mises en file d’attente et exécutées uniquement une fois la délégation de sous-domaine terminée. Cela permet d’éviter tout problème de performances.
 
@@ -112,6 +112,6 @@ L’utilisation des CNAME pour la délégation de sous-domaine n’est pas prise
 
 **Rubriques connexes :**
 
-* [Délégation de sous-domaines (vidéo du didacticiel)](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/administrating/control-panel/subdomain-delegation.html)
+* [Délégation de sous-domaines (tutoriel vidéo)](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/administrating/control-panel/subdomain-delegation.html)
 * [Marque des sous-domaines](../../subdomains-certificates/using/subdomains-branding.md)
 * [Surveillance de vos sous-domaines](../../subdomains-certificates/using/monitoring-subdomains.md)
