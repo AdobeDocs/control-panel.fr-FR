@@ -1,13 +1,19 @@
 ---
 title: Mise en whiteliste des plages d’adresses IP
 description: Découvrez comment mettre en whiteliste des plages d’adresses IP pour l’accès aux serveurs SFTP
-translation-type: ht
-source-git-commit: 85bef8fa652be883bc2afbc42a2d893ea75a4e77
+translation-type: tm+mt
+source-git-commit: f22e356b283ee2601c948d5c1d514a9a59c58451
 
 ---
 
 
 # Mise en whiteliste des plages d’adresses IP {#ip-range-whitelisting}
+
+>[!CONTEXTUALHELP]
+>id=&quot;cp_ip_whitelist&quot;
+>title=&quot;A propos de la liste blanche des adresses IP&quot;
+>abstract=&quot;Dans cet onglet, vous pouvez mettre en liste blanche des plages d’adresses IP pour établir une connexion à vos serveurs SFTP. Seuls les serveurs SFTP auxquels vous avez accès sont visibles ici. Contactez l&#39;administrateur pour demander un accès aux autres serveurs SFTP.&quot;
+>additional-url=&quot;https://images-tv.adobe.com/mpcv3/8a977e03-d76c-44d3-853c-95d0b799c870_1560205338.1920x1080at3000_h264.mp4#t=98&quot; text=&quot;Regarder la vidéo de démonstration&quot;
 
 Les serveurs SFTP sont protégés. Afin de pouvoir y accéder pour afficher des fichiers ou en écrire de nouveaux, vous devez whitelister l’adresse IP publique du système ou du client qui accède aux serveurs.
 
@@ -30,10 +36,15 @@ Veillez à suivre les recommandations et les limites ci-dessous lors de la mise 
 
 ## Mise en whiteliste des adresses IP {#whitelisting-ip-addresses}
 
+>[!CONTEXTUALHELP]
+>id=&quot;cp_sftp_iprange_add&quot;
+>title=&quot;Ajouter nouvelle plage Ip&quot;
+>abstract=&quot;Définissez les plages d’adresses IP que vous souhaitez mettre sur liste blanche pour vous connecter à vos serveurs SFTP.&quot;
+
 Pour whitelister une plage d’adresses IP, procédez comme suit :
 
-1. Ouvrez la carte **[!UICONTROL SFTP]**, puis sélectionnez l’onglet**[!UICONTROL  Whiteliste d’adresses IP]**.
-1. La liste des adresses IP whitelistées s’affiche pour chaque instance. Sélectionnez l’instance souhaitée dans la liste de gauche, puis cliquez sur le bouton **[!UICONTROL Ajouter une plage d’adresses IP]**.
+1. Ouvrez la **[!UICONTROL SFTP]** carte, puis sélectionnez l’ **[!UICONTROL IP Whistelisting]** onglet.
+1. La liste des adresses IP whitelistées s’affiche pour chaque instance. Select the desired instance from the left-hand side list, then click the **[!UICONTROL Add new IP range]** button.
 
    ![](assets/control_panel_add_range.png)
 
@@ -54,9 +65,9 @@ Pour whitelister une plage d’adresses IP, procédez comme suit :
 
    ![](assets/control_panel_add_range3.png)
 
-1. Cliquez sur le bouton **[!UICONTROL Enregistrer]**. Tant que la demande n’est pas entièrement traitée, la mise en whiteliste des adresses IP apparaît comme étant EN ATTENTE. Cette situation ne devrait pas durer plus de quelques secondes.
+1. Cliquez sur le **[!UICONTROL Save]** bouton. Tant que la demande n’est pas entièrement traitée, la mise en whiteliste des adresses IP apparaît comme étant EN ATTENTE. Cette situation ne devrait pas durer plus de quelques secondes.
 
-Pour supprimer des plages d’adresses IP whitelistées, sélectionnez-les, puis cliquez sur le bouton **[!UICONTROL Supprimer la plage IP]**.
+To delete whitelisted IP ranges, select them then click the **[!UICONTROL Delete IP range]** button.
 
 ![](assets/control_panel_delete_range2.png)
 
@@ -66,7 +77,7 @@ Pour supprimer des plages d’adresses IP whitelistées, sélectionnez-les, puis
 
 ## Surveillance des changements {#monitoring-changes}
 
-Les **[!UICONTROL logs de traitement]**de la page d’accueil du panneau de contrôle permettent de surveiller tous les changements qui ont été apportés aux adresses IP whitelistées.
+The **[!UICONTROL Job Logs]** in the Control Panel home page let you monitor all changes that have been made to whitelisted IP addresses.
 
 Pour plus d’informations sur l’interface du panneau de contrôle, reportez-vous à [cette section](../../discover/using/discovering-the-interface.md).
 
