@@ -2,12 +2,18 @@
 title: Configuration d’un nouveau sous-domaine
 description: Découvrez comment configurer un nouveau sous-domaine pour vos instances de campagne
 translation-type: tm+mt
-source-git-commit: f0aea7944ea31b76f1f9efef6d0e759c7b5896b6
+source-git-commit: f22e356b283ee2601c948d5c1d514a9a59c58451
 
 ---
 
 
 # Configuration d’un nouveau sous-domaine {#setting-up-subdomain}
+
+>[!CONTEXTUALHELP]
+>id=&quot;cp_subdomain_management&quot;
+>title=&quot;Configuration de nouveaux sous-domaines et gestion des certificats&quot;
+>abstract=&quot;Vous devez configurer un nouveau sous-domaine et gérer les certificats SSL de vos sous-domaines pour  l’envoi de courriers électroniques ou la publication de  avec un  de vos sous-domaines.&quot;
+>additional-url=&quot;https://docs.adobe.com/content/help/en/control-panel/using/subdomains-and-certificates/monitoring-ssl-certificates.html&quot; text=&quot;Comment surveiller les certificats SSL de vos sous-domaines&quot;
 
 >[!IMPORTANT]
 >
@@ -23,7 +29,7 @@ Le panneau de contrôle vous permet de déléguer entièrement un sous-domaine �
 >
 >Des enregistrements DNS inversés seront créés pour d’autres sous-domaines utilisant le sous-domaine principal. Les adresses de réponse et bounce pour les autres sous-domaines seront générées à partir du sous-domaine principal.
 
-1. Dans la **[!UICONTROL Subdomains & Certificates]** carte, sélectionnez une instance de production, puis cliquez sur **[!UICONTROL Setup new subdomain]**.
+1. Dans la **[!UICONTROL Subdomains & Certificates]** carte, sélectionnez l’instance de production souhaitée, puis cliquez sur **[!UICONTROL Setup new subdomain]**.
 
    ![](assets/subdomain1.png)
 
