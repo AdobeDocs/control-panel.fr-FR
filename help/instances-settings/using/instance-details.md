@@ -1,13 +1,20 @@
 ---
 title: Détails de l’instance
 description: Découvrez comment surveiller les détails de votre instance dans le panneau de contrôle
-translation-type: ht
-source-git-commit: 8ee999b89af88a1a59956838d5722ce8fc6b3955
+translation-type: tm+mt
+source-git-commit: f22e356b283ee2601c948d5c1d514a9a59c58451
 
 ---
 
 
 # Détails de l’instance {#instance-details}
+
+>[!CONTEXTUALHELP]
+>id=&quot;cp_instancesettings_instancedetails&quot;
+>title=&quot;Détails de l’instance&quot;
+>abstract=&quot; les détails de vos  instances Adobe Campaign : types, noms, informations de génération et recommandations de mise à niveau possibles.&quot;
+>additional-url=&quot;https://docs.adobe.com/content/help/en/campaign-classic/using/release-notes/latest-release.html&quot; text=&quot;Campaign Classic notes de mise à jour&quot;
+>additional-url=&quot;https://docs.adobe.com/content/help/en/campaign-standard/using/release-notes/release-notes.html&quot; text=&quot;Campaign Standard notes de mise à jour&quot;
 
 >[!CAUTION]
 >
@@ -25,14 +32,14 @@ La fonctionnalité Détails de l’instance vous permet d’afficher l’archite
 
 **Rubriques connexes :**
 
-* [Réalisation d’un upgrade de build](https://docs.campaign.adobe.com/doc/AC/getting_started/FR/buildUpgrade.html)
-* [Mise à jour d’Adobe Campaign](https://docs.campaign.adobe.com/doc/AC/fr/PRO_Mise_a_jour_d_Adobe_Campaign_Introduction.html)
+* [Réalisation d’un upgrade de build](https://docs.campaign.adobe.com/doc/AC/getting_started/EN/buildUpgrade.html)
+* [Mise à jour d’Adobe Campaign](https://docs.campaign.adobe.com/doc/AC/en/PRO_Updating_Adobe_Campaign_Introduction.html)
 
 ## Récupération d’informations sur vos instances {#retrieving-information-about-instances}
 
 Pour obtenir des informations sur les serveurs connectés à vos instances, procédez comme suit :
 
-1. Ouvrez la carte **[!UICONTROL Paramètres des instances]**pour accéder à l’onglet**[!UICONTROL  Détails de l’instance]**.
+1. Ouvrez la **[!UICONTROL Instances Settings]** carte pour accéder à l’ **[!UICONTROL Instance Details]** onglet.
 
    >[!NOTE]
    >
@@ -51,14 +58,14 @@ Pour obtenir des informations sur les serveurs connectés à vos instances, proc
 Les informations disponibles sont les suivantes :
 
 * **[!UICONTROL Type]** : type du serveur. Les valeurs possibles sont MKT (Marketing), MID (Mid-sourcing) et RT (Message Center/Real-time messaging).
-* **[!UICONTROL Nom]** : nom du serveur.
-* **[!UICONTROL Build]** : la version de build installée sur le serveur.
-* **[!UICONTROL Infos sur la mise à niveau]** : cette colonne vous indique si une mise à jour est requise pour le serveur.
+* **[!UICONTROL Name]**: nom du serveur.
+* **[!UICONTROL Build:]** version de build installée sur le serveur.
+* **[!UICONTROL Upgrade info]**: cette colonne vous informe si une mise à jour est requise pour le serveur.
    * Vert : votre serveur est à jour et aucun upgrade n’est requis.
    * Jaune : vous devez envisager un upgrade. Vous ne disposez pas des fonctionnalités et des correctifs les plus récents.
    * Rouge : effectuez un upgrade dès que possible. Vous ne disposez pas des nouvelles fonctionnalités et les performances du serveur ne sont peut-être pas optimales.
 
-Si l’un de vos serveurs nécessite un upgrade, reportez-vous à [cette documentation](https://docs.campaign.adobe.com/doc/AC/getting_started/FR/buildUpgrade.html) pour plus de détails sur la manière de procéder.
+Si l’un de vos serveurs nécessite un upgrade, reportez-vous à [cette documentation](https://docs.campaign.adobe.com/doc/AC/getting_started/EN/buildUpgrade.html) pour plus de détails sur la manière de procéder.
 
 ## Questions courantes {#common-questions}
 
