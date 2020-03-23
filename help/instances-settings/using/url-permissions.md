@@ -1,7 +1,7 @@
 ---
 title: Autorisations d’URL
 description: Découvrez comment gérer les autorisations d’URL dans le panneau de contrôle
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: f22e356b283ee2601c948d5c1d514a9a59c58451
 
 ---
@@ -11,8 +11,8 @@ source-git-commit: f22e356b283ee2601c948d5c1d514a9a59c58451
 
 >[!CONTEXTUALHELP]
 >id=&quot;cp_instancesettings_urlpermissions&quot;
->title=&quot;A propos des autorisations d’URL&quot;
->abstract=&quot;Gérez les URL auxquelles vos instances Adobe Campaign  peuvent se connecter.&quot;
+>title=&quot;À propos des autorisations d’URL&quot;
+>abstract=&quot;Gérez les URL auxquelles vos instances Adobe Campaign peuvent se connecter.&quot;
 >additional-url=&quot;https://images-tv.adobe.com/mpcv3/91206a19-d9af-4b6a-8197-0d2810a78941_1563488165.1920x1080at3000_h264.mp4&quot; text=&quot;Regarder la vidéo de démonstration&quot;
 
 >[!CAUTION]
@@ -29,8 +29,8 @@ Une fois qu’une URL est ajoutée, elle est référencée dans le fichier de co
 
 **Rubriques connexes :**
 
-* [Configuration du serveur Campaign](https://docs.campaign.adobe.com/doc/AC/en/INS_Additional_configurations_Configuring_Campaign_server.html)
-* [Protection des connexions sortantes](https://docs.campaign.adobe.com/doc/AC/en/INS_Additional_configurations_Configuring_Campaign_server.html#Outgoing_connection_protection)
+* [Configuration du serveur Campaign](https://docs.campaign.adobe.com/doc/AC/fr/INS_Parametrages_additionnels_Configuration_du_serveur_Campaign.html)
+* [Protection des connexions sortantes](https://docs.campaign.adobe.com/doc/AC/fr/INS_Parametrages_additionnels_Configuration_du_serveur_Campaign.html#Protection_des_connexions_sortantes)
 * [Ajout d’autorisations d’URL (tutoriel vidéo)](https://docs.adobe.com/content/help/en/campaign-learn/campaign-classic-tutorials/administrating/control-panel-acc/adding-url-permissions.html)
 
 ## Bonnes pratiques {#best-practices}
@@ -43,12 +43,12 @@ Une fois qu’une URL est ajoutée, elle est référencée dans le fichier de co
 
 >[!CONTEXTUALHELP]
 >id=&quot;cp_instancesettings_url_add&quot;
->title=&quot;Ajouter nouvelle URL&quot;
->abstract=&quot;URLAjouter pour autoriser les connexions à votre instance Campaign.&quot;
+>title=&quot;Ajouter une URL&quot;
+>abstract=&quot;Ajoutez des URL pour autoriser les connexions à votre instance Campaign.&quot;
 
 Pour ajouter une URL à laquelle votre instance peut se connecter, procédez comme suit :
 
-1. Ouvrez la **[!UICONTROL Instances Settings]** carte pour accéder à l’ **[!UICONTROL URL Permissions]** onglet.
+1. Ouvrez la carte **[!UICONTROL Paramètres des instances]** pour accéder à l’onglet **[!UICONTROL Autorisations d’URL]**.
 
    >[!NOTE]
    >
@@ -56,7 +56,7 @@ Pour ajouter une URL à laquelle votre instance peut se connecter, procédez com
    >
    >L’onglet <b><span class="uicontrol">Autorisations d’URL</span></b> répertorie toutes les URL externes auxquelles votre instance peut se connecter. Cette liste ne comprend pas les URL requises pour que Campaign fonctionne (par exemple, les connexions entre les éléments d’infrastructure).
 
-1. Select in the left pane the desired instance, then click the **[!UICONTROL Add new URL]** button.
+1. Dans le volet gauche, sélectionnez l’instance de votre choix, puis cliquez sur le bouton **[!UICONTROL Ajouter une URL]**.
 
    ![](assets/add_url1.png)
 
@@ -82,7 +82,7 @@ Pour ajouter une URL à laquelle votre instance peut se connecter, procédez com
 
    ![](assets/add_url_listnew.png)
 
-You can delete a URL at any time by selecting it and clicking the **[!UICONTROL Delete URL]** button.
+Vous pouvez supprimer une URL à tout moment en la sélectionnant et en cliquant sur le bouton **[!UICONTROL Supprimer l’URL]**.
 
 Souvenez-vous que si vous supprimez une URL, votre instance ne pourra plus la rappeler.
 
