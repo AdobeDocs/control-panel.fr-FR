@@ -1,7 +1,7 @@
 ---
 title: Mise en whiteliste d’adresses IP
 description: Découvrez la mise en whiteliste d’adresses IP dans le panneau de contrôle pour l’accès aux instances
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: f22e356b283ee2601c948d5c1d514a9a59c58451
 
 ---
@@ -11,8 +11,8 @@ source-git-commit: f22e356b283ee2601c948d5c1d514a9a59c58451
 
 >[!CONTEXTUALHELP]
 >id=&quot;cp_instancesettings_iprange&quot;
->title=&quot;À propos de la liste blanche des adresses IP&quot;
->abstract=&quot;Gérez la liste blanche des adresses IP pour accéder à vos instances.&quot;
+>title=&quot;À propos de la mise en whiteliste d’adresses IP&quot;
+>abstract=&quot;Gérez la mise en whiteliste d’adresses IP pour accéder à vos instances.&quot;
 >additional-url=&quot;https://images-tv.adobe.com/mpcv3/045cac99-f948-478e-ae04-f8c161dcb9e2_1568132508.1920x1080at3000_h264.mp4&quot; text=&quot;Regarder la vidéo de démonstration&quot;
 
 >[!CAUTION]
@@ -41,12 +41,12 @@ Veillez à suivre les recommandations et les limites ci-dessous lors de la mise 
 
 >[!CONTEXTUALHELP]
 >id=&quot;cp_instancesettings_iprange_add&quot;
->title=&quot;Ajouter nouvelle plage Ip&quot;
->abstract=&quot;Définissez la plage d’adresses IP que vous souhaitez que la liste blanche se connecte à votre instance.&quot;
+>title=&quot;Ajouter une plage d’adresses IP&quot;
+>abstract=&quot;Définissez la plage d’adresses IP que vous souhaitez whitelister pour vous connecter à votre instance.&quot;
 
 Pour whitelister des adresses IP, procédez comme suit :
 
-1. Ouvrez le **[!UICONTROL Instances Settings card]** pour accéder à l’onglet Liste blanche d’adresses IP, puis cliquez sur **[!UICONTROL Add new IP Range]**.
+1. Ouvrez la carte **[!UICONTROL Paramètres des instances]** pour accéder à l’onglet Whiteliste d’adresses IP, puis cliquez sur **[!UICONTROL Ajouter une plage d’adresses IP]**.
 
    >[!NOTE]
    >
@@ -58,31 +58,31 @@ Pour whitelister des adresses IP, procédez comme suit :
 
    ![](assets/ip_whitelist_add1.png)
 
-   * **[!UICONTROL Instance(s)]**: instances auxquelles les adresses IP pourront se connecter. Plusieurs instances peuvent être manipulées en même temps. Par exemple, des adresses IP peuvent être whitelistées à la fois pour les instances de production et de test via la même étape.
-   * **[!UICONTROL IP Range]**: Plage d’adresses IP à mettre en liste blanche, au format CIDR. Notez qu’une plage d’adresses IP ne peut pas contenir une plage whitelistée existante. Dans ce cas, supprimez d’abord la plage qui contient l’adresse IP whitelistée.
+   * **[!UICONTROL Instance(s)]** : les instances auxquelles les adresses IP seront en mesure de se connecter. Plusieurs instances peuvent être manipulées en même temps. Par exemple, des adresses IP peuvent être whitelistées à la fois pour les instances de production et de test via la même étape.
+   * **[!UICONTROL Plage d’adresses IP]** : la plage d’adresses IP que vous souhaitez whitelister, au format CIDR. Notez qu’une plage d’adresses IP ne peut pas contenir une plage whitelistée existante. Dans ce cas, supprimez d’abord la plage qui contient l’adresse IP whitelistée.
    >[!NOTE]
    >
    >Le format CIDR (Classless Inter-Domain Routing) est le format pris en charge lors de l’ajout de plages d’adresses IP avec l’interface du panneau de contrôle. La syntaxe se compose d’une adresse IP, suivie d’un caractère « / » et d’un nombre décimal. Le format et sa syntaxe sont présentés en détail dans [cet article](https://whatismyipaddress.com/cidr).
    >
    >Vous pouvez rechercher sur Internet des outils en ligne gratuits qui vous permettront de convertir la plage IP qui vous intéresse au format CIDR.
 
-   * **[!UICONTROL Label]**: Libellé qui s’affichera dans le des adresses IP en liste blanche.
-   * **[!UICONTROL Name]**: Le nom doit être unique pour le type d’accès, l’instance (en cas de connexion à l’API externe) ainsi que l’adresse IP.
+   * **[!UICONTROL Libellé]** : le libellé qui s’affichera dans la liste d’adresses IP whitelistées.
+   * **[!UICONTROL Nom]** : le nom doit être unique pour le type d’accès, l’instance (dans le cas d’une connexion API externe) et l’adresse IP.
 
 
 1. Spécifiez le type d’accès que vous souhaitez accorder aux adresses IP :
 
-   * **[!UICONTROL Campaign Console Access]**: Les adresses IP seront autorisées à se connecter à la console Campaign Classic. Notez que l’accès à la console n’est activé que pour les instances Marketing. L’accès aux instances MID et RT n’est pas autorisé et n’est donc pas activé.
-   * **[!UICONTROL AEM connection]**: Les adresses IP AEM spécifiées seront autorisées à se connecter à l’instance Marketing.
-   * **[!UICONTROL External API connection]**: Les API externes avec les adresses IP spécifiées seront autorisées à se connecter à l’instance Marketing et/ou Message Center (RT). Notez que la connexion à la console des instances RT n’est pas activée.
+   * **[!UICONTROL Accès via la Console Campaign]** : les adresses IP seront autorisées à se connecter à la console Campaign Classic. Notez que l’accès à la console n’est activé que pour les instances Marketing. L’accès aux instances MID et RT n’est pas autorisé et n’est donc pas activé.
+   * **[!UICONTROL Connexion via AEM]** : les adresses IP AEM spécifiées seront autorisées à se connecter à l’instance Marketing.
+   * **[!UICONTROL Connexion via une API externe]** : les API externes ayant les adresses IP spécifiées seront autorisées à se connecter aux instances Marketing et/ou Message Center (RT). Notez que la connexion à la console des instances RT n’est pas activée.
    ![](assets/ip_whitelist_acesstype.png)
 
-1. Cliquez sur le **[!UICONTROL Save]** bouton. La plage d’adresses IP est ajoutée à la liste des adresses IP whitelistées.
+1. Cliquez sur le bouton **[!UICONTROL Enregistrer]**. La plage d’adresses IP est ajoutée à la liste des adresses IP whitelistées.
 
    ![](assets/ip_whitelist_added.png)
 
-To delete whitelisted IP ranges, select them then click the **[!UICONTROL Delete IP range]** button.
+Pour supprimer des plages d’adresses IP whitelistées, sélectionnez-les, puis cliquez sur le bouton **[!UICONTROL Supprimer la plage IP]**.
 
 **Rubriques connexes :**
 * [Mise en whiteliste d’adresses IP (tutoriel vidéo)](https://docs.adobe.com/content/help/en/campaign-learn/campaign-classic-tutorials/administrating/control-panel-acc/ip-whitelisting.html)
-* [Liaison d’une zone de sécurité à un opérateur](https://docs.campaign.adobe.com/doc/AC/en/INS_Additional_configurations_Configuring_Campaign_server.html#Linking_a_security_zone_to_an_operator)
+* [Liaison d’une zone de sécurité à un opérateur](https://docs.campaign.adobe.com/doc/AC/fr/INS_Parametrages_additionnels_Configuration_du_serveur_Campaign.html#Associer_une_zone_de_securite_a_un_operateur)
