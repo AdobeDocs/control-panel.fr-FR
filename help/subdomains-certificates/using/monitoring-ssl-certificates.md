@@ -1,7 +1,7 @@
 ---
 title: Surveillance des certificats SSL des sous-domaines
 description: Découvrez comment surveiller les certificats SSL de vos sous-domaines
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: f22e356b283ee2601c948d5c1d514a9a59c58451
 
 ---
@@ -28,7 +28,7 @@ Le **cryptage SSL (Secure Socket Layer)** garantit la sécurité des sous-domain
 >title=&quot;Détails du sous-domaine&quot;
 >abstract=&quot;Récupérez des informations sur vos sous-domaines.&quot;
 
-The status of your subdomains&#39; SSL certificates is available directly from the list of subdomains when selecting the **[!UICONTROL Subdomains & Certificates]** card.
+L’état des certificats SSL de vos sous-domaines est disponible directement dans la liste des sous-domaines en sélectionnant la carte **[!UICONTROL Sous-domaines et certificats]** .
 
 Les sous-domaines sont classés en fonction de la date d’expiration la plus proche du certificat SSL. De plus, des informations visuelles sur l’expiration (délai en jours) sont proposées :
 
@@ -39,10 +39,10 @@ Les sous-domaines sont classés en fonction de la date d’expiration la plus pr
 
 ![](assets/subdomains_list.png)
 
-To get more details on a subdomain, click the **[!UICONTROL Subdomain Details]** button.
+Pour obtenir plus de détails sur un sous-domaine, cliquez sur le bouton **[!UICONTROL Détails du sous-domaine]**.
 La liste de tous les sous-domaines associés s&#39;affiche. En règle générale, elle contient les sous-domaines des landing pages, des pages de ressources, etc.
 
-The **[!UICONTROL Sender info]** tab provides information on the configured inboxes (Sender, Reply to, Error email).
+L’onglet **[!UICONTROL Infos sur l’expéditeur]** fournit des informations sur les boîtes de réception configurées (Expéditeur, Réponse, Email d’erreur).
 
 ![](assets/subdomain_details.png)
 
@@ -50,7 +50,7 @@ Si l’un des certificats SSL de votre sous-domaine est sur le point d’arriver
 
 >[!IMPORTANT]
 >
->Le renouvellement du certificat du Panneau de configuration est disponible en version bêta et peut faire l&#39;objet de mises à jour et de modifications fréquentes sans préavis.
+>Le renouvellement du certificat depuis le panneau de contrôle est disponible en version bêta et sujet à de fréquentes mises à jour et modifications sans préavis.
 
 **Rubriques connexes :**
 
