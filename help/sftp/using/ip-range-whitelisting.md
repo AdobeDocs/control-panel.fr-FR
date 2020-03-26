@@ -1,8 +1,8 @@
 ---
 title: Mise en whiteliste des plages d’adresses IP
 description: Découvrez comment mettre en whiteliste des plages d’adresses IP pour l’accès aux serveurs SFTP
-translation-type: ht
-source-git-commit: f22e356b283ee2601c948d5c1d514a9a59c58451
+translation-type: tm+mt
+source-git-commit: a2c19296894ff893987290cb287dc7002ab999e5
 
 ---
 
@@ -43,8 +43,8 @@ Veillez à suivre les recommandations et les limites ci-dessous lors de la mise 
 
 Pour whitelister une plage d’adresses IP, procédez comme suit :
 
-1. Ouvrez la carte **[!UICONTROL SFTP]**, puis sélectionnez l’onglet **[!UICONTROL Whiteliste d’adresses IP]**.
-1. La liste des adresses IP whitelistées s’affiche pour chaque instance. Sélectionnez l’instance souhaitée dans la liste de gauche, puis cliquez sur le bouton **[!UICONTROL Ajouter une plage d’adresses IP]**.
+1. Ouvrez la **[!UICONTROL SFTP]** carte, puis sélectionnez l’ **[!UICONTROL IP Whistelisting]** onglet.
+1. La liste des adresses IP whitelistées s’affiche pour chaque instance. Select the desired instance from the left-hand side list, then click the **[!UICONTROL Add new IP range]** button.
 
    ![](assets/control_panel_add_range.png)
 
@@ -57,7 +57,7 @@ Pour whitelister une plage d’adresses IP, procédez comme suit :
 
    ![](assets/control_panel_add_range2.png)
 
-   >[!CAUTION]
+   >[!IMPORTANT]
    >
    >Une plage d’adresses IP ne peut pas contenir une plage whitelistée existante. Dans ce cas, supprimez d’abord la plage qui contient l’adresse IP whitelistée.
    >
@@ -65,9 +65,9 @@ Pour whitelister une plage d’adresses IP, procédez comme suit :
 
    ![](assets/control_panel_add_range3.png)
 
-1. Cliquez sur le bouton **[!UICONTROL Enregistrer]**. Tant que la demande n’est pas entièrement traitée, la mise en whiteliste des adresses IP apparaît comme étant EN ATTENTE. Cette situation ne devrait pas durer plus de quelques secondes.
+1. Cliquez sur le **[!UICONTROL Save]** bouton. Tant que la demande n’est pas entièrement traitée, la mise en whiteliste des adresses IP apparaît comme étant EN ATTENTE. Cette situation ne devrait pas durer plus de quelques secondes.
 
-Pour supprimer des plages d’adresses IP whitelistées, sélectionnez-les, puis cliquez sur le bouton **[!UICONTROL Supprimer la plage IP]**.
+To delete whitelisted IP ranges, select them then click the **[!UICONTROL Delete IP range]** button.
 
 ![](assets/control_panel_delete_range2.png)
 
@@ -77,7 +77,7 @@ Pour supprimer des plages d’adresses IP whitelistées, sélectionnez-les, puis
 
 ## Surveillance des changements {#monitoring-changes}
 
-Les **[!UICONTROL logs de traitement]** de la page d’accueil du panneau de contrôle permettent de surveiller tous les changements qui ont été apportés aux adresses IP whitelistées.
+The **[!UICONTROL Job Logs]** in the Control Panel home page let you monitor all changes that have been made to whitelisted IP addresses.
 
 Pour plus d’informations sur l’interface du panneau de contrôle, reportez-vous à [cette section](../../discover/using/discovering-the-interface.md).
 
