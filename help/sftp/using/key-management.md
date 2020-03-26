@@ -1,8 +1,8 @@
 ---
 title: Gestion des clés
 description: Découvrez comment gérer les clés pour établir une connexion aux serveurs SFTP
-translation-type: ht
-source-git-commit: f22e356b283ee2601c948d5c1d514a9a59c58451
+translation-type: tm+mt
+source-git-commit: a2c19296894ff893987290cb287dc7002ab999e5
 
 ---
 
@@ -35,7 +35,7 @@ Veillez à toujours utiliser la même authentification pour vous connecter au se
 
 Dans de très rares cas, l’authentification par mot de passe est activée sur certains serveurs SFTP. Adobe vous recommande d’utiliser l’authentification par clé, car cette méthode est plus efficace et plus sûre. Vous pouvez demander à passer à l’authentification par clé en contactant l’Assistance clientèle.
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >Si votre mot de passe arrive à expiration, même si des clés sont installées sur votre système, vous ne pourrez pas vous connecter à vos comptes SFTP.
 
@@ -48,11 +48,11 @@ Dans de très rares cas, l’authentification par mot de passe est activée sur 
 >title=&quot;Ajouter une clé publique&quot;
 >abstract=&quot;Ajoutez une clé publique pour une instance.&quot;
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >Les étapes ci-dessous sont un exemple de création de clé SSH uniquement. Veuillez suivre les directives de votre organisation en ce qui concerne les clés SSH. L’exemple ci-dessous n’est qu’un exemple parmi d’autres et sert de point de référence utile pour communiquer les exigences à votre équipe ou à votre groupe réseau interne.
 
-1. Accédez à l’onglet **[!UICONTROL Gestion des clés]**, puis cliquez sur le bouton **[!UICONTROL Ajouter une clé publique]**.
+1. Accédez à l’ **[!UICONTROL Key Management]** onglet, puis cliquez sur le **[!UICONTROL Add new public key]** bouton.
 
    ![](assets/key0.png)
 
@@ -87,7 +87,7 @@ Dans de très rares cas, l’authentification par mot de passe est activée sur 
 
    ![](assets/publickey.png)
 
-1. Cliquez sur le bouton **[!UICONTROL Enregistrer]** pour créer la clé. Le panneau de contrôle enregistre la clé publique et son empreinte digitale associée, cryptée au format SHA256.
+1. Click the **[!UICONTROL Save]** button to create the key. Le panneau de contrôle enregistre la clé publique et son empreinte digitale associée, cryptée au format SHA256.
 
 Vous pouvez utiliser les empreintes digitales pour faire correspondre les clés privées enregistrées sur votre ordinateur avec les clés publiques correspondantes enregistrées dans le panneau de contrôle.
 
