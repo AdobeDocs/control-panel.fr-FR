@@ -2,7 +2,7 @@
 title: Configuration d’un nouveau sous-domaine
 description: Découvrez comment configurer un nouveau sous-domaine pour vos instances de campagne
 translation-type: tm+mt
-source-git-commit: 9bcf83c85628a59671cd5580144d86bee88e35de
+source-git-commit: 43d5d522c29586b9898d924dd164435ee8fbb614
 
 ---
 
@@ -101,12 +101,13 @@ Le panneau de contrôle vous permet de déléguer entièrement un sous-domaine �
 >
 >Par défaut, la boîte de réception « Réponse » du panneau de contrôle est configurée pour effacer les emails et ne peut pas être examinée. Si vous souhaitez surveiller votre boîte de réception « Réponse » pour vos campagnes marketing, n’utilisez pas cette adresse.
 
+You can get more details on the subdomain by clicking the **[!UICONTROL Subdomain details]** and **[!UICONTROL Sender info]** buttons.
 
-You can get more details on the subdomain by clicking the **[!UICONTROL Subdomain Details]** button.
+![](assets/detail_buttons.png)
 
-![](assets/subdomain_details_general.png)
+![](assets/subdomain_details.png)
 
-![](assets/subdomains_details_senderinfo.png)
+![](assets/sender_info.png)
 
 >[!IMPORTANT]
 >
