@@ -1,6 +1,6 @@
 ---
 title: Versions du Panneau de contrôle
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 5c35db25719830d196cc87ba0142c348bd8cdd92
 
 ---
@@ -14,15 +14,18 @@ Vous trouverez ici des informations sur les dernières versions du Panneau de co
 >
 >Remarque : seuls les clients hébergés sur AWS ont accès au Panneau de contrôle. Aucun upgrade n&#39;est nécessaire pour y accéder. Vérifiez que vous êtes un utilisateur administrateur pour y accéder.
 
-## April 2020 {#april-2020}
+## Avril 2020 {#april-2020}
 
-De nouvelles fonctionnalités seront disponibles dans Campaign Panneau de configuration en avril :
+Au mois d’avril, de nouvelles fonctionnalités seront disponibles dans le Panneau de contrôle de Campaign :
 
-**Gestion** des enregistrements Google TXT Ajouter enregistrement de vérification de site Google TXT à tous vos sous-domaines utilisés pour envoyer des courriers électroniques aux adresses GMAIL via le Panneau de configuration Campaign.
+**Gestion des enregistrements TXT Google**
+Grâce au Panneau de contrôle de Campaign, vous pourrez ajouter des enregistrements de vérification de site TXT Google aux sous-domaines utilisés pour envoyer des emails aux adresses GMAIL.
 
-**La surveillance** de l&#39;espace de base de donnéesCampaign Panneau de configuration sera équipée de fonctionnalités de surveillance de la base de données, ce qui vous permettra de  l&#39;utilisation de l&#39;espace de base de données à la demande et au fil du temps.
+**Surveillance de l’espace des bases de données**
+Le Panneau de contrôle de Campaign disposera de fonctionnalités de surveillance des bases de données, ce qui vous permettra d’afficher l’utilisation de l’espace des bases de données à la demande et au fil du temps.
 
-**Le Panneau de configuration des alertes** par courrier électronique sera équipé de fonctions d&#39;alerte par courrier électronique en temps réel, ce qui vous permettra de vous connecter au Panneau de configuration et de vous inscrire pour recevoir des alertes lorsque votre système risque de se détériorer, ou une action est nécessaire pour garantir des performances élevées pour l&#39;avenir.
+**Alertes par email**
+Le Panneau de contrôle de Campaign disposera de fonctionnalités d’alerte par email en temps réel. Une fois connecté au Panneau de contrôle, vous pourrez vous abonner pour recevoir des alertes lorsque les performances de votre système risquent de se détériorer, ou si une action est nécessaire pour garantir des performances élevées.
 
 ## Janvier 2020 {#january-2020}
 
