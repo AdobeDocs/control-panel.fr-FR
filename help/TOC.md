@@ -3,7 +3,7 @@ product: adobe campaign
 sub-product: control panel
 audience: end-user
 user-guide-title: Control Panel Help
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: d81f76a07c294fdab4ed31e7741cf7ec4fb2f985
 
 ---
@@ -32,10 +32,10 @@ source-git-commit: d81f76a07c294fdab4ed31e7741cf7ec4fb2f985
    + [Surveillance des certificats SSL](subdomains-certificates/using/monitoring-ssl-certificates.md)
    + [Renouvellement des certificats SSL](subdomains-certificates/using/renewing-subdomain-certificate.md)
    + [Gestion des enregistrements TXT](subdomains-certificates/using/managing-txt-records.md)
-+ Performance monitoring {#performance-monitoring}
-   + [A propos de la surveillance des performances](performance-monitoring/using/about-performance-monitoring.md)
++ Surveillance des performances {#performance-monitoring}
+   + [À propos de la surveillance des performances](performance-monitoring/using/about-performance-monitoring.md)
    + [Surveillance des bases de données](performance-monitoring/using/database-monitoring.md)
-   + [Alertes par courrier électronique](performance-monitoring/using/email-alerting.md)
+   + [Alertes par email](performance-monitoring/using/email-alerting.md)
 + Paramètres des instances (Campaign Classic) {#instances-settings}
    + [Mise en whiteliste d’adresses IP pour l’accès aux instances](instances-settings/using/ip-whitelisting-instance-access.md)
    + [Autorisations d’URL](instances-settings/using/url-permissions.md)
