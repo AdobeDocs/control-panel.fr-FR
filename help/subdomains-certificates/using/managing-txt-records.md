@@ -1,7 +1,7 @@
 ---
 title: Gestion des enregistrements TXT
-description: Découvrez comment gérer les enregistrements TXT pour la vérification de la propriété de domaine.
-translation-type: tm+mt
+description: Découvrez comment gérer les enregistrements TXT pour vérifier le propriétaire du domaine.
+translation-type: ht
 source-git-commit: 3ce9f62be9df0f6e6a61c16ddaf3ab8ae58712ce
 
 ---
@@ -10,41 +10,44 @@ source-git-commit: 3ce9f62be9df0f6e6a61c16ddaf3ab8ae58712ce
 # Gestion des enregistrements TXT {#managing-txt-records}
 
 >[!CONTEXTUALHELP]
+>id="cp_siteverification_add"
+>title="[!CONTEXTUALHELP]
 >id=&quot;cp_siteverification_add&quot;
 >title=&quot;Gestion des enregistrements TXT&quot;
->abstract=&quot;Certains services comme Google exigent que vous ajoutiez un enregistrement TXT aux paramètres de votre domaine afin de vérifier que vous êtes propriétaire du domaine.&quot;
+>abstract=&quot;Certains services comme Google exigent que vous ajoutiez un enregistrement TXT aux paramètres de votre domaine pour vérifier que vous en êtes propriétaire.&quot;"
+>abstract="À propos des enregistrements TXT {#about-txt-records}"
 
-## A propos des enregistrements TXT {#about-txt-records}
+## Les enregistrements TXT font partie des enregistrements DNS. Ils servent à donner des informations textuelles à propos d’un domaine, que des sources externes pourront lire par la suite.{#about-txt-records}
 
-Les enregistrements TXT sont un type d’enregistrements DNS utilisés pour fournir des informations textuelles sur un domaine, qui peuvent être lues par des sources externes.
+Pour garantir des taux de réception d’emails élevés et des taux de spam bas, certains services comme Google exigent que vous ajoutiez un enregistrement TXT aux paramètres de votre domaine pour vérifier que vous en êtes propriétaire.
 
-Afin d’assurer des taux de boîte de réception élevés et des taux de spam bas, certains services comme Google exigent que vous ajoutiez un enregistrement TXT aux paramètres de votre domaine afin de vérifier que vous êtes propriétaire du domaine.
+Actuellement, Gmail est l’un des fournisseurs d’adresses email les plus utilisés. Pour garantir une bonne délivrabilité et une diffusion réussie des emails vers les adresses Gmail, Adobe Campaign permet d’ajouter des enregistrements TXT de vérification de site Google spéciaux à vos sous-domaines afin de s’assurer qu&#39;ils soient vérifiés.
 
-Actuellement, Gmail est l&#39;un des fournisseurs d&#39;adresses électroniques les plus populaires. Afin d&#39;assurer une bonne délivrabilité et un réussi des courriels aux adresses Gmail,  vous permet d&#39;ajouter des enregistrements TXT spéciaux de vérification de site Google à vos sous-domaines pour vous assurer qu&#39;ils sont vérifiés.
+Ajout d’un enregistrement TXT Google pour un sous-domaine {#adding-a-google-txt-record}
 
-## Ajout d’un enregistrement Google TXT pour un sous-domaine {#adding-a-google-txt-record}
+## Pour ajouter un enregistrement TXT Google à un sous-domaine utilisé pour envoyer des emails à des adresses Gmail, procédez comme suit :{#adding-a-google-txt-record}
 
-Pour ajouter un enregistrement Google TXT à votre sous-domaine utilisé pour envoyer des adresses Gmail, procédez comme suit :
+Accédez à la carte **[!UICONTROL Sous-domaines et certificats]**.
 
-1. Accédez à la **[!UICONTROL Subdomain and Certificates]** carte.
+1. Sélectionnez votre instance, puis ouvrez les détails du sous-domaine auquel vous souhaitez ajouter un enregistrement DNS.****
 
-1. Sélectionnez votre instance, puis ouvrez les détails du sous-domaine auquel vous souhaitez ajouter un enregistrement DNS.
+1. ![](assets/txt_subdomaindetails.png)
 
-   ![](assets/txt_subdomaindetails.png)
+   Cliquez sur le bouton **[!UICONTROL Ajouter un enregistrement TXT]**, puis saisissez la valeur générée dans les outils G Suite Admin. Pour plus d’informations, voir [l’aide de G Suite Admin[#$tu15].
 
-1. Cliquez sur le **[!UICONTROL Add TXT record]** bouton, puis entrez la valeur générée dans les outils d’administration de la Suite G. Pour plus d’informations, reportez-vous à l’Aide [de l’administrateur de la Suite](https://support.google.com/a/answer/183895)G.
+1. 
 
-   ![](assets/txt_addtxt.png)
+   Cliquez sur le bouton **[!UICONTROL Ajouter]** pour confirmer l’opération.
 
-1. Cliquez sur le **[!UICONTROL Add]** bouton pour confirmer.
+1. ![](assets/txt_txtadded.png)]**
 
-   ![](assets/txt_txtadded.png)
-
-Une fois l’enregistrement TXT ajouté, vous devez le faire vérifier par Google. Pour ce faire, accédez aux outils d’administration de la Suite G, puis lancez l’étape de vérification (voir Aide [de l’administrateur de la Suite](https://support.google.com/a/answer/183895)G).
+   Une fois l’enregistrement TXT ajouté, vous devez le faire vérifier par Google. Pour cela, accédez aux outils G Suite Admin, puis lancez l’étape de vérification (voir [l’aide de G Suite Admin[#$tu20]).
 
 
-Pour supprimer un enregistrement, sélectionnez-le dans le d&#39;enregistrements, puis cliquez sur le bouton Supprimer.
 
->[!NOTE]
+
+[!NOTE]
+
+>[!NOTE]Le seul enregistrement que vous pouvez supprimer de la liste des enregistrements DNS est celui qui vient d’être ajouté (dans notre cas, l’enregistrement Google TXT).
 >
->Le seul enregistrement que vous pouvez supprimer du d&#39;enregistrements DNS est celui que vous avez précédemment ajouté (dans notre cas, l&#39;enregistrement Google TXT).
+>The only record that you can delete from the DNS records list is the one that you have previously added (in our case the Google TXT record).
