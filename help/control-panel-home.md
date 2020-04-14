@@ -1,7 +1,7 @@
 ---
 title: Documentation du produit
-translation-type: ht
-source-git-commit: 5a7200038abd647a3e77d043d14579590449218c
+translation-type: tm+mt
+source-git-commit: f59be0be3b183dd453ba3cc8ee8c70887e65e6e3
 
 ---
 
@@ -12,13 +12,17 @@ source-git-commit: 5a7200038abd647a3e77d043d14579590449218c
 
 ## Nouveautés
 
-* [Surveillance des certificats SSL](subdomains-certificates/using/monitoring-ssl-certificates.md)
+* [Gestion des enregistrements Google TXT](subdomains-certificates/using/managing-txt-records.md)
 
-   Découvrez comment surveiller la date d’expiration des certificats SSL de vos sous-domaines;
+   Ajouter l’enregistrement de vérification du site Google TXT à tous les sous-domaines utilisés pour envoyer des courriers électroniques aux adresses Gmail via le Panneau de configuration Campaign.
 
-* [Délégation de sous-domaine](subdomains-certificates/using/subdomains-branding.md)
+* [Surveillance de l&#39;espace de base de données](performance-monitoring/using/database-monitoring.md)
 
-   Découvrez le branding des sous-domaines et les étapes principales pour déléguer des sous-domaines à Adobe à l’aide du panneau de contrôle.
+   de l’utilisation de l’espace de base de données à la demande et au fil du temps.
+
+* [Alertes par email](performance-monitoring/using/email-alerting.md)
+
+   Connectez-vous au Panneau de configuration et inscrivez-vous pour recevoir des alertes lorsque votre système risque de se détériorer, ou une action est nécessaire pour garantir des performances élevées pour l&#39;avenir.
 
 ## Ressources supplémentaires {#additional-resources}
 
