@@ -2,16 +2,13 @@
 title: Surveillance des bases de données
 description: Découvrez comment surveiller les performances de votre base de données Campaign dans le Panneau de contrôle
 translation-type: tm+mt
-source-git-commit: 77165e3f408f75dfb57434111b07b20ad9caab5e
+source-git-commit: e5646fdccd47b4180fd0f9d561f61c04cd515c01
 
 ---
 
 
 # Surveillance des bases de données {#database-monitoring}
 
->[!IMPORTANT]
->
->La surveillance de la base de données du Panneau de configuration sera disponible d&#39;ici la fin avril.
 
 ## À propos des bases de données d’instances {#about-instances-databases}
 
@@ -25,11 +22,11 @@ Le dépassement de la capacité d’une base de données d’instance peut entra
 
 >[!NOTE]
 >
->La quantité d&#39;espace de base de données fournie comme indiqué dans le Panneau de configuration peut ne pas refléter la quantité d&#39;espace de base de données spécifiée dans votre contrat. La plupart du temps, un espace de base de données plus grand vous est fourni temporairement pour garantir les performances de votre système.
+>La quantité d’espace de base de données indiquée dans le Panneau de contrôle peut ne pas correspondre à celle spécifiée dans votre contrat. La plupart du temps, un espace de base de données supérieur vous est fourni temporairement pour garantir les performances du système.
 
 ## Surveillance de l’utilisation des bases de données {#monitoring-instances-database}
 
-Le Panneau de configuration vous permet de surveiller l’utilisation de la base de données pour chacune de vos instances Campaign. Pour ce faire, suivez les étapes ci-après.
+Le Panneau de contrôle permet de surveiller l’utilisation de la base de données pour chacune de vos instances Campaign. Pour ce faire, suivez les étapes ci-après.
 
 1. Ouvrez la **[!UICONTROL Performance Monitoring]** carte, puis sélectionnez l’ **[!UICONTROL Databases]** onglet.
 
@@ -51,7 +48,7 @@ Le Panneau de configuration vous permet de surveiller l’utilisation de la base
 
 >[!NOTE]
 >
->En outre, ce vous permet de recevoir des notifications lorsque l’une de vos bases de données atteint sa capacité. Pour ce faire, abonnez-vous aux alertes par [courrier électronique](../../performance-monitoring/using/email-alerting.md)
+>En outre, ce vous permet de recevoir des notifications lorsque l’une de vos bases de données atteint sa capacité. Pour cela, abonnez-vous aux [alertes par email](../../performance-monitoring/using/email-alerting.md)
 
 ## Prévention des surcharges des bases de données {#preventing-database-overload}
 
@@ -66,7 +63,7 @@ La section ci-dessous contient des ressources utiles issues de la documentation 
 
 **Maintenance de la base de données**
 
-* Workflow technique de nettoyage de la base de données ([Campaign Standard](https://docs.adobe.com/help/en/campaign-standard/using/administrating/application-settings/technical-workflows.html#list-of-technical-workflows) / [Campaign Classic](https://docs.adobe.com/help/fr-FR/campaign-classic/using/monitoring-campaign-classic/data-processing/database-cleanup-workflow.html))
+* Workflow technique de nettoyage de la base de données ([Campaign Standard](https://docs.adobe.com/help/fr-FR/campaign-standard/using/administrating/application-settings/technical-workflows.html#list-of-technical-workflows) / [Campaign Classic](https://docs.adobe.com/help/fr-FR/campaign-classic/using/monitoring-campaign-classic/data-processing/database-cleanup-workflow.html))
 * [Guide de maintenance de la base de données](https://docs.adobe.com/content/help/fr-FR/campaign-classic/using/monitoring-campaign-classic/database-maintenance/recommendations.html) (Campaign Classic)
 * [Résolution des problèmes de performances de la base de données](https://docs.adobe.com/content/help/fr-FR/campaign-classic/using/monitoring-campaign-classic/troubleshooting/database-performances.html) (Campaign Classic)
 * [Options liées à la base de données](https://docs.adobe.com/help/fr-FR/campaign-classic/using/installing-campaign-classic/appendices/configuring-campaign-options.html#database) (Campaign Classic)
