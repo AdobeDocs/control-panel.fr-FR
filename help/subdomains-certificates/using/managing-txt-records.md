@@ -2,7 +2,7 @@
 title: Gestion des enregistrements TXT
 description: Découvrez comment gérer les enregistrements TXT pour vérifier le propriétaire du domaine.
 translation-type: tm+mt
-source-git-commit: 5a70141e0198946928723b34c9097c5cf8a24f97
+source-git-commit: e5646fdccd47b4180fd0f9d561f61c04cd515c01
 
 ---
 
@@ -13,10 +13,6 @@ source-git-commit: 5a70141e0198946928723b34c9097c5cf8a24f97
 >id="cp_siteverification_add"
 >title="Gestion des enregistrements TXT"
 >abstract="Certains services comme Google exigent que vous ajoutiez un enregistrement TXT aux paramètres de votre domaine pour vérifier que vous en êtes propriétaire."
-
->[!IMPORTANT]
->
->La gestion des enregistrements TXT du Panneau de configuration sera disponible d&#39;ici la fin avril.
 
 ## À propos des enregistrements TXT {#about-txt-records}
 
