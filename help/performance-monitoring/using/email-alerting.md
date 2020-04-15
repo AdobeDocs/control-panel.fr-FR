@@ -1,17 +1,21 @@
 ---
-title: Alertes par courrier électronique
+title: Alertes par email
 description: Découvrez comment recevoir des notifications par courrier électronique en cas de problèmes avec vos instances Campaign
 translation-type: tm+mt
-source-git-commit: e79ad202a1d3c3eb8c9944a352cb7d614953bcd4
+source-git-commit: 77165e3f408f75dfb57434111b07b20ad9caab5e
 
 ---
 
 
-# Alertes par courrier électronique {#email-alerting}
+# Alertes par email {#email-alerting}
+
+>[!IMPORTANT]
+>
+>Les alertes par courriel du Panneau de configuration seront disponibles d&#39;ici la fin avril.
 
 ## A propos des alertes par courrier électronique {#about-email-alerts}
 
-Afin d’offrir une plus grande flexibilité à votre travail, le Panneau de configuration est équipé d’une fonctionnalité d’alerte par courrier électronique en temps réel.
+Pour apporter davantage de flexibilité à votre travail, le Panneau de contrôle possède une fonctionnalité d’alerte par email en temps réel.
 
 Pour vous abonner à ces alertes, procédez comme suit :
 
@@ -23,7 +27,7 @@ Pour vous abonner à ces alertes, procédez comme suit :
 
    ![](assets/email_subscription.png)
 
-1. Après s&#39;être abonné, le Panneau de configuration avertit des problèmes du système et recommande les actions à entreprendre. Des alertes par courrier électronique sont envoyées à toutes les personnes qui se sont inscrites pour **toutes les instances** dont elles sont administrateurs.
+1. Après s&#39;être abonné, le Panneau de configuration avertit des problèmes du système et recommande les actions à entreprendre. Les alertes par email sont envoyées à toutes les personnes pour **toutes les instances** qu’elles administrent.
 
    ![](assets/alert_sample.png)
 
