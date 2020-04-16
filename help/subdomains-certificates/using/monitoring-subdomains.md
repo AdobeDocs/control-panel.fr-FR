@@ -1,7 +1,7 @@
 ---
 title: Surveillance des certificats SSL des sous-domaines
 description: Découvrez comment surveiller les certificats SSL de vos sous-domaines
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: a2c19296894ff893987290cb287dc7002ab999e5
 
 ---
