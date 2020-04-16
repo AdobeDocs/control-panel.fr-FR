@@ -15,7 +15,7 @@ Pour apporter davantage de flexibilité à votre travail, le panneau de contrôl
 
 Pour vous abonner à ces alertes, procédez comme suit :
 
-1. Click the **[!UICONTROL Alerting notifications]** button available from any location in the Control Panel, then click **[!UICONTROL Subscribe]**.
+1. Cliquez sur le bouton **[!UICONTROL Notifications d’alertes]** disponible à n’importe quel emplacement du Panneau de contrôle, puis cliquez sur **[!UICONTROL S’abonner]**.
 
    ![](assets/subscribing.png)
 
