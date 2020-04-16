@@ -1,7 +1,7 @@
 ---
 title: FAQ sur le panneau de contrôle
 description: Questions courantes relatives au panneau de contrôle
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: ddf4ca24c1583e388c07aae110522627220d5e66
 
 ---
