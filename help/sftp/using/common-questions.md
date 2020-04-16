@@ -1,7 +1,7 @@
 ---
 title: Questions courantes
 description: En savoir plus sur les questions courantes relatives à la gestion SFTP
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 8ee999b89af88a1a59956838d5722ce8fc6b3955
 
 ---
