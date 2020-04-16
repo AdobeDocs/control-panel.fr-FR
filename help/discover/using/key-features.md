@@ -1,7 +1,7 @@
 ---
 title: Accès au panneau de contrôle
 description: Découvrez comment accéder au panneau de contrôle
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: f22e356b283ee2601c948d5c1d514a9a59c58451
 
 ---
@@ -10,10 +10,10 @@ source-git-commit: f22e356b283ee2601c948d5c1d514a9a59c58451
 # Principales fonctionnalités {#key-features}
 
 >[!CONTEXTUALHELP]
->id=&quot;cp_overview&quot;
->title=&quot;À propos du panneau de contrôle&quot;
->abstract=&quot;La page d’accueil du panneau de contrôle vous donne accès à toutes les actions qui peuvent être effectuées sur vos instances Campaign.&quot;
->additional-url=&quot;https://docs.adobe.com/content/help/fr-FR/control-panel/using/discover-control-panel/discovering-the-interface.html&quot; text=&quot;Découverte de l’interface&quot;
+>id="cp_overview"
+>title="À propos du panneau de contrôle"
+>abstract="La page d’accueil du panneau de contrôle vous donne accès à toutes les actions qui peuvent être effectuées sur vos instances Campaign."
+>additional-url="https://docs.adobe.com/content/help/en/control-panel/using/discover-control-panel/discovering-the-interface.html" text="Découverte de l’interface"
 
 Le panneau de contrôle accroît votre efficacité en tant qu’administrateur de produit Adobe Campaign Standard et/ou Classic, en vous permettant de gérer les paramètres et de suivre l’utilisation de chacune de vos instances. Dans son interface intuitive, vous pouvez facilement surveiller l’utilisation des principales ressources ou effectuer certaines tâches administratives telles que la mise en whiteliste d’adresses IP, la surveillance de l’espace de stockage SFTP, la gestion des clés, etc.
 
