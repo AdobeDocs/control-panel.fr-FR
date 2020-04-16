@@ -1,7 +1,7 @@
 ---
 title: Configuration d’un nouveau sous-domaine
 description: Découvrez comment configurer un nouveau sous-domaine pour vos instances de campagne
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 43d5d522c29586b9898d924dd164435ee8fbb614
 
 ---
