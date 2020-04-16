@@ -1,7 +1,7 @@
 ---
 title: Connexion à votre serveur SFTP
 description: Découvrez comment vous connecter à votre serveur SFTP
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 85bef8fa652be883bc2afbc42a2d893ea75a4e77
 
 ---
@@ -21,7 +21,7 @@ Avant de vous connecter au serveur, vérifiez les points suivants :
 
 Pour vous connecter à votre serveur SFTP, procédez comme suit :
 
-1. Lancez le panneau de contrôle, puis sélectionnez l’onglet **[!UICONTROL Gestion des clés]**dans la carte**[!UICONTROL  SFTP]**.
+1. Lancez le panneau de contrôle, puis sélectionnez l’onglet **[!UICONTROL Gestion des clés]** dans la carte **[!UICONTROL SFTP]**.
 
    ![](assets/sftp_card.png)
 
@@ -29,11 +29,11 @@ Pour vous connecter à votre serveur SFTP, procédez comme suit :
 
    ![](assets/do-not-localize/connect1.png)
 
-1. Dans le champ **[!UICONTROL SSH Private Key]**(Clé privée SSH), sélectionnez le fichier de clé privée stocké sur votre ordinateur. Il correspond à un fichier texte portant le même nom que votre clé publique, sans l’extension « .pub » (par exemple, « enable »).
+1. Dans le champ **[!UICONTROL SSH Private Key]** (Clé privée SSH), sélectionnez le fichier de clé privée stocké sur votre ordinateur. Il correspond à un fichier texte portant le même nom que votre clé publique, sans l’extension « .pub » (par exemple, « enable »).
 
    ![](assets/do-not-localize/connect2.png)
 
-   Le champ **[!UICONTROL Password]**(Mot de passe) est automatiquement renseigné avec la clé du fichier.
+   Le champ **[!UICONTROL Password]** (Mot de passe) est automatiquement renseigné avec la clé du fichier.
 
    ![](assets/do-not-localize/connect3.png)
 
@@ -47,6 +47,6 @@ Pour vous connecter à votre serveur SFTP, procédez comme suit :
    >
    >`ssh-keygen -lf <path of the privatekey>`
 
-1. Une fois toutes les informations indiquées, cliquez sur **[!UICONTROL Connect]**(Connexion) pour vous connecter à votre serveur SFTP.
+1. Une fois toutes les informations indiquées, cliquez sur **[!UICONTROL Connect]** (Connexion) pour vous connecter à votre serveur SFTP.
 
    ![](assets/do-not-localize/sftpconnected.png)
