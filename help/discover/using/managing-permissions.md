@@ -1,7 +1,7 @@
 ---
 title: Gestion des autorisations pour le panneau de contrôle
 description: Découvrez comment gérer les autorisations du panneau de contrôle
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: ddf4ca24c1583e388c07aae110522627220d5e66
 
 ---
