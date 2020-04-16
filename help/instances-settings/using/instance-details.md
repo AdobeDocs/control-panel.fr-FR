@@ -1,7 +1,7 @@
 ---
 title: Détails de l’instance
 description: Découvrez comment surveiller les détails de votre instance dans le panneau de contrôle
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: a2c19296894ff893987290cb287dc7002ab999e5
 
 ---
@@ -11,71 +11,66 @@ source-git-commit: a2c19296894ff893987290cb287dc7002ab999e5
 
 >[!CONTEXTUALHELP]
 >id="cp_instancesettings_instancedetails"
->title="[!CONTEXTUALHELP]
->id=&quot;cp_instancesettings_instancedetails&quot;
->title=&quot;À propos des détails de l’instance&quot;
->abstract=&quot;Affichez les détails de vos instances Adobe Campaign : types, noms, informations de build et recommandations de mises à niveau possibles.&quot;
->additional-url=&quot;https://docs.adobe.com/content/help/fr-FR/campaign-classic/using/release-notes/latest-release.html&quot; text=&quot;Notes de mise à jour de Campaign Classic&quot;
->additional-url=&quot;https://docs.adobe.com/content/help/fr-FR/campaign-standard/using/release-notes/release-notes.html&quot; text=&quot;Notes de mise à jour de Campaign Standard&quot;"
->abstract="[!IMPORTANT]"
->additional-url="Cette fonctionnalité est disponible uniquement pour les instances Campaign Classic." text="À propos des détails de l’instance {#about-instance-details}"
->additional-url="L’architecture de votre instance Adobe Campaign Classic peut contenir plusieurs serveurs pour garantir la flexibilité des activités marketing. Par exemple, des serveurs Marketing, Real Time (ou Message Center) et Mid-sourcing peuvent prendre en charge votre instance." text="La fonctionnalité Détails de l’instance vous permet d’afficher l’architecture plane de votre instance. En plus de fournir des informations sur le serveur, elle vous permet également de savoir si le build de votre instance est à jour ou pas et vous indique les upgrades recommandés lorsque cela est nécessaire."
+>title="A propos des détails de l’instance"
+>abstract="Affichez les détails de vos instances Adobe Campaign : types, noms, informations de build et recommandations de mises à niveau possibles."
+>additional-url="https://docs.adobe.com/content/help/fr-FR/campaign-classic/using/release-notes/latest-release.html" text="Notes de mise à jour Campaign Classic"
+>additional-url="https://docs.adobe.com/content/help/en/campaign-standard/using/release-notes/release-notes.html" text="Notes de mise à jour Campaign Standard"
+
+>[!IMPORTANT]
+>
+>Cette fonctionnalité est disponible uniquement pour les instances Campaign Classic.
+
+## À propos des détails de l’instance {#about-instance-details}
+
+L’architecture de votre instance Adobe Campaign Classic peut contenir plusieurs serveurs pour garantir la flexibilité des activités marketing. Par exemple, des serveurs Marketing, Real Time (ou Message Center) et Mid-sourcing peuvent prendre en charge votre instance.
+
+La fonctionnalité Détails de l’instance vous permet d’afficher l’architecture plane de votre instance. En plus de fournir des informations sur le serveur, elle vous permet également de savoir si le build de votre instance est à jour ou pas et vous indique les upgrades recommandés lorsque cela est nécessaire.
 
 >[!NOTE]
 >
 >Nous vous recommandons d’effectuer un upgrade de vos instances au moins une fois par an afin d’éviter une dégradation des performances et de pouvoir bénéficier des fonctionnalités et des correctifs les plus récents proposés par Adobe Campaign Classic.
 
-## **Rubriques connexes :**
+**Rubriques connexes :**
 
-[Réalisation d’un upgrade de build[#$tu14]
+* [Réalisation d’un upgrade de build](https://docs.campaign.adobe.com/doc/AC/getting_started/FR/buildUpgrade.html)
+* [Mise à jour d’Adobe Campaign](https://docs.campaign.adobe.com/doc/AC/en/PRO_Updating_Adobe_Campaign_Introduction.html)
 
+## Récupération d’informations sur vos instances {#retrieving-information-about-instances}
 
+Pour obtenir des informations sur les serveurs connectés à vos instances, procédez comme suit :
 
->
->
->
+1. Ouvrez la carte **[!UICONTROL Paramètres des instances]** pour accéder à l’onglet **[!UICONTROL Détails de l’instance]**.
 
-
-
-* 
-* 
-
-## Dans le panneau de gauche, sélectionnez l’instance Campaign Classic désirée.{#retrieving-information-about-instances}
-
-[!NOTE]
-
-1. Toutes vos instances Campaign s&#39;affichent dans la liste du volet gauche. La fonctionnalité Détails de l’instance étant réservée aux instances Campaign Classic, le message « Instance non applicable » s’affiche si vous sélectionnez une instance Campaign Standard.********
-
-   >[!NOTE]Les serveurs connectés à l’instance s’affichent.
+   >[!NOTE]
    >
-   >![](assets/instance_details.png)
+   >Si la carte Paramètres des instances n’est pas visible sur la page d’accueil du panneau de contrôle, cela signifie que votre identifiant de l’organisation IMS n’est associé à aucune instance Adobe Campaign Classic.
 
-1. Les informations disponibles sont les suivantes :
+1. Dans le panneau de gauche, sélectionnez l’instance Campaign Classic désirée.
 
-   >**[!UICONTROL Type]** : type du serveur. Les valeurs possibles sont MKT (Marketing), MID (Mid-sourcing) et RT (Message Center/Real-time messaging).
+   >[!NOTE]
    >
-   >**[!UICONTROL Nom]** : nom du serveur.
+   >Toutes vos instances Campaign s&#39;affichent dans la liste du volet gauche. La fonctionnalité Détails de l’instance étant réservée aux instances Campaign Classic, le message « Instance non applicable » s’affiche si vous sélectionnez une instance Campaign Standard.
 
-1. **[!UICONTROL Build]** : la version de build installée sur le serveur.
+1. Les serveurs connectés à l’instance s’affichent.
 
-   **[!UICONTROL Infos sur la mise à niveau]** : cette colonne vous indique si une mise à jour est requise pour le serveur.
+   ![](assets/instance_details.png)
 
-Vert : votre serveur est à jour et aucun upgrade n’est requis.
+Les informations disponibles sont les suivantes :
 
-* **[!UICONTROL Jaune : vous devez envisager un upgrade. Vous ne disposez pas des fonctionnalités et des correctifs les plus récents.]**
-* **[!UICONTROL Rouge : effectuez un upgrade dès que possible. Vous ne disposez pas des nouvelles fonctionnalités et les performances du serveur ne sont peut-être pas optimales.]**
-* Si l’un de vos serveurs nécessite un upgrade, reportez-vous à [cette documentation[#$tu36] pour plus de détails sur la manière de procéder.]**
-* 
-   * 
-   * 
-   * 
+* **[!UICONTROL Type]** : type du serveur. Les valeurs possibles sont MKT (Marketing), MID (Mid-sourcing) et RT (Message Center/Real-time messaging).
+* **[!UICONTROL Nom]** : nom du serveur.
+* **[!UICONTROL Build]** : la version de build installée sur le serveur.
+* **[!UICONTROL Infos sur la mise à niveau]** : cette colonne vous indique si une mise à jour est requise pour le serveur.
+   * Vert : votre serveur est à jour et aucun upgrade n’est requis.
+   * Jaune : vous devez envisager un upgrade. Vous ne disposez pas des fonctionnalités et des correctifs les plus récents.
+   * Rouge : effectuez un upgrade dès que possible. Vous ne disposez pas des nouvelles fonctionnalités et les performances du serveur ne sont peut-être pas optimales.
 
-If one of your servers requires to be upgraded, refer to [this documentation-ERR:REF-NOT-FOUND- for more details on how to proceed.
+Si l’un de vos serveurs nécessite un upgrade, reportez-vous à [cette documentation](https://docs.campaign.adobe.com/doc/AC/getting_started/FR/buildUpgrade.html) pour plus de détails sur la manière de procéder.
 
-## Common questions {#common-questions}
+## Questions courantes {#common-questions}
 
-**I do not see the MID server on my instance architecture, does it mean my instances are not functioning correctly? Do I need the RT instance for something I am not able to do today?**
+**Je ne vois pas le serveur MID dans l’architecture de mon instance ; cela veut-il dire que mes instances ne fonctionnent pas correctement ? Ai-je besoin de l’instance RT pour une tâche que je ne suis pas en mesure d’effectuer aujourd’hui ?**
 
-Your own instance can look very different, and it may not have all types of servers, or it can have several of the same server. Not having one type of the server or another does not mean you cannot send a real-time message or perform other kinds of activities. You can request additional server capacity, additional fees will apply.
+Votre propre instance peut sembler très différente et ne pas disposer de tous les types de serveurs, ou peut disposer de plusieurs instances du même serveur. Ne pas disposer d’un type de serveur ou d’un autre ne signifie pas que vous ne pouvez pas envoyer un message en temps réel ou effectuer d’autres types d’activités. Vous pouvez demander de la capacité de serveur supplémentaire ; des frais supplémentaires s’appliqueront.
 
-Please contact Customer Care if you believe some servers are not showing in the &quot;Instance Details&quot; page. Make sure you note the specific instance URL in your message.
+Contactez l’Assistance clientèle si vous pensez que certains serveurs n’apparaissent pas sur la page « Détails de l’instance ». Veillez à indiquer l’URL de l’instance spécifique dans votre message.
