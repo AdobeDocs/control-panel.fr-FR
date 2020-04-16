@@ -31,17 +31,17 @@ Ressources supplémentaires :
 
 Pour ajouter un enregistrement TXT Google à un sous-domaine utilisé pour envoyer des emails à des adresses Gmail, procédez comme suit :
 
-1. Accédez à la **[!UICONTROL Subdomain and Certificates]** carte.
+1. Accédez à la carte **[!UICONTROL Sous-domaines et certificats]**.
 
 1. Sélectionnez votre instance, puis ouvrez les détails du sous-domaine auquel vous souhaitez ajouter un enregistrement DNS.
 
    ![](assets/txt_subdomaindetails.png)
 
-1. Click the **[!UICONTROL Add TXT record]** button, then enter the value generated in G Suite Admin tools. Pour plus d’informations, voir [l’aide de G Suite Admin](https://support.google.com/a/answer/183895).
+1. Cliquez sur le bouton **[!UICONTROL Ajouter un enregistrement TXT]**, puis saisissez la valeur générée dans les outils G Suite Admin. Pour plus d’informations, voir [l’aide de G Suite Admin](https://support.google.com/a/answer/183895).
 
    ![](assets/txt_addtxt.png)
 
-1. Click the **[!UICONTROL Add]** button to confirm.
+1. Cliquez sur le bouton **[!UICONTROL Ajouter]** pour confirmer l’opération.
 
    ![](assets/txt_txtadded.png)
 
