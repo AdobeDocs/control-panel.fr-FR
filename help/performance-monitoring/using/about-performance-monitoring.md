@@ -11,7 +11,7 @@ source-git-commit: e5646fdccd47b4180fd0f9d561f61c04cd515c01
 
 Le Panneau de contrôle propose plusieurs fonctionnalités pour vous aider à surveiller vos instances et à garantir des performances optimales.
 
-The **[!UICONTROL Performance monitoring]** card in the Control Panel home page allows you to monitor the usage of your Campaign instances like, for example, their database capacity. Voir à ce propos [cette section](../../performance-monitoring/using/database-monitoring.md).
+La carte **[!UICONTROL Suivi des performances]** de la page d’accueil du Panneau de contrôle permet de surveiller l’utilisation de vos instances Campaign, comme, par exemple, leur capacité de base de données. Voir à ce propos [cette section](../../performance-monitoring/using/database-monitoring.md).
 
 ![](assets/performance_card.png)
 
