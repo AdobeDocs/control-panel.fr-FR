@@ -1,7 +1,7 @@
 ---
 title: Marque des sous-domaines
 description: En savoir plus sur la marque des sous-domaines
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: f22e356b283ee2601c948d5c1d514a9a59c58451
 
 ---
@@ -10,10 +10,10 @@ source-git-commit: f22e356b283ee2601c948d5c1d514a9a59c58451
 # Marque des sous-domaines {#subdomains-branding}
 
 >[!CONTEXTUALHELP]
->id=&quot;cp_certificate_management&quot;
->title=&quot;À propos des sous-domaines et des certificats SSL&quot;
->abstract=&quot;Surveillez vos sous-domaines et les certificats SSL associés.&quot;
->additional-url=&quot;https://docs.adobe.com/content/help/fr-FR/control-panel/using/subdomains-and-certificates/monitoring-ssl-certificates.html&quot; text=&quot;Surveiller les certificats SSL de vos sous-domaines&quot;
+>id="cp_certificate_management"
+>title="À propos des sous-domaines et des certificats SSL"
+>abstract="Surveillez vos sous-domaines et les certificats SSL associés."
+>additional-url="https://docs.adobe.com/content/help/fr-FR/control-panel/using/subdomains-and-certificates/monitoring-ssl-certificates.html" text="Comment surveiller les certificats SSL de vos sous-domaines"
 
 >[!IMPORTANT]
 >
