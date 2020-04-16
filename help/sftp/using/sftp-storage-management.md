@@ -1,7 +1,7 @@
 ---
 title: Gestion de l’espace de stockage SFTP
 description: Découvrez comment surveiller et gérer l’espace de stockage de votre serveur SFTP
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 834adb7c937a9927901f91e257a8df44e72ca45b
 
 ---
