@@ -1,7 +1,7 @@
 ---
 title: Surveillance des certificats SSL des sous-domaines
 description: Découvrez comment surveiller les certificats SSL de vos sous-domaines
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: f22e356b283ee2601c948d5c1d514a9a59c58451
 
 ---
@@ -24,9 +24,9 @@ Le **cryptage SSL (Secure Socket Layer)** garantit la sécurité des sous-domain
 ## Surveillance des certificats SSL {#monitoring-certificates}
 
 >[!CONTEXTUALHELP]
->id=&quot;cp_subdomain_details&quot;
->title=&quot;Détails du sous-domaine&quot;
->abstract=&quot;Récupérez des informations sur vos sous-domaines.&quot;
+>id="cp_subdomain_details"
+>title="Détails du sous-domaine"
+>abstract="Récupérez des informations sur vos sous-domaines."
 
 L’état des certificats SSL de vos sous-domaines est disponible directement dans la liste des sous-domaines en sélectionnant la carte **[!UICONTROL Sous-domaines et certificats]** .
 
