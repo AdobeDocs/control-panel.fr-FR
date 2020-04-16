@@ -28,9 +28,9 @@ Le dépassement de la capacité d’une base de données d’instance peut entra
 
 Le Panneau de contrôle permet de surveiller l’utilisation de la base de données pour chacune de vos instances Campaign. Pour ce faire, suivez les étapes ci-après.
 
-1. Ouvrez la **[!UICONTROL Performance Monitoring]** carte, puis sélectionnez l’ **[!UICONTROL Databases]** onglet.
+1. Ouvrez la carte **[!UICONTROL Suivi des performances]**, puis sélectionnez l’onglet **[!UICONTROL Bases de données]**.
 
-1. Select the desired instance from the **[!UICONTROL Instance List]**.
+1. Sélectionnez l’instance de votre choix dans la **[!UICONTROL Liste d’instances]**.
 
    La zone supérieure contient des informations relatives à la capacité de la base de données de l’instance et à l’espace utilisé.
 
@@ -40,7 +40,7 @@ Le Panneau de contrôle permet de surveiller l’utilisation de la base de donn�
 
    Vous pouvez modifier la période affichée à l’aide des filtres proposés dans l’angle supérieur droit.
 
-   Pour une meilleure lisibilité, vous pouvez également mettre en surbrillance une ou plusieurs courbes du graphique. Pour ce faire, sélectionnez-les dans la **[!UICONTROL Aggregation Type]** légende.
+   Pour une meilleure lisibilité, vous pouvez également mettre en surbrillance une ou plusieurs courbes du graphique. Pour ce faire, sélectionnez-les dans la légende **[!UICONTROL Type]** d’agrégation.
 
    Pointez sur le graphique pour obtenir des informations détaillées sur la période sélectionnée.
 
