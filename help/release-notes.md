@@ -1,6 +1,6 @@
 ---
 title: Versions du Panneau de contrôle
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: f59be0be3b183dd453ba3cc8ee8c70887e65e6e3
 
 ---
@@ -16,11 +16,14 @@ Vous trouverez ici des informations sur les dernières versions du Panneau de co
 
 ## Avril 2020 {#april-2020}
 
-**Gestion** des enregistrements Google TXT Ajouter enregistrement de vérification de site Google TXT à tous vos sous-domaines utilisés pour envoyer des courriers électroniques aux adresses Gmail via le Panneau de configuration Campaign.
+**Gestion des enregistrements TXT Google**
+Grâce au Panneau de contrôle de Campaign, vous pourrez ajouter des enregistrements de vérification de site TXT Google aux sous-domaines utilisés pour envoyer des emails aux adresses Gmail.
 
-**La surveillance** de l&#39;espace de base de donnéesCampaign Panneau de configuration est équipée de fonctionnalités de surveillance de la base de données, ce qui vous permet de  l&#39;utilisation de l&#39;espace de base de données à la demande et au fil du temps.
+**Surveillance de l’espace des bases de données**
+Le Panneau de contrôle de Campaign dispose de fonctionnalités de surveillance des bases de données, ce qui vous permet d’afficher l’utilisation de l’espace des bases de données à la demande et au fil du temps.
 
-**Le Panneau de configuration des alertes** par courrier électronique est équipé de fonctions d&#39;alerte par courrier électronique en temps réel, ce qui vous permet de vous connecter au Panneau de configuration et de vous inscrire pour recevoir des alertes lorsque votre système risque de se détériorer, ou une action est nécessaire pour garantir des performances élevées pour l&#39;avenir.
+**Alertes par email**
+Le Panneau de contrôle de Campaign dispose de fonctionnalités d’alerte par email en temps réel. Une fois connecté au Panneau de contrôle, vous pouvez vous abonner pour recevoir des alertes lorsque les performances de votre système risquent de se détériorer, ou si une action est nécessaire pour garantir des performances élevées.
 
 ## Janvier 2020 {#january-2020}
 
