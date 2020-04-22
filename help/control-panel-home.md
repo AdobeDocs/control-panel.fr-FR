@@ -1,6 +1,6 @@
 ---
 title: Documentation du produit
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: f59be0be3b183dd453ba3cc8ee8c70887e65e6e3
 
 ---
@@ -12,17 +12,17 @@ source-git-commit: f59be0be3b183dd453ba3cc8ee8c70887e65e6e3
 
 ## Nouveautés
 
-* [Gestion des enregistrements Google TXT](subdomains-certificates/using/managing-txt-records.md)
+* [Gestion des enregistrements TXT Google](subdomains-certificates/using/managing-txt-records.md)
 
-   Ajouter l’enregistrement de vérification du site Google TXT à tous les sous-domaines utilisés pour envoyer des courriers électroniques aux adresses Gmail via le Panneau de configuration Campaign.
+   Grâce au Panneau de contrôle de Campaign, vous pouvez ajouter des enregistrements de vérification de site TXT Google aux sous-domaines utilisés pour envoyer des emails aux adresses Gmail.
 
-* [Surveillance de l&#39;espace de base de données](performance-monitoring/using/database-monitoring.md)
+* [Surveillance de l’espace des bases de données](performance-monitoring/using/database-monitoring.md)
 
-   de l’utilisation de l’espace de base de données à la demande et au fil du temps.
+   Vous pouvez afficher l’utilisation de l’espace des bases de données à la demande et au fil du temps.
 
 * [Alertes par email](performance-monitoring/using/email-alerting.md)
 
-   Connectez-vous au Panneau de configuration et inscrivez-vous pour recevoir des alertes lorsque votre système risque de se détériorer, ou une action est nécessaire pour garantir des performances élevées pour l&#39;avenir.
+   Vous pouvez vous connecter au Panneau de contrôle et vous abonner pour recevoir des alertes lorsque les performances de votre système risquent de se détériorer, ou si une action est nécessaire pour garantir des performances élevées.
 
 ## Ressources supplémentaires {#additional-resources}
 
@@ -37,7 +37,7 @@ source-git-commit: f59be0be3b183dd453ba3cc8ee8c70887e65e6e3
         <td><b>Campaign Classic</b><br/>
         <ul>
             <li><a href="https://docs.adobe.com/content/help/en/campaign-learn/campaign-classic-tutorials/administrating/control-panel-acc/control-panel-overview.html">Tutoriels vidéo sur le panneau de contrôle pour Campaign Classic</a></li>
-            <li><a href="https://docs.adobe.com/content/help/en/campaign-classic/using/campaign-classic-home.html">Documentation du produit Campaign Classic</a></li>
+            <li><a href="https://docs.adobe.com/content/help/fr-FR/campaign-classic/using/campaign-classic-home.html">Documentation du produit Campaign Classic</a></li>
         </ul>
         </td>
     </tr>
