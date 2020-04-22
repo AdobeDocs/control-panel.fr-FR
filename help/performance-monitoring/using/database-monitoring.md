@@ -1,7 +1,7 @@
 ---
 title: Surveillance des bases de données
 description: Découvrez comment surveiller les performances de votre base de données Campaign dans le Panneau de contrôle
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: e5646fdccd47b4180fd0f9d561f61c04cd515c01
 
 ---
@@ -36,11 +36,11 @@ Le Panneau de contrôle permet de surveiller l’utilisation de la base de donn�
 
    ![](assets/databases_dashboard.png)
 
-   La zone inférieure fournit une représentation graphique de l’utilisation minimale, moyenne et maximale de la base de données au cours des 7 derniers jours, ainsi que du seuil d’utilisation de la base de données de 90 %, représenté par une courbe en pointillés rouges.
+   La zone inférieure contient une représentation graphique de l’utilisation minimale, moyenne et maximale de la base de données au cours des 7 derniers jours, ainsi que le seuil d’utilisation de 90 % de la base de données, représenté par une courbe en pointillés rouges.
 
    Vous pouvez modifier la période affichée à l’aide des filtres proposés dans l’angle supérieur droit.
 
-   Pour une meilleure lisibilité, vous pouvez également mettre en surbrillance une ou plusieurs courbes du graphique. Pour ce faire, sélectionnez-les dans la légende **[!UICONTROL Type]** d’agrégation.
+   Pour une meilleure lisibilité, vous pouvez également mettre en surbrillance une ou plusieurs courbes du graphique. Pour cela, sélectionnez-les dans la légende **[!UICONTROL Type d’agrégation]**.
 
    Pointez sur le graphique pour obtenir des informations détaillées sur la période sélectionnée.
 
@@ -48,7 +48,7 @@ Le Panneau de contrôle permet de surveiller l’utilisation de la base de donn�
 
 >[!NOTE]
 >
->En outre, ce vous permet de recevoir des notifications lorsque l’une de vos bases de données atteint sa capacité. Pour cela, abonnez-vous aux [alertes par email](../../performance-monitoring/using/email-alerting.md)
+>Outre ce tableau de bord, vous pouvez recevoir des notifications lorsque l’une de vos bases de données atteint sa limite de capacité. Pour cela, abonnez-vous aux [alertes par email](../../performance-monitoring/using/email-alerting.md)
 
 ## Prévention des surcharges des bases de données {#preventing-database-overload}
 
