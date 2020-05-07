@@ -2,7 +2,10 @@
 title: Accès au panneau de contrôle
 description: Découvrez comment accéder au panneau de contrôle
 translation-type: tm+mt
-source-git-commit: f22e356b283ee2601c948d5c1d514a9a59c58451
+source-git-commit: 7bde86a86fbd128f4eb7bf029e58b0f95964390b
+workflow-type: tm+mt
+source-wordcount: '274'
+ht-degree: 87%
 
 ---
 
@@ -24,7 +27,7 @@ Principaux avantages :
 * Renforcez la sécurité en contrôlant les paramètres d’accès au cas par cas.
 
 >[!NOTE]
->Seuls les utilisateurs administrateurs ont accès au panneau de contrôle, disponible pour tous les clients hébergés sur AWS. Les étapes permettant d’accorder un accès administrateur à un utilisateur sont présentées dans [cette section](../../discover/using/managing-permissions.md). Pour vérifier si votre instance est hébergée sur AWS, suivez les étapes présentées dans [cette section](../../faq.md).
+>Le Panneau de configuration est accessible aux administrateurs uniquement et disponible pour tous les clients hébergés sur AWS, à l’exception des environnements hybrides qui ne sont pas encore pris en charge. Les étapes permettant d’accorder un accès administrateur à un utilisateur sont présentées dans [cette section](../../discover/using/managing-permissions.md). Pour vérifier si votre instance est hébergée sur AWS, suivez les étapes présentées dans [cette section](../../faq.md).
 >
 >Pour accéder au panneau de contrôle, il n’est pas nécessaire d’effectuer une mise à niveau vers le dernier build de Campaign.
 
