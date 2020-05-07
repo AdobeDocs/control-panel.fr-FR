@@ -2,7 +2,10 @@
 title: Gestion des autorisations pour le panneau de contrôle
 description: Découvrez comment gérer les autorisations du panneau de contrôle
 translation-type: tm+mt
-source-git-commit: ddf4ca24c1583e388c07aae110522627220d5e66
+source-git-commit: aae2007169cc2abc003b3ef6b72e32570ffacba5
+workflow-type: tm+mt
+source-wordcount: '266'
+ht-degree: 89%
 
 ---
 
@@ -50,3 +53,7 @@ Tous les utilisateurs administrateurs d’une instance Campaign ont accès au pa
 1. La liste des utilisateurs administrateurs s’affiche. Cliquez sur le bouton **[!UICONTROL Ajouter un utilisateur]** pour ajouter un nouvel utilisateur.
 
    ![](assets/do-not-localize/control_panel_add_user_6.png)
+
+>[!NOTE]
+>
+>Une fois l’accès configuré, l’utilisateur devra se déconnecter d’Adobe Experience Cloud et se reconnecter, afin de pouvoir accéder au panneau de contrôle d&#39;accès.
