@@ -2,7 +2,10 @@
 title: FAQ sur le panneau de contrôle
 description: Questions courantes relatives au panneau de contrôle
 translation-type: tm+mt
-source-git-commit: ddf4ca24c1583e388c07aae110522627220d5e66
+source-git-commit: 7bde86a86fbd128f4eb7bf029e58b0f95964390b
+workflow-type: tm+mt
+source-wordcount: '628'
+ht-degree: 98%
 
 ---
 
@@ -100,7 +103,7 @@ Oui, dans le panneau de contrôle, vous pouvez gérer uniquement les paramètres
 
 **Puis-je utiliser le panneau de contrôle ?**
 
-Le panneau de contrôle n’est accessible que par les administrateurs de produit de nos clients actuels pour lesquels Adobe Campaign est hébergé sur AWS.
+Le panneau de contrôle n’est accessible que par les administrateurs de produit de nos clients actuels pour lesquels Adobe Campaign est hébergé sur AWS. Notez que les environnements hybrides ne sont pas encore pris en charge.
 
 Si vous n’êtes pas administrateur, mais que vous souhaitez y accéder, veuillez contacter votre administrateur de produit pour qu’il vous ajoute en tant qu’administrateur.
 
