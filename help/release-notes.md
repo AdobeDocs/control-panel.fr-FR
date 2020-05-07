@@ -1,7 +1,10 @@
 ---
 title: Versions du Panneau de contrôle
-translation-type: ht
-source-git-commit: f59be0be3b183dd453ba3cc8ee8c70887e65e6e3
+translation-type: tm+mt
+source-git-commit: 7bde86a86fbd128f4eb7bf029e58b0f95964390b
+workflow-type: tm+mt
+source-wordcount: '337'
+ht-degree: 91%
 
 ---
 
@@ -12,7 +15,7 @@ Vous trouverez ici des informations sur les dernières versions du Panneau de co
 
 >[!NOTE]
 >
->Remarque : seuls les clients hébergés sur AWS ont accès au Panneau de contrôle. Aucun upgrade n&#39;est nécessaire pour y accéder. Vérifiez que vous êtes un utilisateur administrateur pour y accéder.
+>Veuillez noter que le Panneau de configuration est disponible pour les clients hébergés sur AWS uniquement, à l’exception des environnements hybrides qui ne sont pas encore pris en charge. . Aucune mise à niveau n’est requise pour le panneau contrôle d&#39;accès. Vérifiez que vous êtes un utilisateur administrateur pour y accéder.
 
 ## Avril 2020 {#april-2020}
 
