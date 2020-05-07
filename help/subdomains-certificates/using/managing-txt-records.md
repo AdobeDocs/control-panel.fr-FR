@@ -1,8 +1,11 @@
 ---
 title: Gestion des enregistrements TXT
 description: Découvrez comment gérer les enregistrements TXT pour vérifier le propriétaire du domaine.
-translation-type: ht
-source-git-commit: e5646fdccd47b4180fd0f9d561f61c04cd515c01
+translation-type: tm+mt
+source-git-commit: 7c2dd60c70b5f9c0b2567df289582b972a7f76b8
+workflow-type: tm+mt
+source-wordcount: '350'
+ht-degree: 100%
 
 ---
 
@@ -52,5 +55,3 @@ Pour supprimer un enregistrement, sélectionnez-le dans la liste des enregistrem
 >[!NOTE]
 >
 >Le seul enregistrement que vous pouvez supprimer de la liste des enregistrements DNS est celui qui vient d’être ajouté (dans notre cas, l’enregistrement Google TXT).
-
-
