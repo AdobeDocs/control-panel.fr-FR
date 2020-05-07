@@ -4,7 +4,10 @@ sub-product: panneau de commande
 audience: end-user
 user-guide-title: Aide du panneau de contrôle
 translation-type: tm+mt
-source-git-commit: d81f76a07c294fdab4ed31e7741cf7ec4fb2f985
+source-git-commit: 22f84071d825004b8a8aaf32cc9c1579476ee1de
+workflow-type: tm+mt
+source-wordcount: '97'
+ht-degree: 94%
 
 ---
 
@@ -40,4 +43,5 @@ source-git-commit: d81f76a07c294fdab4ed31e7741cf7ec4fb2f985
    + [Mise en whiteliste d’adresses IP pour l’accès aux instances](instances-settings/using/ip-whitelisting-instance-access.md)
    + [Autorisations d’URL](instances-settings/using/url-permissions.md)
    + [Détails de l’instance](instances-settings/using/instance-details.md)
+   + [Gestion des clés GPG](instances-settings/using/gpg-keys-management.md)
 + [FAQ](faq.md)
