@@ -2,7 +2,7 @@
 title: Gestion des clés GPG
 description: Découvrez comment gérer les clés GPG pour chiffrer et déchiffrer les données dans Adobe Campaign.
 translation-type: tm+mt
-source-git-commit: 2c0bd8f3583423b3b2f981390a32416e8bbcbc4a
+source-git-commit: 59b91342b6bec1f78fce87b973d9f2d32cd5c698
 workflow-type: tm+mt
 source-wordcount: '1051'
 ht-degree: 3%
@@ -65,7 +65,7 @@ Le Panneau de configuration vous permet de chiffrer les données provenant de vo
 
 Pour ce faire, vous devez générer une paire de clés GPG à partir d&#39;un outil de chiffrement PGP, puis installer la clé publique dans le Panneau de configuration. Vous pourrez alors chiffrer les données avant de les envoyer à partir de votre instance. Pour ce faire, procédez comme suit :
 
-1. Générez une paire de clés publique/privée à l&#39;aide d&#39;un outil de chiffrement GPG après la spécification [](https://www.openpgp.org/about/standard/)OpenPGP. Pour ce faire, installez un utilitaire GPG ou un logiciel GNuPG.
+1. Générez une paire de clés publique/privée à l&#39;aide d&#39;un outil de chiffrement GPG après la spécification [](https://www.openpgp.org/about/standard/)OpenPGP. Pour ce faire, installez un utilitaire GPG ou un logiciel GNuGP.
 
    >[!NOTE]
    >
