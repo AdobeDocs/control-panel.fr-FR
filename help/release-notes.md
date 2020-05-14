@@ -1,10 +1,10 @@
 ---
 title: Versions du Panneau de contrôle
 translation-type: tm+mt
-source-git-commit: 7bde86a86fbd128f4eb7bf029e58b0f95964390b
+source-git-commit: 88fd5b8853864ed25a3c6f2dfb5da718d0fc8d11
 workflow-type: tm+mt
-source-wordcount: '337'
-ht-degree: 91%
+source-wordcount: '401'
+ht-degree: 62%
 
 ---
 
@@ -15,18 +15,31 @@ Vous trouverez ici des informations sur les dernières versions du Panneau de co
 
 >[!NOTE]
 >
->Veuillez noter que le Panneau de configuration est disponible pour les clients hébergés sur AWS uniquement, à l’exception des environnements hybrides qui ne sont pas encore pris en charge. . Aucune mise à niveau n’est requise pour le panneau contrôle d&#39;accès. Vérifiez que vous êtes un utilisateur administrateur pour y accéder.
+>Veuillez noter que le Panneau de configuration est disponible pour les clients hébergés sur AWS uniquement, à l’exception des environnements hybrides qui ne sont pas encore pris en charge. Aucune mise à niveau n’est requise pour le panneau contrôle d&#39;accès. Vérifiez que vous êtes un utilisateur administrateur pour y accéder.
+
+## Mai 2020 (#mai-2020)
+
+**Gestion des clés GPG**
+
+Installez et/ou générez des clés GPG sur une instance marketing, afin de chiffrer les données envoyées à partir de Campaign et de déchiffrer les données entrantes. [En savoir plus](../..//instances-settings/using/gpg-keys-management.md)
+
+**Gestion des certificats pour les sous-domaines CNAME**
+
+Le Panneau de configuration vous permet désormais de renouveler les certificats SSL de vos sous-domaines qui ont été délégués avec la méthode CNAME. [En savoir plus](../../subdomains-certificates/using/renewing-subdomain-certificate.md)
 
 ## Avril 2020 {#april-2020}
 
 **Gestion des enregistrements TXT Google**
-Grâce au Panneau de contrôle de Campaign, vous pourrez ajouter des enregistrements de vérification de site TXT Google aux sous-domaines utilisés pour envoyer des emails aux adresses Gmail.
+
+Grâce au Panneau de contrôle de Campaign, vous pouvez ajouter des enregistrements de vérification de site TXT Google aux sous-domaines utilisés pour envoyer des emails aux adresses Gmail. [En savoir plus](../../subdomains-certificates/using/managing-txt-records.md)
 
 **Surveillance de l’espace des bases de données**
-Le Panneau de contrôle de Campaign dispose de fonctionnalités de surveillance des bases de données, ce qui vous permet d’afficher l’utilisation de l’espace des bases de données à la demande et au fil du temps.
+
+Le Panneau de configuration Campaign est doté de fonctionnalités de surveillance de base de données, ce qui vous permet de vue à la demande et au fil du temps l’utilisation de l’espace de base de données. [En savoir plus](../../performance-monitoring/using/database-monitoring.md)
 
 **Alertes par email**
-Le Panneau de contrôle de Campaign dispose de fonctionnalités d’alerte par email en temps réel. Une fois connecté au Panneau de contrôle, vous pouvez vous abonner pour recevoir des alertes lorsque les performances de votre système risquent de se détériorer, ou si une action est nécessaire pour garantir des performances élevées.
+
+Le Panneau de configuration Campaign est doté de fonctions d&#39;alerte par courriel en temps réel, ce qui vous permet de vous connecter au Panneau de configuration et de vous inscrire pour recevoir des alertes lorsque votre système risque de se détériorer, ou une action est nécessaire pour garantir des performances élevées pour l&#39;avenir. [En savoir plus](../../performance-monitoring/using/email-alerting.md)
 
 ## Janvier 2020 {#january-2020}
 
