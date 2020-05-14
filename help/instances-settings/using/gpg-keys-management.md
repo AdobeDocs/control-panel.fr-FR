@@ -2,7 +2,7 @@
 title: Gestion des clés GPG
 description: Découvrez comment gérer les clés GPG pour chiffrer et déchiffrer les données dans Adobe Campaign.
 translation-type: tm+mt
-source-git-commit: 59b91342b6bec1f78fce87b973d9f2d32cd5c698
+source-git-commit: 110e77e00fcc0ea893fa91c3b2d3d8788216a8dd
 workflow-type: tm+mt
 source-wordcount: '1051'
 ht-degree: 3%
@@ -103,7 +103,7 @@ Pour ce faire, vous devez générer une paire de clés GPG à partir d&#39;un ou
 
    ![](assets/gpg_install_paste.png)
 
-1. Cliquez sur le bouton **!UICONTROL Installer la clé]**.
+1. Cliquez sur le bouton **[!UICONTROL Installer la clé]** .
 
 Une fois la clé publique installée, elle s’affiche dans la liste. Vous pouvez utiliser le **...** bouton pour le télécharger ou copier son empreinte digitale.
 
@@ -113,10 +113,15 @@ La clé est ensuite disponible pour utilisation dans les workflows Adobe Campaig
 
 Pour plus d’informations à ce sujet, reportez-vous à la documentation Adobe Campaign :
 
-| Campaign Classic | Campaign Standard |
----------|----------
-| [Compresser ou chiffrer un fichier](https://docs.adobe.com/content/help/en/campaign-classic/using/automating-with-workflows/general-operation/how-to-use-workflow-data.html#zipping-or-encrypting-a-file) | [Gérer des données cryptées](https://docs.adobe.com/content/help/en/campaign-standard/using/managing-processes-and-data/workflow-general-operation/importing-data.html#managing-encrypted-data) |
-| [activité d’extraction de données (fichier)](https://docs.adobe.com/content/help/en/campaign-classic/using/automating-with-workflows/action-activities/extraction--file-.html) | [Activité Extraction de fichier](https://docs.adobe.com/content/help/en/campaign-standard/using/managing-processes-and-data/data-management-activities/extract-file.html) |
+**Campaign Classic:**
+
+* [Compresser ou chiffrer un fichier](https://docs.adobe.com/content/help/en/campaign-classic/using/automating-with-workflows/general-operation/how-to-use-workflow-data.html#zipping-or-encrypting-a-file)
+* [activité d’extraction de données (fichier)](https://docs.adobe.com/content/help/en/campaign-classic/using/automating-with-workflows/action-activities/extraction--file-.html)
+
+**Campaign Standard:**
+
+* [Gérer des données cryptées](https://docs.adobe.com/content/help/en/campaign-standard/using/managing-processes-and-data/workflow-general-operation/importing-data.html#managing-encrypted-data)
+* [Activité Extraction de fichier](https://docs.adobe.com/content/help/en/campaign-standard/using/managing-processes-and-data/data-management-activities/extract-file.html)
 
 ## Décryptage des données {#decrypting-data}
 
@@ -149,7 +154,12 @@ La clé publique est alors disponible pour être partagée avec tout système ex
 
 Pour plus d’informations à ce sujet, reportez-vous à la documentation Adobe Campaign :
 
-| Campaign Classic | Campaign Standard |
----------|----------
-| [Décompresser ou déchiffrer un fichier avant traitement](https://docs.adobe.com/content/help/en/campaign-classic/using/automating-with-workflows/general-operation/importing-data.html#unzipping-or-decrypting-a-file-before-processing) | [Gérer des données cryptées](https://docs.adobe.com/content/help/en/campaign-standard/using/managing-processes-and-data/workflow-general-operation/importing-data.html#managing-encrypted-data) |
-| [activité de chargement de données (fichier)](https://docs.adobe.com/content/help/en/campaign-classic/using/automating-with-workflows/action-activities/data-loading--file-.html) | [Activité Chargement de fichier](https://docs.adobe.com/content/help/en/campaign-standard/using/managing-processes-and-data/data-management-activities/load-file.html) |
+**Campaign Classic:**
+
+* [Décompresser ou déchiffrer un fichier avant traitement](https://docs.adobe.com/content/help/en/campaign-classic/using/automating-with-workflows/general-operation/importing-data.html#unzipping-or-decrypting-a-file-before-processing)
+* [activité de chargement de données (fichier)](https://docs.adobe.com/content/help/en/campaign-classic/using/automating-with-workflows/action-activities/data-loading--file-.html)
+
+**Campaign Standard:**
+
+* [Gérer des données cryptées](https://docs.adobe.com/content/help/en/campaign-standard/using/managing-processes-and-data/workflow-general-operation/importing-data.html#managing-encrypted-data)
+* [Activité Chargement de fichier](https://docs.adobe.com/content/help/en/campaign-standard/using/managing-processes-and-data/data-management-activities/load-file.html)
