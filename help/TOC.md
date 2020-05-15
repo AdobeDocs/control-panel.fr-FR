@@ -1,13 +1,13 @@
 ---
 product: adobe campaign
-sub-product: panneau de commande
+sub-product: panneau de contrôle
 audience: end-user
 user-guide-title: Aide du panneau de contrôle
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 22f84071d825004b8a8aaf32cc9c1579476ee1de
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '97'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
