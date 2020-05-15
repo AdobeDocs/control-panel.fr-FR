@@ -1,9 +1,9 @@
 ---
 title: Gestion des enregistrements TXT
 description: Découvrez comment gérer les enregistrements TXT pour vérifier le propriétaire du domaine.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 7c2dd60c70b5f9c0b2567df289582b972a7f76b8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '350'
 ht-degree: 100%
 
