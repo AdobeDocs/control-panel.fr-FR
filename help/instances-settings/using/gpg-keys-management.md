@@ -2,10 +2,10 @@
 title: Gestion des clés GPG
 description: Découvrez comment gérer les clés GPG pour crypter et décrypter les données dans Adobe Campaign.
 translation-type: tm+mt
-source-git-commit: c6e070c024df1bb7708281eff67b430e553ac258
+source-git-commit: a160b542a6f00a605a80605be2ab3b934f26ba72
 workflow-type: tm+mt
-source-wordcount: '1051'
-ht-degree: 86%
+source-wordcount: '1061'
+ht-degree: 82%
 
 ---
 
@@ -25,39 +25,6 @@ Vous pourrez alors :
 * **Crypter les données envoyées** : Adobe Campaign envoie les données après les avoir cryptées avec la clé publique installée.
 
 * **Décrypter les données entrantes** : Adobe Campaign reçoit des données cryptées à partir d’un système externe à l’aide d’une clé publique téléchargée à partir du panneau de contrôle. Adobe Campaign décrypte les données à l’aide d’une clé privée générée à partir du panneau de contrôle.
-
-## Surveillance des clés GPG
-
-Pour accéder aux clés GPG installées et générées pour vos instances, ouvrez la carte **[!UICONTROL Paramètres des instances]**, puis sélectionnez l&#39;onglet **[!UICONTROL Clés GPG]**.
-
-![](assets/gpg_list.png)
-
-La liste contient toutes les clés GPG de cryptage et de décryptage qui ont été installées et générées pour vos instances, avec des informations détaillées sur chaque clé :
-
-* **[!UICONTROL Nom]** : nom défini lors de l’installation ou de la génération de la clé.
-* **[!UICONTROL Cas pratique]** : cette colonne indique le cas pratique de la clé :
-
-   ![](assets/gpg_icon_encrypt.png) : la clé a été installée pour le cryptage des données.
-
-   ![](assets/gpg_icon_decrypt.png) : la clé a été générée pour permettre le décryptage des données.
-
-* **[!UICONTROL Empreinte]** : empreinte de la clé.
-* **[!UICONTROL Expire]** : date d’expiration de la clé. Remarque : le panneau de contrôle donne des indications visuelles à l’approche de sa date d’expiration :
-
-   * Urgent (rouge) s’affiche 30 jours avant.
-   * Avertissement (jaune) s’affiche 60 jours avant.
-   * Une bannière rouge « Expirée » s’affiche une fois qu’une clé arrive à expiration.
-   >[!NOTE]
-   >
-   >Aucune notification par email ne sera envoyée par le panneau de contrôle.
-
-Il est recommandé de supprimer toute clé dont vous n’avez plus besoin. Pour cela, cliquez sur le bouton **...**, puis sélectionnez **[!UICONTROL Supprimer la clé].**.
-
-![](assets/gpg_delete.png)
-
->[!IMPORTANT]
->
->Avant de supprimer une clé, vérifiez qu’elle n’est utilisée dans aucun workflow Adobe Campaign pour éviter tout échec.
 
 ## Cryptage des données {#encrypting-data}
 
@@ -89,7 +56,7 @@ Pour cela, vous devez générer une paire de clés GPG à partir d’un outil de
 
    `gpg -a --export <fingerprint>`
 
-1. Pour installer la clé publique dans le Panneau de configuration, accédez à l&#39;onglet **[!UICONTROL Clés GPG]**, puis sélectionnez l’instance de votre choix.
+1. Pour installer la clé publique dans le Panneau de configuration, ouvrez la carte des paramètres **[!UICONTROL de l&#39;]** instance, puis sélectionnez l&#39;onglet **[!UICONTROL GPG keys]** et l&#39;instance de votre choix.
 
 1. Cliquez sur le bouton **[!UICONTROL Installer la clé]**.
 
@@ -134,7 +101,7 @@ Pour cela, vous devez générer une paire de clés GPG directement à partir du
 
 Pour générer une paire de clés dans le panneau de contrôle, procédez comme suit :
 
-1. Accédez à l&#39;onglet **[!UICONTROL Clés GPG]**, puis sélectionnez l’instance Adobe Campaign de votre choix.
+1. Ouvrez la carte des paramètres **[!UICONTROL de l’]** instance, puis sélectionnez l’onglet Clés **** GPG et l’instance Adobe Campaign souhaitée.
 
 1. Cliquez sur le bouton **[!UICONTROL Générer la clé]**.
 
@@ -163,3 +130,36 @@ Pour plus d’informations à ce sujet, reportez-vous à la documentation Adobe 
 
 * [Gérer des données cryptées](https://docs.adobe.com/content/help/fr-FR/campaign-standard/using/managing-processes-and-data/workflow-general-operation/importing-data.html#managing-encrypted-data)
 * [Activité Chargement de fichier](https://docs.adobe.com/content/help/fr-FR/campaign-standard/using/managing-processes-and-data/data-management-activities/load-file.html)
+
+## Surveillance des clés GPG
+
+Pour accéder aux clés GPG installées et générées pour vos instances, ouvrez la carte **[!UICONTROL Paramètres des instances]**, puis sélectionnez l&#39;onglet **[!UICONTROL Clés GPG]**.
+
+![](assets/gpg_list.png)
+
+La liste contient toutes les clés GPG de cryptage et de décryptage qui ont été installées et générées pour vos instances, avec des informations détaillées sur chaque clé :
+
+* **[!UICONTROL Nom]** : nom défini lors de l’installation ou de la génération de la clé.
+* **[!UICONTROL Cas pratique]** : cette colonne indique le cas pratique de la clé :
+
+   ![](assets/gpg_icon_encrypt.png) : la clé a été installée pour le cryptage des données.
+
+   ![](assets/gpg_icon_decrypt.png) : la clé a été générée pour permettre le décryptage des données.
+
+* **[!UICONTROL Empreinte]** : empreinte de la clé.
+* **[!UICONTROL Expire]** : date d’expiration de la clé. Remarque : le panneau de contrôle donne des indications visuelles à l’approche de sa date d’expiration :
+
+   * Urgent (rouge) s’affiche 30 jours avant.
+   * Avertissement (jaune) s’affiche 60 jours avant.
+   * Une bannière rouge « Expirée » s’affiche une fois qu’une clé arrive à expiration.
+   >[!NOTE]
+   >
+   >Aucune notification par email ne sera envoyée par le panneau de contrôle.
+
+Il est recommandé de supprimer toute clé dont vous n’avez plus besoin. Pour cela, cliquez sur le bouton **...**, puis sélectionnez **[!UICONTROL Supprimer la clé].**.
+
+![](assets/gpg_delete.png)
+
+>[!IMPORTANT]
+>
+>Avant de supprimer une clé, vérifiez qu’elle n’est utilisée dans aucun workflow Adobe Campaign pour éviter tout échec.
