@@ -1,7 +1,10 @@
 ---
 title: Documentation du produit
-translation-type: ht
-source-git-commit: f59be0be3b183dd453ba3cc8ee8c70887e65e6e3
+translation-type: tm+mt
+source-git-commit: c6e070c024df1bb7708281eff67b430e553ac258
+workflow-type: tm+mt
+source-wordcount: '122'
+ht-degree: 59%
 
 ---
 
@@ -12,17 +15,13 @@ source-git-commit: f59be0be3b183dd453ba3cc8ee8c70887e65e6e3
 
 ## Nouveautés
 
-* [Gestion des enregistrements TXT Google](subdomains-certificates/using/managing-txt-records.md)
+* [Gestion des clés GPG](instances-settings/using/gpg-keys-management.md)
 
-   Grâce au Panneau de contrôle de Campaign, vous pouvez ajouter des enregistrements de vérification de site TXT Google aux sous-domaines utilisés pour envoyer des emails aux adresses Gmail.
+   Installez et/ou générez des clés GPG sur une instance marketing, afin de chiffrer les données envoyées à partir de Campaign et de déchiffrer les données entrantes.
 
-* [Surveillance de l’espace des bases de données](performance-monitoring/using/database-monitoring.md)
+* [Gestion des certificats pour les sous-domaines](subdomains-certificates/using/renewing-subdomain-certificate.md)CNAME)
 
-   Vous pouvez afficher l’utilisation de l’espace des bases de données à la demande et au fil du temps.
-
-* [Alertes par email](performance-monitoring/using/email-alerting.md)
-
-   Vous pouvez vous connecter au Panneau de contrôle et vous abonner pour recevoir des alertes lorsque les performances de votre système risquent de se détériorer, ou si une action est nécessaire pour garantir des performances élevées.
+   Le Panneau de configuration vous permet désormais de renouveler les certificats SSL de vos sous-domaines qui ont été délégués avec la méthode CNAME.
 
 ## Ressources supplémentaires {#additional-resources}
 
