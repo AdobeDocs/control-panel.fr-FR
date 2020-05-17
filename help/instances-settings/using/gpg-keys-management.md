@@ -1,71 +1,71 @@
 ---
 title: Gestion des clés GPG
-description: Découvrez comment gérer les clés GPG pour chiffrer et déchiffrer les données dans Adobe Campaign.
+description: Découvrez comment gérer les clés GPG pour crypter et décrypter les données dans Adobe Campaign.
 translation-type: tm+mt
-source-git-commit: 110e77e00fcc0ea893fa91c3b2d3d8788216a8dd
+source-git-commit: c6e070c024df1bb7708281eff67b430e553ac258
 workflow-type: tm+mt
 source-wordcount: '1051'
-ht-degree: 3%
+ht-degree: 86%
 
 ---
 
 
 # Gestion des clés GPG {#gpg-keys-management}
 
-## A propos du chiffrement GPG {#about-gpg-encryption}
+## À propos du chiffrement GPG {#about-gpg-encryption}
 
-Le cryptage GPG vous permet de protéger vos données à l&#39;aide d&#39;un système de paires clés public-privé qui respecte la spécification [OpenPGP](https://www.openpgp.org/about/standard/) .
+Le cryptage GPG permet de protéger vos données à l’aide d’un système de paires de clés publique-privée qui respectent la spécification [OpenPGP](https://www.openpgp.org/about/standard/).
 
-Une fois implémentées, les données entrantes peuvent être déchiffrées et les données sortantes chiffrées avant le transfert, afin de vous assurer qu’elles ne seront accessibles à personne sans une paire de clés correspondante valide.
+Une fois ce système mis en œuvre, les données entrantes peuvent être décryptées et les données sortantes cryptées avant le transfert, afin qu’elles ne soient accessibles à personne sans une paire de clés correspondante valide.
 
-Pour mettre en oeuvre le chiffrement GPG avec Campaign, les clés GPG doivent être installées et/ou générées sur une instance marketing par un utilisateur administrateur directement à partir du Panneau de configuration.
+Pour mettre en œuvre le cryptage GPG avec Campaign, les clés GPG doivent être installées et/ou générées sur une instance marketing par un utilisateur administrateur directement à partir du panneau de contrôle.
 
-Vous pourrez alors :
+Vous pourrez alors :
 
-* **Chiffrer les données** envoyées : Adobe Campaign envoie les données après les avoir chiffrées avec la clé publique installée.
+* **Crypter les données envoyées** : Adobe Campaign envoie les données après les avoir cryptées avec la clé publique installée.
 
-* **Décrypter les données** entrantes : Adobe Campaign reçoit des données chiffrées à partir d’un système externe à l’aide d’une clé publique téléchargée à partir du Panneau de configuration. Adobe Campaign décrypte les données à l’aide d’une clé privée générée à partir du Panneau de configuration.
+* **Décrypter les données entrantes** : Adobe Campaign reçoit des données cryptées à partir d’un système externe à l’aide d’une clé publique téléchargée à partir du panneau de contrôle. Adobe Campaign décrypte les données à l’aide d’une clé privée générée à partir du panneau de contrôle.
 
-## Surveillance des clés GPG
+## Surveillance des clés GPG
 
-Pour accéder aux clés GPG installées et générées pour vos instances, ouvrez la carte des paramètres **[!UICONTROL de l&#39;]** instance, puis sélectionnez l&#39;onglet **[!UICONTROL GPG keys]** .
+Pour accéder aux clés GPG installées et générées pour vos instances, ouvrez la carte **[!UICONTROL Paramètres des instances]**, puis sélectionnez l&#39;onglet **[!UICONTROL Clés GPG]**.
 
 ![](assets/gpg_list.png)
 
-La liste affiche toutes les clés GPG de chiffrement et de déchiffrement qui ont été installées et générées pour vos instances avec des informations détaillées sur chaque clé :
+La liste contient toutes les clés GPG de cryptage et de décryptage qui ont été installées et générées pour vos instances, avec des informations détaillées sur chaque clé :
 
-* **[!UICONTROL Nom]**: Nom défini lors de l’installation ou de la génération de la clé.
-* **[!UICONTROL Cas]** d’utilisation : Cette colonne spécifie la casse d’utilisation de la clé :
+* **[!UICONTROL Nom]** : nom défini lors de l’installation ou de la génération de la clé.
+* **[!UICONTROL Cas pratique]** : cette colonne indique le cas pratique de la clé :
 
-   ![](assets/gpg_icon_encrypt.png): La clé a été installée pour le chiffrement des données.
+   ![](assets/gpg_icon_encrypt.png) : la clé a été installée pour le cryptage des données.
 
-   ![](assets/gpg_icon_decrypt.png): La clé a été générée pour permettre le déchiffrement des données.
+   ![](assets/gpg_icon_decrypt.png) : la clé a été générée pour permettre le décryptage des données.
 
-* **[!UICONTROL Empreinte digitale]**: l&#39;empreinte de la clé.
-* **[!UICONTROL Expires]**: Date d&#39;expiration de la clé. Notez que le Panneau de configuration fournira des indications visuelles à l&#39;approche de sa date d&#39;expiration :
+* **[!UICONTROL Empreinte]** : empreinte de la clé.
+* **[!UICONTROL Expire]** : date d’expiration de la clé. Remarque : le panneau de contrôle donne des indications visuelles à l’approche de sa date d’expiration :
 
-   * Urgent (rouge) s’affiche 30 jours avant.
-   * L’avertissement (jaune) s’affiche 60 jours auparavant.
-   * Une bannière rouge &quot;Expiré&quot; s’affiche une fois qu’une clé arrive à expiration.
+   * Urgent (rouge) s’affiche 30 jours avant.
+   * Avertissement (jaune) s’affiche 60 jours avant.
+   * Une bannière rouge « Expirée » s’affiche une fois qu’une clé arrive à expiration.
    >[!NOTE]
    >
-   >Notez qu’aucune notification par courrier électronique ne sera envoyée par le Panneau de configuration.
+   >Aucune notification par email ne sera envoyée par le panneau de contrôle.
 
-Il est recommandé de supprimer toute clé dont vous n’avez plus besoin. Pour ce faire, cliquez sur le bouton **..** , puis sélectionnez **[!UICONTROL Supprimer la clé].**.
+Il est recommandé de supprimer toute clé dont vous n’avez plus besoin. Pour cela, cliquez sur le bouton **...**, puis sélectionnez **[!UICONTROL Supprimer la clé].**.
 
 ![](assets/gpg_delete.png)
 
 >[!IMPORTANT]
 >
->Avant de supprimer une clé, assurez-vous qu’elle n’est utilisée dans aucun processus Adobe Campaign pour éviter qu’elle ne s’effondre.
+>Avant de supprimer une clé, vérifiez qu’elle n’est utilisée dans aucun workflow Adobe Campaign pour éviter tout échec.
 
-## Chiffrement des données {#encrypting-data}
+## Cryptage des données {#encrypting-data}
 
-Le Panneau de configuration vous permet de chiffrer les données provenant de votre instance Adobe Campaign.
+Le panneau de contrôle permet de crypter les données provenant de votre instance Adobe Campaign.
 
-Pour ce faire, vous devez générer une paire de clés GPG à partir d&#39;un outil de chiffrement PGP, puis installer la clé publique dans le Panneau de configuration. Vous pourrez alors chiffrer les données avant de les envoyer à partir de votre instance. Pour ce faire, procédez comme suit :
+Pour cela, vous devez générer une paire de clés GPG à partir d’un outil de cryptage PGP, puis installer la clé publique dans le panneau de contrôle. Vous pourrez alors crypter les données avant de les envoyer depuis votre instance. Pour ce faire, procédez comme suit :
 
-1. Générez une paire de clés publique/privée à l&#39;aide d&#39;un outil de chiffrement GPG après la spécification [](https://www.openpgp.org/about/standard/)OpenPGP. Pour ce faire, installez un utilitaire GPG ou un logiciel GNuGP.
+1. Générez une paire de clés publique/privée à l’aide d’un outil de cryptage GPG suivant la [spécification OpenPGP](https://www.openpgp.org/about/standard/). Pour ce faire, installez un utilitaire GPG ou un logiciel GNuGP.
 
    >[!NOTE]
    >
@@ -75,27 +75,27 @@ Pour ce faire, vous devez générer une paire de clés GPG à partir d&#39;un ou
 
    `gpg --full-generate-key`
 
-1. Lorsque vous y êtes invité, spécifiez les paramètres de votre clé. Les paramètres requis sont les suivants :
+1. Lorsque vous y êtes invité, spécifiez les paramètres de votre clé. Les paramètres requis sont les suivants :
 
-   * **type** de clé : RSA
-   * **longueur** de clé : 1 024 à 4 096 bits
-   * **nom** réel et adresse ****&#x200B;électronique : Permet de suivre qui a créé la paire de clés. Entrez un nom et une adresse électronique liés à votre organisation ou votre service.
-   * **commentaire**: l’ajout d’une étiquette au champ de commentaire vous permet d’identifier facilement la clé dans la liste des clés du Panneau de configuration.
-   * **expiration**: Date ou &quot;0&quot; sans date d’expiration.
-   * **phrase secrète**
-   ![](assets/gpg_command.png)
+   * **type de clé** : RSA
+   * **longueur de clé** : 1 024 à 4 096 bits
+   * **nom réel** et **adresse email** : permet de suivre qui a créé la paire de clés. Entrez un nom et une adresse email associés à votre organisation ou votre service.
+   * **commentaire** : l’ajout d’un libellé au champ de commentaire permet d’identifier facilement la clé dans la liste des clés du panneau de contrôle.
+   * **Expiration** : date ou « 0 » pour aucune date d’expiration.
+   * **mot de passe**
+   ![](assets/do-not-localize/gpg_command.png)
 
-1. Une fois confirmé, le script génère une clé que vous pouvez exporter dans un fichier ou coller directement dans le Panneau de configuration. Pour exporter le fichier, exécutez cette commande suivie de l&#39;empreinte de la clé que vous avez générée.
+1. Une fois confirmé, le script génère une clé que vous pouvez exporter dans un fichier ou coller directement dans le panneau de contrôle. Pour exporter le fichier, exécutez cette commande suivie de l&#39;empreinte de la clé que vous avez générée.
 
    `gpg -a --export <fingerprint>`
 
-1. Pour installer la clé publique dans le Panneau de configuration, accédez à l&#39;onglet Clés **** GPG, puis sélectionnez l&#39;instance de votre choix.
+1. Pour installer la clé publique dans le Panneau de configuration, accédez à l&#39;onglet **[!UICONTROL Clés GPG]**, puis sélectionnez l’instance de votre choix.
 
-1. Cliquez sur le bouton **[!UICONTROL Installer la clé]** .
+1. Cliquez sur le bouton **[!UICONTROL Installer la clé]**.
 
    ![](assets/gpg_install_button.png)
 
-1. Collez la clé publique qui a été générée à partir de votre outil de chiffrement PGP. Vous pouvez également faire glisser directement le fichier de clé publique.
+1. Collez la clé publique qui a été générée à partir de votre outil de cryptage PGP. Vous pouvez également effectuer directement un glisser-déposer du fichier de clé publique.
 
    >[!NOTE]
    >
@@ -103,63 +103,63 @@ Pour ce faire, vous devez générer une paire de clés GPG à partir d&#39;un ou
 
    ![](assets/gpg_install_paste.png)
 
-1. Cliquez sur le bouton **[!UICONTROL Installer la clé]** .
+1. Cliquez sur le bouton **[!UICONTROL Installer la clé]**.
 
-Une fois la clé publique installée, elle s’affiche dans la liste. Vous pouvez utiliser le **...** bouton pour le télécharger ou copier son empreinte digitale.
+Une fois la clé publique installée, elle apparaît dans la liste. You can use the **...** button to download it or copy its fingerprint.
 
 ![](assets/gpg_install_download.png)
 
-La clé est ensuite disponible pour utilisation dans les workflows Adobe Campaign. Vous pouvez l’utiliser pour chiffrer des données lors de l’utilisation d’activités d’extraction de données.
+La clé peut être ensuite utilisée dans les workflows Adobe Campaign. Vous pouvez l’utiliser pour crypter des données lors de l’utilisation d’activités d’extraction de données.
 
 Pour plus d’informations à ce sujet, reportez-vous à la documentation Adobe Campaign :
 
 **Campaign Classic:**
 
-* [Compresser ou chiffrer un fichier](https://docs.adobe.com/content/help/en/campaign-classic/using/automating-with-workflows/general-operation/how-to-use-workflow-data.html#zipping-or-encrypting-a-file)
-* [activité d’extraction de données (fichier)](https://docs.adobe.com/content/help/en/campaign-classic/using/automating-with-workflows/action-activities/extraction--file-.html)
+* [Compresser ou crypter un fichier](https://docs.adobe.com/content/help/fr-FR/campaign-classic/using/automating-with-workflows/general-operation/how-to-use-workflow-data.html#zipping-or-encrypting-a-file)
+* [Activité Extraction des données (fichier)](https://docs.adobe.com/content/help/fr-FR/campaign-classic/using/automating-with-workflows/action-activities/extraction--file-.html)
 
 **Campaign Standard:**
 
-* [Gérer des données cryptées](https://docs.adobe.com/content/help/en/campaign-standard/using/managing-processes-and-data/workflow-general-operation/importing-data.html#managing-encrypted-data)
-* [Activité Extraction de fichier](https://docs.adobe.com/content/help/en/campaign-standard/using/managing-processes-and-data/data-management-activities/extract-file.html)
+* [Gérer des données cryptées](https://docs.adobe.com/content/help/fr-FR/campaign-standard/using/managing-processes-and-data/workflow-general-operation/importing-data.html#managing-encrypted-data)
+* [Activité Extraction de fichier](https://docs.adobe.com/content/help/fr-FR/campaign-standard/using/managing-processes-and-data/data-management-activities/extract-file.html)
 
-## Décryptage des données {#decrypting-data}
+## Décrypter des données {#decrypting-data}
 
-Le Panneau de configuration vous permet de déchiffrer des données externes provenant de vos instances Adobe Campaign.
+Le panneau de contrôle permet de décrypter des données externes entrant dans vos instances Adobe Campaign.
 
-Pour ce faire, vous devez générer une paire de clés GPG directement à partir du Panneau de configuration.
+Pour cela, vous devez générer une paire de clés GPG directement à partir du panneau de contrôle.
 
-* La clé **** publique sera partagée avec le système externe, qui l&#39;utilisera pour chiffrer les données à envoyer à Campaign.
-* Campaign utilisera la clé **** privée pour déchiffrer les données chiffrées entrantes.
+* La **clé publique** sera partagée avec le système externe. Ce dernier l’utilisera pour crypter les données à envoyer à Campaign.
+* Campaign utilisera la **clé privée** pour décrypter les données cryptées entrantes.
 
-Pour générer une paire de clés dans le Panneau de configuration, procédez comme suit :
+Pour générer une paire de clés dans le panneau de contrôle, procédez comme suit :
 
-1. Accédez à l&#39;onglet Clés **** GPG, puis sélectionnez l&#39;instance Adobe Campaign de votre choix.
+1. Accédez à l&#39;onglet **[!UICONTROL Clés GPG]**, puis sélectionnez l’instance Adobe Campaign de votre choix.
 
-1. Cliquez sur le bouton **[!UICONTROL Générer une clé]** .
+1. Cliquez sur le bouton **[!UICONTROL Générer la clé]**.
 
    ![](assets/gpg_generate.png)
 
-1. Indiquez le nom de la clé, puis cliquez sur **!UICONTROL Générer la clé]**. Ce nom vous aidera à identifier la clé à utiliser pour le déchiffrement dans les Workflows de campagne
+1. Indiquez le nom de la clé, puis cliquez sur **!UICONTROL Générer la clé&#x200B;**. Ce nom vous permettra d’identifier la clé à utiliser pour le décryptage dans les workflows de Campaign.
 
    ![](assets/gpg_generate_name.png)
 
-Une fois la paire de clés générée, la clé publique s’affiche dans la liste. Notez que les paires de clés de déchiffrement sont générées sans date d’expiration.
+Une fois la paire de clés générée, la clé publique apparaît dans la liste. Notez que les paires de clés de décryptage sont générées sans date d’expiration.
 
-Vous pouvez utiliser le **...** bouton pour télécharger la clé publique ou copier son empreinte digitale.
+You can use the **...** button to download the public key or copy its fingerprint.
 
 ![](assets/gpg_generate_list.png)
 
-La clé publique est alors disponible pour être partagée avec tout système externe. Adobe Campaign pourra utiliser la clé privée dans les activités de chargement de données pour déchiffrer les données chiffrées à l’aide de la clé publique.
+La clé publique peut être alors partagée avec tout système externe. Adobe Campaign pourra utiliser la clé privée dans les activités de chargement de données pour déchiffrer les données chiffrées à l’aide de la clé publique.
 
 Pour plus d’informations à ce sujet, reportez-vous à la documentation Adobe Campaign :
 
 **Campaign Classic:**
 
-* [Décompresser ou déchiffrer un fichier avant traitement](https://docs.adobe.com/content/help/en/campaign-classic/using/automating-with-workflows/general-operation/importing-data.html#unzipping-or-decrypting-a-file-before-processing)
-* [activité de chargement de données (fichier)](https://docs.adobe.com/content/help/en/campaign-classic/using/automating-with-workflows/action-activities/data-loading--file-.html)
+* [Décompresser ou décrypter un fichier avant traitement](https://docs.adobe.com/content/help/fr-FR/campaign-classic/using/automating-with-workflows/general-operation/importing-data.html#unzipping-or-decrypting-a-file-before-processing)
+* [Activité Chargement (fichier)](https://docs.adobe.com/content/help/fr-FR/campaign-classic/using/automating-with-workflows/action-activities/data-loading--file-.html)
 
 **Campaign Standard:**
 
-* [Gérer des données cryptées](https://docs.adobe.com/content/help/en/campaign-standard/using/managing-processes-and-data/workflow-general-operation/importing-data.html#managing-encrypted-data)
-* [Activité Chargement de fichier](https://docs.adobe.com/content/help/en/campaign-standard/using/managing-processes-and-data/data-management-activities/load-file.html)
+* [Gérer des données cryptées](https://docs.adobe.com/content/help/fr-FR/campaign-standard/using/managing-processes-and-data/workflow-general-operation/importing-data.html#managing-encrypted-data)
+* [Activité Chargement de fichier](https://docs.adobe.com/content/help/fr-FR/campaign-standard/using/managing-processes-and-data/data-management-activities/load-file.html)
