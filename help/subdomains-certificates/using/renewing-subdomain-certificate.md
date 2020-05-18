@@ -2,7 +2,10 @@
 title: Renouvellement du certificat SSL d’un sous-domaine
 description: Découvrez comment renouveler les certificats SSL de vos sous-domaines
 translation-type: tm+mt
-source-git-commit: f08b0e68cf0a208b1385052510c06ca1eb679e63
+source-git-commit: bc29433167d4699ad9b840381abd0d5bbff8c630
+workflow-type: tm+mt
+source-wordcount: '865'
+ht-degree: 90%
 
 ---
 
@@ -31,10 +34,6 @@ Une fois la demande de signature de certificat générée, vous pouvez la télé
 1. **Installation du certificat SSL**
 Une fois le certificat SSL acheté, vous pouvez l’installer sur le sous-domaine souhaité.
 
->[!NOTE]
->
->Le renouvellement des certificats SSL depuis le panneau de contrôle est disponible uniquement pour les **sous-domaines entièrement délégués**.
-
 ## Génération d’une demande de signature de certificat (CSR) {#generating-csr}
 
 >[!CONTEXTUALHELP]
@@ -55,7 +54,7 @@ Pour générer une demande de signature de certificat (CSR), procédez comme sui
 
    ![](assets/renewal1.png)
 
-1. Sélectionnez **[!UICONTROL Générer une demande de signature de certificat]**, puis cliquez sur **[!UICONTROL Suivant]** pour lancer l’assistant qui vous guidera tout au long du processus de génération de la demande de signature de certificat.
+1. Select **[!UICONTROL 1 - Generate a CSR]**, then click **[!UICONTROL Next]** to launch the wizard that will guide you through the CSR generation process.
 
    ![](assets/renewal2.png)
 
@@ -120,7 +119,7 @@ Pour installer le certificat, procédez comme suit :
 
    ![](assets/renewal1.png)
 
-1. Cliquez sur **[!UICONTROL Installer un certificat SSL]**, puis sur **[!UICONTROL Suivant]** pour lancer l’assistant qui vous guidera tout au long du processus d’installation du certificat.
+1. Select **[!UICONTROL 3 - Install Certificate Bundle]**, then click **[!UICONTROL Next]** to launch the wizard that will guide you through the certificate installation process.
 
    ![](assets/install1.png)
 
