@@ -1,10 +1,10 @@
 ---
 title: Versions du Panneau de contrôle
 translation-type: tm+mt
-source-git-commit: 032a4bd28b7f246771b3f246768fca083afe487b
+source-git-commit: 49d84c42446ed1fc996b9d57005565b15ca24e77
 workflow-type: tm+mt
-source-wordcount: '401'
-ht-degree: 65%
+source-wordcount: '423'
+ht-degree: 61%
 
 ---
 
@@ -21,7 +21,7 @@ Vous trouverez ici des informations sur les dernières versions du Panneau de co
 
 **Gestion des clés GPG**
 
-Installez et/ou générez des clés GPG sur une instance marketing, afin de chiffrer les données envoyées à partir de Campaign et de déchiffrer les données entrantes. [En savoir plus](instances-settings/using/gpg-keys-management.md)
+Le Panneau de configuration vous permet désormais de générer une paire de clés GPG, afin que vous puissiez facilement déchiffrer les données arrivant à Campaign de l&#39;extérieur. En outre, nous avons ajouté une fonctionnalité permettant d&#39;installer une clé GPG publique pour chiffrer les données en quittant Campaign. [En savoir plus](instances-settings/using/gpg-keys-management.md)
 
 **Gestion des certificats pour les sous-domaines CNAME**
 
