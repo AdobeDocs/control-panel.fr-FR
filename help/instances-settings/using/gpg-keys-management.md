@@ -2,10 +2,10 @@
 title: Gestion des clés GPG
 description: Découvrez comment gérer les clés GPG pour crypter et décrypter les données dans Adobe Campaign.
 translation-type: tm+mt
-source-git-commit: f0e9c7df9b6213f7a6fe81e3cf2e3f9d3355817c
+source-git-commit: f1cb8e26188cd7f3849fe26322943263f76af7e2
 workflow-type: tm+mt
 source-wordcount: '1061'
-ht-degree: 82%
+ht-degree: 81%
 
 ---
 
@@ -32,7 +32,7 @@ Le panneau de contrôle permet de crypter les données provenant de votre instan
 
 Pour cela, vous devez générer une paire de clés GPG à partir d’un outil de cryptage PGP, puis installer la clé publique dans le panneau de contrôle. Vous pourrez alors crypter les données avant de les envoyer depuis votre instance. Pour ce faire, procédez comme suit :
 
-1. Générez une paire de clés publique/privée à l’aide d’un outil de cryptage GPG suivant la [spécification OpenPGP](https://www.openpgp.org/about/standard/). Pour ce faire, installez un utilitaire GPG ou un logiciel GNuGP.
+1. Generate a public/private key pair using a GPG encryption tool following the [OpenPGP specification](https://www.openpgp.org/about/standard/). Pour ce faire, installez un utilitaire GPG ou un logiciel GNuGP.
 
    >[!NOTE]
    >
