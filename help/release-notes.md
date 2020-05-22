@@ -1,10 +1,10 @@
 ---
 title: Versions du Panneau de contrôle
 translation-type: tm+mt
-source-git-commit: 49d84c42446ed1fc996b9d57005565b15ca24e77
+source-git-commit: 98f2fa0b3e943026bda28b615f0f11db54c404a6
 workflow-type: tm+mt
-source-wordcount: '423'
-ht-degree: 61%
+source-wordcount: '373'
+ht-degree: 100%
 
 ---
 
@@ -15,17 +15,13 @@ Vous trouverez ici des informations sur les dernières versions du Panneau de co
 
 >[!NOTE]
 >
->Veuillez noter que le Panneau de configuration est disponible pour les clients hébergés sur AWS uniquement, à l’exception des environnements hybrides qui ne sont pas encore pris en charge. Aucune mise à niveau n’est requise pour accéder au panneau de contrôle. Vérifiez que vous êtes un utilisateur administrateur pour y accéder.
+>Veuillez noter que le Panneau de contrôle est disponible pour les clients hébergés sur AWS uniquement, à l’exception des environnements hybrides, qui ne sont pas encore pris en charge. Aucune mise à niveau n’est requise pour accéder au panneau de contrôle. Vérifiez que vous êtes un utilisateur administrateur pour y accéder.
 
-## Mai 2020 (#mai-2020)
-
-**Gestion des clés GPG**
-
-Le Panneau de configuration vous permet désormais de générer une paire de clés GPG, afin que vous puissiez facilement déchiffrer les données arrivant à Campaign de l&#39;extérieur. En outre, nous avons ajouté une fonctionnalité permettant d&#39;installer une clé GPG publique pour chiffrer les données en quittant Campaign. [En savoir plus](instances-settings/using/gpg-keys-management.md)
+## Mai 2020 (#mai-2020)
 
 **Gestion des certificats pour les sous-domaines CNAME**
 
-Le Panneau de configuration vous permet désormais de renouveler les certificats SSL de vos sous-domaines qui ont été délégués avec la méthode CNAME. [En savoir plus](subdomains-certificates/using/renewing-subdomain-certificate.md)
+Le Panneau de contrôle permet maintenant de renouveler les certificats SSL de vos sous-domaines qui ont été délégués avec la méthode CNAME. [En savoir plus](subdomains-certificates/using/renewing-subdomain-certificate.md)
 
 ## Avril 2020 {#april-2020}
 
@@ -35,11 +31,11 @@ Grâce au Panneau de contrôle de Campaign, vous pouvez ajouter des enregistreme
 
 **Surveillance de l’espace des bases de données**
 
-Le Panneau de configuration Campaign est doté de fonctionnalités de surveillance de base de données, ce qui vous permet de vue à la demande et au fil du temps l’utilisation de l’espace de base de données. [En savoir plus](performance-monitoring/using/database-monitoring.md)
+Le Panneau de contrôle de Campaign dispose de fonctionnalités de surveillance des bases de données, ce qui vous permet d’afficher l’utilisation de l’espace des bases de données à la demande et au fil du temps. [En savoir plus](performance-monitoring/using/database-monitoring.md)
 
 **Alertes par email**
 
-Le Panneau de configuration Campaign est doté de fonctions d&#39;alerte par courriel en temps réel, ce qui vous permet de vous connecter au Panneau de configuration et de vous inscrire pour recevoir des alertes lorsque votre système risque de se détériorer, ou une action est nécessaire pour garantir des performances élevées pour l&#39;avenir. [En savoir plus](performance-monitoring/using/email-alerting.md)
+Le Panneau de contrôle de Campaign dispose de fonctionnalités d’alerte par email en temps réel. Une fois connecté au Panneau de contrôle, vous pouvez vous abonner pour recevoir des alertes lorsque les performances de votre système risquent de se détériorer, ou si une action est nécessaire pour garantir des performances élevées. [En savoir plus](performance-monitoring/using/email-alerting.md)
 
 ## Janvier 2020 {#january-2020}
 
