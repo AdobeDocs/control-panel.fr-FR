@@ -3,10 +3,10 @@ product: adobe campaign
 sub-product: panneau de contrôle
 audience: end-user
 user-guide-title: Aide du panneau de contrôle
-translation-type: ht
-source-git-commit: 22f84071d825004b8a8aaf32cc9c1579476ee1de
-workflow-type: ht
-source-wordcount: '97'
+translation-type: tm+mt
+source-git-commit: 98f2fa0b3e943026bda28b615f0f11db54c404a6
+workflow-type: tm+mt
+source-wordcount: '94'
 ht-degree: 100%
 
 ---
@@ -43,5 +43,4 @@ ht-degree: 100%
    + [Mise en whiteliste d’adresses IP pour l’accès aux instances](instances-settings/using/ip-whitelisting-instance-access.md)
    + [Autorisations d’URL](instances-settings/using/url-permissions.md)
    + [Détails de l’instance](instances-settings/using/instance-details.md)
-   + [Gestion des clés GPG](instances-settings/using/gpg-keys-management.md)
 + [FAQ](faq.md)
