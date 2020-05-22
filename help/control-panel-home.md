@@ -1,10 +1,10 @@
 ---
 title: Documentation du produit
 translation-type: tm+mt
-source-git-commit: c6e070c024df1bb7708281eff67b430e553ac258
+source-git-commit: 98f2fa0b3e943026bda28b615f0f11db54c404a6
 workflow-type: tm+mt
-source-wordcount: '122'
-ht-degree: 59%
+source-wordcount: '96'
+ht-degree: 100%
 
 ---
 
@@ -15,13 +15,9 @@ ht-degree: 59%
 
 ## Nouveautés
 
-* [Gestion des clés GPG](instances-settings/using/gpg-keys-management.md)
+* [Gestion des certificats pour les sous-domaines CNAME](subdomains-certificates/using/renewing-subdomain-certificate.md))
 
-   Installez et/ou générez des clés GPG sur une instance marketing, afin de chiffrer les données envoyées à partir de Campaign et de déchiffrer les données entrantes.
-
-* [Gestion des certificats pour les sous-domaines](subdomains-certificates/using/renewing-subdomain-certificate.md)CNAME)
-
-   Le Panneau de configuration vous permet désormais de renouveler les certificats SSL de vos sous-domaines qui ont été délégués avec la méthode CNAME.
+   Le Panneau de contrôle permet maintenant de renouveler les certificats SSL de vos sous-domaines qui ont été délégués avec la méthode CNAME.
 
 ## Ressources supplémentaires {#additional-resources}
 
