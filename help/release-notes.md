@@ -1,9 +1,9 @@
 ---
 title: Versions du Panneau de contrôle
-translation-type: tm+mt
-source-git-commit: 98f2fa0b3e943026bda28b615f0f11db54c404a6
-workflow-type: tm+mt
-source-wordcount: '373'
+translation-type: ht
+source-git-commit: ef0a3ccdec2aec6f220a93ab474242df2d3a621b
+workflow-type: ht
+source-wordcount: '372'
 ht-degree: 100%
 
 ---
@@ -17,7 +17,7 @@ Vous trouverez ici des informations sur les dernières versions du Panneau de co
 >
 >Veuillez noter que le Panneau de contrôle est disponible pour les clients hébergés sur AWS uniquement, à l’exception des environnements hybrides, qui ne sont pas encore pris en charge. Aucune mise à niveau n’est requise pour accéder au panneau de contrôle. Vérifiez que vous êtes un utilisateur administrateur pour y accéder.
 
-## Mai 2020 (#mai-2020)
+## Mai 2020 {#may-2020}
 
 **Gestion des certificats pour les sous-domaines CNAME**
 
@@ -62,7 +62,7 @@ Pour plus d’informations, consultez la [documentation dédiée](instances-sett
 
 ## Août 2019 {#august-2019}
 
-De nouvelles fonctionnalités ont été ajoutées pour les utilisateurs administrateurs qui peuvent maintenant recevoir des notifications avant l’expiration des certificats SSL de leurs domaines. Pour plus d&#39;informations, consultez la [documentation détaillée](subdomains-certificates/using/monitoring-ssl-certificates.md).
+De nouvelles fonctionnalités ont été ajoutées pour les utilisateurs administrateurs qui peuvent maintenant recevoir des notifications avant l’expiration des certificats SSL de leurs domaines. Pour plus d’informations, consultez la [documentation détaillée](subdomains-certificates/using/monitoring-ssl-certificates.md).
 
 De plus, les utilisateurs Admin peuvent maintenant supprimer les clés SSH qui ont été ajoutées pour accéder aux serveurs SFTP.
 
@@ -70,4 +70,4 @@ De plus, les utilisateurs Admin peuvent maintenant supprimer les clés SSH qui o
 
 De nouvelles fonctionnalités ont été ajoutées pour permettre aux utilisateurs administrateurs de mieux contrôler les paramètres des instances Campaign Classic. Les nouvelles fonctionnalités du Panneau de contrôle comprennent la possibilité d’ajouter des URL auxquelles Adobe Campaign se connecte pour les transferts de données/fichiers.
 
-Pour plus d&#39;informations, consultez la [documentation détaillée](instances-settings/using/url-permissions.md).
+Pour plus d’informations, consultez la [documentation détaillée](instances-settings/using/url-permissions.md).
