@@ -1,8 +1,8 @@
 ---
 title: Documentation du produit
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 941bf59ab345e685c37114ac21359e8f5310684d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '96'
 ht-degree: 100%
 
