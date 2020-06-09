@@ -2,7 +2,10 @@
 title: Gestion des clés
 description: Découvrez comment gérer les clés pour établir une connexion aux serveurs SFTP
 translation-type: tm+mt
-source-git-commit: a2c19296894ff893987290cb287dc7002ab999e5
+source-git-commit: 197b3fc6726ccd12f59f85d021a5abf56535386c
+workflow-type: tm+mt
+source-wordcount: '604'
+ht-degree: 96%
 
 ---
 
@@ -45,7 +48,7 @@ Dans de très rares cas, l’authentification par mot de passe est activée sur 
 
 >[!CONTEXTUALHELP]
 >id="cp_sftp_publickey_add"
->title="Ajouter nouvelle clé publique"
+>title="Ajouter une nouvelle clé publique"
 >abstract="Ajoutez une clé publique pour une instance."
 
 >[!IMPORTANT]
@@ -75,10 +78,11 @@ Dans de très rares cas, l’authentification par mot de passe est activée sur 
    **Linux et Mac :**
 
    Utilisez le terminal pour générer une paire de clés publique et privée :
-   1. Saisissez cette commande : `ssh-keygen -t rsa -C <your_email@example.com>`.
+   1. Saisissez cette commande : `ssh-keygen -m pem -t rsa -b 2048 -C "your_email@example.com"`.
    1. Attribuez un nom à votre clé lorsque vous y êtes invité. Si le répertoire .ssh n’existe pas, le système en créera un pour vous.
    1. Saisissez à deux reprises un mot de passe lorsque vous y êtes invité. Il peut également être laissé vide.
    1. Une paire de clés « name » et « name.pub » est créée par le système. Recherchez le fichier « name.pub », puis ouvrez-le. Il doit comporter une chaîne alphanumérique se terminant par l’adresse email que vous avez spécifiée.
+
    **Windows :**
 
    Il se peut que vous deviez installer un outil tiers qui vous aidera à générer une paire de clés privée/publique au même format « name.pub ».
