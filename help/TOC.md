@@ -3,11 +3,11 @@ product: adobe campaign
 sub-product: panneau de contrôle
 audience: end-user
 user-guide-title: Aide du panneau de contrôle
-translation-type: ht
-source-git-commit: 98f2fa0b3e943026bda28b615f0f11db54c404a6
-workflow-type: ht
-source-wordcount: '94'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: b2447b30314f4bd46b2b6e144f7f713ff2f1ec59
+workflow-type: tm+mt
+source-wordcount: '97'
+ht-degree: 96%
 
 ---
 
@@ -38,6 +38,7 @@ ht-degree: 100%
 + Surveillance des performances {#performance-monitoring}
    + [À propos de la surveillance des performances](performance-monitoring/using/about-performance-monitoring.md)
    + [Surveillance des bases de données](performance-monitoring/using/database-monitoring.md)
+   + [Surveillance active des profils](performance-monitoring/using/active-profiles-monitoring.md)
    + [Alertes par email](performance-monitoring/using/email-alerting.md)
 + Paramètres des instances (Campaign Classic) {#instances-settings}
    + [Mise en whiteliste d’adresses IP pour l’accès aux instances](instances-settings/using/ip-whitelisting-instance-access.md)
