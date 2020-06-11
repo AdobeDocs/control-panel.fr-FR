@@ -1,11 +1,11 @@
 ---
 title: Accès au panneau de contrôle
 description: Découvrez comment accéder au panneau de contrôle
-translation-type: ht
-source-git-commit: 7bde86a86fbd128f4eb7bf029e58b0f95964390b
-workflow-type: ht
-source-wordcount: '274'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 3752494c9de9de3ccb4d8dc29853d2c20df89062
+workflow-type: tm+mt
+source-wordcount: '289'
+ht-degree: 91%
 
 ---
 
@@ -51,7 +51,12 @@ Principaux avantages :
     <td>
         <a href="../../instances-settings/using/ip-whitelisting-instance-access.md"><img alt="conditions" src="assets/do-not-localize/instance_settings.png"/></a>
         <div><a href="../../instances-settings/using/ip-whitelisting-instance-access.md"><strong>Gestion des paramètres des instances</strong></a></div>
-        <br/><em>Découvrez comment gérer les paramètres des instances (Campaign Classic uniquement).</em>
+        <br/><em>Découvrez comment gérer les paramètres de vos instances (Campaign Classic uniquement).</em>
+    </td>
+    <td>
+        <a href="../../performance-monitoring/using/about-performance-monitoring.md"><img alt="conditions" src="assets/do-not-localize/monitoring-performance.png"/></a>
+        <div><a href="../../performance-monitoring/using/about-performance-monitoring.md"><strong>Performances d'analyse</strong></a></div>
+        <br/><em>Découvrez comment surveiller l'utilisation des ressources clés sur vos instances.</em>
     </td>
 </tr>
 </table>
