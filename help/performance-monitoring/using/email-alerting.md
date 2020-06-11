@@ -2,14 +2,15 @@
 title: Alertes par email
 description: Découvrez comment recevoir des notifications par email en cas de problèmes liés à vos instances Campaign
 translation-type: tm+mt
-source-git-commit: e5646fdccd47b4180fd0f9d561f61c04cd515c01
+source-git-commit: e2ee8badd9fffdfadabbe6c659aef8504ee62e9d
+workflow-type: tm+mt
+source-wordcount: '169'
+ht-degree: 100%
 
 ---
 
 
 # Alertes par email {#email-alerting}
-
-## À propos des alertes par email {#about-email-alerts}
 
 Pour apporter davantage de flexibilité à votre travail, le panneau de contrôle possède une fonctionnalité d’alerte par email en temps réel.
 
