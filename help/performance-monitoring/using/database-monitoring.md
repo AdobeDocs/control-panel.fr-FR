@@ -1,14 +1,16 @@
 ---
 title: Surveillance des bases de données
 description: Découvrez comment surveiller les performances de votre base de données Campaign dans le Panneau de contrôle
-translation-type: ht
-source-git-commit: e5646fdccd47b4180fd0f9d561f61c04cd515c01
+translation-type: tm+mt
+source-git-commit: b2447b30314f4bd46b2b6e144f7f713ff2f1ec59
+workflow-type: tm+mt
+source-wordcount: '450'
+ht-degree: 100%
 
 ---
 
 
 # Surveillance des bases de données {#database-monitoring}
-
 
 ## À propos des bases de données d’instances {#about-instances-databases}
 
