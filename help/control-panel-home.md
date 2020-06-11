@@ -1,10 +1,10 @@
 ---
 title: Documentation du produit
-translation-type: ht
-source-git-commit: 941bf59ab345e685c37114ac21359e8f5310684d
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 8c1bf6fbd36d12ff498f7316f764fda24a9b4fc9
+workflow-type: tm+mt
 source-wordcount: '96'
-ht-degree: 100%
+ht-degree: 72%
 
 ---
 
@@ -15,9 +15,9 @@ ht-degree: 100%
 
 ## Nouveautés
 
-[Gestion des certificats pour les sous-domaines CNAME](subdomains-certificates/using/renewing-subdomain-certificate.md)
+[Surveillance active des profils](performance-monitoring/using/active-profiles-monitoring.md)
 
-Le Panneau de contrôle permet maintenant de renouveler les certificats SSL de vos sous-domaines qui ont été délégués avec la méthode CNAME.
+Le Panneau de configuration vous permet désormais de contrôler le nombre de profils actifs utilisés par vos instances et comptabilisés à des fins de facturation.
 
 ## Ressources supplémentaires {#additional-resources}
 
