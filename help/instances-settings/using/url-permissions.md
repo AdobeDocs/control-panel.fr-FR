@@ -2,7 +2,10 @@
 title: Autorisations d’URL
 description: Découvrez comment gérer les autorisations d’URL dans le panneau de contrôle
 translation-type: tm+mt
-source-git-commit: a2c19296894ff893987290cb287dc7002ab999e5
+source-git-commit: 8d2fb9c03fb628dda78bf5e915bbb69bda5ef64d
+workflow-type: tm+mt
+source-wordcount: '616'
+ht-degree: 95%
 
 ---
 
@@ -17,7 +20,7 @@ source-git-commit: a2c19296894ff893987290cb287dc7002ab999e5
 
 >[!IMPORTANT]
 >
->Cette fonctionnalité est disponible uniquement pour les instances Campaign Classic.
+>Cette fonctionnalité est disponible uniquement pour les instances de Campaign Classic, à partir de la version 8850. Si vous utilisez un build antérieur, vous devez effectuer la mise à niveau pour utiliser cette fonctionnalité.
 
 ## À propos des autorisations d’URL {#about-url-permissions}
 
