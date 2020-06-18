@@ -2,10 +2,10 @@
 title: Autorisations d’URL
 description: Découvrez comment gérer les autorisations d’URL dans le panneau de contrôle
 translation-type: tm+mt
-source-git-commit: 8d2fb9c03fb628dda78bf5e915bbb69bda5ef64d
+source-git-commit: 3faeb9651681a9edd18cf889fff65b02644cb690
 workflow-type: tm+mt
-source-wordcount: '616'
-ht-degree: 95%
+source-wordcount: '617'
+ht-degree: 92%
 
 ---
 
@@ -93,4 +93,4 @@ Souvenez-vous que si vous supprimez une URL, votre instance ne pourra plus la ra
 
 **J’ai ajouté une URL, mais mon instance ne parvient toujours pas à s’y connecter. Pourquoi ?**
 
-Dans certains cas, les URL auxquelles vous essayez de vous connecter nécessitent une mise en whiteliste, la saisie d’un mot de passe ou une autre forme d’authentification. Le panneau de contrôle ne gère pas d’authentification supplémentaire.
+Dans certains cas, les URL pour lesquelles vous tentez de vous connecter nécessitent une liste d’accès, une saisie de mot de passe ou une autre forme d’authentification. Le panneau de contrôle ne gère pas d’authentification supplémentaire.
