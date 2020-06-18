@@ -1,11 +1,11 @@
 ---
 title: Configuration d’un nouveau sous-domaine
 description: Découvrez comment configurer un nouveau sous-domaine pour vos instances de campagne
-translation-type: ht
-source-git-commit: 47b4c6abd7b41a63d881b658849ac985c72656f8
-workflow-type: ht
-source-wordcount: '949'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 198c974d269289a6a9e5a87314662dba0bc85aff
+workflow-type: tm+mt
+source-wordcount: '953'
+ht-degree: 96%
 
 ---
 
@@ -64,14 +64,16 @@ Le panneau de contrôle vous permet de déléguer entièrement un sous-domaine �
 
    * **Communications marketing** : communications destinées à un usage commercial. Exemple : campagne par email de vente.
    * **Communications transactionnelles et opérationnelles** : les communications transactionnelles contiennent des informations visant à terminer un processus que le destinataire a commencé avec vous. Exemple : confirmation d’achat, email de réinitialisation de mot de passe. Les communications organisationnelles se rapportent à l’échange d’informations, d’idées et d’opinions au sein et à l’extérieur de l’organisation, sans but commercial.
+
    ![](assets/subdomain5.png)
 
-   **La ventilation de vos sous-domaines selon les cas d’utilisation est une bonne pratique en matière de délivrabilité**. Elle permet d’isoler et de protéger la réputation de chaque sous-domaine. Par exemple, si votre sous-domaine de communications marketing est placé sur liste noire par les fournisseurs de services Internet, votre sous-domaine de communications transactionnelles ne sera pas affecté et pourra encore envoyer des communications.
+   **La ventilation de vos sous-domaines selon les cas d’utilisation est une bonne pratique en matière de délivrabilité**. Elle permet d’isoler et de protéger la réputation de chaque sous-domaine. Par exemple, si votre sous-domaine pour les communications marketing finit par être ajouté à la liste bloquée par des Prestataires Internet, votre sous-domaine de communications transactionnelles ne sera pas affecté et pourra toujours envoyer des communications.
 
    **Vous pouvez déléguer un sous-domaine pour les cas d’utilisation Marketing et Transactionnel** :
 
    * Pour les cas d’utilisation Marketing, les sous-domaines seront configurés sur les instances **MID** (Mid-sourcing).
    * Pour les cas d’utilisation Transactionnel, les sous-domaines seront configurés sur TOUTES les instances **RT** (Message Center/Real-time messaging) pour garantir la connectivité. Les sous-domaines fonctionneront donc avec toutes vos instances RT.
+
    >[!NOTE]
    >
    >Si vous utilisez Campaign Classic, le Panneau de contrôle vous permet de voir quelles instances RT/MID sont connectées à l’instance Marketing que vous utilisez. Voir à ce propos [cette section](../../instances-settings/using/instance-details.md).
