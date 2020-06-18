@@ -1,11 +1,11 @@
 ---
 title: FAQ sur le panneau de contrôle
 description: Questions courantes relatives au panneau de contrôle
-translation-type: ht
-source-git-commit: 7bde86a86fbd128f4eb7bf029e58b0f95964390b
-workflow-type: ht
-source-wordcount: '628'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 3faeb9651681a9edd18cf889fff65b02644cb690
+workflow-type: tm+mt
+source-wordcount: '632'
+ht-degree: 95%
 
 ---
 
@@ -92,8 +92,7 @@ Dans le panneau de contrôle, les administrateurs du produit peuvent gérer dire
 
 **Quelles sont certaines des fonctionnalités actuelles du panneau de contrôle ?**
 
-
-Le panneau de contrôle vous permet de surveiller le stockage, de whitelister des adresses IP et de gérer les clés SSH de vos serveurs SFTP en fonction de vos besoins et d’autres actions.
+Le Panneau de configuration vous permet de suivre l’enregistrement, d’ajouter des adresses IP à la liste autorisée et de gérer vous-même les clés SSH de vos serveurs SFTP en fonction de vos besoins et d’autres actions.
 
 Pour plus d’informations, consultez la documentation relative aux actions prises en charge par le panneau de contrôle.
 
