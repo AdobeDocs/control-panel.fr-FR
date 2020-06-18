@@ -1,10 +1,10 @@
 ---
 title: Versions du Panneau de contrôle
 translation-type: tm+mt
-source-git-commit: fce9635ff6086ba6826bddc4a5af9dbfe310e3e1
+source-git-commit: 3faeb9651681a9edd18cf889fff65b02644cb690
 workflow-type: tm+mt
-source-wordcount: '453'
-ht-degree: 82%
+source-wordcount: '459'
+ht-degree: 89%
 
 ---
 
@@ -17,17 +17,17 @@ Vous trouverez ici des informations sur les dernières versions du Panneau de co
 >
 >Veuillez noter que le Panneau de contrôle est disponible pour les clients hébergés sur AWS uniquement, à l’exception des environnements hybrides, qui ne sont pas encore pris en charge. Aucune mise à niveau n’est requise pour accéder au panneau de contrôle. Vérifiez que vous êtes un utilisateur administrateur pour y accéder.
 
-## June 2020 {#june-2020}
+## Juin 2020 {#june-2020}
 
-**Surveillance active des profils**
+**Surveillance des profils actifs**
 
 Le Panneau de configuration vous permet désormais de contrôler le nombre de profils actifs utilisés par vos instances et comptabilisés à des fins de facturation. [En savoir plus](performance-monitoring/using/active-profiles-monitoring.md)
 
 >[!IMPORTANT]
 >
->La surveillance des profils actifs à partir du Panneau de configuration est disponible en version bêta et peut faire l&#39;objet de mises à jour fréquentes et de modifications sans préavis.
+>La surveillance des profils actifs depuis le panneau de contrôle est disponible en version bêta et sujette à de fréquentes mises à jour et modifications sans préavis.
 >
->Cette fonctionnalité est disponible pour les clients hébergés sur AWS depuis Campaign Standard 10368 build et Campaign Classic 8931 build. Si vous utilisez une version précédente, vous devez effectuer la mise à niveau pour utiliser cette fonctionnalité.
+>Cette fonctionnalité est disponible pour les clients hébergés sur AWS depuis le build Campaign Standard 10368 et le build Campaign Classic 8931. Si vous utilisez un build antérieur, vous devez effectuer la mise à niveau pour utiliser cette fonctionnalité.
 
 ## Mai 2020 {#may-2020}
 
@@ -67,7 +67,7 @@ Pour plus d’informations, reportez-vous aux pages suivantes :
 
 *16 septembre 2019*
 
-De nouvelles fonctionnalités ont été ajoutées pour que les utilisateurs administrateurs puissent whitelister des adresses IP afin de se connecter aux instances Campaign Classic.
+Nous avons ajouté de nouvelles fonctionnalités permettant aux administrateurs d’ajouter des adresses IP à la liste autorisée afin de se connecter aux instances de Campaign Classic.
 En outre, les utilisateurs administrateurs peuvent maintenant afficher la liste des instances Campaign Classic et l’éligibilité pour les upgrades de build.
 
 Pour plus d’informations, consultez la [documentation dédiée](instances-settings/using/ip-whitelisting-instance-access.md).
