@@ -1,10 +1,10 @@
 ---
 title: Versions du Panneau de contrôle
 translation-type: tm+mt
-source-git-commit: 3faeb9651681a9edd18cf889fff65b02644cb690
+source-git-commit: 0bea4b1508305254d53eb23d45bd62944a32495a
 workflow-type: tm+mt
-source-wordcount: '459'
-ht-degree: 89%
+source-wordcount: '503'
+ht-degree: 82%
 
 ---
 
@@ -18,6 +18,10 @@ Vous trouverez ici des informations sur les dernières versions du Panneau de co
 >Veuillez noter que le Panneau de contrôle est disponible pour les clients hébergés sur AWS uniquement, à l’exception des environnements hybrides, qui ne sont pas encore pris en charge. Aucune mise à niveau n’est requise pour accéder au panneau de contrôle. Vérifiez que vous êtes un utilisateur administrateur pour y accéder.
 
 ## Juin 2020 {#june-2020}
+
+**Suppression de &#39;liste blanche&#39; / &#39;liste noire&#39;**
+
+Les termes &quot;liste blanche&quot; et &quot;liste noire&quot; ont été supprimés de la documentation de l&#39;Adobe Campaign. Certaines occurrences de ces termes peuvent toujours exister dans l’interface utilisateur du produit, les noms d’option et le code interne, mais seront remplacées dans les prochaines versions de Campaign par &quot;liste bloquée&quot; et &quot;liste autorisée&quot;.
 
 **Surveillance des profils actifs**
 
