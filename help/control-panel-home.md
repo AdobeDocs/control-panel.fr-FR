@@ -1,10 +1,10 @@
 ---
 title: Documentation du produit
 translation-type: tm+mt
-source-git-commit: 8c1bf6fbd36d12ff498f7316f764fda24a9b4fc9
+source-git-commit: 0bea4b1508305254d53eb23d45bd62944a32495a
 workflow-type: tm+mt
-source-wordcount: '96'
-ht-degree: 72%
+source-wordcount: '137'
+ht-degree: 51%
 
 ---
 
@@ -15,9 +15,9 @@ ht-degree: 72%
 
 ## Nouveautés
 
-[Surveillance active des profils](performance-monitoring/using/active-profiles-monitoring.md)
+* Les termes &quot;liste blanche&quot; et &quot;liste noire&quot; ont été supprimés de la documentation de l&#39;Adobe Campaign. Certaines occurrences de ces termes peuvent toujours exister dans l’interface utilisateur du produit, les noms d’option et le code interne, mais seront remplacées dans les prochaines versions de Campaign par &quot;liste bloquée&quot; et &quot;liste autorisée&quot;.
 
-Le Panneau de configuration vous permet désormais de contrôler le nombre de profils actifs utilisés par vos instances et comptabilisés à des fins de facturation.
+* [Surveillance](performance-monitoring/using/active-profiles-monitoring.md)des profils actifs : Le Panneau de configuration vous permet désormais de contrôler le nombre de profils actifs utilisés par vos instances et comptabilisés à des fins de facturation.
 
 ## Ressources supplémentaires {#additional-resources}
 
