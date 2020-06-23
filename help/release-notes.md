@@ -1,10 +1,10 @@
 ---
 title: Versions du Panneau de contrôle
 translation-type: tm+mt
-source-git-commit: 0bea4b1508305254d53eb23d45bd62944a32495a
+source-git-commit: 5b7e8126789690662e72e72c885700b971362004
 workflow-type: tm+mt
-source-wordcount: '503'
-ht-degree: 82%
+source-wordcount: '577'
+ht-degree: 80%
 
 ---
 
@@ -18,6 +18,14 @@ Vous trouverez ici des informations sur les dernières versions du Panneau de co
 >Veuillez noter que le Panneau de contrôle est disponible pour les clients hébergés sur AWS uniquement, à l’exception des environnements hybrides, qui ne sont pas encore pris en charge. Aucune mise à niveau n’est requise pour accéder au panneau de contrôle. Vérifiez que vous êtes un utilisateur administrateur pour y accéder.
 
 ## Juin 2020 {#june-2020}
+
+**Audit de la délivrabilité des sous-domaines**
+
+Après avoir délégué un nouveau sous-domaine, le Panneau de configuration vous permet désormais de suivre l’audit effectué par l’équipe de délivrabilité. [En savoir plus](subdomains-certificates/using/setting-up-new-subdomain.md)
+
+**Gestion des clés GPG**
+
+Le Panneau de contrôle vous permet maintenant de générer une paire de clés GPG pour vous puissiez facilement décrypter les données qui entrent dans dans Campaign et qui proviennent de l’extérieur. En outre, nous avons ajouté une fonctionnalité permettant d’installer une clé GPG publique pour crypter les données qui sortent de Campaign. [En savoir plus](instances-settings/using/gpg-keys-management.md)
 
 **Suppression de &#39;liste blanche&#39; / &#39;liste noire&#39;**
 
