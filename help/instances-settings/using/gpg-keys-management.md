@@ -2,7 +2,7 @@
 title: Gestion des clés GPG
 description: Découvrez comment gérer les clés GPG pour crypter et décrypter les données dans Adobe Campaign.
 translation-type: tm+mt
-source-git-commit: 9be8d018421d1384ef1731b0425dead43072d2bf
+source-git-commit: 6a28859565cf9385ac33886355d43e1d1a825e0e
 workflow-type: tm+mt
 source-wordcount: '1106'
 ht-degree: 82%
@@ -50,7 +50,6 @@ Pour cela, vous devez générer une paire de clés GPG à partir d’un outil de
    * **commentaire**: l’ajout d’une étiquette au champ de commentaire vous aidera à identifier facilement la clé à utiliser pour chiffrer vos données.
    * **Expiration** : date ou « 0 » pour aucune date d’expiration.
    * **mot de passe**
-
    ![](assets/do-not-localize/gpg_command.png)
 
 1. Une fois confirmé, le script génère une clé avec son empreinte associée, que vous pouvez exporter dans un fichier ou coller directement dans le Panneau de configuration. Pour exporter le fichier, exécutez cette commande suivie de l’empreinte de la clé que vous avez générée.
@@ -83,13 +82,13 @@ Voir à ce propos les documentations d’Adobe Campaign :
 
 **Campaign Classic:**
 
-* [Compresser ou crypter un fichier](https://docs.adobe.com/content/help/en/campaign-classic/using/automating-with-workflows/general-operation/how-to-use-workfow-data.html#zipping-or-encrypting-a-file)
+* [Compresser ou crypter un fichier](https://docs.adobe.com/content/help/fr-FR/campaign-classic/using/automating-with-workflows/general-operation/how-to-use-workflow-data.html#zipping-or-encrypting-a-file)
 * [Cas d’utilisation : Importation de données chiffrées à l’aide d’une clé générée par le Panneau de configuration](https://docs.adobe.com/content/help/en/campaign-classic/using/automating-with-workflows/general-operation/how-to-use-workfow-data.html#use-case-gpg-encrypt)
 
 **Campaign Standard:**
 
-* [Gérer des données cryptées](https://docs.adobe.com/content/help/en/campaign-standard/using/managing-processes-and-data/workflow-general-operation/managing-encrypted-data.md)
-* [Cas d’utilisation : Importation de données chiffrées à l’aide d’une clé générée par le Panneau de configuration](https://docs.adobe.com/content/help/en/campaign-standard/using/managing-processes-and-data/workflow-general-operation/managing-encrypted-data.md#use-case-gpg-encrypt)
+* [Gérer des données cryptées](https://docs.adobe.com/content/help/en/campaign-standard/using/managing-processes-and-data/importing-and-exporting-data/managing-encrypted-data.html)
+* [Cas d’utilisation : Chiffrement et exportation de données à l’aide d’une clé installée sur le Panneau de configuration](https://docs.adobe.com/content/help/en/campaign-standard/using/managing-processes-and-data/importing-and-exporting-data/managing-encrypted-data.html#use-case-gpg-encrypt)
 
 ## Décrypter des données {#decrypting-data}
 
@@ -129,8 +128,8 @@ Voir à ce propos les documentations d’Adobe Campaign :
 
 **Campaign Standard:**
 
-* [Gérer des données cryptées](https://docs.adobe.com/content/help/fr-FR/campaign-standard/using/managing-processes-and-data/workflow-general-operation/importing-data.html#managing-encrypted-data)
-* [Cas d’utilisation : Importation de données chiffrées à l’aide d’une clé générée par le Panneau de configuration](https://docs.adobe.com/content/help/en/campaign-standard/using/managing-processes-and-data/workflow-general-operation/managing-encrypted-data.md#use-case-gpg-decrypt)
+* [Gérer des données cryptées](https://docs.adobe.com/content/help/en/campaign-standard/using/managing-processes-and-data/importing-and-exporting-data/managing-encrypted-data.html)
+* [Cas d’utilisation : Importation de données chiffrées à l’aide d’une clé générée par le Panneau de configuration](https://docs.adobe.com/content/help/en/campaign-standard/using/managing-processes-and-data/importing-and-exporting-data/managing-encrypted-data.html#use-case-gpg-decrypt)
 
 ## Surveillance des clés GPG
 
@@ -153,7 +152,6 @@ La liste contient toutes les clés GPG de cryptage et de décryptage qui ont ét
    * Urgent (rouge) s’affiche 30 jours avant.
    * Avertissement (jaune) s’affiche 60 jours avant.
    * Une bannière rouge « Expirée » s’affiche une fois qu’une clé arrive à expiration.
-
    >[!NOTE]
    >
    >Aucune notification par email ne sera envoyée par le panneau de contrôle.
