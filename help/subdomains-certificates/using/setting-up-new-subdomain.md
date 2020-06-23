@@ -2,10 +2,10 @@
 title: Configuration d’un nouveau sous-domaine
 description: Découvrez comment configurer un nouveau sous-domaine pour vos instances de campagne
 translation-type: tm+mt
-source-git-commit: 198c974d269289a6a9e5a87314662dba0bc85aff
+source-git-commit: 5b7e8126789690662e72e72c885700b971362004
 workflow-type: tm+mt
-source-wordcount: '953'
-ht-degree: 96%
+source-wordcount: '1012'
+ht-degree: 81%
 
 ---
 
@@ -24,13 +24,7 @@ ht-degree: 96%
 
 ## Délégation complète de sous-domaine {#full-subdomain-delegation}
 
-Le panneau de contrôle vous permet de déléguer entièrement un sous-domaine à Adobe Campaign. Pour ce faire, suivez les étapes ci-après.
-
->[!NOTE]
->
->Si l’instance sélectionnée ne comporte aucun sous-domaine configuré, le premier sous-domaine délégué à Adobe deviendra le **sous-domaine principal** de cette instance. Vous ne pourrez plus le modifier à l’avenir.
->
->Des enregistrements DNS inversés seront créés pour d’autres sous-domaines utilisant le sous-domaine principal. Les adresses de réponse et bounce pour les autres sous-domaines seront générées à partir du sous-domaine principal.
+Le Panneau de contrôle vous permet de déléguer entièrement un sous-domaine à Adobe Campaign. Pour ce faire, procédez comme suit :
 
 1. Dans la carte **[!UICONTROL Sous-domaines et certificats]**, sélectionnez l’instance de production souhaitée, puis cliquez sur **[!UICONTROL Configurer un nouveau sous-domaine]**.
 
@@ -39,14 +33,14 @@ Le panneau de contrôle vous permet de déléguer entièrement un sous-domaine �
    >[!NOTE]
    >
    >La délégation de sous-domaine n’est disponible que pour les instances de **production**.
+   >
+   >Si l’instance sélectionnée ne comporte aucun sous-domaine configuré, le premier sous-domaine délégué à Adobe deviendra le **sous-domaine principal** de cette instance. Vous ne pourrez plus le modifier à l’avenir. Des enregistrements DNS inversés seront créés pour d’autres sous-domaines utilisant le sous-domaine principal. Les adresses de réponse et bounce pour les autres sous-domaines seront générées à partir du sous-domaine principal.
 
 1. Cliquez sur **[!UICONTROL Suivant]** pour confirmer votre choix de la méthode de délégation complète.
 
-   ![](assets/subdomain3.png)
+   Note that [CNAME](#use-cnames) and custom methods are currently not supported by the Control Panel.
 
-   >[!NOTE]
-   >
-   >Les méthodes [CNAME](#use-cnames) et personnalisées ne sont actuellement pas prises en charge par le panneau de contrôle.
+   ![](assets/subdomain3.png)
 
 1. Créez le sous-domaine et les serveurs de noms souhaités dans la solution d’hébergement utilisée par votre entreprise. Pour ce faire, copiez et collez les informations du serveur de noms Adobe affichées dans l’assistant. Pour plus d’informations sur la création d’un sous-domaine dans une solution d’hébergement, reportez-vous à ce [tutoriel vidéo](https://video.tv.adobe.com/v/30175?captions=fre_fr).
 
@@ -58,13 +52,12 @@ Le panneau de contrôle vous permet de déléguer entièrement un sous-domaine �
 
    ![](assets/subdomain4.png)
 
-   Une fois le sous-domaine créé avec les informations du serveur de noms Adobe correspondantes, cliquez sur **[!UICONTROL Suivant]**.
+1. Une fois le sous-domaine créé avec les informations du serveur de noms Adobe correspondantes, cliquez sur **[!UICONTROL Suivant]**.
 
 1. Sélectionnez le cas d’utilisation souhaité pour le sous-domaine :
 
    * **Communications marketing** : communications destinées à un usage commercial. Exemple : campagne par email de vente.
    * **Communications transactionnelles et opérationnelles** : les communications transactionnelles contiennent des informations visant à terminer un processus que le destinataire a commencé avec vous. Exemple : confirmation d’achat, email de réinitialisation de mot de passe. Les communications organisationnelles se rapportent à l’échange d’informations, d’idées et d’opinions au sein et à l’extérieur de l’organisation, sans but commercial.
-
    ![](assets/subdomain5.png)
 
    **La ventilation de vos sous-domaines selon les cas d’utilisation est une bonne pratique en matière de délivrabilité**. Elle permet d’isoler et de protéger la réputation de chaque sous-domaine. Par exemple, si votre sous-domaine pour les communications marketing finit par être ajouté à la liste bloquée par des Prestataires Internet, votre sous-domaine de communications transactionnelles ne sera pas affecté et pourra toujours envoyer des communications.
@@ -73,10 +66,9 @@ Le panneau de contrôle vous permet de déléguer entièrement un sous-domaine �
 
    * Pour les cas d’utilisation Marketing, les sous-domaines seront configurés sur les instances **MID** (Mid-sourcing).
    * Pour les cas d’utilisation Transactionnel, les sous-domaines seront configurés sur TOUTES les instances **RT** (Message Center/Real-time messaging) pour garantir la connectivité. Les sous-domaines fonctionneront donc avec toutes vos instances RT.
-
    >[!NOTE]
    >
-   >Si vous utilisez Campaign Classic, le Panneau de contrôle vous permet de voir quelles instances RT/MID sont connectées à l’instance Marketing que vous utilisez. Voir à ce propos [cette section](../../instances-settings/using/instance-details.md).
+   >Si vous utilisez Campaign Classic, le Panneau de contrôle vous permet de voir quelles instances RT/MID sont connectées à l’instance Marketing que vous utilisez. For more on this, refer to the [Instance Details](../../instances-settings/using/instance-details.md) section.
 
 1. Entrez le sous-domaine que vous avez créé dans votre solution d’hébergement, puis cliquez sur **[!UICONTROL Soumettre]**.
 
@@ -86,25 +78,33 @@ Le panneau de contrôle vous permet de déléguer entièrement un sous-domaine �
 
 1. Une fois le sous-domaine envoyé, le panneau de contrôle vérifie qu’il pointe correctement vers les enregistrements NS Adobe et que l’enregistrement Start of Authority (SOA) n’existe pas pour ce sous-domaine.
 
-1. Si les vérifications réussissent, le panneau de contrôle commence à configurer le sous-domaine avec des enregistrements DNS, des URL supplémentaires, des boîtes de réception, etc. Pour afficher plus de détails sur la progression de la configuration, cliquez sur le bouton **[!UICONTROL Détails du processus]**.
-
-   ![](assets/subdomain7.png)
-
    >[!NOTE]
-   >
-   >Dans certains cas, la délégation est effectuée, mais pas la vérification du sous-domaine. Le sous-domaine est directement ajouté à la liste des **[!UICONTROL sous-domaines vérifiés]**, et l’état **[!UICONTROL Non vérifié]** et un log de traitement donnent des informations sur l’erreur. Contactez l’Assistance clientèle si vous avez des difficultés à résoudre le problème.
    >
    >Pendant l’exécution de la délégation de sous-domaine, d’autres requêtes effectuées via le panneau de contrôle seront mises en file d’attente et exécutées uniquement une fois la délégation de sous-domaine terminée. Cela permet d’éviter tout problème de performances.
 
+1. Si les vérifications réussissent, le panneau de contrôle commence à configurer le sous-domaine avec des enregistrements DNS, des URL supplémentaires, des boîtes de réception, etc.
+
+   ![](assets/subdomain7.png)
+
+   Eventually, the **Deliverability team** will be notified about the new subdomain, in order to audit it. Le processus de vérification peut prendre jusqu’à 10 jours ouvrés après la délégation du sous-domaine. Les contrôles effectués comprennent les tests de feedback loops et de boucles de plaintes relatives au spam. Nous vous déconseillons donc d’utiliser le sous-domaine avant la fin de la vérification, car cela pourrait entraîner une mauvaise réputation du sous-domaine.
+
+   Pour afficher plus de détails sur la progression de la configuration, cliquez sur le bouton **[!UICONTROL Détails du processus]**.
+
+   ![](assets/subdomain_audit.png)
+
+   **Résolution des problèmes:**
+
+   * Dans certains cas, la délégation est effectuée, mais pas la vérification du sous-domaine. The subdomain will stay into the **[!UICONTROL Configured]** list with a job log providing information on the error. Contactez l’Assistance clientèle si vous avez des difficultés à résoudre le problème.
+   * Si le sous-domaine est affiché comme &quot;Non vérifié&quot; après avoir été configuré, lancez une nouvelle vérification du sous-domaine (**...** / **[!UICONTROL Vérifier le sous-domaine]**). S&#39;il affiche toujours le même statut, la raison pourrait être qu&#39;il existe une certaine personnalisation sur le schéma destinataire, qui ne peut pas être vérifiée à l&#39;aide de processus standard. Essayez d&#39;envoyer une campagne avec ce sous-domaine.
+   * Si la configuration du sous-domaine prend trop de temps (plus de 10 jours ouvrés) à l’étape de l’audit de délivrabilité, contactez le service à la clientèle.
+
 À la fin du processus, les sous-domaines sont configurés pour fonctionner avec votre instance Adobe Campaign et les éléments suivants sont créés :
 
-* **Le sous-domaine** avec les **enregistrements DNS** suivants : SOA, MX, CNAME, DKIM, SPF et TXT
+* **Le sous-domaine avec les enregistrements DNS** suivants : SOA, MX, CNAME, DKIM, SPF et TXT
 * **Des sous-domaines supplémentaires** pour héberger les pages miroir, de ressources et de tracking, ainsi que la clé de domaine
 * **Des boîtes de réception** : Expéditeur, Erreur, Réponse
 
->[!NOTE]
->
->Par défaut, la boîte de réception « Réponse » du panneau de contrôle est configurée pour effacer les emails et ne peut pas être examinée. Si vous souhaitez surveiller votre boîte de réception « Réponse » pour vos campagnes marketing, n’utilisez pas cette adresse.
+   Par défaut, la boîte de réception « Réponse » du panneau de contrôle est configurée pour effacer les emails et ne peut pas être examinée. Si vous souhaitez surveiller votre boîte de réception « Réponse » pour vos campagnes marketing, n’utilisez pas cette adresse.
 
 Pour obtenir plus de détails sur un sous-domaine, cliquez sur le bouton **[!UICONTROL Détails du sous-domaine]** et **[!UICONTROL Infos sur l’expéditeur]**.
 
@@ -113,12 +113,6 @@ Pour obtenir plus de détails sur un sous-domaine, cliquez sur le bouton **[!UIC
 ![](assets/subdomain_details.png)
 
 ![](assets/sender_info.png)
-
->[!IMPORTANT]
->
->Suite à l’étape de traitement, vous devez vérifier auprès de l’Assistance clientèle Adobe qu’une demande de vérification a été déposée afin que l’équipe de délivrabilité vérifie le nouveau sous-domaine créé. Le processus de vérification peut prendre 3 à 10 jours ouvrables après la délégation du sous-domaine.
->
->Les contrôles effectués comprennent les tests de feedback loops et de boucles de plaintes relatives au spam. Nous vous déconseillons donc d’utiliser le sous-domaine avant la fin de la vérification, car cela pourrait entraîner une mauvaise réputation du sous-domaine.
 
 ## Utilisation des CNAME {#use-cnames}
 
