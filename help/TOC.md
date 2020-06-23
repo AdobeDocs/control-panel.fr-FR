@@ -4,10 +4,10 @@ sub-product: panneau de contrôle
 audience: end-user
 user-guide-title: Aide du panneau de contrôle
 translation-type: tm+mt
-source-git-commit: 3faeb9651681a9edd18cf889fff65b02644cb690
+source-git-commit: 5445ac36b81af3b23bc64788f010f497ec9d049c
 workflow-type: tm+mt
-source-wordcount: '99'
-ht-degree: 89%
+source-wordcount: '100'
+ht-degree: 88%
 
 ---
 
@@ -40,8 +40,9 @@ ht-degree: 89%
    + [Surveillance des bases de données](performance-monitoring/using/database-monitoring.md)
    + [Surveillance des profils actifs](performance-monitoring/using/active-profiles-monitoring.md)
    + [Alertes par email](performance-monitoring/using/email-alerting.md)
-+ Paramètres des instances (Campaign Classic) {#instances-settings}
++ Instances settings {#instances-settings}
    + [Autoriser la liste des adresses IP par exemple l&#39;accès](instances-settings/using/ip-whitelisting-instance-access.md)
    + [Autorisations d’URL](instances-settings/using/url-permissions.md)
    + [Détails de l’instance](instances-settings/using/instance-details.md)
+   + [Gestion des clés GPG](instances-settings/using/gpg-keys-management.md)
 + [FAQ](faq.md)
