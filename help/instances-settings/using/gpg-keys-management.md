@@ -2,10 +2,10 @@
 title: Gestion des clés GPG
 description: Découvrez comment gérer les clés GPG pour crypter et décrypter les données dans Adobe Campaign.
 translation-type: tm+mt
-source-git-commit: 18c9c946301fab81f617e3cba1f72989645d552e
+source-git-commit: a83309bfb6e42db231fe970f47475fb85d6d441b
 workflow-type: tm+mt
-source-wordcount: '1107'
-ht-degree: 82%
+source-wordcount: '1137'
+ht-degree: 81%
 
 ---
 
@@ -25,6 +25,12 @@ Vous pourrez alors :
 * **Crypter les données envoyées** : Adobe Campaign envoie les données après les avoir cryptées avec la clé publique installée.
 
 * **Décrypter les données entrantes** : Adobe Campaign reçoit des données cryptées à partir d’un système externe à l’aide d’une clé publique téléchargée à partir du panneau de contrôle. Adobe Campaign décrypte les données à l’aide d’une clé privée générée à partir du panneau de contrôle.
+
+**Rubriques connexes :**
+
+* [Tutoriel vidéo sur Campaign Standard](https://docs.adobe.com/content/help/en/campaign-standard-learn/tutorials/administrating/control-panel/generating-and-installing-gpg-keys.html)
+* [Tutoriel vidéo sur Campaign Classic](https://docs.adobe.com/content/help/en/campaign-classic-learn/tutorials/administrating/control-panel-acc/generating-and-installing-gpg-keys.html)
+
 
 ## Cryptage des données {#encrypting-data}
 
@@ -50,7 +56,6 @@ Pour cela, vous devez générer une paire de clés GPG à partir d’un outil de
    * **commentaire**: l’ajout d’une étiquette au champ de commentaire vous aidera à identifier facilement la clé à utiliser pour chiffrer vos données.
    * **Expiration** : date ou « 0 » pour aucune date d’expiration.
    * **mot de passe**
-
    ![](assets/do-not-localize/gpg_command.png)
 
 1. Une fois confirmé, le script génère une clé avec son empreinte associée, que vous pouvez exporter dans un fichier ou coller directement dans le Panneau de configuration. Pour exporter le fichier, exécutez cette commande suivie de l’empreinte de la clé que vous avez générée.
@@ -153,7 +158,6 @@ La liste contient toutes les clés GPG de cryptage et de décryptage qui ont ét
    * Urgent (rouge) s’affiche 30 jours avant.
    * Avertissement (jaune) s’affiche 60 jours avant.
    * Une bannière rouge « Expirée » s’affiche une fois qu’une clé arrive à expiration.
-
    >[!NOTE]
    >
    >Aucune notification par email ne sera envoyée par le panneau de contrôle.
