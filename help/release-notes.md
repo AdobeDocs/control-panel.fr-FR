@@ -1,10 +1,10 @@
 ---
 title: Versions du Panneau de contrôle
 translation-type: tm+mt
-source-git-commit: 759d3ca0c3cafa84067c31a48432b0bfe2df186f
+source-git-commit: a83309bfb6e42db231fe970f47475fb85d6d441b
 workflow-type: tm+mt
-source-wordcount: '577'
-ht-degree: 80%
+source-wordcount: '605'
+ht-degree: 78%
 
 ---
 
@@ -26,6 +26,8 @@ Après avoir délégué un nouveau sous-domaine, le Panneau de configuration vou
 **Gestion des clés GPG**
 
 Le Panneau de contrôle vous permet maintenant de générer une paire de clés GPG pour vous puissiez facilement décrypter les données qui entrent dans dans Campaign et qui proviennent de l’extérieur. En outre, nous avons ajouté une fonctionnalité permettant d’installer une clé GPG publique pour crypter les données qui sortent de Campaign. [En savoir plus](instances-settings/using/gpg-keys-management.md)
+* [Tutoriel vidéo sur Campaign Standard](https://docs.adobe.com/content/help/en/campaign-standard-learn/tutorials/administrating/control-panel/generating-and-installing-gpg-keys.html)
+* [Tutoriel vidéo sur Campaign Classic](https://docs.adobe.com/content/help/en/campaign-classic-learn/tutorials/administrating/control-panel-acc/generating-and-installing-gpg-keys.html)
 
 **Suppression de &#39;liste blanche&#39; / &#39;liste noire&#39;**
 
