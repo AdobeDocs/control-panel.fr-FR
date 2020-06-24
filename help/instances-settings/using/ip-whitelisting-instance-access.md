@@ -2,10 +2,10 @@
 title: Liste d’autorisations IP
 description: Découvrez comment ajouter des adresses IP à la liste autorisée dans le Panneau de configuration, par exemple l'accès
 translation-type: tm+mt
-source-git-commit: 3faeb9651681a9edd18cf889fff65b02644cb690
+source-git-commit: d8fe1c2e847fa25919f81bf0a4195de5ad0b2781
 workflow-type: tm+mt
 source-wordcount: '790'
-ht-degree: 48%
+ht-degree: 47%
 
 ---
 
@@ -89,5 +89,5 @@ Pour ajouter des adresses IP à la liste autorisée, procédez comme suit :
 Pour supprimer des plages d’adresses IP de la liste autorisée, sélectionnez-les, puis cliquez sur le bouton **[!UICONTROL Supprimer une plage]** d’adresses IP.
 
 **Rubriques connexes :**
-* [Liste des autorisations d’accès IP (vidéo didacticiel)](https://docs.adobe.com/content/help/en/campaign-learn/campaign-classic-tutorials/administrating/control-panel-acc/ip-whitelisting.html)
+* [Liste des autorisations d’accès IP (vidéo didacticiel)](https://docs.adobe.com/content/help/en/campaign-learn/campaign-classic-tutorials/administrating/control-panel-acc/ip-allow-listing.html)
 * [Liaison d’une zone de sécurité à un opérateur](https://docs.campaign.adobe.com/doc/AC/en/INS_Additional_configurations_Configuring_Campaign_server.html#Linking_a_security_zone_to_an_operator)
