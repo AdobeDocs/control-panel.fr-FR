@@ -1,11 +1,11 @@
 ---
 title: Marque des sous-domaines
 description: En savoir plus sur la marque des sous-domaines
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 80b35e82116b064a7b141d957ab79ecfc9a99026
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '467'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
@@ -31,7 +31,7 @@ Prenons l&#39;exemple du domaine « mybrand.com », utilisé pour envoyer des 
 * le sous-domaine « info.mybrand.com » pour vos communications transactionnelles (confirmation des achats, réinitialisation de mots de passe, etc.),
 * Et le sous-domaine « marketing.mybrand.com » pour vos emails de prospection.
 
-Ce faisant, vous contribuerez à préserver la réputation de votre domaine et des autres sous-domaines. Par exemple, si les sous-domaines &quot;marketing.mybrand.com&quot; ont été ajoutés à la liste bloquée par des Prestataires Internet en raison d’une mauvaise délivrabilité, cela empêcherait l’ajout de l’ensemble du domaine &quot;mybrand.com&quot; et du sous-domaine &quot;info.mybrand.com&quot; à la liste bloquée.
+Ce faisant, vous contribuerez à préserver la réputation de votre domaine et des autres sous-domaines. Par exemple, si les sous-domaines « marketing.mybrand.com » se retrouvaient ajoutés à la liste bloquée par les fournisseurs de services Internet en raison d’une mauvaise délivrabilité, cela empêcherait le domaine « mybrand.com » entier et le sous-domaine « info.mybrand.com » d’être ajoutés à la liste bloquée.
 
 ## Méthodes de délégation de sous-domaine {#subdomain-delegation-methods}
 
