@@ -5,7 +5,7 @@ translation-type: tm+mt
 source-git-commit: 3faeb9651681a9edd18cf889fff65b02644cb690
 workflow-type: tm+mt
 source-wordcount: '351'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -19,7 +19,7 @@ Avant de vous connecter au serveur, vérifiez les points suivants :
 * Votre serveur SFTP est **hébergé par Adobe**.
 * Votre **nom d’utilisateur** a été configuré pour le serveur. Vous pouvez vérifier ces informations directement dans le panneau de contrôle, dans l’onglet **Gestion des clés** de la carte SFTP.
 * Vous disposez d’une **paire de clés privée et publique** pour vous connecter au serveur SFTP. Pour plus d’informations sur l’ajout de la clé SSH, reportez-vous à [cette section](../../sftp/using/key-management.md).
-* Votre adresse IP **publique a été ajoutée à la liste autorisée** sur le serveur SFTP. Dans le cas contraire, reportez-vous à [cette section](../../sftp/using/ip-range-whitelisting.md) pour plus d’informations sur la manière d’ajouter votre plage d’adresses IP à la liste autorisée.
+* Votre **adresse IP publique a été ajoutée à la liste autorisée** sur le serveur SFTP. Dans le cas contraire, reportez-vous à [cette section](../../sftp/using/ip-range-whitelisting.md) pour plus d’informations sur la manière d’ajouter votre plage d’adresses IP à la liste autorisée.
 * Vous disposez d’un accès à un **logiciel client SFTP**. Vous pouvez consulter votre service informatique pour connaître l’application cliente SFTP qu’il vous recommande d’utiliser ou en rechercher une sur Internet si les politiques de votre entreprise le permettent.
 
 Pour vous connecter à votre serveur SFTP, procédez comme suit :
