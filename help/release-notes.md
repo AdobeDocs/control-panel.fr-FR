@@ -4,7 +4,7 @@ translation-type: tm+mt
 source-git-commit: a83309bfb6e42db231fe970f47475fb85d6d441b
 workflow-type: tm+mt
 source-wordcount: '605'
-ht-degree: 78%
+ht-degree: 100%
 
 ---
 
@@ -19,9 +19,9 @@ Vous trouverez ici des informations sur les dernières versions du Panneau de co
 
 ## Juin 2020 {#june-2020}
 
-**Audit de la délivrabilité des sous-domaines**
+**Audit de délivrabilité des sous-domaines**
 
-Après avoir délégué un nouveau sous-domaine, le Panneau de configuration vous permet désormais de suivre l’audit effectué par l’équipe de délivrabilité. [En savoir plus](subdomains-certificates/using/setting-up-new-subdomain.md)
+Après avoir délégué un nouveau sous-domaine, le panneau de contrôle vous permet désormais de suivre l’audit effectué par l’équipe chargée de la délivrabilité. [En savoir plus](subdomains-certificates/using/setting-up-new-subdomain.md)
 
 **Gestion des clés GPG**
 
@@ -29,13 +29,13 @@ Le Panneau de contrôle vous permet maintenant de générer une paire de clés G
 * [Tutoriel vidéo sur Campaign Standard](https://docs.adobe.com/content/help/en/campaign-standard-learn/tutorials/administrating/control-panel/generating-and-installing-gpg-keys.html)
 * [Tutoriel vidéo sur Campaign Classic](https://docs.adobe.com/content/help/en/campaign-classic-learn/tutorials/administrating/control-panel-acc/generating-and-installing-gpg-keys.html)
 
-**Suppression de &#39;liste blanche&#39; / &#39;liste noire&#39;**
+**Suppression des whitelistes/blacklistes**
 
-Les termes &quot;liste blanche&quot; et &quot;liste noire&quot; ont été supprimés de la documentation de l&#39;Adobe Campaign. Certaines occurrences de ces termes peuvent toujours exister dans l’interface utilisateur du produit, les noms d’option et le code interne, mais seront remplacées dans les prochaines versions de Campaign par &quot;liste bloquée&quot; et &quot;liste autorisée&quot;.
+Les termes « whiteliste » et « blackliste » ont été supprimés de la documentation Adobe Campaign. Certaines occurrences de ces termes peuvent toujours apparaître dans l’interface utilisateur du produit, les noms d’option et le code interne, mais elles seront remplacées dans les prochaines versions de Campaign par « liste bloquée » et « liste autorisée ».
 
 **Surveillance des profils actifs**
 
-Le Panneau de configuration vous permet désormais de contrôler le nombre de profils actifs utilisés par vos instances et comptabilisés à des fins de facturation. [En savoir plus](performance-monitoring/using/active-profiles-monitoring.md)
+Le panneau de contrôle vous permet maintenant de surveiller le nombre de profils actifs utilisés par vos instances et comptabilisés à des fins de facturation. [En savoir plus](performance-monitoring/using/active-profiles-monitoring.md)
 
 >[!IMPORTANT]
 >
@@ -81,7 +81,7 @@ Pour plus d’informations, reportez-vous aux pages suivantes :
 
 *16 septembre 2019*
 
-Nous avons ajouté de nouvelles fonctionnalités permettant aux administrateurs d’ajouter des adresses IP à la liste autorisée afin de se connecter aux instances de Campaign Classic.
+Nous avons ajouté de nouvelles fonctionnalités permettant aux administrateurs d’ajouter des adresses IP à la liste autorisée afin de se connecter aux instances Campaign Classic.
 En outre, les utilisateurs administrateurs peuvent maintenant afficher la liste des instances Campaign Classic et l’éligibilité pour les upgrades de build.
 
 Pour plus d’informations, consultez la [documentation dédiée](instances-settings/using/ip-whitelisting-instance-access.md).
