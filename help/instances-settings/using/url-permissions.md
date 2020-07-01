@@ -1,11 +1,11 @@
 ---
 title: Autorisations d’URL
 description: Découvrez comment gérer les autorisations d’URL dans le panneau de contrôle
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 3faeb9651681a9edd18cf889fff65b02644cb690
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '617'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 92%
 
 >[!IMPORTANT]
 >
->Cette fonctionnalité est disponible uniquement pour les instances de Campaign Classic, à partir de la version 8850. Si vous utilisez un build antérieur, vous devez effectuer la mise à niveau pour utiliser cette fonctionnalité.
+>Cette fonctionnalité est disponible uniquement pour les instances Campaign Classic à partir du build 8850. Si vous utilisez un build précédent, vous devez effectuer la mise à niveau pour utiliser cette fonctionnalité.
 
 ## À propos des autorisations d’URL {#about-url-permissions}
 
@@ -93,4 +93,4 @@ Souvenez-vous que si vous supprimez une URL, votre instance ne pourra plus la ra
 
 **J’ai ajouté une URL, mais mon instance ne parvient toujours pas à s’y connecter. Pourquoi ?**
 
-Dans certains cas, les URL pour lesquelles vous tentez de vous connecter nécessitent une liste d’accès, une saisie de mot de passe ou une autre forme d’authentification. Le panneau de contrôle ne gère pas d’authentification supplémentaire.
+Dans certains cas, les URL auxquelles vous essayez de vous connecter nécessitent un ajout aux listes autorisées, la saisie d’un mot de passe ou une autre forme d’authentification. Le panneau de contrôle ne gère pas d’authentification supplémentaire.
