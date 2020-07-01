@@ -5,7 +5,7 @@ translation-type: tm+mt
 source-git-commit: 3faeb9651681a9edd18cf889fff65b02644cb690
 workflow-type: tm+mt
 source-wordcount: '608'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 90%
 
 >[!CONTEXTUALHELP]
 >id="cp_key_management"
->title="A propos de la gestion des clés"
+>title="À propos de la gestion des clés"
 >abstract="Dans cet onglet, vous pouvez gérer vos clés publiques."
 >additional-url="https://images-tv.adobe.com/mpcv3/8a977e03-d76c-44d3-853c-95d0b799c870_1560205338.1920x1080at3000_h264.mp4#t=166" text="Regarder une vidéo de démonstration"
 
@@ -22,7 +22,7 @@ Adobe recommande à tous les clients d’établir une connexion à leurs serveur
 
 Les étapes de génération d’une clé SSH publique et de son ajout pour accéder au serveur SFTP sont décrites ci-dessous, ainsi que les recommandations concernant l’authentification.
 
-Once access to the server is set up, remember to **add the IP addresses that will require access to the server to the allow list** so that you can connect to it. Voir à ce propos [cette section](../../instances-settings/using/ip-whitelisting-instance-access.md).
+Une fois l’accès au serveur configuré, pensez à **ajouter à la liste autorisée les adresses IP qui requièrent l’accès au serveur**, afin de pouvoir vous y connecter. Voir à ce propos [cette section](../../instances-settings/using/ip-whitelisting-instance-access.md).
 
 >[!NOTE]
 >
@@ -48,7 +48,7 @@ Dans de très rares cas, l’authentification par mot de passe est activée sur 
 
 >[!CONTEXTUALHELP]
 >id="cp_sftp_publickey_add"
->title="Ajouter une nouvelle clé publique"
+>title="Ajouter une clé publique"
 >abstract="Ajoutez une clé publique pour une instance."
 
 >[!IMPORTANT]
