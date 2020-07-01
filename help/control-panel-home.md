@@ -4,7 +4,7 @@ translation-type: tm+mt
 source-git-commit: d8fe1c2e847fa25919f81bf0a4195de5ad0b2781
 workflow-type: tm+mt
 source-wordcount: '122'
-ht-degree: 81%
+ht-degree: 100%
 
 ---
 
@@ -15,9 +15,9 @@ ht-degree: 81%
 
 ## Nouveautés
 
-* **Audit de la délivrabilité des sous-domaines**
+* **Audit de délivrabilité des sous-domaines**
 
-   Après avoir délégué un nouveau sous-domaine, le Panneau de configuration vous permet désormais de suivre l’audit effectué par l’équipe de délivrabilité. [En savoir plus](subdomains-certificates/using/setting-up-new-subdomain.md)
+   Après avoir délégué un nouveau sous-domaine, le panneau de contrôle vous permet désormais de suivre l’audit effectué par l’équipe chargée de la délivrabilité. [En savoir plus](subdomains-certificates/using/setting-up-new-subdomain.md)
 
 * **Gestion des clés GPG**
 
