@@ -1,11 +1,11 @@
 ---
 title: Configuration d’un nouveau sous-domaine
 description: Découvrez comment configurer un nouveau sous-domaine pour vos instances de campagne
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 5b7e8126789690662e72e72c885700b971362004
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1012'
-ht-degree: 81%
+ht-degree: 100%
 
 ---
 
@@ -38,7 +38,7 @@ Le Panneau de contrôle vous permet de déléguer entièrement un sous-domaine �
 
 1. Cliquez sur **[!UICONTROL Suivant]** pour confirmer votre choix de la méthode de délégation complète.
 
-   Note that [CNAME](#use-cnames) and custom methods are currently not supported by the Control Panel.
+   Veuillez noter que les méthodes [CNAME](#use-cnames) et personnalisées ne sont actuellement pas prises en charge par le panneau de contrôle.
 
    ![](assets/subdomain3.png)
 
@@ -58,17 +58,19 @@ Le Panneau de contrôle vous permet de déléguer entièrement un sous-domaine �
 
    * **Communications marketing** : communications destinées à un usage commercial. Exemple : campagne par email de vente.
    * **Communications transactionnelles et opérationnelles** : les communications transactionnelles contiennent des informations visant à terminer un processus que le destinataire a commencé avec vous. Exemple : confirmation d’achat, email de réinitialisation de mot de passe. Les communications organisationnelles se rapportent à l’échange d’informations, d’idées et d’opinions au sein et à l’extérieur de l’organisation, sans but commercial.
+
    ![](assets/subdomain5.png)
 
-   **La ventilation de vos sous-domaines selon les cas d’utilisation est une bonne pratique en matière de délivrabilité**. Elle permet d’isoler et de protéger la réputation de chaque sous-domaine. Par exemple, si votre sous-domaine pour les communications marketing finit par être ajouté à la liste bloquée par des Prestataires Internet, votre sous-domaine de communications transactionnelles ne sera pas affecté et pourra toujours envoyer des communications.
+   **La ventilation de vos sous-domaines selon les cas d’utilisation est une bonne pratique en matière de délivrabilité**. Elle permet d’isoler et de protéger la réputation de chaque sous-domaine. Par exemple, si votre sous-domaine de communications marketing est ajouté à la liste bloquée par les fournisseurs de services Internet, votre sous-domaine de communications transactionnelles ne sera pas affecté et pourra encore envoyer des communications.
 
    **Vous pouvez déléguer un sous-domaine pour les cas d’utilisation Marketing et Transactionnel** :
 
    * Pour les cas d’utilisation Marketing, les sous-domaines seront configurés sur les instances **MID** (Mid-sourcing).
    * Pour les cas d’utilisation Transactionnel, les sous-domaines seront configurés sur TOUTES les instances **RT** (Message Center/Real-time messaging) pour garantir la connectivité. Les sous-domaines fonctionneront donc avec toutes vos instances RT.
+
    >[!NOTE]
    >
-   >Si vous utilisez Campaign Classic, le Panneau de contrôle vous permet de voir quelles instances RT/MID sont connectées à l’instance Marketing que vous utilisez. For more on this, refer to the [Instance Details](../../instances-settings/using/instance-details.md) section.
+   >Si vous utilisez Campaign Classic, le Panneau de contrôle vous permet de voir quelles instances RT/MID sont connectées à l’instance Marketing que vous utilisez. Voir à ce sujet la section [Détails de l’instance](../../instances-settings/using/instance-details.md).
 
 1. Entrez le sous-domaine que vous avez créé dans votre solution d’hébergement, puis cliquez sur **[!UICONTROL Soumettre]**.
 
@@ -86,7 +88,7 @@ Le Panneau de contrôle vous permet de déléguer entièrement un sous-domaine �
 
    ![](assets/subdomain7.png)
 
-   Eventually, the **Deliverability team** will be notified about the new subdomain, in order to audit it. Le processus de vérification peut prendre jusqu’à 10 jours ouvrés après la délégation du sous-domaine. Les contrôles effectués comprennent les tests de feedback loops et de boucles de plaintes relatives au spam. Nous vous déconseillons donc d’utiliser le sous-domaine avant la fin de la vérification, car cela pourrait entraîner une mauvaise réputation du sous-domaine.
+   Enfin, l’**équipe chargée de la délivrabilité** sera informée du nouveau sous-domaine afin de le vérifier. Le processus de vérification peut prendre jusqu’à 10 jours ouvrables après la délégation du sous-domaine. Les contrôles effectués comprennent les tests de feedback loops et de boucles de plaintes relatives au spam. Nous vous déconseillons donc d’utiliser le sous-domaine avant la fin de la vérification, car cela pourrait entraîner une mauvaise réputation du sous-domaine.
 
    Pour afficher plus de détails sur la progression de la configuration, cliquez sur le bouton **[!UICONTROL Détails du processus]**.
 
@@ -94,9 +96,9 @@ Le Panneau de contrôle vous permet de déléguer entièrement un sous-domaine �
 
    **Résolution des problèmes:**
 
-   * Dans certains cas, la délégation est effectuée, mais pas la vérification du sous-domaine. The subdomain will stay into the **[!UICONTROL Configured]** list with a job log providing information on the error. Contactez l’Assistance clientèle si vous avez des difficultés à résoudre le problème.
-   * Si le sous-domaine est affiché comme &quot;Non vérifié&quot; après avoir été configuré, lancez une nouvelle vérification du sous-domaine (**...** / **[!UICONTROL Vérifier le sous-domaine]**). S&#39;il affiche toujours le même statut, la raison pourrait être qu&#39;il existe une certaine personnalisation sur le schéma destinataire, qui ne peut pas être vérifiée à l&#39;aide de processus standard. Essayez d&#39;envoyer une campagne avec ce sous-domaine.
-   * Si la configuration du sous-domaine prend trop de temps (plus de 10 jours ouvrés) à l’étape de l’audit de délivrabilité, contactez le service à la clientèle.
+   * Dans certains cas, la délégation est effectuée, mais pas la vérification du sous-domaine. Le sous-domaine reste dans la liste **[!UICONTROL Configuré]** avec un log de traitement contenant des informations sur l’erreur. Contactez l’Assistance clientèle si vous avez des difficultés à résoudre le problème.
+   * Si le sous-domaine est affiché comme « Non vérifié » après avoir été configuré, lancez une nouvelle vérification du sous-domaine (**...**/**[!UICONTROL Vérifier le sous-domaine]**). S’il affiche toujours le même statut, il se peut que le schéma des destinataires ait fait l’objet d’une personnalisation, ce qui ne peut pas être vérifié à l’aide de processus standard. Essayez d’envoyer une campagne avec ce sous-domaine.
+   * Si la configuration du sous-domaine prend trop de temps (plus de 10 jours ouvrés) à l’étape de l’audit de délivrabilité, contactez l’Assistance clientèle.
 
 À la fin du processus, les sous-domaines sont configurés pour fonctionner avec votre instance Adobe Campaign et les éléments suivants sont créés :
 
