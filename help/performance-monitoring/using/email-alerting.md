@@ -1,9 +1,9 @@
 ---
 title: Alertes par email
 description: Découvrez comment recevoir des notifications par email en cas de problèmes liés à vos instances Campaign
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: e2ee8badd9fffdfadabbe6c659aef8504ee62e9d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '169'
 ht-degree: 100%
 
