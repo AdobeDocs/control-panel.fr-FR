@@ -5,7 +5,7 @@ translation-type: tm+mt
 source-git-commit: 3faeb9651681a9edd18cf889fff65b02644cb690
 workflow-type: tm+mt
 source-wordcount: '291'
-ht-degree: 81%
+ht-degree: 100%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 81%
 >abstract="La page d’accueil du panneau de contrôle vous donne accès à toutes les actions qui peuvent être effectuées sur vos instances Campaign."
 >additional-url="https://docs.adobe.com/content/help/fr-FR/control-panel/using/discover-control-panel/discovering-the-interface.html" text="Découverte de l’interface"
 
-Le panneau de contrôle accroît votre efficacité en tant qu’administrateur de produit Adobe Campaign Standard et/ou Classic, en vous permettant de gérer les paramètres et de suivre l’utilisation de chacune de vos instances. Son interface intuitive vous permet de surveiller facilement l’utilisation des ressources clés et d’effectuer des tâches administratives telles que l’ajout de listes autorisées d’adresses IP, la surveillance des enregistrements SFTP, la gestion des clés, etc.
+Le panneau de contrôle accroît votre efficacité en tant qu’administrateur de produit Adobe Campaign Standard et/ou Classic, en vous permettant de gérer les paramètres et de suivre l’utilisation de chacune de vos instances. Dans son interface intuitive, vous pouvez facilement surveiller l’utilisation des principales ressources ou effectuer certaines tâches administratives telles que l’ajout d’adresses IP à la liste autorisée, la surveillance de l’espace de stockage SFTP, la gestion des clés, etc.
 
 Principaux avantages :
 
@@ -51,12 +51,12 @@ Principaux avantages :
     <td>
         <a href="../../instances-settings/using/ip-whitelisting-instance-access.md"><img alt="conditions" src="assets/do-not-localize/instance_settings.png"/></a>
         <div><a href="../../instances-settings/using/ip-whitelisting-instance-access.md"><strong>Gestion des paramètres des instances</strong></a></div>
-        <br/><em>Découvrez comment gérer les paramètres de vos instances (Campaign Classic uniquement).</em>
+        <br/><em>Découvrez comment gérer les paramètres des instances (Campaign Classic uniquement).</em>
     </td>
     <td>
         <a href="../../performance-monitoring/using/about-performance-monitoring.md"><img alt="conditions" src="assets/do-not-localize/monitoring-performance.png"/></a>
-        <div><a href="../../performance-monitoring/using/about-performance-monitoring.md"><strong>Performances d'analyse</strong></a></div>
-        <br/><em>Découvrez comment surveiller l'utilisation des ressources clés sur vos instances.</em>
+        <div><a href="../../performance-monitoring/using/about-performance-monitoring.md"><strong>Surveillance des performances</strong></a></div>
+        <br/><em>Découvrez comment surveiller l’utilisation des ressources clés sur vos instances.</em>
     </td>
 </tr>
 </table>
