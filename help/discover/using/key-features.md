@@ -2,7 +2,7 @@
 title: Accès au panneau de contrôle
 description: Découvrez comment accéder au panneau de contrôle
 translation-type: tm+mt
-source-git-commit: 3faeb9651681a9edd18cf889fff65b02644cb690
+source-git-commit: f6d75de9c3d92e4f5d0b3d254f103db0901ab20a
 workflow-type: tm+mt
 source-wordcount: '291'
 ht-degree: 100%
@@ -49,8 +49,8 @@ Principaux avantages :
         <em>Découvrez comment surveiller vos sous-domaines et leurs certificats.</em>
     </td>
     <td>
-        <a href="../../instances-settings/using/ip-whitelisting-instance-access.md"><img alt="conditions" src="assets/do-not-localize/instance_settings.png"/></a>
-        <div><a href="../../instances-settings/using/ip-whitelisting-instance-access.md"><strong>Gestion des paramètres des instances</strong></a></div>
+        <a href="../../instances-settings/using/ip-allow-listing-instance-access.md"><img alt="conditions" src="assets/do-not-localize/instance_settings.png"/></a>
+        <div><a href="../../instances-settings/using/ip-allow-listing-instance-access.md"><strong>Gestion des paramètres des instances</strong></a></div>
         <br/><em>Découvrez comment gérer les paramètres des instances (Campaign Classic uniquement).</em>
     </td>
     <td>
