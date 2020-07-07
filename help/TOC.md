@@ -4,7 +4,7 @@ sub-product: panneau de contrôle
 audience: end-user
 user-guide-title: Aide du panneau de contrôle
 translation-type: tm+mt
-source-git-commit: 5445ac36b81af3b23bc64788f010f497ec9d049c
+source-git-commit: f6d75de9c3d92e4f5d0b3d254f103db0901ab20a
 workflow-type: tm+mt
 source-wordcount: '100'
 ht-degree: 100%
@@ -24,7 +24,7 @@ ht-degree: 100%
 + Gestion SFTP {#sftp-management}
    + [À propos de la gestion SFTP](sftp/using/about-sftp-management.md)
    + [Gestion de l’espace de stockage SFTP](sftp/using/sftp-storage-management.md)
-   + [Listes autorisées des plages d’adresses IP](sftp/using/ip-range-whitelisting.md)
+   + [Listes autorisées des plages d’adresses IP](sftp/using/ip-range-allow-listing.md)
    + [Gestion des clés](sftp/using/key-management.md)
    + [Connexion à votre serveur SFTP](sftp/using/logging-into-sftp-server.md)
    + [Questions courantes](sftp/using/common-questions.md)
@@ -41,7 +41,7 @@ ht-degree: 100%
    + [Surveillance des profils actifs](performance-monitoring/using/active-profiles-monitoring.md)
    + [Alertes par email](performance-monitoring/using/email-alerting.md)
 + Paramètres des instances {#instances-settings}
-   + [Listes autorisées d’adresses IP pour l’accès aux instances](instances-settings/using/ip-whitelisting-instance-access.md)
+   + [Listes autorisées d’adresses IP pour l’accès aux instances](instances-settings/using/ip-allow-listing-instance-access.md)
    + [Autorisations d’URL](instances-settings/using/url-permissions.md)
    + [Détails de l’instance](instances-settings/using/instance-details.md)
    + [Gestion des clés GPG](instances-settings/using/gpg-keys-management.md)
