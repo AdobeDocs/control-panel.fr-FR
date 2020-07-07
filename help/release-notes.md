@@ -1,7 +1,7 @@
 ---
 title: Versions du Panneau de contrôle
 translation-type: tm+mt
-source-git-commit: a83309bfb6e42db231fe970f47475fb85d6d441b
+source-git-commit: 7625d291486772c6f68924a70c57e85c3aee9606
 workflow-type: tm+mt
 source-wordcount: '605'
 ht-degree: 100%
@@ -84,7 +84,7 @@ Pour plus d’informations, reportez-vous aux pages suivantes :
 Nous avons ajouté de nouvelles fonctionnalités permettant aux administrateurs d’ajouter des adresses IP à la liste autorisée afin de se connecter aux instances Campaign Classic.
 En outre, les utilisateurs administrateurs peuvent maintenant afficher la liste des instances Campaign Classic et l’éligibilité pour les upgrades de build.
 
-Pour plus d’informations, consultez la [documentation dédiée](instances-settings/using/ip-whitelisting-instance-access.md).
+Pour plus d’informations, consultez la [documentation dédiée](instances-settings/using/ip-allow-listing-instance-access.md).
 
 ## Août 2019 {#august-2019}
 
