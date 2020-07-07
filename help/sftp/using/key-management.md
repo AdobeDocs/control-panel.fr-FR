@@ -2,7 +2,7 @@
 title: Gestion des clés
 description: Découvrez comment gérer les clés pour établir une connexion aux serveurs SFTP
 translation-type: tm+mt
-source-git-commit: 3faeb9651681a9edd18cf889fff65b02644cb690
+source-git-commit: 067921a32d0b99107fc148609f78ac664da717dd
 workflow-type: tm+mt
 source-wordcount: '608'
 ht-degree: 100%
@@ -22,7 +22,7 @@ Adobe recommande à tous les clients d’établir une connexion à leurs serveur
 
 Les étapes de génération d’une clé SSH publique et de son ajout pour accéder au serveur SFTP sont décrites ci-dessous, ainsi que les recommandations concernant l’authentification.
 
-Une fois l’accès au serveur configuré, pensez à **ajouter à la liste autorisée les adresses IP qui requièrent l’accès au serveur**, afin de pouvoir vous y connecter. Voir à ce propos [cette section](../../instances-settings/using/ip-whitelisting-instance-access.md).
+Une fois l’accès au serveur configuré, pensez à **ajouter à la liste autorisée les adresses IP qui requièrent l’accès au serveur**, afin de pouvoir vous y connecter. Voir à ce propos [cette section](../../instances-settings/using/ip-allow-listing-instance-access.md).
 
 >[!NOTE]
 >
@@ -41,8 +41,6 @@ Dans de très rares cas, l’authentification par mot de passe est activée sur 
 >[!IMPORTANT]
 >
 >Si votre mot de passe arrive à expiration, même si des clés sont installées sur votre système, vous ne pourrez pas vous connecter à vos comptes SFTP.
-
-![](assets/control_panel_passwordexpires.png)
 
 ## Installation de la clé SSH {#installing-ssh-key}
 
@@ -82,6 +80,7 @@ Dans de très rares cas, l’authentification par mot de passe est activée sur 
    1. Attribuez un nom à votre clé lorsque vous y êtes invité. Si le répertoire .ssh n’existe pas, le système en créera un pour vous.
    1. Saisissez à deux reprises un mot de passe lorsque vous y êtes invité. Il peut également être laissé vide.
    1. Une paire de clés « name » et « name.pub » est créée par le système. Recherchez le fichier « name.pub », puis ouvrez-le. Il doit comporter une chaîne alphanumérique se terminant par l’adresse email que vous avez spécifiée.
+
    **Windows :**
 
    Il se peut que vous deviez installer un outil tiers qui vous aidera à générer une paire de clés privée/publique au même format « name.pub ».
