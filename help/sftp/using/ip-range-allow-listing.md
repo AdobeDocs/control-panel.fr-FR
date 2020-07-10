@@ -2,10 +2,10 @@
 title: Listes autorisées des plages d’adresses IP
 description: Découvrez comment ajouter des plages d’adresses IP à la liste autorisée pour l’accès aux serveurs SFTP
 translation-type: tm+mt
-source-git-commit: f6d75de9c3d92e4f5d0b3d254f103db0901ab20a
+source-git-commit: d96c044e83d37f020b5fd6ea55199c1223b9fa39
 workflow-type: tm+mt
-source-wordcount: '614'
-ht-degree: 48%
+source-wordcount: '615'
+ht-degree: 47%
 
 ---
 
@@ -46,7 +46,7 @@ Veillez à suivre les recommandations et les limites ci-dessous lors de l’ajou
 
 Pour ajouter une plage d’adresses IP à la liste autorisée, procédez comme suit :
 
-1. Ouvrez la carte **[!UICONTROL SFTP]**, puis sélectionnez l’onglet **[!UICONTROL Whiteliste d’adresses IP]**.
+1. Open the **[!UICONTROL SFTP]** card, then select the **[!UICONTROL IP Allow Listing]** tab.
 1. La liste des adresses IP sur la liste autorisée s’affiche pour chaque instance. Sélectionnez l’instance souhaitée dans la liste de gauche, puis cliquez sur le bouton **[!UICONTROL Ajouter une plage d’adresses IP]**.
 
    ![](assets/control_panel_add_range.png)
