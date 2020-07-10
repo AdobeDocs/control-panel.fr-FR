@@ -2,7 +2,10 @@
 title: Détails de l’instance
 description: Découvrez comment surveiller les détails de votre instance dans le panneau de contrôle
 translation-type: tm+mt
-source-git-commit: a2c19296894ff893987290cb287dc7002ab999e5
+source-git-commit: 35723590195ef54df42d1d1df5b37490787f8836
+workflow-type: tm+mt
+source-wordcount: '563'
+ht-degree: 91%
 
 ---
 
@@ -13,8 +16,8 @@ source-git-commit: a2c19296894ff893987290cb287dc7002ab999e5
 >id="cp_instancesettings_instancedetails"
 >title="A propos des détails de l’instance"
 >abstract="Affichez les détails de vos instances Adobe Campaign : types, noms, informations de build et recommandations de mises à niveau possibles."
->additional-url="https://docs.adobe.com/content/help/fr-FR/campaign-classic/using/release-notes/latest-release.html" text="Notes de mise à jour Campaign Classic"
->additional-url="https://docs.adobe.com/content/help/en/campaign-standard/using/release-notes/release-notes.html" text="Notes de mise à jour Campaign Standard"
+>additional-url="https://docs.adobe.com/content/help/fr-FR/campaign-classic/using/release-notes/latest-release.html" text="Notes de mise à jour des Campaign Classic"
+>additional-url="https://docs.adobe.com/content/help/en/campaign-standard/using/release-notes/release-notes.html" text="Notes de mise à jour des Campaign Standards"
 
 >[!IMPORTANT]
 >
@@ -43,7 +46,7 @@ Pour obtenir des informations sur les serveurs connectés à vos instances, proc
 
    >[!NOTE]
    >
-   >Si la carte Paramètres des instances n’est pas visible sur la page d’accueil du panneau de contrôle, cela signifie que votre identifiant de l’organisation IMS n’est associé à aucune instance Adobe Campaign Classic.
+   >Si la carte Paramètres d’instance n’est pas visible sur la page d’accueil du Panneau de configuration, cela signifie que votre ID d’organisation IMS n’est associé à aucune instance Adobe Campaign Classic.
 
 1. Dans le panneau de gauche, sélectionnez l’instance Campaign Classic désirée.
 
