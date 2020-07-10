@@ -1,10 +1,10 @@
 ---
 title: Versions du Panneau de contrôle
 translation-type: tm+mt
-source-git-commit: 7625d291486772c6f68924a70c57e85c3aee9606
+source-git-commit: c91a37883a883cdfa118c5c7e6315ff69e5ad0f5
 workflow-type: tm+mt
-source-wordcount: '605'
-ht-degree: 100%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -28,10 +28,6 @@ Après avoir délégué un nouveau sous-domaine, le panneau de contrôle vous pe
 Le Panneau de contrôle vous permet maintenant de générer une paire de clés GPG pour vous puissiez facilement décrypter les données qui entrent dans dans Campaign et qui proviennent de l’extérieur. En outre, nous avons ajouté une fonctionnalité permettant d’installer une clé GPG publique pour crypter les données qui sortent de Campaign. [En savoir plus](instances-settings/using/gpg-keys-management.md)
 * [Tutoriel vidéo sur Campaign Standard](https://docs.adobe.com/content/help/en/campaign-standard-learn/tutorials/administrating/control-panel/generating-and-installing-gpg-keys.html)
 * [Tutoriel vidéo sur Campaign Classic](https://docs.adobe.com/content/help/en/campaign-classic-learn/tutorials/administrating/control-panel-acc/generating-and-installing-gpg-keys.html)
-
-**Suppression des whitelistes/blacklistes**
-
-Les termes « whiteliste » et « blackliste » ont été supprimés de la documentation Adobe Campaign. Certaines occurrences de ces termes peuvent toujours apparaître dans l’interface utilisateur du produit, les noms d’option et le code interne, mais elles seront remplacées dans les prochaines versions de Campaign par « liste bloquée » et « liste autorisée ».
 
 **Surveillance des profils actifs**
 
