@@ -2,10 +2,10 @@
 title: Listes autorisées d’adresses IP
 description: Découvrez comment ajouter des adresses IP à la liste autorisée dans le panneau de contrôle pour accéder aux instances
 translation-type: tm+mt
-source-git-commit: abe22509e3389874e0b3586a99a1ad2d49681ed8
+source-git-commit: 35723590195ef54df42d1d1df5b37490787f8836
 workflow-type: tm+mt
 source-wordcount: '790'
-ht-degree: 100%
+ht-degree: 96%
 
 ---
 
@@ -53,7 +53,7 @@ Pour ajouter des adresses IP à la liste autorisée, procédez comme suit :
 
    >[!NOTE]
    >
-   >Si la carte Paramètres des instances n’est pas visible sur la page d’accueil du panneau de contrôle, cela signifie que votre identifiant de l’organisation IMS n’est associé à aucune instance Adobe Campaign Classic.
+   >Si la carte Paramètres d’instance n’est pas visible sur la page d’accueil du Panneau de configuration, cela signifie que votre ID d’organisation IMS n’est associé à aucune instance Adobe Campaign Classic.
 
    ![](assets/ip_whitelist_list1.png)
 
