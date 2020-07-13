@@ -1,11 +1,11 @@
 ---
 title: Listes autorisées d’adresses IP
 description: Découvrez comment ajouter des adresses IP à la liste autorisée dans le panneau de contrôle pour accéder aux instances
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 35723590195ef54df42d1d1df5b37490787f8836
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '790'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -53,7 +53,7 @@ Pour ajouter des adresses IP à la liste autorisée, procédez comme suit :
 
    >[!NOTE]
    >
-   >Si la carte Paramètres d’instance n’est pas visible sur la page d’accueil du Panneau de configuration, cela signifie que votre ID d’organisation IMS n’est associé à aucune instance Adobe Campaign Classic.
+   >Si la carte Paramètres des instances n’est pas visible sur la page d’accueil du panneau de contrôle, cela signifie que votre identifiant de l’organisation IMS n’est associé à aucune instance Adobe Campaign Classic.
 
    ![](assets/ip_whitelist_list1.png)
 
@@ -62,7 +62,7 @@ Pour ajouter des adresses IP à la liste autorisée, procédez comme suit :
    ![](assets/ip_whitelist_add1.png)
 
    * **[!UICONTROL Instance(s)]** : les instances auxquelles les adresses IP seront en mesure de se connecter. Plusieurs instances peuvent être manipulées en même temps. Par exemple, des listes autorisées d’adresses IP peuvent être créées à la fois pour les instances de production et de test via la même étape.
-   * **[!UICONTROL Plage d’adresses IP]** : la plage d’adresses IP à ajouter à la liste autorisée, au format CIDR. Veuillez noter qu’une plage d’adresses IP ne peut pas chevaucher une plage existante dans la liste autorisée. Dans ce cas, supprimez d’abord la plage qui contient l’adresse IP whitelistée.
+   * **[!UICONTROL Plage d’adresses IP]** : la plage d’adresses IP à ajouter à la liste autorisée, au format CIDR. Veuillez noter qu’une plage d’adresses IP ne peut pas chevaucher une plage existante dans la liste autorisée. Dans ce cas, supprimez d’abord la plage qui contient l’adresse IP qui chevauche.
 
    >[!NOTE]
    >
