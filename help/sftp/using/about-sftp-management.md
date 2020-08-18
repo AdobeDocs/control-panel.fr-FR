@@ -1,11 +1,12 @@
 ---
 title: À propos de la gestion SFTP
 description: En savoir plus sur la gestion SFTP dans le panneau de contrôle
-translation-type: ht
-source-git-commit: 3faeb9651681a9edd18cf889fff65b02644cb690
-workflow-type: ht
-source-wordcount: '168'
-ht-degree: 100%
+testing: SSECD-836
+translation-type: tm+mt
+source-git-commit: 9fe5f25ef2f3d7dafe9ae63d430279c354fce25a
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
