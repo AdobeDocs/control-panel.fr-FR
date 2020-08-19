@@ -1,17 +1,17 @@
 ---
 title: Versions du Panneau de contrôle
 translation-type: tm+mt
-source-git-commit: 23ca04d0b071a0dd24e72a4db4b29cba35437995
+source-git-commit: 6607bb44a3a40607a653c37bfb19ae0d9fc6f5a9
 workflow-type: tm+mt
-source-wordcount: '563'
-ht-degree: 96%
+source-wordcount: '564'
+ht-degree: 94%
 
 ---
 
 
 # Versions du Panneau de contrôle {#control-panel-releases}
 
-Vous trouverez ici des informations sur les dernières versions du Panneau de contrôle.
+Vous trouverez ici des informations sur les dernières versions de Panneau de Contrôle.
 
 >[!NOTE]
 >
