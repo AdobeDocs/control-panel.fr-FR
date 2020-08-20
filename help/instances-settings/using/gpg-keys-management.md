@@ -2,10 +2,10 @@
 title: Gestion des clés GPG
 description: Découvrez comment gérer les clés GPG pour crypter et décrypter les données dans Adobe Campaign.
 translation-type: tm+mt
-source-git-commit: 23ca04d0b071a0dd24e72a4db4b29cba35437995
+source-git-commit: 1fe1bf8cd90218c54076988780b53819e9fad304
 workflow-type: tm+mt
 source-wordcount: '1139'
-ht-degree: 98%
+ht-degree: 97%
 
 ---
 
@@ -113,7 +113,7 @@ Pour générer une paire de clés dans le panneau de contrôle, procédez comme 
 
    ![](assets/gpg_generate.png)
 
-1. Indiquez le nom de la clé, puis cliquez sur **!UICONTROL Générer la clé&#x200B;**. Ce nom vous permettra d’identifier la clé à utiliser pour le décryptage dans les workflows de Campaign.
+1. Specify the name of the key, then click **[!UICONTROL Generate Key]**. Ce nom vous permettra d’identifier la clé à utiliser pour le décryptage dans les workflows de Campaign.
 
    ![](assets/gpg_generate_name.png)
 
