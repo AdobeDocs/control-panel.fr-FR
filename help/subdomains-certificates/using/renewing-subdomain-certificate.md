@@ -1,11 +1,11 @@
 ---
 title: Renouvellement du certificat SSL d’un sous-domaine
 description: Découvrez comment renouveler les certificats SSL de vos sous-domaines
-translation-type: ht
-source-git-commit: bc29433167d4699ad9b840381abd0d5bbff8c630
-workflow-type: ht
-source-wordcount: '865'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 17f51b60310b4fbc89e2106eb4ee9251fd525a59
+workflow-type: tm+mt
+source-wordcount: '867'
+ht-degree: 94%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 100%
 
 >[!IMPORTANT]
 >
->La délégation de sous-domaine depuis le panneau de contrôle est disponible en version bêta et sujette à de fréquentes mises à jour et modifications sans préavis.
+>La configuration des sous-domaines à partir du Panneau de Contrôle est disponible en version bêta et sujette à de fréquentes mises à jour et modifications sans préavis.
 
 ## À propos du renouvellement des certificats {#about-certificate-renewal-process}
 
@@ -65,6 +65,7 @@ Pour générer une demande de signature de certificat (CSR), procédez comme sui
    * **[!UICONTROL Organisation]** : nom officiel de l’organisation.
    * **[!UICONTROL Unité d’organisation]** : unité associée au sous-domaine (exemple : marketing, informatique).
    * **[!UICONTROL Instance]** (prérenseigné) : URL de l’instance Campaign associée au sous-domaine.
+
    ![](assets/renewal3.png)
 
 1. Sélectionnez les sous-domaines à inclure dans le fichier CSR, puis cliquez sur **[!UICONTROL OK]**.
@@ -100,7 +101,7 @@ Après obtention d’une demande de signature de certificat via le panneau de co
 Une fois un certificat SSL acheté, vous pouvez l’installer sur votre instance. Avant de poursuivre, prenez connaissance des prérequis suivants :
 
 * La demande de signature de certificat (CSR) doit avoir été générée depuis le panneau de contrôle. Sinon, vous ne pourrez pas installer le certificat depuis le panneau de contrôle.
-* La demande de signature de certificat (CSR) doit correspondre au sous-domaine qui a été délégué à Adobe. Par exemple, elle ne peut pas contenir d’autres sous-domaines que celui qui a été délégué.
+* La demande de signature de certificat (CSR) doit correspondre au sous-domaine configuré pour fonctionner avec l’Adobe. Par exemple, il ne peut pas contenir plus de sous-domaines que celui qui a été configuré.
 * La date du certificat doit être celle en cours. Il n’est pas possible d’installer des certificats avec des dates dans le futur ou ayant expiré (les dates de début et de fin doivent être valides).
 * Le certificat doit être émis par une autorité de certification approuvée telle que Comodo, DigiCert, GoDaddy, etc.
 * La taille du certificat doit être de 2 048 bits et l’algorithme doit être de type RSA.
