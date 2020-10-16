@@ -1,10 +1,10 @@
 ---
 title: Versions du Panneau de contrôle
 translation-type: tm+mt
-source-git-commit: 6607bb44a3a40607a653c37bfb19ae0d9fc6f5a9
+source-git-commit: 1c7e5a830ff9a6b6a726cfbe30ca2ad264f1d8c6
 workflow-type: tm+mt
-source-wordcount: '564'
-ht-degree: 94%
+source-wordcount: '621'
+ht-degree: 80%
 
 ---
 
@@ -16,6 +16,16 @@ Vous trouverez ici des informations sur les dernières versions de Panneau de Co
 >[!NOTE]
 >
 >Veuillez noter que le Panneau de contrôle est disponible pour les clients hébergés sur AWS uniquement, à l’exception des environnements hybrides, qui ne sont pas encore pris en charge. Aucune mise à niveau n’est requise pour accéder au panneau de contrôle. Vérifiez que vous êtes un utilisateur administrateur pour y accéder.
+
+## Octobre 2020 {#october-2020}
+
+**Configuration de sous-domaines à l’aide de CNAME**
+
+Le Panneau de Contrôle vous permet désormais de configurer un sous-domaine pour qu’il fonctionne avec l’Adobe à l’aide de CNAME directement depuis l’interface. [En savoir plus](subdomains-certificates/using/setting-up-new-subdomain.md)
+
+**Améliorations de la surveillance des bases de données**
+
+L&#39;onglet Surveillance **[!UICONTROL de la]** base de données a été amélioré avec des mesures supplémentaires, ce qui vous permet d&#39;obtenir des informations détaillées sur les ressources qui consomment de l&#39;espace sur votre base de données. [En savoir plus](performance-monitoring/using/database-monitoring.md)
 
 ## Juin 2020 {#june-2020}
 
@@ -43,7 +53,7 @@ Le panneau de contrôle vous permet maintenant de surveiller le nombre de profil
 
 **Gestion des certificats pour les sous-domaines CNAME**
 
-Le Panneau de contrôle permet maintenant de renouveler les certificats SSL de vos sous-domaines qui ont été délégués avec la méthode CNAME. [En savoir plus](subdomains-certificates/using/renewing-subdomain-certificate.md)
+Le Panneau de Contrôle vous permet désormais de renouveler les certificats SSL de vos sous-domaines qui ont été configurés avec la méthode CNAME. [En savoir plus](subdomains-certificates/using/renewing-subdomain-certificate.md)
 
 ## Avril 2020 {#april-2020}
 
@@ -63,7 +73,7 @@ Le Panneau de contrôle de Campaign dispose de fonctionnalités d’alerte par e
 
 *22 janvier 2020*
 
-De nouvelles fonctionnalités ont été ajoutées pour permettre aux utilisateurs administrateurs de déléguer des sous-domaines et de renouveler des certificats SSL à partir du panneau de contrôle.
+Nous avons ajouté de nouvelles fonctionnalités permettant aux administrateurs de configurer des sous-domaines et de renouveler les certificats SSL à partir du Panneau de Contrôle.
 
 Pour plus d’informations, reportez-vous aux pages suivantes :
 * [Configuration d’un nouveau sous-domaine](subdomains-certificates/using/setting-up-new-subdomain.md)
