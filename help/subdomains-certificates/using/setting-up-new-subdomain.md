@@ -2,9 +2,9 @@
 title: Configuration d’un nouveau sous-domaine
 description: Découvrez comment configurer un nouveau sous-domaine pour vos instances de campagne
 translation-type: tm+mt
-source-git-commit: c215836129487530e50398ca1454895a2f319867
+source-git-commit: 4488040118bac708348bc73c5e525f35f6b1e6c1
 workflow-type: tm+mt
-source-wordcount: '1126'
+source-wordcount: '1128'
 ht-degree: 49%
 
 ---
@@ -27,7 +27,7 @@ Cette page fournit des informations sur la configuration de nouveaux sous-domain
 **Rubriques connexes :**
 
 * [Délégation de sous-domaines (tutoriel vidéo)](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/administrating/control-panel/subdomain-delegation.html)
-* [Configuration de sous-domaines à l’aide de CNAME](https://docs.adobe.com/content/help/en/campaign-classic-learn/control-panel/subdomains-and-certificates/delegating-subdomains-using-cname.html)
+* [Configuration de sous-domaines à l’aide de CNAME (vidéo de didacticiel)](https://docs.adobe.com/content/help/en/campaign-classic-learn/control-panel/subdomains-and-certificates/delegating-subdomains-using-cname.html)
 * [Surveillance de vos sous-domaines](../../subdomains-certificates/using/monitoring-subdomains.md)
 
 ## À lire absolument {#must-read}
