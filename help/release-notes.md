@@ -1,9 +1,9 @@
 ---
 title: Versions du Panneau de contrôle
 translation-type: tm+mt
-source-git-commit: 1c7e5a830ff9a6b6a726cfbe30ca2ad264f1d8c6
+source-git-commit: ee5c44c8b22b1053b7993744aa4898a10761782a
 workflow-type: tm+mt
-source-wordcount: '621'
+source-wordcount: '620'
 ht-degree: 80%
 
 ---
@@ -25,7 +25,7 @@ Le Panneau de Contrôle vous permet désormais de configurer un sous-domaine pou
 
 **Améliorations de la surveillance des bases de données**
 
-L&#39;onglet Surveillance **[!UICONTROL de la]** base de données a été amélioré avec des mesures supplémentaires, ce qui vous permet d&#39;obtenir des informations détaillées sur les ressources qui consomment de l&#39;espace sur votre base de données. [En savoir plus](performance-monitoring/using/database-monitoring.md)
+La surveillance de la base de données a été améliorée avec des mesures supplémentaires qui vous permettent d&#39;obtenir des informations détaillées sur les ressources qui consomment de l&#39;espace sur votre base de données. [En savoir plus](performance-monitoring/using/database-monitoring.md)
 
 ## Juin 2020 {#june-2020}
 
