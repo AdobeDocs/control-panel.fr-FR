@@ -1,10 +1,10 @@
 ---
 title: Documentation du produit
 translation-type: tm+mt
-source-git-commit: d8fe1c2e847fa25919f81bf0a4195de5ad0b2781
+source-git-commit: 75a10bc5c9886cf99df5d2bffb087b91ce81bb10
 workflow-type: tm+mt
-source-wordcount: '122'
-ht-degree: 100%
+source-wordcount: '126'
+ht-degree: 58%
 
 ---
 
@@ -15,13 +15,14 @@ ht-degree: 100%
 
 ## Nouveautés
 
-* **Audit de délivrabilité des sous-domaines**
 
-   Après avoir délégué un nouveau sous-domaine, le panneau de contrôle vous permet désormais de suivre l’audit effectué par l’équipe chargée de la délivrabilité. [En savoir plus](subdomains-certificates/using/setting-up-new-subdomain.md)
+**Configuration de sous-domaines à l’aide de CNAME**
 
-* **Gestion des clés GPG**
+Le Panneau de Contrôle vous permet désormais de configurer un sous-domaine pour qu’il fonctionne avec l’Adobe à l’aide de CNAME directement depuis l’interface. [En savoir plus](subdomains-certificates/using/setting-up-new-subdomain.md)
 
-   Installez et/ou générez des clés GPG sur une instance marketing pour crypter les données envoyées depuis Campaign et décrypter les données entrantes. [En savoir plus](instances-settings/using/gpg-keys-management.md)
+**Améliorations de la surveillance des bases de données**
+
+L&#39;onglet Surveillance **[!UICONTROL de la]** base de données a été amélioré avec des mesures supplémentaires, ce qui vous permet d&#39;obtenir des informations détaillées sur les ressources qui consomment de l&#39;espace sur votre base de données. [En savoir plus](performance-monitoring/using/database-monitoring.md)
 
 ## Ressources supplémentaires {#additional-resources}
 
