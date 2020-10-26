@@ -1,11 +1,11 @@
 ---
 title: Marque des sous-domaines
 description: En savoir plus sur la marque des sous-domaines
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 17f51b60310b4fbc89e2106eb4ee9251fd525a59
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '702'
-ht-degree: 80%
+ht-degree: 100%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 80%
 
 >[!IMPORTANT]
 >
->La configuration des sous-domaines à partir du Panneau de Contrôle est disponible en version bêta et sujette à de fréquentes mises à jour et modifications sans préavis.
+>La configuration de sous-domaine depuis le Panneau de contrôle est disponible en version bêta et sujette à de fréquentes mises à jour et modifications sans préavis.
 
 ## Pourquoi configurer des sous-domaines ? {#why-setting-up-subdomains}
 
@@ -33,13 +33,13 @@ Prenons l&#39;exemple du domaine « mybrand.com », utilisé pour envoyer des 
 
 Ce faisant, vous contribuerez à préserver la réputation de votre domaine et des autres sous-domaines. Par exemple, si les sous-domaines « marketing.mybrand.com » se retrouvaient ajoutés à la liste bloquée par les fournisseurs de services Internet en raison d’une mauvaise délivrabilité, cela empêcherait le domaine « mybrand.com » entier et le sous-domaine « info.mybrand.com » d’être ajoutés à la liste bloquée.
 
-## Méthodes de configuration du sous-domaine {#subdomain-delegation-methods}
+## Méthodes de configuration de sous-domaine {#subdomain-delegation-methods}
 
-La configuration de sous-domaine vous permet de configurer une sous-section de votre domaine (techniquement une &quot;zone DNS&quot;) pour une utilisation avec Adobe Campaign. Les méthodes de configuration disponibles sont les suivantes :
+La configuration de sous-domaine vous permet de configurer une sous-section de votre domaine (techniquement, une « zone DNS ») à utiliser avec Adobe Campaign. Les méthodes de configuration disponibles sont les suivantes :
 
 * **Délégation complète de sous-domaine à Adobe Campaign** (recommandée) : le sous-domaine est entièrement délégué à Adobe. Adobe est en mesure de fournir la campagne en tant que service géré en contrôlant et en gérant tous les aspects du DNS nécessaires à la diffusion, au rendu et au suivi des campagnes par email.
 
-* **Utilisation de CNAME**: Créez un sous-domaine et utilisez des CNAME pour pointer vers des enregistrements spécifiques à un Adobe. Grâce à cette configuration, Adobe et le client partagent la responsabilité de la maintenance du DNS.
+* **Utilisation de CNAME** : créez un sous-domaine et utilisez des CNAME pour pointer vers des enregistrements spécifiques à Adobe. Grâce à cette configuration, Adobe et le client partagent la responsabilité de la maintenance du DNS.
 
 Le tableau ci-dessous résume le fonctionnement de ces méthodes, ainsi que le niveau d’effort impliqué :
 
@@ -48,15 +48,15 @@ Le tableau ci-dessous résume le fonctionnement de ces méthodes, ainsi que le n
 | **Délégation complète** | Créez l’enregistrement du sous-domaine et de l’espace de nommage. Adobe configurera alors tous les enregistrements DNS nécessaires à Adobe Campaign.<br/><br/>Dans cette configuration, Adobe est entièrement responsable de la gestion du sous-domaine et de tous les enregistrements DNS. | Faible |
 | **CNAME, méthode personnalisée** | Créez l’enregistrement du sous-domaine et de l’espace de nommage. Adobe fournira alors les enregistrements à placer sur vos serveurs DNS et configurera les valeurs correspondantes sur les serveurs DNS Adobe Campaign.<br/><br/>Dans cette configuration, vous partagez avec Adobe la responsabilité de la maintenance du DNS. | Élevée |
 
-Additional information on domain configuration is available in [this documentation](https://helpx.adobe.com/fr/campaign/kb/domain-name-delegation.html).
+Des informations supplémentaires sur la configuration de domaine sont disponibles dans [cette documentation](https://helpx.adobe.com/fr/campaign/kb/domain-name-delegation.html).
 
-Si vous avez des questions sur les méthodes de configuration des sous-domaines, contactez l’équipe de délivrabilité des Adobes ou contactez le service à la clientèle pour demander conseil sur la délivrabilité.
+Si vous avez des questions concernant les méthodes de configuration de sous-domaine, contactez l’équipe chargée de la délivrabilité d’Adobe ou l’Assistance clientèle pour obtenir des conseils sur la délivrabilité.
 
 ## Cas d’utilisation des sous-domaines (Campaign Classic) (#subdomains-use-case)
 
-Lors de la configuration de sous-domaines pour les instances de Campaign Classic, vous devez sélectionner le cas d’utilisation pour lequel le sous-domaine sera utilisé (voir [](../../subdomains-certificates/using/setting-up-new-subdomain.md)).
+Lors de la configuration de sous-domaines pour les instances de Campaign Classic, vous devez sélectionner le cas d’utilisation pour lequel le sous-domaine sera utilisé (voir la section [](../../subdomains-certificates/using/setting-up-new-subdomain.md)).
 
-Cas d&#39;utilisation possibles :
+Les cas d’utilisation possibles sont les suivants :
 
 * **Communications marketing** : communications destinées à un usage commercial. Exemple : campagne par email de vente.
 
@@ -64,7 +64,7 @@ Cas d&#39;utilisation possibles :
 
 **La ventilation de vos sous-domaines selon les cas d’utilisation est une bonne pratique en matière de délivrabilité**. Elle permet d’isoler et de protéger la réputation de chaque sous-domaine. Par exemple, si votre sous-domaine de communications marketing est ajouté à la liste bloquée par les fournisseurs de services Internet, votre sous-domaine de communications transactionnelles ne sera pas affecté et pourra encore envoyer des communications.
 
-**Vous pouvez configurer des sous-domaines pour les cas** d’utilisation Marketing et Transactionnelle :
+**Vous pouvez configurer un sous-domaine pour les cas d’utilisation Marketing et Transactionnel** :
 
 * Pour les cas d’utilisation Marketing, les sous-domaines seront configurés sur les instances **MID** (Mid-sourcing).
 * Pour les cas d’utilisation Transactionnel, les sous-domaines seront configurés sur TOUTES les instances **RT** (Message Center/Real-time messaging) pour garantir la connectivité. Les sous-domaines fonctionneront donc avec toutes vos instances RT.
@@ -76,5 +76,5 @@ Cas d&#39;utilisation possibles :
 **Rubriques connexes :**
 
 * [Configuration d’un nouveau sous-domaine](../../subdomains-certificates/using/setting-up-new-subdomain.md)
-* [Vidéo didactique](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/administrating/control-panel/subdomain-delegation.html)
+* [Tutoriel vidéo](https://docs.adobe.com/content/help/fr-FR/campaign-standard-learn/control-panel/subdomains-and-certificates/subdomain-delegation.html)
 * [Surveillance de vos sous-domaines](../../subdomains-certificates/using/monitoring-subdomains.md)
