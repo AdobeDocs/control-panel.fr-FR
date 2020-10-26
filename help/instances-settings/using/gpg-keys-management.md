@@ -1,11 +1,11 @@
 ---
 title: Gestion des clés GPG
 description: Découvrez comment gérer les clés GPG pour crypter et décrypter les données dans Adobe Campaign.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 1fe1bf8cd90218c54076988780b53819e9fad304
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1139'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -28,8 +28,8 @@ Vous pourrez alors :
 
 **Rubriques connexes :**
 
-* [Tutoriels vidéo sur Campaign Standard](https://docs.adobe.com/content/help/en/campaign-standard-learn/tutorials/administrating/control-panel/gpg-key-management/gpg-key-management-overview.html)
-* [Tutoriels vidéo sur Campaign Classic](https://docs.adobe.com/content/help/en/campaign-classic-learn/tutorials/administrating/control-panel-acc/gpg-key-management/gpg-key-management-overview.html)
+* [Tutoriels vidéo sur Campaign Standard](https://docs.adobe.com/content/help/fr-FR/campaign-standard-learn/tutorials/administrating/control-panel/gpg-key-management/gpg-key-management-overview.html)
+* [Tutoriels vidéo sur Campaign Classic](https://docs.adobe.com/content/help/fr-FR/campaign-classic-learn/tutorials/administrating/control-panel-acc/gpg-key-management/gpg-key-management-overview.html)
 
 ## Cryptage des données {#encrypting-data}
 
@@ -107,13 +107,13 @@ Pour cela, vous devez générer une paire de clés GPG directement à partir du
 
 Pour générer une paire de clés dans le panneau de contrôle, procédez comme suit :
 
-1. Ouvrez la carte **[!UICONTROL Paramètres des instances]**, puis sélectionnez l’onglet **[!UICONTROL Clés GPS]** et l’instance Adobe Campaign souhaitée.
+1. Ouvrez la carte **[!UICONTROL Paramètres des instances]**, puis sélectionnez l’onglet **[!UICONTROL Clés GPG]** et l’instance Adobe Campaign souhaitée.
 
 1. Cliquez sur le bouton **[!UICONTROL Générer la clé]**.
 
    ![](assets/gpg_generate.png)
 
-1. Specify the name of the key, then click **[!UICONTROL Generate Key]**. Ce nom vous permettra d’identifier la clé à utiliser pour le décryptage dans les workflows de Campaign.
+1. Indiquez le nom de la clé, puis cliquez sur **[!UICONTROL Générer la clé]**. Ce nom vous permettra d’identifier la clé à utiliser pour le décryptage dans les workflows de Campaign.
 
    ![](assets/gpg_generate_name.png)
 
