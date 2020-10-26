@@ -1,11 +1,11 @@
 ---
 title: Autorisations d’URL
 description: Découvrez comment gérer les autorisations d’URL dans le panneau de contrôle
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 35723590195ef54df42d1d1df5b37490787f8836
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '617'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -34,7 +34,7 @@ Une fois qu’une URL est ajoutée, elle est référencée dans le fichier de co
 
 * [Configuration du serveur Campaign](https://docs.campaign.adobe.com/doc/AC/en/INS_Additional_configurations_Configuring_Campaign_server.html)
 * [Protection des connexions sortantes](https://docs.campaign.adobe.com/doc/AC/en/INS_Additional_configurations_Configuring_Campaign_server.html#Outgoing_connection_protection)
-* [Ajout d’autorisations d’URL (tutoriel vidéo)](https://docs.adobe.com/content/help/en/campaign-learn/campaign-classic-tutorials/administrating/control-panel-acc/adding-url-permissions.html)
+* [Ajout d’autorisations d’URL (tutoriel vidéo)](https://docs.adobe.com/content/help/fr-FR/campaign-classic-learn/control-panel/instance-settings/adding-url-permissions.html)
 
 ## Bonnes pratiques {#best-practices}
 
@@ -55,7 +55,7 @@ Pour ajouter une URL à laquelle votre instance peut se connecter, procédez com
 
    >[!NOTE]
    >
-   >Si la carte Paramètres d’instance n’est pas visible sur la page d’accueil du Panneau de configuration, cela signifie que votre ID d’organisation IMS n’est associé à aucune instance Adobe Campaign Classic.
+   >Si la carte Paramètres des instances n’est pas visible sur la page d’accueil du panneau de contrôle, cela signifie que votre identifiant de l’organisation IMS n’est associé à aucune instance Adobe Campaign Classic.
    >
    >L’onglet <b><span class="uicontrol">Autorisations d’URL</span></b> répertorie toutes les URL externes auxquelles votre instance peut se connecter. Cette liste ne comprend pas les URL requises pour que Campaign fonctionne (par exemple, les connexions entre les éléments d’infrastructure).
 
