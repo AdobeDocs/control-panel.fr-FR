@@ -1,11 +1,11 @@
 ---
 title: Renouvellement du certificat SSL d’un sous-domaine
 description: Découvrez comment renouveler les certificats SSL de vos sous-domaines
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 17f51b60310b4fbc89e2106eb4ee9251fd525a59
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '867'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 94%
 
 >[!IMPORTANT]
 >
->La configuration des sous-domaines à partir du Panneau de Contrôle est disponible en version bêta et sujette à de fréquentes mises à jour et modifications sans préavis.
+>La configuration de sous-domaine depuis le Panneau de contrôle est disponible en version bêta et sujette à de fréquentes mises à jour et modifications sans préavis.
 
 ## À propos du renouvellement des certificats {#about-certificate-renewal-process}
 
@@ -101,7 +101,7 @@ Après obtention d’une demande de signature de certificat via le panneau de co
 Une fois un certificat SSL acheté, vous pouvez l’installer sur votre instance. Avant de poursuivre, prenez connaissance des prérequis suivants :
 
 * La demande de signature de certificat (CSR) doit avoir été générée depuis le panneau de contrôle. Sinon, vous ne pourrez pas installer le certificat depuis le panneau de contrôle.
-* La demande de signature de certificat (CSR) doit correspondre au sous-domaine configuré pour fonctionner avec l’Adobe. Par exemple, il ne peut pas contenir plus de sous-domaines que celui qui a été configuré.
+* La demande de signature de certificat (CSR) doit correspondre au sous-domaine qui a été configuré pour fonctionner avec Adobe. Par exemple, elle ne peut pas contenir d’autres sous-domaines que celui qui a été configuré.
 * La date du certificat doit être celle en cours. Il n’est pas possible d’installer des certificats avec des dates dans le futur ou ayant expiré (les dates de début et de fin doivent être valides).
 * Le certificat doit être émis par une autorité de certification approuvée telle que Comodo, DigiCert, GoDaddy, etc.
 * La taille du certificat doit être de 2 048 bits et l’algorithme doit être de type RSA.
@@ -136,6 +136,6 @@ Une fois le certificat SSL installé, sa date d’expiration et son icône d’�
 
 **Rubriques connexes :**
 
-* [Ajout de certificats SSL (tutoriel vidéo)](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/administrating/control-panel/adding-ssl-certificates.html)
+* [Ajout de certificats SSL (tutoriel vidéo)](https://docs.adobe.com/content/help/fr-FR/campaign-standard-learn/control-panel/subdomains-and-certificates/adding-ssl-certificates.html)
 * [Marque des sous-domaines](../../subdomains-certificates/using/subdomains-branding.md)
 * [Surveillance de vos sous-domaines](../../subdomains-certificates/using/monitoring-subdomains.md)
