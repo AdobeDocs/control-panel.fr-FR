@@ -89,5 +89,5 @@ Pour ajouter des adresses IP à la liste autorisée, procédez comme suit :
 Pour supprimer des plages d’adresses IP de la liste autorisée, sélectionnez-les puis cliquez sur le bouton **[!UICONTROL Supprimer une plage d’adresses IP]**.
 
 **Rubriques connexes :**
-* [Listes autorisées d’adresses IP (tutoriel vidéo)](https://docs.adobe.com/content/help/en/campaign-learn/campaign-classic-tutorials/administrating/control-panel-acc/ip-allow-listing.html)
+* [Listes autorisées d’adresses IP (tutoriel vidéo)](https://docs.adobe.com/content/help/fr-FR/campaign-classic-learn/control-panel/instance-settings/ip-allow-listing.html)
 * [Liaison d’une zone de sécurité à un opérateur](https://docs.campaign.adobe.com/doc/AC/en/INS_Additional_configurations_Configuring_Campaign_server.html#Linking_a_security_zone_to_an_operator)
