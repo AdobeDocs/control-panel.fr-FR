@@ -4,14 +4,14 @@ translation-type: tm+mt
 source-git-commit: ee5c44c8b22b1053b7993744aa4898a10761782a
 workflow-type: tm+mt
 source-wordcount: '620'
-ht-degree: 80%
+ht-degree: 95%
 
 ---
 
 
 # Versions du Panneau de contrôle {#control-panel-releases}
 
-Vous trouverez ici des informations sur les dernières versions de Panneau de Contrôle.
+Vous trouverez ici des informations sur les dernières versions du Panneau de contrôle.
 
 >[!NOTE]
 >
@@ -21,7 +21,7 @@ Vous trouverez ici des informations sur les dernières versions de Panneau de Co
 
 **Configuration de sous-domaines à l’aide de CNAME**
 
-Le Panneau de Contrôle vous permet désormais de configurer un sous-domaine pour qu’il fonctionne avec l’Adobe à l’aide de CNAME directement depuis l’interface. [En savoir plus](subdomains-certificates/using/setting-up-new-subdomain.md)
+Le Panneau de contrôle permet maintenant de configurer un sous-domaine pour qu’il fonctionne avec Adobe à l’aide de CNAME, directement depuis l’interface. [En savoir plus](subdomains-certificates/using/setting-up-new-subdomain.md)
 
 **Améliorations de la surveillance des bases de données**
 
@@ -36,8 +36,8 @@ Après avoir délégué un nouveau sous-domaine, le panneau de contrôle vous pe
 **Gestion des clés GPG**
 
 Le Panneau de contrôle vous permet maintenant de générer une paire de clés GPG pour vous puissiez facilement décrypter les données qui entrent dans dans Campaign et qui proviennent de l’extérieur. En outre, nous avons ajouté une fonctionnalité permettant d’installer une clé GPG publique pour crypter les données qui sortent de Campaign. [En savoir plus](instances-settings/using/gpg-keys-management.md)
-* [Tutoriels vidéo sur Campaign Standard](https://docs.adobe.com/content/help/en/campaign-standard-learn/tutorials/administrating/control-panel/gpg-key-management/gpg-key-management-overview.html)
-* [Tutoriels vidéo sur Campaign Classic](https://docs.adobe.com/content/help/en/campaign-classic-learn/tutorials/administrating/control-panel-acc/gpg-key-management/gpg-key-management-overview.html)
+* [Tutoriels vidéo sur Campaign Standard](https://docs.adobe.com/content/help/fr-FR/campaign-standard-learn/tutorials/administrating/control-panel/gpg-key-management/gpg-key-management-overview.html)
+* [Tutoriels vidéo sur Campaign Classic](https://docs.adobe.com/content/help/fr-FR/campaign-classic-learn/tutorials/administrating/control-panel-acc/gpg-key-management/gpg-key-management-overview.html)
 
 **Surveillance des profils actifs**
 
@@ -53,7 +53,7 @@ Le panneau de contrôle vous permet maintenant de surveiller le nombre de profil
 
 **Gestion des certificats pour les sous-domaines CNAME**
 
-Le Panneau de Contrôle vous permet désormais de renouveler les certificats SSL de vos sous-domaines qui ont été configurés avec la méthode CNAME. [En savoir plus](subdomains-certificates/using/renewing-subdomain-certificate.md)
+Le Panneau de contrôle permet maintenant de renouveler les certificats SSL de vos sous-domaines qui ont été configurés avec la méthode CNAME. [En savoir plus](subdomains-certificates/using/renewing-subdomain-certificate.md)
 
 ## Avril 2020 {#april-2020}
 
@@ -73,7 +73,7 @@ Le Panneau de contrôle de Campaign dispose de fonctionnalités d’alerte par e
 
 *22 janvier 2020*
 
-Nous avons ajouté de nouvelles fonctionnalités permettant aux administrateurs de configurer des sous-domaines et de renouveler les certificats SSL à partir du Panneau de Contrôle.
+De nouvelles fonctionnalités ont été ajoutées pour permettre aux utilisateurs administrateurs de configurer des sous-domaines et de renouveler des certificats SSL à partir du Panneau de contrôle.
 
 Pour plus d’informations, reportez-vous aux pages suivantes :
 * [Configuration d’un nouveau sous-domaine](subdomains-certificates/using/setting-up-new-subdomain.md)
