@@ -1,11 +1,11 @@
 ---
 title: Marque des sous-domaines
 description: En savoir plus sur la marque des sous-domaines
-translation-type: ht
-source-git-commit: 17f51b60310b4fbc89e2106eb4ee9251fd525a59
-workflow-type: ht
-source-wordcount: '702'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: a9dbcef585be629b77b7154535df95fc4778d781
+workflow-type: tm+mt
+source-wordcount: '707'
+ht-degree: 95%
 
 ---
 
@@ -54,7 +54,7 @@ Si vous avez des questions concernant les méthodes de configuration de sous-dom
 
 ## Cas d’utilisation des sous-domaines (Campaign Classic) (#subdomains-use-case)
 
-Lors de la configuration de sous-domaines pour les instances de Campaign Classic, vous devez sélectionner le cas d’utilisation pour lequel le sous-domaine sera utilisé (voir la section [](../../subdomains-certificates/using/setting-up-new-subdomain.md)).
+When setting up subdomains for Campaign Classic instances, you are required to select the use case for which the subdomain will be used (see [Setting up a new subdomain](../../subdomains-certificates/using/setting-up-new-subdomain.md)).
 
 Les cas d’utilisation possibles sont les suivants :
 
