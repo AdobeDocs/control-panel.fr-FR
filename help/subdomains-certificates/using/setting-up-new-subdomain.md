@@ -2,10 +2,10 @@
 title: Configuration d’un nouveau sous-domaine
 description: Découvrez comment configurer un nouveau sous-domaine pour vos instances de campagne
 translation-type: tm+mt
-source-git-commit: 4488040118bac708348bc73c5e525f35f6b1e6c1
+source-git-commit: a9dbcef585be629b77b7154535df95fc4778d781
 workflow-type: tm+mt
-source-wordcount: '1128'
-ht-degree: 99%
+source-wordcount: '1134'
+ht-degree: 96%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 99%
 >
 >La configuration de sous-domaine depuis le Panneau de contrôle est disponible en version bêta et sujette à de fréquentes mises à jour et modifications sans préavis.
 
-Cette page fournit des informations sur la configuration de nouveaux sous-domaines à l’aide de la délégation complète de sous-domaine ou de CNAME. Cette section présente les concepts généraux de ces deux méthodes : [](../../subdomains-certificates/using/subdomains-branding.md).
+Cette page fournit des informations sur la configuration de nouveaux sous-domaines à l’aide de la délégation complète de sous-domaine ou de CNAME. Global concepts on these two methods are presented in this section: [Subdomains branding](../../subdomains-certificates/using/subdomains-branding.md).
 
 **Rubriques connexes :**
 
@@ -74,7 +74,7 @@ Pour déléguer complètement un sous-domaine à Adobe Campaign, procédez comme
 
    ![](assets/subdomain6.png)
 
-Une fois le sous-domaine soumis, le Panneau de Contrôle procède à différents contrôles et étapes de configuration. Pour plus d’informations à ce sujet, voir la section []((../../subdomains-certificates/using/setting-up-new-subdomain.md#subdomain-checks-and-configuration).
+Une fois le sous-domaine soumis, le Panneau de Contrôle procède à différents contrôles et étapes de configuration. Pour plus d&#39;informations sur ce sujet, reportez-vous à la section Vérification et configuration [des](#subdomain-checks-and-configuration)sous-domaines.
 
 ## Configuration de sous-domaines à l’aide de CNAME {#use-cnames}
 
@@ -112,7 +112,7 @@ Pour configurer un sous-domaine à l’aide de CNAME, procédez comme suit :
    >
    >Notez que les enregistrements DNS à placer dans votre serveur seront conservés par le Panneau de Contrôle pendant 30 jours. Au-delà de cette période, vous devrez configurer le sous-domaine à partir de zéro.
 
-Une fois le sous-domaine soumis, le Panneau de Contrôle procède à différents contrôles et étapes de configuration. Pour plus d’informations à ce sujet, voir [](../../subdomains-certificates/using/setting-up-new-subdomain.md#subdomain-checks-and-configuration).
+Une fois le sous-domaine soumis, le Panneau de Contrôle procède à différents contrôles et étapes de configuration. Pour plus d&#39;informations sur ce sujet, reportez-vous à la section Vérification et configuration [des](#subdomain-checks-and-configuration)sous-domaines.
 
 ## Vérifications et configuration des sous-domaines {#subdomain-checks-and-configuration}
 
