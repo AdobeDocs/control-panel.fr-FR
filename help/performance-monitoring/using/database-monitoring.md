@@ -1,11 +1,13 @@
 ---
+product: campaign
+solution: Campaign
 title: Surveillance des bases de données
 description: Découvrez comment surveiller les performances de votre base de données Campaign dans le Panneau de contrôle
-translation-type: ht
-source-git-commit: 3dca1a261c4c92104170f70e6dbd12ba72e61e7d
-workflow-type: ht
-source-wordcount: '948'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 168ae32d7931497bb37d63f7dd1d14eadbb4b1bf
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
