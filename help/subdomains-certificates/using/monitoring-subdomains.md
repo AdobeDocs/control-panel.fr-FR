@@ -1,8 +1,13 @@
 ---
+product: campaign
+solution: Campaign
 title: Surveillance des certificats SSL des sous-domaines
 description: Découvrez comment surveiller les certificats SSL de vos sous-domaines
 translation-type: tm+mt
-source-git-commit: a2c19296894ff893987290cb287dc7002ab999e5
+source-git-commit: 168ae32d7931497bb37d63f7dd1d14eadbb4b1bf
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -27,6 +32,6 @@ Si la vérification du sous-domaine échoue, contactez l’Assistance clientèle
 
 **Rubriques connexes :**
 
-* [Ajout de certificats SSL (tutoriel vidéo)](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/administrating/control-panel/adding-ssl-certificates.html)
+* [Ajout de certificats SSL (tutoriel vidéo)](https://docs.adobe.com/content/help/fr-FR/campaign-standard-learn/control-panel/subdomains-and-certificates/adding-ssl-certificates.html)
 * [Renouvellement du certificat SSL d’un sous-domaine](../../subdomains-certificates/using/renewing-subdomain-certificate.md)
 * [Marque des sous-domaines](../../subdomains-certificates/using/subdomains-branding.md)
