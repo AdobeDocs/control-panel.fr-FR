@@ -1,8 +1,10 @@
 ---
+product: campaign
+solution: Campaign
 title: Configuration d’un nouveau sous-domaine
 description: Découvrez comment configurer un nouveau sous-domaine pour vos instances de campagne
 translation-type: tm+mt
-source-git-commit: a9dbcef585be629b77b7154535df95fc4778d781
+source-git-commit: 168ae32d7931497bb37d63f7dd1d14eadbb4b1bf
 workflow-type: tm+mt
 source-wordcount: '1134'
 ht-degree: 96%
