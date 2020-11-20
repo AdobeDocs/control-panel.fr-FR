@@ -1,11 +1,13 @@
 ---
+product: campaign
+solution: Campaign
 title: Listes autorisées des plages d’adresses IP
 description: Découvrez comment ajouter des plages d’adresses IP à la liste autorisée pour l’accès aux serveurs SFTP
-translation-type: ht
-source-git-commit: d96c044e83d37f020b5fd6ea55199c1223b9fa39
-workflow-type: ht
-source-wordcount: '615'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 168ae32d7931497bb37d63f7dd1d14eadbb4b1bf
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
