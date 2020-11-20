@@ -1,11 +1,13 @@
 ---
+product: campaign
+solution: Campaign
 title: Surveillance des certificats SSL des sous-domaines
 description: Découvrez comment surveiller les certificats SSL de vos sous-domaines
-translation-type: ht
-source-git-commit: 17f51b60310b4fbc89e2106eb4ee9251fd525a59
-workflow-type: ht
-source-wordcount: '410'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 168ae32d7931497bb37d63f7dd1d14eadbb4b1bf
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
