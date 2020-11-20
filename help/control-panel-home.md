@@ -1,10 +1,12 @@
 ---
+product: campaign
+solution: Campaign
 title: Documentation du produit
 translation-type: tm+mt
-source-git-commit: 75a10bc5c9886cf99df5d2bffb087b91ce81bb10
+source-git-commit: 168ae32d7931497bb37d63f7dd1d14eadbb4b1bf
 workflow-type: tm+mt
-source-wordcount: '126'
-ht-degree: 58%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -18,11 +20,11 @@ ht-degree: 58%
 
 **Configuration de sous-domaines à l’aide de CNAME**
 
-Le Panneau de Contrôle vous permet désormais de configurer un sous-domaine pour qu’il fonctionne avec l’Adobe à l’aide de CNAME directement depuis l’interface. [En savoir plus](subdomains-certificates/using/setting-up-new-subdomain.md)
+Le Panneau de contrôle permet maintenant de configurer un sous-domaine pour qu’il fonctionne avec Adobe à l’aide de CNAME, directement depuis l’interface. [En savoir plus](subdomains-certificates/using/setting-up-new-subdomain.md)
 
 **Améliorations de la surveillance des bases de données**
 
-L&#39;onglet Surveillance **[!UICONTROL de la]** base de données a été amélioré avec des mesures supplémentaires, ce qui vous permet d&#39;obtenir des informations détaillées sur les ressources qui consomment de l&#39;espace sur votre base de données. [En savoir plus](performance-monitoring/using/database-monitoring.md)
+L’onglet **[!UICONTROL Surveillance des bases de données]** a été amélioré avec des mesures supplémentaires. Vous pouvez ainsi obtenir des informations détaillées sur les ressources qui consomment de l’espace dans votre base de données. [En savoir plus](performance-monitoring/using/database-monitoring.md)
 
 ## Ressources supplémentaires {#additional-resources}
 
