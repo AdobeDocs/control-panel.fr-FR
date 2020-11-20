@@ -1,11 +1,13 @@
 ---
+product: campaign
+solution: Campaign
 title: Alertes par email
 description: Découvrez comment recevoir des notifications par email en cas de problèmes liés à vos instances Campaign
-translation-type: ht
-source-git-commit: e2ee8badd9fffdfadabbe6c659aef8504ee62e9d
-workflow-type: ht
-source-wordcount: '169'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 168ae32d7931497bb37d63f7dd1d14eadbb4b1bf
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
