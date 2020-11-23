@@ -4,10 +4,10 @@ solution: Campaign
 title: Gestion des clés GPG
 description: Découvrez comment gérer les clés GPG pour crypter et décrypter les données dans Adobe Campaign.
 translation-type: tm+mt
-source-git-commit: 317b4c1cee34667a36f5e1a1197649bfd69c151a
+source-git-commit: 2d84a5ebe8dbf42264c94f882a51180aae2a58a6
 workflow-type: tm+mt
 source-wordcount: '1248'
-ht-degree: 89%
+ht-degree: 88%
 
 ---
 
@@ -20,7 +20,7 @@ Le cryptage GPG permet de protéger vos données à l’aide d’un système de 
 
 Une fois ce système mis en œuvre, les données entrantes peuvent être décryptées et les données sortantes cryptées avant le transfert, afin qu’elles ne soient accessibles à personne sans une paire de clés correspondante valide.
 
-![](assets/do-not-localize/how-to-video.png) Découvrez cette fonctionnalité dans la vidéo à l&#39;aide d&#39;un [Campaign Classic](https://docs.adobe.com/content/help/fr-FR/campaign-classic-learn/tutorials/administrating/control-panel-acc/gpg-key-management/gpg-key-management-overview.html) ou d&#39;un [Campaign Standard](https://docs.adobe.com/content/help/fr-FR/campaign-standard-learn/tutorials/administrating/control-panel/gpg-key-management/gpg-key-management-overview.html)
+![](assets/do-not-localize/how-to-video.png) Découvrez cette fonctionnalité dans la vidéo à l&#39;aide d&#39;un [Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/instance-settings/gpg-key-management/gpg-key-management-overview.html?lang=en#instance-settings) ou d&#39;un [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/instance-settings/gpg-key-management/gpg-key-management-overview.html?lang=en#instance-settings)
 
 Pour mettre en œuvre le cryptage GPG avec Campaign, les clés GPG doivent être installées et/ou générées sur une instance marketing par un utilisateur administrateur directement à partir du panneau de contrôle.
 
@@ -85,6 +85,8 @@ Une fois la clé publique installée, elle apparaît dans la liste. Vous pouvez 
 
 La clé peut être ensuite utilisée dans les workflows Adobe Campaign. Vous pouvez l’utiliser pour crypter des données lors de l’utilisation d’activités d’extraction de données.
 
+![](assets/do-not-localize/how-to-video.png) Découvrez comment chiffrer des données dans une vidéo à l’aide d’un [Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/instance-settings/gpg-key-management/using-a-gpg-key-to-encrypt-data.html?lang=en#instance-settings) ou d’un [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/instance-settings/gpg-key-management/using-a-gpg-key-to-encrypt-data.html?lang=en#instance-settings)
+
 Pour en savoir plus sur ce sujet, consultez la documentation Adobe Campaign :
 
 **Campaign Classic:**
@@ -96,8 +98,6 @@ Pour en savoir plus sur ce sujet, consultez la documentation Adobe Campaign :
 
 * [Gérer des données cryptées](https://docs.adobe.com/content/help/fr-FR/campaign-standard/using/managing-processes-and-data/importing-and-exporting-data/managing-encrypted-data.html)
 * [Cas pratique : cryptage et export de données à l’aide d’une clé installée sur le panneau de contrôle](https://docs.adobe.com/content/help/fr-FR/campaign-standard/using/managing-processes-and-data/importing-and-exporting-data/managing-encrypted-data.html#use-case-gpg-encrypt)
-
-![](assets/do-not-localize/how-to-video.png) Découvrez comment chiffrer des données dans une vidéo à l’aide d’un [Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/instance-settings/gpg-key-management/using-a-gpg-key-to-encrypt-data.html?lang=en#instance-settings) ou d’un [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/instance-settings/gpg-key-management/using-a-gpg-key-to-encrypt-data.html?lang=en#instance-settings)
 
 ## Décrypter des données {#decrypting-data}
 
