@@ -4,10 +4,10 @@ solution: Campaign
 title: Détails de l’instance
 description: Découvrez comment surveiller les détails de votre instance dans le panneau de contrôle
 translation-type: tm+mt
-source-git-commit: 168ae32d7931497bb37d63f7dd1d14eadbb4b1bf
+source-git-commit: 2d84a5ebe8dbf42264c94f882a51180aae2a58a6
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '563'
+ht-degree: 100%
 
 ---
 
@@ -21,11 +21,11 @@ ht-degree: 0%
 >additional-url="https://docs.adobe.com/content/help/fr-FR/campaign-classic/using/release-notes/latest-release.html" text="Notes de mise à jour de Campaign Classic"
 >additional-url="https://docs.adobe.com/content/help/fr-FR/campaign-standard/using/release-notes/release-notes.html" text="Notes de mise à jour de Campaign Standard "
 
+## À propos des détails de l’instance {#about-instance-details}
+
 >[!IMPORTANT]
 >
 >Cette fonctionnalité est disponible uniquement pour les instances Campaign Classic.
-
-## À propos des détails de l’instance {#about-instance-details}
 
 L’architecture de votre instance Adobe Campaign Classic peut contenir plusieurs serveurs pour garantir la flexibilité des activités marketing. Par exemple, des serveurs Marketing, Real Time (ou Message Center) et Mid-sourcing peuvent prendre en charge votre instance.
 
