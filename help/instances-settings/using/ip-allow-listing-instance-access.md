@@ -4,10 +4,10 @@ solution: Campaign
 title: Listes autorisées d’adresses IP
 description: Découvrez comment ajouter des adresses IP à la liste autorisée dans le panneau de contrôle pour accéder aux instances
 translation-type: tm+mt
-source-git-commit: 168ae32d7931497bb37d63f7dd1d14eadbb4b1bf
+source-git-commit: 317b4c1cee34667a36f5e1a1197649bfd69c151a
 workflow-type: tm+mt
 source-wordcount: '790'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -33,6 +33,8 @@ Si votre adresse IP n’a pas été ajoutée à la liste autorisée, vous ne pou
 Le panneau de contrôle vous permet de configurer de nouvelles connexions à vos instances en ajoutant des plages d’adresses IP à la liste autorisée. Pour ce faire, suivez la procédure ci-dessous.
 
 Une fois les adresses IP ajoutées à la liste autorisée, vous pouvez créer des opérateurs Campaign et les associer à ces adresses afin que les utilisateurs puissent accéder à l’instance.
+
+![](assets/do-not-localize/how-to-video.png) [Découvrez cette fonctionnalité en vidéo](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/instance-settings/ip-allow-listing.html?lang=en#instance-settings)
 
 ## Bonnes pratiques {#best-practices}
 
@@ -90,6 +92,6 @@ Pour ajouter des adresses IP à la liste autorisée, procédez comme suit :
 
 Pour supprimer des plages d’adresses IP de la liste autorisée, sélectionnez-les puis cliquez sur le bouton **[!UICONTROL Supprimer une plage d’adresses IP]**.
 
-**Rubriques connexes :**
-* [Listes autorisées d’adresses IP (tutoriel vidéo)](https://docs.adobe.com/content/help/fr-FR/campaign-classic-learn/control-panel/instance-settings/ip-allow-listing.html)
+**Rubrique connexe :**
+
 * [Liaison d’une zone de sécurité à un opérateur](https://docs.campaign.adobe.com/doc/AC/en/INS_Additional_configurations_Configuring_Campaign_server.html#Linking_a_security_zone_to_an_operator)
