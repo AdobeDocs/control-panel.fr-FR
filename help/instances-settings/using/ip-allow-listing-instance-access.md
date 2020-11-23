@@ -4,7 +4,7 @@ solution: Campaign
 title: Listes autorisées d’adresses IP
 description: Découvrez comment ajouter des adresses IP à la liste autorisée dans le panneau de contrôle pour accéder aux instances
 translation-type: tm+mt
-source-git-commit: 317b4c1cee34667a36f5e1a1197649bfd69c151a
+source-git-commit: 2d84a5ebe8dbf42264c94f882a51180aae2a58a6
 workflow-type: tm+mt
 source-wordcount: '790'
 ht-degree: 98%
@@ -20,11 +20,11 @@ ht-degree: 98%
 >abstract="Ajoutez des adresses IP à la liste autorisée pour accéder à vos instances."
 >additional-url="https://images-tv.adobe.com/mpcv3/045cac99-f948-478e-ae04-f8c161dcb9e2_1568132508.1920x1080at3000_h264.mp4" text="Regarder une vidéo de démonstration"
 
+## À propos des listes autorisées d’adresses IP {#about-ip-allow-listing}
+
 >[!IMPORTANT]
 >
 >Cette fonctionnalité est disponible uniquement pour les instances Campaign Classic.
-
-## À propos des listes autorisées d’adresses IP {#about-ip-allow-listing}
 
 Par défaut, votre instance Adobe Campaign Classic n’est pas accessible à partir de diverses adresses IP.
 
