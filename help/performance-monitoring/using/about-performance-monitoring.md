@@ -4,10 +4,10 @@ solution: Campaign
 title: À propos de la surveillance des performances
 description: Découvrez comment surveiller les performances de vos instances dans le Panneau de contrôle
 translation-type: tm+mt
-source-git-commit: 317b4c1cee34667a36f5e1a1197649bfd69c151a
+source-git-commit: 2d84a5ebe8dbf42264c94f882a51180aae2a58a6
 workflow-type: tm+mt
-source-wordcount: '145'
-ht-degree: 78%
+source-wordcount: '114'
+ht-degree: 100%
 
 ---
 
@@ -26,4 +26,3 @@ La carte **[!UICONTROL Suivi des performances]** de la page d’accueil du Panne
 
 Le Panneau de contrôle permet en outre de vous abonner à des notifications par email pour être averti dès qu’un problème est détecté sur l’une de vos instances Campaign. Voir à ce propos [cette section](../../performance-monitoring/using/email-alerting.md).
 
-![](assets/do-not-localize/how-to-video.png) Découvrez cette fonctionnalité dans la vidéo à l&#39;aide d&#39;un [Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/performance-monitoring/monitoring-databases.html?lang=en#performance-monitoring) ou d&#39;un [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/performance-monitoring/monitoring-databases.html?lang=en#performance-monitoring)
