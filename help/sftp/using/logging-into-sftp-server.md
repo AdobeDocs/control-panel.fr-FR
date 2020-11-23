@@ -4,10 +4,10 @@ solution: Campaign
 title: Connexion à votre serveur SFTP
 description: Découvrez comment vous connecter à votre serveur SFTP
 translation-type: tm+mt
-source-git-commit: 168ae32d7931497bb37d63f7dd1d14eadbb4b1bf
+source-git-commit: 317b4c1cee34667a36f5e1a1197649bfd69c151a
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '382'
+ht-degree: 91%
 
 ---
 
@@ -15,6 +15,8 @@ ht-degree: 0%
 # Connexion à votre serveur SFTP {#logging-into-sft-server}
 
 Les étapes ci-dessous expliquent comment connecter votre serveur SFTP via votre application cliente SFTP.
+
+![](assets/do-not-localize/how-to-video.png) Découvrez cette fonctionnalité dans la vidéo à l&#39;aide d&#39;un [Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/sftp-management/connect-to-sftp-server.html?lang=en#sftp-management) ou d&#39;un [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/sftp-management/connect-to-sftp-server.html?lang=en#sftp-management)
 
 Avant de vous connecter au serveur, vérifiez les points suivants :
 
