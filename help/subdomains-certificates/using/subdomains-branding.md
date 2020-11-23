@@ -4,10 +4,10 @@ solution: Campaign
 title: Marque des sous-domaines
 description: En savoir plus sur la marque des sous-domaines
 translation-type: tm+mt
-source-git-commit: 168ae32d7931497bb37d63f7dd1d14eadbb4b1bf
+source-git-commit: 317b4c1cee34667a36f5e1a1197649bfd69c151a
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '694'
+ht-degree: 95%
 
 ---
 
@@ -78,5 +78,4 @@ Les cas d’utilisation possibles sont les suivants :
 **Rubriques connexes :**
 
 * [Configuration d’un nouveau sous-domaine](../../subdomains-certificates/using/setting-up-new-subdomain.md)
-* [Tutoriel vidéo](https://docs.adobe.com/content/help/fr-FR/campaign-standard-learn/control-panel/subdomains-and-certificates/subdomain-delegation.html)
 * [Surveillance de vos sous-domaines](../../subdomains-certificates/using/monitoring-subdomains.md)
