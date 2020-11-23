@@ -4,7 +4,7 @@ solution: Campaign
 title: Marque des sous-domaines
 description: En savoir plus sur la marque des sous-domaines
 translation-type: tm+mt
-source-git-commit: 317b4c1cee34667a36f5e1a1197649bfd69c151a
+source-git-commit: 2d84a5ebe8dbf42264c94f882a51180aae2a58a6
 workflow-type: tm+mt
 source-wordcount: '694'
 ht-degree: 95%
@@ -20,11 +20,11 @@ ht-degree: 95%
 >abstract="Surveillez vos sous-domaines et les certificats SSL associés."
 >additional-url="https://docs.adobe.com/content/help/fr-FR/control-panel/using/subdomains-and-certificates/monitoring-ssl-certificates.html" text="Comment surveiller les certificats SSL de vos sous-domaines"
 
+## Pourquoi configurer des sous-domaines ? {#why-setting-up-subdomains}
+
 >[!IMPORTANT]
 >
 >La configuration de sous-domaine depuis le Panneau de contrôle est disponible en version bêta et sujette à de fréquentes mises à jour et modifications sans préavis.
-
-## Pourquoi configurer des sous-domaines ? {#why-setting-up-subdomains}
 
 Un sous-domaine est une division de votre domaine qui peut être utilisée pour isoler vos marques ou divers types de trafic (messages transactionnels, informations marketing, etc.).
 
