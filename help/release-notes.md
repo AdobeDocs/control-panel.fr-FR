@@ -3,10 +3,10 @@ product: campaign
 solution: Campaign
 title: Versions du Panneau de contrôle
 translation-type: tm+mt
-source-git-commit: 168ae32d7931497bb37d63f7dd1d14eadbb4b1bf
+source-git-commit: 1e1421494e5a6e357e56a77ee192475a03d18a28
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '590'
+ht-degree: 95%
 
 ---
 
@@ -38,8 +38,6 @@ Après avoir délégué un nouveau sous-domaine, le panneau de contrôle vous pe
 **Gestion des clés GPG**
 
 Le Panneau de contrôle vous permet maintenant de générer une paire de clés GPG pour vous puissiez facilement décrypter les données qui entrent dans dans Campaign et qui proviennent de l’extérieur. En outre, nous avons ajouté une fonctionnalité permettant d’installer une clé GPG publique pour crypter les données qui sortent de Campaign. [En savoir plus](instances-settings/using/gpg-keys-management.md)
-* [Tutoriels vidéo sur Campaign Standard](https://docs.adobe.com/content/help/fr-FR/campaign-standard-learn/tutorials/administrating/control-panel/gpg-key-management/gpg-key-management-overview.html)
-* [Tutoriels vidéo sur Campaign Classic](https://docs.adobe.com/content/help/fr-FR/campaign-classic-learn/tutorials/administrating/control-panel-acc/gpg-key-management/gpg-key-management-overview.html)
 
 **Surveillance des profils actifs**
 
