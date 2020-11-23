@@ -4,7 +4,7 @@ solution: Campaign
 title: Configuration d’un nouveau sous-domaine
 description: Découvrez comment configurer un nouveau sous-domaine pour vos instances de campagne
 translation-type: tm+mt
-source-git-commit: 317b4c1cee34667a36f5e1a1197649bfd69c151a
+source-git-commit: 2d84a5ebe8dbf42264c94f882a51180aae2a58a6
 workflow-type: tm+mt
 source-wordcount: '1168'
 ht-degree: 90%
@@ -20,6 +20,8 @@ ht-degree: 90%
 >abstract="Vous devez configurer un nouveau sous-domaine et gérer les certificats SSL de vos sous-domaines pour envoyer des emails ou publier des landing pages avec Adobe Campaign."
 >additional-url="https://docs.adobe.com/content/help/fr-FR/control-panel/using/subdomains-and-certificates/monitoring-ssl-certificates.html" text="Comment surveiller les certificats SSL de vos sous-domaines"
 
+## À lire absolument {#must-read}
+
 >[!IMPORTANT]
 >
 >La configuration de sous-domaine depuis le Panneau de contrôle est disponible en version bêta et sujette à de fréquentes mises à jour et modifications sans préavis.
@@ -29,8 +31,6 @@ Cette page fournit des informations sur la configuration de nouveaux sous-domain
 **Rubrique connexe :**
 
 * [Surveillance de vos sous-domaines](../../subdomains-certificates/using/monitoring-subdomains.md)
-
-## À lire absolument {#must-read}
 
 ### Sélection d’une instance
 
