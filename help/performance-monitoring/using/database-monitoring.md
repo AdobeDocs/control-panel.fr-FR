@@ -4,10 +4,10 @@ solution: Campaign
 title: Surveillance des bases de données
 description: Découvrez comment surveiller les performances de votre base de données Campaign dans le Panneau de contrôle
 translation-type: tm+mt
-source-git-commit: 168ae32d7931497bb37d63f7dd1d14eadbb4b1bf
+source-git-commit: 2d84a5ebe8dbf42264c94f882a51180aae2a58a6
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '979'
+ht-degree: 96%
 
 ---
 
@@ -29,6 +29,8 @@ Le dépassement de la capacité d’une base de données d’instance peut entra
 >Si la quantité d’espace de base de données fourni, indiqué dans le Panneau de contrôle, ne correspond pas à la quantité spécifiée dans votre contrat, contactez l’Assistance clientèle.
 
 ## Surveillance de l’utilisation des bases de données {#monitoring-instances-database}
+
+![](assets/do-not-localize/how-to-video.png) Découvrez cette fonctionnalité dans la vidéo à l&#39;aide d&#39;un [Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/performance-monitoring/monitoring-databases.html?lang=en#performance-monitoring) ou d&#39;un [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/performance-monitoring/monitoring-databases.html?lang=en#performance-monitoring)
 
 Le Panneau de contrôle permet de surveiller l’utilisation de la base de données pour chacune de vos instances Campaign. Pour ce faire, ouvrez la carte **[!UICONTROL Suivi des performances]**, puis sélectionnez l’onglet **[!UICONTROL Bases de données]**.
 
