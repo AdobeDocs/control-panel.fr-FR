@@ -4,10 +4,10 @@ solution: Campaign
 title: Listes autorisées des plages d’adresses IP
 description: Découvrez comment ajouter des plages d’adresses IP à la liste autorisée pour l’accès aux serveurs SFTP
 translation-type: tm+mt
-source-git-commit: 168ae32d7931497bb37d63f7dd1d14eadbb4b1bf
+source-git-commit: 317b4c1cee34667a36f5e1a1197649bfd69c151a
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '646'
+ht-degree: 95%
 
 ---
 
@@ -21,6 +21,8 @@ ht-degree: 0%
 >additional-url="https://images-tv.adobe.com/mpcv3/8a977e03-d76c-44d3-853c-95d0b799c870_1560205338.1920x1080at3000_h264.mp4#t=98" text="Regarder une vidéo de démonstration"
 
 Les serveurs SFTP sont protégés. Afin de pouvoir y accéder pour afficher des fichiers ou en écrire de nouveaux, vous devez ajouter à la liste autorisée l’adresse IP publique du système ou du client qui accède aux serveurs.
+
+![](assets/do-not-localize/how-to-video.png) Découvrez cette fonctionnalité dans la vidéo à l&#39;aide d&#39;un [Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/sftp-management/adding-ip-range-to-allow-list.html?lang=en#sftp-management) ou d&#39;un [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/sftp-management/adding-ip-range-to-allow-list.html?lang=en#sftp-management)
 
 ## À propos du format CIDR {#about-cidr-format}
 
