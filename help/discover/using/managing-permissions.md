@@ -4,10 +4,10 @@ solution: Campaign
 title: Gestion des autorisations pour le panneau de contrôle
 description: Découvrez comment gérer les autorisations du panneau de contrôle
 translation-type: tm+mt
-source-git-commit: 2d84a5ebe8dbf42264c94f882a51180aae2a58a6
+source-git-commit: b3eb3dd5144a0d29ac4c684a151525cc5a37287b
 workflow-type: tm+mt
-source-wordcount: '295'
-ht-degree: 90%
+source-wordcount: '273'
+ht-degree: 100%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 90%
 
 Tous les utilisateurs administrateurs d’une instance Campaign ont accès au panneau de contrôle. Pour affecter des utilisateurs au groupe Administrateurs et leur accorder un accès au panneau de contrôle, suivez la procédure ci-dessous.
 
-![](assets/do-not-localize/how-to-video.png) Découvrez cette fonctionnalité dans la vidéo à l&#39;aide d&#39;un [Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/getting-started-with-the-control-panel.html?lang=en#administrator-rights) ou d&#39;un [Campaign Standard](https://experienceleague.corp.adobe.com/docs/campaign-standard-learn/control-panel/getting-started-with-the-control-panel.html?lang=en#administrator-rights)
+![](assets/do-not-localize/how-to-video.png)[ Découvrez cette fonctionnalité en vidéo](#video)
 
 1. Accédez à [Adobe Experience Cloud](https://experiencecloud.adobe.com/), puis sélectionnez l’onglet **[!UICONTROL Administration]**.
 
@@ -61,3 +61,7 @@ Tous les utilisateurs administrateurs d’une instance Campaign ont accès au pa
 >[!NOTE]
 >
 >Une fois l’accès configuré, l’utilisateur devra se déconnecter d’Adobe Experience Cloud puis se reconnecter pour pouvoir accéder au panneau de contrôle.
+
+## Tutoriel vidéo {#video}
+
+>[!VIDEO](https://video.tv.adobe.com/v/27147?quality=12)
