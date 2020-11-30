@@ -2,11 +2,11 @@
 product: campaign
 solution: Campaign
 title: Documentation du produit
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 317b4c1cee34667a36f5e1a1197649bfd69c151a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '118'
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
@@ -32,13 +32,13 @@ L’onglet **[!UICONTROL Surveillance des bases de données]** a été amélior�
     <tr>
         <td><b>Campaign Standard</b><br/>
         <ul>
-            <li><a href="https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/control-panel-overview.html">Tutoriels vidéo sur le panneau de contrôle pour Campaign Standard</a></li>
+            <li><a href="https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/control-panel-overview.html?lang=fr">Tutoriels vidéo sur le panneau de contrôle pour Campaign Standard</a></li>
             <li><a href="https://docs.adobe.com/content/help/fr-FR/campaign-standard/using/campaign-standard-home.html">Documentation du produit Campaign Standard</a></li>
         </ul>
         </td>
         <td><b>Campaign Classic</b><br/>
         <ul>
-            <li><a href="https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/control-panel-overview.html">Tutoriels vidéo sur le panneau de contrôle pour Campaign Classic</a></li>
+            <li><a href="https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/control-panel-overview.html?lang=fr">Tutoriels vidéo sur le panneau de contrôle pour Campaign Classic</a></li>
             <li><a href="https://docs.adobe.com/content/help/fr-FR/campaign-classic/using/campaign-classic-home.html">Documentation du produit Campaign Classic</a></li>
         </ul>
         </td>
