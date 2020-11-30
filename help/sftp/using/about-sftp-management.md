@@ -4,11 +4,11 @@ solution: Campaign
 title: À propos de la gestion SFTP
 description: En savoir plus sur la gestion SFTP dans le panneau de contrôle
 testing: SSECD-836 2
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 168ae32d7931497bb37d63f7dd1d14eadbb4b1bf
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '168'
+ht-degree: 100%
 
 ---
 
