@@ -3,11 +3,11 @@ product: campaign
 solution: Campaign
 title: Questions courantes
 description: En savoir plus sur les questions courantes relatives à la gestion SFTP
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 168ae32d7931497bb37d63f7dd1d14eadbb4b1bf
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '109'
+ht-degree: 100%
 
 ---
 
