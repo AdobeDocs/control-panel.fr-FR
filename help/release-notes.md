@@ -2,11 +2,11 @@
 product: campaign
 solution: Campaign
 title: Versions du Panneau de contrôle
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 1e1421494e5a6e357e56a77ee192475a03d18a28
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '590'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -27,7 +27,7 @@ Le Panneau de contrôle permet maintenant de configurer un sous-domaine pour qu�
 
 **Améliorations de la surveillance des bases de données**
 
-La surveillance de la base de données a été améliorée avec des mesures supplémentaires qui vous permettent d&#39;obtenir des informations détaillées sur les ressources qui consomment de l&#39;espace sur votre base de données. [En savoir plus](performance-monitoring/using/database-monitoring.md)
+La surveillance des bases de données a été améliorée avec des mesures supplémentaires. Vous pouvez ainsi obtenir des informations détaillées sur les ressources qui consomment de l’espace dans votre base de données. [En savoir plus](performance-monitoring/using/database-monitoring.md)
 
 ## Juin 2020 {#june-2020}
 
