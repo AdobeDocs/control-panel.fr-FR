@@ -3,11 +3,11 @@ product: campaign
 solution: Campaign
 title: Gestion des clés
 description: Découvrez comment gérer les clés pour établir une connexion aux serveurs SFTP
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 317b4c1cee34667a36f5e1a1197649bfd69c151a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '639'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -30,7 +30,7 @@ Une fois l’accès au serveur configuré, pensez à **ajouter à la liste autor
 >
 >Il n’est actuellement pas possible de supprimer une clé SSH publique.
 
-![](assets/do-not-localize/how-to-video.png) Découvrez cette fonctionnalité dans la vidéo à l&#39;aide d&#39;un [Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/sftp-management/generate-ssh-key.html?lang=en#sftp-management) ou d&#39;un [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/sftp-management/generate-ssh-key.html?lang=en#sftp-management)
+![](assets/do-not-localize/how-to-video.png) Découvrez cette fonctionnalité en vidéo dans [Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/sftp-management/generate-ssh-key.html?lang=fr#sftp-management) ou [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/sftp-management/generate-ssh-key.html?lang=fr#sftp-management)
 
 ## Bonnes pratiques {#best-practices}
 
