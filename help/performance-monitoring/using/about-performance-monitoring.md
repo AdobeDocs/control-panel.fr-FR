@@ -3,9 +3,9 @@ product: campaign
 solution: Campaign
 title: À propos de la surveillance des performances
 description: Découvrez comment surveiller les performances de vos instances dans le Panneau de contrôle
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 2d84a5ebe8dbf42264c94f882a51180aae2a58a6
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '114'
 ht-degree: 100%
 
