@@ -7,7 +7,7 @@ translation-type: tm+mt
 source-git-commit: c56aba50fd3b79fba996e87fed5556dc54ccc7c8
 workflow-type: tm+mt
 source-wordcount: '1143'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -85,7 +85,7 @@ La clé peut être ensuite utilisée dans les workflows Adobe Campaign. Vous po
 
 ![](assets/do-not-localize/how-to-video.png)[ Découvrez cette fonctionnalité en vidéo](#video-use-key)
 
-Pour en savoir plus sur ce sujet, consultez la documentation Adobe Campaign :
+Voir à ce propos la documentation d’Adobe Campaign :
 
 **Campaign Classic:**
 
