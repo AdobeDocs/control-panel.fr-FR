@@ -3,9 +3,9 @@ product: campaign
 solution: Campaign
 title: Gestion des autorisations pour le panneau de contrôle
 description: Découvrez comment gérer les autorisations du panneau de contrôle
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: b3eb3dd5144a0d29ac4c684a151525cc5a37287b
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '273'
 ht-degree: 100%
 
@@ -64,4 +64,4 @@ Tous les utilisateurs administrateurs d’une instance Campaign ont accès au pa
 
 ## Tutoriel vidéo {#video}
 
->[!VIDEO](https://video.tv.adobe.com/v/27147?quality=12&captions=fre_fr)
+>[!VIDEO](https://video.tv.adobe.com/v/27147?quality=12)
