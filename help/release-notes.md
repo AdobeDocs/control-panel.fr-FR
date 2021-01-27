@@ -2,9 +2,9 @@
 product: campaign
 solution: Campaign
 title: Versions du Panneau de contrôle
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 1e1421494e5a6e357e56a77ee192475a03d18a28
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '590'
 ht-degree: 100%
 
