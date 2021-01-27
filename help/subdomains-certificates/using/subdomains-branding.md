@@ -3,9 +3,9 @@ product: campaign
 solution: Campaign
 title: Marque des sous-domaines
 description: En savoir plus sur la marque des sous-domaines
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 2d84a5ebe8dbf42264c94f882a51180aae2a58a6
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '694'
 ht-degree: 100%
 
