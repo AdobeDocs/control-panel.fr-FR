@@ -3,9 +3,9 @@ product: campaign
 solution: Campaign
 title: Découverte de l’interface du panneau de contrôle
 description: En savoir plus sur l’interface du panneau de contrôle
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 168ae32d7931497bb37d63f7dd1d14eadbb4b1bf
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '142'
 ht-degree: 100%
 
