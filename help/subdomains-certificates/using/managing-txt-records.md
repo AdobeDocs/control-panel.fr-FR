@@ -3,9 +3,9 @@ product: campaign
 solution: Campaign
 title: Gestion des enregistrements TXT
 description: Découvrez comment gérer les enregistrements TXT pour vérifier le propriétaire du domaine.
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 317b4c1cee34667a36f5e1a1197649bfd69c151a
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '351'
 ht-degree: 100%
 
