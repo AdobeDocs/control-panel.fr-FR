@@ -3,9 +3,9 @@ product: campaign
 solution: Campaign
 title: Surveillance des bases de données
 description: Découvrez comment surveiller les performances de votre base de données Campaign dans le Panneau de contrôle
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 2d84a5ebe8dbf42264c94f882a51180aae2a58a6
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '979'
 ht-degree: 100%
 
@@ -125,7 +125,7 @@ La section ci-dessous contient des ressources utiles issues de la documentation 
 
 **Maintenance de la base de données**
 
-* Workflow technique de nettoyage de la base ([Campaign Standard](https://docs.adobe.com/help/fr-FR/campaign-standard/using/administrating/application-settings/technical-workflows.html#list-of-technical-workflows) / [Campaign Classic](https://docs.adobe.com/help/fr-FR/campaign-classic/using/monitoring-campaign-classic/data-processing/database-cleanup-workflow.html))
+* Workflow technique de nettoyage de la base ([Campaign Standard](https://docs.adobe.com/help/en/campaign-standard/using/administrating/application-settings/technical-workflows.html#list-of-technical-workflows) / [Campaign Classic](https://docs.adobe.com/help/en/campaign-classic/using/monitoring-campaign-classic/data-processing/database-cleanup-workflow.html))
 * [Guide de maintenance de la base de données](https://docs.adobe.com/content/help/fr-FR/campaign-classic/using/monitoring-campaign-classic/database-maintenance/recommendations.html) (Campaign Classic)
 * [Résolution des problèmes de performances de la base de données](https://docs.adobe.com/content/help/fr-FR/campaign-classic/using/monitoring-campaign-classic/troubleshooting/database-performances.html) (Campaign Classic)
 * [Options liées à la base de données](https://docs.adobe.com/help/fr-FR/campaign-classic/using/installing-campaign-classic/appendices/configuring-campaign-options.html#database) (Campaign Classic)
