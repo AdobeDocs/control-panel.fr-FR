@@ -3,9 +3,9 @@ product: campaign
 solution: Campaign
 title: Connexion à votre serveur SFTP
 description: Découvrez comment vous connecter à votre serveur SFTP
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 54d3239a566491c854e5d46c297e72afeff83792
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '356'
 ht-degree: 100%
 
