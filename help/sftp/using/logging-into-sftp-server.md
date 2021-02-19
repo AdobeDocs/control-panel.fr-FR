@@ -6,8 +6,8 @@ description: Découvrez comment vous connecter à votre serveur SFTP
 translation-type: tm+mt
 source-git-commit: 54d3239a566491c854e5d46c297e72afeff83792
 workflow-type: tm+mt
-source-wordcount: '356'
-ht-degree: 100%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 100%
 
 Les étapes ci-dessous expliquent comment connecter votre serveur SFTP via votre application cliente SFTP.
 
-![](assets/do-not-localize/how-to-video.png)[ Découvrez cette fonctionnalité en vidéo](https://video.tv.adobe.com/v/27263?quality=12&captions=fre_fr)
+![](assets/do-not-localize/how-to-video.png)[ Découvrez cette fonctionnalité en vidéo](https://video.tv.adobe.com/v/27263?quality=12)
 
 Avant de vous connecter au serveur, vérifiez les points suivants :
 
