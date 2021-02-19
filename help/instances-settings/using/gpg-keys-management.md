@@ -6,8 +6,8 @@ description: Découvrez comment gérer les clés GPG pour crypter et décrypter 
 translation-type: tm+mt
 source-git-commit: e41f92fc80f77a8d4a4067360725ce3d6efe3f4c
 workflow-type: tm+mt
-source-wordcount: '1180'
-ht-degree: 100%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
