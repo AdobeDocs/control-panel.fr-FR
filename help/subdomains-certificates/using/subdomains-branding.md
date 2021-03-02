@@ -6,8 +6,8 @@ description: En savoir plus sur la marque des sous-domaines
 translation-type: tm+mt
 source-git-commit: 2d84a5ebe8dbf42264c94f882a51180aae2a58a6
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '694'
+ht-degree: 100%
 
 ---
 
@@ -47,8 +47,8 @@ Le tableau ci-dessous résume le fonctionnement de ces méthodes, ainsi que le n
 
 | Méthode de configuration | Fonctionnement | Niveau d&#39;effort |
 |---|---|---|
-| **Délégation complète** | Créez l’enregistrement du sous-domaine et de l’espace de nommage. Adobe configurera alors tous les enregistrements DNS nécessaires à Adobe Campaign.<br/><br/>Dans cette configuration, Adobe est entièrement responsable de la gestion du sous-domaine et de tous les enregistrements DNS. | Faible |
-| **CNAME, méthode personnalisée** | Créez l’enregistrement du sous-domaine et de l’espace de nommage. Adobe fournira alors les enregistrements à placer sur vos serveurs DNS et configurera les valeurs correspondantes sur les serveurs DNS Adobe Campaign.<br/><br/>Dans cette configuration, vous partagez avec Adobe la responsabilité de la maintenance du DNS. | Élevée |
+| **Délégation complète** | Créez l’enregistrement du sous-domaine et de l’espace de nom. Adobe configurera alors tous les enregistrements DNS nécessaires à Adobe Campaign.<br/><br/>Dans cette configuration, Adobe est entièrement responsable de la gestion du sous-domaine et de tous les enregistrements DNS. | Faible |
+| **CNAME, méthode personnalisée** | Créez l’enregistrement du sous-domaine et de l’espace de nom. Adobe fournira alors les enregistrements à placer sur vos serveurs DNS et configurera les valeurs correspondantes sur les serveurs DNS Adobe Campaign.<br/><br/>Dans cette configuration, vous partagez avec Adobe la responsabilité de la maintenance du DNS. | Élevée |
 
 Des informations supplémentaires sur la configuration de domaine sont disponibles dans [cette documentation](https://helpx.adobe.com/fr/campaign/kb/domain-name-delegation.html).
 
