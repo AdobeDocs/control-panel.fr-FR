@@ -3,11 +3,14 @@ product: campaign
 solution: Campaign
 title: Gestion des clés GPG
 description: Découvrez comment gérer les clés GPG pour crypter et décrypter les données dans Adobe Campaign.
+feature: 'Panneau de contrôle   '
+role: Architecte
+level: Expérience
 translation-type: tm+mt
-source-git-commit: e41f92fc80f77a8d4a4067360725ce3d6efe3f4c
+source-git-commit: 4b8020dfd5d1f81a81d0e20025cfabe734744d34
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '1184'
+ht-degree: 99%
 
 ---
 
