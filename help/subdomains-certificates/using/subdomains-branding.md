@@ -3,11 +3,14 @@ product: campaign
 solution: Campaign
 title: Marque des sous-domaines
 description: En savoir plus sur la marque des sous-domaines
+feature: 'Panneau de contrôle   '
+role: Architecte
+level: Intermédiaire
 translation-type: tm+mt
-source-git-commit: 2d84a5ebe8dbf42264c94f882a51180aae2a58a6
+source-git-commit: 4b8020dfd5d1f81a81d0e20025cfabe734744d34
 workflow-type: tm+mt
-source-wordcount: '694'
-ht-degree: 100%
+source-wordcount: '698'
+ht-degree: 99%
 
 ---
 
