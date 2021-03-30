@@ -3,14 +3,14 @@ product: campaign
 solution: Campaign
 title: Surveillance des profils actifs
 description: Découvrez comment obtenir des informations en temps réel sur l’utilisation et l’évolution des profils actifs les plus récents et historiques pour chacune de vos instances Campaign.
-feature: 'Panneau de contrôle   '
+feature: Panneau de contrôle
 role: Architecte
-level: Expérience
+level: Expérimenté
 translation-type: tm+mt
-source-git-commit: 4b8020dfd5d1f81a81d0e20025cfabe734744d34
+source-git-commit: 5a74107daaff7e3470e1db45f4ef8d75e40c83c1
 workflow-type: tm+mt
-source-wordcount: '397'
-ht-degree: 97%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -21,9 +21,7 @@ ht-degree: 97%
 
 >[!IMPORTANT]
 >
->La surveillance des profils actifs depuis le panneau de contrôle est disponible en version bêta et sujette à de fréquentes mises à jour et modifications sans préavis.
->
->Cette fonctionnalité est disponible pour les clients hébergés sur AWS depuis le build Campaign Standard 10368 et le build Campaign Classic 8931. Si vous utilisez un build antérieur, vous devez effectuer la mise à niveau pour utiliser cette fonctionnalité.
+>La surveillance des profils actifs depuis le panneau de contrôle est disponible en version bêta et sujette à de fréquentes mises à jour et modifications sans préavis. Il est disponible à partir de la version Campaign Standard 10368.
 
 Conformément à votre contrat, chacune de vos instances Campaign est configurée avec un nombre spécifique de profils actifs comptabilisés à des fins de facturation. Consultez votre dernier contrat pour connaître le nombre de profils actifs achetés.
 
