@@ -7,10 +7,10 @@ feature: Panneau de contrôle
 role: Architecte
 level: Débutant
 translation-type: tm+mt
-source-git-commit: c6401d8aba84e414f37eada9da593c353dcf3080
+source-git-commit: 56797d4d418f353738a241534eab3938fc5f747f
 workflow-type: tm+mt
-source-wordcount: '295'
-ht-degree: 99%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -32,9 +32,10 @@ Principaux avantages :
 * Renforcez la sécurité en contrôlant les paramètres d’accès au cas par cas.
 
 >[!NOTE]
->Le panneau de contrôle est accessible aux administrateurs uniquement et disponible pour tous les clients hébergés sur AWS, à l’exception des environnements hybrides qui ne sont pas encore pris en charge. Les étapes permettant d’accorder un accès administrateur à un utilisateur sont présentées dans [cette section](../../discover/using/managing-permissions.md). Pour vérifier si votre instance est hébergée sur AWS, suivez les étapes présentées dans [cette section](../../faq.md).
 >
->Pour accéder au panneau de contrôle, il n’est pas nécessaire d’effectuer une mise à niveau vers le dernier build de Campaign.
+>Le Panneau de Contrôle est accessible à tous les utilisateurs administrateurs. Les étapes permettant d’accorder un accès administrateur à un utilisateur sont présentées dans [cette section](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html?lang=en#discover-control-panel).
+>
+>Pour le Campaign Classic, notez que votre instance doit être hébergée sur AWS et mise à niveau avec la dernière version de [Gold Standard](https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/gs-release/gs-overview.html) ou la dernière version de [GA (21.1)](https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/latest-release.html#release-notes). Découvrez comment vérifier votre version dans [cette section](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/starting-with-adobe-campaign/launching-adobe-campaign.html#getting-your-campaign-version). Pour vérifier si votre instance est hébergée sur AWS, suivez les étapes détaillées dans [cette page](../../faq.md).
 
 <table style="table-layout:fixed">
 <tr>
