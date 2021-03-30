@@ -2,14 +2,14 @@
 product: campaign
 solution: Campaign
 title: Versions du Panneau de contrôle
-feature: 'Panneau de contrôle   '
+feature: Panneau de contrôle
 role: Architecte
-level: Début
+level: Débutant
 translation-type: tm+mt
-source-git-commit: 4b8020dfd5d1f81a81d0e20025cfabe734744d34
+source-git-commit: 555181ca19af2f850f0e85f94ea2dcb4a87a7c1f
 workflow-type: tm+mt
-source-wordcount: '594'
-ht-degree: 99%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -20,7 +20,9 @@ Vous trouverez ici des informations sur les dernières versions du Panneau de co
 
 >[!NOTE]
 >
->Veuillez noter que le Panneau de contrôle est disponible pour les clients hébergés sur AWS uniquement, à l’exception des environnements hybrides, qui ne sont pas encore pris en charge. Aucune mise à niveau n’est requise pour accéder au panneau de contrôle. Vérifiez que vous êtes un utilisateur administrateur pour y accéder.
+>Le Panneau de Contrôle est accessible à tous les utilisateurs administrateurs. Les étapes permettant d’accorder un accès administrateur à un utilisateur sont présentées dans [cette section](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html?lang=en#discover-control-panel).
+>
+>Pour le Campaign Classic, notez que votre instance doit être hébergée sur AWS et mise à niveau avec la dernière version de [Gold Standard](https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/gs-release/gs-overview.html) ou la dernière version de [GA (21.1)](https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/latest-release.html#release-notes). Découvrez comment vérifier votre version dans [cette section](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/starting-with-adobe-campaign/launching-adobe-campaign.html#getting-your-campaign-version). Pour vérifier si votre instance est hébergée sur AWS, suivez les étapes détaillées dans [cette page](faq.md).
 
 ## Octobre 2020 {#october-2020}
 
@@ -49,8 +51,6 @@ Le panneau de contrôle vous permet maintenant de surveiller le nombre de profil
 >[!IMPORTANT]
 >
 >La surveillance des profils actifs depuis le panneau de contrôle est disponible en version bêta et sujette à de fréquentes mises à jour et modifications sans préavis.
->
->Cette fonctionnalité est disponible pour les clients hébergés sur AWS depuis le build Campaign Standard 10368 et le build Campaign Classic 8931. Si vous utilisez un build antérieur, vous devez effectuer la mise à niveau pour utiliser cette fonctionnalité.
 
 ## Mai 2020 {#may-2020}
 
