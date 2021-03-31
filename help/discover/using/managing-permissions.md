@@ -3,11 +3,11 @@ product: campaign
 solution: Campaign
 title: Gestion des autorisations pour le panneau de contrôle
 description: Découvrez comment gérer les autorisations du panneau de contrôle
-feature: 'Panneau de contrôle   '
+feature: Panneau de contrôle
 role: Architecte
 level: Intermédiaire
 translation-type: tm+mt
-source-git-commit: 4b8020dfd5d1f81a81d0e20025cfabe734744d34
+source-git-commit: 8fc348d0a4c858219fbead48e1d31f86c8576f72
 workflow-type: tm+mt
 source-wordcount: '277'
 ht-degree: 99%
@@ -19,7 +19,7 @@ ht-degree: 99%
 
 Tous les utilisateurs administrateurs d’une instance Campaign ont accès au panneau de contrôle. Pour affecter des utilisateurs au groupe Administrateurs et leur accorder un accès au panneau de contrôle, suivez la procédure ci-dessous.
 
-![](assets/do-not-localize/how-to-video.png) Découvrez cette fonctionnalité en [vidéo](#video)
+![](assets/do-not-localize/how-to-video.png) Découvrez cette fonctionnalité en [vidéo](../../discover/using/managing-permissions.md#video)
 
 1. Accédez à [Adobe Experience Cloud](https://experiencecloud.adobe.com/), puis sélectionnez l’onglet **[!UICONTROL Administration]**.
 
