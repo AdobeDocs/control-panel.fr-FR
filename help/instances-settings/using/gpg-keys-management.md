@@ -3,14 +3,14 @@ product: campaign
 solution: Campaign
 title: Gestion des clés GPG
 description: Découvrez comment gérer les clés GPG pour crypter et décrypter les données dans Adobe Campaign.
-feature: 'Panneau de contrôle   '
+feature: Panneau de contrôle
 role: Architecte
-level: Expérience
+level: Expérimenté
 translation-type: tm+mt
-source-git-commit: 4b8020dfd5d1f81a81d0e20025cfabe734744d34
+source-git-commit: 8fc348d0a4c858219fbead48e1d31f86c8576f72
 workflow-type: tm+mt
-source-wordcount: '1184'
-ht-degree: 99%
+source-wordcount: '1178'
+ht-degree: 96%
 
 ---
 
@@ -92,13 +92,13 @@ Voir à ce propos la documentation d’Adobe Campaign :
 
 **Campaign Classic:**
 
-* [Compresser ou crypter un fichier](https://docs.adobe.com/content/help/fr-FR/campaign-classic/using/automating-with-workflows/general-operation/how-to-use-workflow-data.html#zipping-or-encrypting-a-file)
+* [Compresser ou crypter un fichier](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/importing-and-exporting-data/managing-data-encryption-compression/zip-encrypt.html)
 * [Cas pratique : cryptage et export de données à l’aide d’une clé installée sur le panneau de contrôle](https://docs.adobe.com/content/help/fr-FR/campaign-classic/using/automating-with-workflows/general-operation/how-to-use-workflow-data.html#use-case-gpg-encrypt)
 
 **Campaign Standard:**
 
 * [Gérer des données cryptées](https://docs.adobe.com/content/help/fr-FR/campaign-standard/using/managing-processes-and-data/importing-and-exporting-data/managing-encrypted-data.html)
-* [Cas pratique : cryptage et export de données à l’aide d’une clé installée sur le panneau de contrôle](https://docs.adobe.com/content/help/fr-FR/campaign-standard/using/managing-processes-and-data/importing-and-exporting-data/managing-encrypted-data.html#use-case-gpg-encrypt)
+* [Cas pratique : cryptage et export de données à l’aide d’une clé installée sur le panneau de contrôle](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/importing-and-exporting-data/managing-data-encryption-compression/zip-encrypt.html#use-case-gpg-encrypt)
 
 ## Décrypter des données {#decrypting-data}
 
@@ -135,8 +135,8 @@ Voir à ce propos les documentations d’Adobe Campaign :
 
 **Campaign Classic :**
 
-* [Décompresser ou décrypter un fichier avant traitement](https://docs.adobe.com/content/help/fr-FR/campaign-classic/using/automating-with-workflows/general-operation/importing-data.html#unzipping-or-decrypting-a-file-before-processing)
-* [Cas pratique : import de données cryptées à l’aide d’une clé générée par le panneau de contrôle](https://docs.adobe.com/content/help/fr-FR/campaign-classic/using/automating-with-workflows/general-operation/importing-data.html#use-case-gpg-decrypt)
+* [Décompresser ou décrypter un fichier avant traitement](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/importing-and-exporting-data/managing-data-encryption-compression/unzip-decrypt.html)
+* [Cas pratique : import de données cryptées à l’aide d’une clé générée par le panneau de contrôle](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/importing-and-exporting-data/managing-data-encryption-compression/unzip-decrypt.html#use-case-gpg-decrypt)
 
 **Campaign Standard :**
 
