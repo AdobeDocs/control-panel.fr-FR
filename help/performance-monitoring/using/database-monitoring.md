@@ -3,14 +3,14 @@ product: campaign
 solution: Campaign
 title: Surveillance des bases de données
 description: Découvrez comment surveiller les performances de votre base de données Campaign dans le Panneau de contrôle
-feature: 'Panneau de contrôle   '
+feature: Panneau de contrôle
 role: Architecte
-level: Expérience
+level: Expérimenté
 translation-type: tm+mt
-source-git-commit: 4b8020dfd5d1f81a81d0e20025cfabe734744d34
+source-git-commit: 8fc348d0a4c858219fbead48e1d31f86c8576f72
 workflow-type: tm+mt
-source-wordcount: '983'
-ht-degree: 99%
+source-wordcount: '988'
+ht-degree: 94%
 
 ---
 
@@ -45,13 +45,9 @@ Sélectionnez l’instance de votre choix dans la **[!UICONTROL Liste d’instan
 >
 >Notez que les données de ce tableau de bord sont mises à jour en fonction du **[!UICONTROL workflow technique de nettoyage de la base]** qui s’exécute sur votre instance Campaign (voir la documentation [Campaign Standard](https://docs.adobe.com/help/fr-FR/campaign-standard/using/administrating/application-settings/technical-workflows.html#list-of-technical-workflows) et [Campaign Classic](https://docs.adobe.com/help/fr-FR/campaign-classic/using/monitoring-campaign-classic/data-processing/database-cleanup-workflow.html)).
 >
->Vous pouvez vérifier la dernière fois que le workflow s’est exécuté au-dessous des mesures **[!UICONTROL Espace utilisé]** et **[!UICONTROL Espace fourni]**. Si le workflow n’est pas en cours d’exécution depuis plus de 3 jours, nous recommandons de contacter l’Assistance clientèle d’Adobe pour examiner les raisons pour lesquelles il ne fonctionne pas.
+>Si vous le souhaitez, vous pouvez recevoir des notifications lorsque l&#39;une de vos bases de données atteint son niveau c la dernière fois que le flux de travail s&#39;est exécuté sous les mesures **[!UICONTROL Espace utilisé]** et **[!UICONTROL Espace fourni]**. Si le workflow n’est pas en cours d’exécution depuis plus de 3 jours, nous recommandons de contacter l’Assistance clientèle d’Adobe pour examiner les raisons pour lesquelles il ne fonctionne pas.
 
-D’autres mesures, décrites ci-dessous, sont disponibles dans ce tableau de bord pour vous aider à analyser l’utilisation de la base de données de l’instance :
-
-* [Utilisation de la base de données](../../performance-monitoring/using/database-monitoring.md#database-utilization)
-* [Présentation de l’espace de stockage](../../performance-monitoring/using/database-monitoring.md#storage-overview)
-* [Top 10 des ressources temporaires](../../performance-monitoring/using/database-monitoring.md#top-10)
+D’autres mesures, décrites ci-dessous, sont disponibles dans ce tableau de bord pour vous aider à analyser l’utilisation de la base de données de l’instance.
 
 ### Utilisation de la base de données {#database-utilization}
 
@@ -130,7 +126,7 @@ La section ci-dessous contient des ressources utiles issues de la documentation 
 
 * Workflow technique de nettoyage de la base ([Campaign Standard](https://docs.adobe.com/help/en/campaign-standard/using/administrating/application-settings/technical-workflows.html#list-of-technical-workflows) / [Campaign Classic](https://docs.adobe.com/help/en/campaign-classic/using/monitoring-campaign-classic/data-processing/database-cleanup-workflow.html))
 * [Guide de maintenance de la base de données](https://docs.adobe.com/content/help/fr-FR/campaign-classic/using/monitoring-campaign-classic/database-maintenance/recommendations.html) (Campaign Classic)
-* [Résolution des problèmes de performances de la base de données](https://docs.adobe.com/content/help/fr-FR/campaign-classic/using/monitoring-campaign-classic/troubleshooting/database-performances.html) (Campaign Classic)
+* [Résolution des problèmes de performances de la base de données](https://experienceleague.adobe.com/docs/campaign-classic/using/monitoring-campaign-classic/troubleshooting-toc/database-issues-toc/database-performances.html) (Campaign Classic)
 * [Options liées à la base de données](https://docs.adobe.com/help/fr-FR/campaign-classic/using/installing-campaign-classic/appendices/configuring-campaign-options.html#database) (Campaign Classic)
 * Conservation des données ([Campaign Standard](https://docs.adobe.com/help/fr-FR/campaign-standard/using/administrating/application-settings/data-retention.html) / [Campaign Classic](https://docs.adobe.com/help/fr-FR/campaign-classic/using/configuring-campaign-classic/data-model/data-model-best-practices.html#data-retention))
 
