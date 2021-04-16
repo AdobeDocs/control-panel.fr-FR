@@ -3,17 +3,17 @@ product: campaign
 solution: Campaign
 title: À propos de la surveillance des performances
 description: Découvrez comment surveiller les performances de vos instances dans le Panneau de contrôle
-feature: 'Panneau de contrôle   '
-role: Architecte
-level: Expérience
-translation-type: tm+mt
-source-git-commit: 4b8020dfd5d1f81a81d0e20025cfabe734744d34
-workflow-type: tm+mt
-source-wordcount: '118'
-ht-degree: 98%
+feature: Panneau de contrôle
+role: Architect
+level: Experienced
+exl-id: 80a5dc43-205e-4764-805a-85d2faabc20a
+translation-type: ht
+source-git-commit: 4fc34b07b497c743e2ca6c182e68d6ea5c180ac9
+workflow-type: ht
+source-wordcount: '116'
+ht-degree: 100%
 
 ---
-
 
 # À propos de la surveillance des performances {#about-performance-monitoring}
 
@@ -28,4 +28,3 @@ La carte **[!UICONTROL Suivi des performances]** de la page d’accueil du Panne
 >Les prochaines versions du Panneau de contrôle proposeront d’autres fonctionnalités de suivi dans cette carte.
 
 Le Panneau de contrôle permet en outre de vous abonner à des notifications par email pour être averti dès qu’un problème est détecté sur l’une de vos instances Campaign. Voir à ce propos [cette section](../../performance-monitoring/using/email-alerting.md).
-
