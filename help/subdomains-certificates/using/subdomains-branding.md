@@ -3,17 +3,17 @@ product: campaign
 solution: Campaign
 title: Marque des sous-domaines
 description: En savoir plus sur la marque des sous-domaines
-feature: 'Panneau de contrôle   '
-role: Architecte
-level: Intermédiaire
-translation-type: tm+mt
-source-git-commit: 4b8020dfd5d1f81a81d0e20025cfabe734744d34
-workflow-type: tm+mt
-source-wordcount: '698'
-ht-degree: 99%
+feature: Panneau de contrôle
+role: Architect
+level: Intermediate
+exl-id: a489d051-fb95-45cf-bb6d-33aef10b7795
+translation-type: ht
+source-git-commit: 4fc34b07b497c743e2ca6c182e68d6ea5c180ac9
+workflow-type: ht
+source-wordcount: '696'
+ht-degree: 100%
 
 ---
-
 
 # Marque des sous-domaines {#subdomains-branding}
 
