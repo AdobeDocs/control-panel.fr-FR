@@ -4,16 +4,16 @@ solution: Campaign
 title: Autorisations d’URL
 description: Découvrez comment gérer les autorisations d’URL dans le panneau de contrôle
 feature: Panneau de contrôle
-role: Architecte
-level: Intermédiaire
-translation-type: tm+mt
-source-git-commit: 8fc348d0a4c858219fbead48e1d31f86c8576f72
-workflow-type: tm+mt
-source-wordcount: '616'
-ht-degree: 98%
+role: Architect
+level: Intermediate
+exl-id: a7df90da-a2ce-409f-9bc3-c7d4fa3024c8
+translation-type: ht
+source-git-commit: 4fc34b07b497c743e2ca6c182e68d6ea5c180ac9
+workflow-type: ht
+source-wordcount: '614'
+ht-degree: 100%
 
 ---
-
 
 # Autorisations d’URL {#url-permissions}
 
@@ -40,7 +40,7 @@ Une fois qu’une URL est ajoutée, elle est référencée dans le fichier de co
 **Rubriques connexes :**
 
 * [Configuration du serveur Campaign](https://docs.campaign.adobe.com/doc/AC/en/INS_Additional_configurations_Configuring_Campaign_server.html)
-* [Protection des connexions sortantes](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/security-privacy/server-configuration.html#outgoing-connection-protection)
+* [Protection des connexions sortantes](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/security-privacy/server-configuration.html?lang=fr#outgoing-connection-protection)
 
 ## Bonnes pratiques {#best-practices}
 
