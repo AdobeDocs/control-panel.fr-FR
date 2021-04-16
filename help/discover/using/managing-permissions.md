@@ -4,16 +4,16 @@ solution: Campaign
 title: Gestion des autorisations pour le panneau de contrôle
 description: Découvrez comment gérer les autorisations du panneau de contrôle
 feature: Panneau de contrôle
-role: Architecte
-level: Intermédiaire
-translation-type: tm+mt
-source-git-commit: 8fc348d0a4c858219fbead48e1d31f86c8576f72
-workflow-type: tm+mt
-source-wordcount: '277'
-ht-degree: 99%
+role: Architect
+level: Intermediate
+exl-id: 7314a679-78c3-4650-bf3a-2bde8be82747
+translation-type: ht
+source-git-commit: 4fc34b07b497c743e2ca6c182e68d6ea5c180ac9
+workflow-type: ht
+source-wordcount: '275'
+ht-degree: 100%
 
 ---
-
 
 # Gestion des autorisations pour le panneau de contrôle {#managing-permissions-control-panel}
 
