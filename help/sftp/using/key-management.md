@@ -3,17 +3,17 @@ product: campaign
 solution: Campaign
 title: Gestion des clés
 description: Découvrez comment gérer les clés pour établir une connexion aux serveurs SFTP
-feature: 'Panneau de contrôle   '
-role: Architecte
-level: Expérience
-translation-type: tm+mt
-source-git-commit: 4b8020dfd5d1f81a81d0e20025cfabe734744d34
-workflow-type: tm+mt
-source-wordcount: '643'
-ht-degree: 99%
+feature: Panneau de contrôle
+role: Architect
+level: Experienced
+exl-id: 03815e01-6371-4e1c-b4b8-7abe25957cee
+translation-type: ht
+source-git-commit: 4fc34b07b497c743e2ca6c182e68d6ea5c180ac9
+workflow-type: ht
+source-wordcount: '641'
+ht-degree: 100%
 
 ---
-
 
 # Gestion des clés {#key-management}
 
