@@ -4,16 +4,16 @@ solution: Campaign
 title: Gestion de l’espace de stockage SFTP
 description: Découvrez comment surveiller et gérer l’espace de stockage de votre serveur SFTP
 feature: Panneau de contrôle
-role: Architecte
-level: Expérimenté
-translation-type: tm+mt
-source-git-commit: 8fc348d0a4c858219fbead48e1d31f86c8576f72
-workflow-type: tm+mt
-source-wordcount: '353'
-ht-degree: 95%
+role: Architect
+level: Experienced
+exl-id: eaf67573-f088-47d9-8a25-273d08dc541a
+translation-type: ht
+source-git-commit: 4fc34b07b497c743e2ca6c182e68d6ea5c180ac9
+workflow-type: ht
+source-wordcount: '351'
+ht-degree: 100%
 
 ---
-
 
 # Gestion de l’espace de stockage SFTP {#sftp-storage-management}
 
@@ -45,6 +45,6 @@ D’autres conseils permettent de savoir comment procéder si votre serveur arri
 ## Bonnes pratiques lorsque la capacité de stockage est épuisée {#best-practices-when-capacity-runs-out}
 
 1. **Nettoyez le serveur SFTP en supprimant des fichiers anciens ou inutiles**. Pour plus d’informations sur l’accès à votre dossier de serveur SFTP, reportez-vous à [cette section](../../sftp/using/logging-into-sftp-server.md).
-1. Vérifiez que les **workflows** qui nettoient vos serveurs SFTP s’exécutent correctement. Pour plus d’informations sur les workflows techniques dans Adobe Campaign, reportez-vous aux documentations dédiées [Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/advanced-management/about-technical-workflows.html) et [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard/using/administrating/application-settings/technical-workflows.html).
+1. Vérifiez que les **workflows** qui nettoient vos serveurs SFTP s’exécutent correctement. Pour plus d’informations sur les workflows techniques dans Adobe Campaign, reportez-vous aux documentations dédiées [Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/advanced-management/about-technical-workflows.html?lang=fr#automating-with-workflows) et [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard/using/administrating/application-settings/technical-workflows.html?lang=fr#administrating).
 1. Contactez l’équipe de votre compte pour **demander plus d’espace de stockage** (des frais supplémentaires peuvent s’appliquer).
 1. Contactez l’**Assistance clientèle** si vous pensez qu’il y a un problème.
