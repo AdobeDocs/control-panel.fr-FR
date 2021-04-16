@@ -3,17 +3,17 @@ product: campaign
 solution: Campaign
 title: Connexion à votre serveur SFTP
 description: Découvrez comment vous connecter à votre serveur SFTP
-feature: 'Panneau de contrôle   '
-role: Architecte
-level: Expérience
-translation-type: tm+mt
-source-git-commit: 4b8020dfd5d1f81a81d0e20025cfabe734744d34
-workflow-type: tm+mt
-source-wordcount: '360'
-ht-degree: 99%
+feature: Panneau de contrôle
+role: Architect
+level: Experienced
+exl-id: 713f23bf-fa95-4b8a-b3ec-ca06a4592aa3
+translation-type: ht
+source-git-commit: 4fc34b07b497c743e2ca6c182e68d6ea5c180ac9
+workflow-type: ht
+source-wordcount: '358'
+ht-degree: 100%
 
 ---
-
 
 # Connexion à votre serveur SFTP {#logging-into-sft-server}
 
