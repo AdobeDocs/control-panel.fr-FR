@@ -3,17 +3,17 @@ product: campaign
 solution: Campaign
 title: Détails de l’instance
 description: Découvrez comment surveiller les détails de votre instance dans le panneau de contrôle
-feature: 'Panneau de contrôle   '
-role: Architecte
-level: Expérience
-translation-type: tm+mt
-source-git-commit: 4b8020dfd5d1f81a81d0e20025cfabe734744d34
-workflow-type: tm+mt
-source-wordcount: '567'
-ht-degree: 99%
+feature: Panneau de contrôle
+role: Architect
+level: Experienced
+exl-id: 02819bfc-9886-43fc-8014-9bfe64c42048
+translation-type: ht
+source-git-commit: 4fc34b07b497c743e2ca6c182e68d6ea5c180ac9
+workflow-type: ht
+source-wordcount: '565'
+ht-degree: 100%
 
 ---
-
 
 # Détails de l’instance {#instance-details}
 
@@ -73,7 +73,7 @@ Les informations disponibles sont les suivantes :
    * Jaune : vous devez envisager un upgrade. Vous ne disposez pas des fonctionnalités et des correctifs les plus récents.
    * Rouge : effectuez un upgrade dès que possible. Vous ne disposez pas des nouvelles fonctionnalités et les performances du serveur ne sont peut-être pas optimales.
 
-Si l’un de vos serveurs nécessite un upgrade, reportez-vous à [cette documentation](https://docs.campaign.adobe.com/doc/AC/getting_started/EN/buildUpgrade.html) pour plus de détails sur la manière de procéder.
+Si l’un de vos serveurs nécessite un upgrade, reportez-vous à [cette documentation](https://docs.campaign.adobe.com/doc/AC/getting_started/FR/buildUpgrade.html) pour plus de détails sur la manière de procéder.
 
 ## Questions courantes {#common-questions}
 
