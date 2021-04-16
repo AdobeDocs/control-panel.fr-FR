@@ -1,21 +1,17 @@
 ---
 cloud: Experience Cloud
-solution-title: Formation et support
-solution-hub-url: https://helpx.adobe.com/fr/support/campaign.html
-solution-image: assets/campaign-icon-24.png
-getting-started-title: Forum
-getting-started-url: https://forums.adobe.com/community/experience-cloud/marketing-cloud/campaign/standard
-tutorials-title: Tutoriels
-tutorials-url: https://docs.adobe.com/content/help/fr-FR/campaign-standard-learn/tutorials/overview.html
+product: adobe campaign
+solution: Campaign
+feature-set: Campaign
 git-repo: https://git.corp.adobe.com/AdobeDocs/control-panel.fr-FR
 index: true
 feature: Panneau de contrôle
 role: Architect
 level: Beginner
-translation-type: ht
-source-git-commit: 0079a7e893595c3825f0ab2b44b341c379462de8
-workflow-type: ht
-source-wordcount: '35'
+translation-type: tm+mt
+source-git-commit: 63491701dd099b12d22bf9a1eab3c8a290a2e6af
+workflow-type: tm+mt
+source-wordcount: '10'
 ht-degree: 100%
 
 ---
