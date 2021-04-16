@@ -3,17 +3,17 @@ product: campaign
 solution: Campaign
 title: FAQ sur le panneau de contrôle
 description: Questions courantes relatives au panneau de contrôle
-feature: 'Panneau de contrôle   '
-role: Architecte
-level: Intermédiaire
-translation-type: tm+mt
-source-git-commit: 4b8020dfd5d1f81a81d0e20025cfabe734744d34
-workflow-type: tm+mt
-source-wordcount: '636'
-ht-degree: 99%
+feature: Panneau de contrôle
+role: Architect
+level: Intermediate
+exl-id: 4f329764-ed8b-4939-affc-ed994fd6101d
+translation-type: ht
+source-git-commit: 4fc34b07b497c743e2ca6c182e68d6ea5c180ac9
+workflow-type: ht
+source-wordcount: '634'
+ht-degree: 100%
 
 ---
-
 
 # FAQ {#faq}
 
@@ -27,7 +27,7 @@ Pour plus d’informations, voir la [documentation relative à Adobe Experience
 
 **Où puis-je trouver mon identifiant de l’organisation IMS ?**
 
-Une méthode consiste à accéder à la [page d’accueil d’Adobe Experience Cloud](https://experiencecloud.adobe.com/) > **[!UICONTROL Administration]**. Vous trouverez votre identifiant de l’organisation IMS au bas de la section **[!UICONTROL Accès rapide]** dans Administration. Vous trouverez des informations plus détaillées dans la [documentation Adobe Experience Cloud](https://marketing.adobe.com/resources/help/en_US/mcloud/organizations.html).
+Une méthode consiste à accéder à la [page d’accueil d’Adobe Experience Cloud](https://experiencecloud.adobe.com/) > **[!UICONTROL Administration]**. Vous trouverez votre identifiant de l’organisation IMS au bas de la section **[!UICONTROL Accès rapide]** dans Administration. Vous trouverez des informations plus détaillées dans la [documentation Adobe Experience Cloud](https://marketing.adobe.com/resources/help/fr_FR/mcloud/organizations.html).
 
 Vous pouvez aussi lancer **Admin Console**. Votre identifiant de l’organisation IMS est visible dans l’URL, qui se présente comme suit : https://adminconsole.adobe.com/xxx@AdobeOrg/overview.
 
