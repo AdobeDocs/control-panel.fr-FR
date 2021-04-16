@@ -4,16 +4,16 @@ solution: Campaign
 title: Surveillance des profils actifs
 description: Découvrez comment obtenir des informations en temps réel sur l’utilisation et l’évolution des profils actifs les plus récents et historiques pour chacune de vos instances Campaign.
 feature: Panneau de contrôle
-role: Architecte
-level: Expérimenté
-translation-type: tm+mt
-source-git-commit: 5a74107daaff7e3470e1db45f4ef8d75e40c83c1
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+role: Architect
+level: Experienced
+exl-id: a157cc27-577f-490f-8c4f-0f203219cfb5
+translation-type: ht
+source-git-commit: 4fc34b07b497c743e2ca6c182e68d6ea5c180ac9
+workflow-type: ht
+source-wordcount: '370'
+ht-degree: 100%
 
 ---
-
 
 # Surveillance des profils actifs {#active-profiles-monitoring}
 
@@ -21,7 +21,7 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->La surveillance des profils actifs depuis le panneau de contrôle est disponible en version bêta et sujette à de fréquentes mises à jour et modifications sans préavis. Il est disponible à partir de la version Campaign Standard 10368.
+>La surveillance des profils actifs depuis le panneau de contrôle est disponible en version bêta et sujette à de fréquentes mises à jour et modifications sans préavis. Elle est disponible à partir de la version Campaign Standard 10368.
 
 Conformément à votre contrat, chacune de vos instances Campaign est configurée avec un nombre spécifique de profils actifs comptabilisés à des fins de facturation. Consultez votre dernier contrat pour connaître le nombre de profils actifs achetés.
 
@@ -54,7 +54,7 @@ Pour ce faire, procédez comme suit :
 >Les profils actifs sont comptabilisés en fonction des workflows techniques dédiés qui s’exécutent tous les jours sur vos instances :
 >
 >* workflow [« Facturation »](https://docs.adobe.com/help/fr-FR/campaign-standard/using/administrating/application-settings/technical-workflows.html) pour Campaign Standard ;
->* workflow [« Nombre de profils de facturation actifs »](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/advanced-management/about-technical-workflows.html) pour Campaign Classic.
+>* workflow [« Nombre de profils de facturation actifs »](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/advanced-management/about-technical-workflows.html?lang=fr#automating-with-workflows) pour Campaign Classic.
 
 
 La zone inférieure contient une représentation graphique de l’utilisation des profils actifs au cours des 30 derniers jours. Vous pouvez modifier la période affichée sur 1 an à l’aide des filtres proposés dans l’angle supérieur droit.
