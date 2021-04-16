@@ -3,17 +3,17 @@ product: campaign
 solution: Campaign
 title: Alertes par email
 description: Découvrez comment recevoir des notifications par email en cas de problèmes liés à vos instances Campaign
-feature: 'Panneau de contrôle   '
-role: Architecte
-level: Expérience
-translation-type: tm+mt
-source-git-commit: 4b8020dfd5d1f81a81d0e20025cfabe734744d34
-workflow-type: tm+mt
-source-wordcount: '173'
-ht-degree: 98%
+feature: Panneau de contrôle
+role: Architect
+level: Experienced
+exl-id: 7942d2b1-d28f-4760-aa25-5ba94a627fd0
+translation-type: ht
+source-git-commit: 4fc34b07b497c743e2ca6c182e68d6ea5c180ac9
+workflow-type: ht
+source-wordcount: '171'
+ht-degree: 100%
 
 ---
-
 
 # Alertes par email {#email-alerting}
 
@@ -41,4 +41,3 @@ La liste des alertes est la suivante :
 * **Utilisation de la base de données** : l’une des bases de données de vos instances a atteint 80 % ou plus de sa capacité. Voir [Surveillance des bases de données](../../performance-monitoring/using/database-monitoring.md).
 
 * **Expiration du certificat SSL** : l’un des certificats SSL de vos sous-domaines est arrivé à expiration ou arrivera à expiration dans 60 jours ou moins. Voir [Surveillance des certificats SSL des sous-domaines](../../subdomains-certificates/using/monitoring-ssl-certificates.md).
-
