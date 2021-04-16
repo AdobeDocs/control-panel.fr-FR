@@ -3,17 +3,17 @@ product: campaign
 solution: Campaign
 title: Configuration d’un nouveau sous-domaine
 description: Découvrez comment configurer un nouveau sous-domaine pour vos instances de campagne
-feature: 'Panneau de contrôle   '
-role: Architecte
-level: Expérience
-translation-type: tm+mt
-source-git-commit: 4b8020dfd5d1f81a81d0e20025cfabe734744d34
-workflow-type: tm+mt
-source-wordcount: '1172'
-ht-degree: 99%
+feature: Panneau de contrôle
+role: Architect
+level: Experienced
+exl-id: d92781c3-14cc-4716-a131-580ccff46d6e
+translation-type: ht
+source-git-commit: 4fc34b07b497c743e2ca6c182e68d6ea5c180ac9
+workflow-type: ht
+source-wordcount: '1170'
+ht-degree: 100%
 
 ---
-
 
 # Configuration d’un nouveau sous-domaine {#setting-up-subdomain}
 
