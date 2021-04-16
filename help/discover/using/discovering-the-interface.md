@@ -3,17 +3,17 @@ product: campaign
 solution: Campaign
 title: Découverte de l’interface du panneau de contrôle
 description: En savoir plus sur l’interface du panneau de contrôle
-feature: 'Panneau de contrôle   '
-role: Architecte
-level: Intermédiaire
-translation-type: tm+mt
-source-git-commit: 4b8020dfd5d1f81a81d0e20025cfabe734744d34
-workflow-type: tm+mt
-source-wordcount: '146'
-ht-degree: 99%
+feature: Panneau de contrôle
+role: Architect
+level: Intermediate
+exl-id: 20302017-d4b1-489b-a6b4-f086e5bad4d5
+translation-type: ht
+source-git-commit: 4fc34b07b497c743e2ca6c182e68d6ea5c180ac9
+workflow-type: ht
+source-wordcount: '144'
+ht-degree: 100%
 
 ---
-
 
 # Découverte de l’interface du panneau de contrôle {#discovering-interface}
 
