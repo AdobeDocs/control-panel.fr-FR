@@ -3,17 +3,17 @@ product: campaign
 solution: Campaign
 title: Listes autorisées d’adresses IP
 description: Découvrez comment ajouter des adresses IP à la liste autorisée dans le panneau de contrôle pour accéder aux instances
-feature: 'Panneau de contrôle   '
-role: Architecte
-level: Intermédiaire
-translation-type: tm+mt
-source-git-commit: 4b8020dfd5d1f81a81d0e20025cfabe734744d34
-workflow-type: tm+mt
-source-wordcount: '794'
-ht-degree: 99%
+feature: Panneau de contrôle
+role: Architect
+level: Intermediate
+exl-id: 1d1eeff8-969e-4529-b947-2a68defb8d13
+translation-type: ht
+source-git-commit: 4fc34b07b497c743e2ca6c182e68d6ea5c180ac9
+workflow-type: ht
+source-wordcount: '792'
+ht-degree: 100%
 
 ---
-
 
 # Listes autorisées d’adresses IP {#ip-allow-listing}
 
