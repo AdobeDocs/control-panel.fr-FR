@@ -1,16 +1,15 @@
 ---
-product: campaign
-solution: Campaign
 title: Documentation du produit
+description: Documentation pour le Panneau de Contrôle.
 feature: Panneau de contrôle
 role: Architect
 level: Beginner
 exl-id: 2b2cfaed-e42e-4c3a-a8d8-224b936890ab
-translation-type: ht
-source-git-commit: 4fc34b07b497c743e2ca6c182e68d6ea5c180ac9
-workflow-type: ht
-source-wordcount: '227'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 63491701dd099b12d22bf9a1eab3c8a290a2e6af
+workflow-type: tm+mt
+source-wordcount: '231'
+ht-degree: 98%
 
 ---
 
