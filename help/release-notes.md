@@ -2,15 +2,16 @@
 product: campaign
 solution: Campaign
 title: Versions du panneau de contrôle
+description: Notes de mise à jour des derniers Panneaux de Contrôle.
 feature: Panneau de contrôle
 role: Architect
 level: Beginner
 exl-id: 13aceffb-ceaa-4cfe-8741-95d66c5c6caa
-translation-type: ht
-source-git-commit: 4fc34b07b497c743e2ca6c182e68d6ea5c180ac9
-workflow-type: ht
-source-wordcount: '626'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 4c8347f7b0f4a776ea726f02029ea1c92a83406a
+workflow-type: tm+mt
+source-wordcount: '631'
+ht-degree: 99%
 
 ---
 
