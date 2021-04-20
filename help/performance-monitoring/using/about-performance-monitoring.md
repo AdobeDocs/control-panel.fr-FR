@@ -3,7 +3,7 @@ product: campaign
 solution: Campaign
 title: À propos de la surveillance des performances
 description: Découvrez comment surveiller les performances de vos instances dans le Panneau de contrôle
-feature: Panneau de contrôle
+feature: Control Panel
 role: Architect
 level: Experienced
 exl-id: 80a5dc43-205e-4764-805a-85d2faabc20a

@@ -3,7 +3,7 @@ product: campaign
 solution: Campaign
 title: Listes autorisées d’adresses IP
 description: Découvrez comment ajouter des adresses IP à la liste autorisée dans le panneau de contrôle pour accéder aux instances
-feature: Panneau de contrôle
+feature: Control Panel
 role: Architect
 level: Intermediate
 exl-id: 1d1eeff8-969e-4529-b947-2a68defb8d13

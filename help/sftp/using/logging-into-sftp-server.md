@@ -3,7 +3,7 @@ product: campaign
 solution: Campaign
 title: Connexion à votre serveur SFTP
 description: Découvrez comment vous connecter à votre serveur SFTP
-feature: Panneau de contrôle
+feature: Control Panel
 role: Architect
 level: Experienced
 exl-id: 713f23bf-fa95-4b8a-b3ec-ca06a4592aa3

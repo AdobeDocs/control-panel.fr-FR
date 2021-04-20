@@ -3,7 +3,7 @@ product: campaign
 solution: Campaign
 title: Marque des sous-domaines
 description: En savoir plus sur la marque des sous-domaines
-feature: Panneau de contrôle
+feature: Control Panel
 role: Architect
 level: Intermediate
 exl-id: a489d051-fb95-45cf-bb6d-33aef10b7795

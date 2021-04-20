@@ -3,7 +3,7 @@ product: campaign
 solution: Campaign
 title: Alertes par email
 description: Découvrez comment recevoir des notifications par email en cas de problèmes liés à vos instances Campaign
-feature: Panneau de contrôle
+feature: Control Panel
 role: Architect
 level: Experienced
 exl-id: 7942d2b1-d28f-4760-aa25-5ba94a627fd0

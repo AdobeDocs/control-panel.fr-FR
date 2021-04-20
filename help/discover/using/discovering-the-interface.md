@@ -3,7 +3,7 @@ product: campaign
 solution: Campaign
 title: Découverte de l’interface du panneau de contrôle
 description: En savoir plus sur l’interface du panneau de contrôle
-feature: Panneau de contrôle
+feature: Control Panel
 role: Architect
 level: Intermediate
 exl-id: 20302017-d4b1-489b-a6b4-f086e5bad4d5

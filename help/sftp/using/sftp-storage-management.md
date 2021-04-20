@@ -3,7 +3,7 @@ product: campaign
 solution: Campaign
 title: Gestion de l’espace de stockage SFTP
 description: Découvrez comment surveiller et gérer l’espace de stockage de votre serveur SFTP
-feature: Panneau de contrôle
+feature: Control Panel
 role: Architect
 level: Experienced
 exl-id: eaf67573-f088-47d9-8a25-273d08dc541a

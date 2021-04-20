@@ -3,7 +3,7 @@ product: campaign
 solution: Campaign
 title: Accès au panneau de contrôle
 description: Découvrez comment accéder au panneau de contrôle
-feature: Panneau de contrôle
+feature: Control Panel
 role: Architect
 level: Beginner
 exl-id: cb6cc63b-d6cc-4c8b-870f-e108d05aa740

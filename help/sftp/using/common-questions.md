@@ -3,7 +3,7 @@ product: campaign
 solution: Campaign
 title: Questions courantes
 description: En savoir plus sur les questions courantes relatives à la gestion SFTP
-feature: Panneau de contrôle
+feature: Control Panel
 role: Architect
 level: Intermediate
 exl-id: f3aa4d56-491f-4d5d-9892-9bbafd6b1a50

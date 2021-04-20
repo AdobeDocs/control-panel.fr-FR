@@ -3,7 +3,7 @@ product: campaign
 solution: Campaign
 title: Listes autorisées des plages d’adresses IP
 description: Découvrez comment ajouter des plages d’adresses IP à la liste autorisée pour l’accès aux serveurs SFTP
-feature: Panneau de contrôle
+feature: Control Panel
 role: Architect
 level: Experienced
 exl-id: 45a3bfcd-500c-4139-b610-d39989260ab7

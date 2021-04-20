@@ -3,7 +3,7 @@ product: campaign
 solution: Campaign
 title: Gestion des clés
 description: Découvrez comment gérer les clés pour établir une connexion aux serveurs SFTP
-feature: Panneau de contrôle
+feature: Control Panel
 role: Architect
 level: Experienced
 exl-id: 03815e01-6371-4e1c-b4b8-7abe25957cee

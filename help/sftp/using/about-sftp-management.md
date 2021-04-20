@@ -4,7 +4,7 @@ solution: Campaign
 title: À propos de la gestion SFTP
 description: En savoir plus sur la gestion SFTP dans le panneau de contrôle
 testing: SSECD-836 2
-feature: Panneau de contrôle
+feature: Control Panel
 role: Architect
 level: Intermediate
 exl-id: b2c3be80-0d1b-4998-87ab-5280c6213f3d

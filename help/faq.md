@@ -3,7 +3,7 @@ product: campaign
 solution: Campaign
 title: FAQ sur le panneau de contrôle
 description: Questions courantes relatives au panneau de contrôle
-feature: Panneau de contrôle
+feature: Control Panel
 role: Architect
 level: Intermediate
 exl-id: 4f329764-ed8b-4939-affc-ed994fd6101d

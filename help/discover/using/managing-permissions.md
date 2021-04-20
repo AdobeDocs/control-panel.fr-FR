@@ -3,7 +3,7 @@ product: campaign
 solution: Campaign
 title: Gestion des autorisations pour le panneau de contrôle
 description: Découvrez comment gérer les autorisations du panneau de contrôle
-feature: Panneau de contrôle
+feature: Control Panel
 role: Architect
 level: Intermediate
 exl-id: 7314a679-78c3-4650-bf3a-2bde8be82747
