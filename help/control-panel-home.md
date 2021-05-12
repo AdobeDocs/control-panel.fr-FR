@@ -1,15 +1,15 @@
 ---
 title: Documentation du produit
-description: Documentation pour le Panneau de Contrôle.
-feature: Control Panel
+description: Documentation du panneau de contrôle.
+feature: Panneau de contrôle
 role: Architect
 level: Beginner
 exl-id: 2b2cfaed-e42e-4c3a-a8d8-224b936890ab
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 63491701dd099b12d22bf9a1eab3c8a290a2e6af
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '231'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
