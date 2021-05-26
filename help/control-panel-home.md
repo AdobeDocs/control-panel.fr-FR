@@ -5,11 +5,10 @@ feature: Panneau de contrôle
 role: Architect
 level: Beginner
 exl-id: 2b2cfaed-e42e-4c3a-a8d8-224b936890ab
-translation-type: ht
-source-git-commit: 63491701dd099b12d22bf9a1eab3c8a290a2e6af
-workflow-type: ht
-source-wordcount: '231'
-ht-degree: 100%
+source-git-commit: e7350750800f68a132ac4607e962221b7fd20909
+workflow-type: tm+mt
+source-wordcount: '212'
+ht-degree: 68%
 
 ---
 
@@ -18,7 +17,6 @@ ht-degree: 100%
 ![](assets/do-not-localize/banner.png)
 
 ## Nouveautés
-
 
 **Configuration de sous-domaines à l’aide de CNAME**
 
@@ -30,9 +28,13 @@ L’onglet **[!UICONTROL Surveillance des bases de données]** a été amélior�
 
 >[!NOTE]
 >
->Le panneau de contrôle est accessible à tous les utilisateurs administrateurs. Les étapes permettant d’accorder un accès administrateur à un utilisateur sont présentées dans [cette section](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html?lang=fr#discover-control-panel).
+>Le Panneau de Contrôle est limité aux utilisateurs administrateurs. [En savoir plus](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html?lang=fr#discover-control-panel).
 >
->Pour Campaign Classic, veuillez noter que votre instance doit être hébergée sur AWS et mise à niveau avec la dernière version de [Gold Standard](https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/gs-release/gs-overview.html?lang=fr#release-notes) ou la dernière version de [GA (21.1)](https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/latest-release.html?lang=fr#release-notes). Découvrez comment vérifier votre version dans [cette section](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/starting-with-adobe-campaign/launching-adobe-campaign.html?lang=fr#getting-your-campaign-version). Pour vérifier si votre instance est hébergée sur AWS, suivez les étapes présentées dans [cette page](faq.md).
+>Pour Campaign Classic, notez que votre instance doit être hébergée sur Amazon Web Services (AWS) et mise à niveau vers le dernier build [Campaign GA](https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/rn-overview.html#rn-statuses).
+>
+>Découvrez comment vérifier la version de votre Campaign Classic dans [cette section](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/starting-with-adobe-campaign/launching-adobe-campaign.html?lang=fr#getting-your-campaign-version).
+>
+>Pour vérifier si votre instance de Campaign Classic est hébergée sur AWS, suivez les étapes détaillées dans [cette page](faq.md).
 
 ## Ressources supplémentaires {#additional-resources}
 
