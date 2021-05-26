@@ -5,7 +5,7 @@ feature: Panneau de contrôle
 role: Architect
 level: Beginner
 exl-id: 2b2cfaed-e42e-4c3a-a8d8-224b936890ab
-source-git-commit: e7350750800f68a132ac4607e962221b7fd20909
+source-git-commit: 9c7a17d3e6d5bb953cb584f5a255d7b76d5c2973
 workflow-type: tm+mt
 source-wordcount: '212'
 ht-degree: 68%
@@ -28,13 +28,17 @@ L’onglet **[!UICONTROL Surveillance des bases de données]** a été amélior�
 
 >[!NOTE]
 >
->Le Panneau de Contrôle est limité aux utilisateurs administrateurs. [En savoir plus](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html?lang=fr#discover-control-panel).
->
->Pour Campaign Classic, notez que votre instance doit être hébergée sur Amazon Web Services (AWS) et mise à niveau vers le dernier build [Campaign GA](https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/rn-overview.html#rn-statuses).
->
->Découvrez comment vérifier la version de votre Campaign Classic dans [cette section](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/starting-with-adobe-campaign/launching-adobe-campaign.html?lang=fr#getting-your-campaign-version).
->
->Pour vérifier si votre instance de Campaign Classic est hébergée sur AWS, suivez les étapes détaillées dans [cette page](faq.md).
+>* Le Panneau de Contrôle est limité aux utilisateurs administrateurs. [En savoir plus](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html?lang=fr#discover-control-panel).
+   >
+   >
+* Pour Campaign Classic, notez que votre instance doit être hébergée sur Amazon Web Services (AWS) et mise à niveau vers le dernier build [Campaign GA](https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/rn-overview.html#rn-statuses).
+   >   
+   >   
+   * Découvrez comment vérifier la version de votre Campaign Classic dans [cette section](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/starting-with-adobe-campaign/launching-adobe-campaign.html?lang=fr#getting-your-campaign-version).
+      >   
+      >   
+   * Pour vérifier si votre instance de Campaign Classic est hébergée sur AWS, suivez les étapes détaillées dans [cette page](faq.md).
+
 
 ## Ressources supplémentaires {#additional-resources}
 
