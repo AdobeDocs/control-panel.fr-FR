@@ -6,7 +6,7 @@ role: Architect
 level: Beginner
 exl-id: 2b2cfaed-e42e-4c3a-a8d8-224b936890ab
 source-git-commit: 99c24d7f27464741ee9eec0339c52fa95174b1cf
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '212'
 ht-degree: 100%
 
@@ -28,7 +28,7 @@ L’onglet **[!UICONTROL Surveillance des bases de données]** a été amélior�
 
 >[!NOTE]
 >
->* Le panneau de contrôle n’est accessible que pour les utilisateurs administrateurs. [En savoir plus](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html?lang=fr#discover-control-panel).
+>* Le panneau de contrôle est accessible aux utilisateurs administrateurs uniquement. [En savoir plus](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html?lang=fr#discover-control-panel).
    >
    >
 * Pour Campaign Classic, veuillez noter que votre instance doit être hébergée sur Amazon Web Services (AWS) et mise à niveau vers le dernier build [Campaign GA](https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/rn-overview.html?lang=fr#rn-statuses). Découvrez comment vérifier votre version de Campaign Classic dans [cette section](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/starting-with-adobe-campaign/launching-adobe-campaign.html?lang=fr#getting-your-campaign-version). Pour vérifier si votre instance Campaign Classic est hébergée sur AWS, suivez les étapes présentées dans [cette page](faq.md).
