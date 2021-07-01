@@ -7,7 +7,7 @@ feature: Panneau de contrôle
 role: Architect
 level: Experienced
 exl-id: d92781c3-14cc-4716-a131-580ccff46d6e
-source-git-commit: c8a17ca49f83282070c4ab50883454433970f2a7
+source-git-commit: 27b5baaf67a23799a3ecb56fcfcb7f5e891a25b9
 workflow-type: tm+mt
 source-wordcount: '1186'
 ht-degree: 98%
@@ -66,7 +66,7 @@ Pour déléguer complètement un sous-domaine à Adobe Campaign, procédez comme
 
    >[!NOTE]
    >
-   > Pour l’instance Adobe Campaign Standard, les sous-domaines vous permettront d’envoyer des communications marketing et transactionnelles.
+   > Pour Adobe Campaign Standard, les sous-domaines délégués vous permettront d’envoyer à la fois des communications **Marketing** et **Transactionnel**.
 
    ![](assets/subdomain4.png)
 
