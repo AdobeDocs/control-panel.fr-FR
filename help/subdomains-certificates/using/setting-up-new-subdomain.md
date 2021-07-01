@@ -3,15 +3,14 @@ product: campaign
 solution: Campaign
 title: Configuration d’un nouveau sous-domaine
 description: Découvrez comment configurer un nouveau sous-domaine pour vos instances de campagne
-feature: Control Panel
+feature: Panneau de contrôle
 role: Architect
 level: Experienced
 exl-id: d92781c3-14cc-4716-a131-580ccff46d6e
-translation-type: ht
-source-git-commit: 4fc34b07b497c743e2ca6c182e68d6ea5c180ac9
-workflow-type: ht
-source-wordcount: '1170'
-ht-degree: 100%
+source-git-commit: c8a17ca49f83282070c4ab50883454433970f2a7
+workflow-type: tm+mt
+source-wordcount: '1186'
+ht-degree: 98%
 
 ---
 
@@ -64,6 +63,10 @@ Pour déléguer complètement un sous-domaine à Adobe Campaign, procédez comme
    ![](assets/subdomain3.png)
 
 1. Créez le sous-domaine et les serveurs de noms souhaités dans la solution d’hébergement utilisée par votre entreprise. Pour ce faire, copiez et collez les informations du serveur de noms Adobe affichées dans l’assistant. Pour plus d’informations sur la création d’un sous-domaine dans une solution d’hébergement, reportez-vous à ce [tutoriel vidéo](https://video.tv.adobe.com/v/30175).
+
+   >[!NOTE]
+   >
+   > Pour l’instance Adobe Campaign Standard, les sous-domaines vous permettront d’envoyer des communications marketing et transactionnelles.
 
    ![](assets/subdomain4.png)
 
@@ -163,4 +166,4 @@ Pour obtenir plus de détails sur un sous-domaine, cliquez sur le bouton **[!UIC
 
 * Dans certains cas, la configuration du sous-domaine est effectuée, mais pas la vérification. Le sous-domaine reste dans la liste **[!UICONTROL Configuré]** avec un log de traitement contenant des informations sur l’erreur. Contactez l’Assistance clientèle si vous avez des difficultés à résoudre le problème.
 * Si le sous-domaine est affiché comme « Non vérifié » après avoir été configuré, lancez une nouvelle vérification du sous-domaine (**...**/**[!UICONTROL Vérifier le sous-domaine]**). S’il affiche toujours le même statut, il se peut que le schéma des destinataires ait fait l’objet d’une personnalisation, ce qui ne peut pas être vérifié à l’aide de processus standard. Essayez d’envoyer une campagne avec ce sous-domaine.
-* Si la configuration du sous-domaine prend trop de temps (plus de 10 jours ouvrés) à l’étape de l’audit de délivrabilité, contactez l’Assistance clientèle.
+* Si la configuration du sous-domaine prend trop de temps (plus de 10 jours ouvrables) à l’étape de l’audit de délivrabilité, contactez l’Assistance clientèle.
