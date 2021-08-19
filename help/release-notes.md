@@ -7,11 +7,10 @@ feature: Panneau de contrôle
 role: Architect
 level: Beginner
 exl-id: 13aceffb-ceaa-4cfe-8741-95d66c5c6caa
-translation-type: ht
-source-git-commit: 4c8347f7b0f4a776ea726f02029ea1c92a83406a
-workflow-type: ht
-source-wordcount: '631'
-ht-degree: 100%
+source-git-commit: 1bf4f7b6f6d4d9a47f6496299ca1c155eec4a2f3
+workflow-type: tm+mt
+source-wordcount: '632'
+ht-degree: 95%
 
 ---
 
@@ -23,13 +22,13 @@ Vous trouverez ici des informations sur les dernières versions du panneau de co
 >
 >Le panneau de contrôle est accessible à tous les utilisateurs administrateurs. Les étapes permettant d’accorder un accès administrateur à un utilisateur sont présentées dans [cette section](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html?lang=fr#discover-control-panel).
 >
->Pour Campaign Classic, veuillez noter que votre instance doit être hébergée sur AWS et mise à niveau avec la dernière version de [Gold Standard](https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/gs-release/gs-overview.html?lang=fr#release-notes) ou la dernière version de [GA (21.1)](https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/latest-release.html?lang=fr#release-notes). Découvrez comment vérifier votre version dans [cette section](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/starting-with-adobe-campaign/launching-adobe-campaign.html?lang=fr#getting-your-campaign-version). Pour vérifier si votre instance est hébergée sur AWS, suivez les étapes présentées dans [cette page](faq.md).
+>Pour Campaign Classic v7, notez que votre instance doit être hébergée sur AWS et mise à niveau avec le dernier [build Gold Standard](https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/gs-release/gs-overview.html?lang=fr#release-notes) ou le [dernier build GA (21.1)](https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/latest-release.html?lang=fr#release-notes). Découvrez comment vérifier votre version dans [cette section](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/starting-with-adobe-campaign/launching-adobe-campaign.html?lang=fr#getting-your-campaign-version). Pour vérifier si votre instance est hébergée sur AWS, suivez les étapes présentées sur [cette page](faq.md).
 
-## Octobre 2020 {#october-2020}
+## Octobre 2020 {#october-2020}
 
 **Configuration de sous-domaines à l’aide de CNAME**
 
-Le Panneau de contrôle permet maintenant de configurer un sous-domaine pour qu’il fonctionne avec Adobe à l’aide de CNAME, directement depuis l’interface. [En savoir plus](subdomains-certificates/using/setting-up-new-subdomain.md)
+Le panneau de contrôle permet maintenant de configurer un sous-domaine pour qu’il fonctionne avec Adobe à l’aide de CNAME, directement depuis l’interface. [En savoir plus](subdomains-certificates/using/setting-up-new-subdomain.md)
 
 **Améliorations de la surveillance des bases de données**
 
@@ -43,7 +42,7 @@ Après avoir délégué un nouveau sous-domaine, le panneau de contrôle vous pe
 
 **Gestion des clés GPG**
 
-Le Panneau de contrôle vous permet maintenant de générer une paire de clés GPG pour vous puissiez facilement décrypter les données qui entrent dans dans Campaign et qui proviennent de l’extérieur. En outre, nous avons ajouté une fonctionnalité permettant d’installer une clé GPG publique pour crypter les données qui sortent de Campaign. [En savoir plus](instances-settings/using/gpg-keys-management.md)
+Le panneau de contrôle vous permet maintenant de générer une paire de clés GPG pour vous puissiez facilement décrypter les données qui entrent dans Campaign et qui proviennent de l’extérieur. En outre, nous avons ajouté une fonctionnalité permettant d’installer une clé GPG publique pour crypter les données qui sortent de Campaign. [En savoir plus](instances-settings/using/gpg-keys-management.md)
 
 **Surveillance des profils actifs**
 
@@ -53,41 +52,41 @@ Le panneau de contrôle vous permet maintenant de surveiller le nombre de profil
 >
 >La surveillance des profils actifs depuis le panneau de contrôle est disponible en version bêta et sujette à de fréquentes mises à jour et modifications sans préavis.
 
-## Mai 2020 {#may-2020}
+## Mai 2020 {#may-2020}
 
 **Gestion des certificats pour les sous-domaines CNAME**
 
-Le Panneau de contrôle permet maintenant de renouveler les certificats SSL de vos sous-domaines qui ont été configurés avec la méthode CNAME. [En savoir plus](subdomains-certificates/using/renewing-subdomain-certificate.md)
+Le panneau de contrôle permet maintenant de renouveler les certificats SSL de vos sous-domaines qui ont été configurés avec la méthode CNAME. [En savoir plus](subdomains-certificates/using/renewing-subdomain-certificate.md)
 
 ## Avril 2020 {#april-2020}
 
-**Gestion des enregistrements TXT Google**
+**Gestion des enregistrements TXT Google**
 
-Grâce au Panneau de contrôle de Campaign, vous pouvez ajouter des enregistrements de vérification de site TXT Google aux sous-domaines utilisés pour envoyer des emails aux adresses Gmail. [En savoir plus](subdomains-certificates/using/managing-txt-records.md)
+Grâce au panneau de contrôle de Campaign, vous pouvez ajouter des enregistrements de vérification de site TXT Google aux sous-domaines utilisés pour envoyer des emails aux adresses Gmail. [En savoir plus](subdomains-certificates/using/managing-txt-records.md)
 
 **Surveillance de l’espace des bases de données**
 
-Le Panneau de contrôle de Campaign dispose de fonctionnalités de surveillance des bases de données, ce qui vous permet d’afficher l’utilisation de l’espace des bases de données à la demande et au fil du temps. [En savoir plus](performance-monitoring/using/database-monitoring.md)
+Le panneau de contrôle de Campaign dispose de fonctionnalités de surveillance des bases de données, ce qui vous permet d’afficher l’utilisation de l’espace des bases de données à la demande et au fil du temps. [En savoir plus](performance-monitoring/using/database-monitoring.md)
 
 **Alertes par email**
 
-Le Panneau de contrôle de Campaign dispose de fonctionnalités d’alerte par email en temps réel. Une fois connecté au Panneau de contrôle, vous pouvez vous abonner pour recevoir des alertes lorsque les performances de votre système risquent de se détériorer, ou si une action est nécessaire pour garantir des performances élevées. [En savoir plus](performance-monitoring/using/email-alerting.md)
+Le panneau de contrôle de Campaign dispose de fonctionnalités d’alerte par email en temps réel. Une fois connecté au panneau de contrôle, vous pouvez vous abonner pour recevoir des alertes lorsque les performances de votre système risquent de se détériorer, ou si une action est nécessaire pour garantir des performances élevées. [En savoir plus](performance-monitoring/using/email-alerting.md)
 
 ## Janvier 2020 {#january-2020}
 
-*22 janvier 2020*
+*22 janvier 2020*
 
-De nouvelles fonctionnalités ont été ajoutées pour permettre aux utilisateurs administrateurs de configurer des sous-domaines et de renouveler des certificats SSL à partir du Panneau de contrôle.
+De nouvelles fonctionnalités ont été ajoutées pour permettre aux utilisateurs administrateurs de configurer des sous-domaines et de renouveler des certificats SSL à partir du panneau de contrôle.
 
 Pour plus d’informations, reportez-vous aux pages suivantes :
 * [Configuration d’un nouveau sous-domaine](subdomains-certificates/using/setting-up-new-subdomain.md)
-* [Renouvellement du certificat SSL d’un sous-domaine](subdomains-certificates/using/renewing-subdomain-certificate.md)
+* [Renouvellement du certificat SSL d’un sous-domaine](subdomains-certificates/using/renewing-subdomain-certificate.md)
 
 >[!IMPORTANT]
 >
 >Ces fonctionnalités seront disponibles en version bêta. Elle seront sujettes à de fréquentes mises à jour et modifications sans préavis.
 
-## Septembre 2019 {#september-2019}
+## septembre 2019 {#september-2019}
 
 *16 septembre 2019*
 
@@ -98,12 +97,12 @@ Pour plus d’informations, consultez la [documentation dédiée](instances-sett
 
 ## Août 2019 {#august-2019}
 
-De nouvelles fonctionnalités ont été ajoutées pour les utilisateurs administrateurs qui peuvent maintenant recevoir des notifications avant l’expiration des certificats SSL de leurs domaines. Pour plus d’informations, consultez la [documentation détaillée](subdomains-certificates/using/monitoring-ssl-certificates.md).
+De nouvelles fonctionnalités ont été ajoutées pour les utilisateurs administrateurs qui peuvent maintenant recevoir des notifications avant l’expiration des certificats SSL de leurs domaines. Pour plus d’informations, consultez la [documentation détaillée](subdomains-certificates/using/monitoring-ssl-certificates.md).
 
-De plus, les utilisateurs Admin peuvent maintenant supprimer les clés SSH qui ont été ajoutées pour accéder aux serveurs SFTP.
+De plus, ces utilisateurs peuvent maintenant supprimer les clés SSH qui ont été ajoutées pour accéder aux serveurs SFTP.
 
-## Juillet 2019 {#july-2019}
+## Juillet 2019 {#july-2019}
 
-De nouvelles fonctionnalités ont été ajoutées pour permettre aux utilisateurs administrateurs de mieux contrôler les paramètres des instances Campaign Classic. Les nouvelles fonctionnalités du Panneau de contrôle comprennent la possibilité d’ajouter des URL auxquelles Adobe Campaign se connecte pour les transferts de données/fichiers.
+De nouvelles fonctionnalités ont été ajoutées pour permettre aux utilisateurs administrateurs de mieux contrôler les paramètres des instances Campaign Classic. Les nouvelles fonctionnalités du panneau de contrôle comprennent la possibilité d’ajouter des URL auxquelles Adobe Campaign se connecte pour les transferts de données/fichiers.
 
 Pour plus d’informations, consultez la [documentation détaillée](instances-settings/using/url-permissions.md).
