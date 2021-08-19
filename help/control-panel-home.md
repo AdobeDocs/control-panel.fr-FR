@@ -5,10 +5,10 @@ feature: Panneau de contrôle
 role: Architect
 level: Beginner
 exl-id: 2b2cfaed-e42e-4c3a-a8d8-224b936890ab
-source-git-commit: 3bd3dcc0e09d887cab7d810d43f2c72bb4251ac9
+source-git-commit: 1bf4f7b6f6d4d9a47f6496299ca1c155eec4a2f3
 workflow-type: tm+mt
-source-wordcount: '213'
-ht-degree: 88%
+source-wordcount: '227'
+ht-degree: 83%
 
 ---
 
@@ -32,6 +32,9 @@ L’onglet **[!UICONTROL Surveillance des bases de données]** a été amélior�
    >
    >
 * Pour Campaign Classic v7, notez que votre instance doit être hébergée sur Amazon Web Services (AWS) et mise à niveau vers le dernier build [Campaign GA](https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/rn-overview.html?lang=fr#rn-statuses). Découvrez comment vérifier votre version de Campaign Classic dans [cette section](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/starting-with-adobe-campaign/launching-adobe-campaign.html?lang=fr#getting-your-campaign-version). Pour vérifier si votre instance Campaign Classic est hébergée sur AWS, suivez les étapes présentées dans [cette page](faq.md).
+   >
+   >
+* Les fonctionnalités suivantes ne sont pas disponibles pour Campaign v8 : Gestion des sous-domaines et Gestion des certificats.
 
 
 ## Ressources supplémentaires {#additional-resources}
