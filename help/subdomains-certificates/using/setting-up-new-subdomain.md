@@ -7,10 +7,10 @@ feature: Panneau de contrôle
 role: Architect
 level: Experienced
 exl-id: d92781c3-14cc-4716-a131-580ccff46d6e
-source-git-commit: 27b5baaf67a23799a3ecb56fcfcb7f5e891a25b9
+source-git-commit: 3bd3dcc0e09d887cab7d810d43f2c72bb4251ac9
 workflow-type: tm+mt
-source-wordcount: '1186'
-ht-degree: 98%
+source-wordcount: '1194'
+ht-degree: 97%
 
 ---
 
@@ -19,14 +19,17 @@ ht-degree: 98%
 >[!CONTEXTUALHELP]
 >id="cp_subdomain_management"
 >title="Configurer de nouveaux sous-domaines et gérer les certificats"
->abstract="Vous devez configurer un nouveau sous-domaine et gérer les certificats SSL de vos sous-domaines pour envoyer des emails ou publier des landing pages avec Adobe Campaign."
->additional-url="https://docs.adobe.com/content/help/fr-FR/control-panel/using/subdomains-and-certificates/monitoring-ssl-certificates.html" text="Comment surveiller les certificats SSL de vos sous-domaines"
+>abstract="Vous devez configurer un nouveau sous-domaine et gérer les certificats SSL de vos sous-domaines pour envoyer des emails ou publier des landing pages avec Adobe Campaign."
+>additional-url="https://docs.adobe.com/content/help/fr-FR/control-panel/using/subdomains-and-certificates/monitoring-ssl-certificates.html" text="Comment surveiller les certificats SSL de vos sous-domaines"
+
 
 ## À lire absolument {#must-read}
 
 >[!IMPORTANT]
 >
->La configuration de sous-domaine depuis le Panneau de contrôle est disponible en version bêta et sujette à de fréquentes mises à jour et modifications sans préavis.
+>La configuration de sous-domaine depuis le panneau de contrôle est disponible en version bêta et sujette à de fréquentes mises à jour et modifications sans préavis.
+>
+>Cette fonctionnalité n’est pas disponible pour Campaign v8.
 
 Cette page fournit des informations sur la configuration de nouveaux sous-domaines à l’aide de la délégation complète de sous-domaine ou de CNAME. Cette section présente les concepts généraux de ces deux méthodes : [Marque des sous-domaines](../../subdomains-certificates/using/subdomains-branding.md).
 
@@ -62,7 +65,8 @@ Pour déléguer complètement un sous-domaine à Adobe Campaign, procédez comme
 
    ![](assets/subdomain3.png)
 
-1. Créez le sous-domaine et les serveurs de noms souhaités dans la solution d’hébergement utilisée par votre entreprise. Pour ce faire, copiez et collez les informations du serveur de noms Adobe affichées dans l’assistant. Pour plus d’informations sur la création d’un sous-domaine dans une solution d’hébergement, reportez-vous à ce [tutoriel vidéo](https://video.tv.adobe.com/v/30175).
+1. Créez le sous-domaine et les serveurs de noms souhaités dans la solution d’hébergement utilisée par votre entreprise. Pour ce faire, copiez et collez les informations du serveur de noms Adobe affichées dans l’assistant. Pour plus d’informations sur la création d’un sous-domaine dans une solution d’hébergement, consultez ce [tutoriel vidéo](https://video.tv.adobe.com/v/30175).
+
 
    >[!NOTE]
    >
@@ -82,7 +86,7 @@ Pour déléguer complètement un sous-domaine à Adobe Campaign, procédez comme
 
    ![](assets/subdomain6.png)
 
-Une fois le sous-domaine soumis, le Panneau de Contrôle procède à différents contrôles et étapes de configuration. Pour plus d’informations à ce propos, reportez-vous à la section [Vérifications et configuration des sous-domaines](#subdomain-checks-and-configuration).
+Une fois le sous-domaine soumis, le panneau de contrôle procède à différents contrôles et étapes de configuration. Pour plus d’informations à ce propos, consultez la section [Vérifications et configuration des sous-domaines](#subdomain-checks-and-configuration).
 
 ## Configuration de sous-domaines à l’aide de CNAME {#use-cnames}
 
@@ -120,17 +124,17 @@ Pour configurer un sous-domaine à l’aide de CNAME, procédez comme suit.
    >
    >Si vous souhaitez créer les enregistrements et soumettre ultérieurement la configuration du sous-domaine, sélectionnez la deuxième instruction, puis cliquez sur **[!UICONTROL Soumettre ultérieurement]**. Vous pourrez ensuite reprendre la configuration du sous-domaine directement à partir de la zone de **[!UICONTROL traitement]** de l’écran de gestion des sous-domaines.
    >
-   >Notez que les enregistrements DNS à placer dans votre serveur seront conservés par le Panneau de Contrôle pendant 30 jours. Au-delà de cette période, vous devrez configurer le sous-domaine à partir de zéro.
+   >Notez que les enregistrements DNS à placer dans votre serveur seront conservés par le panneau de contrôle pendant 30 jours. Au-delà de cette période, vous devrez configurer le sous-domaine à partir de zéro.
 
-Une fois le sous-domaine soumis, le Panneau de Contrôle procède à différents contrôles et étapes de configuration. Pour plus d’informations à ce propos, reportez-vous à la section [Vérifications et configuration des sous-domaines](#subdomain-checks-and-configuration).
+Une fois le sous-domaine soumis, le panneau de contrôle procède à différents contrôles et étapes de configuration. Pour plus d’informations à ce propos, consultez la section [Vérifications et configuration des sous-domaines](#subdomain-checks-and-configuration).
 
 ## Vérifications et configuration des sous-domaines {#subdomain-checks-and-configuration}
 
-1. Une fois le sous-domaine soumis, le Panneau de contrôle vérifie qu’il pointe correctement vers les enregistrements Adobe NS et que l’enregistrement Start of Authority (SOA) n’existe pas pour ce sous-domaine.
+1. Une fois le sous-domaine soumis, le panneau de contrôle vérifie qu’il pointe correctement vers les enregistrements Adobe NS et que l’enregistrement Start of Authority (SOA) n’existe pas pour ce sous-domaine.
 
    >[!NOTE]
    >
-   >Pendant l’exécution de la configuration de sous-domaine, d’autres requêtes effectuées via le Panneau de contrôle seront mises en file d’attente et exécutées uniquement une fois la configuration de sous-domaine terminée. Cela permet d’éviter tout problème de performances.
+   >Pendant l’exécution de la configuration de sous-domaine, d’autres requêtes effectuées via le panneau de contrôle seront mises en file d’attente et exécutées uniquement une fois la configuration de sous-domaine terminée. Cela permet d’éviter tout problème de performances.
 
 1. Si les vérifications réussissent, le panneau de contrôle commence à configurer le sous-domaine avec des enregistrements DNS, des URL supplémentaires, des boîtes de réception, etc.
 
@@ -144,11 +148,11 @@ Une fois le sous-domaine soumis, le Panneau de Contrôle procède à différents
 
    >[!IMPORTANT]
    >
-   >Les contrôles de délivrabilité effectués comprennent les tests de feedback loops et de boucles de plaintes relatives au spam. Nous vous déconseillons donc d’utiliser le sous-domaine avant la fin de la vérification, car cela pourrait entraîner une mauvaise réputation du sous-domaine.
+   >Les contrôles de délivrabilité effectués comprennent les tests de boucles de retour d&#39;information et de boucles de plaintes pour spam. Nous vous déconseillons donc d’utiliser le sous-domaine avant la fin de la vérification, car cela pourrait entraîner une mauvaise réputation du sous-domaine.
 
 1. À la fin du processus, les sous-domaines sont configurés pour fonctionner avec votre instance Adobe Campaign et les éléments suivants sont créés :
 
-   * **Le sous-domaine avec les enregistrements DNS** suivants : SOA, MX, CNAME, DKIM, SPF et TXT
+   * **Le sous-domaine avec les enregistrements DNS** suivants : SOA, MX, CNAME, DKIM, SPF et TXT
    * **Des sous-domaines supplémentaires** pour héberger les pages miroir, de ressources et de tracking, ainsi que la clé de domaine
    * **Des boîtes de réception** : Expéditeur, Erreur, Réponse
 
@@ -164,6 +168,6 @@ Pour obtenir plus de détails sur un sous-domaine, cliquez sur le bouton **[!UIC
 
 ## Résolution des problèmes {#troubleshooting}
 
-* Dans certains cas, la configuration du sous-domaine est effectuée, mais pas la vérification. Le sous-domaine reste dans la liste **[!UICONTROL Configuré]** avec un log de traitement contenant des informations sur l’erreur. Contactez l’Assistance clientèle si vous avez des difficultés à résoudre le problème.
+* Dans certains cas, la configuration du sous-domaine est effectuée, mais pas la vérification. Le sous-domaine reste dans la liste **[!UICONTROL Configuré]** avec un log de traitement contenant des informations sur l’erreur. Contactez l’assistance clientèle si vous avez des difficultés à résoudre le problème.
 * Si le sous-domaine est affiché comme « Non vérifié » après avoir été configuré, lancez une nouvelle vérification du sous-domaine (**...**/**[!UICONTROL Vérifier le sous-domaine]**). S’il affiche toujours le même statut, il se peut que le schéma des destinataires ait fait l’objet d’une personnalisation, ce qui ne peut pas être vérifié à l’aide de processus standard. Essayez d’envoyer une campagne avec ce sous-domaine.
-* Si la configuration du sous-domaine prend trop de temps (plus de 10 jours ouvrables) à l’étape de l’audit de délivrabilité, contactez l’Assistance clientèle.
+* Si la configuration du sous-domaine prend trop de temps (plus de 10 jours ouvrables) à l’étape de l’audit de délivrabilité, contactez l’assistance clientèle.
