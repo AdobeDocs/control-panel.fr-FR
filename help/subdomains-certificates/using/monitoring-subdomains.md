@@ -1,21 +1,24 @@
 ---
 product: campaign
 solution: Campaign
-title: Surveillance des certificats SSL des sous-domaines
-description: Découvrez comment surveiller les certificats SSL de vos sous-domaines
-feature: Control Panel
+title: Surveillance des certificats SSL des sous-domaines
+description: Découvrez comment surveiller les certificats SSL de vos sous-domaines
+feature: Panneau de contrôle
 role: Architect
 level: Experienced
 exl-id: edd55d07-bf0b-44b0-8281-be69c698d5e8
-translation-type: ht
-source-git-commit: 4fc34b07b497c743e2ca6c182e68d6ea5c180ac9
-workflow-type: ht
-source-wordcount: '150'
-ht-degree: 100%
+source-git-commit: 3bd3dcc0e09d887cab7d810d43f2c72bb4251ac9
+workflow-type: tm+mt
+source-wordcount: '158'
+ht-degree: 94%
 
 ---
 
 # Surveillance de vos sous-domaines {#monitoring-subdomains}
+
+>[!AVAILABILITY]
+>
+>Cette fonctionnalité n’est pas disponible pour Campaign v8.
 
 Il est essentiel de surveiller vos sous-domaines pour vous assurer qu’ils sont tous correctement configurés pour fonctionner avec Adobe Campaign.
 
@@ -31,9 +34,9 @@ La colonne **[!UICONTROL Dernière vérification]** indique à quel moment un so
 
 Lors du lancement d’une vérification, plusieurs opérations sont effectuées pour contrôler que le sous-domaine est correctement configuré (contrôle du tenant d’instance, test d’envoi d’email, etc.)
 
-Si la vérification du sous-domaine échoue, contactez l’Assistance clientèle Adobe pour plus d’informations.
+Si la vérification du sous-domaine échoue, contactez l’assistance clientèle Adobe pour plus d’informations.
 
 **Rubriques connexes :**
 
-* [Renouvellement du certificat SSL d’un sous-domaine](../../subdomains-certificates/using/renewing-subdomain-certificate.md)
+* [Renouvellement du certificat SSL d’un sous-domaine](../../subdomains-certificates/using/renewing-subdomain-certificate.md)
 * [Marque des sous-domaines](../../subdomains-certificates/using/subdomains-branding.md)
