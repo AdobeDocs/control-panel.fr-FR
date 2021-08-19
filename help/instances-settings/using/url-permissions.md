@@ -3,15 +3,14 @@ product: campaign
 solution: Campaign
 title: Autorisations d’URL
 description: Découvrez comment gérer les autorisations d’URL dans le panneau de contrôle
-feature: Control Panel
+feature: Panneau de contrôle
 role: Architect
 level: Intermediate
 exl-id: a7df90da-a2ce-409f-9bc3-c7d4fa3024c8
-translation-type: ht
-source-git-commit: 4fc34b07b497c743e2ca6c182e68d6ea5c180ac9
-workflow-type: ht
-source-wordcount: '614'
-ht-degree: 100%
+source-git-commit: 1bf4f7b6f6d4d9a47f6496299ca1c155eec4a2f3
+workflow-type: tm+mt
+source-wordcount: '616'
+ht-degree: 97%
 
 ---
 
@@ -27,11 +26,11 @@ ht-degree: 100%
 
 >[!IMPORTANT]
 >
->Cette fonctionnalité est disponible uniquement pour les instances Campaign Classic à partir du build 8850. Si vous utilisez un build précédent, vous devez effectuer la mise à niveau pour utiliser cette fonctionnalité.
+>Cette fonctionnalité est disponible uniquement pour les instances Campaign v8 et Campaign Classic v7, à partir du build 8850. Si vous utilisez un build précédent, vous devez effectuer la mise à niveau pour utiliser cette fonctionnalité.
 
-La liste par défaut des URL pouvant être appelées par des codes JavaScript (workflows, etc.) de vos instances Campaign Classic est limitée. Il s’agit des URL qui permettent à vos instances de fonctionner correctement.
+La liste par défaut des URL pouvant être appelées par des codes JavaScript (workflows et autres) de vos instances Campaign est limitée. Il s’agit des URL qui permettent à vos instances de fonctionner correctement.
 
-Par défaut, les instances ne sont pas autorisées à se connecter à des URL externes. Le panneau de contrôle permet d’ajouter des URL externes à la liste des URL autorisées afin que votre instance puisse s’y connecter. Vous pouvez ainsi connecter vos instances Campaign à des systèmes externes, comme des serveurs SFTP ou des sites web, afin d’activer le transfert de fichiers et/ou de données.
+Par défaut, les instances ne sont pas autorisées à se connecter à des URL externes. Le panneau de contrôle permet d’ajouter des URL externes à la liste des URL autorisées afin que votre instance puisse s’y connecter. Vous pouvez ainsi connecter vos instances Campaign à des systèmes externes, comme des serveurs SFTP ou des sites web, afin d’activer le transfert de fichiers et/ou de données.
 
 Une fois qu’une URL est ajoutée, elle est référencée dans le fichier de configuration de l’instance (serverConf.xml).
 
@@ -61,7 +60,7 @@ Pour ajouter une URL à laquelle votre instance peut se connecter, procédez com
 
    >[!NOTE]
    >
-   >Si la carte Paramètres des instances n’est pas visible sur la page d’accueil du panneau de contrôle, cela signifie que votre identifiant de l’organisation IMS n’est associé à aucune instance Adobe Campaign Classic.
+   >Si la carte Paramètres des instances n’est pas visible sur la page d’accueil du panneau de contrôle, cela signifie que votre identifiant de l’organisation IMS n’est associé à aucune instance Adobe Campaign 
    >
    >L’onglet <b><span class="uicontrol">Autorisations d’URL</span></b> répertorie toutes les URL externes auxquelles votre instance peut se connecter. Cette liste ne comprend pas les URL requises pour que Campaign fonctionne (par exemple, les connexions entre les éléments d’infrastructure).
 
@@ -75,7 +74,7 @@ Pour ajouter une URL à laquelle votre instance peut se connecter, procédez com
    >
    >La gestion des autorisations d’URL étant réservée aux instances Campaign Classic, le message « Instance non applicable » s’affiche si vous sélectionnez une instance Campaign Standard.
 
-1. Saisissez l’URL à autoriser, avec le protocole associé (http, https ou sftp).
+1. Saisissez l’URL à autoriser, avec le protocole associé (http, https ou sftp).
 
    >[!NOTE]
    >
