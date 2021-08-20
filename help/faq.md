@@ -3,15 +3,14 @@ product: campaign
 solution: Campaign
 title: FAQ sur le panneau de contrôle
 description: Questions courantes relatives au panneau de contrôle
-feature: Control Panel
+feature: Panneau de contrôle
 role: Architect
 level: Intermediate
 exl-id: 4f329764-ed8b-4939-affc-ed994fd6101d
-translation-type: ht
-source-git-commit: 4fc34b07b497c743e2ca6c182e68d6ea5c180ac9
-workflow-type: ht
-source-wordcount: '634'
-ht-degree: 100%
+source-git-commit: c88e18e97d2f6fa1fc308050c337a2a578187f9b
+workflow-type: tm+mt
+source-wordcount: '672'
+ht-degree: 94%
 
 ---
 
@@ -27,7 +26,7 @@ Pour plus d’informations, voir la [documentation relative à Adobe Experience
 
 **Où puis-je trouver mon identifiant de l’organisation IMS ?**
 
-Une méthode consiste à accéder à la [page d’accueil d’Adobe Experience Cloud](https://experiencecloud.adobe.com/) > **[!UICONTROL Administration]**. Vous trouverez votre identifiant de l’organisation IMS au bas de la section **[!UICONTROL Accès rapide]** dans Administration. Vous trouverez des informations plus détaillées dans la [documentation Adobe Experience Cloud](https://marketing.adobe.com/resources/help/fr_FR/mcloud/organizations.html).
+Une méthode consiste à accéder à la [page d’accueil d’Adobe Experience Cloud](https://experiencecloud.adobe.com/) > **[!UICONTROL Administration]**. Vous trouverez votre identifiant de l’organisation IMS au bas de la section **[!UICONTROL Accès rapide]** dans Administration. Vous trouverez des informations plus détaillées dans la [documentation Adobe Experience Cloud](https://marketing.adobe.com/resources/help/en_US/mcloud/organizations.html).
 
 Vous pouvez aussi lancer **Admin Console**. Votre identifiant de l’organisation IMS est visible dans l’URL, qui se présente comme suit : https://adminconsole.adobe.com/xxx@AdobeOrg/overview.
 
@@ -43,7 +42,7 @@ Si vous avez accès à plusieurs solutions Adobe, il est possible que vous dispo
 >
 >Si votre identifiant de l’organisation IMS est le même pour Adobe Campaign et Adobe Analytics, c’est une excellente nouvelle. En effet, un même identifiant de l’organisation IMS est nécessaire pour Analytics et Campaign si vous prévoyez d’intégrer les solutions afin de tirer parti des cas pratiques complexes tels que l’abandon du panier d’achat (pour AA + AC).
 >
->Si vous avez deux identifiants de l’organisation IMS différents pour Adobe Campaign et Adobe Analytics, contactez l’Assistance clientèle pour qu’ils soient harmonisés.
+>Si vous avez deux identifiants d’organisation IMS différents pour Adobe Campaign et Adobe Analytics, contactez l’assistance clientèle pour qu’ils soient harmonisés.
 
 **Comment puis-je savoir si mon instance Adobe Campaign est hébergée sur AWS ?**
 
@@ -95,11 +94,15 @@ Pour vérifier si votre instance est hébergée sur AWS, procédez comme suit :
 
 Dans le panneau de contrôle, les administrateurs du produit peuvent gérer directement divers paramètres et contrôler la capacité des serveurs SFTP connectés à Adobe Campaign.
 
-**Quelles sont certaines des fonctionnalités actuelles du panneau de contrôle ?**
+**Quelles sont les principales fonctionnalités du panneau de contrôle ?**
 
-Le panneau de contrôle vous permet de surveiller le stockage, d’ajouter des adresses IP à la liste autorisée et de gérer les clés SSH de vos serveurs SFTP en fonction de vos besoins et d’autres actions.
+Le panneau de contrôle vous permet de surveiller le stockage, d’ajouter des adresses IP à la liste autorisée et de gérer les clés SSH de vos serveurs SFTP en fonction de vos besoins et d’autres actions.
 
 Pour plus d’informations, consultez la documentation relative aux actions prises en charge par le panneau de contrôle.
+
+**Quelles fonctionnalités ne sont pas prises en charge dans Campaign v8 mais disponibles dans Campaign Classic v7 ?**
+
+Les fonctions liées à la gestion des sous-domaines et des certificats ne sont pas encore prises en charge par Panneau de Contrôle sur Campaign v8. Contactez l’assistance clientèle de Campaign pour toute assistance connexe.
 
 **Le panneau de contrôle est-il réservé à Adobe Campaign ?**
 
