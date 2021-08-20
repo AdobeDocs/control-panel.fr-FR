@@ -7,7 +7,7 @@ feature: Panneau de contrôle
 role: Architect
 level: Experienced
 exl-id: 547ca6f2-720f-4d58-b31b-5b2611ba9156
-source-git-commit: 3bd3dcc0e09d887cab7d810d43f2c72bb4251ac9
+source-git-commit: 008edcd915017d147ee496ae7c0130a868b099b9
 workflow-type: tm+mt
 source-wordcount: '361'
 ht-degree: 97%
@@ -21,11 +21,11 @@ ht-degree: 97%
 >title="Gestion des enregistrements TXT"
 >abstract="Certains services comme Google exigent que vous ajoutiez un enregistrement TXT aux paramètres de votre domaine pour vérifier que vous en êtes propriétaire."
 
+## À propos des enregistrements TXT {#about-txt-records}
+
 >[!AVAILABILITY]
 >
 >Cette fonctionnalité n’est pas disponible pour Campaign v8.
-
-## À propos des enregistrements TXT {#about-txt-records}
 
 Les enregistrements TXT font partie des enregistrements DNS. Ils servent à donner des informations textuelles à propos d’un domaine, que des sources externes pourront lire par la suite.
 
