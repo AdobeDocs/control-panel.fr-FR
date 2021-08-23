@@ -7,10 +7,10 @@ feature: Panneau de contrôle
 role: Architect
 level: Experienced
 exl-id: a157cc27-577f-490f-8c4f-0f203219cfb5
-source-git-commit: 1bf4f7b6f6d4d9a47f6496299ca1c155eec4a2f3
+source-git-commit: c29b6d4bf59628a10f6b8e402176b1835770fc54
 workflow-type: tm+mt
-source-wordcount: '371'
-ht-degree: 96%
+source-wordcount: '370'
+ht-degree: 88%
 
 ---
 
@@ -32,7 +32,7 @@ Les profils sont considérés comme actifs s’ils ont été ciblés ou ont fait
 >
 >Les canaux Facebook et Twitter ne sont pas pris en compte.
 
-Pour plus d’informations sur les profils Principaux, reportez-vous aux documentations [Campaign Standard](https://docs.adobe.com/content/help/fr-FR/campaign-standard/using/profiles-and-audiences/managing-profiles/active-profiles.html) et [Campaign Classic v7](https://docs.adobe.com/content/help/fr-FR/campaign-classic/using/getting-started/profile-management/about-profiles.html#active-profiles).
+Pour plus d’informations sur les profils Principaux, reportez-vous aux documentations [Campaign Standard](https://https://experienceleague.adobe.com/docs/campaign-standard/using/profiles-and-audiences/managing-profiles/active-profiles.html) et [Campaign Classic v7](https://https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/profile-management/about-profiles.html#active-profiles).
 
 ## Surveillance des profils actifs {#monitoring-active-profiles}
 
@@ -52,7 +52,7 @@ Pour ce faire, procédez comme suit :
 >
 >Les profils actifs sont comptabilisés en fonction des workflows techniques dédiés qui s’exécutent tous les jours sur vos instances :
 >
->* workflow [« Facturation »](https://docs.adobe.com/help/fr-FR/campaign-standard/using/administrating/application-settings/technical-workflows.html) pour Campaign Standard ;
+>* workflow [« Facturation »](https://experienceleague.adobe.com/docs/campaign-standard/using/administrating/application-settings/technical-workflows.html?lang=en) pour Campaign Standard ;
 >* workflow [« Nombre de profils de facturation actifs »](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/advanced-management/about-technical-workflows.html?lang=fr#automating-with-workflows) pour Campaign Classic.
 
 
