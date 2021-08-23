@@ -7,9 +7,9 @@ feature: Panneau de contrôle
 role: Architect
 level: Experienced
 exl-id: d92781c3-14cc-4716-a131-580ccff46d6e
-source-git-commit: 3bd3dcc0e09d887cab7d810d43f2c72bb4251ac9
+source-git-commit: 599cb22da734f53c0b06583be3e47668dcb57ef1
 workflow-type: tm+mt
-source-wordcount: '1194'
+source-wordcount: '1193'
 ht-degree: 97%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 97%
 >id="cp_subdomain_management"
 >title="Configurer de nouveaux sous-domaines et gérer les certificats"
 >abstract="Vous devez configurer un nouveau sous-domaine et gérer les certificats SSL de vos sous-domaines pour envoyer des emails ou publier des landing pages avec Adobe Campaign."
->additional-url="https://docs.adobe.com/content/help/fr-FR/control-panel/using/subdomains-and-certificates/monitoring-ssl-certificates.html" text="Comment surveiller les certificats SSL de vos sous-domaines"
+>additional-url="https://https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/monitoring-ssl-certificates.html" text="Comment surveiller les certificats SSL de vos sous-domaines"
 
 
 ## À lire absolument {#must-read}
