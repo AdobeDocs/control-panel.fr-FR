@@ -7,34 +7,74 @@ feature: Panneau de contrôle
 role: Architect
 level: Intermediate
 exl-id: 4f329764-ed8b-4939-affc-ed994fd6101d
-source-git-commit: 224bad296e416288ea717c904ce679653495c046
+source-git-commit: b915b78858810c1ad6600fb459f3ce0d6978897e
 workflow-type: tm+mt
-source-wordcount: '674'
-ht-degree: 94%
+source-wordcount: '777'
+ht-degree: 87%
 
 ---
 
 # Forum aux questions {#faq}
 
+## Panneau de contrôle {#control-panel}
+
+### Qu’est-ce que le panneau de contrôle ?
+
+Dans le panneau de contrôle, les administrateurs du produit peuvent gérer directement divers paramètres et contrôler la capacité des serveurs SFTP connectés à Adobe Campaign.
+
+### Quelles sont les principales fonctionnalités du panneau de contrôle ?
+
+Le panneau de contrôle vous permet de surveiller le stockage, d’ajouter des adresses IP à la liste autorisée et de gérer les clés SSH de vos serveurs SFTP en fonction de vos besoins et d’autres actions.
+
+Pour plus d’informations, consultez la documentation relative aux actions prises en charge par le panneau de contrôle.
+
+### Quelles fonctionnalités ne sont pas prises en charge dans Campaign v8 mais disponibles dans Campaign Classic v7 ?{#v8-restrictions}
+
+Les fonctions liées à la gestion des sous-domaines et des certificats ne sont pas encore prises en charge par Panneau de Contrôle sur Campaign v8. Contactez l’assistance clientèle de Campaign pour toute assistance connexe.
+
+### Le panneau de contrôle est-il réservé à Adobe Campaign ?
+
+Oui, dans le panneau de contrôle, vous pouvez gérer uniquement les paramètres d’Adobe Campaign.
+
+### Puis-je utiliser le panneau de contrôle ?
+
+Le panneau de contrôle n’est accessible que par les administrateurs de produit de nos clients actuels pour lesquels Adobe Campaign est hébergé sur AWS. Notez que les environnements hybrides ne sont pas encore pris en charge.
+
+Si vous n’êtes pas administrateur, mais que vous souhaitez y accéder, veuillez contacter votre administrateur de produit pour qu’il vous ajoute en tant qu’administrateur.
+
+### En tant qu’utilisateur v7 Campaign Classic, quelles sont les conditions d’accès au panneau de contrôle ? {#v7-restrictions}
+
+Le panneau de contrôle est accessible aux utilisateurs administrateurs uniquement. [En savoir plus](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html?lang=fr#discover-control-panel).
+
+Pour Campaign Classic v7, notez que votre instance doit être hébergée sur Amazon Web Services (AWS) et mise à niveau vers le dernier build [Campaign GA](https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/rn-overview.html?lang=fr#rn-statuses). Découvrez comment vérifier votre version de Campaign Classic dans [cette section](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/starting-with-adobe-campaign/launching-adobe-campaign.html?lang=fr#getting-your-campaign-version). Pour vérifier si votre instance de Campaign Classic est hébergée sur AWS, suivez les étapes présentées dans [cette section](#hosted-aws).
+
+### Comment puis-je accéder au panneau de contrôle ?
+
+Consultez les instructions détaillées dans la documentation relative à l’accès au panneau de contrôle.
+
+### Y a-t-il des frais supplémentaires pour l’utilisation du panneau de contrôle ?
+
+Non, il n’y a pas de frais supplémentaires si vous êtes déjà client Adobe Campaign.
+
 ## Identifiant de l’organisation IMS {#ims-org-id}
 
-**Qu’est-ce qu’un identifiant de l’organisation IMS ?**
+### Qu’est-ce qu’un identifiant de l’organisation IMS ?
 
 Il s’agit d’un identifiant unique attribué à votre instance lorsque vous vous connectez pour la première fois à Adobe Experience Cloud. Il doit être au format : xxx@AdobeOrg.
 
 Pour plus d’informations, voir la [documentation relative à Adobe Experience Cloud](https://marketing.adobe.com/resources/help/fr_FR/mcloud/organizations.html).
 
-**Où puis-je trouver mon identifiant de l’organisation IMS ?**
+### Où puis-je trouver mon identifiant de l’organisation IMS ?
 
 Une méthode consiste à accéder à la [page d’accueil d’Adobe Experience Cloud](https://experiencecloud.adobe.com/) > **[!UICONTROL Administration]**. Vous trouverez votre identifiant de l’organisation IMS au bas de la section **[!UICONTROL Accès rapide]** dans Administration. Vous trouverez des informations plus détaillées dans la [documentation Adobe Experience Cloud](https://marketing.adobe.com/resources/help/en_US/mcloud/organizations.html).
 
 Vous pouvez aussi lancer **Admin Console**. Votre identifiant de l’organisation IMS est visible dans l’URL, qui se présente comme suit : https://adminconsole.adobe.com/xxx@AdobeOrg/overview.
 
-**Pourquoi ai-je besoin de connaître mon identifiant de l’organisation IMS ?**
+### Pourquoi ai-je besoin de connaître mon identifiant de l’organisation IMS ?
 
 Pour que vous puissiez gérer les paramètres de votre instance, nous voulons nous assurer que vous obtenez les informations adéquates pour la bonne instance au cas où vous utilisez plusieurs instances pour votre entreprise.
 
-**Que faire si je possède plusieurs identifiants de l’organisation IMS ?**
+### Que faire si je possède plusieurs identifiants de l’organisation IMS ?
 
 Si vous avez accès à plusieurs solutions Adobe, il est possible que vous disposiez de plusieurs identifiants de l’organisation IMS. Dans ce cas, l’identifiant de l’organisation IMS correct à utiliser est celui qui est visible sous votre instance Adobe Campaign.
 
@@ -44,7 +84,7 @@ Si vous avez accès à plusieurs solutions Adobe, il est possible que vous dispo
 >
 >Si vous avez deux identifiants d’organisation IMS différents pour Adobe Campaign et Adobe Analytics, contactez l’assistance clientèle pour qu’ils soient harmonisés.
 
-**Comment puis-je savoir si mon instance Adobe Campaign est hébergée sur AWS ?**
+### Comment puis-je savoir si mon instance Adobe Campaign est hébergée sur AWS ?{#hosted-aws}
 
 Pour vérifier si votre instance est hébergée sur AWS, procédez comme suit :
 
@@ -87,37 +127,3 @@ Pour vérifier si votre instance est hébergée sur AWS, procédez comme suit :
 >[!NOTE]
 >
 >Si vous souhaitez que votre instance soit migrée vers AWS, contactez votre responsable client.
-
-## Panneau de contrôle {#control-panel}
-
-**Qu’est-ce que le panneau de contrôle ?**
-
-Dans le panneau de contrôle, les administrateurs du produit peuvent gérer directement divers paramètres et contrôler la capacité des serveurs SFTP connectés à Adobe Campaign.
-
-**Quelles sont les principales fonctionnalités du panneau de contrôle ?**
-
-Le panneau de contrôle vous permet de surveiller le stockage, d’ajouter des adresses IP à la liste autorisée et de gérer les clés SSH de vos serveurs SFTP en fonction de vos besoins et d’autres actions.
-
-Pour plus d’informations, consultez la documentation relative aux actions prises en charge par le panneau de contrôle.
-
-**Quelles fonctionnalités ne sont pas prises en charge dans Campaign v8 mais disponibles dans Campaign Classic v7 ?**
-
-Les fonctions liées à la gestion des sous-domaines et des certificats ne sont pas encore prises en charge par Panneau de Contrôle sur Campaign v8. Contactez l’assistance clientèle de Campaign pour toute assistance connexe.
-
-**Le panneau de contrôle est-il réservé à Adobe Campaign ?**
-
-Oui, dans le panneau de contrôle, vous pouvez gérer uniquement les paramètres d’Adobe Campaign.
-
-**Puis-je utiliser le panneau de contrôle ?**
-
-Le panneau de contrôle n’est accessible que par les administrateurs de produit de nos clients actuels pour lesquels Adobe Campaign est hébergé sur AWS. Notez que les environnements hybrides ne sont pas encore pris en charge.
-
-Si vous n’êtes pas administrateur, mais que vous souhaitez y accéder, veuillez contacter votre administrateur de produit pour qu’il vous ajoute en tant qu’administrateur.
-
-**Comment puis-je accéder au panneau de contrôle ?**
-
-Consultez les instructions détaillées dans la documentation relative à l’accès au panneau de contrôle.
-
-**Y a-t-il des frais supplémentaires pour l’utilisation du panneau de contrôle ?**
-
-Non, il n’y a pas de frais supplémentaires si vous êtes déjà client Adobe Campaign.
