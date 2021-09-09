@@ -3,14 +3,14 @@ product: campaign
 solution: Campaign
 title: Surveillance des profils actifs
 description: Découvrez comment obtenir des informations en temps réel sur l’utilisation et l’évolution des profils actifs les plus récents et historiques pour chacune de vos instances Campaign.
-feature: Panneau de contrôle
+feature: Control Panel
 role: Architect
 level: Experienced
 exl-id: a157cc27-577f-490f-8c4f-0f203219cfb5
 source-git-commit: c29b6d4bf59628a10f6b8e402176b1835770fc54
-workflow-type: tm+mt
-source-wordcount: '370'
-ht-degree: 88%
+workflow-type: ht
+source-wordcount: '368'
+ht-degree: 100%
 
 ---
 
@@ -32,7 +32,7 @@ Les profils sont considérés comme actifs s’ils ont été ciblés ou ont fait
 >
 >Les canaux Facebook et Twitter ne sont pas pris en compte.
 
-Pour plus d’informations sur les profils Principaux, reportez-vous aux documentations [Campaign Standard](https://https://experienceleague.adobe.com/docs/campaign-standard/using/profiles-and-audiences/managing-profiles/active-profiles.html) et [Campaign Classic v7](https://https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/profile-management/about-profiles.html#active-profiles).
+Pour en savoir plus sur les profils actifs, consultez la documentation [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard/using/profiles-and-audiences/managing-profiles/active-profiles.html?lang=fr) et [Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/profile-management/about-profiles.html?lang=fr#active-profiles).
 
 ## Surveillance des profils actifs {#monitoring-active-profiles}
 
@@ -52,7 +52,7 @@ Pour ce faire, procédez comme suit :
 >
 >Les profils actifs sont comptabilisés en fonction des workflows techniques dédiés qui s’exécutent tous les jours sur vos instances :
 >
->* workflow [« Facturation »](https://experienceleague.adobe.com/docs/campaign-standard/using/administrating/application-settings/technical-workflows.html?lang=en) pour Campaign Standard ;
+>* workflow [« Facturation »](https://experienceleague.adobe.com/docs/campaign-standard/using/administrating/application-settings/technical-workflows.html?lang=fr) pour Campaign Standard ;
 >* workflow [« Nombre de profils de facturation actifs »](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/advanced-management/about-technical-workflows.html?lang=fr#automating-with-workflows) pour Campaign Classic.
 
 
