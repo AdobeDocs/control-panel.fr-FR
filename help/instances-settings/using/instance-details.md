@@ -3,14 +3,14 @@ product: campaign
 solution: Campaign
 title: Détails de l’instance
 description: Découvrez comment surveiller les détails de votre instance dans le panneau de contrôle
-feature: Panneau de contrôle
+feature: Control Panel
 role: Architect
 level: Experienced
 exl-id: 02819bfc-9886-43fc-8014-9bfe64c42048
 source-git-commit: 599cb22da734f53c0b06583be3e47668dcb57ef1
-workflow-type: tm+mt
-source-wordcount: '565'
-ht-degree: 94%
+workflow-type: ht
+source-wordcount: '563'
+ht-degree: 100%
 
 ---
 
@@ -20,8 +20,8 @@ ht-degree: 94%
 >id="cp_instancesettings_instancedetails"
 >title="À propos des détails de l’instance"
 >abstract="Affichez les détails de vos instances Adobe Campaign : types, noms, informations de build et recommandations de mises à niveau possibles."
->additional-url="https://https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/latest-release.html" text="Notes de mise à jour de Campaign Classic"
->additional-url="https://https://experienceleague.adobe.com/docs/campaign-standard/using/release-notes/release-notes.html" text="Notes de mise à jour de Campaign Standard "
+>additional-url="https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/latest-release.html?lang=fr" text="Notes de mise à jour de Campaign Classic"
+>additional-url="https://experienceleague.adobe.com/docs/campaign-standard/using/release-notes/release-notes.html?lang=fr" text="Notes de mise à jour de Campaign Standard "
 
 ## À propos des détails de l’instance {#about-instance-details}
 
@@ -29,7 +29,7 @@ ht-degree: 94%
 >
 >Cette fonctionnalité est disponible uniquement pour les instances Campaign Classic v7 et Campaign v8.
 
-L’architecture de votre instance Adobe Campaign  peut contenir plusieurs serveurs pour garantir la flexibilité des activités marketing. Par exemple, des serveurs Marketing, Real Time (ou Message Center) et Mid-sourcing peuvent prendre en charge votre instance.
+L’architecture de votre instance Adobe Campaign peut contenir plusieurs serveurs pour garantir la flexibilité des activités marketing. Par exemple, des serveurs Marketing, Real Time (ou Message Center) et Mid-sourcing peuvent prendre en charge votre instance.
 
 La fonctionnalité Détails de l’instance vous permet d’afficher l’architecture plane de votre instance. En plus de fournir des informations sur le serveur, elle vous permet également de savoir si le build de votre instance est à jour ou pas et vous indique les upgrades recommandés lorsque cela est nécessaire.
 
@@ -52,7 +52,7 @@ Pour obtenir des informations sur les serveurs connectés à vos instances, proc
    >
    >Si la carte Paramètres des instances n’est pas visible sur la page d’accueil du panneau de contrôle, cela signifie que votre identifiant de l’organisation IMS n’est associé à aucune instance Adobe Campaign Classic.
 
-1. Dans le panneau de gauche, sélectionnez l’instance Campaign  désirée.
+1. Dans le panneau de gauche, sélectionnez l’instance Campaign désirée.
 
    >[!NOTE]
    >
@@ -72,7 +72,7 @@ Les informations disponibles sont les suivantes :
    * Jaune : vous devez envisager un upgrade. Vous ne disposez pas des fonctionnalités et des correctifs les plus récents.
    * Rouge : effectuez un upgrade dès que possible. Vous ne disposez pas des nouvelles fonctionnalités et les performances du serveur ne sont peut-être pas optimales.
 
-Si l’un de vos serveurs nécessite un upgrade, reportez-vous à [cette documentation](https://docs.campaign.adobe.com/doc/AC/getting_started/EN/buildUpgrade.html) pour plus de détails sur la manière de procéder.
+Si l’un de vos serveurs nécessite un upgrade, reportez-vous à [cette documentation](https://docs.campaign.adobe.com/doc/AC/getting_started/FR/buildUpgrade.html) pour plus de détails sur la manière de procéder.
 
 ## Questions courantes {#common-questions}
 
