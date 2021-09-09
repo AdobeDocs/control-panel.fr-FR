@@ -3,14 +3,14 @@ product: campaign
 solution: Campaign
 title: Versions du panneau de contrôle
 description: Dernières notes de mise à jour du panneau de contrôle.
-feature: Panneau de contrôle
+feature: Control Panel
 role: Architect
 level: Beginner
 exl-id: 13aceffb-ceaa-4cfe-8741-95d66c5c6caa
 source-git-commit: 1bf4f7b6f6d4d9a47f6496299ca1c155eec4a2f3
-workflow-type: tm+mt
-source-wordcount: '632'
-ht-degree: 95%
+workflow-type: ht
+source-wordcount: '630'
+ht-degree: 100%
 
 ---
 
@@ -22,7 +22,7 @@ Vous trouverez ici des informations sur les dernières versions du panneau de co
 >
 >Le panneau de contrôle est accessible à tous les utilisateurs administrateurs. Les étapes permettant d’accorder un accès administrateur à un utilisateur sont présentées dans [cette section](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html?lang=fr#discover-control-panel).
 >
->Pour Campaign Classic v7, notez que votre instance doit être hébergée sur AWS et mise à niveau avec le dernier [build Gold Standard](https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/gs-release/gs-overview.html?lang=fr#release-notes) ou le [dernier build GA (21.1)](https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/latest-release.html?lang=fr#release-notes). Découvrez comment vérifier votre version dans [cette section](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/starting-with-adobe-campaign/launching-adobe-campaign.html?lang=fr#getting-your-campaign-version). Pour vérifier si votre instance est hébergée sur AWS, suivez les étapes présentées sur [cette page](faq.md).
+>Pour Campaign Classic v7, veuillez noter que votre instance doit être hébergée sur AWS et mise à niveau avec la dernière version de [Gold Standard](https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/gs-release/gs-overview.html?lang=fr#release-notes) ou la dernière version de [GA (21.1)](https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/latest-release.html?lang=fr#release-notes). Découvrez comment vérifier votre version dans [cette section](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/starting-with-adobe-campaign/launching-adobe-campaign.html?lang=fr#getting-your-campaign-version). Pour vérifier si votre instance est hébergée sur AWS, suivez les étapes présentées sur [cette page](faq.md).
 
 ## Octobre 2020 {#october-2020}
 
@@ -86,7 +86,7 @@ Pour plus d’informations, reportez-vous aux pages suivantes :
 >
 >Ces fonctionnalités seront disponibles en version bêta. Elle seront sujettes à de fréquentes mises à jour et modifications sans préavis.
 
-## septembre 2019 {#september-2019}
+## Septembre 2019 {#september-2019}
 
 *16 septembre 2019*
 
