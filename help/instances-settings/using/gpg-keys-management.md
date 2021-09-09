@@ -3,14 +3,14 @@ product: campaign
 solution: Campaign
 title: Gestion des clés GPG
 description: Découvrez comment gérer les clés GPG pour chiffrer et déchiffrer les données dans Adobe Campaign.
-feature: Panneau de contrôle
+feature: Control Panel
 role: Architect
 level: Experienced
 exl-id: 366dd2ea-c6be-41a2-a4d6-4ffecb5f3d39
 source-git-commit: 599cb22da734f53c0b06583be3e47668dcb57ef1
-workflow-type: tm+mt
-source-wordcount: '1180'
-ht-degree: 95%
+workflow-type: ht
+source-wordcount: '1178'
+ht-degree: 100%
 
 ---
 
@@ -30,7 +30,7 @@ Vous pourrez alors :
 
 * **Décrypter les données entrantes** : Adobe Campaign reçoit des données cryptées à partir d’un système externe à l’aide d’une clé publique téléchargée à partir du panneau de contrôle. Adobe Campaign décrypte les données à l’aide d’une clé privée générée à partir du panneau de contrôle.
 
-## Cryptage des données {#encrypting-data}
+## Chiffrement des données {#encrypting-data}
 
 Le panneau de contrôle permet de crypter les données provenant de votre instance Adobe Campaign.
 
@@ -89,17 +89,17 @@ La clé peut être ensuite utilisée dans les workflows Adobe Campaign. Vous po
 
 Pour plus d’informations, consultez la documentation d’Adobe Campaign :
 
-**Campaign Classic v7 et Campaign v8 :**
+**Campaign Classic v7 et Campaign v8 :**
 
 * [Compresser ou chiffrer un fichier](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/importing-and-exporting-data/managing-data-encryption-compression/zip-encrypt.html?lang=fr#getting-started)
-* [Cas pratique : cryptage et export de données à l’aide d’une clé installée sur le panneau de contrôle](https://https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/general-operation/how-to-use-workflow-data.html#use-case-gpg-encrypt)
+* [Cas pratique : cryptage et export de données à l’aide d’une clé installée sur le panneau de contrôle](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/general-operation/how-to-use-workflow-data.html?lang=fr#use-case-gpg-encrypt)
 
 **Campaign Standard:**
 
-* [Gérer des données cryptées](https://https://experienceleague.adobe.com/docs/campaign-standard/using/managing-processes-and-data/importing-and-exporting-data/managing-encrypted-data.html)
+* [Gérer des données cryptées](https://experienceleague.adobe.com/docs/campaign-standard/using/managing-processes-and-data/importing-and-exporting-data/managing-encrypted-data.html?lang=fr)
 * [Cas pratique : cryptage et export de données à l’aide d’une clé installée sur le panneau de contrôle](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/importing-and-exporting-data/managing-data-encryption-compression/zip-encrypt.html?lang=fr#use-case-gpg-encrypt)
 
-## Décryptage des données {#decrypting-data}
+## Déchiffrement des données {#decrypting-data}
 
 Le panneau de contrôle permet de décrypter des données externes entrant dans vos instances Adobe Campaign.
 
@@ -132,15 +132,15 @@ La clé publique peut être alors partagée avec tout système externe. Adobe C
 
 Pour plus d’informations, consultez la documentation d’Adobe Campaign :
 
-**Campaign Classic v7 et Campaign v8 :**
+**Campaign Classic v7 et Campaign v8 :**
 
-* [Décompresser ou décrypter un fichier avant traitement](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/importing-and-exporting-data/managing-data-encryption-compression/unzip-decrypt.html?lang=fr)
+* [Décompresser ou déchiffrer un fichier avant traitement](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/importing-and-exporting-data/managing-data-encryption-compression/unzip-decrypt.html?lang=fr)
 * [Cas pratique : import de données cryptées à l’aide d’une clé générée par le panneau de contrôle](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/importing-and-exporting-data/managing-data-encryption-compression/unzip-decrypt.html?lang=fr#use-case-gpg-decrypt)
 
-**Campaign Standard :**
+**Campaign Standard:**
 
-* [Gérer des données cryptées](https://https://experienceleague.adobe.com/docs/campaign-standard/using/managing-processes-and-data/importing-and-exporting-data/managing-encrypted-data.html)
-* [Cas pratique : import de données cryptées à l’aide d’une clé générée par le panneau de contrôle](https://https://experienceleague.adobe.com/docs/campaign-standard/using/managing-processes-and-data/importing-and-exporting-data/managing-encrypted-data.html#use-case-gpg-decrypt)
+* [Gérer des données cryptées](https://experienceleague.adobe.com/docs/campaign-standard/using/managing-processes-and-data/importing-and-exporting-data/managing-encrypted-data.html?lang=fr)
+* [Cas pratique : import de données cryptées à l’aide d’une clé générée par le panneau de contrôle](https://experienceleague.adobe.com/docs/campaign-standard/using/managing-processes-and-data/importing-and-exporting-data/managing-encrypted-data.html?lang=fr#use-case-gpg-decrypt)
 
 ## Surveillance des clés GPG
 
