@@ -3,13 +3,13 @@ product: campaign
 solution: Campaign
 title: Accès au panneau de contrôle
 description: Découvrez comment accéder au panneau de contrôle
-feature: Panneau de contrôle
+feature: Control Panel
 role: Architect
 level: Beginner
 exl-id: cb6cc63b-d6cc-4c8b-870f-e108d05aa740
-source-git-commit: 12ec4cada1b038e6edc46457d5cebe6a0693bfe3
+source-git-commit: 599cb22da734f53c0b06583be3e47668dcb57ef1
 workflow-type: ht
-source-wordcount: '316'
+source-wordcount: '313'
 ht-degree: 100%
 
 ---
@@ -20,13 +20,13 @@ ht-degree: 100%
 >id="cp_overview"
 >title="À propos du panneau de contrôle"
 >abstract="La page d’accueil du panneau de contrôle vous donne accès à toutes les actions qui peuvent être effectuées sur vos instances Campaign."
->additional-url="https://docs.adobe.com/content/help/fr-FR/control-panel/using/discover-control-panel/discovering-the-interface.html" text="Découverte de l’interface"
+>additional-url="https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/discovering-the-interface.html?lang=fr" text="Découverte de l’interface"
 
 Le panneau de contrôle accroît votre efficacité en tant qu’administrateur de produit Adobe Campaign Standard et/ou Classic, en vous permettant de gérer les paramètres et de suivre l’utilisation de chacune de vos instances. Dans son interface intuitive, vous pouvez facilement surveiller l’utilisation des principales ressources ou effectuer certaines tâches administratives telles que l’ajout d’adresses IP à la liste autorisée, la surveillance de l’espace de stockage SFTP, la gestion des clés, etc.
 
 Principaux avantages :
 
-* Modifiez rapidement par vous-même les paramètres sans contacter l&#39;Assistance clientèle.
+* Modifiez rapidement par vous-même les paramètres sans contacter l’assistance clientèle.
 * Configurez les paramètres en fonction de vos besoins métier à différents instants.
 * Renforcez la sécurité en contrôlant les paramètres d&#39;accès au cas par cas.
 
@@ -45,8 +45,8 @@ Principaux avantages :
     </td>
     <td>
         <a href="../../sftp/using/about-sftp-management.md"><img alt="conditions" src="assets/do-not-localize/sftp.png"/></a>
-        <div><a href="../../sftp/using/about-sftp-management.md"><strong>Surveillance des serveurs SFTP</strong></a></div>
-        <em>Découvrez comment gérer vos serveurs SFTP.</em>
+        <div><a href="../../sftp/using/about-sftp-management.md"><strong>Surveillance des serveurs SFTP</strong></a></div>
+        <em>Découvrez comment gérer vos serveurs SFTP.</em>
     </td>
     <td>
         <a href="../../subdomains-certificates/using/subdomains-branding.md"><img alt="conditions" src="assets/do-not-localize/subdomains.png"/></a>
