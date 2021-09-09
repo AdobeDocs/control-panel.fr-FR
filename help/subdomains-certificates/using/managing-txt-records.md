@@ -3,14 +3,14 @@ product: campaign
 solution: Campaign
 title: Gestion des enregistrements TXT
 description: Découvrez comment gérer les enregistrements TXT pour vérifier le propriétaire du domaine.
-feature: Panneau de contrôle
+feature: Control Panel
 role: Architect
 level: Experienced
 exl-id: 547ca6f2-720f-4d58-b31b-5b2611ba9156
 source-git-commit: 008edcd915017d147ee496ae7c0130a868b099b9
-workflow-type: tm+mt
-source-wordcount: '361'
-ht-degree: 97%
+workflow-type: ht
+source-wordcount: '359'
+ht-degree: 100%
 
 ---
 
