@@ -3,14 +3,14 @@ product: campaign
 solution: Campaign
 title: Listes autorisées d’adresses IP
 description: Découvrez comment ajouter des adresses IP à la liste autorisée dans le panneau de contrôle pour accéder aux instances
-feature: Panneau de contrôle
+feature: Control Panel
 role: Architect
 level: Intermediate
 exl-id: 1d1eeff8-969e-4529-b947-2a68defb8d13
 source-git-commit: 1bf4f7b6f6d4d9a47f6496299ca1c155eec4a2f3
-workflow-type: tm+mt
-source-wordcount: '795'
-ht-degree: 96%
+workflow-type: ht
+source-wordcount: '793'
+ht-degree: 100%
 
 ---
 
@@ -28,7 +28,7 @@ ht-degree: 96%
 >
 >Cette fonctionnalité est disponible uniquement pour les instances Campaign Classic v7 et Campaign v8.
 
-Par défaut, votre instance Adobe Campaign  n’est accessible qu’à partir de certaines adresses IP.
+Par défaut, votre instance Adobe Campaign n’est accessible qu’à partir de certaines adresses IP.
 
 Si votre adresse IP n’a pas été ajoutée à la liste autorisée, vous ne pourrez pas vous connecter à l’instance à partir de cette adresse. De même, vous ne pourrez peut-être pas connecter une API à votre instance Message Center ou Marketing si l’adresse IP n’a pas été explicitement ajoutée à la liste autorisée avec l’instance.
 
@@ -82,7 +82,7 @@ Pour ajouter des adresses IP à la liste autorisée, procédez comme suit :
 
 1. Spécifiez le type d’accès que vous souhaitez accorder aux adresses IP :
 
-   * **[!UICONTROL Accès à la console Campaign]** : Les adresses IP seront autorisées à se connecter à la console cliente Campaign. Notez que l’accès à la console n’est activé que pour les instances Marketing. L’accès aux instances MID et RT n’est pas autorisé et n’est donc pas activé.
+   * **[!UICONTROL Accès à la console Campaign]** : les adresses IP seront autorisées pour se connecter à la console cliente Campaign. Notez que l’accès à la console n’est activé que pour les instances Marketing. L’accès aux instances MID et RT n’est pas autorisé et n’est donc pas activé.
    * **[!UICONTROL Connexion via AEM]** : les adresses IP AEM spécifiées seront autorisées à se connecter à l’instance Marketing.
    * **[!UICONTROL Connexion via une API externe]** : les API externes ayant les adresses IP spécifiées seront autorisées à se connecter aux instances Marketing et/ou Message Center (RT). Notez que la connexion à la console des instances RT n’est pas activée.
 
