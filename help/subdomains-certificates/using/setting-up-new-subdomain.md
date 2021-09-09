@@ -3,14 +3,14 @@ product: campaign
 solution: Campaign
 title: Configuration d’un nouveau sous-domaine
 description: Découvrez comment configurer un nouveau sous-domaine pour vos instances de campagne
-feature: Panneau de contrôle
+feature: Control Panel
 role: Architect
 level: Experienced
 exl-id: d92781c3-14cc-4716-a131-580ccff46d6e
 source-git-commit: 599cb22da734f53c0b06583be3e47668dcb57ef1
-workflow-type: tm+mt
-source-wordcount: '1193'
-ht-degree: 97%
+workflow-type: ht
+source-wordcount: '1191'
+ht-degree: 100%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 97%
 >id="cp_subdomain_management"
 >title="Configurer de nouveaux sous-domaines et gérer les certificats"
 >abstract="Vous devez configurer un nouveau sous-domaine et gérer les certificats SSL de vos sous-domaines pour envoyer des emails ou publier des landing pages avec Adobe Campaign."
->additional-url="https://https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/monitoring-ssl-certificates.html" text="Comment surveiller les certificats SSL de vos sous-domaines"
+>additional-url="https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/monitoring-ssl-certificates.html?lang=fr" text="Comment surveiller les certificats SSL de vos sous-domaines"
 
 
 ## À lire absolument {#must-read}
@@ -70,7 +70,7 @@ Pour déléguer complètement un sous-domaine à Adobe Campaign, procédez comme
 
    >[!NOTE]
    >
-   > Pour Adobe Campaign Standard, les sous-domaines délégués vous permettront d’envoyer à la fois des communications **Marketing** et **Transactionnel**.
+   > Pour Adobe Campaign Standard, les sous-domaines délégués vous permettent d’envoyer à la fois des communications **marketing** et **transactionnelles**.
 
    ![](assets/subdomain4.png)
 
