@@ -7,11 +7,10 @@ feature: Control Panel
 role: Architect
 level: Beginner
 exl-id: eb67af6e-a64e-49a7-9656-782f91bc1d67
-translation-type: ht
-source-git-commit: 4fc34b07b497c743e2ca6c182e68d6ea5c180ac9
-workflow-type: ht
-source-wordcount: '164'
-ht-degree: 100%
+source-git-commit: 7115dac6b3a4cf002979fba36113b98507fdf3db
+workflow-type: tm+mt
+source-wordcount: '185'
+ht-degree: 56%
 
 ---
 
@@ -23,13 +22,17 @@ Il est accessible uniquement aux **utilisateurs administrateurs**. Pour plus d�
 
 ## Accès à partir d’Experience Cloud Platform {#access-experience-cloud-platform}
 
-Pour accéder au panneau de contrôle depuis Experience Cloud Platform, accédez à la [page d’accueil Experience Cloud Platform](https://experiencecloud.adobe.com/), puis cliquez sur le lien dédié dans la section **Accès rapide**.
+Pour accéder au Panneau de Contrôle à partir de Adobe Experience Cloud Platform, procédez comme suit.
 
-![](assets/do-not-localize/quickaccess.png)
+1. Accédez à la [page d’accueil Experience Cloud](https://experiencecloud.adobe.com/){target=&quot;_blank&quot;}.
+
+1. Cliquez sur le lien dédié dans la section **Accès rapide** .
+
+   ![](assets/do-not-localize/quickaccess.png)
 
 Le panneau de contrôle est également accessible à partir du **sélecteur de solution** Experience Cloud Platform :
 
-1. Accédez à [Adobe Experience Cloud](https://experiencecloud.adobe.com/), puis sélectionnez **Campaign** dans le sélecteur de solution.
+1. Sur la [page d’accueil de Adobe Experience Cloud](https://experiencecloud.adobe.com/){target=&quot;_blank&quot;}, sélectionnez **Campagne** dans la section **Accès rapide** ou dans le menu supérieur droit.
 
    ![](assets/do-not-localize/control_panel_access1.png)
 
@@ -41,9 +44,11 @@ Le panneau de contrôle est également accessible à partir du **sélecteur de s
 
 >[!NOTE]
 >
->L’accès depuis le produit est disponible uniquement pour Campaign Standard.
+>L’accès depuis le produit est disponible uniquement pour [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard/using/campaign-standard-home.html?lang=fr){target=&quot;_blank&quot;}.
 
-1. Ouvrez votre produit Campaign Standard, puis sélectionnez le menu **[!UICONTROL Administration]** dans le volet **[!UICONTROL Navigation]**.
+1. Ouvrez votre produit Campaign Standard.
+
+1. Sélectionnez le menu **[!UICONTROL Administration]** dans le volet **Navigation**.
 
    ![](assets/control_panel_access3.png)
 
