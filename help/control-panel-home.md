@@ -5,10 +5,10 @@ feature: Control Panel
 role: Architect
 level: Beginner
 exl-id: 2b2cfaed-e42e-4c3a-a8d8-224b936890ab
-source-git-commit: 959fb37034e787d5f61634d55abfe931968613d2
+source-git-commit: cca04cd965c00a9e2bc496de632ee41ce53a166a
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '214'
+ht-degree: 96%
 
 ---
 
@@ -18,8 +18,8 @@ ht-degree: 0%
 >id="cp_overview"
 >title="À propos du panneau de contrôle"
 >abstract="La page d’accueil du panneau de contrôle vous donne accès à toutes les actions qui peuvent être effectuées sur vos instances Campaign."
->additional-url="://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/discovering-the-interface.html?lang=fr" text="Découvrir l’interface"
->additional-url="https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/accessing-control-panel.html?lang=en" text="Accès au panneau de contrôle"
+>additional-url="://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/discovering-the-interface.html?lang=fr" text="Découverte de l’interface"
+>additional-url="https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/accessing-control-panel.html?lang=fr" text="Accès au panneau de contrôle"
 
 ![](assets/do-not-localize/banner.png)
 
@@ -35,7 +35,7 @@ L’onglet **[!UICONTROL Surveillance des bases de données]** a été amélior�
 
 >[!CAUTION]
 >
->* Le panneau de contrôle est accessible aux utilisateurs administrateurs uniquement. [Apprenez-en davantage](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html?lang=fr#discover-control-panel)
+>* Le panneau de contrôle est accessible aux utilisateurs administrateurs uniquement. [Apprenez-en davantage](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html#discover-control-panel)
 >
 >* Pour Campaign Classic v7, les restrictions de déploiement s’appliquent. [Apprenez-en davantage](faq.md#v7-restrictions)
 >
@@ -61,7 +61,7 @@ L’onglet **[!UICONTROL Surveillance des bases de données]** a été amélior�
         <td><b>Campaign v8</b><br/>
         <ul>
             <li><a href="https://experienceleague.adobe.com/docs/campaign-learn/control-panel/control-panel-overview.html?lang=fr">Tutoriels vidéo sur le panneau de contrôle</a></li>
-            <li><a href="https://experienceleague.adobe.com/docs/campaign-classic/using/campaign-classic-home.html?lang=fr">Documentation du produit Campaign v8</a></li>
+            <li><a href="https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaign-home.html?lang=fr">Documentation du produit Campaign v8</a></li>
         </ul>
         </td>
     </tr>
