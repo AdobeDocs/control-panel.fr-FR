@@ -7,10 +7,10 @@ feature: Control Panel
 role: Architect
 level: Experienced
 exl-id: a157cc27-577f-490f-8c4f-0f203219cfb5
-source-git-commit: c29b6d4bf59628a10f6b8e402176b1835770fc54
-workflow-type: ht
-source-wordcount: '368'
-ht-degree: 100%
+source-git-commit: 62ad3edb604ebd9fab6a3f930b7c79af6b9ca968
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -32,9 +32,15 @@ Les profils sont considérés comme actifs s’ils ont été ciblés ou ont fait
 >
 >Les canaux Facebook et Twitter ne sont pas pris en compte.
 
-Pour en savoir plus sur les profils actifs, consultez la documentation [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard/using/profiles-and-audiences/managing-profiles/active-profiles.html?lang=fr) et [Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/profile-management/about-profiles.html?lang=fr#active-profiles).
+Pour plus d’informations sur les profils principaux, reportez-vous aux documentations [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard/using/profiles-and-audiences/managing-profiles/active-profiles.html?lang=fr) et [Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/profile-management/about-profiles.html?lang=fr#active-profiles).
 
 ## Surveillance des profils actifs {#monitoring-active-profiles}
+
+>[!CONTEXTUALHELP]
+>id="cp_performancemonitoring_active_profile"
+>title="A propos de la surveillance des profils principaux"
+>abstract="Dans cet onglet, vous pouvez obtenir des informations en temps réel sur l’utilisation et l’évolution des profils principaux les plus récents et historiques pour chacune de vos instances Campaign."
+>additional-url="https://experienceleague.adobe.com/docs/control-panel/using/performance-monitoring/about-performance-monitoring.html?lang=en" text="À propos de la surveillance des performances"
 
 Le panneau de contrôle permet de surveiller l’utilisation des profils actifs pour chacune de vos instances Campaign.
 

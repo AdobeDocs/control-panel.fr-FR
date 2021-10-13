@@ -7,10 +7,10 @@ feature: Control Panel
 role: Architect
 level: Intermediate
 exl-id: 1d1eeff8-969e-4529-b947-2a68defb8d13
-source-git-commit: 1bf4f7b6f6d4d9a47f6496299ca1c155eec4a2f3
-workflow-type: ht
-source-wordcount: '793'
-ht-degree: 100%
+source-git-commit: 62ad3edb604ebd9fab6a3f930b7c79af6b9ca968
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -46,11 +46,11 @@ Veillez à suivre les recommandations et les limites ci-dessous lors de l’ajou
 * **Si vous avez provisoirement activé l’accès à votre instance pour une adresse IP**, assurez-vous de supprimer les adresses IP de la liste autorisée une fois que vous n’en avez plus besoin pour vous connecter à votre instance.
 * **Nous vous déconseillons d’ajouter les adresses IP des lieux publics (aéroports, hôtels, etc.) à la liste autorisée**. Utilisez l’adresse VPN de votre entreprise pour assurer la sécurité permanente de votre instance.
 
-## Ajouter des adresses IP à la liste autorisée pour l’accès aux instances {#adding-ip-addresses-allow-list}
+## Ajout d’adresses IP à la liste autorisée pour l’accès aux instances {#adding-ip-addresses-allow-list}
 
 >[!CONTEXTUALHELP]
 >id="cp_instancesettings_iprange_add"
->title="Ajouter une plage d’adresses IP"
+>title="Configuration de plage IP"
 >abstract="Définissez la plage d’adresses IP que vous souhaitez ajouter à la liste autorisée pour vous connecter à votre instance."
 
 Pour ajouter des adresses IP à la liste autorisée, procédez comme suit :

@@ -7,10 +7,10 @@ feature: Control Panel
 role: Architect
 level: Experienced
 exl-id: d92781c3-14cc-4716-a131-580ccff46d6e
-source-git-commit: 599cb22da734f53c0b06583be3e47668dcb57ef1
-workflow-type: ht
-source-wordcount: '1191'
-ht-degree: 100%
+source-git-commit: 76696e236ee2416fd20cf325fea734c5aef924ae
+workflow-type: tm+mt
+source-wordcount: '1378'
+ht-degree: 92%
 
 ---
 
@@ -20,8 +20,7 @@ ht-degree: 100%
 >id="cp_subdomain_management"
 >title="Configurer de nouveaux sous-domaines et gérer les certificats"
 >abstract="Vous devez configurer un nouveau sous-domaine et gérer les certificats SSL de vos sous-domaines pour envoyer des emails ou publier des landing pages avec Adobe Campaign."
->additional-url="https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/monitoring-ssl-certificates.html?lang=fr" text="Comment surveiller les certificats SSL de vos sous-domaines"
-
+>additional-url="https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/monitoring-ssl-certificates.html?lang=fr" text="Surveillance des certificats SSL"
 
 ## À lire absolument {#must-read}
 
@@ -52,6 +51,26 @@ Lors de la configuration des serveurs de noms, veillez à **ne jamais déléguer
 De plus, **ne créez pas de fichier de zone distinct** pour ce nouveau sous-domaine.
 
 ## Délégation complète de sous-domaine {#full-subdomain-delegation}
+
+>[!CONTEXTUALHELP]
+>id="cp_add_new_subdomain"
+>title="Ajouter un nouveau sous-domaine"
+>abstract="Adobe recommande la délégation complète des sous-domaines. Cependant, vous pouvez utiliser des CNAME ou une méthode personnalisée pour configurer vos sous-domaines."
+>additional-url="https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/setting-up-new-subdomain.html?lang=fr" text="Configuration d’un nouveau sous-domaine"
+>additional-url="https://helpx.adobe.com/fr/enterprise/using/support-for-experience-cloud.html" text="Contacter l’assistance clientèle"
+
+
+>[!CONTEXTUALHELP]
+>id="cp_add_subdomain_create_delegate"
+>title="Créer et déléguer votre sous-domaine"
+>abstract="Créez le sous-domaine que vous souhaitez utiliser avec Adobe Campaign dans votre solution d’hébergement et déléguez-le à l’Adobe."
+>additional-url="https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/setting-up-new-subdomain.html" text="Configuration d’un nouveau sous-domaine"
+
+>[!CONTEXTUALHELP]
+>id="cp_add_subdomain_submit"
+>title="Envoyer votre sous-domaine"
+>abstract="Confirmez et envoyez le sous-domaine qui a été configuré aux étapes précédentes."
+>additional-url="https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/setting-up-new-subdomain.html" text="Configuration d’un nouveau sous-domaine"
 
 Pour déléguer complètement un sous-domaine à Adobe Campaign, procédez comme suit.
 
@@ -89,6 +108,24 @@ Pour déléguer complètement un sous-domaine à Adobe Campaign, procédez comme
 Une fois le sous-domaine soumis, le panneau de contrôle procède à différents contrôles et étapes de configuration. Pour plus d’informations à ce propos, consultez la section [Vérifications et configuration des sous-domaines](#subdomain-checks-and-configuration).
 
 ## Configuration de sous-domaines à l’aide de CNAME {#use-cnames}
+
+>[!CONTEXTUALHELP]
+>id="cp_add_cname_subdomain_create_delegate"
+>title="Configuration de votre sous-domaine"
+>abstract="Dans cet écran, spécifiez le sous-domaine que vous souhaitez configurer à l’aide de CNAME."
+>additional-url="https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/setting-up-new-subdomain.html" text="Configuration d’un nouveau sous-domaine"
+
+>[!CONTEXTUALHELP]
+>id="cp_add_cname_records"
+>title="Générer des enregistrements"
+>abstract="Accédez à votre solution d’hébergement afin de générer la liste des enregistrements DNS affichée dans cet écran."
+>additional-url="https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/setting-up-new-subdomain.html" text="Configuration d’un nouveau sous-domaine"
+
+>[!CONTEXTUALHELP]
+>id="cp_add_cname_subdomain_submit"
+>title="Envoyer votre sous-domaine"
+>abstract="Confirmez et envoyez le sous-domaine qui a été configuré aux étapes précédentes."
+>additional-url="https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/setting-up-new-subdomain.html" text="Configuration d’un nouveau sous-domaine"
 
 Pour configurer un sous-domaine à l’aide de CNAME, procédez comme suit.
 

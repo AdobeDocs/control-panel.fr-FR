@@ -2,16 +2,15 @@
 product: campaign
 solution: Campaign
 title: Gestion des clés
-description: Découvrez comment gérer les clés pour établir une connexion aux serveurs SFTP
+description: Découvrez comment gérer les clés pour établir une connexion aux serveurs SFTP
 feature: Control Panel
 role: Architect
 level: Experienced
 exl-id: 03815e01-6371-4e1c-b4b8-7abe25957cee
-translation-type: ht
-source-git-commit: 4fc34b07b497c743e2ca6c182e68d6ea5c180ac9
-workflow-type: ht
-source-wordcount: '641'
-ht-degree: 100%
+source-git-commit: dd5b69604178ef9a11af88a90a1a4f9e74374b7e
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -19,15 +18,15 @@ ht-degree: 100%
 
 >[!CONTEXTUALHELP]
 >id="cp_key_management"
->title="À propos de la gestion des clés"
->abstract="Dans cet onglet, vous pouvez gérer vos clés publiques."
+>title="A propos de la gestion des clés publiques"
+>abstract="Dans cet onglet, vous pouvez créer, gérer et modifier vos clés publiques."
 >additional-url="https://images-tv.adobe.com/mpcv3/8a977e03-d76c-44d3-853c-95d0b799c870_1560205338.1920x1080at3000_h264.mp4#t=166" text="Regarder une vidéo de démonstration"
 
-Adobe recommande à tous les clients d’établir une connexion à leurs serveurs SFTP avec une **paire de clés publique et privée**.
+Adobe recommande à tous les clients d’établir une connexion à leurs serveurs SFTP avec une **paire de clés publique et privée**.
 
 Les étapes de génération d’une clé SSH publique et de son ajout pour accéder au serveur SFTP sont décrites ci-dessous, ainsi que les recommandations concernant l’authentification.
 
-Une fois l’accès au serveur configuré, pensez à **ajouter à la liste autorisée les adresses IP qui requièrent l’accès au serveur**, afin de pouvoir vous y connecter. Voir à ce propos [cette section](../../instances-settings/using/ip-allow-listing-instance-access.md).
+Une fois l’accès au serveur configuré, pensez à **ajouter à la liste autorisée les adresses IP qui requièrent l’accès au serveur**, afin de pouvoir vous y connecter. Pour plus d’informations, consultez [cette section](../../instances-settings/using/ip-allow-listing-instance-access.md).
 
 >[!NOTE]
 >
@@ -43,22 +42,22 @@ Veillez à toujours utiliser la même authentification pour vous connecter au se
 
 **Intégration de l’API avec nom d’utilisateur et mot de passe**
 
-Dans de très rares cas, l’authentification par mot de passe est activée sur certains serveurs SFTP. Adobe vous recommande d’utiliser l’authentification par clé, car cette méthode est plus efficace et plus sûre. Vous pouvez demander à passer à l’authentification par clé en contactant l’Assistance clientèle.
+Dans de très rares cas, l’authentification par mot de passe est activée sur certains serveurs SFTP. Adobe vous recommande d’utiliser l’authentification par clé, car cette méthode est plus efficace et plus sûre. Vous pouvez demander à passer à l’authentification par clé en contactant l’assistance clientèle.
 
 >[!IMPORTANT]
 >
->Si votre mot de passe arrive à expiration, même si des clés sont installées sur votre système, vous ne pourrez pas vous connecter à vos comptes SFTP.
+>Si votre mot de passe arrive à expiration, même si des clés sont installées sur votre système, vous ne pourrez pas vous connecter à vos comptes SFTP.
 
 ## Installation de la clé SSH {#installing-ssh-key}
 
 >[!CONTEXTUALHELP]
 >id="cp_sftp_publickey_add"
->title="Ajouter une clé publique"
->abstract="Ajoutez une clé publique pour une instance."
+>title="Ajout de la clé publique"
+>abstract="Générez une clé SSH publique pour une instance et ajoutez-la au Panneau de Contrôle pour accéder au serveur SFTP."
 
 >[!IMPORTANT]
 >
->Les étapes ci-dessous sont un exemple de création de clé SSH uniquement. Veuillez suivre les directives de votre organisation en ce qui concerne les clés SSH. L’exemple ci-dessous n’est qu’un exemple parmi d’autres et sert de point de référence utile pour communiquer les exigences à votre équipe ou à votre groupe réseau interne.
+>Les étapes ci-dessous illustrent la création de clés SSH uniquement. Veuillez suivre les directives de votre organisation en ce qui concerne ce type de clé. L’exemple ci-dessous n’est qu’un exemple parmi d’autres et sert de point de référence utile pour communiquer les exigences à votre équipe ou à votre groupe réseau interne.
 
 1. Accédez à l’onglet **[!UICONTROL Gestion des clés]**, puis cliquez sur le bouton **[!UICONTROL Ajouter une clé publique]**.
 
@@ -96,12 +95,12 @@ Dans de très rares cas, l’authentification par mot de passe est activée sur 
 
    ![](assets/publickey.png)
 
-1. Cliquez sur le bouton **[!UICONTROL Enregistrer]** pour créer la clé. Le panneau de contrôle enregistre la clé publique et son empreinte digitale associée, cryptée au format SHA256.
+1. Cliquez sur le bouton **[!UICONTROL Enregistrer]** pour créer la clé. Le panneau de contrôle enregistre la clé publique et son empreinte numérique associée, chiffrée au format SHA256.
 
-Vous pouvez utiliser les empreintes digitales pour faire correspondre les clés privées enregistrées sur votre ordinateur avec les clés publiques correspondantes enregistrées dans le panneau de contrôle.
+Vous pouvez utiliser les empreintes numériques pour faire correspondre les clés privées enregistrées sur votre ordinateur avec les clés publiques correspondantes enregistrées dans le panneau de contrôle.
 
 ![](assets/fingerprint_compare.png)
 
-Le bouton « **...** » permet de supprimer une clé existante ou de copier son empreinte associée dans le presse-papiers.
+Le bouton « **...** » permet de supprimer une clé ou de copier dans le presse-papiers l’empreinte qui lui est associée.
 
 ![](assets/key_options.png)

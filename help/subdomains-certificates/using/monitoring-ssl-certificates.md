@@ -7,10 +7,10 @@ feature: Control Panel
 role: Architect
 level: Experienced
 exl-id: a7888e1c-259d-4601-951b-0f1062d90dc2
-source-git-commit: 3bd3dcc0e09d887cab7d810d43f2c72bb4251ac9
-workflow-type: ht
-source-wordcount: '403'
-ht-degree: 100%
+source-git-commit: 62ad3edb604ebd9fab6a3f930b7c79af6b9ca968
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -37,7 +37,7 @@ Le **cryptage SSL (Secure Socket Layer)** garantit la sécurité des sous-domai
 >[!CONTEXTUALHELP]
 >id="cp_subdomain_details"
 >title="Détails du sous-domaine"
->abstract="Récupérez des informations sur vos sous-domaines."
+>abstract="Récupérez des informations sur les certificats SSL de vos sous-domaines."
 
 L’état des certificats SSL de vos sous-domaines est disponible directement dans la liste des sous-domaines en sélectionnant la carte **[!UICONTROL Sous-domaines et certificats]**.
 
