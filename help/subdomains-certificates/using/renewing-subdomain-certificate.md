@@ -7,9 +7,9 @@ feature: Control Panel
 role: Architect
 level: Experienced
 exl-id: e9b7c67d-6afa-44f9-b19d-39c0ec9a7edd
-source-git-commit: cca04cd965c00a9e2bc496de632ee41ce53a166a
+source-git-commit: 1f422833e1495525612e760714e50a9aaf744db5
 workflow-type: tm+mt
-source-wordcount: '875'
+source-wordcount: '861'
 ht-degree: 94%
 
 ---
@@ -53,7 +53,6 @@ Une fois le certificat SSL acheté, vous pouvez l’installer sur le sous-domai
 >id="cp_select_subdomains"
 >title="Sélectionner les sous-domaines pour votre CSR"
 >abstract="Vous pouvez choisir d’inclure tous les sous-domaines ou uniquement des sous-domaines spécifiques dans votre demande de signature de certificat. Seuls les sous-domaines sélectionnés seront certifiés par le biais du certificat SSL acheté."
->additional-url="https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/renewing-subdomain-certificate.html#generating-csr" text="Génération d’une demande de signature de certificat (CSR)"
 >additional-url="https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/subdomains-branding.html?lang=fr" text="À propos de la marque des sous-domaines"
 
 Pour générer une demande de signature de certificat (CSR), procédez comme suit :
