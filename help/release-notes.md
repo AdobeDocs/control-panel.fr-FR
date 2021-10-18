@@ -10,7 +10,7 @@ exl-id: 13aceffb-ceaa-4cfe-8741-95d66c5c6caa
 source-git-commit: eb7cfbd68bdaaf3761e8901feecebea2d8b3b38a
 workflow-type: tm+mt
 source-wordcount: '792'
-ht-degree: 79%
+ht-degree: 82%
 
 ---
 
@@ -28,11 +28,11 @@ Vous trouverez ici des informations sur les dernières versions du panneau de co
 
 **Plage IP et période de validité des clés publiques**
 
-Il est désormais possible de définir une durée pour la disponibilité des plages d’adresses IP et des clés publiques. Pour en savoir plus, reportez-vous aux sections [Listes autorisées des plages d’adresses IP](sftp/using/ip-range-allow-listing.md#adding-ip-addresses-allow-list) et [Gestion des clés](sftp/using/key-management.md#installing-ssh-key) .
+Il est désormais possible de définir une durée pour la disponibilité des plages d’adresses IP et des clés publiques. En savoir plus dans la section [Listes autorisées des plages d’adresses IP](sftp/using/ip-range-allow-listing.md#adding-ip-addresses-allow-list) et [Gestion des clés](sftp/using/key-management.md#installing-ssh-key) sections.
 
 **Plage IP et édition de clé publique**
 
-Vous pouvez désormais modifier les [plages d’adresses IP](sftp/using/ip-range-allow-listing.md#editing-ip-ranges) et [clés publiques](sftp/using/key-management.md#editing-public-keys) que vous créez. Notez que cette fonctionnalité n’est pas disponible pour les éléments créés avant la version actuelle du Panneau de Contrôle.
+Vous pouvez désormais modifier la variable [Plages IP](sftp/using/ip-range-allow-listing.md#editing-ip-ranges) et [clés publiques](sftp/using/key-management.md#editing-public-keys) que vous créez. Notez que cette fonctionnalité n’est pas disponible pour les éléments créés avant la version actuelle du Panneau de Contrôle.
 
 **Alertes sur la plage IP SFTP et expiration de la clé publique**
 
@@ -40,13 +40,13 @@ La fonctionnalité d’alerte par email inclut désormais des alertes sur l’ex
 
 **Prise en charge complète de Campaign v8**
 
-Les fonctionnalités de gestion **Sous-domaine** et **Certificat** sont désormais prises en charge par Panneau de Contrôle sur Adobe Campaign v8.
+Le **Subdomain** et **Certificat** les fonctionnalités de gestion sont désormais prises en charge par Panneau de Contrôle sur Adobe Campaign v8.
 
 ## Août 2021 {#august-2021}
 
 **Prise en charge de Campaign v8**
 
-Panneau de Contrôle est désormais disponible pour Adobe Campaign v8, à l’exception des fonctionnalités de gestion **Subdomain** et **Certificate**, qui ne sont pas encore prises en charge. Apprenez-en davantage dans la [documentation de Campaign  v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/deploy/self-service.html){target=&quot;_blank&quot;}
+Le panneau de contrôle est désormais disponible pour Adobe Campaign v8, à l’exception des fonctionnalités de gestion de **Sous-domaine** et de **Certificat**, qui ne sont pas encore prises en charge. En savoir plus dans la [documentation de Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/deploy/self-service.html){target=&quot;_blank&quot;}
 
 ## Octobre 2020 {#october-2020}
 
