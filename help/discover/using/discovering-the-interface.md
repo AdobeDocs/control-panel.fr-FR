@@ -7,10 +7,9 @@ feature: Control Panel
 role: Architect
 level: Intermediate
 exl-id: 20302017-d4b1-489b-a6b4-f086e5bad4d5
-translation-type: ht
-source-git-commit: 4fc34b07b497c743e2ca6c182e68d6ea5c180ac9
-workflow-type: ht
-source-wordcount: '144'
+source-git-commit: 99409f462993191d8fb4d6dfacc77c1e4b973f68
+workflow-type: tm+mt
+source-wordcount: '129'
 ht-degree: 100%
 
 ---
@@ -19,9 +18,9 @@ ht-degree: 100%
 
 La page d’accueil du panneau de contrôle vous donne accès à toutes les actions qui peuvent être effectuées sur vos instances Campaign.
 
-Elles sont représentées par des cartes qui sont organisées en rubriques, par exemple **Gestion des espaces de stockage et des bases de données**
+Elles sont représentées par des cartes organisées en rubriques, par exemple **Suivi des performances**.
 
-D’autres rubriques et cartes seront disponibles avec les prochaines versions de Campaign.
+<!--With upcoming Campaign releases, more topics and cards will be made available.-->
 
 ![](assets/control_panel_interface.png)
 
