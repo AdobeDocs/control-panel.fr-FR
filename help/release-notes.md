@@ -7,10 +7,10 @@ feature: Control Panel
 role: Architect
 level: Beginner
 exl-id: 13aceffb-ceaa-4cfe-8741-95d66c5c6caa
-source-git-commit: cca04cd965c00a9e2bc496de632ee41ce53a166a
+source-git-commit: eb7cfbd68bdaaf3761e8901feecebea2d8b3b38a
 workflow-type: tm+mt
-source-wordcount: '665'
-ht-degree: 94%
+source-wordcount: '792'
+ht-degree: 79%
 
 ---
 
@@ -24,7 +24,27 @@ Vous trouverez ici des informations sur les dernières versions du panneau de co
 >
 >Pour Campaign Classic v7, veuillez noter que votre instance doit être hébergée sur AWS et mise à niveau avec la dernière version de [Gold Standard](https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/gs-release/gs-overview.html?lang=fr#release-notes) ou la dernière version de [GA (21.1)](https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/latest-release.html?lang=fr#release-notes). Découvrez comment vérifier votre version dans [cette section](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/starting-with-adobe-campaign/launching-adobe-campaign.html?lang=fr#getting-your-campaign-version). Pour vérifier si votre instance est hébergée sur AWS, suivez les étapes présentées sur [cette page](faq.md).
 
+## Octobre 2021 {#october-2021}
+
+**Plage IP et période de validité des clés publiques**
+
+Il est désormais possible de définir une durée pour la disponibilité des plages d’adresses IP et des clés publiques. Pour en savoir plus, reportez-vous aux sections [Listes autorisées des plages d’adresses IP](sftp/using/ip-range-allow-listing.md#adding-ip-addresses-allow-list) et [Gestion des clés](sftp/using/key-management.md#installing-ssh-key) .
+
+**Plage IP et édition de clé publique**
+
+Vous pouvez désormais modifier les [plages d’adresses IP](sftp/using/ip-range-allow-listing.md#editing-ip-ranges) et [clés publiques](sftp/using/key-management.md#editing-public-keys) que vous créez. Notez que cette fonctionnalité n’est pas disponible pour les éléments créés avant la version actuelle du Panneau de Contrôle.
+
+**Alertes sur la plage IP SFTP et expiration de la clé publique**
+
+La fonctionnalité d’alerte par email inclut désormais des alertes sur l’expiration des listes autorisées d’adresses IP SFTP et l’expiration de la clé publique SFTP. [En savoir plus](performance-monitoring/using/email-alerting.md)
+
+**Prise en charge complète de Campaign v8**
+
+Les fonctionnalités de gestion **Sous-domaine** et **Certificat** sont désormais prises en charge par Panneau de Contrôle sur Adobe Campaign v8.
+
 ## Août 2021 {#august-2021}
+
+**Prise en charge de Campaign v8**
 
 Panneau de Contrôle est désormais disponible pour Adobe Campaign v8, à l’exception des fonctionnalités de gestion **Subdomain** et **Certificate**, qui ne sont pas encore prises en charge. Apprenez-en davantage dans la [documentation de Campaign  v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/deploy/self-service.html){target=&quot;_blank&quot;}
 
