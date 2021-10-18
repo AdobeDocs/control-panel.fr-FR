@@ -36,7 +36,7 @@ Le dépassement de la capacité d’une base de données d’instance peut entra
 >id="cp_performancemonitoring_database"
 >title="A propos de la surveillance des bases de données"
 >abstract="Dans cet onglet, vous pouvez obtenir des informations en temps réel sur l&#39;utilisation et l&#39;évolution les plus récentes et historiques des bases de données pour chacune de vos instances Campaign."
->additional-url="https://experienceleague.adobe.com/docs/control-panel/using/performance-monitoring/about-performance-monitoring.html?lang=fr" text="À propos de la surveillance des performances"
+>additional-url="https://experienceleague.adobe.com/docs/control-panel/using/performance-monitoring/about-performance-monitoring.html?lang=fr" text="À propos du suivi des performances"
 
 ![](assets/do-not-localize/how-to-video.png) Découvrez cette fonctionnalité en vidéo dans [Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/performance-monitoring/monitoring-databases.html#performance-monitoring) ou [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/performance-monitoring/monitoring-databases.html#performance-monitoring)
 
