@@ -20,7 +20,7 @@ ht-degree: 95%
 >id="cp_instancesettings_gpg_management"
 >title="À propos des clés GPG"
 >abstract="Dans cet onglet, vous pouvez installer et/ou générer des clés GPG sur une instance marketing, afin de crypter les données envoyées depuis Campaign et décrypter les données entrantes."
->additional-url="https://experienceleague.adobe.com/docs/control-panel/using/performance-monitoring/about-performance-monitoring.html?lang=fr" text="À propos de la surveillance des performances"
+>additional-url="https://experienceleague.adobe.com/docs/control-panel/using/performance-monitoring/about-performance-monitoring.html?lang=fr" text="À propos du suivi des performances"
 
 ## À propos du chiffrement GPG {#about-gpg-encryption}
 
