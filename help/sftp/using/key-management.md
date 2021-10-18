@@ -7,10 +7,10 @@ feature: Control Panel
 role: Architect
 level: Experienced
 exl-id: 03815e01-6371-4e1c-b4b8-7abe25957cee
-source-git-commit: cca04cd965c00a9e2bc496de632ee41ce53a166a
+source-git-commit: 99861c898c216d2589f23bd52779db328ea47256
 workflow-type: tm+mt
-source-wordcount: '649'
-ht-degree: 91%
+source-wordcount: '1081'
+ht-degree: 35%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 91%
 >[!CONTEXTUALHELP]
 >id="cp_key_management"
 >title="A propos de la gestion des clés publiques"
->abstract="Dans cet onglet, vous pouvez créer, gérer et modifier vos clés publiques."
+>abstract="Dans cet onglet, créez, gérez et modifiez vos clés publiques."
 >additional-url="https://images-tv.adobe.com/mpcv3/8a977e03-d76c-44d3-853c-95d0b799c870_1560205338.1920x1080at3000_h264.mp4#t=166" text="Regarder une vidéo de démonstration"
 
 Adobe recommande à tous les clients d’établir une connexion à leurs serveurs SFTP avec une **paire de clés publique et privée**.
@@ -27,10 +27,6 @@ Adobe recommande à tous les clients d’établir une connexion à leurs serveur
 Les étapes de génération d’une clé SSH publique et de son ajout pour accéder au serveur SFTP sont décrites ci-dessous, ainsi que les recommandations concernant l’authentification.
 
 Une fois l’accès au serveur configuré, pensez à **ajouter à la liste autorisée les adresses IP qui requièrent l’accès au serveur**, afin de pouvoir vous y connecter. Pour plus d’informations, consultez [cette section](../../instances-settings/using/ip-allow-listing-instance-access.md).
-
->[!NOTE]
->
->Il n’est actuellement pas possible de supprimer une clé SSH publique.
 
 ![](assets/do-not-localize/how-to-video.png) Découvrez cette fonctionnalité en vidéo dans [Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/sftp-management/generate-ssh-key.html#sftp-management) ou [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/sftp-management/generate-ssh-key.html#sftp-management)
 
@@ -42,7 +38,7 @@ Veillez à toujours utiliser la même authentification pour vous connecter au se
 
 **Intégration de l’API avec nom d’utilisateur et mot de passe**
 
-Dans de très rares cas, l’authentification par mot de passe est activée sur certains serveurs SFTP. Adobe vous recommande d’utiliser l’authentification par clé, car cette méthode est plus efficace et plus sûre. Vous pouvez demander à passer à l’authentification par clé en contactant l’assistance clientèle.
+Dans de très rares cas, l’authentification par mot de passe est activée sur certains serveurs SFTP. Adobe vous recommande d’utiliser l’authentification par clé, car cette méthode est plus efficace et plus sûre. Vous pouvez demander à passer à l’authentification par clé en contactant l’assistance clientèle.
 
 >[!IMPORTANT]
 >
@@ -57,7 +53,7 @@ Dans de très rares cas, l’authentification par mot de passe est activée sur 
 
 >[!IMPORTANT]
 >
->Les étapes ci-dessous illustrent la création de clés SSH uniquement. Veuillez suivre les directives de votre organisation en ce qui concerne ce type de clé. L’exemple ci-dessous n’est qu’un exemple parmi d’autres et sert de point de référence utile pour communiquer les exigences à votre équipe ou à votre groupe réseau interne.
+>Vous devez toujours suivre les directives de votre organisation en ce qui concerne les clés SSH. Les étapes ci-dessous ne sont qu’un exemple de la manière dont la création de clé SSH peut être réalisée et elles peuvent servir de point de référence utile pour communiquer les exigences à votre équipe ou à votre groupe réseau interne.
 
 1. Accédez à l’onglet **[!UICONTROL Gestion des clés]**, puis cliquez sur le bouton **[!UICONTROL Ajouter une clé publique]**.
 
@@ -65,19 +61,25 @@ Dans de très rares cas, l’authentification par mot de passe est activée sur 
 
 1. Dans la boîte de dialogue qui s’ouvre, sélectionnez le nom d’utilisateur pour lequel vous voulez créer la clé publique et le serveur pour lequel vous voulez activer la clé.
 
+   ![](assets/key1.png)
+
    >[!NOTE]
    >
-   >L’interface vérifie si un nom d’utilisateur donné est actif sur une instance particulière et permet d’activer la clé sur une ou plusieurs instances.
+   >Panneau de Contrôle vérifie si un nom d’utilisateur donné est principal sur une instance donnée et permet d’activer la clé sur une ou plusieurs instances.
    >
    >Il est possible d’ajouter une ou plusieurs clés SSH publiques pour chaque utilisateur.
 
-   ![](assets/key1.png)
+1. Pour mieux gérer vos clés publiques, vous pouvez définir une durée de disponibilité de chaque clé. Pour ce faire, sélectionnez une unité dans la liste déroulante **[!UICONTROL Type]** et définissez une durée dans le champ correspondant. Pour plus d’informations sur l’expiration de la clé publique, voir [cette section](#expiry).
 
-1. Copiez-collez la clé SSH publique. Pour générer une clé publique, suivez les étapes ci-dessous correspondant à votre système d’exploitation :
+   ![](assets/key_expiry.png)
 
    >[!NOTE]
    >
-   >La taille de la clé SSH publique doit être de **2 048 bits**.
+   >Par défaut, le champ **[!UICONTROL Type]** est défini sur **[!UICONTROL Unlimited]**, ce qui signifie que la clé publique n’expire jamais.
+
+1. Dans le champ **[!UICONTROL Commentaire]** , vous pouvez indiquer une raison pour ajouter cette clé publique (pourquoi, pour qui, etc.).
+
+1. Pour pouvoir remplir le champ **[!UICONTROL Clé publique]**, vous devez générer une clé SSH publique. Suivez les étapes ci-dessous en fonction de votre système d’exploitation.
 
    **Linux et Mac :**
 
@@ -89,18 +91,82 @@ Dans de très rares cas, l’authentification par mot de passe est activée sur 
 
    **Windows :**
 
-   Il se peut que vous deviez installer un outil tiers qui vous aidera à générer une paire de clés privée/publique au même format « name.pub ».
+   Vous devrez peut-être installer un outil tiers qui vous aidera à générer une paire de clés privée/publique au même format &quot;name.pub&quot;.
 
 1. Ouvrez le fichier .pub, puis copiez-collez toute la chaîne commençant par « ssh... » dans le panneau de contrôle.
 
    ![](assets/publickey.png)
 
-1. Cliquez sur le bouton **[!UICONTROL Enregistrer]** pour créer la clé. Le panneau de contrôle enregistre la clé publique et son empreinte numérique associée, chiffrée au format SHA256.
+   >[!NOTE]
+   >
+   >Le champ **[!UICONTROL Clé publique]** accepte uniquement le format OpenSSH. La taille de la clé SSH publique doit être de **2 048 bits**.
 
-Vous pouvez utiliser les empreintes numériques pour faire correspondre les clés privées enregistrées sur votre ordinateur avec les clés publiques correspondantes enregistrées dans le panneau de contrôle.
+1. Cliquez sur le bouton **[!UICONTROL Enregistrer]** pour créer la clé. Panneau de Contrôle enregistre la clé publique et son empreinte digitale associée, cryptée au format SHA256.
+
+>[!IMPORTANT]
+>
+>Si la clé que vous avez créée est utilisée pour établir une connexion avec un système qui n’a jamais été connecté au serveur SFTP sélectionné auparavant, vous devez ajouter une adresse IP publique de ce système à la liste autorisée avant de pouvoir utiliser ce système avec le serveur SFTP. Consultez [cette section](ip-range-allow-listing.md).
+
+Vous pouvez utiliser les empreintes digitales pour faire correspondre les clés privées enregistrées sur votre ordinateur avec les clés publiques correspondantes enregistrées en Panneau de Contrôle.
 
 ![](assets/fingerprint_compare.png)
 
 Le bouton « **...** » permet de supprimer une clé ou de copier dans le presse-papiers l’empreinte qui lui est associée.
 
 ![](assets/key_options.png)
+
+## Gestion des clés publiques {#managing-public-keys}
+
+Les clés publiques que vous créez s’affichent dans l’onglet **[!UICONTROL Gestion des clés]**.
+
+Vous pouvez trier les éléments en fonction de la date de création ou d’édition, de l’utilisateur qui les a créés ou modifiés et de l’expiration de la plage d’adresses IP.
+
+Vous pouvez également rechercher une clé publique en commençant à saisir un nom ou un commentaire.
+
+![](assets/control_panel_key_management_sort.png)
+
+Pour modifier une ou plusieurs plages d’adresses IP, voir [cette section](#editing-public-keys).
+
+Pour supprimer une ou plusieurs clés publiques de la liste, sélectionnez-les, puis cliquez sur le bouton **[!UICONTROL Supprimer la clé publique]** .
+
+![](assets/control_panel_delete_key.png)
+
+### Expiration {#expiry}
+
+La colonne **[!UICONTROL Expire]** indique le nombre de jours restants avant l’expiration de la clé publique.
+
+Si vous vous êtes abonné aux [alertes par e-mail](../../performance-monitoring/using/email-alerting.md), vous recevrez des notifications par e-mail 10 jours et 5 jours avant l’expiration d’une clé publique, et le jour de son expiration. A la réception de l’alerte, vous pouvez [modifier la clé publique](#editing-public-keys) pour prolonger sa période de validité si nécessaire.
+
+Une clé publique expirée sera automatiquement supprimée au bout de 7 jours. Il est indiqué comme **[!UICONTROL Expiré]** dans la colonne **[!UICONTROL Expire]**. Dans cette période de 7 jours :
+
+* Une clé publique expirée ne peut plus être utilisée pour se connecter au serveur SFTP.
+
+* Vous pouvez [modifier](#editing-public-keys) une clé publique expirée et mettre à jour sa durée pour la rendre à nouveau disponible.
+
+* Vous pouvez le supprimer de la liste.
+
+## Modification des clés publiques {#editing-public-keys}
+
+>[!CONTEXTUALHELP]
+>id="cp_sftp_publickey_update"
+>title="Modification des clés publiques"
+>abstract="Mettez à jour les clés publiques sélectionnées pour accéder à votre serveur SFTP."
+
+Pour modifier les clés publiques, procédez comme suit.
+
+>[!NOTE]
+>
+>Vous ne pouvez modifier que les clés publiques créées depuis la version d’octobre 2021 du Panneau de Contrôle.
+
+1. Sélectionnez un ou plusieurs éléments dans la liste **[!UICONTROL Gestion des clés]**.
+1. Cliquez sur le bouton **[!UICONTROL Mettre à jour la clé publique]** .
+
+   ![](assets/control_panel_edit_key.png)
+
+1. Vous pouvez uniquement modifier l’expiration de la clé publique et/ou ajouter un nouveau commentaire.
+
+   >[!NOTE]
+   >
+   >Pour modifier le nom d&#39;utilisateur, l&#39;instance et la clé publique au format OpenSSH, supprimez la clé publique et créez-en une correspondant à vos besoins.
+
+1. Enregistrez vos modifications.
