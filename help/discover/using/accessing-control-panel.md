@@ -10,7 +10,7 @@ exl-id: eb67af6e-a64e-49a7-9656-782f91bc1d67
 source-git-commit: cca04cd965c00a9e2bc496de632ee41ce53a166a
 workflow-type: tm+mt
 source-wordcount: '183'
-ht-degree: 56%
+ht-degree: 100%
 
 ---
 
@@ -20,19 +20,19 @@ Le panneau de contrôle est disponible directement depuis Experience Cloud ou d
 
 Il est accessible uniquement aux **utilisateurs administrateurs**. Pour plus d’informations sur l’affectation des utilisateurs au groupe Administrateurs, reportez-vous à [cette section](../../discover/using/managing-permissions.md).
 
-## Accès à partir d’Experience Cloud Platform {#access-experience-cloud-platform}
+## Accès à partir de la plateforme Experience Cloud {#access-experience-cloud-platform}
 
-Pour accéder au Panneau de Contrôle à partir de Adobe Experience Cloud Platform, procédez comme suit.
+Pour accéder au panneau de contrôle à partir de la plateforme Adobe Experience Cloud, suivez la procédure ci-dessous.
 
-1. Accédez à la [page d’accueil Experience Cloud](https://experiencecloud.adobe.com/){target=&quot;_blank&quot;}.
+1. Naviguez vers la [page d’accueil d’Experience Cloud](https://experiencecloud.adobe.com/){target=&quot;_blank&quot;}.
 
-1. Cliquez sur le lien dédié dans la section **Accès rapide** .
+1. Cliquez sur le lien dédié dans la section **Accès rapide**.
 
    ![](assets/do-not-localize/quickaccess.png)
 
-Le panneau de contrôle est également accessible à partir du **sélecteur de solution** Experience Cloud Platform :
+Le panneau de contrôle est également accessible à partir du **sélecteur de solution** de la plateforme Experience Cloud :
 
-1. Sur la [page d’accueil de Adobe Experience Cloud](https://experiencecloud.adobe.com/){target=&quot;_blank&quot;}, sélectionnez **Campagne** dans la section **Accès rapide** ou dans le menu supérieur droit.
+1. Sur la [page d’accueil d’Adobe Experience Cloud](https://experiencecloud.adobe.com/){target=&quot;_blank&quot;}, sélectionnez **Campaign** dans la section **Accès rapide** ou dans le menu supérieur droit.
 
    ![](assets/do-not-localize/control_panel_access1.png)
 
