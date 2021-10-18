@@ -7,10 +7,10 @@ feature: Control Panel
 role: Architect
 level: Experienced
 exl-id: 45a3bfcd-500c-4139-b610-d39989260ab7
-source-git-commit: cca04cd965c00a9e2bc496de632ee41ce53a166a
+source-git-commit: 99861c898c216d2589f23bd52779db328ea47256
 workflow-type: tm+mt
-source-wordcount: '641'
-ht-degree: 97%
+source-wordcount: '1081'
+ht-degree: 36%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 97%
 >abstract="Dans cet onglet, vous pouvez ajouter des plages d’adresses IP à la liste autorisée pour établir une connexion à vos serveurs SFTP. Seuls les serveurs SFTP auxquels vous avez accès sont visibles ici. Contactez l’administrateur pour demander un accès à d’autres serveurs SFTP."
 >additional-url="https://images-tv.adobe.com/mpcv3/8a977e03-d76c-44d3-853c-95d0b799c870_1560205338.1920x1080at3000_h264.mp4#t=98" text="Regarder une vidéo de démonstration"
 
-Les serveurs SFTP sont protégés. Afin de pouvoir y accéder pour afficher des fichiers ou en écrire de nouveaux, vous devez ajouter à la liste autorisée l’adresse IP publique du système ou du client qui accède aux serveurs.
+Les serveurs SFTP sont protégés. Pour pouvoir y accéder pour afficher des fichiers ou en écrire de nouveaux, vous devez ajouter à la liste autorisée l’adresse IP publique du système ou du client qui accède aux serveurs.
 
 ![](assets/do-not-localize/how-to-video.png) Découvrez cette fonctionnalité en vidéo dans [Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/sftp-management/adding-ip-range-to-allow-list.html#sftp-management) ou [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/sftp-management/adding-ip-range-to-allow-list.html#sftp-management)
 
@@ -30,9 +30,9 @@ Les serveurs SFTP sont protégés. Afin de pouvoir y accéder pour afficher des
 
 Le format CIDR (Classless Inter-Domain Routing) est le format pris en charge lors de l’ajout de plages d’adresses IP avec l’interface du panneau de contrôle.
 
-La syntaxe se compose d’une adresse IP, suivie d’un caractère « / » et d’un nombre décimal. Le format et sa syntaxe sont présentés en détail dans [cet article](https://whatismyipaddress.com/cidr).
+La syntaxe se compose d’une adresse IP, suivie d’un caractère « / » et d’un nombre décimal. Le format et sa syntaxe sont présentés en détail dans [cet article](https://whatismyipaddress.com/cidr){target=&quot;_blank&quot;}.
 
-Vous pouvez rechercher sur Internet des outils en ligne gratuits qui vous permettront de convertir la plage IP qui vous intéresse au format CIDR.
+Vous pouvez rechercher sur Internet des outils en ligne gratuits qui vous aideront à convertir la plage d’adresses IP que vous avez en main au format CIDR.
 
 ## Bonnes pratiques {#best-practices}
 
@@ -57,36 +57,111 @@ Pour ajouter une plage d’adresses IP à la liste autorisée, procédez comme s
 
    ![](assets/control_panel_add_range.png)
 
-1. Indiquez la plage d’adresses IP que vous voulez ajouter à la liste autorisée, au format CIDR, puis définissez le libellé qui s’affichera dans la liste.
+1. Définissez la plage d’adresses IP à ajouter à la liste autorisée. Ce champ accepte uniquement les plages d’adresses IP au format CIDR, telles que *192.150.5.0/24*.
 
-   >[!NOTE]
-   >
-   >Les caractères spéciaux suivants sont autorisés dans le champ Libellé :
-   > `. _ - : / ( ) # , @ [ ] + = & ; { } ! $`
-
-   ![](assets/control_panel_add_range2.png)
+   ![](assets/control_panel_add_range4.png)
 
    >[!IMPORTANT]
    >
    >Une plage d’adresses IP ne peut pas chevaucher une plage existante dans la liste autorisée. Dans ce cas, supprimez d’abord la plage qui contient l’adresse IP qui chevauche.
-   >
-   >Il est possible d’ajouter une plage à la liste autorisée pour plusieurs instances. Pour ce faire, appuyez sur la touche Flèche vers le bas ou saisissez les premières lettres de l’instance souhaitée, puis sélectionnez-la dans la liste de suggestions.
+
+1. Il est possible d’ajouter une plage à la liste autorisée pour plusieurs instances. Pour ce faire, appuyez sur la touche Flèche vers le bas ou saisissez les premières lettres de l’instance souhaitée, puis sélectionnez-la dans la liste de suggestions.
 
    ![](assets/control_panel_add_range3.png)
 
-1. Cliquez sur le bouton **[!UICONTROL Enregistrer]**. L’ajout de la plage d’adresses IP à la liste autorisée s’affichera comme EN ATTENTE jusqu’à ce que la demande soit entièrement traitée. Cette situation ne devrait pas durer plus de quelques secondes.
+1. Définissez le libellé qui s’affichera pour cette plage d’adresses IP dans la liste.
 
-Pour supprimer des plages d’adresses IP de la liste autorisée, sélectionnez-les puis cliquez sur le bouton **[!UICONTROL Supprimer la plage d’adresses IP]**.
+   ![](assets/control_panel_add_range2.png)
 
-![](assets/control_panel_delete_range2.png)
+   >[!NOTE]
+   >
+   >Les caractères spéciaux suivants sont autorisés dans le champ **[!UICONTROL Libellé]** :
+   > `. _ - : / ( ) # , @ [ ] + = & ; { } ! $`
+
+1. Pour mieux gérer votre liste autorisée IP, vous pouvez définir une durée de disponibilité de chaque plage IP. Pour ce faire, sélectionnez une unité dans la liste déroulante **[!UICONTROL Type]** et définissez une durée dans le champ correspondant. Pour plus d’informations sur l’expiration de la plage d’adresses IP, voir [cette section](#expiry).
+
+   ![](assets/control_panel_add_range5.png)
+
+   >[!NOTE]
+   >
+   >Par défaut, le champ **[!UICONTROL Type]** est défini sur **[!UICONTROL Unlimited]**, ce qui signifie que la plage IP n’expire jamais.
+
+1. Dans le champ **[!UICONTROL Commentaire]** , vous pouvez indiquer une raison pour autoriser cette plage d’adresses IP (pourquoi, pour qui, etc.).
+
+1. Cliquez sur le bouton **[!UICONTROL Enregistrer]**. L’ajout de la plage d’adresses IP à la liste autorisée s’affichera sous la forme **[!UICONTROL En attente]** jusqu’à ce que la demande soit entièrement traitée, ce qui ne devrait prendre que quelques secondes.
+
+   ![](assets/control_panel_add_range6.png)
+
+>[!IMPORTANT]
+>
+>Si vous essayez de connecter vos serveurs SFTP à un nouveau système et d’ajouter ainsi de nouvelles plages d’adresses IP à la liste autorisée, vous devrez peut-être saisir de nouvelles clés publiques pour terminer la connexion. Pour plus d’informations, consultez [cette section](key-management.md).
+
+## Gestion des plages IP {#managing-ip-ranges}
+
+Les plages d’adresses IP que vous créez s’affichent dans l’onglet **[!UICONTROL Listes autorisées d’adresses IP]**.
+
+Vous pouvez trier les éléments en fonction de la date de création ou d’édition, de l’utilisateur qui les a créés ou modifiés et de l’expiration de la plage d’adresses IP.
+
+Vous pouvez également effectuer une recherche dans une plage d’adresses IP en commençant à saisir un libellé, une plage, un nom ou un commentaire.
+
+![](assets/control_panel_allow_list_sort.png)
+
+Pour modifier une ou plusieurs plages d’adresses IP, voir [cette section](#editing-ip-ranges).
+
+Pour supprimer une ou plusieurs plages d’adresses IP de la liste autorisée, sélectionnez-les, puis cliquez sur le bouton **[!UICONTROL Supprimer la plage d’adresses IP]**.
+
+![](assets/control_panel_delete_range.png)
+
+### Expiration {#expiry}
+
+La colonne **[!UICONTROL Date d’expiration]** indique le nombre de jours restants avant l’expiration de la plage d’adresses IP.
+
+Si vous vous êtes abonné aux [alertes par e-mail](../../performance-monitoring/using/email-alerting.md), vous recevrez des notifications par e-mail 10 jours et 5 jours avant l’expiration d’une plage d’adresses IP, et le jour de son expiration. À la réception de l’alerte, vous pouvez [modifier la plage d’adresses IP](#editing-ip-ranges) afin d’étendre sa période de validité si nécessaire.
+
+Une plage d’adresses IP expirée sera automatiquement supprimée au bout de 7 jours. Il est indiqué comme **[!UICONTROL Expiré]** dans la colonne **[!UICONTROL Expire]**. Dans cette période de 7 jours :
+
+* Une plage d’adresses IP expirée ne peut plus être utilisée pour accéder aux serveurs SFTP.
+
+* Vous ne pouvez pas créer une autre plage d’adresses IP qui chevauche une plage expirée. Vous devez d’abord supprimer la plage d’adresses IP expirée avant de créer la plage.
+
+* Vous pouvez [modifier](#editing-ip-ranges) une plage d’adresses IP expirée et mettre à jour sa durée pour la rendre à nouveau disponible.
+
+* Vous pouvez la supprimer de la liste autorisée.
+
+## Modification de plages d’adresses IP {#editing-ip-ranges}
+
+>[!CONTEXTUALHELP]
+>id="cp_sftp_iprange_update"
+>title="Mettre à jour des plages IP"
+>abstract="Mettez à jour les plages d’adresses IP sélectionnées autorisées pour la connexion à votre serveur SFTP."
+
+Pour modifier les plages d’adresses IP, procédez comme suit.
 
 >[!NOTE]
 >
->Il est actuellement impossible de modifier une plage sur la liste autorisée. Pour modifier une plage d’adresses IP, supprimez-la, puis créez-en une correspondant à vos besoins.
+>Vous ne pouvez modifier que les plages d’adresses IP créées depuis la version d’octobre 2021 du Panneau de Contrôle.
+
+<!--Edition is not available for IP ranges that have been created before the Control Panel October 2021 release.-->
+
+1. Sélectionnez une ou plusieurs plages d’adresses IP dans la liste **[!UICONTROL Listes autorisées d’adresses IP]**.
+
+1. Cliquez sur le bouton **[!UICONTROL Mettre à jour la plage d’adresses IP]** .
+
+   ![](assets/control_panel_edit_range.png)
+
+1. Vous pouvez uniquement modifier l’expiration de la plage d’adresses IP et/ou ajouter un nouveau commentaire.
+
+   >[!NOTE]
+   >
+   >Pour modifier le format CIDR, son libellé ou éditer la ou les instances associées, vous devez d&#39;abord supprimer la plage d&#39;adresses IP et en créer une correspondant à vos besoins.
+
+   ![](assets/control_panel_edit_range2.png)
+
+1. Enregistrez vos modifications.
 
 ## Surveillance des changements {#monitoring-changes}
 
-Les **[!UICONTROL logs de traitement]** de la page d’accueil du panneau de contrôle permettent de surveiller tous les changements qui ont été apportés aux adresses IP sur la liste autorisée.
+Les **[!UICONTROL logs de traitement]** de la page d’accueil du Panneau de Contrôle vous permettent de suivre et de surveiller toutes les modifications apportées aux adresses IP sur la liste autorisée.
 
 Pour plus d’informations sur l’interface du panneau de contrôle, reportez-vous à [cette section](../../discover/using/discovering-the-interface.md).
 
