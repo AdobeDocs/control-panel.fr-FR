@@ -10,7 +10,7 @@ exl-id: 7314a679-78c3-4650-bf3a-2bde8be82747
 source-git-commit: 7115dac6b3a4cf002979fba36113b98507fdf3db
 workflow-type: tm+mt
 source-wordcount: '290'
-ht-degree: 69%
+ht-degree: 100%
 
 ---
 
@@ -20,17 +20,17 @@ Tous les utilisateurs administrateurs d’une instance Campaign ont accès au pa
 
 ![](assets/do-not-localize/how-to-video.png) Découvrez cette fonctionnalité en [vidéo](../../discover/using/managing-permissions.md#video)
 
-1. Accédez à la [page d’accueil de Adobe Experience Cloud](https://experiencecloud.adobe.com/){target=&quot;_blank&quot;}.
+1. Naviguez vers la [page d’accueil d’Adobe Experience Cloud](https://experiencecloud.adobe.com/){target=&quot;_blank&quot;}.
 
-1. Lancez le **Admin Console** en cliquant sur le lien disponible dans la section **Accès rapide** ou dans le menu supérieur droit.
+1. Lancez **Admin Console** en cliquant sur le lien disponible dans la section **Accès rapide** ou dans le menu supérieur droit.
 
    ![](assets/do-not-localize/control_panel_admin-console.png)
 
    >[!NOTE]
    >
-   >Si le lien **Admin Console** n’est pas visible, cela signifie que vous ne disposez pas des droits d’administrateur pour votre organisation. Communiquez avec les administrateurs de votre organisation pour réaliser les étapes avec eux.
+   >Si le lien **Admin Console** n’est pas visible, cela signifie que vous ne disposez pas des droits d’administrateur pour votre organisation. Contactez les administrateurs de votre organisation pour effectuer cette procédure avec eux.
 
-1. Dans le **Admin Console**, sélectionnez le produit Campaign souhaité dans la liste **[!UICONTROL Produits et services]**.
+1. Dans **Admin Console**, sélectionnez le produit Campaign souhaité dans la liste **[!UICONTROL Produits et services]**.
 
    ![](assets/do-not-localize/control_panel_product-list.png)
 
@@ -44,9 +44,9 @@ Tous les utilisateurs administrateurs d’une instance Campaign ont accès au pa
 
    >[!NOTE]
    >
-   >Vous pouvez ajouter différents utilisateurs administrateurs pour chaque instance Campaign. Les utilisateurs administrateurs accéderont uniquement au Panneau de Contrôle de l’instance à laquelle ils appartiennent.
+   >Vous pouvez ajouter différents utilisateurs administrateurs pour chaque instance Campaign. Les utilisateurs administrateurs accèdent uniquement au panneau de contrôle de l’instance à laquelle ils appartiennent.
 
-1. La liste des **[!UICONTROL profils de produit]** pour l’instance sélectionnée s’affiche. Cliquez sur le profil de produit **[!UICONTROL Administrateurs]** pour accéder à la liste des utilisateurs administrateurs.
+1. La liste des **[!UICONTROL Profils de produit]** de l’instance sélectionnée s’affiche. Cliquez sur le profil de produit **[!UICONTROL Administrateurs]** pour accéder à la liste des utilisateurs administrateurs.
 
    ![](assets/do-not-localize/control_panel_add_user_5.png)
 
