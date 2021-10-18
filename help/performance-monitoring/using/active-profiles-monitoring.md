@@ -32,7 +32,7 @@ Les profils sont considérés comme actifs s’ils ont été ciblés ou ont fait
 >
 >Les canaux Facebook et Twitter ne sont pas pris en compte.
 
-Pour plus d’informations sur les profils principaux, reportez-vous aux documentations [Campaign Standard](://experienceleague.adobe.com/docs/campaign-standard/using/profiles-and-audiences/managing-profiles/active-profiles.html?lang=fr) et [Campaign Classic v7](://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/profile-management/about-profiles.html?lang=fr#active-profiles).
+Pour plus d&#39;informations sur les profils principaux, reportez-vous à la section [Campaign Standard](://experienceleague.adobe.com/docs/campaign-standard/using/profiles-and-audiences/managing-profiles/active-profiles.html?lang=fr) et [Campaign Classic v7](://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/profile-management/about-profiles.html?lang=fr#active-profiles) documentations.
 
 ## Surveillance des profils actifs {#monitoring-active-profiles}
 
@@ -40,7 +40,7 @@ Pour plus d’informations sur les profils principaux, reportez-vous aux documen
 >id="cp_performancemonitoring_active_profile"
 >title="A propos de la surveillance des profils principaux"
 >abstract="Dans cet onglet, vous pouvez obtenir des informations en temps réel sur l’utilisation et l’évolution des profils principaux les plus récents et historiques pour chacune de vos instances Campaign."
->additional-url="https://experienceleague.adobe.com/docs/control-panel/using/performance-monitoring/about-performance-monitoring.html?lang=fr" text="À propos de la surveillance des performances"
+>additional-url="https://experienceleague.adobe.com/docs/control-panel/using/performance-monitoring/about-performance-monitoring.html?lang=fr" text="À propos du suivi des performances"
 
 Le panneau de contrôle permet de surveiller l’utilisation des profils actifs pour chacune de vos instances Campaign.
 
