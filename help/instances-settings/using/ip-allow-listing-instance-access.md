@@ -7,10 +7,10 @@ feature: Control Panel
 role: Architect
 level: Intermediate
 exl-id: 1d1eeff8-969e-4529-b947-2a68defb8d13
-source-git-commit: cca04cd965c00a9e2bc496de632ee41ce53a166a
+source-git-commit: 83a6d002a5a21815a66d198c6e5e805f559d5ee2
 workflow-type: tm+mt
-source-wordcount: '790'
-ht-degree: 97%
+source-wordcount: '797'
+ht-degree: 90%
 
 ---
 
@@ -53,13 +53,15 @@ Veillez à suivre les recommandations et les limites ci-dessous lors de l’ajou
 >title="Configuration de plage IP"
 >abstract="Définissez la plage d’adresses IP que vous souhaitez ajouter à la liste autorisée pour vous connecter à votre instance."
 
+>[!NOTE]
+>
+>Si la variable **[!UICONTROL Paramètres des instances]** n’est pas visible sur la page d’accueil du Panneau de Contrôle, ce qui signifie que votre identifiant de l’organisation IMS n’est associé à aucune instance Adobe Campaign Classic v7 ou Campaign v8.
+
 Pour ajouter des adresses IP à la liste autorisée, procédez comme suit :
 
 1. Ouvrez la carte **[!UICONTROL Paramètres des instances]** pour accéder à l’onglet des listes autorisées d’adresses IP, puis cliquez sur **[!UICONTROL Ajouter une plage d’adresses IP]**.
 
-   >[!NOTE]
-   >
-   >Si la carte Paramètres des instances n’est pas visible sur la page d’accueil du panneau de contrôle, cela signifie que votre identifiant de l’organisation IMS n’est associé à aucune instance Adobe Campaign Classic.
+
 
    ![](assets/ip_whitelist_list1.png)
 
@@ -90,9 +92,11 @@ Pour ajouter des adresses IP à la liste autorisée, procédez comme suit :
 
 1. Cliquez sur le bouton **[!UICONTROL Enregistrer]**. La plage d’adresses IP est ajoutée à la liste autorisée.
 
-   ![](assets/ip_whitelist_added.png)
+   <!--![](assets/ip_whitelist_added.png)-->
 
-Pour supprimer des plages d’adresses IP de la liste autorisée, sélectionnez-les puis cliquez sur le bouton **[!UICONTROL Supprimer une plage d’adresses IP]**.
+Pour supprimer une ou plusieurs plages d’adresses IP de la liste autorisée, sélectionnez-les, puis cliquez sur le bouton **[!UICONTROL Supprimer une plage IP]** bouton .
+
+![](assets/ip_whitelist_delete.png)
 
 **Rubrique connexe :**
 
