@@ -1,24 +1,23 @@
 ---
 product: campaign
 solution: Campaign
-title: À propos de la gestion SFTP
-description: En savoir plus sur la gestion SFTP dans le panneau de contrôle
+title: À propos de la gestion SFTP
+description: En savoir plus sur la gestion SFTP dans le panneau de contrôle
 testing: SSECD-836 2
 feature: Control Panel
 role: Architect
 level: Intermediate
 exl-id: b2c3be80-0d1b-4998-87ab-5280c6213f3d
-translation-type: ht
 source-git-commit: 4fc34b07b497c743e2ca6c182e68d6ea5c180ac9
-workflow-type: ht
-source-wordcount: '170'
+workflow-type: tm+mt
+source-wordcount: '168'
 ht-degree: 100%
 
 ---
 
-# À propos de la gestion SFTP {#about-sftp-management}
+# À propos de la gestion SFTP {#about-sftp-management}
 
-Dans le panneau de contrôle, vous pouvez interagir avec tous les serveurs SFTP qui sont connectés aux instances Campaign auxquelles vous avez accès. Pour la plupart des instances, des serveurs SFTP sont connectés (dans certains cas, les instances de développement et de test peuvent ne pas être connectées à des serveurs SFTP).
+Dans le panneau de contrôle, vous pouvez interagir avec tous les serveurs SFTP qui sont connectés aux instances Campaign auxquelles vous avez accès. Pour la plupart des instances, des serveurs SFTP sont connectés (dans certains cas, les instances de développement et de test peuvent ne pas être connectées à des serveurs SFTP).
 
 L’accès aux serveurs SFTP est effectué à l’aide de logiciels clients SFTP que vous pouvez trouver et télécharger en ligne. Pour vous connecter à un serveur, que ce soit par le biais d’une application cliente ou d’une API, vous devez configurer une clé SSH publique et ajouter l’adresse IP qui se connecte à votre serveur SFTP à la liste autorisée.
 
