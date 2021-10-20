@@ -7,10 +7,10 @@ feature: Control Panel
 role: Architect
 level: Intermediate
 exl-id: 4f329764-ed8b-4939-affc-ed994fd6101d
-source-git-commit: cca04cd965c00a9e2bc496de632ee41ce53a166a
+source-git-commit: 7998dba576488ca1e7e587a9d987458beec101b3
 workflow-type: tm+mt
-source-wordcount: '771'
-ht-degree: 97%
+source-wordcount: '774'
+ht-degree: 91%
 
 ---
 
@@ -28,9 +28,9 @@ Le panneau de contrôle vous permet de surveiller le stockage, d’ajouter des a
 
 Pour plus d’informations, consultez la documentation relative aux actions prises en charge par le panneau de contrôle.
 
-### Quelles sont les fonctionnalités non prises en charge dans Campaign v8 mais disponibles dans Campaign Classic v7 ?{#v8-restrictions}
+### Existe-t-il des fonctionnalités non encore prises en charge sur Campaign v8 mais disponibles sur Campaign Classic v7{#v8-restrictions}
 
-Les fonctions liées à la gestion des sous-domaines et des certificats ne sont pas encore prises en charge par le panneau de contrôle sur Campaign v8. Contactez l’assistance clientèle de Campaign pour toute assistance s’y rapportant.
+Non. Toutes les fonctionnalités disponibles sur Campaign Classic v7 sont désormais prises en charge par Panneau de Contrôle sur Campaign v8, notamment les fonctions liées à la gestion des sous-domaines et des certificats.
 
 ### Le panneau de contrôle est-il réservé à Adobe Campaign ?
 

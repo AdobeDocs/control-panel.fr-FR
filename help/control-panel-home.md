@@ -5,10 +5,10 @@ feature: Control Panel
 role: Architect
 level: Beginner
 exl-id: 2b2cfaed-e42e-4c3a-a8d8-224b936890ab
-source-git-commit: cca04cd965c00a9e2bc496de632ee41ce53a166a
+source-git-commit: a315b98ac3fc35eca0234a44afdd513ba24dce63
 workflow-type: tm+mt
-source-wordcount: '214'
-ht-degree: 96%
+source-wordcount: '232'
+ht-degree: 62%
 
 ---
 
@@ -25,21 +25,23 @@ ht-degree: 96%
 
 ## Nouveautés
 
-**Configuration de sous-domaines à l’aide de CNAME**
+**Prise en charge complète de Campaign v8**
 
-Le panneau de contrôle permet maintenant de configurer un sous-domaine pour qu’il fonctionne avec Adobe à l’aide de CNAME, directement depuis l’interface. [En savoir plus](subdomains-certificates/using/setting-up-new-subdomain.md)
+Toutes les fonctionnalités, y compris **Subdomain** et **Certificat** gestion, sont désormais prises en charge par Panneau de Contrôle sur Adobe Campaign v8. [En savoir plus](faq.md#v8-restrictions)
 
-**Améliorations de la surveillance des bases de données**
+**Période de validité de la plage d’adresses IP et édition**
 
-L’onglet **[!UICONTROL Surveillance des bases de données]** a été amélioré avec des mesures supplémentaires. Vous pouvez ainsi obtenir des informations détaillées sur les ressources qui consomment de l’espace dans votre base de données. [En savoir plus](performance-monitoring/using/database-monitoring.md)
+Il est désormais possible de définir une durée pour la disponibilité des plages d’adresses IP et de modifier les plages d’adresses IP que vous créez. [En savoir plus](sftp/using/ip-range-allow-listing.md)
+
+**Période de validité de la clé publique et édition**
+
+De même, vous pouvez maintenant définir une durée de disponibilité des clés publiques et modifier les clés publiques que vous créez. [En savoir plus](sftp/using/key-management.md)
 
 >[!CAUTION]
 >
 >* Le panneau de contrôle est accessible aux utilisateurs administrateurs uniquement. [Apprenez-en davantage](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html#discover-control-panel)
 >
 >* Pour Campaign Classic v7, les restrictions de déploiement s’appliquent. [Apprenez-en davantage](faq.md#v7-restrictions)
->
->* Pour Campaign v8, certaines fonctionnalités ne sont pas disponibles. [Apprenez-en davantage](faq.md#v8-restrictions)
 
 
 ## Ressources supplémentaires {#additional-resources}
