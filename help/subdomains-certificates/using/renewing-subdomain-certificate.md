@@ -7,9 +7,9 @@ feature: Control Panel
 role: Architect
 level: Experienced
 exl-id: e9b7c67d-6afa-44f9-b19d-39c0ec9a7edd
-source-git-commit: 1f422833e1495525612e760714e50a9aaf744db5
+source-git-commit: d37c83c19863992fb02251e50dddd6965b068e23
 workflow-type: tm+mt
-source-wordcount: '861'
+source-wordcount: '853'
 ht-degree: 94%
 
 ---
@@ -28,8 +28,6 @@ ht-degree: 94%
 >[!IMPORTANT]
 >
 >La configuration de sous-domaine depuis le panneau de contrôle est disponible en version bêta et sujette à de fréquentes mises à jour et modifications sans préavis.
->
->Cette fonctionnalité n’est pas disponible pour Campaign v8.
 
 La procédure de renouvellement des certificats SSL comprend 3 étapes :
 
