@@ -7,9 +7,9 @@ feature: Control Panel
 role: Architect
 level: Experienced
 exl-id: 547ca6f2-720f-4d58-b31b-5b2611ba9156
-source-git-commit: d37c83c19863992fb02251e50dddd6965b068e23
+source-git-commit: 8dce5b9d1eb59b7ebc8ef1f73f7552dcf61077a1
 workflow-type: tm+mt
-source-wordcount: '359'
+source-wordcount: '367'
 ht-degree: 95%
 
 ---
@@ -23,6 +23,10 @@ ht-degree: 95%
 >additional-url="https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/setting-up-new-subdomain.html?lang=fr" text="Configuration d’un nouveau sous-domaine"
 
 ## À propos des enregistrements TXT {#about-txt-records}
+
+>[!AVAILABILITY]
+>
+>Cette fonctionnalité n’est pas disponible pour Campaign v8.
 
 Les enregistrements TXT font partie des enregistrements DNS. Ils servent à donner des informations textuelles à propos d’un domaine, que des sources externes pourront lire par la suite.
 

@@ -7,9 +7,9 @@ feature: Control Panel
 role: Architect
 level: Experienced
 exl-id: d92781c3-14cc-4716-a131-580ccff46d6e
-source-git-commit: d37c83c19863992fb02251e50dddd6965b068e23
+source-git-commit: 8dce5b9d1eb59b7ebc8ef1f73f7552dcf61077a1
 workflow-type: tm+mt
-source-wordcount: '1362'
+source-wordcount: '1370'
 ht-degree: 89%
 
 ---
@@ -27,6 +27,8 @@ ht-degree: 89%
 >[!IMPORTANT]
 >
 >La configuration de sous-domaine depuis le panneau de contrôle est disponible en version bêta et sujette à de fréquentes mises à jour et modifications sans préavis.
+>
+>Cette fonctionnalité n’est pas disponible pour Campaign v8.
 
 Cette page fournit des informations sur la configuration de nouveaux sous-domaines à l’aide de la délégation complète de sous-domaine ou de CNAME. Cette section présente les concepts généraux de ces deux méthodes : [Marque des sous-domaines](../../subdomains-certificates/using/subdomains-branding.md).
 
