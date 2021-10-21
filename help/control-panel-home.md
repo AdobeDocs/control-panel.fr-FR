@@ -5,10 +5,10 @@ feature: Control Panel
 role: Architect
 level: Beginner
 exl-id: 2b2cfaed-e42e-4c3a-a8d8-224b936890ab
-source-git-commit: 056d5b91652b07ccf9ce8e46e11a4c29cccf6e70
+source-git-commit: 75d369f52be140732525411239ae18b7269e761f
 workflow-type: tm+mt
-source-wordcount: '214'
-ht-degree: 96%
+source-wordcount: '243'
+ht-degree: 72%
 
 ---
 
@@ -25,13 +25,17 @@ ht-degree: 96%
 
 ## Nouveautés
 
-**Configuration de sous-domaines à l’aide de CNAME**
+**Période de validité de la plage d’adresses IP et édition**
 
-Le panneau de contrôle permet maintenant de configurer un sous-domaine pour qu’il fonctionne avec Adobe à l’aide de CNAME, directement depuis l’interface. [En savoir plus](subdomains-certificates/using/setting-up-new-subdomain.md)
+Il est désormais possible de définir une durée pour la disponibilité des plages d’adresses IP et de modifier les plages d’adresses IP que vous créez. [En savoir plus](sftp/using/ip-range-allow-listing.md)
 
-**Améliorations de la surveillance des bases de données**
+**Période de validité de la clé publique et édition**
 
-L’onglet **[!UICONTROL Surveillance des bases de données]** a été amélioré avec des mesures supplémentaires. Vous pouvez ainsi obtenir des informations détaillées sur les ressources qui consomment de l’espace dans votre base de données. [En savoir plus](performance-monitoring/using/database-monitoring.md)
+De même, vous pouvez maintenant définir une durée de disponibilité des clés publiques et modifier les clés publiques que vous créez. [En savoir plus](sftp/using/key-management.md)
+
+**Prise en charge de Campaign v8**
+
+Le panneau de contrôle est désormais disponible pour Adobe Campaign v8, à l’exception des fonctionnalités de gestion de **Sous-domaine** et de **Certificat**, qui ne sont pas encore prises en charge.
 
 >[!CAUTION]
 >
