@@ -7,10 +7,10 @@ feature: Control Panel
 role: Architect
 level: Intermediate
 exl-id: 4f329764-ed8b-4939-affc-ed994fd6101d
-source-git-commit: d6bf3db521085078499e88c9a2077f63914d9c4c
+source-git-commit: 47a57b38e9af8b03d277bf9ee6922b19f0298944
 workflow-type: tm+mt
-source-wordcount: '771'
-ht-degree: 97%
+source-wordcount: '774'
+ht-degree: 94%
 
 ---
 
@@ -28,9 +28,9 @@ Le panneau de contrôle vous permet de surveiller le stockage, d’ajouter des a
 
 Pour plus d’informations, consultez la documentation relative aux actions prises en charge par le panneau de contrôle.
 
-### Quelles sont les fonctionnalités non prises en charge dans Campaign v8 mais disponibles dans Campaign Classic v7 ?{#v8-restrictions}
+### Existe-t-il des fonctionnalités non encore prises en charge sur Campaign v8 mais disponibles sur Campaign Classic v7{#v8-restrictions}
 
-Les fonctions liées à la gestion des sous-domaines et des certificats ne sont pas encore prises en charge par le panneau de contrôle sur Campaign v8. Contactez l’assistance clientèle de Campaign pour toute assistance s’y rapportant.
+Non. Toutes les fonctionnalités disponibles sur Campaign Classic v7 sont désormais prises en charge par Panneau de Contrôle sur Campaign v8, notamment les fonctions liées à la gestion des sous-domaines et des certificats.
 
 ### Le panneau de contrôle est-il réservé à Adobe Campaign ?
 
@@ -44,7 +44,7 @@ Si vous n’êtes pas administrateur, mais que vous souhaitez y accéder, veuill
 
 ### En tant qu’utilisateur de Campaign Classic v7, quelles sont les conditions d’accès au panneau de contrôle ? {#v7-restrictions}
 
-Le panneau de contrôle est accessible aux utilisateurs administrateurs uniquement. [En savoir plus](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html#discover-control-panel).
+Le panneau de contrôle est accessible aux utilisateurs administrateurs uniquement. [En savoir plus](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html?lang=fr#discover-control-panel).
 
 Pour Campaign Classic v7, veuillez noter que votre instance doit être hébergée sur Amazon Web Services (AWS) et mise à niveau vers le dernier build [Campaign GA](https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/rn-overview.html?lang=fr#rn-statuses). Découvrez comment vérifier votre version de Campaign Classic dans [cette section](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/starting-with-adobe-campaign/launching-adobe-campaign.html?lang=fr#getting-your-campaign-version). Pour vérifier si votre instance Campaign Classic est hébergée sur AWS, suivez les étapes présentées dans [cette section](#hosted-aws).
 
@@ -62,7 +62,7 @@ Non, il n’y a pas de frais supplémentaires si vous êtes déjà client Adobe�
 
 Il s’agit d’un identifiant unique attribué à votre instance lorsque vous vous connectez pour la première fois à Adobe Experience Cloud. Il doit être au format : xxx@AdobeOrg.
 
-Pour plus d’informations, voir la [documentation relative à Adobe Experience Cloud](https://experienceleague.adobe.com/docs/core-services/interface/administration/organizations.html).
+Pour plus d’informations, voir la [documentation relative à Adobe Experience Cloud](https://experienceleague.adobe.com/docs/core-services/interface/administration/organizations.html?lang=fr).
 
 ### Où puis-je trouver mon identifiant de l’organisation IMS ?
 

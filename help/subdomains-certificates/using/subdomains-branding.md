@@ -7,10 +7,10 @@ feature: Control Panel
 role: Architect
 level: Intermediate
 exl-id: a489d051-fb95-45cf-bb6d-33aef10b7795
-source-git-commit: 8dce5b9d1eb59b7ebc8ef1f73f7552dcf61077a1
+source-git-commit: 46a4e13e8017c5406dcd65f21c9839374dd44aa7
 workflow-type: tm+mt
-source-wordcount: '753'
-ht-degree: 97%
+source-wordcount: '745'
+ht-degree: 100%
 
 ---
 
@@ -27,8 +27,6 @@ ht-degree: 97%
 >[!IMPORTANT]
 >
 >La configuration de sous-domaine depuis le panneau de contrôle est disponible en version bêta et sujette à de fréquentes mises à jour et modifications sans préavis.
->
->Cette fonctionnalité n’est pas disponible pour Campaign v8.
 
 Un sous-domaine est une division de votre domaine qui peut être utilisée pour isoler vos marques ou divers types de trafic (messages transactionnels, informations marketing, etc.).
 
@@ -62,9 +60,9 @@ Si vous avez des questions concernant les méthodes de configuration de sous-dom
 
 >[!CONTEXTUALHELP]
 >id="cp_add_subdomain_usecase_selection"
->title="Sélection du cas d’utilisation de votre sous-domaine"
->abstract="La ventilation de vos sous-domaines par cas d’utilisation est une bonne pratique en matière de délivrabilité. Elle permet d’isoler et de protéger la réputation de chaque sous-domaine."
->additional-url="https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/setting-up-new-subdomain.html?lang=fr" text="Configuration d’un nouveau sous-domaine"
+>title="Sélection du cas dʼutilisation de votre sous-domaine"
+>abstract="La ventilation de vos sous-domaines selon les cas dʼutilisation est une bonne pratique en matière de délivrabilité. Elle permet dʼisoler et de protéger la réputation de chaque sous-domaine."
+>additional-url="https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/setting-up-new-subdomain.html?lang=fr" text="Configuration dʼun nouveau sous-domaine"
 >additional-url="https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/subdomains-branding.html?lang=fr" text="Marque des sous-domaines"
 
 Lors de la configuration de sous-domaines pour les instances de Campaign Classic, vous devez sélectionner le cas d’utilisation pour lequel le sous-domaine sera utilisé (voir la section [Configuration d’un nouveau sous-domaine](../../subdomains-certificates/using/setting-up-new-subdomain.md)).

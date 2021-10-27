@@ -7,10 +7,10 @@ feature: Control Panel
 role: Architect
 level: Experienced
 exl-id: e9b7c67d-6afa-44f9-b19d-39c0ec9a7edd
-source-git-commit: 8dce5b9d1eb59b7ebc8ef1f73f7552dcf61077a1
+source-git-commit: 46a4e13e8017c5406dcd65f21c9839374dd44aa7
 workflow-type: tm+mt
-source-wordcount: '861'
-ht-degree: 94%
+source-wordcount: '853'
+ht-degree: 100%
 
 ---
 
@@ -18,18 +18,16 @@ ht-degree: 94%
 
 >[!CONTEXTUALHELP]
 >id="cp_add_ssl_certificate"
->title="Renouvellement de certificat SSL"
->abstract="Pour renouveler un certificat SSL, vous devez générer une demande de signature de certificat (CSR), acheter le certificat SSL pour vos sous-domaines et installer le pack du certificat."
->additional-url="://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/renewing-subdomain-certificate.html?lang=fr#generating-csr" text="Génération d’une demande de signature de certificat (CSR)"
->additional-url="://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/renewing-subdomain-certificate.html?lang=fr#installing-ssl-certificate" text="Installation d’un certificat SSL"
+>title="Renouvellement du certificat SSL"
+>abstract="Pour renouveler un certificat SSL, vous devez générer une demande de signature de certificat (CSR), acheter le certificat SSL pour vos sous-domaines et installer le pack du certificat."
+>additional-url="https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/renewing-subdomain-certificate.html?lang=fr#generating-csr" text="Génération dʼune demande de signature de certificat (CSR)"
+>additional-url="https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/renewing-subdomain-certificate.html?lang=fr#installing-ssl-certificate" text="Installation dʼun certificat SSL"
 
 ## À propos du renouvellement des certificats {#about-certificate-renewal-process}
 
 >[!IMPORTANT]
 >
 >La configuration de sous-domaine depuis le panneau de contrôle est disponible en version bêta et sujette à de fréquentes mises à jour et modifications sans préavis.
->
->Cette fonctionnalité n’est pas disponible pour Campaign v8.
 
 La procédure de renouvellement des certificats SSL comprend 3 étapes :
 
@@ -40,13 +38,13 @@ Une fois la demande de signature de certificat générée, vous pouvez la télé
 1. **Installation du certificat SSL**
 Une fois le certificat SSL acheté, vous pouvez l’installer sur le sous-domaine souhaité.
 
-![](assets/do-not-localize/how-to-video.png) Découvrez cette fonctionnalité en vidéo dans [Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/subdomains-and-certificates/adding-ssl-certificates.html#subdomains-and-certificates) ou [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/subdomains-and-certificates/adding-ssl-certificates.html#adding-ssl-certificates)
+![](assets/do-not-localize/how-to-video.png) Découvrez cette fonctionnalité en vidéo dans [Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/subdomains-and-certificates/adding-ssl-certificates.html?lang=fr#subdomains-and-certificates) ou [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/subdomains-and-certificates/adding-ssl-certificates.html?lang=fr#adding-ssl-certificates)
 
 ## Génération d’une demande de signature de certificat (CSR) {#generating-csr}
 
 >[!CONTEXTUALHELP]
 >id="cp_generate_csr"
->title="Génération de CSR"
+>title="Génération dʼune demande de signature de certificat"
 >abstract="La demande de signature de certificat doit être générée pour l’instance et les sous-domaines que vous envisagez de sécuriser avant d’acheter un certificat."
 
 >[!CONTEXTUALHELP]
@@ -102,7 +100,7 @@ Après obtention d’une demande de signature de certificat via le panneau de co
 >[!CONTEXTUALHELP]
 >id="cp_install_ssl_certificate"
 >title="Installation du certificat SSL"
->abstract="Installez le certificat SSL que vous avez acheté auprès de l’autorité de certification approuvée par votre entreprise."
+>abstract="Installez le certificat SSL que vous avez acheté auprès de lʼautorité de certification approuvée par votre organisation."
 >additional-url="https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/subdomains-branding.html" text="À propos de la marque des sous-domaines"
 
 Une fois un certificat SSL acheté, vous pouvez l’installer sur votre instance. Avant de poursuivre, prenez connaissance des prérequis suivants :
