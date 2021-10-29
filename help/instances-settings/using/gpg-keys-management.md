@@ -10,7 +10,7 @@ exl-id: 366dd2ea-c6be-41a2-a4d6-4ffecb5f3d39
 source-git-commit: cca04cd965c00a9e2bc496de632ee41ce53a166a
 workflow-type: tm+mt
 source-wordcount: '1210'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 95%
 >[!CONTEXTUALHELP]
 >id="cp_instancesettings_gpg_management"
 >title="À propos des clés GPG"
->abstract="Dans cet onglet, vous pouvez installer et/ou générer des clés GPG sur une instance marketing, afin de crypter les données envoyées depuis Campaign et décrypter les données entrantes."
+>abstract="Cet onglet vous permet dʼinstaller et/ou générer des clés GPG sur une instance marketing pour chiffrer les données envoyées depuis Campaign et déchiffrer les données entrantes."
 >additional-url="https://experienceleague.adobe.com/docs/control-panel/using/performance-monitoring/about-performance-monitoring.html?lang=fr" text="À propos du suivi des performances"
 
 ## À propos du chiffrement GPG {#about-gpg-encryption}
@@ -98,11 +98,11 @@ Pour plus d’informations, consultez la documentation d’Adobe Campaign :
 **Campaign Classic v7 et Campaign v8 :**
 
 * [Compresser ou chiffrer un fichier](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/importing-and-exporting-data/managing-data-encryption-compression/zip-encrypt.html?lang=fr#getting-started)
-* [Cas pratique : cryptage et export de données à l’aide d’une clé installée sur le panneau de contrôle](https://experienceleague.adobe.com/docs/campaign-standard/using/managing-processes-and-data/importing-and-exporting-data/managing-encrypted-data.html#use-case-gpg-encrypt)
+* [Cas pratique : cryptage et export de données à l’aide d’une clé installée sur le panneau de contrôle](https://experienceleague.adobe.com/docs/campaign-standard/using/managing-processes-and-data/importing-and-exporting-data/managing-encrypted-data.html?lang=fr#use-case-gpg-encrypt)
 
 **Campaign Standard:**
 
-* [Gérer des données cryptées](https://experienceleague.adobe.com/docs/campaign-standard/using/managing-processes-and-data/importing-and-exporting-data/managing-encrypted-data.html)
+* [Gérer des données cryptées](https://experienceleague.adobe.com/docs/campaign-standard/using/managing-processes-and-data/importing-and-exporting-data/managing-encrypted-data.html?lang=fr)
 * [Cas pratique : cryptage et export de données à l’aide d’une clé installée sur le panneau de contrôle](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/importing-and-exporting-data/managing-data-encryption-compression/zip-encrypt.html?lang=fr#use-case-gpg-encrypt)
 
 ## Déchiffrement des données {#decrypting-data}
@@ -146,7 +146,7 @@ Pour plus d’informations, consultez la documentation d’Adobe Campaign :
 **Campaign Standard :**
 
 * [Gérer des données cryptées](https://experienceleague.adobe.com/docs/campaign-standard/using/managing-processes-and-data/importing-and-exporting-data/managing-encrypted-data.html)
-* [Cas pratique : import de données cryptées à l’aide d’une clé générée par le panneau de contrôle](https://experienceleague.adobe.com/docs/campaign-standard/using/managing-processes-and-data/importing-and-exporting-data/managing-encrypted-data.html#use-case-gpg-decrypt)
+* [Cas pratique : import de données cryptées à l’aide d’une clé générée par le panneau de contrôle](https://experienceleague.adobe.com/docs/campaign-standard/using/managing-processes-and-data/importing-and-exporting-data/managing-encrypted-data.html?lang=fr#use-case-gpg-decrypt)
 
 ## Surveillance des clés GPG
 
@@ -186,6 +186,6 @@ Il est recommandé de supprimer toute clé dont vous n’avez plus besoin. Pour 
 
 La vidéo ci-dessous explique comment générer et installer des clés GPG pour le cryptage des données.
 
-D’autres vidéos pratiques relatives à la gestion des clés GPG sont disponibles dans les pages de tutoriels [Campaign Classic](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/instance-settings/gpg-key-management/gpg-key-management-overview.html#instance-settings) et [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/instance-settings/gpg-key-management/gpg-key-management-overview.html#instance-settings).
+D’autres vidéos pratiques relatives à la gestion des clés GPG sont disponibles dans les pages de tutoriels [Campaign Classic](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/instance-settings/gpg-key-management/gpg-key-management-overview.html?lang=fr#instance-settings) et [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/instance-settings/gpg-key-management/gpg-key-management-overview.html?lang=fr#instance-settings).
 
 >[!VIDEO](https://video.tv.adobe.com/v/36386?quality=12)

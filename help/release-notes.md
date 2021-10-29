@@ -26,25 +26,25 @@ Vous trouverez ici des informations sur les dernières versions du panneau de co
 
 ## Octobre 2021 {#october-2021}
 
-**Plage dʼadresses IP et période de validité des clés publiques**
+**Période de validité des plages dʼadresses IP et des clés publiques**
 
 Il est désormais possible de définir une durée pour la disponibilité des plages dʼadresses IP et des clés publiques. Pour en savoir plus, consultez les sections [Liste autorisée des plages dʼadresses IP](sftp/using/ip-range-allow-listing.md#adding-ip-addresses-allow-list) et [Gestion des clés](sftp/using/key-management.md#installing-ssh-key).
 
 **Modification des plages dʼadresses IP et des clés publiques**
 
-Vous pouvez désormais modifier les [Plages dʼadresses IP](sftp/using/ip-range-allow-listing.md#editing-ip-ranges) et les [clés publiques](sftp/using/key-management.md#editing-public-keys) que vous créez. Notez que les éléments créés avant la version actuelle du panneau de contrôle ne prennent pas en charge cette fonctionnalité.
+Vous pouvez désormais modifier les [plages dʼadresses IP](sftp/using/ip-range-allow-listing.md#editing-ip-ranges) et les [clés publiques](sftp/using/key-management.md#editing-public-keys) que vous créez. Notez que les éléments créés avant la version actuelle du panneau de contrôle ne prennent pas en charge cette fonctionnalité.
 
 **Envoi dʼalertes lors de lʼexpiration des plages dʼadresses IP et des clés publiques SFTP**
 
-La fonctionnalité dʼalertes par e-mail inclut vous avertit désormais lors de lʼexpiration de la liste autorisée des adresses IP SFTP et des clés publiques SFTP. [En savoir plus](performance-monitoring/using/email-alerting.md)
+La fonctionnalité de réception dʼalertes par email vous avertit désormais lorsque la liste autorisée des adresses IP SFTP et les clés publiques SFTP arrivent à expiration. [En savoir plus](performance-monitoring/using/email-alerting.md)
 
-**Prise en charge complète de Campaign v8**
+**Prise en charge complète de Campaign v8**
 
-Les fonctionnalités de gestion des **Sous-domaines** et des **Certificats** sont désormais prises en charge par le panneau de contrôle dans Adobe Campaign v8.
+Les fonctionnalités de gestion des **Sous-domaines** et des **Certificats** sont désormais prises en charge par le panneau de contrôle dans Adobe Campaign v8.
 
 ## Août 2021 {#august-2021}
 
-**Prise en charge de Campaign v8**
+**Prise en charge de Campaign v8**
 
 Le panneau de contrôle est désormais disponible pour Adobe Campaign v8, à l’exception des fonctionnalités de gestion de **Sous-domaine** et de **Certificat**, qui ne sont pas encore prises en charge. En savoir plus dans la [documentation de Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/deploy/self-service.html?lang=fr){target=&quot;_blank&quot;}
 

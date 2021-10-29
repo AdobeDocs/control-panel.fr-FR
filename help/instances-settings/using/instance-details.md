@@ -10,18 +10,18 @@ exl-id: 02819bfc-9886-43fc-8014-9bfe64c42048
 source-git-commit: 62ad3edb604ebd9fab6a3f930b7c79af6b9ca968
 workflow-type: tm+mt
 source-wordcount: '561'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
-# Détails de l’instance {#instance-details}
+# Détails de lʼinstance {#instance-details}
 
 >[!CONTEXTUALHELP]
 >id="cp_instancesettings_instancedetails"
->title="À propos des détails de l’instance"
->abstract="Affichez les détails de vos instances Adobe Campaign : types, noms, informations de version et recommandations de mise à niveau possibles."
->additional-url="://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/latest-release.html?lang=fr" text="Notes de mise à jour de Campaign Classic"
->additional-url="://experienceleague.adobe.com/docs/campaign-standard/using/release-notes/release-notes.html?lang=fr" text="Notes de mise à jour de Campaign Standard "
+>title="À propos des détails de lʼinstance"
+>abstract="Affichez les détails de vos instances Adobe Campaign : types, noms, informations de build et recommandations de mises à niveau éventuelles."
+>additional-url="https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/latest-release.html?lang=fr" text="Notes de mise à jour de Campaign Classic"
+>additional-url="https://experienceleague.adobe.com/docs/campaign-standard/using/release-notes/release-notes.html?lang=fr" text="Notes de mise à jour de Campaign Standard "
 
 ## À propos des détails de l’instance {#about-instance-details}
 

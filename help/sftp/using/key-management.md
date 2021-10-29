@@ -10,7 +10,7 @@ exl-id: 03815e01-6371-4e1c-b4b8-7abe25957cee
 source-git-commit: 99861c898c216d2589f23bd52779db328ea47256
 workflow-type: tm+mt
 source-wordcount: '1081'
-ht-degree: 68%
+ht-degree: 100%
 
 ---
 
@@ -18,8 +18,8 @@ ht-degree: 68%
 
 >[!CONTEXTUALHELP]
 >id="cp_key_management"
->title="A propos de la gestion des clés publiques"
->abstract="Dans cet onglet, créez, gérez et modifiez vos clés publiques."
+>title="À propos de la gestion des clés publiques"
+>abstract="Cet onglet vous permet de créer, gérer et modifier vos clés publiques."
 >additional-url="https://images-tv.adobe.com/mpcv3/8a977e03-d76c-44d3-853c-95d0b799c870_1560205338.1920x1080at3000_h264.mp4#t=166" text="Regarder une vidéo de démonstration"
 
 Adobe recommande à tous les clients d’établir une connexion à leurs serveurs SFTP avec une **paire de clés publique et privée**.
@@ -28,7 +28,7 @@ Les étapes de génération d’une clé SSH publique et de son ajout pour acc�
 
 Une fois l’accès au serveur configuré, pensez à **ajouter à la liste autorisée les adresses IP qui requièrent l’accès au serveur**, afin de pouvoir vous y connecter. Pour plus d’informations, consultez [cette section](../../instances-settings/using/ip-allow-listing-instance-access.md).
 
-![](assets/do-not-localize/how-to-video.png) Découvrez cette fonctionnalité en vidéo dans [Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/sftp-management/generate-ssh-key.html#sftp-management) ou [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/sftp-management/generate-ssh-key.html#sftp-management).
+![](assets/do-not-localize/how-to-video.png) Découvrez cette fonctionnalité en vidéo dans [Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/sftp-management/generate-ssh-key.html?lang=fr#sftp-management) ou [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/sftp-management/generate-ssh-key.html?lang=fr#sftp-management).
 
 ## Bonnes pratiques {#best-practices}
 
@@ -48,8 +48,8 @@ Dans de très rares cas, l’authentification par mot de passe est activée sur 
 
 >[!CONTEXTUALHELP]
 >id="cp_sftp_publickey_add"
->title="Ajout de la clé publique"
->abstract="Générez une clé SSH publique pour une instance et ajoutez-la au Panneau de Contrôle pour accéder au serveur SFTP."
+>title="Ajout dʼune clé publique"
+>abstract="Générez une clé SSH publique pour une instance et ajoutez-la au panneau de contrôle pour accéder au serveur SFTP."
 
 >[!IMPORTANT]
 >
@@ -59,27 +59,27 @@ Dans de très rares cas, l’authentification par mot de passe est activée sur 
 
    ![](assets/key0.png)
 
-1. Dans la boîte de dialogue qui s’ouvre, sélectionnez le nom d’utilisateur pour lequel vous voulez créer la clé publique et le serveur pour lequel vous voulez activer la clé.
+1. Dans la boîte de dialogue qui sʼouvre, sélectionnez le nom dʼutilisateur pour lequel vous voulez créer la clé publique et le serveur pour lequel vous voulez activer la clé.
 
    ![](assets/key1.png)
 
    >[!NOTE]
    >
-   >Panneau de Contrôle vérifie si un nom d’utilisateur donné est principal sur une instance donnée et permet d’activer la clé sur une ou plusieurs instances.
+   >Le panneau de contrôle vérifie si un nom dʼutilisateur donné est actif sur une instance particulière et permet dʼactiver la clé sur une ou plusieurs instances.
    >
-   >Il est possible d’ajouter une ou plusieurs clés SSH publiques pour chaque utilisateur.
+   >Il est possible dʼajouter une ou plusieurs clés SSH publiques pour chaque utilisateur.
 
-1. Pour mieux gérer vos clés publiques, vous pouvez définir une durée de disponibilité de chaque clé. Pour ce faire, sélectionnez une unité dans la liste déroulante **[!UICONTROL Type]** et définissez une durée dans le champ correspondant. Pour plus d’informations sur l’expiration de la clé publique, voir [cette section](#expiry).
+1. Pour une gestion plus efficace de vos clés publiques, définissez une durée durant laquelle chaque clé est disponible. Pour ce faire, sélectionnez une unité dans la liste déroulante **[!UICONTROL Type]** et définissez une durée dans le champ correspondant. Pour plus dʼinformations sur lʼexpiration des clés publiques, consultez [cette section](#expiry).
 
    ![](assets/key_expiry.png)
 
    >[!NOTE]
    >
-   >Par défaut, le champ **[!UICONTROL Type]** est défini sur **[!UICONTROL Illimité]**, ce qui signifie que la clé publique n’expire jamais.
+   >Par défaut, le champ **[!UICONTROL Type]** est défini sur **[!UICONTROL Illimité]**, ce qui signifie que la clé publique nʼexpire jamais.
 
-1. Dans le **[!UICONTROL Commentaire]** , vous pouvez indiquer une raison d’ajouter cette clé publique (pourquoi, pour qui, etc.).
+1. Dans le champ **[!UICONTROL Commentaire]**, vous pouvez indiquer la raison pour laquelle vous ajoutez cette clé publique (pourquoi, pour qui, etc.).
 
-1. Pour pouvoir remplir le champ **[!UICONTROL Clé publique]**, vous devez générer une clé SSH publique. Suivez les étapes ci-dessous en fonction de votre système d’exploitation.
+1. Pour pouvoir remplir le champ **[!UICONTROL Clé publique]**, vous devez générer une clé SSH publique. Suivez les étapes correspondant à votre système dʼexploitation ci-dessous.
 
    **Linux et Mac :**
 
@@ -119,31 +119,31 @@ Le bouton « **…** » permet de supprimer une clé ou de copier dans le press
 
 Les clés publiques que vous créez s’affichent dans l’onglet **[!UICONTROL Gestion des clés]**.
 
-Vous pouvez trier les éléments en fonction de la date de création ou d’édition, de l’utilisateur qui les a créés ou modifiés et de l’expiration de la plage d’adresses IP.
+Vous pouvez trier les éléments en fonction de leur date de création ou de modification, de l’utilisateur qui les a créés ou modifiés ainsi que de la date d’expiration de la plage d’adresses IP.
 
 Vous pouvez également rechercher une clé publique en commençant à saisir un nom ou un commentaire.
 
 ![](assets/control_panel_key_management_sort.png)
 
-Pour modifier une ou plusieurs plages d’adresses IP, voir [cette section](#editing-public-keys).
+Pour modifier une ou plusieurs plages d’adresses IP, consultez [cette section](#editing-public-keys).
 
-Pour supprimer une ou plusieurs clés publiques de la liste, sélectionnez-les, puis cliquez sur le bouton **[!UICONTROL Suppression de la clé publique]** bouton .
+Pour supprimer une ou plusieurs clés publiques de la liste, sélectionnez-les puis cliquez sur le bouton **[!UICONTROL Supprimer la clé publique]**.
 
 ![](assets/control_panel_delete_key.png)
 
 ### Expiration {#expiry}
 
-Le **[!UICONTROL Expires]** indique le nombre de jours restants avant l’expiration de la clé publique.
+La colonne **[!UICONTROL Expire]** indique le nombre de jours restants avant l’expiration de la clé publique.
 
-Si vous êtes abonné aux [alertes par e-mail](../../performance-monitoring/using/email-alerting.md), vous recevrez des notifications par e-mail 10 jours et 5 jours avant l’expiration d’une clé publique. Vous en recevrez également une le jour de son expiration. Lors de la réception de l’alerte, vous pouvez [modification de la clé publique](#editing-public-keys) le cas échéant, pour prolonger sa période de validité.
+Si vous êtes abonné aux [alertes par email](../../performance-monitoring/using/email-alerting.md), vous recevrez des notifications par email 10 jours et 5 jours avant l’expiration d’une clé publique. Vous en recevrez également une le jour de son expiration. À la réception de l’alerte, vous pouvez [modifier la clé publique](#editing-public-keys) afin d’étendre sa période de validité, si nécessaire.
 
-Une clé publique arrivée à expiration est automatiquement supprimée au bout de 7 jours. Il s’affiche comme suit : **[!UICONTROL Expiré]** dans le **[!UICONTROL Expires]** colonne . Dans cette période de 7 jours :
+Une clé publique arrivée à expiration est automatiquement supprimée au bout de 7 jours. Le terme **[!UICONTROL Expirée]** apparaît alors dans la colonne **[!UICONTROL Expire]**. Durant cette période de 7 jours :
 
-* Une clé publique expirée ne peut plus être utilisée pour se connecter au serveur SFTP.
+* Une clé publique arrivée à expiration ne peut plus être utilisée pour se connecter au serveur SFTP.
 
-* Vous pouvez [edit](#editing-public-keys) une clé publique expirée et mettez à jour sa durée pour la rendre à nouveau disponible.
+* Vous pouvez [modifier](#editing-public-keys) une clé publique arrivée à expiration et mettre à jour sa durée afin de la rendre à nouveau disponible.
 
-* Vous pouvez le supprimer de la liste.
+* Vous pouvez la supprimer de la liste.
 
 ## Modification des clés publiques {#editing-public-keys}
 
@@ -156,10 +156,10 @@ Pour modifier les clés publiques, procédez comme suit.
 
 >[!NOTE]
 >
->Vous ne pouvez modifier que les clés publiques créées depuis la version d’octobre 2021 du Panneau de Contrôle.
+>Vous pouvez uniquement modifier les clés publiques créées à partir de la version d’octobre 2021 du panneau de contrôle.
 
 1. Sélectionnez un ou plusieurs éléments dans la liste **[!UICONTROL Gestion des clés]**.
-1. Cliquez sur le bouton **[!UICONTROL Mettre à jour la clé publique]** bouton .
+1. Cliquez sur le bouton **[!UICONTROL Mettre à jour la clé publique]**.
 
    ![](assets/control_panel_edit_key.png)
 
@@ -167,6 +167,6 @@ Pour modifier les clés publiques, procédez comme suit.
 
    >[!NOTE]
    >
-   >Pour modifier le nom d&#39;utilisateur, l&#39;instance et la clé publique au format OpenSSH, supprimez la clé publique et créez-en une correspondant à vos besoins.
+   >Pour modifier le nom d’utilisateur, l’instance et la clé publique au format OpenSSH, supprimez la clé publique et créez-en une correspondant à vos besoins.
 
 1. Enregistrez vos modifications.

@@ -52,7 +52,7 @@ De plus, **ne créez pas de fichier de zone distinct** pour ce nouveau sous-doma
 
 >[!CONTEXTUALHELP]
 >id="cp_add_new_subdomain"
->title="Ajouter un nouveau sous-domaine"
+>title="Ajout d’un nouveau sous-domaine"
 >abstract="Adobe recommande la délégation complète des sous-domaines. Cependant, vous pouvez utiliser des CNAME ou une méthode personnalisée pour configurer vos sous-domaines."
 >additional-url="https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/setting-up-new-subdomain.html?lang=fr" text="Configuration dʼun nouveau sous-domaine"
 >additional-url="https://helpx.adobe.com/fr/enterprise/using/support-for-experience-cloud.html" text="Contacter lʼassistance clientèle"
@@ -60,7 +60,7 @@ De plus, **ne créez pas de fichier de zone distinct** pour ce nouveau sous-doma
 
 >[!CONTEXTUALHELP]
 >id="cp_add_subdomain_create_delegate"
->title="Création et déléguation dʼun sous-domaine"
+>title="Création et délégation de votre sous-domaine"
 >abstract="Créez le sous-domaine que vous souhaitez utiliser avec Adobe Campaign dans votre solution dʼhébergement et déléguez-le à Adobe."
 >additional-url="https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/setting-up-new-subdomain.html" text="Configuration dʼun nouveau sous-domaine"
 

@@ -25,7 +25,7 @@ ht-degree: 68%
 
 ## Nouveautés
 
-**Prise en charge complète de Campaign v8**
+**Prise en charge complète de Campaign v8**
 
 Toutes les fonctionnalités, y compris **Subdomain** et **Certificat** gestion, sont désormais prises en charge par Panneau de Contrôle sur Adobe Campaign v8. [En savoir plus](faq.md#v8-restrictions)
 

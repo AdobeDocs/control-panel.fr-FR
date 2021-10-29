@@ -10,7 +10,7 @@ exl-id: 1d1eeff8-969e-4529-b947-2a68defb8d13
 source-git-commit: 83a6d002a5a21815a66d198c6e5e805f559d5ee2
 workflow-type: tm+mt
 source-wordcount: '797'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -36,7 +36,7 @@ Le panneau de contrôle vous permet de configurer de nouvelles connexions à vos
 
 Une fois les adresses IP ajoutées à la liste autorisée, vous pouvez créer des opérateurs Campaign et les associer à ces adresses afin que les utilisateurs puissent accéder à l’instance.
 
-![](assets/do-not-localize/how-to-video.png) [Découvrez cette fonctionnalité en vidéo](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/instance-settings/ip-allow-listing.html#instance-settings)
+![](assets/do-not-localize/how-to-video.png) [Découvrez cette fonctionnalité en vidéo](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/instance-settings/ip-allow-listing.html?lang=fr#instance-settings)
 
 ## Bonnes pratiques {#best-practices}
 
@@ -46,16 +46,16 @@ Veillez à suivre les recommandations et les limites ci-dessous lors de l’ajou
 * **Si vous avez provisoirement activé l’accès à votre instance pour une adresse IP**, assurez-vous de supprimer les adresses IP de la liste autorisée une fois que vous n’en avez plus besoin pour vous connecter à votre instance.
 * **Nous vous déconseillons d’ajouter les adresses IP des lieux publics (aéroports, hôtels, etc.) à la liste autorisée**. Utilisez l’adresse VPN de votre entreprise pour assurer la sécurité permanente de votre instance.
 
-## Ajout d’adresses IP à la liste autorisée pour l’accès aux instances {#adding-ip-addresses-allow-list}
+## Ajout d’adresses IP à la liste autorisée pour lʼaccès aux instances {#adding-ip-addresses-allow-list}
 
 >[!CONTEXTUALHELP]
 >id="cp_instancesettings_iprange_add"
->title="Configuration de plage IP"
->abstract="Définissez la plage d’adresses IP que vous souhaitez ajouter à la liste autorisée pour vous connecter à votre instance."
+>title="Configuration des plages dʼadresses IP"
+>abstract="Définissez la plage dʼadresses IP que vous souhaitez ajouter à la liste autorisée pour vous connecter à votre instance."
 
 >[!NOTE]
 >
->Si la variable **[!UICONTROL Paramètres des instances]** n’est pas visible sur la page d’accueil du Panneau de Contrôle, ce qui signifie que votre identifiant de l’organisation IMS n’est associé à aucune instance Adobe Campaign Classic v7 ou Campaign v8.
+>Si la vignette **[!UICONTROL Paramètres d’instance]** nʼest pas visible sur la page dʼaccueil du panneau de contrôle, cela signifie que votre identifiant dʼorganisation IMS nʼest associé à aucune instance Adobe Campaign Classic v7 ou Campaign v8.
 
 Pour ajouter des adresses IP à la liste autorisée, procédez comme suit :
 
@@ -94,7 +94,7 @@ Pour ajouter des adresses IP à la liste autorisée, procédez comme suit :
 
    <!--![](assets/ip_whitelist_added.png)-->
 
-Pour supprimer une ou plusieurs plages d’adresses IP de la liste autorisée, sélectionnez-les, puis cliquez sur le bouton **[!UICONTROL Supprimer une plage IP]** bouton .
+Pour supprimer une ou plusieurs plages dʼadresses IP de la liste autorisée, sélectionnez-les puis cliquez sur le bouton **[!UICONTROL Supprimer la plage dʼadresses IP]**.
 
 ![](assets/ip_whitelist_delete.png)
 

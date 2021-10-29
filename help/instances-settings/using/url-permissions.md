@@ -10,7 +10,7 @@ exl-id: a7df90da-a2ce-409f-9bc3-c7d4fa3024c8
 source-git-commit: cca04cd965c00a9e2bc496de632ee41ce53a166a
 workflow-type: tm+mt
 source-wordcount: '611'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -34,7 +34,7 @@ Par défaut, les instances ne sont pas autorisées à se connecter à des URL ex
 
 Une fois qu’une URL est ajoutée, elle est référencée dans le fichier de configuration de l’instance (serverConf.xml).
 
-![](assets/do-not-localize/how-to-video.png) [Découvrez cette fonctionnalité en vidéo](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/instance-settings/adding-url-permissions.html#instance-settings)
+![](assets/do-not-localize/how-to-video.png) [Découvrez cette fonctionnalité en vidéo](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/instance-settings/adding-url-permissions.html?lang=fr#instance-settings)
 
 **Rubriques connexes :**
 
@@ -51,7 +51,7 @@ Une fois qu’une URL est ajoutée, elle est référencée dans le fichier de co
 
 >[!CONTEXTUALHELP]
 >id="cp_instancesettings_url_add"
->title="Définition d’URL"
+>title="Définition des URL"
 >abstract="Ajoutez des URL pour autoriser les connexions à votre instance Campaign."
 
 Pour ajouter une URL à laquelle votre instance peut se connecter, procédez comme suit :
