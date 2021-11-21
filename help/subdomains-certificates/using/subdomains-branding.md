@@ -26,7 +26,7 @@ ht-degree: 100%
 
 >[!IMPORTANT]
 >
->La configuration de sous-domaine depuis le panneau de contrôle est disponible en version bêta et sujette à de fréquentes mises à jour et modifications sans préavis.
+>La configuration de sous-domaine depuis le Panneau de contrôle est disponible en version bêta et sujette à de fréquentes mises à jour et modifications sans préavis.
 
 Un sous-domaine est une division de votre domaine qui peut être utilisée pour isoler vos marques ou divers types de trafic (messages transactionnels, informations marketing, etc.).
 
@@ -49,8 +49,8 @@ Le tableau ci-dessous résume le fonctionnement de ces méthodes, ainsi que le n
 
 | Méthode de configuration | Fonctionnement | Niveau d&#39;effort |
 |---|---|---|
-| **Délégation complète** | Créez l’enregistrement du sous-domaine et de l’espace de nom. Adobe configurera alors tous les enregistrements DNS nécessaires à Adobe Campaign.<br/><br/>Dans cette configuration, Adobe est entièrement responsable de la gestion du sous-domaine et de tous les enregistrements DNS. | Faible |
-| **CNAME, méthode personnalisée** | Créez l’enregistrement du sous-domaine et de l’espace de nom. Adobe fournira alors les enregistrements à placer sur vos serveurs DNS et configurera les valeurs correspondantes sur les serveurs DNS Adobe Campaign.<br/><br/>Dans cette configuration, vous partagez avec Adobe la responsabilité de la maintenance du DNS. | Élevée |
+| **Délégation complète** | Créez l’enregistrement du sous-domaine et de l’espace de noms. Adobe configurera alors tous les enregistrements DNS nécessaires à Adobe Campaign.<br/><br/>Dans cette configuration, Adobe est entièrement responsable de la gestion du sous-domaine et de tous les enregistrements DNS. | Faible |
+| **CNAME, méthode personnalisée** | Créez l’enregistrement du sous-domaine et de l’espace de noms. Adobe fournira alors les enregistrements à placer sur vos serveurs DNS et configurera les valeurs correspondantes sur les serveurs DNS Adobe Campaign.<br/><br/>Dans cette configuration, vous partagez avec Adobe la responsabilité de la maintenance du DNS. | Élevée |
 
 Des informations supplémentaires sur la configuration de domaine sont disponibles dans [cette documentation](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/product-specific-resources/campaign/ac-domain-name-setup.html?lang=fr).
 
@@ -82,7 +82,7 @@ Les cas d’utilisation possibles sont les suivants :
 
 >[!NOTE]
 >
->Si vous utilisez Campaign Classic, le panneau de contrôle vous permet de voir quelles instances RT/MID sont connectées à l’instance Marketing que vous utilisez. Voir à ce sujet la section [Détails de l’instance](../../instances-settings/using/instance-details.md).
+>Si vous utilisez Campaign Classic, le Panneau de contrôle vous permet de voir quelles instances RT/MID sont connectées à l’instance Marketing que vous utilisez. Voir à ce sujet la section [Détails de l’instance](../../instances-settings/using/instance-details.md).
 
 **Rubriques connexes :**
 

@@ -20,11 +20,11 @@ ht-degree: 100%
 
 Adobe Campaign vous recommande de sécuriser les sous-domaines hébergeant vos landing pages, en particulier ceux qui recueillent des informations sensibles sur vos clients.
 
-Le **cryptage SSL (Secure Socket Layer)** garantit la sécurité des sous-domaines que vous avez configurés en vue de leur fonctionnement avec Adobe. Lorsque votre client remplit un formulaire web ou visite une landing page hébergée par Adobe Campaign, les informations sont envoyées par défaut via un protocole non sécurisé (HTTP). Pour assurer une sécurité supplémentaire, sécurisez les informations envoyées avec un protocole HTTPS. Par exemple, l’adresse du sous-domaine « http://info.monsiteweb.com/ » deviendra « https://info.monsiteweb.com/ ».
+Le **chiffrement SSL (Secure Socket Layer)** garantit la sécurité des sous-domaines que vous avez configurés en vue de leur fonctionnement avec Adobe. Lorsque votre client remplit un formulaire web ou visite une landing page hébergée par Adobe Campaign, les informations sont envoyées par défaut via un protocole non sécurisé (HTTP). Pour assurer une sécurité supplémentaire, sécurisez les informations envoyées avec un protocole HTTPS. Par exemple, l’adresse du sous-domaine « http://info.monsiteweb.com/ » deviendra « https://info.monsiteweb.com/ ».
 
 **Les certificats SSL ne sont pas installés sur les sous-domaines configurés**. Ils sont installés sur les sous-domaines associés, principalement ceux qui hébergent des landing pages, des pages de ressources, etc.
 
-**Les certificats SSL sont fournis pour une période spécifique** (1 an, 60 jours, etc.). Lorsqu’un certificat arrive à expiration, vous pouvez rencontrer des problèmes lors de l’accès aux landing pages ou de l’utilisation de ressources du sous-domaine. Pour éviter cela, le panneau de contrôle permet de surveiller les certificats SSL de vos sous-domaines et de lancer une procédure de renouvellement.
+**Les certificats SSL sont fournis pour une période spécifique** (1 an, 60 jours, etc.). Lorsqu’un certificat arrive à expiration, vous pouvez rencontrer des problèmes lors de l’accès aux landing pages ou de l’utilisation de ressources du sous-domaine. Pour éviter cela, le Panneau de contrôle permet de surveiller les certificats SSL de vos sous-domaines et de lancer une procédure de renouvellement.
 
 ![](assets/no_certificate.png)
 
@@ -53,11 +53,11 @@ L’onglet **[!UICONTROL Infos sur l’expéditeur]** fournit des informations s
 
 ![](assets/subdomain_details.png)
 
-Si l’un des certificats SSL de votre sous-domaine est sur le point d’arriver à expiration, vous pouvez le renouveler directement depuis le panneau de contrôle. Pour plus d’informations à ce sujet, consultez la section : [Renouvellement du certificat SSL d’un sous-domaine](../../subdomains-certificates/using/renewing-subdomain-certificate.md).
+Si l’un des certificats SSL de votre sous-domaine est sur le point d’arriver à expiration, vous pouvez le renouveler directement depuis le Panneau de contrôle. Pour plus d’informations à ce sujet, consultez la section : [Renouvellement du certificat SSL d’un sous-domaine](../../subdomains-certificates/using/renewing-subdomain-certificate.md).
 
 >[!IMPORTANT]
 >
->Le renouvellement du certificat depuis le panneau de contrôle est disponible en version bêta et sujet à de fréquentes mises à jour et modifications sans préavis.
+>Le renouvellement du certificat depuis le Panneau de contrôle est disponible en version bêta et sujet à de fréquentes mises à jour et modifications sans préavis.
 
 **Rubriques connexes :**
 

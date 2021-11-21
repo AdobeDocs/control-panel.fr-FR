@@ -1,8 +1,8 @@
 ---
 product: campaign
 solution: Campaign
-title: Découverte de l’interface du panneau de contrôle
-description: En savoir plus sur l’interface du panneau de contrôle
+title: Découverte de l’interface du Panneau de contrôle
+description: En savoir plus sur l’interface du Panneau de contrôle
 feature: Control Panel
 role: Architect
 level: Intermediate
@@ -14,9 +14,9 @@ ht-degree: 100%
 
 ---
 
-# Découverte de l’interface du panneau de contrôle {#discovering-interface}
+# Découverte de l’interface du Panneau de contrôle {#discovering-interface}
 
-La page d’accueil du panneau de contrôle vous donne accès à toutes les actions qui peuvent être effectuées sur vos instances Campaign.
+La page d’accueil du Panneau de contrôle vous donne accès à toutes les actions qui peuvent être effectuées sur vos instances Campaign.
 
 Elles sont représentées par des cartes organisées en rubriques, par exemple **Suivi des performances**.
 
@@ -38,6 +38,6 @@ Le bouton **[!UICONTROL Ouvrir]** vous permet d’accéder directement à l’on
 
 ## Ressources d’aide {#help-resources}
 
-La section **[!UICONTROL Ressources d’aide]** propose de la documentation pour vous aider à utiliser le panneau de contrôle et les produits Campaign. N’hésitez pas à l’explorer.
+La section **[!UICONTROL Ressources d’aide]** propose de la documentation pour vous aider à utiliser le Panneau de contrôle et les produits Campaign. N’hésitez pas à l’explorer.
 
 ![](assets/helpresources.png)

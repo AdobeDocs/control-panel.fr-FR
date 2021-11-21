@@ -20,7 +20,7 @@ ht-degree: 100%
 
 >[!IMPORTANT]
 >
->La surveillance des profils actifs depuis le panneau de contrôle est disponible en version bêta et sujette à de fréquentes mises à jour et modifications sans préavis. Elle est disponible à partir de la version Campaign Standard 10368.
+>La surveillance des profils actifs depuis le Panneau de contrôle est disponible en version bêta et sujette à de fréquentes mises à jour et modifications sans préavis. Elle est disponible à partir de la version Campaign Standard 10368.
 
 Conformément à votre contrat, chacune de vos instances Campaign est configurée avec un nombre spécifique de profils actifs comptabilisés à des fins de facturation. Consultez votre dernier contrat pour connaître le nombre de profils actifs achetés.
 
@@ -32,7 +32,7 @@ Les profils sont considérés comme actifs s’ils ont été ciblés ou ont fait
 >
 >Les canaux Facebook et Twitter ne sont pas pris en compte.
 
-Pour en savoir plus sur les profils actifs, consultez la documentation [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard/using/profiles-and-audiences/managing-profiles/active-profiles.html?lang=fr) et [Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/profile-management/about-profiles.html?lang=fr#active-profiles).
+Pour en savoir plus sur les profils actifs, consultez la documentation [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard/using/profiles-and-audiences/managing-profiles/active-profiles.html?lang=fr) et [Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/profile-management/about-profiles.html?lang=fr#active-profiles).
 
 ## Surveillance des profils actifs {#monitoring-active-profiles}
 
@@ -42,7 +42,7 @@ Pour en savoir plus sur les profils actifs, consultez la documentation [Campaign
 >abstract="Dans cet onglet, retrouvez des informations en temps réel sur lʼutilisation et lʼévolution des profils actifs les plus récents et historiques pour chacune de vos instances Campaign."
 >additional-url="https://experienceleague.adobe.com/docs/control-panel/using/performance-monitoring/about-performance-monitoring.html?lang=fr" text="À propos du suivi des performances"
 
-Le panneau de contrôle permet de surveiller l’utilisation des profils actifs pour chacune de vos instances Campaign.
+Le Panneau de contrôle permet de surveiller l’utilisation des profils actifs pour chacune de vos instances Campaign.
 
 Pour ce faire, procédez comme suit :
 

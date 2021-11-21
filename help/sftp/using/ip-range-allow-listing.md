@@ -24,11 +24,11 @@ ht-degree: 100%
 
 Les serveurs SFTP sont protégés. Afin de pouvoir y accéder pour afficher des fichiers ou en écrire de nouveaux, vous devez ajouter à la liste autorisée l’adresse IP publique du système ou du client qui accède aux serveurs.
 
-![](assets/do-not-localize/how-to-video.png) Découvrez cette fonctionnalité en vidéo dans [Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/sftp-management/adding-ip-range-to-allow-list.html?lang=fr#sftp-management) ou [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/sftp-management/adding-ip-range-to-allow-list.html?lang=fr#sftp-management).
+![](assets/do-not-localize/how-to-video.png) Découvrez cette fonctionnalité en vidéo dans [Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/sftp-management/adding-ip-range-to-allow-list.html?lang=fr#sftp-management) ou [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/sftp-management/adding-ip-range-to-allow-list.html?lang=fr#sftp-management).
 
 ## À propos du format CIDR {#about-cidr-format}
 
-Le format CIDR (Classless Inter-Domain Routing) est le format pris en charge lors de l’ajout de plages d’adresses IP avec l’interface du panneau de contrôle.
+Le format CIDR (Classless Inter-Domain Routing) est le format pris en charge lors de l’ajout de plages d’adresses IP avec l’interface du Panneau de contrôle.
 
 La syntaxe se compose d’une adresse IP, suivie d’un caractère « / » et d’un nombre décimal. Le format et sa syntaxe sont présentés en détail dans [cet article](https://whatismyipaddress.com/cidr){target=&quot;_blank&quot;}.
 
@@ -36,10 +36,10 @@ Vous pouvez rechercher sur Internet des outils en ligne gratuits qui vous permet
 
 ## Bonnes pratiques {#best-practices}
 
-Veillez à suivre les recommandations et les limites ci-dessous lors de l’ajout des adresses IP à la liste autorisée dans le panneau de contrôle.
+Veillez à suivre les recommandations et les limites ci-dessous lors de l’ajout des adresses IP à la liste autorisée dans le Panneau de contrôle.
 
 * **Ajoutez des plages d’adresses IP à la liste autorisée** plutôt que des adresses IP uniques. Pour ajouter une seule adresse IP à la liste autorisée, ajoutez-lui « /32 » afin d’indiquer qu’une seule adresse IP est comprise dans la plage.
-* **N’ajoutez pas de plages très larges à la liste autorisée**, par exemple des plages contenant plus de 265 adresses IP. Le panneau de contrôle rejettera les plages au format CIDR comprises entre /0 et /23.
+* **N’ajoutez pas de plages très larges à la liste autorisée**, par exemple des plages contenant plus de 265 adresses IP. Le Panneau de contrôle rejettera les plages au format CIDR comprises entre /0 et /23.
 * Seules les **adresses IP publiques** peuvent être ajoutées à la liste autorisée.
 * Veillez à **supprimer régulièrement les adresses IP** dont vous nʼavez plus besoin de la liste autorisée.
 
@@ -139,7 +139,7 @@ Pour modifier les plages dʼadresses IP, suivez les étapes ci-dessous.
 
 >[!NOTE]
 >
->Vous ne pouvez modifier que les plages dʼadresses IP créées depuis la version dʼoctobre 2021 du panneau de contrôle.
+>Vous ne pouvez modifier que les plages dʼadresses IP créées depuis la version dʼoctobre 2021 du Panneau de contrôle.
 
 <!--Edition is not available for IP ranges that have been created before the Control Panel October 2021 release.-->
 
@@ -161,8 +161,8 @@ Pour modifier les plages dʼadresses IP, suivez les étapes ci-dessous.
 
 ## Suivi des modifications {#monitoring-changes}
 
-Les **[!UICONTROL Logs de traitement]** de la page dʼaccueil du panneau de contrôle permettent de suivre et de surveiller toutes les modifications apportées aux adresses IP sur la liste autorisée.
+Les **[!UICONTROL Logs de traitement]** de la page dʼaccueil du Panneau de contrôle permettent de suivre et de surveiller toutes les modifications apportées aux adresses IP sur la liste autorisée.
 
-Pour plus dʼinformations sur lʼinterface du panneau de contrôle, reportez-vous à [cette section](../../discover/using/discovering-the-interface.md).
+Pour plus dʼinformations sur lʼinterface du Panneau de contrôle, reportez-vous à [cette section](../../discover/using/discovering-the-interface.md).
 
 ![](assets/control_panel_ip_log.png)

@@ -2,7 +2,7 @@
 product: adobe campaign
 sub-product: control panel
 audience: end-user
-user-guide-title: Guide du panneau de contrôle
+user-guide-title: Guide du Panneau de contrôle
 feature: Control Panel
 role: Architect
 level: Beginner
@@ -14,15 +14,15 @@ ht-degree: 100%
 ---
 
 
-# Guide du panneau de contrôle {#using}
+# Guide du Panneau de contrôle {#using}
 
 + [Documentation du produit](control-panel-home.md)
 + [Notes de mise à jour](release-notes.md)
-+ Découverte du panneau de contrôle {#discover-control-panel}
++ Découverte du Panneau de contrôle {#discover-control-panel}
    + [Principales fonctionnalités](discover/using/key-features.md)
-   + [Accès au panneau de contrôle](discover/using/accessing-control-panel.md)
-   + [Gestion des autorisations pour le panneau de contrôle](discover/using/managing-permissions.md)
-   + [Découverte de l’interface du panneau de contrôle](discover/using/discovering-the-interface.md)
+   + [Accès au Panneau de contrôle](discover/using/accessing-control-panel.md)
+   + [Gestion des autorisations pour le Panneau de contrôle](discover/using/managing-permissions.md)
+   + [Découverte de l’interface du Panneau de contrôle](discover/using/discovering-the-interface.md)
 + Gestion SFTP {#sftp-management}
    + [À propos de la gestion SFTP](sftp/using/about-sftp-management.md)
    + [Gestion de l’espace de stockage SFTP](sftp/using/sftp-storage-management.md)

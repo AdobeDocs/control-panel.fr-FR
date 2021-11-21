@@ -1,6 +1,6 @@
 ---
 title: Documentation du produit
-description: Documentation du panneau de contrôle.
+description: Documentation du Panneau de contrôle.
 feature: Control Panel
 role: Architect
 level: Beginner
@@ -16,10 +16,10 @@ ht-degree: 68%
 
 >[!CONTEXTUALHELP]
 >id="cp_overview"
->title="À propos du panneau de contrôle"
->abstract="La page d’accueil du panneau de contrôle vous donne accès à toutes les actions qui peuvent être effectuées sur vos instances Campaign."
+>title="À propos du Panneau de contrôle"
+>abstract="La page d’accueil du Panneau de contrôle vous donne accès à toutes les actions qui peuvent être effectuées sur vos instances Campaign."
 >additional-url="https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/discovering-the-interface.html?lang=fr" text="Découverte de lʼinterface"
->additional-url="https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/accessing-control-panel.html?lang=fr" text="Accès au panneau de contrôle"
+>additional-url="https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/accessing-control-panel.html?lang=fr" text="Accès au Panneau de contrôle"
 
 ![](assets/do-not-localize/banner.png)
 
@@ -39,7 +39,7 @@ De même, vous pouvez maintenant définir une durée de disponibilité des clés
 
 >[!CAUTION]
 >
->* Le panneau de contrôle est accessible aux utilisateurs administrateurs uniquement. [Apprenez-en davantage](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html?lang=fr#discover-control-panel)
+>* Le Panneau de contrôle est accessible aux utilisateurs administrateurs uniquement. [Apprenez-en davantage](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html?lang=fr#discover-control-panel)
 >
 >* Pour Campaign Classic v7, les restrictions de déploiement s’appliquent. [Apprenez-en davantage](faq.md#v7-restrictions)
 
@@ -48,21 +48,21 @@ De même, vous pouvez maintenant définir une durée de disponibilité des clés
 
 <table>
     <tr>
-        <td><b>Campaign Standard</b><br/>
+        <td><b>Campaign Standard</b><br/>
         <ul>
-            <li><a href="https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/control-panel-overview.html?lang=fr">Tutoriels vidéo sur le panneau de contrôle</a></li>
+            <li><a href="https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/control-panel-overview.html?lang=fr">Tutoriels vidéo sur le Panneau de contrôle</a></li>
             <li><a href="https://experienceleague.adobe.com/docs/campaign-standard/using/campaign-standard-home.html?lang=fr">Documentation du produit Campaign Standard</a></li>
         </ul>
         </td>
         <td><b>Campaign Classic v7</b><br/>
         <ul>
-            <li><a href="https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/control-panel-overview.html?lang=fr">Tutoriels vidéo sur le panneau de contrôle</a></li>
+            <li><a href="https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/control-panel-overview.html?lang=fr">Tutoriels vidéo sur le Panneau de contrôle</a></li>
             <li><a href="https://experienceleague.adobe.com/docs/campaign-classic/using/campaign-classic-home.html?lang=fr">Documentation du produit Campaign Classic v7</a></li>
         </ul>
         </td>
         <td><b>Campaign v8</b><br/>
         <ul>
-            <li><a href="https://experienceleague.adobe.com/docs/campaign-learn/control-panel/control-panel-overview.html?lang=fr">Tutoriels vidéo sur le panneau de contrôle</a></li>
+            <li><a href="https://experienceleague.adobe.com/docs/campaign-learn/control-panel/control-panel-overview.html?lang=fr">Tutoriels vidéo sur le Panneau de contrôle</a></li>
             <li><a href="https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaign-home.html?lang=fr">Documentation du produit Campaign v8</a></li>
         </ul>
         </td>

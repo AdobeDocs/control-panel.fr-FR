@@ -28,7 +28,7 @@ Les étapes de génération d’une clé SSH publique et de son ajout pour acc�
 
 Une fois l’accès au serveur configuré, pensez à **ajouter à la liste autorisée les adresses IP qui requièrent l’accès au serveur**, afin de pouvoir vous y connecter. Pour plus d’informations, consultez [cette section](../../instances-settings/using/ip-allow-listing-instance-access.md).
 
-![](assets/do-not-localize/how-to-video.png) Découvrez cette fonctionnalité en vidéo dans [Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/sftp-management/generate-ssh-key.html?lang=fr#sftp-management) ou [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/sftp-management/generate-ssh-key.html?lang=fr#sftp-management).
+![](assets/do-not-localize/how-to-video.png) Découvrez cette fonctionnalité en vidéo dans [Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/sftp-management/generate-ssh-key.html?lang=fr#sftp-management) ou [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/sftp-management/generate-ssh-key.html?lang=fr#sftp-management).
 
 ## Bonnes pratiques {#best-practices}
 
@@ -49,7 +49,7 @@ Dans de très rares cas, l’authentification par mot de passe est activée sur 
 >[!CONTEXTUALHELP]
 >id="cp_sftp_publickey_add"
 >title="Ajout dʼune clé publique"
->abstract="Générez une clé SSH publique pour une instance et ajoutez-la au panneau de contrôle pour accéder au serveur SFTP."
+>abstract="Générez une clé SSH publique pour une instance et ajoutez-la au Panneau de contrôle pour accéder au serveur SFTP."
 
 >[!IMPORTANT]
 >
@@ -65,7 +65,7 @@ Dans de très rares cas, l’authentification par mot de passe est activée sur 
 
    >[!NOTE]
    >
-   >Le panneau de contrôle vérifie si un nom dʼutilisateur donné est actif sur une instance particulière et permet dʼactiver la clé sur une ou plusieurs instances.
+   >Le Panneau de contrôle vérifie si un nom dʼutilisateur donné est actif sur une instance particulière et permet dʼactiver la clé sur une ou plusieurs instances.
    >
    >Il est possible dʼajouter une ou plusieurs clés SSH publiques pour chaque utilisateur.
 
@@ -93,7 +93,7 @@ Dans de très rares cas, l’authentification par mot de passe est activée sur 
 
    Il se peut que vous deviez installer un outil tiers qui vous aidera à générer une paire de clés privée/publique au même format « name.pub ».
 
-1. Ouvrez le fichier .pub, puis copiez-collez toute la chaîne commençant par « ssh… » dans le panneau de contrôle.
+1. Ouvrez le fichier .pub, puis copiez-collez toute la chaîne commençant par « ssh… » dans le Panneau de contrôle.
 
    ![](assets/publickey.png)
 
@@ -101,17 +101,17 @@ Dans de très rares cas, l’authentification par mot de passe est activée sur 
    >
    >Le champ **[!UICONTROL Clé publique]** accepte uniquement le format OpenSSH. La taille de la clé SSH publique doit être de **2 048 bits**.
 
-1. Cliquez sur le bouton **[!UICONTROL Enregistrer]** pour créer la clé. Le panneau de contrôle enregistre la clé publique et son empreinte associée, chiffrée au format SHA256.
+1. Cliquez sur le bouton **[!UICONTROL Enregistrer]** pour créer la clé. Le Panneau de contrôle enregistre la clé publique et son empreinte numérique associée, chiffrée au format SHA256.
 
 >[!IMPORTANT]
 >
 >Si la clé que vous avez créée est utilisée pour établir une connexion à un système qui n’a encore jamais été connecté au serveur SFTP sélectionné, vous devrez ajouter une adresse IP publique de ce système à la liste autorisée avant de pouvoir l’utiliser avec le serveur SFTP. Consultez [cette section](ip-range-allow-listing.md).
 
-Vous pouvez utiliser les empreintes pour faire correspondre les clés privées enregistrées sur votre ordinateur aux clés publiques correspondantes enregistrées dans le panneau de contrôle.
+Vous pouvez utiliser les empreintes pour faire correspondre les clés privées enregistrées sur votre ordinateur aux clés publiques correspondantes enregistrées dans le Panneau de contrôle.
 
 ![](assets/fingerprint_compare.png)
 
-Le bouton « **…** » permet de supprimer une clé ou de copier dans le presse-papiers l’empreinte qui lui est associée.
+Le bouton « **…** » permet de supprimer une clé ou de copier dans le presse-papiers l’empreinte qui lui est associée.
 
 ![](assets/key_options.png)
 
@@ -156,7 +156,7 @@ Pour modifier les clés publiques, procédez comme suit.
 
 >[!NOTE]
 >
->Vous pouvez uniquement modifier les clés publiques créées à partir de la version d’octobre 2021 du panneau de contrôle.
+>Vous pouvez uniquement modifier les clés publiques créées à partir de la version d’octobre 2021 du Panneau de contrôle.
 
 1. Sélectionnez un ou plusieurs éléments dans la liste **[!UICONTROL Gestion des clés]**.
 1. Cliquez sur le bouton **[!UICONTROL Mettre à jour la clé publique]**.

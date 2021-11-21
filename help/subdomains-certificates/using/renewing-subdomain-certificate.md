@@ -27,7 +27,7 @@ ht-degree: 100%
 
 >[!IMPORTANT]
 >
->La configuration de sous-domaine depuis le panneau de contrôle est disponible en version bêta et sujette à de fréquentes mises à jour et modifications sans préavis.
+>La configuration de sous-domaine depuis le Panneau de contrôle est disponible en version bêta et sujette à de fréquentes mises à jour et modifications sans préavis.
 
 La procédure de renouvellement des certificats SSL comprend 3 étapes :
 
@@ -38,7 +38,7 @@ Une fois la demande de signature de certificat générée, vous pouvez la télé
 1. **Installation du certificat SSL**
 Une fois le certificat SSL acheté, vous pouvez l’installer sur le sous-domaine souhaité.
 
-![](assets/do-not-localize/how-to-video.png) Découvrez cette fonctionnalité en vidéo dans [Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/subdomains-and-certificates/adding-ssl-certificates.html?lang=fr#subdomains-and-certificates) ou [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/subdomains-and-certificates/adding-ssl-certificates.html?lang=fr#adding-ssl-certificates)
+![](assets/do-not-localize/how-to-video.png) Découvrez cette fonctionnalité en vidéo dans [Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/subdomains-and-certificates/adding-ssl-certificates.html?lang=fr#subdomains-and-certificates) ou [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/subdomains-and-certificates/adding-ssl-certificates.html?lang=fr#adding-ssl-certificates)
 
 ## Génération d’une demande de signature de certificat (CSR) {#generating-csr}
 
@@ -93,7 +93,7 @@ Pour générer une demande de signature de certificat (CSR), procédez comme sui
 
 ## Achat d’un certificat avec la demande de signature de certificat {#purchasing-certificate}
 
-Après obtention d’une demande de signature de certificat via le panneau de contrôle, achetez un certificat SSL auprès d’une autorité de certification approuvée par votre société.
+Après obtention d’une demande de signature de certificat via le Panneau de contrôle, achetez un certificat SSL auprès d’une autorité de certification approuvée par votre société.
 
 ## Installation du certificat SSL {#installing-ssl-certificate}
 
@@ -105,7 +105,7 @@ Après obtention d’une demande de signature de certificat via le panneau de co
 
 Une fois un certificat SSL acheté, vous pouvez l’installer sur votre instance. Avant de poursuivre, prenez connaissance des prérequis suivants :
 
-* La demande de signature de certificat (CSR) doit avoir été générée depuis le panneau de contrôle. Sinon, vous ne pourrez pas installer le certificat depuis le panneau de contrôle.
+* La demande de signature de certificat (CSR) doit avoir été générée depuis le Panneau de contrôle. Sinon, vous ne pourrez pas installer le certificat depuis le Panneau de contrôle.
 * La demande de signature de certificat (CSR) doit correspondre au sous-domaine qui a été configuré pour fonctionner avec Adobe. Par exemple, elle ne peut pas contenir d’autres sous-domaines que celui qui a été configuré.
 * La date du certificat doit être celle en cours. Il n’est pas possible d’installer des certificats avec des dates dans le futur ou ayant expiré (les dates de début et de fin doivent être valides).
 * Le certificat doit être émis par une autorité de certification approuvée telle que Comodo, DigiCert, GoDaddy, etc.

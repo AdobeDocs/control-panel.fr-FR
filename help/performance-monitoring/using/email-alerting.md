@@ -16,11 +16,11 @@ ht-degree: 100%
 
 # Alertes par e-mail {#email-alerting}
 
-Pour apporter davantage de flexibilité à votre travail, le panneau de contrôle possède une fonctionnalité d’alerte par e-mail en temps réel.
+Pour apporter davantage de flexibilité à votre travail, le Panneau de contrôle possède une fonctionnalité d’alerte par e-mail en temps réel.
 
 Pour vous abonner à ces alertes, procédez comme suit :
 
-1. Cliquez sur le bouton **[!UICONTROL Notifications d’alertes]** disponible à n’importe quel emplacement du panneau de contrôle, puis cliquez sur **[!UICONTROL S’abonner]**.
+1. Cliquez sur le bouton **[!UICONTROL Notifications d’alertes]** disponible à n’importe quel emplacement du Panneau de contrôle, puis cliquez sur **[!UICONTROL S’abonner]**.
 
    ![](assets/subscribing.png)
 
@@ -28,7 +28,7 @@ Pour vous abonner à ces alertes, procédez comme suit :
 
    ![](assets/email_subscription.png)
 
-1. Une fois votre abonnement effectué, le panneau de contrôle vous avertira des problèmes du système et vous recommandera les mesures à prendre. Les alertes par email sont envoyées à toutes les personnes pour **toutes les instances** qu’elles administrent.
+1. Une fois votre abonnement effectué, le Panneau de contrôle vous avertira des problèmes du système et vous recommandera les mesures à prendre. Les alertes par email sont envoyées à toutes les personnes pour **toutes les instances** qu’elles administrent.
 
    ![](assets/alert_sample.png)
 

@@ -1,8 +1,8 @@
 ---
 product: campaign
 solution: Campaign
-title: Accès au panneau de contrôle
-description: Découvrez comment accéder au panneau de contrôle
+title: Accès au Panneau de contrôle
+description: Découvrez comment accéder au Panneau de contrôle
 feature: Control Panel
 role: Architect
 level: Beginner
@@ -16,7 +16,7 @@ ht-degree: 100%
 
 # Principales fonctionnalités {#key-features}
 
-Le panneau de contrôle accroît votre efficacité en tant qu’administrateur de produit Adobe Campaign Standard et/ou Classic, en vous permettant de gérer les paramètres et de suivre l’utilisation de chacune de vos instances. Dans son interface intuitive, vous pouvez facilement surveiller l’utilisation des principales ressources ou effectuer certaines tâches administratives telles que l’ajout d’adresses IP à la liste autorisée, la surveillance de l’espace de stockage SFTP, la gestion des clés, etc.
+Le Panneau de contrôle accroît votre efficacité en tant qu’administrateur de produit Adobe Campaign Standard et/ou Classic, en vous permettant de gérer les paramètres et de suivre l’utilisation de chacune de vos instances. Dans son interface intuitive, vous pouvez facilement surveiller l’utilisation des principales ressources ou effectuer certaines tâches administratives telles que l’ajout d’adresses IP à la liste autorisée, la surveillance de l’espace de stockage SFTP, la gestion des clés, etc.
 
 Principaux avantages :
 
@@ -26,7 +26,7 @@ Principaux avantages :
 
 >[!NOTE]
 >
->Le panneau de contrôle est accessible aux utilisateurs administrateurs uniquement. Les étapes permettant d’accorder un accès administrateur à un utilisateur sont présentées dans [cette section](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html?lang=fr#discover-control-panel).
+>Le Panneau de contrôle est accessible aux utilisateurs administrateurs uniquement. Les étapes permettant d’accorder un accès administrateur à un utilisateur sont présentées dans [cette section](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html?lang=fr#discover-control-panel).
 >
 >Pour Campaign Classic, veuillez noter que votre instance doit être hébergée sur Amazon Web Services (AWS) et mise à niveau vers le dernier build [Campaign GA](https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/rn-overview.html?lang=fr#rn-statuses). Découvrez comment vérifier votre version dans [cette section](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/starting-with-adobe-campaign/launching-adobe-campaign.html?lang=fr#getting-your-campaign-version). Pour vérifier si votre instance est hébergée sur AWS, suivez les étapes présentées dans [cette page](../../faq.md).
 
@@ -34,8 +34,8 @@ Principaux avantages :
 <tr>
     <td>
         <a href="../../discover/using/accessing-control-panel.md"><img alt="conditions" src="assets/do-not-localize/discover.png"/></a>
-        <div><a href="../../discover/using/accessing-control-panel.md"><strong>Découverte du panneau de contrôle</strong></a></div>
-        <em>Obtenez des informations supplémentaires sur le panneau de contrôle et sur la manière d’y accéder.</em>
+        <div><a href="../../discover/using/accessing-control-panel.md"><strong>Découverte du Panneau de contrôle</strong></a></div>
+        <em>Obtenez des informations supplémentaires sur le Panneau de contrôle et sur la manière d’y accéder.</em>
     </td>
     <td>
         <a href="../../sftp/using/about-sftp-management.md"><img alt="conditions" src="assets/do-not-localize/sftp.png"/></a>

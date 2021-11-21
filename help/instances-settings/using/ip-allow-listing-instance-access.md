@@ -2,7 +2,7 @@
 product: campaign
 solution: Campaign
 title: Listes autorisées d’adresses IP
-description: Découvrez comment ajouter des adresses IP à la liste autorisée dans le panneau de contrôle pour accéder aux instances
+description: Découvrez comment ajouter des adresses IP à la liste autorisée dans le Panneau de contrôle pour accéder aux instances
 feature: Control Panel
 role: Architect
 level: Intermediate
@@ -26,13 +26,13 @@ ht-degree: 100%
 
 >[!IMPORTANT]
 >
->Cette fonctionnalité est disponible uniquement pour les instances Campaign Classic v7 et Campaign v8.
+>Cette fonctionnalité est disponible uniquement pour les instances Campaign Classic v7 et Campaign v8.
 
 Par défaut, votre instance Adobe Campaign n’est accessible qu’à partir de certaines adresses IP.
 
 Si votre adresse IP n’a pas été ajoutée à la liste autorisée, vous ne pourrez pas vous connecter à l’instance à partir de cette adresse. De même, vous ne pourrez peut-être pas connecter une API à votre instance Message Center ou Marketing si l’adresse IP n’a pas été explicitement ajoutée à la liste autorisée avec l’instance.
 
-Le panneau de contrôle vous permet de configurer de nouvelles connexions à vos instances en ajoutant des plages d’adresses IP à la liste autorisée. Pour ce faire, suivez la procédure ci-dessous.
+Le Panneau de contrôle vous permet de configurer de nouvelles connexions à vos instances en ajoutant des plages d’adresses IP à la liste autorisée. Pour ce faire, suivez la procédure ci-dessous.
 
 Une fois les adresses IP ajoutées à la liste autorisée, vous pouvez créer des opérateurs Campaign et les associer à ces adresses afin que les utilisateurs puissent accéder à l’instance.
 
@@ -40,7 +40,7 @@ Une fois les adresses IP ajoutées à la liste autorisée, vous pouvez créer de
 
 ## Bonnes pratiques {#best-practices}
 
-Veillez à suivre les recommandations et les limites ci-dessous lors de l’ajout des adresses IP à la liste autorisée dans le panneau de contrôle.
+Veillez à suivre les recommandations et les limites ci-dessous lors de l’ajout des adresses IP à la liste autorisée dans le Panneau de contrôle.
 
 * **N’activez pas l’accès IP pour tous les types d’accès** si vous ne souhaitez pas que l’adresse IP se connecte à vos serveurs RT ou votre zone de sécurité AEM.
 * **Si vous avez provisoirement activé l’accès à votre instance pour une adresse IP**, assurez-vous de supprimer les adresses IP de la liste autorisée une fois que vous n’en avez plus besoin pour vous connecter à votre instance.
@@ -55,7 +55,7 @@ Veillez à suivre les recommandations et les limites ci-dessous lors de l’ajou
 
 >[!NOTE]
 >
->Si la vignette **[!UICONTROL Paramètres d’instance]** nʼest pas visible sur la page dʼaccueil du panneau de contrôle, cela signifie que votre identifiant dʼorganisation IMS nʼest associé à aucune instance Adobe Campaign Classic v7 ou Campaign v8.
+>Si la vignette **[!UICONTROL Paramètres d’instance]** nʼest pas visible sur la page dʼaccueil du Panneau de contrôle, cela signifie que votre identifiant dʼorganisation IMS nʼest associé à aucune instance Adobe Campaign Classic v7 ou Campaign v8.
 
 Pour ajouter des adresses IP à la liste autorisée, procédez comme suit :
 
@@ -74,7 +74,7 @@ Pour ajouter des adresses IP à la liste autorisée, procédez comme suit :
 
    >[!NOTE]
    >
-   >Le format CIDR (Classless Inter-Domain Routing) est le format pris en charge lors de l’ajout de plages d’adresses IP avec l’interface du panneau de contrôle. La syntaxe se compose d’une adresse IP, suivie d’un caractère « / » et d’un nombre décimal. Le format et sa syntaxe sont présentés en détail dans [cet article](https://whatismyipaddress.com/cidr).
+   >Le format CIDR (Classless Inter-Domain Routing) est le format pris en charge lors de l’ajout de plages d’adresses IP avec l’interface du Panneau de contrôle. La syntaxe se compose d’une adresse IP, suivie d’un caractère « / » et d’un nombre décimal. Le format et sa syntaxe sont présentés en détail dans [cet article](https://whatismyipaddress.com/cidr).
    >
    >Vous pouvez rechercher sur Internet des outils en ligne gratuits qui vous permettront de convertir la plage IP qui vous intéresse au format CIDR.
 

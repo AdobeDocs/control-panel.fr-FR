@@ -1,8 +1,8 @@
 ---
 product: campaign
 solution: Campaign
-title: FAQ sur le panneau de contrôle
-description: Questions courantes relatives au panneau de contrôle
+title: FAQ sur le Panneau de contrôle
+description: Questions courantes relatives au Panneau de contrôle
 feature: Control Panel
 role: Architect
 level: Intermediate
@@ -18,41 +18,41 @@ ht-degree: 94%
 
 ## Panneau de contrôle {#control-panel}
 
-### Qu’est-ce que le panneau de contrôle ?
+### Qu’est-ce que le Panneau de contrôle ?
 
-Dans le panneau de contrôle, les administrateurs du produit peuvent gérer directement divers paramètres et contrôler la capacité des serveurs SFTP connectés à Adobe Campaign.
+Dans le Panneau de contrôle, les administrateurs du produit peuvent gérer directement divers paramètres et contrôler la capacité des serveurs SFTP connectés à Adobe Campaign.
 
-### Quelles sont les principales fonctionnalités du panneau de contrôle ?
+### Quelles sont les principales fonctionnalités du Panneau de contrôle ?
 
-Le panneau de contrôle vous permet de surveiller le stockage, d’ajouter des adresses IP à la liste autorisée et de gérer les clés SSH de vos serveurs SFTP en fonction de vos besoins et d’autres actions.
+Le Panneau de contrôle vous permet de surveiller le stockage, d’ajouter des adresses IP à la liste autorisée et de gérer les clés SSH de vos serveurs SFTP en fonction de vos besoins et d’autres actions.
 
-Pour plus d’informations, consultez la documentation relative aux actions prises en charge par le panneau de contrôle.
+Pour plus d’informations, consultez la documentation relative aux actions prises en charge par le Panneau de contrôle.
 
 ### Existe-t-il des fonctionnalités non encore prises en charge sur Campaign v8 mais disponibles sur Campaign Classic v7{#v8-restrictions}
 
 Non. Toutes les fonctionnalités disponibles sur Campaign Classic v7 sont désormais prises en charge par Panneau de Contrôle sur Campaign v8, notamment les fonctions liées à la gestion des sous-domaines et des certificats.
 
-### Le panneau de contrôle est-il réservé à Adobe Campaign ?
+### Le Panneau de contrôle est-il réservé à Adobe Campaign ?
 
-Oui, dans le panneau de contrôle, vous pouvez gérer uniquement les paramètres d’Adobe Campaign.
+Oui, dans le Panneau de contrôle, vous pouvez gérer uniquement les paramètres d’Adobe Campaign.
 
-### Puis-je utiliser le panneau de contrôle ?
+### Puis-je utiliser le Panneau de contrôle ?
 
-Le panneau de contrôle n’est accessible que par les administrateurs de produit de nos clients actuels pour lesquels Adobe Campaign est hébergé sur AWS. Notez que les environnements hybrides ne sont pas encore pris en charge.
+Le Panneau de contrôle n’est accessible que par les administrateurs de produit de nos clients actuels pour lesquels Adobe Campaign est hébergé sur AWS. Notez que les environnements hybrides ne sont pas encore pris en charge.
 
 Si vous n’êtes pas administrateur, mais que vous souhaitez y accéder, veuillez contacter votre administrateur de produit pour qu’il vous ajoute en tant qu’administrateur.
 
-### En tant qu’utilisateur de Campaign Classic v7, quelles sont les conditions d’accès au panneau de contrôle ? {#v7-restrictions}
+### En tant qu’utilisateur de Campaign Classic v7, quelles sont les conditions d’accès au Panneau de contrôle ? {#v7-restrictions}
 
-Le panneau de contrôle est accessible aux utilisateurs administrateurs uniquement. [En savoir plus](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html?lang=fr#discover-control-panel).
+Le Panneau de contrôle est accessible aux utilisateurs administrateurs uniquement. [En savoir plus](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html?lang=fr#discover-control-panel).
 
 Pour Campaign Classic v7, veuillez noter que votre instance doit être hébergée sur Amazon Web Services (AWS) et mise à niveau vers le dernier build [Campaign GA](https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/rn-overview.html?lang=fr#rn-statuses). Découvrez comment vérifier votre version de Campaign Classic dans [cette section](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/starting-with-adobe-campaign/launching-adobe-campaign.html?lang=fr#getting-your-campaign-version). Pour vérifier si votre instance Campaign Classic est hébergée sur AWS, suivez les étapes présentées dans [cette section](#hosted-aws).
 
-### Comment puis-je accéder au panneau de contrôle ?
+### Comment puis-je accéder au Panneau de contrôle ?
 
-Consultez les instructions détaillées dans la documentation relative à l’accès au panneau de contrôle.
+Consultez les instructions détaillées dans la documentation relative à l’accès au Panneau de contrôle.
 
-### Y a-t-il des frais supplémentaires pour l’utilisation du panneau de contrôle ?
+### Y a-t-il des frais supplémentaires pour l’utilisation du Panneau de contrôle ?
 
 Non, il n’y a pas de frais supplémentaires si vous êtes déjà client Adobe Campaign.
 

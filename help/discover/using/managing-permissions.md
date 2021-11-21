@@ -1,8 +1,8 @@
 ---
 product: campaign
 solution: Campaign
-title: Gestion des autorisations pour le panneau de contrôle
-description: Découvrez comment gérer les autorisations du panneau de contrôle
+title: Gestion des autorisations pour le Panneau de contrôle
+description: Découvrez comment gérer les autorisations du Panneau de contrôle
 feature: Control Panel
 role: Architect
 level: Intermediate
@@ -14,13 +14,13 @@ ht-degree: 100%
 
 ---
 
-# Gestion des autorisations pour le panneau de contrôle {#managing-permissions-control-panel}
+# Gestion des autorisations pour le Panneau de contrôle {#managing-permissions-control-panel}
 
-Tous les utilisateurs administrateurs d’une instance Campaign ont accès au panneau de contrôle. Pour affecter des utilisateurs au groupe Administrateurs et leur accorder un accès au panneau de contrôle, suivez la procédure ci-dessous.
+Tous les utilisateurs administrateurs d’une instance Campaign ont accès au Panneau de contrôle. Pour affecter des utilisateurs au groupe Administrateurs et leur accorder un accès au Panneau de contrôle, suivez la procédure ci-dessous.
 
 ![](assets/do-not-localize/how-to-video.png) Découvrez cette fonctionnalité en [vidéo](../../discover/using/managing-permissions.md#video)
 
-1. Naviguez vers la [page d’accueil d’Adobe Experience Cloud](https://experiencecloud.adobe.com/){target=&quot;_blank&quot;}.
+1. Naviguez vers la [page d’accueil d’Adobe Experience Cloud](https://experiencecloud.adobe.com/){target=&quot;_blank&quot;}.
 
 1. Lancez **Admin Console** en cliquant sur le lien disponible dans la section **Accès rapide** ou dans le menu supérieur droit.
 
@@ -44,7 +44,7 @@ Tous les utilisateurs administrateurs d’une instance Campaign ont accès au pa
 
    >[!NOTE]
    >
-   >Vous pouvez ajouter différents utilisateurs administrateurs pour chaque instance Campaign. Les utilisateurs administrateurs accèdent uniquement au panneau de contrôle de l’instance à laquelle ils appartiennent.
+   >Vous pouvez ajouter différents utilisateurs administrateurs pour chaque instance Campaign. Les utilisateurs administrateurs accèdent uniquement au Panneau de contrôle de l’instance à laquelle ils appartiennent.
 
 1. La liste des **[!UICONTROL Profils de produit]** de l’instance sélectionnée s’affiche. Cliquez sur le profil de produit **[!UICONTROL Administrateurs]** pour accéder à la liste des utilisateurs administrateurs.
 
@@ -60,7 +60,7 @@ Tous les utilisateurs administrateurs d’une instance Campaign ont accès au pa
 
 >[!NOTE]
 >
->Une fois l’accès configuré, l’utilisateur devra se déconnecter d’Adobe Experience Cloud puis se reconnecter pour pouvoir accéder au panneau de contrôle.
+>Une fois l’accès configuré, l’utilisateur devra se déconnecter d’Adobe Experience Cloud puis se reconnecter pour pouvoir accéder au Panneau de contrôle.
 
 ## Tutoriel vidéo {#video}
 
