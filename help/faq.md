@@ -8,9 +8,9 @@ role: Architect
 level: Intermediate
 exl-id: 4f329764-ed8b-4939-affc-ed994fd6101d
 source-git-commit: 47a57b38e9af8b03d277bf9ee6922b19f0298944
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '774'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -28,9 +28,9 @@ Le Panneau de contrôle vous permet de surveiller le stockage, d’ajouter des a
 
 Pour plus d’informations, consultez la documentation relative aux actions prises en charge par le Panneau de contrôle.
 
-### Existe-t-il des fonctionnalités non encore prises en charge sur Campaign v8 mais disponibles sur Campaign Classic v7{#v8-restrictions}
+### Existe-t-il des fonctionnalités non encore prises en charge sur Campaign v8 mais disponibles sur Campaign Classic v7 ?{#v8-restrictions}
 
-Non. Toutes les fonctionnalités disponibles sur Campaign Classic v7 sont désormais prises en charge par Panneau de Contrôle sur Campaign v8, notamment les fonctions liées à la gestion des sous-domaines et des certificats.
+Non. Toutes les fonctionnalités disponibles sur Campaign Classic v7 sont désormais prises en charge par le Panneau de contrôle sur Campaign v8, notamment les fonctions liées à la gestion des sous-domaines et des certificats. 
 
 ### Le Panneau de contrôle est-il réservé à Adobe Campaign ?
 
@@ -66,7 +66,7 @@ Pour plus d’informations, voir la [documentation relative à Adobe Experience
 
 ### Où puis-je trouver mon identifiant de l’organisation IMS ?
 
-Une méthode consiste à accéder à la [page d’accueil d’Adobe Experience Cloud](https://experiencecloud.adobe.com/) > **[!UICONTROL Administration]**. Vous trouverez votre identifiant de l’organisation IMS au bas de la section **[!UICONTROL Accès rapide]** dans Administration. Vous trouverez des informations plus détaillées dans la [documentation Adobe Experience Cloud](https://experienceleague.adobe.com/docs/core-services/interface/administration/organizations.html).
+Une méthode consiste à accéder à la [page d’accueil d’Adobe Experience Cloud](https://experiencecloud.adobe.com/) > **[!UICONTROL Administration]**. Vous trouverez votre identifiant de l’organisation IMS au bas de la section **[!UICONTROL Accès rapide]** dans Administration. Vous trouverez des informations plus détaillées dans la [documentation Adobe Experience Cloud](https://experienceleague.adobe.com/docs/core-services/interface/administration/organizations.html?lang=fr).
 
 Vous pouvez aussi lancer **Admin Console**. Votre identifiant de l’organisation IMS est visible dans l’URL, qui se présente comme suit : https://adminconsole.adobe.com/xxx@AdobeOrg/overview.
 
