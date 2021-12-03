@@ -6,9 +6,9 @@ role: Architect
 level: Beginner
 exl-id: 2b2cfaed-e42e-4c3a-a8d8-224b936890ab
 source-git-commit: 28688c8abc92d77d41ee27fe727b85504ba74877
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '232'
-ht-degree: 68%
+ht-degree: 100%
 
 ---
 
@@ -27,15 +27,15 @@ ht-degree: 68%
 
 **Prise en charge complète de Campaign v8**
 
-Toutes les fonctionnalités, y compris **Subdomain** et **Certificat** gestion, sont désormais prises en charge par Panneau de Contrôle sur Adobe Campaign v8. [En savoir plus](faq.md#v8-restrictions)
+Toutes les fonctionnalités, y compris la gestion des **Sous-domaines** et des **Certificats**, sont désormais prises en charge par le Panneau de contrôle dans Adobe Campaign v8. [En savoir plus](faq.md#v8-restrictions)
 
-**Période de validité de la plage d’adresses IP et édition**
+**Période de validité et modification de la plage d’adresses IP**
 
-Il est désormais possible de définir une durée pour la disponibilité des plages d’adresses IP et de modifier les plages d’adresses IP que vous créez. [En savoir plus](sftp/using/ip-range-allow-listing.md)
+Il est désormais possible de définir une durée pour la disponibilité des plages d’adresses IP et de modifier celles que vous créez. [En savoir plus](sftp/using/ip-range-allow-listing.md)
 
-**Période de validité de la clé publique et édition**
+**Période de validité et modification des clés publiques**
 
-De même, vous pouvez maintenant définir une durée de disponibilité des clés publiques et modifier les clés publiques que vous créez. [En savoir plus](sftp/using/key-management.md)
+De même, vous pouvez maintenant définir une durée de disponibilité des clés publiques et modifier celles que vous créez. [En savoir plus](sftp/using/key-management.md)
 
 >[!CAUTION]
 >
