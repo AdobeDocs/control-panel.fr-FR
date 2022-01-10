@@ -7,10 +7,10 @@ feature: Control Panel
 role: Architect
 level: Intermediate
 exl-id: 4f329764-ed8b-4939-affc-ed994fd6101d
-source-git-commit: 47a57b38e9af8b03d277bf9ee6922b19f0298944
-workflow-type: ht
-source-wordcount: '774'
-ht-degree: 100%
+source-git-commit: 5c7937fc201e83f8afd3973b50e8121e2fd2bf41
+workflow-type: tm+mt
+source-wordcount: '771'
+ht-degree: 96%
 
 ---
 
@@ -44,9 +44,9 @@ Si vous n’êtes pas administrateur, mais que vous souhaitez y accéder, veuill
 
 ### En tant qu’utilisateur de Campaign Classic v7, quelles sont les conditions d’accès au Panneau de contrôle ? {#v7-restrictions}
 
-Le Panneau de contrôle est accessible aux utilisateurs administrateurs uniquement. [En savoir plus](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html?lang=fr#discover-control-panel).
+Le Panneau de contrôle est accessible aux utilisateurs administrateurs uniquement. [En savoir plus](discover/using/managing-permissions.md).
 
-Pour Campaign Classic v7, veuillez noter que votre instance doit être hébergée sur Amazon Web Services (AWS) et mise à niveau vers le dernier build [Campaign GA](https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/rn-overview.html?lang=fr#rn-statuses). Découvrez comment vérifier votre version de Campaign Classic dans [cette section](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/starting-with-adobe-campaign/launching-adobe-campaign.html?lang=fr#getting-your-campaign-version). Pour vérifier si votre instance Campaign Classic est hébergée sur AWS, suivez les étapes présentées dans [cette section](#hosted-aws).
+Pour Campaign Classic v7, notez que votre instance doit être hébergée sur Amazon Web Services (AWS) et mise à niveau vers la dernière version [Build stable Campaign](https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/rn-overview.html?lang=fr#rn-statuses) ou pour construire 9032 ou une version ultérieure. Découvrez comment vérifier votre version de Campaign Classic dans [cette section](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/starting-with-adobe-campaign/launching-adobe-campaign.html?lang=fr#getting-your-campaign-version). Pour vérifier si votre instance Campaign Classic est hébergée sur AWS, suivez les étapes présentées dans [cette section](#hosted-aws).
 
 ### Comment puis-je accéder au Panneau de contrôle ?
 
@@ -66,7 +66,7 @@ Pour plus d’informations, voir la [documentation relative à Adobe Experience
 
 ### Où puis-je trouver mon identifiant de l’organisation IMS ?
 
-Une méthode consiste à accéder à la [page d’accueil d’Adobe Experience Cloud](https://experiencecloud.adobe.com/) > **[!UICONTROL Administration]**. Vous trouverez votre identifiant de l’organisation IMS au bas de la section **[!UICONTROL Accès rapide]** dans Administration. Vous trouverez des informations plus détaillées dans la [documentation Adobe Experience Cloud](https://experienceleague.adobe.com/docs/core-services/interface/administration/organizations.html?lang=fr).
+Une méthode consiste à accéder à la [page d’accueil d’Adobe Experience Cloud](https://experiencecloud.adobe.com/) > **[!UICONTROL Administration]**. Vous trouverez votre identifiant de l’organisation IMS au bas de la section **[!UICONTROL Accès rapide]** dans Administration. Vous trouverez des informations plus détaillées dans la [documentation Adobe Experience Cloud](https://experienceleague.adobe.com/docs/core-services/interface/administration/organizations.html).
 
 Vous pouvez aussi lancer **Admin Console**. Votre identifiant de l’organisation IMS est visible dans l’URL, qui se présente comme suit : https://adminconsole.adobe.com/xxx@AdobeOrg/overview.
 
