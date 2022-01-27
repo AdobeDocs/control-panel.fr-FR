@@ -10,19 +10,19 @@ exl-id: 13aceffb-ceaa-4cfe-8741-95d66c5c6caa
 source-git-commit: 5c7937fc201e83f8afd3973b50e8121e2fd2bf41
 workflow-type: tm+mt
 source-wordcount: '778'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
 # Versions du Panneau de contrôle {#control-panel-releases}
 
-Vous trouverez ici des informations sur les dernières versions du Panneau de contrôle.
+Vous trouverez ici des informations sur les dernières versions du panneau de contrôle.
 
 >[!NOTE]
 >
->Le Panneau de Contrôle est accessible uniquement aux utilisateurs administrateurs. En savoir plus sur les autorisations dans [cette section](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html?lang=fr#discover-control-panel).
+>Le panneau de contrôle est accessible uniquement aux utilisateurs administrateurs. Pour en savoir plus sur les autorisations, consultez [cette section](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html?lang=fr#discover-control-panel).
 >
->Pour Campaign Classic v7, votre instance doit être hébergée sur Amazon Web Services (AWS) et mise à niveau vers la dernière version [Build stable Campaign](https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/rn-overview.html?lang=fr#rn-statuses) (ou pour créer le build 9032 ou supérieur). Découvrez comment vérifier votre version dans [cette section](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/starting-with-adobe-campaign/launching-adobe-campaign.html?lang=fr#getting-your-campaign-version). Pour vérifier si votre instance est hébergée sur AWS, suivez les étapes présentées sur [cette page](faq.md#hosted-aws).
+>Pour Campaign Classic v7, votre instance doit être hébergée sur Amazon Web Services (AWS) et mise à niveau vers le dernier [build stable de Campaign](https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/rn-overview.html?lang=fr#rn-statuses) (ou vers le build 9032 ou supérieur). Découvrez comment vérifier votre version dans [cette section](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/starting-with-adobe-campaign/launching-adobe-campaign.html?lang=fr#getting-your-campaign-version). Pour vérifier si votre instance est hébergée sur AWS, suivez les étapes présentées sur [cette page](faq.md#hosted-aws).
 
 ## Octobre 2021 {#october-2021}
 
