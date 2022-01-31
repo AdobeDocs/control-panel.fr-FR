@@ -7,9 +7,9 @@ feature: Control Panel
 role: Architect
 level: Experienced
 exl-id: d92781c3-14cc-4716-a131-580ccff46d6e
-source-git-commit: 46a4e13e8017c5406dcd65f21c9839374dd44aa7
+source-git-commit: 278788a69f06865b6a38d8a901077866e1bc88ee
 workflow-type: tm+mt
-source-wordcount: '1362'
+source-wordcount: '1382'
 ht-degree: 100%
 
 ---
@@ -38,9 +38,7 @@ Cette page fournit des informations sur la configuration de nouveaux sous-domain
 
 La configuration de sous-domaine n’est disponible que pour les instances de **production**.
 
-Si l’instance sélectionnée dans l’assistant ne comporte aucun sous-domaine configuré précédemment, le premier sous-domaine configuré deviendra le **sous-domaine principal** pour cette instance et vous ne pourrez plus le modifier par la suite.
-
-Des **enregistrements DNS inversés** seront créés pour d’autres sous-domaines utilisant ce sous-domaine principal. **Les adresses de réponse et bounce pour les autres sous-domaines seront générées à partir du sous-domaine principal.**
+Si l’instance sélectionnée dans l’assistant ne comporte aucun sous-domaine configuré précédemment, le premier sous-domaine configuré deviendra le **sous-domaine principal** pour cette instance et vous ne pourrez plus le modifier par la suite. Des **enregistrements DNS inversés** seront créés pour d’autres sous-domaines utilisant ce sous-domaine principal. **Les adresses de réponse et bounce pour les autres sous-domaines seront générées à partir du sous-domaine principal.**
 
 ### Configuration des serveurs de noms
 
@@ -54,27 +52,27 @@ De plus, **ne créez pas de fichier de zone distinct** pour ce nouveau sous-doma
 >id="cp_add_new_subdomain"
 >title="Ajout d’un nouveau sous-domaine"
 >abstract="Adobe recommande la délégation complète des sous-domaines. Cependant, vous pouvez utiliser des CNAME ou une méthode personnalisée pour configurer vos sous-domaines."
->additional-url="https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/setting-up-new-subdomain.html?lang=fr" text="Configuration dʼun nouveau sous-domaine"
->additional-url="https://helpx.adobe.com/fr/enterprise/using/support-for-experience-cloud.html" text="Contacter lʼassistance clientèle"
+>additional-url="https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/setting-up-new-subdomain.html?lang=fr" text="Configuration d’un nouveau sous-domaine"
+>additional-url="https://helpx.adobe.com/fr/enterprise/using/support-for-experience-cloud.html" text="Contacter l’assistance clientèle"
 
 
 >[!CONTEXTUALHELP]
 >id="cp_add_subdomain_create_delegate"
 >title="Création et délégation de votre sous-domaine"
->abstract="Créez le sous-domaine que vous souhaitez utiliser avec Adobe Campaign dans votre solution dʼhébergement et déléguez-le à Adobe."
->additional-url="https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/setting-up-new-subdomain.html" text="Configuration dʼun nouveau sous-domaine"
+>abstract="Créez le sous-domaine que vous souhaitez utiliser avec Adobe Campaign dans votre solution d’hébergement et déléguez-le à Adobe."
+>additional-url="https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/setting-up-new-subdomain.html" text="Configuration d’un nouveau sous-domaine"
 
 >[!CONTEXTUALHELP]
 >id="cp_add_subdomain_submit"
 >title="Envoi de votre sous-domaine"
 >abstract="Confirmez et envoyez le sous-domaine qui a été configuré lors des étapes précédentes."
->additional-url="https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/setting-up-new-subdomain.html" text="Configuration dʼun nouveau sous-domaine"
+>additional-url="https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/setting-up-new-subdomain.html" text="Configuration d’un nouveau sous-domaine"
 
 Pour déléguer complètement un sous-domaine à Adobe Campaign, procédez comme suit.
 
 ![](assets/do-not-localize/how-to-video.png) Découvrez cette fonctionnalité en vidéo dans [Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/subdomains-and-certificates/subdomain-delegation.html?lang=fr#subdomains-and-certificates) ou [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/subdomains-and-certificates/subdomain-delegation.html?lang=fr#subdomains-and-certificates)
 
-1. Dans la carte **[!UICONTROL Sous-domaines et certificats]**, sélectionnez l’instance de production souhaitée, puis cliquez sur **[!UICONTROL Configurer un nouveau sous-domaine]**.
+1. Dans la vignette **[!UICONTROL Sous-domaines et certificats]**, sélectionnez l’instance de production souhaitée, puis cliquez sur **[!UICONTROL Configurer un nouveau sous-domaine]**.
 
    ![](assets/subdomain1.png)
 
@@ -117,7 +115,7 @@ Une fois le sous-domaine soumis, le Panneau de contrôle procède à différents
 >id="cp_add_cname_records"
 >title="Génération d’enregistrements"
 >abstract="Accédez à votre solution d’hébergement afin de générer la liste d’enregistrements DNS affichée dans cet écran."
->additional-url="https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/setting-up-new-subdomain.html" text="Configuration dʼun nouveau sous-domaine"
+>additional-url="https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/setting-up-new-subdomain.html" text="Configuration d’un nouveau sous-domaine"
 
 >[!CONTEXTUALHELP]
 >id="cp_add_cname_subdomain_submit"
@@ -129,7 +127,7 @@ Pour configurer un sous-domaine à l’aide de CNAME, procédez comme suit.
 
 ![](assets/do-not-localize/how-to-video.png) Découvrez cette fonctionnalité en vidéo dans [Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/subdomains-and-certificates/delegating-subdomains-using-cname.html?lang=fr#subdomains-and-certificates) ou [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/subdomains-and-certificates/delegating-subdomains-using-cname.html?lang=fr)
 
-1. Dans la carte **[!UICONTROL Sous-domaines et certificats]**, sélectionnez l’instance de production souhaitée, puis cliquez sur **[!UICONTROL Configurer un nouveau sous-domaine]**.
+1. Dans la vignette **[!UICONTROL Sous-domaines et certificats]**, sélectionnez l’instance de production souhaitée, puis cliquez sur **[!UICONTROL Configurer un nouveau sous-domaine]**.
 
    ![](assets/subdomain1.png)
 
@@ -165,11 +163,11 @@ Une fois le sous-domaine soumis, le Panneau de contrôle procède à différents
 
 ## Vérifications et configuration des sous-domaines {#subdomain-checks-and-configuration}
 
-1. Une fois le sous-domaine soumis, le Panneau de contrôle vérifie qu’il pointe correctement vers les enregistrements Adobe NS et que l’enregistrement Start of Authority (SOA) n’existe pas pour ce sous-domaine.
+1. Une fois le sous-domaine soumis, le panneau de contrôle vérifie qu’il pointe correctement vers les enregistrements Adobe NS et que l’enregistrement Start of Authority (SOA) n’existe pas pour ce sous-domaine.
 
    >[!NOTE]
    >
-   >Pendant l’exécution de la configuration de sous-domaine, d’autres requêtes effectuées via le Panneau de contrôle seront mises en file d’attente et exécutées uniquement une fois la configuration de sous-domaine terminée. Cela permet d’éviter tout problème de performances.
+   >Pendant l’exécution de la configuration de sous-domaine, d’autres demandes effectuées via le panneau de contrôle seront mises en file d’attente et exécutées uniquement une fois la configuration de sous-domaine terminée. Cela permet d’éviter tout problème de performances.
 
 1. Si les vérifications réussissent, le Panneau de contrôle commence à configurer le sous-domaine avec des enregistrements DNS, des URL supplémentaires, des boîtes de réception, etc.
 
@@ -184,6 +182,8 @@ Une fois le sous-domaine soumis, le Panneau de contrôle procède à différents
    >[!IMPORTANT]
    >
    >Les contrôles de délivrabilité effectués comprennent les tests de boucles de retour d&#39;information et de boucles de plaintes pour spam. Nous vous déconseillons donc d’utiliser le sous-domaine avant la fin de la vérification, car cela pourrait entraîner une mauvaise réputation du sous-domaine.
+   >
+   >Notez toutefois que vous pouvez effectuer des opérations liées aux certificats SSL sur votre sous-domaine, même si l’audit de délivrabilité est toujours en cours.
 
 1. À la fin du processus, les sous-domaines sont configurés pour fonctionner avec votre instance Adobe Campaign et les éléments suivants sont créés :
 

@@ -6,9 +6,9 @@ user-guide-title: Guide du Panneau de contrôle
 feature: Control Panel
 role: Architect
 level: Beginner
-source-git-commit: 4b8020dfd5d1f81a81d0e20025cfabe734744d34
+source-git-commit: 9a864f8a80ed0d34212e5e825cc8962e557345a7
 workflow-type: tm+mt
-source-wordcount: '98'
+source-wordcount: '118'
 ht-degree: 100%
 
 ---
@@ -39,8 +39,15 @@ ht-degree: 100%
    + [Gestion des enregistrements TXT](subdomains-certificates/using/managing-txt-records.md)
 + Suivi des performances {#performance-monitoring}
    + [À propos du suivi des performances](performance-monitoring/using/about-performance-monitoring.md)
-   + [Surveillance des bases de données](performance-monitoring/using/database-monitoring.md)
+   + Surveillance des bases de données {#database-monitoring}
+      + [À propos de la surveillance des bases de données](performance-monitoring/using/database-monitoring.md)
+      + [Utilisation de la base de données](performance-monitoring/using/database-utilization.md)
+      + [Présentation de l’espace de stockage](performance-monitoring/using/database-storage-overview.md)
+      + [Top 10 des ressources temporaires](performance-monitoring/using/database-top-ten-resources.md)
+      + [Surveillance des requêtes actives](performance-monitoring/using/database-active-queries.md)
+      + [Prévention des surcharges des bases de données](performance-monitoring/using/database-preventing-overload.md)
    + [Surveillance des profils actifs](performance-monitoring/using/active-profiles-monitoring.md)
+   + [Surveillance des débits et de la latence](performance-monitoring/using/thoughputs-latencies.md)
    + [Alertes par e-mail](performance-monitoring/using/email-alerting.md)
 + Paramètres des instances {#instances-settings}
    + [Listes autorisées des adresses IP pour l’accès aux instances](instances-settings/using/ip-allow-listing-instance-access.md)

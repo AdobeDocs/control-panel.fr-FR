@@ -7,9 +7,9 @@ feature: Control Panel
 role: Architect
 level: Beginner
 exl-id: 13aceffb-ceaa-4cfe-8741-95d66c5c6caa
-source-git-commit: 5c7937fc201e83f8afd3973b50e8121e2fd2bf41
+source-git-commit: 10c4cf41dc9502bb66566951780cf8f963b08aa9
 workflow-type: tm+mt
-source-wordcount: '778'
+source-wordcount: '858'
 ht-degree: 100%
 
 ---
@@ -24,19 +24,33 @@ Vous trouverez ici des informations sur les dernières versions du panneau de co
 >
 >Pour Campaign Classic v7, votre instance doit être hébergée sur Amazon Web Services (AWS) et mise à niveau vers le dernier [build stable de Campaign](https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/rn-overview.html?lang=fr#rn-statuses) (ou vers le build 9032 ou supérieur). Découvrez comment vérifier votre version dans [cette section](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/starting-with-adobe-campaign/launching-adobe-campaign.html?lang=fr#getting-your-campaign-version). Pour vérifier si votre instance est hébergée sur AWS, suivez les étapes présentées sur [cette page](faq.md#hosted-aws).
 
+## Janvier 2022 {#january-2022}
+
+**Surveillance des requêtes actives**
+
+Le panneau de contrôle vous permet désormais de surveiller les requêtes qui ont été exécutées le plus longtemps sur vos instances. [En savoir plus](performance-monitoring/using/database-active-queries.md)
+
+**Surveillance des débits et de la latence**
+
+Vous pouvez désormais surveiller les fluctuations des débits de diffusion et de latence sur vos instances au cours d’une période donnée. [En savoir plus](performance-monitoring/using/thoughputs-latencies.md)
+
+**Opérations liées aux certificats SSL sur de nouveaux sous-domaines**
+
+Les opérations liées aux certificats SSL peuvent désormais être effectuées sur un sous-domaine nouvellement créé, même si l’audit de délivrabilité est toujours en cours. [En savoir plus](subdomains-certificates/using/renewing-subdomain-certificate.md)
+
 ## Octobre 2021 {#october-2021}
 
-**Période de validité des plages dʼadresses IP et des clés publiques**
+**Période de validité des plages d’adresses IP et des clés publiques**
 
-Il est désormais possible de définir une durée pour la disponibilité des plages dʼadresses IP et des clés publiques. Pour en savoir plus, consultez les sections [Liste autorisée des plages dʼadresses IP](sftp/using/ip-range-allow-listing.md#adding-ip-addresses-allow-list) et [Gestion des clés](sftp/using/key-management.md#installing-ssh-key).
+Il est désormais possible de définir une durée pour la disponibilité des plages d’adresses IP et des clés publiques. Pour en savoir plus, consultez les sections [Liste autorisée des plages d’adresses IP](sftp/using/ip-range-allow-listing.md#adding-ip-addresses-allow-list) et [Gestion des clés](sftp/using/key-management.md#installing-ssh-key).
 
-**Modification des plages dʼadresses IP et des clés publiques**
+**Modification des plages d’adresses IP et des clés publiques**
 
-Vous pouvez désormais modifier les [plages dʼadresses IP](sftp/using/ip-range-allow-listing.md#editing-ip-ranges) et les [clés publiques](sftp/using/key-management.md#editing-public-keys) que vous créez. Notez que les éléments créés avant la version actuelle du Panneau de contrôle ne prennent pas en charge cette fonctionnalité.
+Vous pouvez désormais modifier les [plages d’adresses IP](sftp/using/ip-range-allow-listing.md#editing-ip-ranges) et les [clés publiques](sftp/using/key-management.md#editing-public-keys) que vous créez. Notez que les éléments créés avant la version actuelle du Panneau de contrôle ne prennent pas en charge cette fonctionnalité.
 
-**Envoi dʼalertes lors de lʼexpiration des plages dʼadresses IP et des clés publiques SFTP**
+**Envoi d’alertes lors de l’expiration des plages d’adresses IP et des clés publiques SFTP**
 
-La fonctionnalité de réception dʼalertes par email vous avertit désormais lorsque la liste autorisée des adresses IP SFTP et les clés publiques SFTP arrivent à expiration. [En savoir plus](performance-monitoring/using/email-alerting.md)
+La fonctionnalité de réception d’alertes par email vous avertit désormais lorsque la liste autorisée des adresses IP SFTP et les clés publiques SFTP arrivent à expiration. [En savoir plus](performance-monitoring/using/email-alerting.md)
 
 **Prise en charge complète de Campaign v8**
 
