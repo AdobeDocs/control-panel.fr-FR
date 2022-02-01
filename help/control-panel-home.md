@@ -5,9 +5,9 @@ feature: Control Panel
 role: Architect
 level: Beginner
 exl-id: 2b2cfaed-e42e-4c3a-a8d8-224b936890ab
-source-git-commit: 28688c8abc92d77d41ee27fe727b85504ba74877
+source-git-commit: a99c3753a2bf4378e981629feb934e39fdd410d8
 workflow-type: tm+mt
-source-wordcount: '232'
+source-wordcount: '197'
 ht-degree: 100%
 
 ---
@@ -25,17 +25,14 @@ ht-degree: 100%
 
 ## Nouveautés
 
-**Prise en charge complète de Campaign v8**
+**Surveillance des requêtes actives**
 
-Toutes les fonctionnalités, y compris la gestion des **Sous-domaines** et des **Certificats**, sont désormais prises en charge par le Panneau de contrôle dans Adobe Campaign v8. [En savoir plus](faq.md#v8-restrictions)
+Le panneau de contrôle vous permet désormais de surveiller les requêtes qui ont été exécutées le plus longtemps sur vos instances. [En savoir plus](performance-monitoring/using/database-active-queries.md)
 
-**Période de validité et modification de la plage d’adresses IP**
+**Surveillance des débits et de la latence**
 
-Il est désormais possible de définir une durée pour la disponibilité des plages d’adresses IP et de modifier celles que vous créez. [En savoir plus](sftp/using/ip-range-allow-listing.md)
+Vous pouvez désormais surveiller les fluctuations des débits de diffusion et de latence sur vos instances au cours d’une période donnée. [En savoir plus](performance-monitoring/using/thoughputs-latencies.md)
 
-**Période de validité et modification des clés publiques**
-
-De même, vous pouvez maintenant définir une durée de disponibilité des clés publiques et modifier celles que vous créez. [En savoir plus](sftp/using/key-management.md)
 
 >[!CAUTION]
 >
