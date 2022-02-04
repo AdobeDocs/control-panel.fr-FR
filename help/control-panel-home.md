@@ -6,7 +6,7 @@ role: Architect
 level: Beginner
 exl-id: 2b2cfaed-e42e-4c3a-a8d8-224b936890ab
 source-git-commit: a99c3753a2bf4378e981629feb934e39fdd410d8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '197'
 ht-degree: 100%
 
