@@ -6,11 +6,10 @@ description: Découvrez comment surveiller les requêtes actives sur vos instanc
 feature: Control Panel
 role: Architect
 level: Experienced
-exl-id: bb9e1ce3-2472-4bc1-a82a-a301c6bf830e
-source-git-commit: 6922e132321f67e1e8122e33ead3c5e54c639763
-workflow-type: ht
-source-wordcount: '111'
-ht-degree: 100%
+source-git-commit: 12e9326ba220776874654705587152bf3978949c
+workflow-type: tm+mt
+source-wordcount: '123'
+ht-degree: 52%
 
 ---
 
@@ -24,4 +23,6 @@ Les colonnes **[!UICONTROL Durée]** indiquent la durée d’exécution d’une 
 
 >[!IMPORTANT]
 >
->Si l’une des requêtes est active depuis plus de 24 heures, contactez l’assistance clientèle afin qu’elle identifie et résolve le problème. Dans ce cas, vous devrez communiquer la valeur de la colonne **[!UICONTROL PID]**, qui est un identifiant unique pour la requête.
+>Si l’une des requêtes est principale depuis plus de 24 heures, vous en serez averti par email si vous vous êtes abonné à [alertes par email](email-alerting.md).
+>
+>Dans ce cas, contactez l’assistance clientèle afin qu’elle identifie et résolve le problème. Vous devrez leur fournir la variable **[!UICONTROL PID]** valeur de colonne, qui est un identifiant unique de la requête.
