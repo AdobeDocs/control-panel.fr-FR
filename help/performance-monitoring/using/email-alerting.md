@@ -7,10 +7,10 @@ feature: Control Panel
 role: Architect
 level: Experienced
 exl-id: 7942d2b1-d28f-4760-aa25-5ba94a627fd0
-source-git-commit: ec83878e93536c979c39da52ed07b465f4fbbcb1
+source-git-commit: 65f4603e6ff6c232479bf567981871e92b1cfa1c
 workflow-type: tm+mt
-source-wordcount: '243'
-ht-degree: 91%
+source-wordcount: '222'
+ht-degree: 100%
 
 ---
 
@@ -44,4 +44,4 @@ La liste des alertes est la suivante :
 
 * **Expiration de clé publique SFTP** : l’une des clés publiques que vous avez définies est arrivée ou arrivera à expiration dans 10 jours ou moins. Consultez la section [Gestion des clés](../../sftp/using/key-management.md).
 
-* **Requêtes de longue durée**: Une requête est en cours d’exécution depuis plus de 24 heures sur l’une de vos instances. Voir [Surveillance des requêtes principales](database-active-queries.md).
+<!--* **Long running Queries**: A query has been running for more than 24 hours on one of your instances. See [Monitoring active queries](database-active-queries.md).-->
