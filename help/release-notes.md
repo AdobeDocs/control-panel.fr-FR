@@ -7,9 +7,9 @@ feature: Control Panel
 role: Architect
 level: Beginner
 exl-id: 13aceffb-ceaa-4cfe-8741-95d66c5c6caa
-source-git-commit: 65f4603e6ff6c232479bf567981871e92b1cfa1c
+source-git-commit: 76301a1e222da17a2b4fd58d68d24efd04b07b1c
 workflow-type: tm+mt
-source-wordcount: '834'
+source-wordcount: '858'
 ht-degree: 100%
 
 ---
@@ -26,9 +26,9 @@ Vous trouverez ici des informations sur les dernières versions du panneau de co
 
 ## Janvier 2022 {#january-2022}
 
-<!-- **Active queries monitoring**
+**Surveillance des requêtes actives**
 
-Control Panel now allows you to monitor queries that have been running for the longest time on your instances. [Read more](performance-monitoring/using/database-active-queries.md)-->
+Le panneau de contrôle vous permet désormais de surveiller les requêtes qui ont été exécutées le plus longtemps sur vos instances. [En savoir plus](performance-monitoring/using/database-active-queries.md)
 
 **Surveillance des débits et de la latence**
 
