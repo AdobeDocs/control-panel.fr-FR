@@ -7,10 +7,10 @@ feature: Control Panel
 role: Architect
 level: Experienced
 exl-id: bb9e1ce3-2472-4bc1-a82a-a301c6bf830e
-source-git-commit: 9accc4306bacab3bc27922f495c19138f905b1c5
-workflow-type: ht
-source-wordcount: '141'
-ht-degree: 100%
+source-git-commit: c52094b8145bdd84aa9e71430a811b8a7b32354d
+workflow-type: tm+mt
+source-wordcount: '175'
+ht-degree: 74%
 
 ---
 
@@ -35,8 +35,8 @@ La zone **[!UICONTROL Présentation de l’espace de stockage]** contient une re
 
 Cliquez sur le bouton **[!UICONTROL Afficher les détails]** pour obtenir davantage de détails sur les différentes ressources qui consomment de l’espace de base de données.
 
+Vous pouvez utiliser la liste déroulante pour affiner votre recherche et afficher uniquement les tableaux d’un type de ressource spécifique (workflows, diffusions, destinataires).
+
 ![](assets/database-storage-details.png)
 
-Utilisez le filtre pour affiner votre recherche et n’afficher que les tables d’un type de ressource spécifique.
-
-![](assets/database-storage-overview-filter.png)
+Notez que cet écran vous permet également de surveiller les paramètres de workflow qui peuvent nécessiter une attention particulière pour éviter tout problème sur vos instances. Apprenez-en davantage en consultant [cette page](workflow-monitoring.md).
