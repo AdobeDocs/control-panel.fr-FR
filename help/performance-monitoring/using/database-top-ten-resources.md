@@ -8,9 +8,9 @@ role: Architect
 level: Experienced
 exl-id: 2fa2ffbb-102b-42c4-8feb-b0263ee9c930
 source-git-commit: b17abddf6bad7e58cb7bd825cd97322427a0b21f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '182'
-ht-degree: 79%
+ht-degree: 100%
 
 ---
 
@@ -22,10 +22,10 @@ La surveillance des workflows et des diffusions qui créent des ressources tempo
 
 >[!IMPORTANT]
 >
->À titre de recommandation générale, il est préférable d’éviter de placer **plus de 40 colonnes** dans des ressources à configurer. Si un workflow présente un grand nombre de tables ou des tailles volumineuses de base de données, nous recommandons de le vérifier afin de déterminer pourquoi il génère autant de données.
+>La recommandation générale est d’éviter d’avoir **plus de 40 colonnes** dans des ressources à configurer. Si un workflow présente un grand nombre de tables ou des tailles volumineuses de base de données, nous vous recommandons de l’examiner afin de déterminer pourquoi il génère autant de données.
 >
->Les instructions Campaign Standard et Classic sont également disponibles dans [cette page](database-preventing-overload.md) pour vous aider à éviter la surcharge de la base de données.
+>Les directives de Campaign Standard et Classic pour vous permettre d’éviter une surcharge de la base de données sont également disponibles sur [cette page](database-preventing-overload.md).
 
 ![](assets/database-top10.png)
 
-Le **[!UICONTROL Afficher tout]** vous permet d’accéder à la **[!UICONTROL Présentation du stockage]** détails pour obtenir des informations détaillées sur ces ressources temporaires. Pour plus dʼinformations, consultez [cette page](database-storage-overview.md).
+Le bouton **[!UICONTROL Afficher tout]** vous permet d’accéder aux détails de la **[!UICONTROL Présentation de l’espace de stockage]** pour obtenir des informations détaillées sur ces ressources temporaires. Pour en savoir plus, reportez-vous à [cette page](database-storage-overview.md).
