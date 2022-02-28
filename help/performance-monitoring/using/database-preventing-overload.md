@@ -6,10 +6,11 @@ description: Accédez aux ressources des documentations de Campaign afin de pré
 feature: Control Panel
 role: Architect
 level: Experienced
-source-git-commit: 34af1000aeb444b273ade358eb35096bd3365fc7
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+exl-id: 07118637-cebd-4dd8-8374-2d7c20a47a89
+source-git-commit: 7078ff03bf2e4d156a71de4d900cbfcbd2ded312
+workflow-type: ht
+source-wordcount: '189'
+ht-degree: 100%
 
 ---
 
