@@ -6,8 +6,9 @@ description: Découvrez comment surveiller lʼutilisation de votre base de donn�
 feature: Control Panel
 role: Architect
 level: Experienced
-source-git-commit: 34af1000aeb444b273ade358eb35096bd3365fc7
-workflow-type: tm+mt
+exl-id: 5ecb4f0b-7f77-4856-9704-e1f317f3239d
+source-git-commit: 7078ff03bf2e4d156a71de4d900cbfcbd2ded312
+workflow-type: ht
 source-wordcount: '116'
 ht-degree: 100%
 
