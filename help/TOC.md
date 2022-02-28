@@ -7,7 +7,7 @@ feature: Control Panel
 role: Architect
 level: Beginner
 source-git-commit: 33afa568cb850c72d1a65b03f68d1922addfc034
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '119'
 ht-degree: 100%
 
@@ -45,7 +45,7 @@ ht-degree: 100%
       + [Présentation de l’espace de stockage](performance-monitoring/using/database-storage-overview.md)
       + [Top 10 des ressources temporaires](performance-monitoring/using/database-top-ten-resources.md)
       + [Requêtes actives](performance-monitoring/using/database-active-queries.md)
-      + [Surveiller les workflows](performance-monitoring/using/workflow-monitoring.md)
+      + [Surveillance des workflows](performance-monitoring/using/workflow-monitoring.md)
       + [Prévention des surcharges des bases de données](performance-monitoring/using/database-preventing-overload.md)
    + [Surveillance des profils actifs](performance-monitoring/using/active-profiles-monitoring.md)
    + [Surveillance des débits et de la latence](performance-monitoring/using/thoughputs-latencies.md)
