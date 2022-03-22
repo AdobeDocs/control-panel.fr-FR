@@ -1,16 +1,16 @@
 ---
 product: campaign
 solution: Campaign
-title: Surveillance des certificats SSL des sous-domaines
-description: Découvrez comment surveiller les certificats SSL de vos sous-domaines
+title: Surveillance de vos sous-domaines
+description: Surveillez vos sous-domaines pour vous assurer qu’ils sont tous configurés correctement pour fonctionner avec Adobe Campaign.
 feature: Control Panel
 role: Architect
 level: Experienced
 exl-id: edd55d07-bf0b-44b0-8281-be69c698d5e8
-source-git-commit: 46a4e13e8017c5406dcd65f21c9839374dd44aa7
+source-git-commit: fa45ec38ff06a0b02ab724e7ced79b7b5de2c766
 workflow-type: tm+mt
-source-wordcount: '148'
-ht-degree: 100%
+source-wordcount: '154'
+ht-degree: 90%
 
 ---
 
