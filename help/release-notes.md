@@ -4,9 +4,9 @@ solution: Campaign
 title: Versions du Panneau de contrôle
 description: Cette page répertorie toutes les nouvelles fonctionnalités et améliorations pour Panneau de Contrôle
 exl-id: 13aceffb-ceaa-4cfe-8741-95d66c5c6caa
-source-git-commit: 84fe0aeb10bc5e535a7ab54a3316a51a1a32b3ca
+source-git-commit: 35b849725711bfee9852cf8f503bc599f6d8eaff
 workflow-type: tm+mt
-source-wordcount: '1017'
+source-wordcount: '1022'
 ht-degree: 86%
 
 ---
@@ -32,7 +32,7 @@ Cette page répertorie toutes les nouvelles fonctionnalités et améliorations p
 <tbody>
 <tr>
 <td>
-<p>Tous les clients Campaign Standard et v8 peuvent désormais utiliser des mesures de débit et de latence avec les numéros de build 9032 9330, 9346 ou 9349 qui ont des déploiements autonomes (sans instance mid).</p><p>Pour plus d’informations, consultez la <a href="performance-monitoring/using/thoughputs-latencies.md">documentation détaillée.</a></p>
+<p>Tous les clients Campaign Standard et v8, ainsi que les clients de Campaign V7 qui ont des numéros de build 9032 9330, 9346 ou 9349 avec des déploiements autonomes (sans instance mid), ont désormais accès aux capacités de débit et de surveillance de latence.</p><p>Pour plus d’informations, consultez la <a href="performance-monitoring/using/thoughputs-latencies.md">documentation détaillée.</a></p>
 </td>
 </tr>
 </tbody>
