@@ -7,10 +7,10 @@ feature: Control Panel
 role: Architect
 level: Intermediate
 exl-id: a489d051-fb95-45cf-bb6d-33aef10b7795
-source-git-commit: 46a4e13e8017c5406dcd65f21c9839374dd44aa7
+source-git-commit: c1c80c03a351613ec0c6870a11ab39a634e8eab7
 workflow-type: tm+mt
-source-wordcount: '745'
-ht-degree: 100%
+source-wordcount: '748'
+ht-degree: 91%
 
 ---
 
@@ -56,7 +56,7 @@ Des informations supplémentaires sur la configuration de domaine sont disponibl
 
 Si vous avez des questions concernant les méthodes de configuration de sous-domaine, contactez l’équipe chargée de la délivrabilité d’Adobe ou l’assistance clientèle pour obtenir des conseils sur la délivrabilité.
 
-## Cas d’utilisation des sous-domaines (Campaign Classic){#subdomains-use-cases}
+## Cas d’utilisation des sous-domaines (Campaign v7/v8){#subdomains-use-cases}
 
 >[!CONTEXTUALHELP]
 >id="cp_add_subdomain_usecase_selection"
@@ -65,7 +65,7 @@ Si vous avez des questions concernant les méthodes de configuration de sous-dom
 >additional-url="https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/setting-up-new-subdomain.html?lang=fr" text="Configuration dʼun nouveau sous-domaine"
 >additional-url="https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/subdomains-branding.html?lang=fr" text="Marque des sous-domaines"
 
-Lors de la configuration de sous-domaines pour les instances de Campaign Classic, vous devez sélectionner le cas d’utilisation pour lequel le sous-domaine sera utilisé (voir la section [Configuration d’un nouveau sous-domaine](../../subdomains-certificates/using/setting-up-new-subdomain.md)).
+Lors de la configuration de sous-domaines pour les instances de Campaign v7/v8, vous devez sélectionner le cas d’utilisation pour lequel le sous-domaine sera utilisé (voir [Configuration d’un nouveau sous-domaine](../../subdomains-certificates/using/setting-up-new-subdomain.md)).
 
 Les cas d’utilisation possibles sont les suivants :
 
@@ -82,7 +82,7 @@ Les cas d’utilisation possibles sont les suivants :
 
 >[!NOTE]
 >
->Si vous utilisez Campaign Classic, le Panneau de contrôle vous permet de voir quelles instances RT/MID sont connectées à l’instance Marketing que vous utilisez. Voir à ce sujet la section [Détails de l’instance](../../instances-settings/using/instance-details.md).
+>Si vous utilisez Campaign v7/v8, Panneau de Contrôle vous permet de voir quelles instances RT/MID sont connectées à l’instance Marketing avec laquelle vous travaillez. Voir à ce sujet la section [Détails de l’instance](../../instances-settings/using/instance-details.md).
 
 **Rubriques connexes :**
 

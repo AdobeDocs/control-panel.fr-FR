@@ -5,10 +5,10 @@ feature: Control Panel
 role: Architect
 level: Beginner
 exl-id: 2b2cfaed-e42e-4c3a-a8d8-224b936890ab
-source-git-commit: c52094b8145bdd84aa9e71430a811b8a7b32354d
-workflow-type: ht
-source-wordcount: '220'
-ht-degree: 100%
+source-git-commit: aa5dbe361febee91eb936661da6dea09fc023eaa
+workflow-type: tm+mt
+source-wordcount: '228'
+ht-degree: 84%
 
 ---
 
@@ -23,16 +23,13 @@ ht-degree: 100%
 
 ![](assets/do-not-localize/banner.png)
 
+Le Panneau de Contrôle Campaign vous aide à accroître l’efficacité de votre travail en tant qu’administrateur de produit de Campaign Standard et V7/v8, en vous permettant de gérer les paramètres et de suivre l’utilisation de chacune de vos instances Campaign.
+
 ## Nouveautés
 
 **Surveillance des paramètres de workflow**
 
 Vous pouvez désormais surveiller les paramètres de workflow qui peuvent nécessiter une attention particulière pour éviter tout problème sur vos instances. [En savoir plus](performance-monitoring/using/workflow-monitoring.md)
-
-
-**Surveillance des requêtes actives**
-
-Le panneau de contrôle vous permet désormais de surveiller les requêtes qui ont été exécutées le plus longtemps sur vos instances. [En savoir plus](performance-monitoring/using/database-active-queries.md)
 
 **Surveillance des débits et de la latence**
 
@@ -43,7 +40,7 @@ Vous pouvez désormais surveiller les fluctuations des débits de diffusion et d
 >
 >* Le Panneau de contrôle est accessible aux utilisateurs administrateurs uniquement. [Apprenez-en davantage](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html?lang=fr#discover-control-panel)
 >
->* Pour Campaign Classic v7, les restrictions de déploiement s’appliquent. [Apprenez-en davantage](faq.md#v7-restrictions)
+>* Pour Campaign v7, les restrictions de déploiement s’appliquent. [Apprenez-en davantage](faq.md#v7-restrictions)
 
 
 ## Ressources supplémentaires {#additional-resources}
@@ -56,10 +53,10 @@ Vous pouvez désormais surveiller les fluctuations des débits de diffusion et d
             <li><a href="https://experienceleague.adobe.com/docs/campaign-standard/using/campaign-standard-home.html?lang=fr">Documentation du produit Campaign Standard</a></li>
         </ul>
         </td>
-        <td><b>Campaign Classic v7</b><br/>
+        <td><b>Campaign v7</b><br/>
         <ul>
             <li><a href="https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/control-panel-overview.html?lang=fr">Tutoriels vidéo sur le Panneau de contrôle</a></li>
-            <li><a href="https://experienceleague.adobe.com/docs/campaign-classic/using/campaign-classic-home.html?lang=fr">Documentation du produit Campaign Classic v7</a></li>
+            <li><a href="https://experienceleague.adobe.com/docs/campaign-classic/using/campaign-classic-home.html?lang=fr">Documentation du produit Campaign v7</a></li>
         </ul>
         </td>
         <td><b>Campaign v8</b><br/>

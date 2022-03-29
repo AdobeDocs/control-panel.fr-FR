@@ -7,10 +7,10 @@ feature: Control Panel
 role: Architect
 level: Experienced
 exl-id: 02819bfc-9886-43fc-8014-9bfe64c42048
-source-git-commit: 62ad3edb604ebd9fab6a3f930b7c79af6b9ca968
+source-git-commit: d323fa76c5707b3284e5763b5f60a82974a6c045
 workflow-type: tm+mt
-source-wordcount: '561'
-ht-degree: 100%
+source-wordcount: '539'
+ht-degree: 80%
 
 ---
 
@@ -20,14 +20,12 @@ ht-degree: 100%
 >id="cp_instancesettings_instancedetails"
 >title="À propos des détails de lʼinstance"
 >abstract="Affichez les détails de vos instances Adobe Campaign : types, noms, informations de build et recommandations de mises à niveau éventuelles."
->additional-url="https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/latest-release.html?lang=fr" text="Notes de mise à jour de Campaign Classic"
->additional-url="https://experienceleague.adobe.com/docs/campaign-standard/using/release-notes/release-notes.html?lang=fr" text="Notes de mise à jour de Campaign Standard "
 
 ## À propos des détails de l’instance {#about-instance-details}
 
 >[!IMPORTANT]
 >
->Cette fonctionnalité est disponible uniquement pour les instances Campaign Classic v7 et Campaign v8.
+>Cette fonctionnalité est disponible uniquement pour les instances de Campaign v7/v8.
 
 L’architecture de votre instance Adobe Campaign peut contenir plusieurs serveurs pour garantir la flexibilité des activités marketing. Par exemple, des serveurs Marketing, Real Time (ou Message Center) et Mid-sourcing peuvent prendre en charge votre instance.
 
@@ -35,7 +33,7 @@ La fonctionnalité Détails de l’instance vous permet d’afficher l’archite
 
 >[!NOTE]
 >
->Nous vous recommandons d’effectuer une mise à niveau de vos instances au moins une fois par an afin d’éviter une dégradation des performances, et de pouvoir bénéficier des fonctionnalités et des correctifs les plus récents proposés par Adobe Campaign Classic.
+>Nous vous recommandons de mettre à niveau vos instances au moins une fois par an afin d&#39;éviter une dégradation des performances et de pouvoir profiter des fonctionnalités et correctifs les plus récents proposés par Adobe Campaign v7/v8.
 
 **Rubriques connexes :**
 
@@ -50,13 +48,13 @@ Pour obtenir des informations sur les serveurs connectés à vos instances, proc
 
    >[!NOTE]
    >
-   >Si la carte Paramètres des instances n’est pas visible sur la page d’accueil du Panneau de contrôle, cela signifie que votre identifiant de l’organisation IMS n’est associé à aucune instance Adobe Campaign Classic.
+   >Si la carte Paramètres de l’instance n’est pas visible sur la page d’accueil du Panneau de Contrôle, cela signifie que votre identifiant de l’organisation IMS n’est associé à aucune instance Adobe Campaign v7/v8.
 
 1. Dans le panneau de gauche, sélectionnez l’instance Campaign désirée.
 
    >[!NOTE]
    >
-   >Toutes vos instances Campaign s&#39;affichent dans la liste du volet gauche. La fonctionnalité Détails de l’instance étant réservée aux instances Campaign Classic, le message « Instance non applicable » s’affiche si vous sélectionnez une instance Campaign Standard.
+   >Toutes vos instances Campaign s&#39;affichent dans la liste du volet gauche. La fonction Détails de l’instance étant réservée aux instances de Campaign v7/v8, le message &quot;Instance non applicable&quot; s’affiche si vous sélectionnez une instance de Campaign Standard.
 
 1. Les serveurs connectés à l’instance s’affichent.
 

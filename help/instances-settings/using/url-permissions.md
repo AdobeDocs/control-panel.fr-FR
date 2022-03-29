@@ -7,10 +7,10 @@ feature: Control Panel
 role: Architect
 level: Intermediate
 exl-id: a7df90da-a2ce-409f-9bc3-c7d4fa3024c8
-source-git-commit: cca04cd965c00a9e2bc496de632ee41ce53a166a
+source-git-commit: c1c80c03a351613ec0c6870a11ab39a634e8eab7
 workflow-type: tm+mt
-source-wordcount: '611'
-ht-degree: 100%
+source-wordcount: '609'
+ht-degree: 94%
 
 ---
 
@@ -26,7 +26,7 @@ ht-degree: 100%
 
 >[!IMPORTANT]
 >
->Cette fonctionnalité est disponible uniquement pour les instances Campaign v8 et Campaign Classic v7, à partir du build 8850. Si vous utilisez un build précédent, vous devez effectuer la mise à niveau pour utiliser cette fonctionnalité.
+>Cette fonctionnalité est disponible uniquement pour les instances de Campaign v7/v8, à partir du build 8850. Si vous utilisez un build précédent, vous devez effectuer la mise à niveau pour utiliser cette fonctionnalité.
 
 La liste par défaut des URL pouvant être appelées par des codes JavaScript (workflows et autres) de vos instances Campaign est limitée. Il s’agit des URL qui permettent à vos instances de fonctionner correctement.
 
@@ -72,7 +72,7 @@ Pour ajouter une URL à laquelle votre instance peut se connecter, procédez com
    >
    >Toutes vos instances Campaign s’affichent dans la liste du volet gauche.
    >
-   >La gestion des autorisations d’URL étant réservée aux instances Campaign Classic, le message « Instance non applicable » s’affiche si vous sélectionnez une instance Campaign Standard.
+   >La gestion des autorisations d’URL étant réservée aux instances de Campaign v7/v8, le message &quot;Instance non applicable&quot; s’affiche si vous sélectionnez une instance de Campaign Standard.
 
 1. Saisissez l’URL à autoriser, avec le protocole associé (http, https ou sftp).
 

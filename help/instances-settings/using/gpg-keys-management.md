@@ -7,10 +7,10 @@ feature: Control Panel
 role: Architect
 level: Experienced
 exl-id: 366dd2ea-c6be-41a2-a4d6-4ffecb5f3d39
-source-git-commit: cca04cd965c00a9e2bc496de632ee41ce53a166a
+source-git-commit: c1c80c03a351613ec0c6870a11ab39a634e8eab7
 workflow-type: tm+mt
-source-wordcount: '1210'
-ht-degree: 100%
+source-wordcount: '1206'
+ht-degree: 97%
 
 ---
 
@@ -95,7 +95,7 @@ La clé peut être ensuite utilisée dans les workflows Adobe Campaign. Vous po
 
 Pour plus d’informations, consultez la documentation d’Adobe Campaign :
 
-**Campaign Classic v7 et Campaign v8 :**
+**Campaign v7/v8 :**
 
 * [Compresser ou chiffrer un fichier](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/importing-and-exporting-data/managing-data-encryption-compression/zip-encrypt.html?lang=fr#getting-started)
 * [Cas pratique : chiffrement et export de données à l’aide d’une clé installée sur le Panneau de contrôle](https://experienceleague.adobe.com/docs/campaign-standard/using/managing-processes-and-data/importing-and-exporting-data/managing-encrypted-data.html?lang=fr#use-case-gpg-encrypt)
@@ -138,7 +138,7 @@ La clé publique peut être alors partagée avec tout système externe. Adobe C
 
 Pour plus d’informations, consultez la documentation d’Adobe Campaign :
 
-**Campaign Classic v7 et Campaign v8 :**
+**Campaign v7 et v8 :**
 
 * [Décompresser ou déchiffrer un fichier avant traitement](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/importing-and-exporting-data/managing-data-encryption-compression/unzip-decrypt.html?lang=fr)
 * [Cas pratique : import de données chiffrées à l’aide d’une clé générée par le Panneau de contrôle](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/importing-and-exporting-data/managing-data-encryption-compression/unzip-decrypt.html?lang=fr#use-case-gpg-decrypt)
@@ -186,6 +186,6 @@ Il est recommandé de supprimer toute clé dont vous n’avez plus besoin. Pour 
 
 La vidéo ci-dessous explique comment générer et installer des clés GPG pour le chiffrement des données.
 
-D’autres vidéos pratiques relatives à la gestion des clés GPG sont disponibles dans les pages de tutoriels [Campaign Classic](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/instance-settings/gpg-key-management/gpg-key-management-overview.html?lang=fr#instance-settings) et [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/instance-settings/gpg-key-management/gpg-key-management-overview.html?lang=fr#instance-settings).
+D’autres vidéos pratiques relatives à la gestion des clés GPG sont disponibles dans  [Campaign v7/v8](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/instance-settings/gpg-key-management/gpg-key-management-overview.html?lang=fr#instance-settings) et [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/instance-settings/gpg-key-management/gpg-key-management-overview.html?lang=fr#instance-settings) pages de tutoriels.
 
 >[!VIDEO](https://video.tv.adobe.com/v/36386?quality=12)
