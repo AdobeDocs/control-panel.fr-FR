@@ -1,16 +1,16 @@
 ---
 product: campaign
 solution: Campaign
-title: Le Panneau de Contrôle vous aide à accroître l’efficacité de votre travail en tant qu’administrateur de produit d’Adobe Campaign Standard et/ou de Classic.
-description: Découvrez comment accéder au Panneau de contrôle
+title: Le Panneau de contrôle accroît votre efficacité en tant qu’administrateur de produit Adobe Campaign Standard et/ou Classic.
+description: Découvrez comment accéder au Panneau de contrôle.
 feature: Control Panel
 role: Architect
 level: Beginner
 exl-id: cb6cc63b-d6cc-4c8b-870f-e108d05aa740
 source-git-commit: c1c80c03a351613ec0c6870a11ab39a634e8eab7
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '295'
-ht-degree: 79%
+ht-degree: 100%
 
 ---
 
@@ -28,7 +28,7 @@ Principaux avantages :
 >
 >Le Panneau de contrôle est accessible aux utilisateurs administrateurs uniquement. Les étapes permettant d’accorder un accès administrateur à un utilisateur sont présentées dans [cette section](managing-permissions.md).
 >
->Pour Campaign v7/v8, notez que votre instance doit être hébergée sur Amazon Web Services (AWS) et mise à niveau vers la dernière version [Build stable Campaign](https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/rn-overview.html?lang=fr#rn-statuses) ou pour construire 9032 ou une version ultérieure. Découvrez comment vérifier votre version dans [cette section](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/starting-with-adobe-campaign/launching-adobe-campaign.html?lang=fr#getting-your-campaign-version). Pour vérifier si votre instance est hébergée sur AWS, suivez les étapes présentées dans [cette page](../../faq.md#hosted-aws).
+>Pour Campaign v7/v8, notez que votre instance doit être hébergée sur Amazon Web Services (AWS) et mise à niveau vers le dernier [build stable de Campaign](https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/rn-overview.html?lang=fr#rn-statuses) ou vers le build 9032 ou supérieur. Découvrez comment vérifier votre version dans [cette section](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/starting-with-adobe-campaign/launching-adobe-campaign.html?lang=fr#getting-your-campaign-version). Pour vérifier si votre instance est hébergée sur AWS, suivez les étapes présentées dans [cette page](../../faq.md#hosted-aws).
 
 <table style="table-layout:fixed">
 <tr>
@@ -50,7 +50,7 @@ Principaux avantages :
     <td>
         <a href="../../instances-settings/using/ip-allow-listing-instance-access.md"><img alt="conditions" src="assets/do-not-localize/instance_settings.png"/></a>
         <div><a href="../../instances-settings/using/ip-allow-listing-instance-access.md"><strong>Gestion des paramètres des instances</strong></a></div>
-        <br/><em>Découvrez comment gérer les paramètres de vos instances (Campaign v7/v8 uniquement).</em>
+        <br/><em>Découvrez comment gérer les paramètres des instances (Campaign v7/v8 uniquement).</em>
     </td>
     <td>
         <a href="../../performance-monitoring/using/about-performance-monitoring.md"><img alt="conditions" src="assets/do-not-localize/monitoring-performance.png"/></a>
