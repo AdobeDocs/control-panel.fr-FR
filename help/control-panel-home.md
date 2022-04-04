@@ -6,9 +6,9 @@ role: Architect
 level: Beginner
 exl-id: 2b2cfaed-e42e-4c3a-a8d8-224b936890ab
 source-git-commit: aa5dbe361febee91eb936661da6dea09fc023eaa
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '228'
-ht-degree: 84%
+ht-degree: 100%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 84%
 
 ![](assets/do-not-localize/banner.png)
 
-Le Panneau de Contrôle Campaign vous aide à accroître l’efficacité de votre travail en tant qu’administrateur de produit de Campaign Standard et V7/v8, en vous permettant de gérer les paramètres et de suivre l’utilisation de chacune de vos instances Campaign.
+Le Panneau de contrôle de Campaign accroît votre efficacité en tant quʼadministrateur de produit Campaign Standard et v7/v8, en vous permettant de gérer les paramètres et de suivre lʼutilisation de chacune de vos instances Campaign.
 
 ## Nouveautés
 
@@ -40,7 +40,7 @@ Vous pouvez désormais surveiller les fluctuations des débits de diffusion et d
 >
 >* Le Panneau de contrôle est accessible aux utilisateurs administrateurs uniquement. [Apprenez-en davantage](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html?lang=fr#discover-control-panel)
 >
->* Pour Campaign v7, les restrictions de déploiement s’appliquent. [Apprenez-en davantage](faq.md#v7-restrictions)
+>* Pour Campaign v7, des restrictions de déploiement s’appliquent. [Apprenez-en davantage](faq.md#v7-restrictions)
 
 
 ## Ressources supplémentaires {#additional-resources}
