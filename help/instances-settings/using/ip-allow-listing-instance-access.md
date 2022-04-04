@@ -8,9 +8,9 @@ role: Architect
 level: Intermediate
 exl-id: 1d1eeff8-969e-4529-b947-2a68defb8d13
 source-git-commit: c1c80c03a351613ec0c6870a11ab39a634e8eab7
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '791'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -26,7 +26,7 @@ ht-degree: 94%
 
 >[!IMPORTANT]
 >
->Cette fonctionnalité est disponible uniquement pour les instances de Campaign v7/v8.
+>Cette fonctionnalité est disponible uniquement pour les instances Campaign v7/v8.
 
 Par défaut, votre instance Adobe Campaign n’est accessible qu’à partir de certaines adresses IP.
 
@@ -55,7 +55,7 @@ Veillez à suivre les recommandations et les limites ci-dessous lors de l’ajou
 
 >[!NOTE]
 >
->Si la variable **[!UICONTROL Paramètres des instances]** n’est pas visible sur la page d’accueil du Panneau de Contrôle, ce qui signifie que votre identifiant de l’organisation IMS n’est associé à aucune instance Adobe Campaign v7/v8.
+>Si la vignette **[!UICONTROL Paramètres d’instance]** nʼest pas visible sur la page dʼaccueil du Panneau de contrôle, cela signifie que votre identifiant dʼorganisation IMS nʼest associé à aucune instance Adobe Campaign v7/v8.
 
 Pour ajouter des adresses IP à la liste autorisée, procédez comme suit :
 
