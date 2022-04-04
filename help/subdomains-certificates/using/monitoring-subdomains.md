@@ -1,20 +1,20 @@
 ---
 product: campaign
 solution: Campaign
-title: Surveillance de vos sous-domaines
-description: Surveillez vos sous-domaines pour vous assurer qu’ils sont tous configurés correctement pour fonctionner avec Adobe Campaign.
+title: Surveiller vos sous-domaines
+description: Surveillez vos sous-domaines pour vous assurer qu’ils sont tous correctement configurés pour fonctionner avec Adobe Campaign.
 feature: Control Panel
 role: Architect
 level: Experienced
 exl-id: edd55d07-bf0b-44b0-8281-be69c698d5e8
 source-git-commit: fa45ec38ff06a0b02ab724e7ced79b7b5de2c766
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '154'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
-# Surveillance de vos sous-domaines {#monitoring-subdomains}
+# Surveiller vos sous-domaines {#monitoring-subdomains}
 
 Il est essentiel de surveiller vos sous-domaines pour vous assurer qu’ils sont tous correctement configurés pour fonctionner avec Adobe Campaign.
 
