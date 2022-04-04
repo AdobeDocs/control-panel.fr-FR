@@ -8,9 +8,9 @@ role: Architect
 level: Experienced
 exl-id: eaf67573-f088-47d9-8a25-273d08dc541a
 source-git-commit: c1c80c03a351613ec0c6870a11ab39a634e8eab7
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '347'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -26,7 +26,7 @@ En fonction des modalités de votre contrat, les capacités de stockage de votre
 
 Il est essentiel que vous surveilliez régulièrement l’espace disponible pour chacun de vos serveurs SFTP. Sinon, vous risquez de ne plus pouvoir enregistrer de fichiers supplémentaires sur le serveur ou d’exécuter avec succès les workflows qui dépendent des mises à jour de ce serveur.
 
-![](assets/do-not-localize/how-to-video.png) Découvrez cette fonctionnalité en vidéo en utilisant [Campaign v7/v8](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/sftp-management/monitoring-server-capacity.html?lang=fr#sftp-management) ou [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/sftp-management/monitoring-server-capacity.html?lang=fr#sftp-management)
+![](assets/do-not-localize/how-to-video.png) Découvrez cette fonctionnalité en vidéo dans [Campaign v7/v8](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/sftp-management/monitoring-server-capacity.html?lang=fr#sftp-management) ou [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/sftp-management/monitoring-server-capacity.html?lang=fr#sftp-management).
 
 ## Accès aux informations relatives à la capacité de stockage {#accessing-storage-capacity-information}
 
@@ -44,6 +44,6 @@ D’autres conseils permettent de savoir comment procéder si votre serveur arri
 ## Bonnes pratiques lorsque la capacité de stockage est épuisée {#best-practices-when-capacity-runs-out}
 
 1. **Nettoyez le serveur SFTP en supprimant des fichiers anciens ou inutiles**. Pour plus d’informations sur l’accès à votre dossier de serveur SFTP, consultez [cette section](../../sftp/using/logging-into-sftp-server.md).
-1. Vérifiez que les **workflows** qui nettoient vos serveurs SFTP s’exécutent correctement. Pour plus d&#39;informations sur les workflows techniques dans Adobe Campaign, reportez-vous à la section dédiée [Campaign v7/v8](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/advanced-management/about-technical-workflows.html?lang=fr#automating-with-workflows) et [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard/using/administrating/application-settings/technical-workflows.html?lang=fr#administrating) documentations.
+1. Vérifiez que les **workflows** qui nettoient vos serveurs SFTP s’exécutent correctement. Pour plus d’informations sur les workflows techniques dans Adobe Campaign, consultez les documentations dédiées [Campaign v7/v8](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/advanced-management/about-technical-workflows.html?lang=fr#automating-with-workflows) et [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard/using/administrating/application-settings/technical-workflows.html?lang=fr#administrating).
 1. Contactez l’équipe de votre compte pour **demander plus d’espace de stockage** (des frais supplémentaires peuvent s’appliquer).
 1. Contactez l’**assistance clientèle** si vous pensez qu’il y a un problème.
