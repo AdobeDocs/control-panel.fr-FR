@@ -2,37 +2,37 @@
 product: campaign
 solution: Campaign
 title: Versions du Panneau de contrôle
-description: Cette page répertorie toutes les nouvelles fonctionnalités et améliorations pour Panneau de Contrôle
+description: Cette page répertorie toutes les nouvelles fonctionnalités et améliorations apportées au Panneau de contrôle.
 exl-id: 13aceffb-ceaa-4cfe-8741-95d66c5c6caa
 source-git-commit: 35b849725711bfee9852cf8f503bc599f6d8eaff
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1022'
-ht-degree: 86%
+ht-degree: 100%
 
 ---
 
 # Versions du Panneau de contrôle {#control-panel-releases}
 
-Cette page répertorie toutes les nouvelles fonctionnalités et améliorations pour Panneau de Contrôle.
+Cette page répertorie toutes les nouvelles fonctionnalités et améliorations apportées au Panneau de contrôle.
 
 >[!NOTE]
 >
 >Le panneau de contrôle est accessible uniquement aux utilisateurs administrateurs. Pour en savoir plus sur les autorisations, consultez [cette section](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html?lang=fr#discover-control-panel).
 >
->Pour Campaign  v7, votre instance doit être hébergée sur Amazon Web Services (AWS) et mise à niveau vers le dernier [build stable de Campaign](https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/rn-overview.html?lang=fr#rn-statuses) (ou vers le build 9032 ou supérieur). Découvrez comment vérifier votre version dans [cette section](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/starting-with-adobe-campaign/launching-adobe-campaign.html?lang=fr#getting-your-campaign-version). Pour vérifier si votre instance est hébergée sur AWS, suivez les étapes présentées sur [cette page](faq.md#hosted-aws).
+>Pour Campaign v7, votre instance doit être hébergée sur Amazon Web Services (AWS) et mise à niveau vers le dernier [build stable de Campaign](https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/rn-overview.html?lang=fr#rn-statuses) (ou vers le build 9032 ou supérieur). Découvrez comment vérifier votre version dans [cette section](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/starting-with-adobe-campaign/launching-adobe-campaign.html?lang=fr#getting-your-campaign-version). Pour vérifier si votre instance est hébergée sur AWS, suivez les étapes présentées sur [cette page](faq.md#hosted-aws).
 
 ## Mars 2022 {#march-2022}
 
 <table>
 <thead>
 <tr>
-<th><strong>Débit et disponibilité de la surveillance de latence</strong><br/></th>
+<th><strong>Disponibilité de la surveillance des débits et de la latence</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Tous les clients Campaign Standard et v8, ainsi que les clients de Campaign V7 qui ont des numéros de build 9032 9330, 9346 ou 9349 avec des déploiements autonomes (sans instance mid), ont désormais accès aux capacités de débit et de surveillance de latence.</p><p>Pour plus d’informations, consultez la <a href="performance-monitoring/using/thoughputs-latencies.md">documentation détaillée.</a></p>
+<p>La surveillance des débits et de la latence est désormais disponible pour tous les clients Campaign Standard et v8, ainsi que pour les clients Campaign v7 qui ont les numéros de build 9032, 9330, 9346 ou 9349 et des déploiements Stand-alone (sans instance MID).</p><p>Pour plus d’informations, consultez la <a href="performance-monitoring/using/thoughputs-latencies.md">documentation détaillée</a>.</p>
 </td>
 </tr>
 </tbody>
@@ -66,7 +66,7 @@ Cette page répertorie toutes les nouvelles fonctionnalités et améliorations p
 <tbody>
 <tr>
 <td>
-<p>Le panneau de contrôle vous permet désormais de surveiller les requêtes qui ont été exécutées le plus longtemps sur vos instances.</p><p>Pour plus d’informations, consultez la <a href="performance-monitoring/using/database-active-queries.md">documentation détaillée</a>.</p>
+<p>Le Panneau de contrôle vous permet désormais de surveiller les requêtes qui ont été exécutées le plus longtemps sur vos instances.</p><p>Pour plus d’informations, consultez la <a href="performance-monitoring/using/database-active-queries.md">documentation détaillée</a>.</p>
 </td>
 </tr>
 </tbody>
@@ -113,7 +113,7 @@ Cette page répertorie toutes les nouvelles fonctionnalités et améliorations p
 <tbody>
 <tr>
 <td>
-<p>Il est désormais possible de définir une durée pour la disponibilité des plages d’adresses IP et des clés publiques. </p><p>Pour plus d’informations, reportez-vous à la section <a href="sftp/using/ip-range-allow-listing.md#adding-ip-addresses-allow-list">Listes autorisées des plages d’adresses IP</a> et <a href="sftp/using/key-management.md#installing-ssh-key">Gestion des clés</a> sections.</p>
+<p>Il est désormais possible de définir une durée pour la disponibilité des plages d’adresses IP et des clés publiques. </p><p>Pour plus d’informations, consultez les sections <a href="sftp/using/ip-range-allow-listing.md#adding-ip-addresses-allow-list">Listes autorisées des plages d’adresses IP</a> et <a href="sftp/using/key-management.md#installing-ssh-key">Gestion des clés</a>.</p>
 </td>
 </tr>
 </tbody>
@@ -143,7 +143,7 @@ Cette page répertorie toutes les nouvelles fonctionnalités et améliorations p
 <tbody>
 <tr>
 <td>
-<p>La fonctionnalité de réception d’alertes par email vous avertit désormais lorsque la liste autorisée des adresses IP SFTP et les clés publiques SFTP arrivent à expiration.</p><p>Pour plus d’informations, consultez la <a href="performance-monitoring/using/email-alerting.md">documentation détaillée</a>.</p>
+<p>La fonctionnalité de réception d’alertes par e-mail vous avertit désormais lorsque la liste autorisée des adresses IP SFTP et les clés publiques SFTP arrivent à expiration.</p><p>Pour plus d’informations, consultez la <a href="performance-monitoring/using/email-alerting.md">documentation détaillée</a>.</p>
 </td>
 </tr>
 </tbody>
@@ -158,7 +158,7 @@ Cette page répertorie toutes les nouvelles fonctionnalités et améliorations p
 <tbody>
 <tr>
 <td>
-<p>Les fonctionnalités de gestion des <strong>Sous-domaines</strong> et des <strong>Certificats</strong> sont désormais prises en charge par le Panneau de contrôle dans Adobe Campaign v8.</a>.</p>
+<p>Les fonctionnalités de gestion des <strong>Sous-domaines</strong> et des <strong>Certificats</strong> sont désormais prises en charge par le Panneau de contrôle dans Adobe Campaign v8</a>.</p>
 </td>
 </tr>
 </tbody>
@@ -175,7 +175,7 @@ Cette page répertorie toutes les nouvelles fonctionnalités et améliorations p
 <tbody>
 <tr>
 <td>
-<p>Le Panneau de contrôle est désormais disponible pour Adobe Campaign v8, à l’exception des fonctionnalités de gestion de <strong>Sous-domaine</strong> et de <strong>Certificat</strong>, qui ne sont pas encore prises en charge.</p><p>Pour plus d’informations, reportez-vous à la section <a href="https://experienceleague.adobe.com/docs/campaign/campaign-v8/deploy/self-service.html?lang=fr" target="blank">Documentation de Campaign v8</a>.</p>
+<p>Le Panneau de contrôle est désormais disponible pour Adobe Campaign v8, à l’exception des fonctionnalités de gestion de <strong>Sous-domaines</strong> et de <strong>Certificats</strong>, qui ne sont pas encore prises en charge.</p><p>Pour plus d’informations, consultez la <a href="https://experienceleague.adobe.com/docs/campaign/campaign-v8/deploy/self-service.html?lang=fr" target="blank">documentation de Campaign v8</a>.</p>
 </td>
 </tr>
 </tbody>
@@ -192,7 +192,7 @@ Cette page répertorie toutes les nouvelles fonctionnalités et améliorations p
 <tbody>
 <tr>
 <td>
-<p>Le Panneau de contrôle permet maintenant de configurer un sous-domaine pour qu’il fonctionne avec Adobe à l’aide de CNAME, directement depuis l’interface.</p><p>Pour plus d’informations, consultez la <a href="subdomains-certificates/using/setting-up-new-subdomain.md">documentation détaillée</a>.</p>
+<p>Le Panneau de contrôle permet désormais de configurer un sous-domaine pour qu’il fonctionne avec Adobe à l’aide de CNAME, directement depuis l’interface.</p><p>Pour plus d’informations, consultez la <a href="subdomains-certificates/using/setting-up-new-subdomain.md">documentation détaillée</a>.</p>
 </td>
 </tr>
 </tbody>
@@ -201,13 +201,13 @@ Cette page répertorie toutes les nouvelles fonctionnalités et améliorations p
 <table>
 <thead>
 <tr>
-<th><strong>Améliorations de la surveillance des bases de données</strong><br/></th>
+<th><strong>Améliorations apportées à la surveillance des bases de données</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>La surveillance des bases de données a été améliorée avec des mesures supplémentaires. Vous pouvez ainsi obtenir des informations détaillées sur les ressources qui consomment de l’espace dans votre base de données.</p><p>Pour plus d’informations, consultez la <a href="performance-monitoring/using/database-monitoring.md">documentation détaillée</a>.</p>
+<p>La surveillance des bases de données a été améliorée à l’aide de mesures supplémentaires. Vous pouvez ainsi obtenir des informations détaillées sur les ressources qui consomment de l’espace dans votre base de données.</p><p>Pour plus d’informations, consultez la <a href="performance-monitoring/using/database-monitoring.md">documentation détaillée</a>.</p>
 </td>
 </tr>
 </tbody>
@@ -224,7 +224,7 @@ Cette page répertorie toutes les nouvelles fonctionnalités et améliorations p
 <tbody>
 <tr>
 <td>
-<p>Après avoir délégué un nouveau sous-domaine, le Panneau de contrôle vous permet désormais de suivre l’audit effectué par l’équipe chargée de la délivrabilité.</p><p>Pour plus d’informations, consultez la <a href="subdomains-certificates/using/setting-up-new-subdomain.md">documentation détaillée</a>.</p>
+<p>Après avoir délégué un nouveau sous-domaine, le Panneau de contrôle vous permet de suivre l’audit effectué par l’équipe chargée de la délivrabilité.</p><p>Pour plus d’informations, consultez la <a href="subdomains-certificates/using/setting-up-new-subdomain.md">documentation détaillée</a>.</p>
 </td>
 </tr>
 </tbody>
@@ -239,7 +239,7 @@ Cette page répertorie toutes les nouvelles fonctionnalités et améliorations p
 <tbody>
 <tr>
 <td>
-<p>Le Panneau de contrôle vous permet maintenant de générer une paire de clés GPG pour vous puissiez facilement déchiffrer les données qui entrent dans dans Campaign et qui proviennent de l’extérieur. En outre, nous avons ajouté une fonctionnalité permettant d’installer une clé GPG publique pour chiffrer les données qui sortent de Campaign.</p><p>Pour plus d’informations, consultez la <a href="instances-settings/using/gpg-keys-management.md">documentation détaillée</a>.</p>
+<p>Le Panneau de contrôle vous permet désormais de générer une paire de clés GPG afin que vous puissiez facilement déchiffrer les données qui entrent dans Campaign de l’extérieur. De plus, nous avons ajouté une fonctionnalité permettant d’installer une clé GPG publique afin de chiffrer les données qui sortent de Campaign.</p><p>Pour plus d’informations, consultez la <a href="instances-settings/using/gpg-keys-management.md">documentation détaillée</a>.</p>
 </td>
 </tr>
 </tbody>
@@ -254,7 +254,7 @@ Cette page répertorie toutes les nouvelles fonctionnalités et améliorations p
 <tbody>
 <tr>
 <td>
-<p>Le Panneau de contrôle vous permet maintenant de surveiller le nombre de profils actifs utilisés par vos instances et comptabilisés à des fins de facturation.</p><p>Pour plus d’informations, consultez la <a href="performance-monitoring/using/active-profiles-monitoring.md">documentation détaillée</a>.</p>
+<p>Le Panneau de contrôle vous permet désormais de surveiller le nombre de profils actifs utilisés par vos instances et comptabilisés à des fins de facturation.</p><p>Pour plus d’informations, consultez la <a href="performance-monitoring/using/active-profiles-monitoring.md">documentation détaillée</a>.</p>
 </td>
 </tr>
 </tbody>
@@ -262,7 +262,7 @@ Cette page répertorie toutes les nouvelles fonctionnalités et améliorations p
 
 >[!IMPORTANT]
 >
->La surveillance des profils actifs depuis le Panneau de contrôle est disponible en version bêta et sujette à de fréquentes mises à jour et modifications sans préavis.
+>La surveillance des profils actifs depuis le Panneau de contrôle est disponible en version Beta et est sujette à de fréquentes mises à jour et modifications sans préavis.
 
 ## Mai 2020 {#may-2020}
 
@@ -275,7 +275,7 @@ Cette page répertorie toutes les nouvelles fonctionnalités et améliorations p
 <tbody>
 <tr>
 <td>
-<p>Le Panneau de contrôle permet maintenant de renouveler les certificats SSL de vos sous-domaines qui ont été configurés avec la méthode CNAME.</p><p>Pour plus d’informations, consultez la <a href="subdomains-certificates/using/renewing-subdomain-certificate.md">documentation détaillée</a>.</p>
+<p>Le Panneau de contrôle permet désormais de renouveler les certificats SSL de vos sous-domaines qui ont été configurés par la méthode CNAME.</p><p>Pour plus d’informations, consultez la <a href="subdomains-certificates/using/renewing-subdomain-certificate.md">documentation détaillée</a>.</p>
 </td>
 </tr>
 </tbody>
@@ -292,7 +292,7 @@ Cette page répertorie toutes les nouvelles fonctionnalités et améliorations p
 <tbody>
 <tr>
 <td>
-<p>Grâce au Panneau de contrôle de Campaign, vous pouvez ajouter des enregistrements de vérification de site TXT Google aux sous-domaines utilisés pour envoyer des emails aux adresses Gmail.</p><p>Pour plus d’informations, consultez la <a href="subdomains-certificates/using/managing-txt-records.md">documentation détaillée</a>.</p>
+<p>Grâce au Panneau de contrôle de Campaign, vous pouvez ajouter des enregistrements de vérification de site TXT Google aux sous-domaines utilisés pour envoyer des e-mails aux adresses Gmail.</p><p>Pour plus d’informations, consultez la <a href="subdomains-certificates/using/managing-txt-records.md">documentation détaillée</a>.</p>
 </td>
 </tr>
 </tbody>
@@ -307,7 +307,7 @@ Cette page répertorie toutes les nouvelles fonctionnalités et améliorations p
 <tbody>
 <tr>
 <td>
-<p>Le Panneau de contrôle de Campaign dispose de fonctionnalités de surveillance des bases de données, ce qui vous permet d’afficher l’utilisation de l’espace des bases de données à la demande et au fil du temps.</p><p>Pour plus d’informations, consultez la <a href="performance-monitoring/using/database-monitoring.md">documentation détaillée</a>.</p>
+<p>Le Panneau de contrôle de Campaign dispose de fonctionnalités de surveillance des bases de données, ce qui vous permet d’afficher l’utilisation de l’espace des bases de données à la demande et dans le temps.</p><p>Pour plus d’informations, consultez la <a href="performance-monitoring/using/database-monitoring.md">documentation détaillée</a>.</p>
 </td>
 </tr>
 </tbody>
@@ -322,7 +322,7 @@ Cette page répertorie toutes les nouvelles fonctionnalités et améliorations p
 <tbody>
 <tr>
 <td>
-<p>Le Panneau de contrôle de Campaign dispose de fonctionnalités d’alerte par email en temps réel. Une fois connecté au Panneau de contrôle, vous pouvez vous abonner pour recevoir des alertes lorsque les performances de votre système risquent de se détériorer, ou si une action est nécessaire pour garantir des performances élevées.</p><p>Pour plus d’informations, consultez la <a href="performance-monitoring/using/email-alerting.md">documentation détaillée</a>.</p>
+<p>Le Panneau de contrôle de Campaign dispose de fonctionnalités d’alerte par e-mail en temps réel. Une fois connecté au Panneau de contrôle, vous pouvez vous abonner pour recevoir des alertes lorsque les performances de votre système risquent de se détériorer ou si une action est nécessaire pour garantir des performances élevées.</p><p>Pour plus d’informations, consultez la <a href="performance-monitoring/using/email-alerting.md">documentation détaillée</a>.</p>
 </td>
 </tr>
 </tbody>
@@ -342,8 +342,8 @@ Pour plus d’informations, reportez-vous aux pages suivantes :
 
 ## Septembre 2019 {#september-2019}
 
-De nouvelles fonctionnalités ont été ajoutées pour que les utilisateurs administrateurs ajoutent des adresses IP à la liste autorisée afin de se connecter aux instances Campaign v7/v8.
-En outre, les utilisateurs administrateurs peuvent désormais afficher la liste des instances de Campaign v7/v8 et l’éligibilité pour les upgrades de build.
+Nous avons ajouté de nouvelles fonctionnalités permettant aux administrateurs d’ajouter des adresses IP à la liste autorisée afin de se connecter aux instances Campaign v7/v8.
+De plus, les utilisateurs administrateurs peuvent maintenant afficher la liste des instances Campaign v7/v8 et l’éligibilité pour les upgrades de build.
 
 Pour plus d’informations, consultez la [documentation dédiée](instances-settings/using/ip-allow-listing-instance-access.md).
 
@@ -355,6 +355,6 @@ De plus, ces utilisateurs peuvent maintenant supprimer les clés SSH qui ont ét
 
 ## Juillet 2019 {#july-2019}
 
-De nouvelles fonctionnalités ont été ajoutées pour permettre aux utilisateurs administrateurs de mieux contrôler les paramètres de l’instance de Campaign v7/v8. Les nouvelles fonctionnalités du Panneau de contrôle comprennent la possibilité d’ajouter des URL auxquelles Adobe Campaign se connecte pour les transferts de données/fichiers.
+De nouvelles fonctionnalités ont été ajoutées pour permettre aux utilisateurs administrateurs de mieux contrôler les paramètres des instances Campaign v7/v8. Les nouvelles fonctionnalités du Panneau de contrôle comprennent la possibilité d’ajouter des URL auxquelles Adobe Campaign se connecte pour les transferts de données/fichiers.
 
 Pour plus d’informations, consultez la [documentation détaillée](instances-settings/using/url-permissions.md).
