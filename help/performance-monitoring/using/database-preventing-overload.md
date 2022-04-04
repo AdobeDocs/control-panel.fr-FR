@@ -8,9 +8,9 @@ role: Architect
 level: Experienced
 exl-id: 07118637-cebd-4dd8-8374-2d7c20a47a89
 source-git-commit: c1c80c03a351613ec0c6870a11ab39a634e8eab7
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '195'
-ht-degree: 80%
+ht-degree: 100%
 
 ---
 
@@ -23,15 +23,15 @@ La section ci-dessous contient des ressources utiles issues de la documentation 
 **Surveillance des workflows**
 
 * [Meilleures pratiques relatives aux workflows](https://experienceleague.adobe.com/docs/campaign-standard/using/managing-processes-and-data/workflow-general-operation/best-practices-workflows.html?lang=fr) (Campaign Standard)
-* [Surveillance de l&#39;exécution des workflows](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/monitoring-workflows/monitoring-workflow-execution.html?lang=fr) (Campaign v7/v8)
+* [Surveiller lʼexécution des workflows](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/monitoring-workflows/monitoring-workflow-execution.html?lang=fr) (Campaign v7/v8)
 
 **Maintenance de la base de données**
 
-* Workflow technique de nettoyage de la base : [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard/using/administrating/application-settings/technical-workflows.html?lang=fr#list-of-technical-workflows) - [Campaign v7/v8](https://experienceleague.adobe.com/docs/campaign-classic/using/monitoring-campaign-classic/data-processing/database-cleanup-workflow.html?lang=fr)
-* [Guide de maintenance de base de données](https://experienceleague.adobe.com/docs/campaign-classic/using/monitoring-campaign-classic/database-maintenance/recommendations.html?lang=fr) (Campaign v7/v8)
-* [Résolution des problèmes de performances de la base de données](https://experienceleague.adobe.com/docs/campaign-classic/using/monitoring-campaign-classic/troubleshooting-toc/database-issues-toc/database-performances.html?lang=fr) (Campaign v7/v8)
-* [Options liées à la base de données](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/appendices/configuring-campaign-options.html?lang=fr#database) (Campaign v7/v8)
-* Conservation des données : [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard/using/administrating/application-settings/data-retention.html?lang=fr) - [Campaign v7/v8](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/data-model/data-model-best-practices.html?lang=fr#data-retention)
+* Workflow technique de nettoyage de la base de données : [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard/using/administrating/application-settings/technical-workflows.html?lang=fr#list-of-technical-workflows) - [Campaign v7/v8](https://experienceleague.adobe.com/docs/campaign-classic/using/monitoring-campaign-classic/data-processing/database-cleanup-workflow.html?lang=fr)
+* [Guide de maintenance de la base de données](https://experienceleague.adobe.com/docs/campaign-classic/using/monitoring-campaign-classic/database-maintenance/recommendations.html?lang=fr) (Campaign v7/v8)
+* [Résolution des problèmes de performances de la base de données](https://experienceleague.adobe.com/docs/campaign-classic/using/monitoring-campaign-classic/troubleshooting-toc/database-issues-toc/database-performances.html?lang=fr) (Campaign v7/v8)
+* [Options liées à la base de données](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/appendices/configuring-campaign-options.html?lang=fr#database) (Campaign v7/v8)
+* Conservation des données : [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard/using/administrating/application-settings/data-retention.html?lang=fr) - [Campaign v7/v8](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/data-model/data-model-best-practices.html?lang=fr#data-retention)
 
 >[!NOTE]
 >
