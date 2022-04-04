@@ -8,9 +8,9 @@ role: Architect
 level: Experienced
 exl-id: eddef17f-0667-4b43-bc56-2b1aeeae61bb
 source-git-commit: 84fe0aeb10bc5e535a7ab54a3316a51a1a32b3ca
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '326'
-ht-degree: 74%
+ht-degree: 100%
 
 ---
 
@@ -21,11 +21,11 @@ ht-degree: 74%
 >title="À propos de la surveillance des débits et de la latence "
 >abstract="Dans cet onglet, vous pouvez surveiller les fluctuations des débits de diffusion et de latence sur vos instances au cours dʼune période donnée."
 
-Panneau de Contrôle vous permet de surveiller les débits de diffusion et la latence pour chacune de vos instances.
+Le Panneau de contrôle vous permet de surveiller les débits de diffusion et la latence pour chacune de vos instances.
 
 >[!IMPORTANT]
 >
->Cette fonctionnalité est disponible pour tous les clients Campaign Standard et v8, ainsi que pour les clients de Campaign V7 dont les numéros de build 9032 9330, 9346 ou 9349 comportent des [autonome](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/deployment-types-/standalone-deployment.html) déploiements (sans instance mid).
+>Cette fonctionnalité est disponible pour tous les clients Campaign Standard et v8, ainsi que pour les clients Campaign v7 qui ont les numéros de build 9032, 9330, 9346 ou 9349 et des déploiements [Stand-alone](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/deployment-types-/standalone-deployment.html?lang=fr) (sans instance MID).
 
 La surveillance des fluctuations des débits de diffusion et de latence sur une période donnée est essentielle pour comprendre lʼutilisation de vos instances et vous assurer de leur bon fonctionnement.
 
@@ -35,7 +35,7 @@ Ces informations sont disponibles dans le panneau de contrôle pour chacune de v
 
    >[!NOTE]
    >
-   >Pour Campaign v7/v8, le numéro de débit affiché est le débit obtenu à partir des instances MID (mid-sourcing). Pour les déploiements de marketing autonome (MKT) (sans instance MID), le débit de l’instance MKT s’affiche à la place.
+   >Pour Campaign v7/v8, le nombre affiché pour le débit correspond au débit obtenu à partir des instances MID (mid-sourcing). Pour les déploiements Stand-alone de marketing (MKT) (sans instance MID), le débit de l’instance MKT s’affiche à la place.
 
 * La zone relative à la **[!UICONTROL Latence]** fournit des informations concernant la latence rencontrée sur l’instance sélectionnée lors de l’envoi de communications transactionnelles en temps réel. Les latences sont capturées et visualisées aux 95e et 99e centiles, ce qui signifie que 95 % et 99 % des requêtes doivent être plus rapides que la latence donnée.
 
