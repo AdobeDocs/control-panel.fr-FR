@@ -8,9 +8,9 @@ role: Architect
 level: Experienced
 exl-id: 02819bfc-9886-43fc-8014-9bfe64c42048
 source-git-commit: d323fa76c5707b3284e5763b5f60a82974a6c045
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '539'
-ht-degree: 80%
+ht-degree: 100%
 
 ---
 
@@ -25,7 +25,7 @@ ht-degree: 80%
 
 >[!IMPORTANT]
 >
->Cette fonctionnalité est disponible uniquement pour les instances de Campaign v7/v8.
+>Cette fonctionnalité est disponible uniquement pour les instances Campaign v7/v8.
 
 L’architecture de votre instance Adobe Campaign peut contenir plusieurs serveurs pour garantir la flexibilité des activités marketing. Par exemple, des serveurs Marketing, Real Time (ou Message Center) et Mid-sourcing peuvent prendre en charge votre instance.
 
@@ -33,7 +33,7 @@ La fonctionnalité Détails de l’instance vous permet d’afficher l’archite
 
 >[!NOTE]
 >
->Nous vous recommandons de mettre à niveau vos instances au moins une fois par an afin d&#39;éviter une dégradation des performances et de pouvoir profiter des fonctionnalités et correctifs les plus récents proposés par Adobe Campaign v7/v8.
+>Nous vous recommandons de mettre vos instances à niveau au moins une fois par an afin dʼéviter une dégradation des performances et de pouvoir profiter des fonctionnalités et des correctifs les plus récents quʼAdobe Campaign v7/v8 offre.
 
 **Rubriques connexes :**
 
@@ -48,13 +48,13 @@ Pour obtenir des informations sur les serveurs connectés à vos instances, proc
 
    >[!NOTE]
    >
-   >Si la carte Paramètres de l’instance n’est pas visible sur la page d’accueil du Panneau de Contrôle, cela signifie que votre identifiant de l’organisation IMS n’est associé à aucune instance Adobe Campaign v7/v8.
+   >Si la vignette Paramètres d’instance nʼest pas visible sur la page dʼaccueil du Panneau de contrôle, cela signifie que votre identifiant dʼorganisation IMS nʼest associé à aucune instance Adobe Campaign v7/v8.
 
 1. Dans le panneau de gauche, sélectionnez l’instance Campaign désirée.
 
    >[!NOTE]
    >
-   >Toutes vos instances Campaign s&#39;affichent dans la liste du volet gauche. La fonction Détails de l’instance étant réservée aux instances de Campaign v7/v8, le message &quot;Instance non applicable&quot; s’affiche si vous sélectionnez une instance de Campaign Standard.
+   >Toutes vos instances Campaign sʼaffichent dans la liste du volet gauche. La fonctionnalité Détails de l’instance étant réservée aux instances Campaign v7/v8, le message « Instance non applicable » s’affiche si vous sélectionnez une instance Campaign Standard.
 
 1. Les serveurs connectés à l’instance s’affichent.
 
@@ -70,7 +70,7 @@ Les informations disponibles sont les suivantes :
    * Jaune : vous devez envisager un upgrade. Vous ne disposez pas des fonctionnalités et des correctifs les plus récents.
    * Rouge : effectuez un upgrade dès que possible. Vous ne disposez pas des nouvelles fonctionnalités et les performances du serveur ne sont peut-être pas optimales.
 
-Si l’un de vos serveurs nécessite un upgrade, reportez-vous à [cette documentation](https://docs.campaign.adobe.com/doc/AC/getting_started/EN/buildUpgrade.html) pour plus de détails sur la manière de procéder.
+Si l’un de vos serveurs nécessite un upgrade, reportez-vous à [cette documentation](https://docs.campaign.adobe.com/doc/AC/getting_started/FR/buildUpgrade.html) pour plus de détails sur la manière de procéder.
 
 ## Questions courantes {#common-questions}
 
