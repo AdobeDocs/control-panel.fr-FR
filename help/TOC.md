@@ -6,10 +6,10 @@ user-guide-title: Guide du Panneau de contrôle
 feature: Control Panel
 role: Architect
 level: Beginner
-source-git-commit: 03f88c50e0eff20654dfcb90c711bb3d381591ed
+source-git-commit: 9dc288986f11cd64f187ba9253e4e4ff9f1b00b3
 workflow-type: tm+mt
-source-wordcount: '127'
-ht-degree: 93%
+source-wordcount: '124'
+ht-degree: 95%
 
 ---
 
@@ -23,6 +23,7 @@ ht-degree: 93%
    + [Accès au Panneau de contrôle](discover/using/accessing-control-panel.md)
    + [Gestion des autorisations pour le Panneau de contrôle](discover/using/managing-permissions.md)
    + [Découverte de l’interface du Panneau de contrôle](discover/using/discovering-the-interface.md)
++ [Surveiller les contacts et les événements clés](service-events/service-events.md)
 + Gestion SFTP {#sftp-management}
    + [À propos de la gestion SFTP](sftp/using/about-sftp-management.md)
    + [Gestion de l’espace de stockage SFTP](sftp/using/sftp-storage-management.md)
@@ -55,5 +56,4 @@ ht-degree: 93%
    + [Autorisations d’URL](instances-settings/using/url-permissions.md)
    + [Détails de l’instance](instances-settings/using/instance-details.md)
    + [Gestion des clés GPG](instances-settings/using/gpg-keys-management.md)
-+ [Identifier les contacts et événements clés de vos instances](service-events/service-events.md)
 + [FAQ](faq.md)
