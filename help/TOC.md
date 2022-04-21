@@ -6,10 +6,10 @@ user-guide-title: Guide du Panneau de contrôle
 feature: Control Panel
 role: Architect
 level: Beginner
-source-git-commit: 33afa568cb850c72d1a65b03f68d1922addfc034
-workflow-type: ht
-source-wordcount: '119'
-ht-degree: 100%
+source-git-commit: 03f88c50e0eff20654dfcb90c711bb3d381591ed
+workflow-type: tm+mt
+source-wordcount: '127'
+ht-degree: 93%
 
 ---
 
@@ -55,4 +55,5 @@ ht-degree: 100%
    + [Autorisations d’URL](instances-settings/using/url-permissions.md)
    + [Détails de l’instance](instances-settings/using/instance-details.md)
    + [Gestion des clés GPG](instances-settings/using/gpg-keys-management.md)
++ [Identifier les contacts et événements clés de vos instances](service-events/service-events.md)
 + [FAQ](faq.md)

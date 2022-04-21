@@ -5,10 +5,10 @@ feature: Control Panel
 role: Architect
 level: Beginner
 exl-id: 2b2cfaed-e42e-4c3a-a8d8-224b936890ab
-source-git-commit: aa5dbe361febee91eb936661da6dea09fc023eaa
-workflow-type: ht
-source-wordcount: '228'
-ht-degree: 100%
+source-git-commit: da68420340ea8605f6e1347e86797c9e6a790ea6
+workflow-type: tm+mt
+source-wordcount: '221'
+ht-degree: 82%
 
 ---
 
@@ -27,14 +27,9 @@ Le Panneau de contrôle de Campaign accroît votre efficacité en tant quʼadmin
 
 ## Nouveautés
 
-**Surveillance des paramètres de workflow**
+**Surveiller les contacts et les événements clés de vos instances**
 
-Vous pouvez désormais surveiller les paramètres de workflow qui peuvent nécessiter une attention particulière pour éviter tout problème sur vos instances. [En savoir plus](performance-monitoring/using/workflow-monitoring.md)
-
-**Surveillance des débits et de la latence**
-
-Vous pouvez désormais surveiller les fluctuations des débits de diffusion et de latence sur vos instances au cours d’une période donnée. [En savoir plus](performance-monitoring/using/thoughputs-latencies.md)
-
+Vous pouvez désormais surveiller les versions antérieures et à venir et les révisions des services survenant sur vos instances, ainsi qu’accéder à une liste de contacts clés à Adobe pour toute demande ou problème. [En savoir plus](service-events/service-events.md)
 
 >[!CAUTION]
 >
