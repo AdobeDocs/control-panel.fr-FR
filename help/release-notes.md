@@ -5,9 +5,9 @@ title: Versions du Panneau de contrôle
 description: Cette page répertorie toutes les nouvelles fonctionnalités et améliorations apportées au Panneau de contrôle.
 exl-id: 13aceffb-ceaa-4cfe-8741-95d66c5c6caa
 source-git-commit: da68420340ea8605f6e1347e86797c9e6a790ea6
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1070'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -26,13 +26,13 @@ Cette page répertorie toutes les nouvelles fonctionnalités et améliorations a
 <table>
 <thead>
 <tr>
-<th><strong>Surveiller les contacts et les événements clés de vos instances</strong><br/></th>
+<th><strong>Surveiller les contacts principaux et les événements sur vos instances</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Vous pouvez désormais surveiller les versions antérieures et à venir et les révisions des services survenant sur vos instances, ainsi qu’accéder à une liste de contacts clés à Adobe pour toute demande ou problème.</p><p>Pour plus d’informations, consultez la <a href="service-events/service-events.md">documentation détaillée</a>.</p>
+<p>Vous pouvez désormais surveiller les versions antérieures et à venir ainsi que les révisions de service se produisant sur vos instances. Vous pouvez également accéder à une liste de contacts principaux chez Adobe pour toute demande ou problème.</p><p>Pour plus d’informations, consultez la <a href="service-events/service-events.md">documentation détaillée</a>.</p>
 </td>
 </tr>
 </tbody>
