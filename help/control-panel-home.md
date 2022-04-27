@@ -6,9 +6,9 @@ role: Architect
 level: Beginner
 exl-id: 2b2cfaed-e42e-4c3a-a8d8-224b936890ab
 source-git-commit: da68420340ea8605f6e1347e86797c9e6a790ea6
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '221'
-ht-degree: 82%
+ht-degree: 100%
 
 ---
 
@@ -27,9 +27,9 @@ Le Panneau de contrôle de Campaign accroît votre efficacité en tant quʼadmin
 
 ## Nouveautés
 
-**Surveiller les contacts et les événements clés de vos instances**
+**Surveiller les contacts principaux et les événements sur vos instances**
 
-Vous pouvez désormais surveiller les versions antérieures et à venir et les révisions des services survenant sur vos instances, ainsi qu’accéder à une liste de contacts clés à Adobe pour toute demande ou problème. [En savoir plus](service-events/service-events.md)
+Vous pouvez désormais surveiller les versions antérieures et à venir ainsi que les révisions de service se produisant sur vos instances. Vous pouvez également accéder à une liste de contacts principaux chez Adobe pour toute demande ou problème. [En savoir plus](service-events/service-events.md)
 
 >[!CAUTION]
 >
