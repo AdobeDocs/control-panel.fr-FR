@@ -1,20 +1,20 @@
 ---
 product: campaign
 solution: Campaign
-title: Présentation de l’espace de stockage
+title: Vue d’ensemble de l’espace de stockage
 description: Découvrez comment surveiller, dans le panneau de contrôle, les différentes ressources Campaign qui occupent de l’espace de base de données sur vos instances.
 feature: Control Panel
 role: Architect
 level: Experienced
 exl-id: bb9e1ce3-2472-4bc1-a82a-a301c6bf830e
 source-git-commit: c52094b8145bdd84aa9e71430a811b8a7b32354d
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '175'
 ht-degree: 100%
 
 ---
 
-# Présentation de l’espace de stockage {#storage-overview}
+# Vue d’ensemble de l’espace de stockage {#storage-overview}
 
 >[!CONTEXTUALHELP]
 >id="cp_dbdetails_storagedetails"

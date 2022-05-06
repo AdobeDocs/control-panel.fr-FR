@@ -8,7 +8,7 @@ role: Architect
 level: Experienced
 exl-id: 2bd7d2dd-97be-49bb-9f8e-7161d0742bc1
 source-git-commit: c1c80c03a351613ec0c6870a11ab39a634e8eab7
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '393'
 ht-degree: 100%
 
@@ -51,7 +51,7 @@ Les données de ce tableau de bord sont mises à jour en fonction du **[!UICONTR
 D’autres mesures sont disponibles dans ce tableau de bord pour vous aider à analyser l’utilisation de la base de données de l’instance. Elles sont détaillées dans les sections suivantes :
 
 * [Utilisation de la base de données](../../performance-monitoring/using/database-utilization.md)
-* [Présentation de l’espace de stockage](../../performance-monitoring/using/database-storage-overview.md)
+* [Vue d’ensemble de l’espace de stockage](../../performance-monitoring/using/database-storage-overview.md)
 * [Top 10 des ressources temporaires](../../performance-monitoring/using/database-top-ten-resources.md)
 * [Requêtes actives](../../performance-monitoring/using/database-active-queries.md)
 

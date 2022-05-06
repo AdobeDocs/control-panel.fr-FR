@@ -8,8 +8,8 @@ role: Architect
 level: Beginner
 source-git-commit: d8843ddcce0de7a29bbdd83af629c8d8f0d32920
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '124'
+ht-degree: 100%
 
 ---
 
