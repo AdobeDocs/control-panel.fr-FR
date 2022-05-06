@@ -6,10 +6,10 @@ user-guide-title: Guide du Panneau de contrôle
 feature: Control Panel
 role: Architect
 level: Beginner
-source-git-commit: d99076ab844c348dbca2ae2ca2f3dc83da29406e
+source-git-commit: d8843ddcce0de7a29bbdd83af629c8d8f0d32920
 workflow-type: tm+mt
-source-wordcount: '128'
-ht-degree: 96%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -56,5 +56,4 @@ ht-degree: 96%
    + [Autorisations d’URL](instances-settings/using/url-permissions.md)
    + [Détails de l’instance](instances-settings/using/instance-details.md)
    + [Gestion des clés GPG](instances-settings/using/gpg-keys-management.md)
-   + [Connexion des instances MID/RT](instances-settings/using/external-accounts.md)
 + [FAQ](faq.md)
