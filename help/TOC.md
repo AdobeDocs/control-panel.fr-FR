@@ -6,10 +6,10 @@ user-guide-title: Guide du Panneau de contrôle
 feature: Control Panel
 role: Architect
 level: Beginner
-source-git-commit: 9dc288986f11cd64f187ba9253e4e4ff9f1b00b3
-workflow-type: ht
-source-wordcount: '124'
-ht-degree: 100%
+source-git-commit: d99076ab844c348dbca2ae2ca2f3dc83da29406e
+workflow-type: tm+mt
+source-wordcount: '128'
+ht-degree: 96%
 
 ---
 
@@ -43,7 +43,7 @@ ht-degree: 100%
    + Surveillance des bases de données {#database-monitoring}
       + [À propos de la surveillance des bases de données](performance-monitoring/using/database-monitoring.md)
       + [Utilisation de la base de données](performance-monitoring/using/database-utilization.md)
-      + [Présentation de l’espace de stockage](performance-monitoring/using/database-storage-overview.md)
+      + [Vue d’ensemble de l’espace de stockage](performance-monitoring/using/database-storage-overview.md)
       + [Top 10 des ressources temporaires](performance-monitoring/using/database-top-ten-resources.md)
       + [Requêtes actives](performance-monitoring/using/database-active-queries.md)
       + [Surveillance des workflows](performance-monitoring/using/workflow-monitoring.md)
@@ -56,4 +56,5 @@ ht-degree: 100%
    + [Autorisations d’URL](instances-settings/using/url-permissions.md)
    + [Détails de l’instance](instances-settings/using/instance-details.md)
    + [Gestion des clés GPG](instances-settings/using/gpg-keys-management.md)
+   + [Connexion des instances MID/RT](instances-settings/using/external-accounts.md)
 + [FAQ](faq.md)
