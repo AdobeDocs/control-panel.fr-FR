@@ -7,9 +7,9 @@ feature: Control Panel
 role: Architect
 level: Intermediate
 exl-id: 1d1eeff8-969e-4529-b947-2a68defb8d13
-source-git-commit: c1c80c03a351613ec0c6870a11ab39a634e8eab7
+source-git-commit: 330733c5a025ed8f26120a38f40743bfb5023fd4
 workflow-type: tm+mt
-source-wordcount: '791'
+source-wordcount: '790'
 ht-degree: 100%
 
 ---
@@ -55,7 +55,7 @@ Veillez à suivre les recommandations et les limites ci-dessous lors de l’ajou
 
 >[!NOTE]
 >
->Si la vignette **[!UICONTROL Paramètres d’instance]** nʼest pas visible sur la page dʼaccueil du Panneau de contrôle, cela signifie que votre identifiant dʼorganisation IMS nʼest associé à aucune instance Adobe Campaign v7/v8.
+>Si la vignette **[!UICONTROL Paramètres d’instance]** nʼest pas visible sur la page dʼaccueil du Panneau de contrôle, cela signifie que votre identifiant dʼorganisation nʼest associé à aucune instance Adobe Campaign v7/v8.
 
 Pour ajouter des adresses IP à la liste autorisée, procédez comme suit :
 
