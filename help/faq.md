@@ -56,7 +56,7 @@ Consultez les instructions détaillées dans la documentation relative à l’ac
 
 Non, il n’y a pas de frais supplémentaires si vous êtes déjà client Adobe Campaign.
 
-## Identifiant de l&#39;organisation {#ims-org-id}
+## Identifiant de l’organisation {#ims-org-id}
 
 ### Qu’est-ce qu’un identifiant de l’organisation 
 
