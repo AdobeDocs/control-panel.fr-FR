@@ -7,10 +7,10 @@ feature: Control Panel
 role: Architect
 level: Intermediate
 exl-id: 1d1eeff8-969e-4529-b947-2a68defb8d13
-source-git-commit: 330733c5a025ed8f26120a38f40743bfb5023fd4
+source-git-commit: 2458263ef5981a16d983912b498e320501df7889
 workflow-type: tm+mt
-source-wordcount: '790'
-ht-degree: 100%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -27,6 +27,8 @@ ht-degree: 100%
 >[!IMPORTANT]
 >
 >Cette fonctionnalité est disponible uniquement pour les instances Campaign v7/v8.
+>
+>Si vous utilisez une instance avec un modèle d’hébergement hybride, vous ne pourrez ajouter que des adresses IP dans &quot;Connexion API externe&quot; pour l’instance RT.
 
 Par défaut, votre instance Adobe Campaign n’est accessible qu’à partir de certaines adresses IP.
 
@@ -55,7 +57,7 @@ Veillez à suivre les recommandations et les limites ci-dessous lors de l’ajou
 
 >[!NOTE]
 >
->Si la vignette **[!UICONTROL Paramètres d’instance]** nʼest pas visible sur la page dʼaccueil du Panneau de contrôle, cela signifie que votre identifiant dʼorganisation nʼest associé à aucune instance Adobe Campaign v7/v8.
+>Si la vignette **[!UICONTROL Paramètres d’instance]** nʼest pas visible sur la page dʼaccueil du Panneau de contrôle, cela signifie que votre identifiant dʼorganisation IMS nʼest associé à aucune instance Adobe Campaign v7/v8.
 
 Pour ajouter des adresses IP à la liste autorisée, procédez comme suit :
 
@@ -88,11 +90,16 @@ Pour ajouter des adresses IP à la liste autorisée, procédez comme suit :
    * **[!UICONTROL Connexion via AEM]** : les adresses IP AEM spécifiées seront autorisées à se connecter à l’instance Marketing.
    * **[!UICONTROL Connexion via une API externe]** : les API externes ayant les adresses IP spécifiées seront autorisées à se connecter aux instances Marketing et/ou Message Center (RT). Notez que la connexion à la console des instances RT n’est pas activée.
 
+      >[!NOTE]
+      >
+      >Si vous utilisez une instance avec un modèle d’hébergement hybride, vous ne pourrez ajouter que des adresses IP dans &quot;Connexion API externe&quot; pour l’instance RT.
    ![](assets/ip_whitelist_acesstype.png)
 
 1. Cliquez sur le bouton **[!UICONTROL Enregistrer]**. La plage d’adresses IP est ajoutée à la liste autorisée.
 
    <!--![](assets/ip_whitelist_added.png)-->
+
+Par défaut, votre instance Adobe Campaign n’est accessible qu’à partir de certaines adresses IP.
 
 Pour supprimer une ou plusieurs plages dʼadresses IP de la liste autorisée, sélectionnez-les puis cliquez sur le bouton **[!UICONTROL Supprimer la plage dʼadresses IP]**.
 

@@ -4,10 +4,10 @@ solution: Campaign
 title: Versions du Panneau de contrôle
 description: Cette page répertorie toutes les nouvelles fonctionnalités et améliorations apportées au Panneau de contrôle.
 exl-id: 13aceffb-ceaa-4cfe-8741-95d66c5c6caa
-source-git-commit: da68420340ea8605f6e1347e86797c9e6a790ea6
+source-git-commit: 87b28195ede08756d5084aad36bf1c95f621b5f5
 workflow-type: tm+mt
-source-wordcount: '1070'
-ht-degree: 100%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -20,6 +20,39 @@ Cette page répertorie toutes les nouvelles fonctionnalités et améliorations a
 >Le panneau de contrôle est accessible uniquement aux utilisateurs administrateurs. Pour en savoir plus sur les autorisations, consultez [cette section](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html?lang=fr#discover-control-panel).
 >
 >Pour Campaign v7, votre instance doit être hébergée sur Amazon Web Services (AWS) et mise à niveau vers le dernier [build stable de Campaign](https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/rn-overview.html?lang=fr#rn-statuses) (ou vers le build 9032 ou supérieur). Découvrez comment vérifier votre version dans [cette section](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/starting-with-adobe-campaign/launching-adobe-campaign.html?lang=fr#getting-your-campaign-version). Pour vérifier si votre instance est hébergée sur AWS, suivez les étapes présentées sur [cette page](faq.md#hosted-aws).
+
+## Mai 2022 {#may-2022}
+
+<table>
+<thead>
+<tr>
+<th><strong>Disponibilité du panneau de contrôle au modèle d’hébergement hybride</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Panneau de Contrôle est désormais disponible pour les clients avec un modèle d’hébergement hybride. Ces clients peuvent tirer parti des fonctionnalités de Panneau de Contrôle en fournissant l’URL de leur instance MID/RT configurée dans leur instance marketing en Panneau de Contrôle.</p><p>Pour plus d’informations, consultez la <a href="instances-settings/using/external-accounts.md">documentation détaillée</a>.</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>Débit et latences pour surveiller les mises à jour</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Les fonctionnalités de surveillance des débits et des latences ont été améliorées :<ul><li>Vous pouvez maintenant identifier les identifiants des 5 premières diffusions qui contribuent au débit de votre instance.</li><li>Les clients Campaign Classic v7/v8 peuvent désormais visualiser la latence d’un canal spécifique.</p></li><p>Pour plus d’informations, consultez la <a href="performance-monitoring/using/thoughputs-latencies.md">documentation détaillée</a>.</p>
+</td>
+</tr>
+</tbody>
+</table>
+
 
 ## Avril 2022 {#april-2022}
 

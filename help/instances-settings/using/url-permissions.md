@@ -7,10 +7,10 @@ feature: Control Panel
 role: Architect
 level: Intermediate
 exl-id: a7df90da-a2ce-409f-9bc3-c7d4fa3024c8
-source-git-commit: 330733c5a025ed8f26120a38f40743bfb5023fd4
+source-git-commit: 3f68145c40f40df3e69f4fdfd889f3a7a2e995ab
 workflow-type: tm+mt
-source-wordcount: '608'
-ht-degree: 100%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -60,7 +60,7 @@ Pour ajouter une URL à laquelle votre instance peut se connecter, procédez com
 
    >[!NOTE]
    >
-   >Si la carte Paramètres des instances n’est pas visible sur la page d’accueil du Panneau de contrôle, cela signifie que votre identifiant de l’organisation n’est associé à aucune instance Adobe Campaign
+   >Si la carte Paramètres des instances n’est pas visible sur la page d’accueil du Panneau de contrôle, cela signifie que votre identifiant de l’organisation IMS n’est associé à aucune instance Adobe Campaign
    >
    >L’onglet <b><span class="uicontrol">Autorisations d’URL</span></b> répertorie toutes les URL externes auxquelles votre instance peut se connecter. Cette liste ne comprend pas les URL requises pour que Campaign fonctionne (par exemple, les connexions entre les éléments d’infrastructure).
 

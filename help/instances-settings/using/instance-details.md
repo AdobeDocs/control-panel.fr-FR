@@ -7,10 +7,10 @@ feature: Control Panel
 role: Architect
 level: Experienced
 exl-id: 02819bfc-9886-43fc-8014-9bfe64c42048
-source-git-commit: 330733c5a025ed8f26120a38f40743bfb5023fd4
+source-git-commit: 3f68145c40f40df3e69f4fdfd889f3a7a2e995ab
 workflow-type: tm+mt
-source-wordcount: '538'
-ht-degree: 100%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -48,7 +48,7 @@ Pour obtenir des informations sur les serveurs connectés à vos instances, proc
 
    >[!NOTE]
    >
-   >Si la vignette Paramètres d’instance nʼest pas visible sur la page dʼaccueil du Panneau de contrôle, cela signifie que votre identifiant dʼorganisation nʼest associé à aucune instance Adobe Campaign v7/v8.
+   >Si la vignette Paramètres d’instance nʼest pas visible sur la page dʼaccueil du Panneau de contrôle, cela signifie que votre identifiant dʼorganisation IMS nʼest associé à aucune instance Adobe Campaign v7/v8.
 
 1. Dans le panneau de gauche, sélectionnez l’instance Campaign désirée.
 

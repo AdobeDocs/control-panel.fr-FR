@@ -7,10 +7,10 @@ feature: Control Panel
 role: Architect
 level: Experienced
 exl-id: eddef17f-0667-4b43-bc56-2b1aeeae61bb
-source-git-commit: 84fe0aeb10bc5e535a7ab54a3316a51a1a32b3ca
+source-git-commit: a5bd04c4659ae18c4f05934f42e071b209a58fff
 workflow-type: tm+mt
-source-wordcount: '326'
-ht-degree: 100%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="cp_performancemonitoring_throughputslatencies"
 >title="À propos de la surveillance des débits et de la latence "
->abstract="Dans cet onglet, vous pouvez surveiller les fluctuations des débits de diffusion et de latence sur vos instances au cours dʼune période donnée."
+>abstract="Dans cet onglet, vous pouvez surveiller les fluctuations des débits de diffusion et de latence sur vos instances au cours dʼune période donnée. Pour plus d’informations sur les diffusions qui contribuent au débit, passez en vue tabulaire."
 
 Le Panneau de contrôle vous permet de surveiller les débits de diffusion et la latence pour chacune de vos instances.
 
@@ -31,22 +31,49 @@ La surveillance des fluctuations des débits de diffusion et de latence sur une 
 
 Ces informations sont disponibles dans le panneau de contrôle pour chacune de vos instances Campaign, dans la vignette **[!UICONTROL Surveillance des performances]** et sous lʼonglet **[!UICONTROL Débits et latence]** (notez que le panneau de contrôle peut prendre jusqu’à 1 heure pour afficher les chiffres).
 
-* La zone relative au **[!UICONTROL Débit]** fournit des informations concernant le nombre de messages envoyés par heure à partir de l’instance Campaign sélectionnée, pour tous les canaux de communication auxquels vous avez droit.
-
-   >[!NOTE]
-   >
-   >Pour Campaign v7/v8, le nombre affiché pour le débit correspond au débit obtenu à partir des instances MID (mid-sourcing). Pour les déploiements Stand-alone de marketing (MKT) (sans instance MID), le débit de l’instance MKT s’affiche à la place.
-
-* La zone relative à la **[!UICONTROL Latence]** fournit des informations concernant la latence rencontrée sur l’instance sélectionnée lors de l’envoi de communications transactionnelles en temps réel. Les latences sont capturées et visualisées aux 95e et 99e centiles, ce qui signifie que 95 % et 99 % des requêtes doivent être plus rapides que la latence donnée.
-
-![](assets/throughput-latencies-overview.png)
-
 >[!NOTE]
 >
 >Tous les chiffres fournis dans cet onglet sont approximatifs et ne sont donnés quʼà titre indicatif.
 
-Par défaut, les données sont affichées pour la journée en cours. Vous pouvez modifier la période affichée à l’aide des boutons **[!UICONTROL 6 mois]**, **[!UICONTROL 30 jours]** et **[!UICONTROL 7 jours]**.
+![](assets/throughput-latencies-overview.png)
+
+Par défaut, les données sont affichées pour la journée en cours. Vous pouvez modifier la période affichée à l’aide des boutons **[!UICONTROL 6 mois]**, **[!UICONTROL 30 jours]** et **[!UICONTROL 7 jours.]** Les données seront présentées :
+* Horaire pour une vue de 1 jour et 7 jours,
+* 6 heures pour une vue de 30 jours,
+* Vue quotidienne pendant 6 mois.
 
 Vous pouvez également visualiser les informations dans un format de tableau avec des colonnes triables plutôt que dans un graphique. Pour ce faire, cliquez sur le bouton **[!UICONTROL Paramètres de visualisation]**, puis sélectionnez **[!UICONTROL Tableau]**.
 
 ![](assets/throughput-latencies-table.png)
+
+## Contrôle du débit {#throughput}
+
+La zone relative au **[!UICONTROL Débit]** fournit des informations concernant le nombre de messages envoyés par heure à partir de l’instance Campaign sélectionnée, pour tous les canaux de communication auxquels vous avez droit.
+
+>[!NOTE]
+>
+>Pour Campaign v7/v8, le nombre affiché pour le débit correspond au débit obtenu à partir des instances MID (mid-sourcing). Pour les déploiements Stand-alone de marketing (MKT) (sans instance MID), le débit de l’instance MKT s’affiche à la place.
+
+En outre, Panneau de Contrôle vous permet d’identifier les identifiants des 5 premières diffusions qui contribuent au débit pendant la période sélectionnée. Ces informations sont disponibles en mode tabulaire uniquement :
+
+![](assets/throughput-latencies-top5.png)
+
+## Latence du moniteur {#latency}
+
+La zone relative à la **[!UICONTROL Latence]** fournit des informations concernant la latence rencontrée sur l’instance sélectionnée lors de l’envoi de communications transactionnelles en temps réel.
+
+>[!NOTE]
+>
+>Notez que les informations relatives à **Latence du profil** est également disponible pour [!DNL Campaign Standard] instances uniquement.
+
+Les latences sont capturées et visualisées aux 95e et 99e centiles, ce qui signifie que 95 % et 99 % des requêtes doivent être plus rapides que la latence donnée.
+
+![](assets/throughput-latencies-latency.png)
+
+Par défaut, la latence s’affiche pour tous les canaux. Vous pouvez visualiser la latence d’un canal spécifique à l’aide de la liste déroulante.
+
+![](assets/throughput-latencies-filter.png)
+
+>[!NOTE]
+>
+>Le filtrage de canal est disponible uniquement pour les instances Campaign Classic v7/v8.

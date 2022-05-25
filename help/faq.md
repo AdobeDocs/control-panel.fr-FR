@@ -7,10 +7,10 @@ feature: Control Panel
 role: Architect
 level: Intermediate
 exl-id: 4f329764-ed8b-4939-affc-ed994fd6101d
-source-git-commit: 330733c5a025ed8f26120a38f40743bfb5023fd4
+source-git-commit: 3f68145c40f40df3e69f4fdfd889f3a7a2e995ab
 workflow-type: tm+mt
-source-wordcount: '756'
-ht-degree: 94%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -56,33 +56,33 @@ Consultez les instructions détaillées dans la documentation relative à l’ac
 
 Non, il n’y a pas de frais supplémentaires si vous êtes déjà client Adobe Campaign.
 
-## Identifiant de l’organisation {#ims-org-id}
+## Identifiant de l’organisation IMS {#ims-org-id}
 
-### Qu’est-ce qu’un identifiant de l’organisation 
+### Qu’est-ce qu’un identifiant de l’organisation IMS ?
 
 Il s’agit d’un identifiant unique attribué à votre instance lorsque vous vous connectez pour la première fois à Adobe Experience Cloud. Il doit être au format : xxx@AdobeOrg.
 
-Pour plus d’informations, reportez-vous à la section [Documentation Adobe Experience Cloud](https://experienceleague.adobe.com/docs/core-services/interface/administration/organizations.html?lang=fr){_blank}.
+Pour plus d’informations, voir la [documentation relative à Adobe Experience Cloud](https://experienceleague.adobe.com/docs/core-services/interface/administration/organizations.html?lang=fr).
 
-### Où puis-je trouver mon identifiant de l’organisation 
+### Où puis-je trouver mon identifiant de l’organisation IMS ?
 
-Une méthode consiste à accéder à la [page d’accueil d’Adobe Experience Cloud](https://experiencecloud.adobe.com/) > **[!UICONTROL Administration]**. Vous trouverez votre identifiant de l’organisation au bas de la section **[!UICONTROL Accès rapide]** dans Administration. Vous trouverez des informations plus détaillées dans la section [Documentation Adobe Experience Cloud](https://experienceleague.adobe.com/docs/core-services/interface/administration/organizations.html){_blank}.
+Une méthode consiste à accéder à la [page d’accueil d’Adobe Experience Cloud](https://experiencecloud.adobe.com/) > **[!UICONTROL Administration]**. Vous trouverez votre identifiant de l’organisation IMS au bas de la section **[!UICONTROL Accès rapide]** dans Administration. Vous trouverez des informations plus détaillées dans la [documentation Adobe Experience Cloud](https://experienceleague.adobe.com/docs/core-services/interface/administration/organizations.html).
 
-Vous pouvez aussi lancer **Admin Console**. Votre ID d’organisation sera visible dans votre URL, qui doit se présenter comme suit : `https://adminconsole.adobe.com/xxx@AdobeOrg/overview`.
+Vous pouvez aussi lancer **Admin Console**. Votre identifiant de l’organisation IMS est visible dans l’URL, qui se présente comme suit : https://adminconsole.adobe.com/xxx@AdobeOrg/overview.
 
-### Pourquoi ai-je besoin de connaître mon identifiant de l’organisation 
+### Pourquoi ai-je besoin de connaître mon identifiant de l’organisation IMS ?
 
 Pour que vous puissiez gérer les paramètres de votre instance, nous voulons nous assurer que vous obtenez les informations adéquates pour la bonne instance au cas où vous utilisez plusieurs instances pour votre entreprise.
 
-### Que faire si je possède plusieurs identifiants de l’organisation 
+### Que faire si je possède plusieurs identifiants de l’organisation IMS ?
 
-Si vous avez accès à plusieurs solutions Adobe, il est possible que vous disposiez de plusieurs identifiants de l’organisation Dans ce cas, l’identifiant de l’organisation correct à utiliser est celui qui est visible sous votre instance Adobe Campaign.
+Si vous avez accès à plusieurs solutions Adobe, il est possible que vous disposiez de plusieurs identifiants de l’organisation IMS. Dans ce cas, l’identifiant de l’organisation IMS correct à utiliser est celui qui est visible sous votre instance Adobe Campaign.
 
 >[!NOTE]
 >
->Si votre identifiant de l’organisation est le même pour Adobe Campaign et Adobe Analytics, c’est une excellente nouvelle. En effet, un même identifiant de l’organisation est nécessaire pour Analytics et Campaign si vous prévoyez d’intégrer les solutions afin de tirer parti des cas pratiques complexes tels que l’abandon du panier d’achat (pour AA + AC).
+>Si votre identifiant de l’organisation IMS est le même pour Adobe Campaign et Adobe Analytics, c’est une excellente nouvelle. En effet, un même identifiant de l’organisation IMS est nécessaire pour Analytics et Campaign si vous prévoyez d’intégrer les solutions afin de tirer parti des cas pratiques complexes tels que l’abandon du panier d’achat (pour AA + AC).
 >
->Si vous avez deux identifiants d’organisation différents pour Adobe Campaign et Adobe Analytics, contactez l’assistance clientèle pour qu’ils soient harmonisés.
+>Si vous avez deux identifiants d’organisation IMS différents pour Adobe Campaign et Adobe Analytics, contactez l’assistance clientèle pour qu’ils soient harmonisés.
 
 ### Comment puis-je savoir si mon instance Adobe Campaign est hébergée sur AWS ?{#hosted-aws}
 

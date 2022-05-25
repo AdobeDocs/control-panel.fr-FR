@@ -7,10 +7,10 @@ feature: Control Panel
 role: Architect
 level: Experienced
 exl-id: e9b7c67d-6afa-44f9-b19d-39c0ec9a7edd
-source-git-commit: c1c80c03a351613ec0c6870a11ab39a634e8eab7
+source-git-commit: 8f83b5c440ad9fd698a48776723fe71e0915f527
 workflow-type: tm+mt
-source-wordcount: '854'
-ht-degree: 100%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -27,7 +27,9 @@ ht-degree: 100%
 
 >[!IMPORTANT]
 >
->La configuration de sous-domaine depuis le Panneau de contrôle est disponible en version bêta et sujette à de fréquentes mises à jour et modifications sans préavis.
+>Le renouvellement du certificat SSL depuis le Panneau de Contrôle est disponible en version bêta et sujette à de fréquentes mises à jour et modifications sans préavis.
+>
+>Si vous utilisez une instance avec un modèle d’hébergement hybride, vous ne pouvez afficher que les certificats associés aux sous-domaines délégués. Vous ne pourrez pas renouveler de certificats SSL.
 
 La procédure de renouvellement des certificats SSL comprend 3 étapes :
 
