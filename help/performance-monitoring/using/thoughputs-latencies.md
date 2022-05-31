@@ -8,9 +8,9 @@ role: Architect
 level: Experienced
 exl-id: eddef17f-0667-4b43-bc56-2b1aeeae61bb
 source-git-commit: a5bd04c4659ae18c4f05934f42e071b209a58fff
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '437'
+ht-degree: 100%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 0%
 >[!CONTEXTUALHELP]
 >id="cp_performancemonitoring_throughputslatencies"
 >title="À propos de la surveillance des débits et de la latence "
->abstract="Dans cet onglet, vous pouvez surveiller les fluctuations des débits de diffusion et de latence sur vos instances au cours dʼune période donnée. Pour plus d’informations sur les diffusions qui contribuent au débit, passez en vue tabulaire."
+>abstract="Dans cet onglet, vous pouvez surveiller les fluctuations des débits de diffusion et de latence sur vos instances au cours dʼune période donnée. Pour obtenir des informations sur les diffusions qui contribuent au débit, passez en vue tabulaire."
 
 Le Panneau de contrôle vous permet de surveiller les débits de diffusion et la latence pour chacune de vos instances.
 
@@ -37,16 +37,16 @@ Ces informations sont disponibles dans le panneau de contrôle pour chacune de v
 
 ![](assets/throughput-latencies-overview.png)
 
-Par défaut, les données sont affichées pour la journée en cours. Vous pouvez modifier la période affichée à l’aide des boutons **[!UICONTROL 6 mois]**, **[!UICONTROL 30 jours]** et **[!UICONTROL 7 jours.]** Les données seront présentées :
-* Horaire pour une vue de 1 jour et 7 jours,
-* 6 heures pour une vue de 30 jours,
-* Vue quotidienne pendant 6 mois.
+Par défaut, les données sont affichées pour la journée en cours. Vous pouvez modifier la période affichée à l’aide des boutons **[!UICONTROL 6 mois]**, **[!UICONTROL 30 jours]** et **[!UICONTROL 7 jours.]** Les données sont présentées des façons suivantes :
+* Chaque heure pour les vues de 1 jour et 7 jours,
+* Toutes les 6 heures pour la vue sur 30 jours,
+* Chaque jour pour la vue sur 6 mois.
 
 Vous pouvez également visualiser les informations dans un format de tableau avec des colonnes triables plutôt que dans un graphique. Pour ce faire, cliquez sur le bouton **[!UICONTROL Paramètres de visualisation]**, puis sélectionnez **[!UICONTROL Tableau]**.
 
 ![](assets/throughput-latencies-table.png)
 
-## Contrôle du débit {#throughput}
+## Surveiller le débit {#throughput}
 
 La zone relative au **[!UICONTROL Débit]** fournit des informations concernant le nombre de messages envoyés par heure à partir de l’instance Campaign sélectionnée, pour tous les canaux de communication auxquels vous avez droit.
 
@@ -54,23 +54,23 @@ La zone relative au **[!UICONTROL Débit]** fournit des informations concernant 
 >
 >Pour Campaign v7/v8, le nombre affiché pour le débit correspond au débit obtenu à partir des instances MID (mid-sourcing). Pour les déploiements Stand-alone de marketing (MKT) (sans instance MID), le débit de l’instance MKT s’affiche à la place.
 
-En outre, Panneau de Contrôle vous permet d’identifier les identifiants des 5 premières diffusions qui contribuent au débit pendant la période sélectionnée. Ces informations sont disponibles en mode tabulaire uniquement :
+En outre, le panneau de contrôle vous permet de repérer les identifiants des 5 diffusions les plus importantes qui contribuent au débit pendant la période sélectionnée. Ces informations sont disponibles en vue tabulaire uniquement :
 
 ![](assets/throughput-latencies-top5.png)
 
-## Latence du moniteur {#latency}
+## Surveiller la latence {#latency}
 
 La zone relative à la **[!UICONTROL Latence]** fournit des informations concernant la latence rencontrée sur l’instance sélectionnée lors de l’envoi de communications transactionnelles en temps réel.
 
 >[!NOTE]
 >
->Notez que les informations relatives à **Latence du profil** est également disponible pour [!DNL Campaign Standard] instances uniquement.
+>Notez que les informations relatives à **Profil de la latence** sont également disponibles pour les instances [!DNL Campaign Standard] uniquement.
 
 Les latences sont capturées et visualisées aux 95e et 99e centiles, ce qui signifie que 95 % et 99 % des requêtes doivent être plus rapides que la latence donnée.
 
 ![](assets/throughput-latencies-latency.png)
 
-Par défaut, la latence s’affiche pour tous les canaux. Vous pouvez visualiser la latence d’un canal spécifique à l’aide de la liste déroulante.
+Par défaut, la latence s’affiche pour tous les canaux. Vous pouvez visualiser la latence pour un canal spécifique à l’aide de la liste déroulante.
 
 ![](assets/throughput-latencies-filter.png)
 
