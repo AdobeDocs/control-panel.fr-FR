@@ -8,9 +8,9 @@ role: Architect
 level: Experienced
 exl-id: e9b7c67d-6afa-44f9-b19d-39c0ec9a7edd
 source-git-commit: 8f83b5c440ad9fd698a48776723fe71e0915f527
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '885'
+ht-degree: 100%
 
 ---
 
@@ -27,9 +27,9 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->Le renouvellement du certificat SSL depuis le Panneau de Contrôle est disponible en version bêta et sujette à de fréquentes mises à jour et modifications sans préavis.
+>Le renouvellement des certificats SSL depuis le panneau de contrôle est disponible en version bêta, et est sujet à de fréquentes mises à jour et modifications sans préavis.
 >
->Si vous utilisez une instance avec un modèle d’hébergement hybride, vous ne pouvez afficher que les certificats associés aux sous-domaines délégués. Vous ne pourrez pas renouveler de certificats SSL.
+>Si vous utilisez une instance avec un modèle d’hébergement hybride, vous ne pouvez afficher que les certificats associés aux sous-domaines délégués. Vous ne serez pas en mesure de renouveler les certificats SSL.
 
 La procédure de renouvellement des certificats SSL comprend 3 étapes :
 
@@ -103,7 +103,7 @@ Après obtention d’une demande de signature de certificat via le Panneau de co
 >id="cp_install_ssl_certificate"
 >title="Installation du certificat SSL"
 >abstract="Installez le certificat SSL que vous avez acheté auprès de lʼautorité de certification approuvée par votre organisation."
->additional-url="https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/subdomains-branding.html" text="À propos de la marque des sous-domaines"
+>additional-url="https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/subdomains-branding.html?lang=fr" text="À propos de la marque des sous-domaines"
 
 Une fois un certificat SSL acheté, vous pouvez l’installer sur votre instance. Avant de poursuivre, prenez connaissance des prérequis suivants :
 
