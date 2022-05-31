@@ -5,9 +5,9 @@ title: Versions du Panneau de contrôle
 description: Cette page répertorie toutes les nouvelles fonctionnalités et améliorations apportées au Panneau de contrôle.
 exl-id: 13aceffb-ceaa-4cfe-8741-95d66c5c6caa
 source-git-commit: 87b28195ede08756d5084aad36bf1c95f621b5f5
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '1174'
+ht-degree: 100%
 
 ---
 
@@ -26,13 +26,13 @@ Cette page répertorie toutes les nouvelles fonctionnalités et améliorations a
 <table>
 <thead>
 <tr>
-<th><strong>Disponibilité du panneau de contrôle au modèle d’hébergement hybride</strong><br/></th>
+<th><strong>Disponibilité du panneau de contrôle pour le modèle d’hébergement hybride</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Panneau de Contrôle est désormais disponible pour les clients avec un modèle d’hébergement hybride. Ces clients peuvent tirer parti des fonctionnalités de Panneau de Contrôle en fournissant l’URL de leur instance MID/RT configurée dans leur instance marketing en Panneau de Contrôle.</p><p>Pour plus d’informations, consultez la <a href="instances-settings/using/external-accounts.md">documentation détaillée</a>.</p>
+<p>Le panneau de contrôle est désormais disponible pour les clients ayant un modèle d’hébergement hybride. Ces clients peuvent tirer parti des fonctionnalités du panneau de contrôle en fournissant l’URL de leur instance MID/RT configurée dans leur instance marketing dans le panneau de contrôle.</p><p>Pour plus d’informations, consultez la <a href="instances-settings/using/external-accounts.md">documentation détaillée</a>.</p>
 </td>
 </tr>
 </tbody>
@@ -41,13 +41,13 @@ Cette page répertorie toutes les nouvelles fonctionnalités et améliorations a
 <table>
 <thead>
 <tr>
-<th><strong>Débit et latences pour surveiller les mises à jour</strong><br/></th>
+<th><strong>Mises à jour de la surveillance des débits et des latences</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Les fonctionnalités de surveillance des débits et des latences ont été améliorées :<ul><li>Vous pouvez maintenant identifier les identifiants des 5 premières diffusions qui contribuent au débit de votre instance.</li><li>Les clients Campaign Classic v7/v8 peuvent désormais visualiser la latence d’un canal spécifique.</p></li><p>Pour plus d’informations, consultez la <a href="performance-monitoring/using/thoughputs-latencies.md">documentation détaillée</a>.</p>
+<p>Les fonctionnalités de surveillance des débits et des latences ont été améliorées :<ul><li>Vous pouvez maintenant déterminer les identifiants des 5 diffusions les plus importantes qui contribuent au débit de votre instance.</li><li>Les clients Campaign Classic v7/v8 peuvent désormais visualiser la latence d’un canal spécifique.</p></li><p>Pour plus d’informations, consultez la <a href="performance-monitoring/using/thoughputs-latencies.md">documentation détaillée</a>.</p>
 </td>
 </tr>
 </tbody>
