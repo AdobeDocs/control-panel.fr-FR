@@ -8,9 +8,9 @@ role: Architect
 level: Intermediate
 exl-id: 1d1eeff8-969e-4529-b947-2a68defb8d13
 source-git-commit: 2458263ef5981a16d983912b498e320501df7889
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '858'
+ht-degree: 100%
 
 ---
 
@@ -28,7 +28,7 @@ ht-degree: 0%
 >
 >Cette fonctionnalité est disponible uniquement pour les instances Campaign v7/v8.
 >
->Si vous utilisez une instance avec un modèle d’hébergement hybride, vous ne pourrez ajouter que des adresses IP dans &quot;Connexion API externe&quot; pour l’instance RT.
+>Si vous utilisez une instance avec un modèle d’hébergement hybride, vous ne pourrez ajouter des adresses IP que dans « Connexion API externe » pour l’instance RT.
 
 Par défaut, votre instance Adobe Campaign n’est accessible qu’à partir de certaines adresses IP.
 
@@ -92,7 +92,7 @@ Pour ajouter des adresses IP à la liste autorisée, procédez comme suit :
 
       >[!NOTE]
       >
-      >Si vous utilisez une instance avec un modèle d’hébergement hybride, vous ne pourrez ajouter que des adresses IP dans &quot;Connexion API externe&quot; pour l’instance RT.
+      >Si vous utilisez une instance avec un modèle d’hébergement hybride, vous ne pourrez ajouter des adresses IP que dans « Connexion API externe » pour l’instance RT.
    ![](assets/ip_whitelist_acesstype.png)
 
 1. Cliquez sur le bouton **[!UICONTROL Enregistrer]**. La plage d’adresses IP est ajoutée à la liste autorisée.
