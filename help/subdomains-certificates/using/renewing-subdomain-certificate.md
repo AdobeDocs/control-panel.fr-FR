@@ -8,7 +8,7 @@ role: Architect
 level: Experienced
 exl-id: e9b7c67d-6afa-44f9-b19d-39c0ec9a7edd
 source-git-commit: 8f83b5c440ad9fd698a48776723fe71e0915f527
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '885'
 ht-degree: 100%
 
@@ -103,7 +103,7 @@ Après obtention d’une demande de signature de certificat via le Panneau de co
 >id="cp_install_ssl_certificate"
 >title="Installation du certificat SSL"
 >abstract="Installez le certificat SSL que vous avez acheté auprès de lʼautorité de certification approuvée par votre organisation."
->additional-url="https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/subdomains-branding.html?lang=fr" text="À propos de la marque des sous-domaines"
+>additional-url="https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/subdomains-branding.html" text="À propos de la marque des sous-domaines"
 
 Une fois un certificat SSL acheté, vous pouvez l’installer sur votre instance. Avant de poursuivre, prenez connaissance des prérequis suivants :
 
