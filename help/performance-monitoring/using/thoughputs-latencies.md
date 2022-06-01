@@ -7,10 +7,10 @@ feature: Control Panel
 role: Architect
 level: Experienced
 exl-id: eddef17f-0667-4b43-bc56-2b1aeeae61bb
-source-git-commit: a5bd04c4659ae18c4f05934f42e071b209a58fff
+source-git-commit: bcc9ae9e8f3d6ed88f6f930af81e46c98dfd3d89
 workflow-type: tm+mt
-source-wordcount: '437'
-ht-degree: 100%
+source-wordcount: '436'
+ht-degree: 93%
 
 ---
 
@@ -25,7 +25,7 @@ Le Panneau de contrôle vous permet de surveiller les débits de diffusion et la
 
 >[!IMPORTANT]
 >
->Cette fonctionnalité est disponible pour tous les clients Campaign Standard et v8, ainsi que pour les clients Campaign v7 qui ont les numéros de build 9032, 9330, 9346 ou 9349 et des déploiements [Stand-alone](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/deployment-types-/standalone-deployment.html?lang=fr) (sans instance MID).
+>Cette fonctionnalité est disponible pour tous les clients Campaign Standard, v8, et pour les clients de Campaign v7 dont le numéro de build est le 9032 et plus récent, y compris : [déploiements autonomes](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/deployment-types-/standalone-deployment.html?lang=fr) (sans instance mid).
 
 La surveillance des fluctuations des débits de diffusion et de latence sur une période donnée est essentielle pour comprendre lʼutilisation de vos instances et vous assurer de leur bon fonctionnement.
 
