@@ -5,10 +5,10 @@ feature: Control Panel
 role: Architect
 level: Beginner
 exl-id: 2b2cfaed-e42e-4c3a-a8d8-224b936890ab
-source-git-commit: da68420340ea8605f6e1347e86797c9e6a790ea6
+source-git-commit: d2d5f43b4fcd8f0161681b55d2834e753e388de4
 workflow-type: tm+mt
-source-wordcount: '221'
-ht-degree: 100%
+source-wordcount: '271'
+ht-degree: 97%
 
 ---
 
@@ -27,9 +27,17 @@ Le Panneau de contrôle de Campaign accroît votre efficacité en tant quʼadmin
 
 ## Nouveautés
 
-**Surveiller les contacts principaux et les événements sur vos instances**
+**Disponibilité du panneau de contrôle pour le modèle d’hébergement hybride**
 
-Vous pouvez désormais surveiller les versions antérieures et à venir ainsi que les révisions de service se produisant sur vos instances. Vous pouvez également accéder à une liste de contacts principaux chez Adobe pour toute demande ou problème. [En savoir plus](service-events/service-events.md)
+Le panneau de contrôle est désormais disponible pour les clients ayant un modèle d’hébergement hybride. Ces clients peuvent tirer parti des fonctionnalités du panneau de contrôle en fournissant l’URL de leur instance MID/RT configurée dans leur instance marketing dans le panneau de contrôle. [En savoir plus](instances-settings/using/external-accounts.md)
+
+
+**Mises à jour de la surveillance des débits et des latences**
+
+Les fonctionnalités de surveillance des débits et des latences ont été améliorées. [En savoir plus](performance-monitoring/using/thoughputs-latencies.md)
+
+* Vous pouvez maintenant déterminer les identifiants des 5 diffusions les plus importantes qui contribuent au débit de votre instance.
+* Les clients Campaign Classic v7/v8 peuvent désormais visualiser la latence d’un canal spécifique.
 
 >[!CAUTION]
 >
