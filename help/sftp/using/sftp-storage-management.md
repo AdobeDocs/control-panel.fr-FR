@@ -7,10 +7,10 @@ feature: Control Panel
 role: Architect
 level: Experienced
 exl-id: eaf67573-f088-47d9-8a25-273d08dc541a
-source-git-commit: c1c80c03a351613ec0c6870a11ab39a634e8eab7
+source-git-commit: 8db39899be5dfe610f39a6cecc23bd5f969078c6
 workflow-type: tm+mt
-source-wordcount: '347'
-ht-degree: 100%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="cp_storage"
 >title="À propos de la capacité de stockage"
->abstract="Dans cet onglet, vous pouvez afficher les informations sur la capacité de stockage et l’utilisation des serveurs SFTP. Seuls les serveurs SFTP auxquels vous avez accès sont visibles ici. Contactez l’administrateur pour demander un accès aux autres serveurs SFTP."
+>abstract="Dans cet onglet, vous pouvez afficher les informations sur la capacité de stockage et l’utilisation des serveurs SFTP. Vous pouvez également répertorier les 10 premiers fichiers qui consomment le plus d’espace sur un serveur SFTP en cliquant sur son nom. Seuls les serveurs SFTP auxquels vous avez accès sont visibles ici. Contactez l’administrateur pour demander un accès aux autres serveurs SFTP."
 >additional-url="https://images-tv.adobe.com/mpcv3/8a977e03-d76c-44d3-853c-95d0b799c870_1560205338.1920x1080at3000_h264.mp4" text="Regarder une vidéo de démonstration"
 
 En fonction des modalités de votre contrat, les capacités de stockage de votre serveur SFTP peuvent varier.
@@ -38,6 +38,10 @@ Pour chaque instance, une alerte visuelle vous indique quand le stockage dépass
 
 * **Orange** : l’instance dépasse 80 % de sa capacité.
 * **Rouge** : l’instance dépasse 90 % de sa capacité.
+
+Vous pouvez également identifier les 10 premiers fichiers qui consomment le plus d’espace sur un serveur SFTP en cliquant sur son nom.
+
+![](assets/sftp-top10.png)
 
 D’autres conseils permettent de savoir comment procéder si votre serveur arrive à saturation.
 

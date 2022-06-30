@@ -7,10 +7,10 @@ feature: Control Panel
 role: Architect
 level: Experienced
 exl-id: 366dd2ea-c6be-41a2-a4d6-4ffecb5f3d39
-source-git-commit: c1c80c03a351613ec0c6870a11ab39a634e8eab7
+source-git-commit: 140a84657325a3cb0e209996ca1aed7d6c1a3282
 workflow-type: tm+mt
-source-wordcount: '1206'
-ht-degree: 100%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -41,6 +41,10 @@ Vous pourrez alors :
 Le Panneau de contrôle permet de chiffrer les données provenant de votre instance Adobe Campaign.
 
 Pour cela, vous devez générer une paire de clés GPG à partir d’un outil de chiffrement PGP, puis installer la clé publique dans le Panneau de contrôle. Vous pourrez alors chiffrer les données avant de les envoyer depuis votre instance. Pour ce faire, suivez les étapes ci-après.
+
+>[!NOTE]
+>
+>Vous pouvez installer jusqu’à 60 clés GPG par Panneau de Contrôle.
 
 ![](assets/do-not-localize/how-to-video.png) Découvrez cette fonctionnalité en [vidéo](#video)
 
