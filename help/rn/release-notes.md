@@ -2,10 +2,10 @@
 title: Dernière version
 description: Cette page répertorie toutes les nouvelles fonctionnalités et améliorations apportées au Panneau de contrôle.
 exl-id: 13aceffb-ceaa-4cfe-8741-95d66c5c6caa
-source-git-commit: e0b0daba3a5820dc80b35d8c83ffc9143d547529
+source-git-commit: daa52035ea5db89552b56afc4ab5690610b6e846
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '501'
+ht-degree: 73%
 
 ---
 
@@ -42,7 +42,7 @@ Cette page répertorie toutes les nouvelles fonctionnalités et améliorations a
 <tbody>
 <tr>
 <td>
-<p>Le calendrier du service vous permet désormais de définir des rappels afin d’être averti par email avant qu’un événement ne se produise sur vos instances. <a href="../instances-settings/using/external-accounts.md">En savoir plus</a></p>
+<p>Le calendrier du service vous permet désormais de définir des rappels afin d’être averti par email avant qu’un événement ne se produise sur vos instances. <a href="../service-events/service-events.md">En savoir plus</a></p>
 <img src="../assets/do-not-localize/reminders.gif"/>
 </td>
 </tr>

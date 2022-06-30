@@ -5,10 +5,10 @@ feature: Control Panel
 role: Architect
 level: Beginner
 exl-id: 2b2cfaed-e42e-4c3a-a8d8-224b936890ab
-source-git-commit: 66456eefea1bf442874e2b388f292af9df9ec186
+source-git-commit: daa52035ea5db89552b56afc4ab5690610b6e846
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '252'
+ht-degree: 73%
 
 ---
 
@@ -34,7 +34,7 @@ Vous pouvez maintenant identifier les 10 premiers fichiers qui consomment le plu
 
 **Rappels du calendrier du service**
 
-Le calendrier du service vous permet désormais de définir des rappels afin d’être averti par email avant qu’un événement ne se produise sur vos instances. [En savoir plus](instances-settings/using/external-accounts.md)
+Le calendrier du service vous permet désormais de définir des rappels afin d’être averti par email avant qu’un événement ne se produise sur vos instances. [En savoir plus](service-events/service-events.md)
 
 **Améliorations de la génération de la CSR des sous-domaines**
 
