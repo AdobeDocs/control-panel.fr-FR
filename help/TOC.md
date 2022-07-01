@@ -6,10 +6,10 @@ user-guide-title: Guide du Panneau de contrôle
 feature: Control Panel
 role: Architect
 level: Beginner
-source-git-commit: e0b0daba3a5820dc80b35d8c83ffc9143d547529
+source-git-commit: bf710d56b0f4d3834ab505633ae85cf9444b6ccf
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '155'
+ht-degree: 74%
 
 ---
 
@@ -20,9 +20,10 @@ ht-degree: 0%
 + Notes de mise à jour {#release-notes}
    + [Dernière version](rn/release-notes.md)
    + Versions précédentes {#previous-releases}
+      + [Notes de mise à jour 2022](rn/release-notes-2022.md)
       + [Notes de mise à jour 2021](rn/release-notes-2021.md)
       + [Notes de mise à jour       2020](rn/release-notes-2020.md)
-      + [Notes de mise à jour       20219](rn/release-notes-2019.md)
+      + [Notes de mise à jour       2019](rn/release-notes-2019.md)
 + Découverte du Panneau de contrôle {#discover-control-panel}
    + [Principales fonctionnalités](discover/using/key-features.md)
    + [Panneau de contrôle d’accès](discover/using/accessing-control-panel.md)
