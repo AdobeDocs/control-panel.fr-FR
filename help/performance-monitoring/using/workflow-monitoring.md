@@ -5,10 +5,10 @@ feature: Control Panel
 role: Architect
 level: Experienced
 exl-id: 8016f800-430a-413d-a77b-b7f18f5ab733
-source-git-commit: f22a935769d74a2b8bae3f79cd53f2ee31d19737
+source-git-commit: 485069285709a7cc5c074f8813b322328e2840c0
 workflow-type: tm+mt
 source-wordcount: '320'
-ht-degree: 100%
+ht-degree: 93%
 
 ---
 
@@ -60,7 +60,7 @@ Lorsqu’elle est activée (valeur « 1 »), cette option enregistre les résu
 
 ## **[!UICONTROL Afficher le log SQL]** {#sql}
 
-Lorsque cette option est activée, les requêtes SQL envoyées à la base de données pendant l’exécution du workflow sont affichées dans Adobe Campaign. En savoir plus dans la documentation de [Campaign Standard](https://experienceleague.corp.adobe.com/docs/campaign-standard/using/managing-processes-and-data/executing-a-workflow/managing-execution-options.html?lang=fr) et [Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/advanced-management/workflow-properties.html?lang=fr#execution).
+Lorsque cette option est activée, les requêtes SQL envoyées à la base de données pendant l’exécution du workflow sont affichées dans Adobe Campaign. En savoir plus dans la documentation de [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard/using/managing-processes-and-data/executing-a-workflow/managing-execution-options.html?lang=en) et [Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/advanced-management/workflow-properties.html?lang=fr#execution).
 
 La valeur « 1 » indique que le champ **Gravité** du workflow est défini sur « Production » et que l’option relative aux logs des requêtes SQL est activée.
 
@@ -72,7 +72,7 @@ La valeur « 1 » indique que le champ **Gravité** du workflow est défini su
 
 ## **[!UICONTROL Superviseurs]** {#supervisors}
 
-Ce champ vous permet d’affecter un opérateur à un workflow. Si le workflow échoue, l’opérateur associé est alerté. En savoir plus dans la documentation de [Campaign Standard](https://experienceleague.corp.adobe.com/docs/campaign-standard/using/managing-processes-and-data/executing-a-workflow/monitoring-workflow-execution.html?lang=fr#error-management) et [Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/advanced-management/workflow-properties.html?lang=fr#error-management).
+Ce champ vous permet d’affecter un opérateur à un workflow. Si le workflow échoue, l’opérateur associé est alerté. En savoir plus dans la documentation de [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard/using/managing-processes-and-data/executing-a-workflow/monitoring-workflow-execution.html?lang=en#error-management) et [Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/advanced-management/workflow-properties.html?lang=fr#error-management).
 
 La valeur « 1 » indique que le champ **Gravité** du workflow est défini sur « Production » et qu’aucun groupe de superviseurs n’a été affecté au workflow.
 
