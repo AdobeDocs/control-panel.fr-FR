@@ -8,9 +8,9 @@ role: Architect
 level: Experienced
 exl-id: 366dd2ea-c6be-41a2-a4d6-4ffecb5f3d39
 source-git-commit: 140a84657325a3cb0e209996ca1aed7d6c1a3282
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '1216'
+ht-degree: 100%
 
 ---
 
@@ -44,7 +44,7 @@ Pour cela, vous devez générer une paire de clés GPG à partir d’un outil de
 
 >[!NOTE]
 >
->Vous pouvez installer jusqu’à 60 clés GPG par Panneau de Contrôle.
+>Vous pouvez installer jusqu’à 60 clés GPG dans le panneau de contrôle.
 
 ![](assets/do-not-localize/how-to-video.png) Découvrez cette fonctionnalité en [vidéo](#video)
 
@@ -149,7 +149,7 @@ Pour plus d’informations, consultez la documentation d’Adobe Campaign :
 
 **Campaign Standard:**
 
-* [Gérer des données chiffrées](https://experienceleague.adobe.com/docs/campaign-standard/using/managing-processes-and-data/importing-and-exporting-data/managing-encrypted-data.html)
+* [Gérer des données chiffrées](https://experienceleague.adobe.com/docs/campaign-standard/using/managing-processes-and-data/importing-and-exporting-data/managing-encrypted-data.html?lang=fr)
 * [Cas pratique : import de données chiffrées à l’aide d’une clé générée par le Panneau de contrôle](https://experienceleague.adobe.com/docs/campaign-standard/using/managing-processes-and-data/importing-and-exporting-data/managing-encrypted-data.html?lang=fr#use-case-gpg-decrypt)
 
 ## Surveillance des clés GPG
