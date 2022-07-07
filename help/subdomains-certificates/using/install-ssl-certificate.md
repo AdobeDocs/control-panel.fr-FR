@@ -7,13 +7,13 @@ feature: Control Panel
 role: Architect
 level: Experienced
 source-git-commit: 5a5ac1a604fe5bdce07479ff84184abdb2e0ddba
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '339'
+ht-degree: 100%
 
 ---
 
-# Installation du certificat SSL {#installing-ssl-certificate}
+# Installer le certificat SSL {#installing-ssl-certificate}
 
 >[!CONTEXTUALHELP]
 >id="cp_install_ssl_certificate"
