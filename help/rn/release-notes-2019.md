@@ -1,10 +1,10 @@
 ---
 title: Notes de mise à jour       2019
-description: Cette page répertorie toutes les versions 2019 de Panneau de Contrôle.
+description: Cette page répertorie toutes les versions 2019 du panneau de contrôle.
 source-git-commit: e0b0daba3a5820dc80b35d8c83ffc9143d547529
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '152'
+ht-degree: 100%
 
 ---
 
