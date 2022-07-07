@@ -8,13 +8,13 @@ role: Architect
 level: Experienced
 exl-id: e9b7c67d-6afa-44f9-b19d-39c0ec9a7edd
 source-git-commit: 5a5ac1a604fe5bdce07479ff84184abdb2e0ddba
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '277'
+ht-degree: 100%
 
 ---
 
-# Renouvellement d’un certificat SSL {#renewing-subdomains-ssl-certificates}
+# Renouvellement dʼun certificat SSL {#renewing-subdomains-ssl-certificates}
 
 >[!CONTEXTUALHELP]
 >id="cp_add_ssl_certificate"
@@ -27,7 +27,7 @@ ht-degree: 0%
 >
 >Le renouvellement des certificats SSL depuis le panneau de contrôle est disponible en version bêta, et est sujet à de fréquentes mises à jour et modifications sans préavis.
 >
->Si vous utilisez une instance avec un modèle d’hébergement hybride, vous ne pouvez afficher que les certificats associés aux sous-domaines délégués et ne pourrez pas les renouveler.
+>Si vous utilisez une instance avec un modèle d’hébergement hybride, vous ne pouvez afficher que les certificats associés aux sous-domaines déjà délégués et vous ne pourrez pas les renouveler.
 
 La procédure de renouvellement des certificats SSL comprend 3 étapes :
 
@@ -37,7 +37,7 @@ La procédure de renouvellement des certificats SSL comprend 3 étapes :
 
 1. **Achat du certificat SSL**
 
-   Une fois la demande de signature de certificat générée, vous pouvez l’utiliser pour acheter le certificat SSL auprès de l’autorité de certification approuvée par votre société.
+   Une fois la CSR générée, vous pouvez l’utiliser pour acheter le certificat SSL auprès de l’autorité de certification approuvée par votre entreprise.
 
 1. **Installation du certificat SSL**
 
@@ -47,6 +47,6 @@ La procédure de renouvellement des certificats SSL comprend 3 étapes :
 
 **Rubriques connexes :**
 
-* [Guide des bonnes pratiques en matière de délivrabilité - Processus de demande de certificat SSL pour Adobe Campaign](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/campaign/ac-ssl-certificate-request.html)
+* [Guide des bonnes pratiques en matière de délivrabilité - Processus de demande de certificat SSL pour Adobe Campaign](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/campaign/ac-ssl-certificate-request.html?lang=fr)
 * [Marque des sous-domaines](../../subdomains-certificates/using/subdomains-branding.md)
 * [Surveillance de vos sous-domaines](../../subdomains-certificates/using/monitoring-subdomains.md)
