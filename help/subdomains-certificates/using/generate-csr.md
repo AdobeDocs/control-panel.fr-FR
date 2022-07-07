@@ -7,9 +7,9 @@ feature: Control Panel
 role: Architect
 level: Experienced
 source-git-commit: b31853a861aad7beb5b639f0fa22e821e8e25e19
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '461'
+ht-degree: 100%
 
 ---
 
@@ -26,7 +26,7 @@ ht-degree: 0%
 >abstract="Vous pouvez choisir d’inclure tous les sous-domaines ou uniquement des sous-domaines spécifiques dans votre demande de signature de certificat. Seuls les sous-domaines sélectionnés seront certifiés par le biais du certificat SSL acheté."
 >additional-url="https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/subdomains-branding.html?lang=fr" text="À propos de la marque des sous-domaines"
 
-## Génération de la demande de signature de certificat {#generate}
+## Générer la demande de signature de certificat (CSR) {#generate}
 
 Pour générer une demande de signature de certificat (CSR), procédez comme suit :
 
@@ -45,7 +45,7 @@ Pour générer une demande de signature de certificat (CSR), procédez comme sui
    * **[!UICONTROL Organisation]** : nom officiel de l’organisation.
    * **[!UICONTROL Unité d’organisation]** : unité associée au sous-domaine (exemple : marketing, informatique).
    * **[!UICONTROL Instance]** (prérenseigné) : URL de l’instance Campaign associée au sous-domaine.
-   * **[!UICONTROL Nom commun]**: si le nom commun est sélectionné par défaut, vous pouvez sélectionner l’un des sous-domaines si nécessaire.
+   * **[!UICONTROL Nom commun]** : le nom commun est sélectionné par défaut, vous pouvez sélectionner un des sous-domaines si nécessaire.
 
    ![](assets/renewal3.png)
 
@@ -63,22 +63,22 @@ Pour générer une demande de signature de certificat (CSR), procédez comme sui
 
    >[!NOTE]
    >
-   >Le **[!UICONTROL Copie du contenu CSR]** permet de copier toutes les informations relatives à la demande de signature de certificat (ID d’organisation, instance, nom de l’organisation, nom commun, sous-domaines inclus, etc.).
+   >Le bouton **[!UICONTROL Copier le contenu de la CSR]** vous permet de copier toutes les informations relatives à la CSR (Identifiant de l’organisation, instance, nom de l’organisation, nom commun, sous-domaines inclus, etc.).
 
-1. Le fichier .csr correspondant à votre sélection est généré et téléchargé automatiquement. Vous pouvez désormais l’utiliser pour acheter le certificat SSL auprès de l’autorité de certification approuvée par votre société. Si vous devez télécharger à nouveau la demande de signature de certificat, suivez les étapes présentées dans la section [cette section](#download).
+1. Le fichier .csr correspondant à votre sélection est généré et téléchargé automatiquement. Vous pouvez désormais l’utiliser pour acheter le certificat SSL auprès de l’autorité de certification approuvée par votre société. Si vous devez télécharger à nouveau la CSR, suivez les étapes détaillées dans [cette section](#download).
 
-Une fois votre demande de signature de certificat générée et téléchargée, vous pouvez l’utiliser pour acheter un certificat SSL auprès d’une autorité de certification approuvée par votre organisation.
+Une fois que votre CSR a été générée et téléchargée, vous pouvez l’utiliser pour acheter un certificat SSL auprès d’une autorité de certification approuvée par votre organisation.
 
-Une fois le certificat SSL acheté, vous pourrez l’installer sur votre instance pour sécuriser votre sous-domaine. [En savoir plus](install-ssl-certificate.md)
+Après l’achat du certificat SSL, vous pourrez l’installer sur votre instance pour sécuriser votre sous-domaine. [En savoir plus](install-ssl-certificate.md)
 
-## Téléchargement de la demande de signature de certificat {#download}
+## Télécharger la CSR {#download}
 
-Pour acheter un certificat SSL, vous devez d’abord télécharger la demande de signature de certificat. La demande de signature de certificat est automatiquement téléchargée après sa génération. Vous pouvez également le télécharger à nouveau à tout moment à partir des logs de traitement :
+Pour acheter un certificat SSL, vous devez d’abord télécharger la demande de signature de certificat. La CSR est automatiquement téléchargée après avoir été générée. Vous pouvez également la télécharger à nouveau à tout moment à partir des journaux de tâches :
 
-1. Dans le **[!UICONTROL Logs de traitement]**, sélectionnez la variable **[!UICONTROL Terminé]** puis filtrez la liste afin d’afficher les tâches liées à la gestion des sous-domaines.
+1. Dans les **[!UICONTROL Journaux de tâches]**, sélectionnez l’onglet **[!UICONTROL Terminé]** puis filtrez la liste afin d’afficher les tâches liées à la gestion des sous-domaines.
 
    ![](assets/renewal-download.png)
 
-1. Ouvrez la tâche correspondant à la génération du CSR, puis cliquez sur le bouton **[!UICONTROL Télécharger]** pour obtenir le fichier .csr.
+1. Ouvrez la tâche correspondant à la génération de la CSR, puis cliquez sur le lien **[!UICONTROL Télécharger]** pour obtenir le fichier .csr.
 
    ![](assets/renewal-download-button.png)
