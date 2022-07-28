@@ -7,10 +7,10 @@ feature: Control Panel
 role: Architect
 level: Intermediate
 exl-id: ff64acbe-d8cb-499b-b20f-b0934fb0f695
-source-git-commit: e375b0c8c00ecec6c2fe52bff31a33bf73295018
-workflow-type: ht
-source-wordcount: '482'
-ht-degree: 100%
+source-git-commit: 4740a446265e5d06be35e66aa29676a24d4f7d29
+workflow-type: tm+mt
+source-wordcount: '481'
+ht-degree: 99%
 
 ---
 
@@ -94,4 +94,4 @@ Une fois qu’une instance MID/RT est ajoutée au panneau de contrôle, vous pou
 * [Afficher les détails de votre instance](../../instances-settings/using/instance-details.md),
 * [Ajouter des adresses IP à la liste autorisée](../../instances-settings/using/ip-allow-listing-instance-access.md) (pour les instances RT),
 * [Afficher des informations sur les sous-domaines délégués](../../subdomains-certificates/using/monitoring-subdomains.md),
-* [Afficher des informations sur les certificats SSL](../../subdomains-certificates/using/monitoring-ssl-certificates.md).
+* [Renouveler les certificats SSL des sous-domaines](../../subdomains-certificates/using/renewing-subdomain-certificate.md).

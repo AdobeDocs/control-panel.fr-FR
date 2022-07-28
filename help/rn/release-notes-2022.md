@@ -1,14 +1,71 @@
 ---
 title: Notes de mise à jour 2022
-description: Cette page répertorie toutes les versions 2022 de Panneau de Contrôle.
-source-git-commit: 737ff99e60bb940980f3b7179672fdb984e6d4bf
+description: Cette page répertorie toutes les versions 2022 du panneau de contrôle.
+exl-id: 9fb18bb6-c4e4-48aa-849c-d9129add5266
+source-git-commit: c3c8d71e36cb1d55c2fcc8600b5063ea73d6e2e8
 workflow-type: tm+mt
-source-wordcount: '337'
-ht-degree: 97%
+source-wordcount: '485'
+ht-degree: 100%
 
 ---
 
 # Notes de mise à jour 2021 {#rn-2022}
+
+## Juin 2022 {#june-2022}
+
+### Nouveautés
+
+<table>
+<thead>
+<tr>
+<th><strong>Les 10 premiers fichiers consommant de l’espace sur les serveurs SFTP</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Vous pouvez maintenant identifier les 10 fichiers qui consomment le plus d’espace sur un serveur SFTP. <a href="../sftp/using/sftp-storage-management.md">En savoir plus</a></p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>Rappels du calendrier de service</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Le calendrier de service vous permet désormais de définir des rappels afin d’être averti par e-mail avant qu’un événement ne se produise sur vos instances. <a href="../service-events/service-events.md">En savoir plus</a></p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>Améliorations de la génération de la CSR des sous-domaines</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Plusieurs améliorations ont été apportées au processus de génération de la demande de signature de certificat (CSR). <a href="../subdomains-certificates/using/renewing-subdomain-certificate.md">En savoir plus</a></p><ul><li>Lors de la génération d’une demande de signature de certificat, vous pouvez désormais sélectionner l’un des sous-domaines inclus comme nom commun.</li><li>Vous pouvez désormais copier le résumé de la demande de signature de certificat avant de la générer.</li><li>Une fois qu’une demande de signature de certificat a été générée, vous pouvez la télécharger à nouveau à partir des logs de traitement. Cette fonctionnalité ne s’applique pas aux certificats générés avant cette version.</li></ul><p>
+
+</td>
+</tr>
+</tbody>
+</table>
+
+### Améliorations
+
+**Paramètres des instances**
+
+* Le nombre maximum de clés GPG du panneau de contrôle a été porté à 60. [En savoir plus](../instances-settings/using/gpg-keys-management.md)
 
 ## Mai 2022 {#may-2022}
 
