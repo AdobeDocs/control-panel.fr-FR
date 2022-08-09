@@ -1,8 +1,9 @@
 ---
 title: Notes de mise à jour 2021
 description: Cette page répertorie toutes les versions 2021 du panneau de contrôle.
-source-git-commit: e0b0daba3a5820dc80b35d8c83ffc9143d547529
-workflow-type: ht
+exl-id: ee974059-9ede-4c8e-9e77-d0e67bb4e849
+source-git-commit: 9be5a3ae48dccf74f509aa95fee29bbfdafddcdf
+workflow-type: tm+mt
 source-wordcount: '185'
 ht-degree: 100%
 

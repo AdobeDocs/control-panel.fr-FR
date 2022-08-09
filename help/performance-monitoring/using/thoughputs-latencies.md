@@ -8,7 +8,7 @@ role: Architect
 level: Experienced
 exl-id: eddef17f-0667-4b43-bc56-2b1aeeae61bb
 source-git-commit: bcc9ae9e8f3d6ed88f6f930af81e46c98dfd3d89
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '436'
 ht-degree: 100%
 
@@ -64,7 +64,7 @@ La zone relative à la **[!UICONTROL Latence]** fournit des informations concern
 
 >[!NOTE]
 >
->Notez que les informations relatives à **Profil de la latence** sont également disponibles pour les instances [!DNL Campaign Standard] uniquement.
+>Notez que les informations relatives à **Latence de profil** sont également disponibles pour les instances [!DNL Campaign Standard] uniquement.
 
 Les latences sont capturées et visualisées aux 95e et 99e centiles, ce qui signifie que 95 % et 99 % des requêtes doivent être plus rapides que la latence donnée.
 

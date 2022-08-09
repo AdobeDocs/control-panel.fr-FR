@@ -93,7 +93,6 @@ Pour ajouter des adresses IP à la liste autorisée, procédez comme suit :
       >[!NOTE]
       >
       >Si vous utilisez une instance avec un modèle d’hébergement hybride, vous ne pourrez ajouter des adresses IP que dans « Connexion API externe » pour l’instance RT.
-
    ![](assets/ip_whitelist_acesstype.png)
 
 1. Cliquez sur le bouton **[!UICONTROL Enregistrer]**. La plage d’adresses IP est ajoutée à la liste autorisée.
