@@ -8,9 +8,9 @@ role: Architect
 level: Intermediate
 exl-id: ff64acbe-d8cb-499b-b20f-b0934fb0f695
 source-git-commit: 4740a446265e5d06be35e66aa29676a24d4f7d29
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '481'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -82,7 +82,7 @@ Vous pouvez supprimer ou désactiver l’URL d&#39;une instance MID/RT à tout m
 
 ![](assets/external-account-edit.png)
 
-Notez que vous pouvez surveiller toute action effectuée dans l’onglet **[!UICONTROL Comptes externes]** sur une URL d’instance MID/RT à partir des **[!UICONTROL Journaux de tâches]** :
+Notez que vous pouvez surveiller toute action effectuée dans l’onglet **[!UICONTROL Comptes externes]** sur une URL d’instance MID/RT à partir des **[!UICONTROL Logs de traitement]** :
 
 ![](assets/external-account-logs.png)
 
@@ -94,4 +94,4 @@ Une fois qu’une instance MID/RT est ajoutée au panneau de contrôle, vous pou
 * [Afficher les détails de votre instance](../../instances-settings/using/instance-details.md),
 * [Ajouter des adresses IP à la liste autorisée](../../instances-settings/using/ip-allow-listing-instance-access.md) (pour les instances RT),
 * [Afficher des informations sur les sous-domaines délégués](../../subdomains-certificates/using/monitoring-subdomains.md),
-* [Renouveler les certificats SSL des sous-domaines](../../subdomains-certificates/using/renewing-subdomain-certificate.md).
+* [Renouveler les certificats SSL des sous-domaines](../../subdomains-certificates/using/renewing-subdomain-certificate.md).
