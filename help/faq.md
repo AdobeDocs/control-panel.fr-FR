@@ -7,9 +7,9 @@ feature: Control Panel
 role: Architect
 level: Intermediate
 exl-id: 4f329764-ed8b-4939-affc-ed994fd6101d
-source-git-commit: 3f68145c40f40df3e69f4fdfd889f3a7a2e995ab
+source-git-commit: 963c2af5cdca80ebc2cd79e0708dc4dfe8c6ec1e
 workflow-type: tm+mt
-source-wordcount: '770'
+source-wordcount: '798'
 ht-degree: 100%
 
 ---
@@ -38,7 +38,9 @@ Oui, dans le Panneau de contrôle, vous pouvez gérer uniquement les paramètres
 
 ### Puis-je utiliser le Panneau de contrôle ?
 
-Le Panneau de contrôle n’est accessible que par les administrateurs de produit de nos clients actuels pour lesquels Adobe Campaign est hébergé sur AWS. Notez que les environnements hybrides ne sont pas encore pris en charge.
+Le Panneau de contrôle n’est accessible que par les administrateurs de produit de nos clients actuels pour lesquels Adobe Campaign est hébergé sur AWS.
+
+Le panneau de contrôle permet aux clients disposant d’un modèle d’hébergement hybride de tirer parti des fonctionnalités spécifiques du panneau de contrôle. Pour ce faire, ils doivent fournir l’URL de l’instance MID/RT configurée dans leur instance marketing dans le panneau de contrôle. [En savoir plus](instances-settings/using/external-accounts.md)
 
 Si vous n’êtes pas administrateur, mais que vous souhaitez y accéder, veuillez contacter votre administrateur de produit pour qu’il vous ajoute en tant qu’administrateur.
 

@@ -7,9 +7,9 @@ feature: Control Panel
 role: Architect
 level: Experienced
 exl-id: a7888e1c-259d-4601-951b-0f1062d90dc2
-source-git-commit: 46a4e13e8017c5406dcd65f21c9839374dd44aa7
+source-git-commit: 963c2af5cdca80ebc2cd79e0708dc4dfe8c6ec1e
 workflow-type: tm+mt
-source-wordcount: '397'
+source-wordcount: '378'
 ht-degree: 100%
 
 ---
@@ -54,10 +54,6 @@ L’onglet **[!UICONTROL Infos sur l’expéditeur]** fournit des informations s
 ![](assets/subdomain_details.png)
 
 Si l’un des certificats SSL de votre sous-domaine est sur le point d’arriver à expiration, vous pouvez le renouveler directement depuis le Panneau de contrôle. Pour plus d’informations à ce sujet, consultez la section : [Renouvellement du certificat SSL d’un sous-domaine](../../subdomains-certificates/using/renewing-subdomain-certificate.md).
-
->[!IMPORTANT]
->
->Le renouvellement du certificat depuis le Panneau de contrôle est disponible en version bêta et sujet à de fréquentes mises à jour et modifications sans préavis.
 
 **Rubriques connexes :**
 

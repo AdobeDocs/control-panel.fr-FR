@@ -7,9 +7,9 @@ feature: Control Panel
 role: Architect
 level: Experienced
 exl-id: e9b7c67d-6afa-44f9-b19d-39c0ec9a7edd
-source-git-commit: 5a5ac1a604fe5bdce07479ff84184abdb2e0ddba
+source-git-commit: 963c2af5cdca80ebc2cd79e0708dc4dfe8c6ec1e
 workflow-type: tm+mt
-source-wordcount: '277'
+source-wordcount: '228'
 ht-degree: 100%
 
 ---
@@ -22,12 +22,6 @@ ht-degree: 100%
 >abstract="Pour renouveler un certificat SSL, vous devez générer une demande de signature de certificat (CSR), acheter le certificat SSL pour vos sous-domaines et installer l’ensemble de certificats."
 >additional-url="https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/renewing-subdomain-certificate.html?lang=fr#generating-csr" text="Générer une demande de signature de certificat (CSR)"
 >additional-url="https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/renewing-subdomain-certificate.html?lang=fr#installing-ssl-certificate" text="Installation dʼun certificat SSL"
-
->[!IMPORTANT]
->
->Le renouvellement des certificats SSL depuis le panneau de contrôle est disponible en version bêta, et est sujet à de fréquentes mises à jour et modifications sans préavis.
->
->Si vous utilisez une instance avec un modèle d’hébergement hybride, vous ne pouvez afficher que les certificats associés aux sous-domaines déjà délégués et vous ne pourrez pas les renouveler.
 
 La procédure de renouvellement des certificats SSL comprend 3 étapes :
 
