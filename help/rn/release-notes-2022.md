@@ -2,14 +2,19 @@
 title: Notes de mise à jour 2022
 description: Cette page répertorie toutes les versions 2022 du panneau de contrôle.
 exl-id: 9fb18bb6-c4e4-48aa-849c-d9129add5266
-source-git-commit: 6ba347d1cbcefa9b9d59b1f368a7d754d3eb92bb
+source-git-commit: bbf1aa11ef7e1b43b4df7799c4a4491b73cfbef1
 workflow-type: tm+mt
-source-wordcount: '517'
-ht-degree: 100%
+source-wordcount: '544'
+ht-degree: 95%
 
 ---
 
 # Notes de mise à jour 2022 {#rn-2022}
+
+## Août 2022 {#august-2022}
+
+* Les clients disposant d’un modèle d’hébergement hybride peuvent désormais vérifier leurs sous-domaines. [En savoir plus](../subdomains-certificates/using/monitoring-subdomains.md)
+* Le champ Unité d’organisation (OU) est désormais facultatif dans la demande de génération de certificat (CSR). [En savoir plus](../subdomains-certificates/using/renewing-subdomain-certificate.md)
 
 ## Juillet 2022 {#july-2022}
 
