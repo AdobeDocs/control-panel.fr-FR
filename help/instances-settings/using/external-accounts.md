@@ -7,10 +7,10 @@ feature: Control Panel
 role: Architect
 level: Intermediate
 exl-id: ff64acbe-d8cb-499b-b20f-b0934fb0f695
-source-git-commit: bbf1aa11ef7e1b43b4df7799c4a4491b73cfbef1
+source-git-commit: c834ae7226ed9dd1f78d4f4511b52cb5f04abfae
 workflow-type: tm+mt
-source-wordcount: '480'
-ht-degree: 99%
+source-wordcount: '487'
+ht-degree: 93%
 
 ---
 
@@ -48,7 +48,7 @@ Les clients hybrides doivent se connecter au panneau de contrôle via Experience
 
 >[!NOTE]
 >
->Si vous rencontrez des problèmes pour accéder au contrôle d’accès, il est fort probable que votre instance marketing ne soit pas encore mappée à votre identifiant d’organisation. Contactez l’assistance clientèle afin de compléter cette configuration pour continuer. Une fois la connexion établie, la page d’accueil du panneau de contrôle s’affiche.
+>Si vous rencontrez des problèmes pour accéder au panneau de contrôle, il est probable que votre instance marketing ne soit pas encore mappée avec votre [ID d’organisation](https://experienceleague.adobe.com/docs/core-services/interface/administration/organizations.html?lang=fr). Contactez l’assistance clientèle afin de compléter cette configuration pour continuer. Une fois la connexion établie, la page d’accueil du panneau de contrôle s’affiche.
 
 Pour pouvoir accéder aux fonctionnalités du panneau de contrôle, vous devez fournir les informations de votre instance MID/RT dans la vignette des **[!UICONTROL Paramètres des instances]**. Pour ce faire, suivez les étapes ci-après.
 
