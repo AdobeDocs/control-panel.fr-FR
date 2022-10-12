@@ -8,9 +8,9 @@ role: Architect
 level: Experienced
 exl-id: 366dd2ea-c6be-41a2-a4d6-4ffecb5f3d39
 source-git-commit: 5d2f0d08b7f9ae78fecfaa169190d6248ec4505b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1216'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -61,7 +61,7 @@ Pour cela, vous devez générer une paire de clés GPG à partir d’un outil de
 1. Lorsque vous y êtes invité, spécifiez les paramètres de votre clé. Les paramètres requis sont les suivants :
 
    * **type de clé** : RSA
-   * **longueur de clé**: 3 072 à 4 096 bits
+   * **longueur de clé** : 3 072 à 4 096 bits
    * **nom réel** et **adresse email** : permet de suivre qui a créé la paire de clés. Entrez un nom et une adresse email associés à votre organisation ou votre service.
    * **commentaire** : l’ajout d’un libellé au champ de commentaire vous aidera à identifier facilement la clé à utiliser pour chiffrer vos données.
    * **Expiration** : date ou « 0 » pour aucune date d’expiration.
@@ -149,7 +149,7 @@ Pour plus d’informations, consultez la documentation d’Adobe Campaign :
 
 **Campaign Standard:**
 
-* [Gérer des données chiffrées](https://experienceleague.adobe.com/docs/campaign-standard/using/managing-processes-and-data/importing-and-exporting-data/managing-encrypted-data.html)
+* [Gérer des données chiffrées](https://experienceleague.adobe.com/docs/campaign-standard/using/managing-processes-and-data/importing-and-exporting-data/managing-encrypted-data.html?lang=fr)
 * [Cas pratique : import de données chiffrées à l’aide d’une clé générée par le Panneau de contrôle](https://experienceleague.adobe.com/docs/campaign-standard/using/managing-processes-and-data/importing-and-exporting-data/managing-encrypted-data.html?lang=fr#use-case-gpg-decrypt)
 
 ## Surveillance des clés GPG
