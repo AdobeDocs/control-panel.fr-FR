@@ -8,9 +8,9 @@ role: Architect
 level: Intermediate
 exl-id: 1d1eeff8-969e-4529-b947-2a68defb8d13
 source-git-commit: c834ae7226ed9dd1f78d4f4511b52cb5f04abfae
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '864'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -57,7 +57,7 @@ Veillez à suivre les recommandations et les limites ci-dessous lors de l’ajou
 
 >[!NOTE]
 >
->Si la variable **[!UICONTROL Paramètres des instances]** n’est pas visible sur la page d’accueil du Panneau de Contrôle, ce qui signifie que votre [ID d’organisation](https://experienceleague.adobe.com/docs/core-services/interface/administration/organizations.html?lang=fr) n’est associé à aucune instance Adobe Campaign v7/v8.
+>Si la vignette **[!UICONTROL Paramètres d’instance]** nʼest pas visible sur la page dʼaccueil du Panneau de contrôle, cela signifie que votre [identifiant dʼorganisation](https://experienceleague.adobe.com/docs/core-services/interface/administration/organizations.html?lang=fr) nʼest associé à aucune instance Adobe Campaign v7/v8.
 
 Pour ajouter des adresses IP à la liste autorisée, procédez comme suit :
 
