@@ -8,9 +8,9 @@ role: Architect
 level: Experienced
 exl-id: 02819bfc-9886-43fc-8014-9bfe64c42048
 source-git-commit: c834ae7226ed9dd1f78d4f4511b52cb5f04abfae
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '538'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -48,7 +48,7 @@ Pour obtenir des informations sur les serveurs connectés à vos instances, proc
 
    >[!NOTE]
    >
-   >Si la carte Paramètres des instances n’est pas visible sur la page d’accueil du Panneau de Contrôle, cela signifie que votre ID d’organisation n’est associé à aucune instance Adobe Campaign v7/v8.
+   >Si la vignette Paramètres des instance nʼest pas visible sur la page dʼaccueil du Panneau de contrôle, cela signifie que votre identifiant dʼorganisation nʼest associé à aucune instance Adobe Campaign v7/v8.
 
 1. Dans le panneau de gauche, sélectionnez l’instance Campaign désirée.
 
@@ -70,7 +70,7 @@ Les informations disponibles sont les suivantes :
    * Jaune : vous devez envisager un upgrade. Vous ne disposez pas des fonctionnalités et des correctifs les plus récents.
    * Rouge : effectuez un upgrade dès que possible. Vous ne disposez pas des nouvelles fonctionnalités et les performances du serveur ne sont peut-être pas optimales.
 
-Si l’un de vos serveurs nécessite un upgrade, reportez-vous à [cette documentation](https://docs.campaign.adobe.com/doc/AC/getting_started/EN/buildUpgrade.html) pour plus de détails sur la manière de procéder.
+Si l’un de vos serveurs nécessite un upgrade, reportez-vous à [cette documentation](https://docs.campaign.adobe.com/doc/AC/getting_started/FR/buildUpgrade.html) pour plus de détails sur la manière de procéder.
 
 ## Questions courantes {#common-questions}
 
