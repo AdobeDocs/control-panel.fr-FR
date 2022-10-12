@@ -8,9 +8,9 @@ role: Architect
 level: Intermediate
 exl-id: ff64acbe-d8cb-499b-b20f-b0934fb0f695
 source-git-commit: c834ae7226ed9dd1f78d4f4511b52cb5f04abfae
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '487'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -48,7 +48,7 @@ Les clients hybrides doivent se connecter au panneau de contrôle via Experience
 
 >[!NOTE]
 >
->Si vous rencontrez des problèmes pour accéder au panneau de contrôle, il est probable que votre instance marketing ne soit pas encore mappée avec votre [ID d’organisation](https://experienceleague.adobe.com/docs/core-services/interface/administration/organizations.html?lang=fr). Contactez l’assistance clientèle afin de compléter cette configuration pour continuer. Une fois la connexion établie, la page d’accueil du panneau de contrôle s’affiche.
+>Si vous rencontrez des problèmes pour accéder au panneau de contrôle d’accès, il est fort probable que votre instance marketing ne soit pas encore mappée à votre [identifiant d’organisation](https://experienceleague.adobe.com/docs/core-services/interface/administration/organizations.html?lang=fr). Contactez l’assistance clientèle afin de compléter cette configuration pour continuer. Une fois la connexion établie, la page d’accueil du panneau de contrôle s’affiche.
 
 Pour pouvoir accéder aux fonctionnalités du panneau de contrôle, vous devez fournir les informations de votre instance MID/RT dans la vignette des **[!UICONTROL Paramètres des instances]**. Pour ce faire, suivez les étapes ci-après.
 
@@ -93,5 +93,5 @@ Une fois qu’une instance MID/RT est ajoutée au panneau de contrôle, vous pou
 * [Surveiller les contacts et les événements principaux](../../service-events/service-events.md)
 * [Afficher les détails de votre instance](../../instances-settings/using/instance-details.md),
 * [Ajouter des adresses IP à la liste autorisée](../../instances-settings/using/ip-allow-listing-instance-access.md) (pour les instances RT),
-* [Configuration de nouveaux sous-domaines](../../subdomains-certificates/using/setting-up-new-subdomain.md),
+* [Configurer de nouveaux sous-domaines](../../subdomains-certificates/using/setting-up-new-subdomain.md)
 * [Renouveler les certificats SSL des sous-domaines](../../subdomains-certificates/using/renewing-subdomain-certificate.md).
