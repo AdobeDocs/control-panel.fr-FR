@@ -7,10 +7,10 @@ feature: Control Panel
 role: Architect
 level: Experienced
 exl-id: 2bd7d2dd-97be-49bb-9f8e-7161d0742bc1
-source-git-commit: c1c80c03a351613ec0c6870a11ab39a634e8eab7
+source-git-commit: 80a96152ffcfa184fbeb6fc5cddcb119655ffab1
 workflow-type: tm+mt
-source-wordcount: '393'
-ht-degree: 100%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -18,13 +18,13 @@ ht-degree: 100%
 
 ## À propos des bases de données d’instances {#about-instances-databases}
 
-Conformément à votre contrat, chacune de vos instances Campaign est dotée d’un espace de base de données spécifique.
-
-Les bases de données englobent les **ressources**, les **workflows** et les **données** stockées dans Adobe Campaign.
+Conformément à votre contrat, chacune de vos instances Campaign est dotée d’un espace de base de données spécifique. Les bases de données englobent les **ressources**, les **workflows** et les **données** stockées dans Adobe Campaign.
 
 Au fil du temps, elles peuvent atteindre leur capacité maximale, en particulier si les ressources stockées ne sont jamais supprimées de l’instance ou si de nombreux workflows sont mis en pause.
 
 Le dépassement de la capacité d’une base de données d’instance peut entraîner différents problèmes (impossibilité de se connecter, d’envoyer des emails, etc.). La surveillance des bases de données d’instances est donc essentielle pour garantir des performances optimales.
+
+Si vous vous êtes abonné à [alertes par email](../../performance-monitoring/using/email-alerting.md), vous recevrez des notifications par e-mail lorsque les bases de données de l’une de vos instances auront atteint 80 % ou plus de sa capacité.
 
 ## Surveillance de l’utilisation des bases de données{#monitoring-database-usage}
 
@@ -37,8 +37,6 @@ Le dépassement de la capacité d’une base de données d’instance peut entra
 Le Panneau de contrôle permet de surveiller l’utilisation de la base de données pour chacune de vos instances Campaign. Pour ce faire, ouvrez la carte **[!UICONTROL Suivi des performances]**, puis sélectionnez l’onglet **[!UICONTROL Bases de données]**.
 
 Sélectionnez l’instance de votre choix dans la **[!UICONTROL Liste d’instances]** pour afficher des informations sur la capacité de la base de données et l’espace utilisé pour cette instance.
-
-En outre, vous pouvez recevoir des notifications lorsque l’une de vos bases de données atteint sa limite de capacité. Pour cela, abonnez-vous aux [alertes par email](../../performance-monitoring/using/email-alerting.md).
 
 >[!NOTE]
 >

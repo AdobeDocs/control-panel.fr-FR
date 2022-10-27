@@ -2,10 +2,10 @@
 title: Dernière version
 description: Cette page répertorie toutes les nouvelles fonctionnalités et améliorations apportées au panneau de contrôle.
 exl-id: 13aceffb-ceaa-4cfe-8741-95d66c5c6caa
-source-git-commit: bbf1aa11ef7e1b43b4df7799c4a4491b73cfbef1
-workflow-type: ht
-source-wordcount: '41'
-ht-degree: 100%
+source-git-commit: 641c5ef1a62c278972e6a90ed85c52851deddb56
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -13,6 +13,6 @@ ht-degree: 100%
 
 Cette page répertorie les nouvelles fonctionnalités et améliorations apportées au Panneau de contrôle.
 
-## Septembre 2022 {#september-2022}
+## Octobre 2022 {#october-2022}
 
-Les clients disposant d’un modèle d’hébergement hybride peuvent désormais configurer de nouveaux sous-domaines. [En savoir plus](../subdomains-certificates/using/setting-up-new-subdomain.md)
+Les alertes par e-mail vous avertissent désormais lorsque l’un de vos certificats SSL arrivera à expiration dans 30 jours ou moins. [En savoir plus](../performance-monitoring/using/email-alerting.md)

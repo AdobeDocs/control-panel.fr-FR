@@ -6,10 +6,10 @@ user-guide-title: Guide du Panneau de contrôle
 feature: Control Panel
 role: Architect
 level: Beginner
-source-git-commit: bf710d56b0f4d3834ab505633ae85cf9444b6ccf
-workflow-type: ht
-source-wordcount: '155'
-ht-degree: 100%
+source-git-commit: 80a96152ffcfa184fbeb6fc5cddcb119655ffab1
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -22,14 +22,16 @@ ht-degree: 100%
    + Versions précédentes {#previous-releases}
       + [Notes de mise à jour 2022](rn/release-notes-2022.md)
       + [Notes de mise à jour 2021](rn/release-notes-2021.md)
-      + [Notes de mise à jour       2020](rn/release-notes-2020.md)
-      + [Notes de mise à jour       2019](rn/release-notes-2019.md)
+      + [Notes de mise à jour 2020](rn/release-notes-2020.md)
+      + [Notes de mise à jour 2019](rn/release-notes-2019.md)
 + Découverte du Panneau de contrôle {#discover-control-panel}
    + [Principales fonctionnalités](discover/using/key-features.md)
    + [Panneau de contrôle d’accès](discover/using/accessing-control-panel.md)
    + [Gérer les autorisations pour le panneau de contrôle](discover/using/managing-permissions.md)
    + [Découvrir l’interface du panneau de contrôle](discover/using/discovering-the-interface.md)
-+ [Surveiller les contacts principaux et les événements](service-events/service-events.md)
++ [Surveiller les contacts et les événements principaux](service-events/service-events.md)
++ [Alertes par e-mail](performance-monitoring/using/email-alerting.md)
++ Paramètres des instances {#instances-settings}
 + Gestion SFTP {#sftp-management}
    + [À propos de la gestion SFTP](sftp/using/about-sftp-management.md)
    + [Gérer le stockage SFTP](sftp/using/sftp-storage-management.md)
@@ -59,8 +61,6 @@ ht-degree: 100%
       + [Prévenir les surcharges des bases de données](performance-monitoring/using/database-preventing-overload.md)
    + [Surveillance des profils actifs](performance-monitoring/using/active-profiles-monitoring.md)
    + [Surveillance des débits et de la latence](performance-monitoring/using/thoughputs-latencies.md)
-   + [Alertes par e-mail](performance-monitoring/using/email-alerting.md)
-+ Paramètres des instances {#instances-settings}
    + [Listes autorisées des adresses IP pour l’accès aux instances](instances-settings/using/ip-allow-listing-instance-access.md)
    + [Autorisations d’URL](instances-settings/using/url-permissions.md)
    + [Détails de l’instance](instances-settings/using/instance-details.md)
