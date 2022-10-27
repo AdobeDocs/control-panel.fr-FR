@@ -5,9 +5,9 @@ feature: Control Panel
 role: Architect
 level: Beginner
 exl-id: 2b2cfaed-e42e-4c3a-a8d8-224b936890ab
-source-git-commit: daa52035ea5db89552b56afc4ab5690610b6e846
-workflow-type: tm+mt
-source-wordcount: '252'
+source-git-commit: 9fc94d403a0cd4229feea112f460514bef9a2104
+workflow-type: ht
+source-wordcount: '242'
 ht-degree: 100%
 
 ---
@@ -18,7 +18,6 @@ ht-degree: 100%
 >id="cp_overview"
 >title="À propos du Panneau de contrôle"
 >abstract="La page d’accueil du Panneau de contrôle vous donne accès à toutes les actions qui peuvent être effectuées sur vos instances Campaign."
->additional-url="https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/discovering-the-interface.html?lang=fr" text="Découverte de lʼinterface"
 >additional-url="https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/accessing-control-panel.html?lang=fr" text="Accès au Panneau de contrôle"
 
 ![](assets/do-not-localize/banner.png)
@@ -45,7 +44,7 @@ Plusieurs améliorations ont été apportées au processus de génération de la
 >
 >* Le Panneau de contrôle est accessible aux utilisateurs administrateurs uniquement. [Apprenez-en davantage](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html?lang=fr#discover-control-panel)
 >
->* Pour Campaign v7, des restrictions de déploiement s’appliquent. [Apprenez-en davantage](faq.md#v7-restrictions)
+>* Pour Campaign v7, des restrictions de déploiement s’appliquent. [En savoir plus](faq.md#v7-restrictions)
 
 
 ## Ressources supplémentaires {#additional-resources}
