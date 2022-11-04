@@ -8,9 +8,9 @@ role: Architect
 level: Experienced
 exl-id: 7942d2b1-d28f-4760-aa25-5ba94a627fd0
 source-git-commit: 80a96152ffcfa184fbeb6fc5cddcb119655ffab1
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '285'
+ht-degree: 100%
 
 ---
 
@@ -36,9 +36,9 @@ La liste des alertes est la suivante :
 
 >[!NOTE]
 >
->En outre, Panneau de Contrôle vous permet de **définir des rappels** afin d’être averti par e-mail avant qu’un événement ne se produise sur vos instances (versions et révisions de service).
+>En outre, le panneau de contrôle vous permet de **définir des rappels** afin d’être averti par e-mail avant qu’un événement ne se produise sur vos instances (versions et révisions de service).
 >
->Pour ce faire, vous devez vous être abonné aux alertes par e-mail et définir un rappel pour les événements à venir souhaités. [Découvrez comment définir des rappels pour les événements à venir](../../service-events/service-events.md#reminders)
+>Pour ce faire, vous devez être abonné aux alertes par e-mail et définir un rappel pour les événements à venir souhaités. [Découvrez comment définir des rappels pour les événements à venir](../../service-events/service-events.md#reminders)
 
 ## S’abonner aux alertes {#subscribe}
 
