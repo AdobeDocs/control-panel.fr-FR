@@ -8,9 +8,9 @@ role: Architect
 level: Experienced
 exl-id: eaf67573-f088-47d9-8a25-273d08dc541a
 source-git-commit: 641c5ef1a62c278972e6a90ed85c52851deddb56
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '418'
+ht-degree: 100%
 
 ---
 
@@ -26,7 +26,7 @@ En fonction des modalités de votre contrat, les capacités de stockage de votre
 
 Il est essentiel que vous surveilliez régulièrement l’espace disponible pour chacun de vos serveurs SFTP. Sinon, vous risquez de ne plus pouvoir enregistrer de fichiers supplémentaires sur le serveur ou d’exécuter avec succès les workflows qui dépendent des mises à jour de ce serveur.
 
-Si vous vous êtes abonné à [alertes par email](../../performance-monitoring/using/email-alerting.md), vous recevrez des notifications par courrier électronique lorsque l’un de vos serveurs SFTP a atteint 80 % ou plus de sa capacité. Voir [Gestion de l’espace de stockage SFTP](../../sftp/using/sftp-storage-management.md).
+Si vous vous êtes abonné aux [alertes par e-mail](../../performance-monitoring/using/email-alerting.md), vous recevrez des notifications par e-mail lorsque l’un de vos serveurs SFTP aura atteint 80 % ou plus de sa capacité. Voir [Gestion de l’espace de stockage SFTP](../../sftp/using/sftp-storage-management.md).
 
 ![](assets/do-not-localize/how-to-video.png) Découvrez cette fonctionnalité en vidéo dans [Campaign v7/v8](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/sftp-management/monitoring-server-capacity.html?lang=fr#sftp-management) ou [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/sftp-management/monitoring-server-capacity.html?lang=fr#sftp-management).
 
