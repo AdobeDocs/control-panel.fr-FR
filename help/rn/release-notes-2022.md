@@ -2,14 +2,18 @@
 title: Notes de mise à jour 2022
 description: Cette page répertorie toutes les versions 2022 du panneau de contrôle.
 exl-id: 9fb18bb6-c4e4-48aa-849c-d9129add5266
-source-git-commit: 95390bb1f8af21907ce8984279a6a73dd7828b00
+source-git-commit: f617995e7313e7ac239116e0595d1746dfc7e51f
 workflow-type: ht
-source-wordcount: '558'
+source-wordcount: '0'
 ht-degree: 100%
 
 ---
 
 # Notes de mise à jour 2022 {#rn-2022}
+
+## Octobre 2022 {#october-2022}
+
+Les alertes par e-mail vous avertissent désormais lorsque l’un de vos certificats SSL arrive à expiration dans 30 jours ou moins. [En savoir plus](../performance-monitoring/using/email-alerting.md)
 
 ## Septembre 2022 {#september-2022}
 
