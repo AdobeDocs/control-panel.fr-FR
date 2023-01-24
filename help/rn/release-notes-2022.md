@@ -3,8 +3,8 @@ title: Notes de mise à jour 2022
 description: Cette page répertorie toutes les versions 2022 du panneau de contrôle.
 exl-id: 9fb18bb6-c4e4-48aa-849c-d9129add5266
 source-git-commit: f617995e7313e7ac239116e0595d1746dfc7e51f
-workflow-type: ht
-source-wordcount: '0'
+workflow-type: tm+mt
+source-wordcount: '580'
 ht-degree: 100%
 
 ---
