@@ -7,10 +7,10 @@ feature: Control Panel
 role: Architect
 level: Intermediate
 exl-id: 1d1eeff8-969e-4529-b947-2a68defb8d13
-source-git-commit: c834ae7226ed9dd1f78d4f4511b52cb5f04abfae
-workflow-type: ht
-source-wordcount: '864'
-ht-degree: 100%
+source-git-commit: b6ccd751ee9885bacd955dfaf1ee61e923e0c07f
+workflow-type: tm+mt
+source-wordcount: '839'
+ht-degree: 96%
 
 ---
 
@@ -27,8 +27,6 @@ ht-degree: 100%
 >[!IMPORTANT]
 >
 >Cette fonctionnalité est disponible uniquement pour les instances Campaign v7/v8.
->
->Si vous utilisez une instance avec un modèle d’hébergement hybride, vous ne pourrez ajouter des adresses IP que dans « Connexion API externe » pour l’instance RT.
 
 Par défaut, votre instance Adobe Campaign n’est accessible qu’à partir de certaines adresses IP.
 
@@ -90,9 +88,9 @@ Pour ajouter des adresses IP à la liste autorisée, procédez comme suit :
    * **[!UICONTROL Connexion via AEM]** : les adresses IP AEM spécifiées seront autorisées à se connecter à l’instance Marketing.
    * **[!UICONTROL Connexion via une API externe]** : les API externes ayant les adresses IP spécifiées seront autorisées à se connecter aux instances Marketing et/ou Message Center (RT). Notez que la connexion à la console des instances RT n’est pas activée.
 
-      >[!NOTE]
-      >
-      >Si vous utilisez une instance avec un modèle d’hébergement hybride, vous ne pourrez ajouter des adresses IP que dans « Connexion API externe » pour l’instance RT.
+   >[!NOTE]
+   >
+   >Si vous utilisez une instance avec un modèle d’hébergement hybride, vous ne pourrez ajouter que des adresses IP dans &quot;Connexion API externe&quot; pour les instances MID et RT.
 
    ![](assets/ip_whitelist_acesstype.png)
 
