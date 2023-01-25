@@ -8,9 +8,9 @@ role: Architect
 level: Intermediate
 exl-id: ff64acbe-d8cb-499b-b20f-b0934fb0f695
 source-git-commit: 803068a1f6dec68afba11a4ea49edae1eafcedd5
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '484'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -92,6 +92,6 @@ Une fois qu’une instance MID/RT est ajoutée au panneau de contrôle, vous pou
 
 * [Surveiller les contacts et les événements principaux](../../service-events/service-events.md)
 * [Afficher les détails de votre instance](../../instances-settings/using/instance-details.md),
-* [Ajout d’adresses IP à la liste autorisée](../../instances-settings/using/ip-allow-listing-instance-access.md),
+* [Ajouter des adresses IP à la liste autorisée](../../instances-settings/using/ip-allow-listing-instance-access.md),
 * [Configurer de nouveaux sous-domaines](../../subdomains-certificates/using/setting-up-new-subdomain.md)
 * [Renouveler les certificats SSL des sous-domaines](../../subdomains-certificates/using/renewing-subdomain-certificate.md).
