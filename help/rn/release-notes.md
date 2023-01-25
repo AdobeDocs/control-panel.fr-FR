@@ -5,7 +5,7 @@ exl-id: 13aceffb-ceaa-4cfe-8741-95d66c5c6caa
 source-git-commit: e72d3809eddc47cf0b41422f6c703671ebefad38
 workflow-type: tm+mt
 source-wordcount: '71'
-ht-degree: 42%
+ht-degree: 69%
 
 ---
 
@@ -17,7 +17,7 @@ Cette page répertorie les nouvelles fonctionnalités et améliorations apporté
 
 **Nouvelle fonctionnalité de modèle d’hébergement hybride**
 
-Les clients disposant d’un modèle d’hébergement hybride peuvent désormais ajouter des adresses IP à la liste autorisée pour accéder aux instances MID. [En savoir plus](../instances-settings/using/ip-allow-listing-instance-access.md)
+Les client(e)s disposant d’un modèle d’hébergement hybride peuvent désormais ajouter des adresses IP à la liste autorisée pour accéder aux instances MID. [En savoir plus](../instances-settings/using/ip-allow-listing-instance-access.md)
 
 **Amélioration de la demande de signature de certificat (CSR)**
 
