@@ -8,9 +8,9 @@ role: Architect
 level: Intermediate
 exl-id: 1d1eeff8-969e-4529-b947-2a68defb8d13
 source-git-commit: b6ccd751ee9885bacd955dfaf1ee61e923e0c07f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '839'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -90,7 +90,7 @@ Pour ajouter des adresses IP à la liste autorisée, procédez comme suit :
 
    >[!NOTE]
    >
-   >Si vous utilisez une instance avec un modèle d’hébergement hybride, vous ne pourrez ajouter que des adresses IP dans &quot;Connexion API externe&quot; pour les instances MID et RT.
+   >Si vous utilisez une instance avec un modèle d’hébergement hybride, vous ne pourrez ajouter des adresses IP que dans « Connexion API externe » pour les instances MID et RT.
 
    ![](assets/ip_whitelist_acesstype.png)
 
