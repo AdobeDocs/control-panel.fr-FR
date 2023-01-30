@@ -6,8 +6,8 @@ user-guide-title: Guide du Panneau de contrôle
 feature: Control Panel
 role: Architect
 level: Beginner
-source-git-commit: 80a96152ffcfa184fbeb6fc5cddcb119655ffab1
-workflow-type: ht
+source-git-commit: e0eb0bba95bcd02fef8f9bac4e9605711d3a9c30
+workflow-type: tm+mt
 source-wordcount: '153'
 ht-degree: 100%
 
@@ -60,7 +60,7 @@ ht-degree: 100%
       + [Surveillance des workflows](performance-monitoring/using/workflow-monitoring.md)
       + [Prévenir les surcharges des bases de données](performance-monitoring/using/database-preventing-overload.md)
    + [Surveillance des profils actifs](performance-monitoring/using/active-profiles-monitoring.md)
-   + [Surveillance des débits et de la latence](performance-monitoring/using/thoughputs-latencies.md)
+   + [Surveillance des débits et de la latence](performance-monitoring/using/throughputs-latencies.md)
    + [Listes autorisées des adresses IP pour l’accès aux instances](instances-settings/using/ip-allow-listing-instance-access.md)
    + [Autorisations d’URL](instances-settings/using/url-permissions.md)
    + [Détails de l’instance](instances-settings/using/instance-details.md)
