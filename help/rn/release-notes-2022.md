@@ -2,8 +2,8 @@
 title: Notes de mise à jour 2022
 description: Cette page répertorie toutes les versions 2022 du panneau de contrôle.
 exl-id: 9fb18bb6-c4e4-48aa-849c-d9129add5266
-source-git-commit: f617995e7313e7ac239116e0595d1746dfc7e51f
-workflow-type: ht
+source-git-commit: e0eb0bba95bcd02fef8f9bac4e9605711d3a9c30
+workflow-type: tm+mt
 source-wordcount: '580'
 ht-degree: 100%
 
@@ -123,7 +123,7 @@ Les clients disposant d’un modèle d’hébergement hybride peuvent désormais
 <tbody>
 <tr>
 <td>
-<p>Les fonctionnalités de surveillance des débits et des latences ont été améliorées :<ul><li>Vous pouvez maintenant déterminer les identifiants des 5 diffusions les plus importantes qui contribuent au débit de votre instance.</li><li>Les clients Campaign Classic v7/v8 peuvent désormais visualiser la latence d’un canal spécifique.</p></li><p>Pour plus d’informations, consultez la <a href="../performance-monitoring/using/thoughputs-latencies.md">documentation détaillée</a>.</p>
+<p>Les fonctionnalités de surveillance des débits et des latences ont été améliorées :<ul><li>Vous pouvez maintenant déterminer les identifiants des 5 diffusions les plus importantes qui contribuent au débit de votre instance.</li><li>Les clients Campaign Classic v7/v8 peuvent désormais visualiser la latence d’un canal spécifique.</p></li><p>Pour plus d’informations, consultez la <a href="../performance-monitoring/using/throughputs-latencies.md">documentation détaillée</a>.</p>
 </td>
 </tr>
 </tbody>
@@ -158,7 +158,7 @@ Les clients disposant d’un modèle d’hébergement hybride peuvent désormais
 <tbody>
 <tr>
 <td>
-<p>La surveillance des débits et de la latence est désormais disponible pour tous les clients Campaign Standard et v8, ainsi que pour les clients Campaign v7 qui ont les numéros de build 9032, 9330, 9346 ou 9349 et des déploiements Stand-alone (sans instance MID).</p><p>Pour plus d’informations, consultez la <a href="../performance-monitoring/using/thoughputs-latencies.md">documentation détaillée</a>.</p>
+<p>La surveillance des débits et de la latence est désormais disponible pour tous les clients Campaign Standard et v8, ainsi que pour les clients Campaign v7 qui ont les numéros de build 9032, 9330, 9346 ou 9349 et des déploiements Stand-alone (sans instance MID).</p><p>Pour plus d’informations, consultez la <a href="../performance-monitoring/using/throughputs-latencies.md">documentation détaillée</a>.</p>
 </td>
 </tr>
 </tbody>
@@ -207,7 +207,7 @@ Les clients disposant d’un modèle d’hébergement hybride peuvent désormais
 <tbody>
 <tr>
 <td>
-<p>Vous pouvez désormais surveiller les fluctuations des débits de diffusion et de latence sur vos instances au cours d’une période donnée.</p><p>Pour plus d’informations, consultez la <a href="../performance-monitoring/using/thoughputs-latencies.md">documentation détaillée</a>.</p>
+<p>Vous pouvez désormais surveiller les fluctuations des débits de diffusion et de latence sur vos instances au cours d’une période donnée.</p><p>Pour plus d’informations, consultez la <a href="../performance-monitoring/using/throughputs-latencies.md">documentation détaillée</a>.</p>
 </td>
 </tr>
 </tbody>
