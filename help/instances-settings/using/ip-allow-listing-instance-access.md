@@ -7,10 +7,10 @@ feature: Control Panel
 role: Architect
 level: Intermediate
 exl-id: 1d1eeff8-969e-4529-b947-2a68defb8d13
-source-git-commit: b6ccd751ee9885bacd955dfaf1ee61e923e0c07f
-workflow-type: ht
-source-wordcount: '839'
-ht-degree: 100%
+source-git-commit: 78ac04811f0110fa8f90d4ec51bc33a0ac97c4eb
+workflow-type: tm+mt
+source-wordcount: '830'
+ht-degree: 98%
 
 ---
 
@@ -106,4 +106,4 @@ Pour supprimer une ou plusieurs plages dʼadresses IP de la liste autorisée, s�
 
 **Rubrique connexe :**
 
-* [Liaison d’une zone de sécurité à un opérateur](https://docs.campaign.adobe.com/doc/AC/en/INS_Additional_configurations_Configuring_Campaign_server.html#Linking_a_security_zone_to_an_operator)
+* [Liaison d’une zone de sécurité à un opérateur](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/additional-configurations/security-zones.html#linking-a-security-zone-to-an-operator)
