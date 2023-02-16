@@ -7,14 +7,19 @@ feature: Control Panel
 role: Architect
 level: Experienced
 exl-id: edd55d07-bf0b-44b0-8281-be69c698d5e8
-source-git-commit: fa45ec38ff06a0b02ab724e7ced79b7b5de2c766
+source-git-commit: a6a77cf6e564f4607c0c12facb2061cfb102a5a5
 workflow-type: tm+mt
-source-wordcount: '154'
-ht-degree: 100%
+source-wordcount: '213'
+ht-degree: 72%
 
 ---
 
 # Surveiller vos sous-domaines {#monitoring-subdomains}
+
+>[!CONTEXTUALHELP]
+>id="cp_subdomain_undelegate"
+>title="Suppression des sous-domaines délégués "
+>abstract="Cet écran vous permet de supprimer tout sous-domaine qui a été délégué dans Panneau de Contrôle. Gardez à l’esprit que la suppression d’un sous-domaine ne peut pas être annulée et sera irréversible une fois effectuée.<br>Si vous essayez de supprimer le domaine Principal de l’instance sélectionnée, vous serez invité à choisir le domaine qui le remplacera."
 
 Il est essentiel de surveiller vos sous-domaines pour vous assurer qu’ils sont tous correctement configurés pour fonctionner avec Adobe Campaign.
 

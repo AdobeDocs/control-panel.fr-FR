@@ -7,19 +7,14 @@ feature: Control Panel
 role: Architect
 level: Experienced
 exl-id: a7888e1c-259d-4601-951b-0f1062d90dc2
-source-git-commit: 349f97423b9a4834ab17c50c1f9cde226b99e4cc
+source-git-commit: a6a77cf6e564f4607c0c12facb2061cfb102a5a5
 workflow-type: tm+mt
-source-wordcount: '381'
-ht-degree: 99%
+source-wordcount: '378'
+ht-degree: 100%
 
 ---
 
 # Surveillance des certificats SSL des sous-domaines {#monitoring-ssl-certificates}
-
->[!CONTEXTUALHELP]
->id="cp_subdomain_undelegate"
->title="Dédéléguer des sous-domaines "
->abstract="À déterminer"
 
 ## À propos des certificats SSL {#about-ssl-certificates}
 
