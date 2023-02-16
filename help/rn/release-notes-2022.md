@@ -4,7 +4,7 @@ description: Cette page répertorie toutes les versions 2022 du panneau de cont
 exl-id: 9fb18bb6-c4e4-48aa-849c-d9129add5266
 source-git-commit: e0eb0bba95bcd02fef8f9bac4e9605711d3a9c30
 workflow-type: ht
-source-wordcount: '0'
+source-wordcount: '580'
 ht-degree: 100%
 
 ---
@@ -17,12 +17,12 @@ Les alertes par e-mail vous avertissent désormais lorsque l’un de vos certifi
 
 ## Septembre 2022 {#september-2022}
 
-Les clients disposant d’un modèle d’hébergement hybride peuvent désormais configurer de nouveaux sous-domaines. [En savoir plus](../subdomains-certificates/using/setting-up-new-subdomain.md)
+Les clientes et clients disposant d’un modèle d’hébergement hybride peuvent désormais configurer de nouveaux sous-domaines. [En savoir plus](../subdomains-certificates/using/setting-up-new-subdomain.md)
 
 ## Août 2022 {#august-2022}
 
-* Les clients disposant d’un modèle d’hébergement hybride peuvent désormais vérifier leurs sous-domaines. [En savoir plus](../subdomains-certificates/using/monitoring-subdomains.md)
-* Le champ Unité d’organisation (UO) est désormais optionnel dans la demande de génération de certificat (CSR). [En savoir plus](../subdomains-certificates/using/renewing-subdomain-certificate.md)
+* Les clientes et clients disposant d’un modèle d’hébergement hybride peuvent désormais vérifier leurs sous-domaines. [En savoir plus](../subdomains-certificates/using/monitoring-subdomains.md)
+* Le champ Unité d’organisation (UO) est désormais facultatif dans la demande de génération de certificat (CSR). [En savoir plus](../subdomains-certificates/using/renewing-subdomain-certificate.md)
 
 ## Juillet 2022 {#july-2022}
 
@@ -35,7 +35,7 @@ Les clients disposant d’un modèle d’hébergement hybride peuvent désormais
 <tbody>
 <tr>
 <td>
-<p><p>Les clients disposant d’un modèle d’hébergement hybride peuvent désormais renouveler les certificats SSL de leurs sous-domaines à partir du panneau de contrôle.</p><p>Pour plus d’informations, consultez la <a href="../subdomains-certificates/using/renewing-subdomain-certificate.md">documentation détaillée</a>.</p>
+<p><p>Les clientes et clients disposant d’un modèle d’hébergement hybride peuvent désormais renouveler les certificats SSL de leurs sous-domaines à partir du panneau de contrôle.</p><p>Pour plus d’informations, consultez la <a href="../subdomains-certificates/using/renewing-subdomain-certificate.md">documentation détaillée</a>.</p>
 </td>
 </tr>
 </tbody>
@@ -48,7 +48,7 @@ Les clients disposant d’un modèle d’hébergement hybride peuvent désormais
 <table>
 <thead>
 <tr>
-<th><strong>Les 10 premiers fichiers consommant de l’espace sur les serveurs SFTP</strong><br/></th>
+<th><strong>Les 10 premiers fichiers consommant de l’espace sur les serveurs SFTP</strong><br/></th>
 </tr>
 </thead>
 <tbody>
@@ -108,7 +108,7 @@ Les clients disposant d’un modèle d’hébergement hybride peuvent désormais
 <tbody>
 <tr>
 <td>
-<p>Le panneau de contrôle est désormais disponible pour les clients ayant un modèle d’hébergement hybride. Ces clients peuvent tirer parti des fonctionnalités du panneau de contrôle en fournissant l’URL de leur instance MID/RT configurée dans leur instance marketing dans le panneau de contrôle.</p><p>Pour plus d’informations, consultez la <a href="../instances-settings/using/external-accounts.md">documentation détaillée</a>.</p>
+<p>Le panneau de contrôle est désormais disponible pour les clientes et clients ayant un modèle d’hébergement hybride. Ces personnes peuvent tirer parti des fonctionnalités du panneau de contrôle en fournissant l’URL de leur instance MID/RT configurée dans leur instance marketing dans le panneau de contrôle.</p><p>Pour plus d’informations, consultez la <a href="../instances-settings/using/external-accounts.md">documentation détaillée</a>.</p>
 </td>
 </tr>
 </tbody>
@@ -123,7 +123,7 @@ Les clients disposant d’un modèle d’hébergement hybride peuvent désormais
 <tbody>
 <tr>
 <td>
-<p>Les fonctionnalités de surveillance des débits et des latences ont été améliorées :<ul><li>Vous pouvez maintenant déterminer les identifiants des 5 diffusions les plus importantes qui contribuent au débit de votre instance.</li><li>Les clients Campaign Classic v7/v8 peuvent désormais visualiser la latence d’un canal spécifique.</p></li><p>Pour plus d’informations, consultez la <a href="../performance-monitoring/using/throughputs-latencies.md">documentation détaillée</a>.</p>
+<p>Les fonctionnalités de surveillance des débits et des latences ont été améliorées :<ul><li>Vous pouvez maintenant déterminer les identifiants des 5 diffusions les plus importantes qui contribuent au débit de votre instance.</li><li>Si vous utilisez Campaign Classic v7/v8, vous pouvez désormais visualiser la latence d’un canal spécifique.</p></li><p>Pour plus d’informations, consultez la <a href="../performance-monitoring/using/throughputs-latencies.md">documentation détaillée</a>.</p>
 </td>
 </tr>
 </tbody>
@@ -158,7 +158,7 @@ Les clients disposant d’un modèle d’hébergement hybride peuvent désormais
 <tbody>
 <tr>
 <td>
-<p>La surveillance des débits et de la latence est désormais disponible pour tous les clients Campaign Standard et v8, ainsi que pour les clients Campaign v7 qui ont les numéros de build 9032, 9330, 9346 ou 9349 et des déploiements Stand-alone (sans instance MID).</p><p>Pour plus d’informations, consultez la <a href="../performance-monitoring/using/throughputs-latencies.md">documentation détaillée</a>.</p>
+<p>La surveillance des débits et de la latence est désormais disponible pour les clientes et clients Campaign Standard et v8, ainsi que pour les clientes et clients Campaign v7 qui ont les numéros de build 9032, 9330, 9346 ou 9349 et des déploiements Stand-alone (sans instance MID).</p><p>Pour plus d’informations, consultez la <a href="../performance-monitoring/using/throughputs-latencies.md">documentation détaillée</a>.</p>
 </td>
 </tr>
 </tbody>
