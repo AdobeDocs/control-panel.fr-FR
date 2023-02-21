@@ -9,8 +9,8 @@ level: Intermediate
 exl-id: 7314a679-78c3-4650-bf3a-2bde8be82747
 source-git-commit: 7115dac6b3a4cf002979fba36113b98507fdf3db
 workflow-type: tm+mt
-source-wordcount: '290'
-ht-degree: 100%
+source-wordcount: '288'
+ht-degree: 97%
 
 ---
 
@@ -20,7 +20,7 @@ Tous les utilisateurs administrateurs d’une instance Campaign ont accès au Pa
 
 ![](assets/do-not-localize/how-to-video.png) Découvrez cette fonctionnalité en [vidéo](../../discover/using/managing-permissions.md#video)
 
-1. Naviguez vers la [page d’accueil d’Adobe Experience Cloud](https://experiencecloud.adobe.com/){target=&quot;_blank&quot;}.
+1. Accédez au [Page d’accueil de Adobe Experience Cloud](https://experiencecloud.adobe.com/){target="_blank"}.
 
 1. Lancez **Admin Console** en cliquant sur le lien disponible dans la section **Accès rapide** ou dans le menu supérieur droit.
 

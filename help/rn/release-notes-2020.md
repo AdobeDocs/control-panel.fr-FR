@@ -1,15 +1,15 @@
 ---
-title: Notes de mise à jour       2020
+title: Notes de mise à jour 2020
 description: Cette page répertorie toutes les versions 2020 du panneau de contrôle.
 exl-id: 70357a40-3dc1-486d-bba2-f500b3175d62
 source-git-commit: 9be5a3ae48dccf74f509aa95fee29bbfdafddcdf
 workflow-type: tm+mt
-source-wordcount: '431'
+source-wordcount: '429'
 ht-degree: 100%
 
 ---
 
-# Notes de mise à jour       2020 {#rn-2020}
+# Notes de mise à jour 2020 {#rn-2020}
 
 ## Octobre 2020 {#october-2020}
 

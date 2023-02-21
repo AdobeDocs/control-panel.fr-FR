@@ -1,20 +1,20 @@
 ---
-title: Notes de mise à jour       2019
+title: Notes de mise à jour 2019
 description: Cette page répertorie toutes les versions 2019 du panneau de contrôle.
 exl-id: bb796bef-1a2b-4f2e-848e-ad682c6c7ea0
 source-git-commit: 9be5a3ae48dccf74f509aa95fee29bbfdafddcdf
 workflow-type: tm+mt
-source-wordcount: '152'
+source-wordcount: '150'
 ht-degree: 100%
 
 ---
 
-# Notes de mise à jour       2019 {#rn-2019}
+# Notes de mise à jour 2019 {#rn-2019}
 
 ## Septembre 2019 {#september-2019}
 
 Nous avons ajouté de nouvelles fonctionnalités permettant aux administrateurs d’ajouter des adresses IP à la liste autorisée afin de se connecter aux instances Campaign v7/v8.
-De plus, les utilisateurs administrateurs peuvent maintenant afficher la liste des instances Campaign v7/v8 et l’éligibilité pour les upgrades de build.
+De plus, les utilisateurs administrateurs peuvent maintenant afficher la liste des instances Campaign v7/v8 et l’éligibilité pour les mises à niveau de build.
 
 Pour plus d’informations, consultez la [documentation dédiée](../instances-settings/using/ip-allow-listing-instance-access.md).
 
