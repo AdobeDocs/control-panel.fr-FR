@@ -1,35 +1,33 @@
 ---
 product: campaign
 solution: Campaign
-title: Surveiller les contacts principaux et les événements
+title: Identifier les contacts clés et les événements
 description: Découvrez comment identifier les événements se produisant sur vos instances et les contacts principaux chez Adobe.
 feature: Control Panel
 role: Architect
 level: Intermediate
 exl-id: d230aae6-4f0e-4201-bb3c-0e3f83a7c1b8
-source-git-commit: 80a96152ffcfa184fbeb6fc5cddcb119655ffab1
+source-git-commit: 5e2a5975a4a2ced4b23a18900309fc537daf13c0
 workflow-type: tm+mt
-source-wordcount: '527'
-ht-degree: 100%
+source-wordcount: '780'
+ht-degree: 44%
 
 ---
 
-# Surveiller les contacts principaux et les événements {#keycontacts-events}
+# Identifier les contacts clés et les événements {#keycontacts-events}
 
 >[!CONTEXTUALHELP]
 >id="cp_servicecalendar_serviceevents"
 >title="Calendrier de service"
->abstract="La section des contacts principaux dresse une liste des personnes de contact chez Adobe, que vous pouvez appeler pour toute demande ou problème se produisant sur vos instances. Dans la section Calendrier des événements du service , vous pouvez identifier les versions et les révisions de service pour l’instance sélectionnée et configurer des rappels pour les événements à venir."
+>abstract="La section des contacts principaux dresse une liste des personnes de contact chez Adobe, que vous pouvez appeler pour toute demande ou problème se produisant sur vos instances. Dans la section Calendrier des événements de service , vous pouvez identifier les versions antérieures/à venir et les alertes pour l’instance sélectionnée, ainsi que configurer des rappels pour un événement donné."
 
 >[!IMPORTANT]
 >
 >Le calendrier de service est disponible en version Beta et est sujet à de fréquentes mises à jour et modifications sans préavis.
 
-Pour assurer la surveillance de vos instances Campaign, l’identification des événements planifiés sur celles-ci revêt un caractère essentiel.
+Pour surveiller efficacement vos instances Campaign, il est essentiel de suivre les événements importants qui peuvent potentiellement avoir un impact sur vos instances. Le Panneau de Contrôle vous permet d’identifier des événements tels que de nouvelles versions, mises à niveau, correctifs, correctifs, correctifs, etc. et fournit une liste des contacts d’Adobe clés pour toutes les requêtes ou problèmes.
 
-Grâce au panneau de contrôle, vous pouvez surveiller les versions et les révisions de service se produisant sur vos instances, ainsi qu’accéder à une liste de contacts principaux chez Adobe pour toute demande ou problème.
-
-Ces informations sont accessibles depuis la vignette **[!UICONTROL Calendrier de service]** sur la page d’accueil du panneau de contrôle.
+Ces informations sont accessibles à partir du **[!UICONTROL Calendrier du service]** carte sur la page d’accueil de Panneau de Contrôle.
 
 ## Contacts principaux {#key-contacts}
 
@@ -37,7 +35,7 @@ La section **[!UICONTROL Contacts principaux]** dresse une liste des personnes d
 
 >[!NOTE]
 >
->Cette section affiche des informations uniquement pour les comptes de services gérés.
+>Cette section affiche uniquement des informations sur les comptes de services gérés.
 
 ![](assets/service-events-contacts.png)
 
@@ -49,29 +47,38 @@ Les contacts principaux exercent les rôles suivants :
 * **[!UICONTROL Gestionnaire de transition]** : gestionnaire de transition Managed Services (compte Managed Services uniquement),
 * **[!UICONTROL Spécialiste de l’intégration]** : spécialiste affecté au compte pour vous aider lors de l’intégration à Campaign Classic (compte Managed Services uniquement).
 
-## Événements {#events}
+## Suivi des événements importants {#events}
 
-### Surveiller les événements {#monitor-events}
+Le **[!UICONTROL Calendrier des événements du service]** Cette section présente toutes les versions antérieures et à venir, ainsi que les alertes auxquelles les utilisateurs se sont abonnés dans les alertes par email Panneau de Contrôle. En outre, Panneau de Contrôle permet aux utilisateurs de définir des rappels et de marquer les événements pertinents pour l’instance sélectionnée pour qu’ils soient mieux organisés et efficaces.
 
-La section **[!UICONTROL Calendrier des événements de service]** affiche toutes les versions antérieures et à venir ainsi que les révisions de service pour l’instance sélectionnée.
+Les événements sont affichés dans un calendrier ou dans une liste. Vous pouvez basculer entre les deux vues à l’aide de la variable **[!UICONTROL Calendrier]** et **[!UICONTROL Liste]** dans le coin supérieur droit de la section.
 
 ![](assets/service-events-calendar.png)
 
-La colonne **[!UICONTROL Remarque]** fournit des informations sur le statut de chaque version :
+<table><tr style="border: 0;">
+<td><img src="assets/do-not-localize/nav-buttons.png">
+</td><td>En mode Calendrier, des boutons de navigation sont disponibles dans le coin supérieur droit pour vous aider à parcourir les événements. Utilisez la variable <b>doubles flèches</b> pour accéder au premier événement présent après/avant le mois sélectionné et au <b>flèches simples</b> pour passer d’un mois à un autre. Cliquez sur le bouton <b>bouton cercle</b> pour revenir à la vue d'aujourd'hui.</td>
+</tr></table>
 
-* **[!UICONTROL Disponibilité générale]** : dernier build stable disponible.
-* **[!UICONTROL Disponibilité limitée]** : déploiement à la demande uniquement.
-* **[!UICONTROL Release Candidate]** : validée par les ingénieurs Adobe. En attente de contrôle en production.
-* **[!UICONTROL Version préliminaire]** : disponibilité anticipée pour les besoins spécifiques des clients.
-* **[!UICONTROL Plus disponible]** : cette version ne contient aucun problème majeur, mais un build plus récent est disponible avec des correctifs supplémentaires. Une mise à niveau est requise.
-* **[!UICONTROL Obsolète]** : le build contient des régressions connues.
-Le build n’est plus pris en charge. La mise à niveau est obligatoire.
+Trois types d’événements s’affichent :
 
-Vous pouvez attribuer un indicateur à un ou plusieurs événements à venir et ainsi en effectuer le suivi. Pour ce faire, cliquez sur le bouton Ellipse en regard du nom de l’événement.
+* **Reminders** sont définis par les utilisateurs afin d’être avertis avant qu’un événement ne se produise. Elles s’affichent en vert dans la vue Calendrier. [Découvrez comment définir un rappel](#reminders)
+* **Alertes** sont envoyées par courrier électronique par le Panneau de Contrôle afin d’informer les utilisateurs de problèmes sur leurs instances, tels que la surcharge de stockage ou l’expiration du certificat SSL. Elles s’affichent en orange dans la vue Calendrier. La description de l’événement indique si l’alerte est envoyée à l’utilisateur connecté, selon son abonnement aux alertes par e-mail. [En savoir plus sur les fonctionnalités des alertes par email Panneau de Contrôle](../performance-monitoring/using/email-alerting.md)
+
+* **Versions** indiquent les déploiements précédents et à venir sur l’instance, en gris et bleu respectivement dans la vue Calendrier. Les détails de l’événement spécifient le type de version associé à chaque déploiement :
+
+   * **[!UICONTROL Disponibilité générale]** : dernier build stable disponible.
+   * **[!UICONTROL Disponibilité limitée]** : déploiement à la demande uniquement.
+   * **[!UICONTROL Release Candidate]** : validée par les ingénieurs Adobe. En attente de contrôle en production.
+   * **[!UICONTROL Version préliminaire]** : disponibilité anticipée pour les besoins spécifiques des clients.
+   * **[!UICONTROL Plus disponible]** : cette version ne contient aucun problème majeur, mais un build plus récent est disponible avec des correctifs supplémentaires. Une mise à niveau est requise.
+   * **[!UICONTROL Obsolète]** : le build contient des régressions connues. Le build n’est plus pris en charge. La mise à niveau est obligatoire.
+
+Vous pouvez attribuer un indicateur à un ou plusieurs événements à venir et ainsi en effectuer le suivi. Pour ce faire, cliquez sur le bouton représentant des points de suspension en regard du nom de l’événement.
 
 ![](assets/service-events-flag.png)
 
-### Définir des rappels {#reminders}
+## Définir des rappels {#reminders}
 
 Avec le calendrier de service, vous pouvez définir des rappels afin d’être averti par e-mail avant qu’un événement ne se produise.
 
@@ -81,9 +88,9 @@ Avec le calendrier de service, vous pouvez définir des rappels afin d’être a
 
 Pour définir une alerte pour un événement, procédez comme suit :
 
-1. Cliquez sur le bouton représentant les points de suspension en regard de l’événement qui doit vous être rappelé, puis sélectionnez **[!UICONTROL Définir un rappel]**.
+1. Passez la souris sur l’événement auquel vous souhaitez faire référence ou cliquez sur le bouton représentant des ellipses en mode Liste, puis sélectionnez **[!UICONTROL Set Reminder]**.
 
-1. Donnez un titre au rappel, puis sélectionnez la date à laquelle vous souhaitez être averti avant l’événement.
+1. Donnez un titre au rappel et sélectionnez la date à laquelle vous souhaitez être averti avant que l’événement ne se produise.
 
    ![](assets/service-events-set-reminder.png)
 

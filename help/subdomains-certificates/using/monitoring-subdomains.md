@@ -7,19 +7,15 @@ feature: Control Panel
 role: Architect
 level: Experienced
 exl-id: edd55d07-bf0b-44b0-8281-be69c698d5e8
-source-git-commit: f0c3df4727e89e3f6127fe4563908b955ccb820c
+source-git-commit: acf0334e894649d6b5edf0b96877c3f643894763
 workflow-type: tm+mt
-source-wordcount: '211'
-ht-degree: 72%
+source-wordcount: '154'
+ht-degree: 100%
 
 ---
 
-# Surveiller vos sous-domaines {#monitoring-subdomains}
 
->[!CONTEXTUALHELP]
->id="cp_subdomain_undelegate"
->title="Suppression de la délégation de sous-domaine"
->abstract="Cet écran vous permet de supprimer la délégation d’un sous-domaine à Adobe. Gardez à l’esprit que ce processus ne peut pas être annulé ou arrêté une fois envoyé.<br><br>Si vous essayez de supprimer la délégation d’un domaine Principal pour l’instance sélectionnée, vous serez invité à choisir le domaine qui le remplacera."
+# Surveiller les sous-domaines {#monitoring-subdomains}
 
 Il est essentiel de surveiller vos sous-domaines pour vous assurer qu’ils sont tous correctement configurés pour fonctionner avec Adobe Campaign.
 
@@ -33,9 +29,7 @@ La colonne **[!UICONTROL Dernière vérification]** indique à quel moment un so
 >
 >Adobe déconseille d’utiliser des sous-domaines sans date de certificat, car cela peut entraîner des problèmes de délivrabilité pour ceux-ci.
 
-Lors du lancement d’une vérification, plusieurs opérations sont effectuées pour contrôler que le sous-domaine est correctement configuré (contrôle du tenant d’instance, test d’envoi d’email, etc.)
-
-Si la vérification du sous-domaine échoue, contactez l’assistance clientèle Adobe pour plus d’informations.
+Lors du lancement d’une vérification, plusieurs opérations sont effectuées pour contrôler que le sous-domaine est correctement configuré (contrôle du tenant d’instance, test d’envoi d’email, etc.) Si la vérification du sous-domaine échoue, contactez l’assistance clientèle Adobe pour plus d’informations.
 
 **Rubriques connexes :**
 

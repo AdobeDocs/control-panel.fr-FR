@@ -6,10 +6,10 @@ user-guide-title: Guide du Panneau de contrôle
 feature: Control Panel
 role: Architect
 level: Beginner
-source-git-commit: 99241b1b4982049f844fcf51d307ace36ee70c94
+source-git-commit: a62bf4913a97c12ab282709d06c9a50b8b503d8d
 workflow-type: tm+mt
-source-wordcount: '153'
-ht-degree: 100%
+source-wordcount: '160'
+ht-degree: 94%
 
 ---
 
@@ -20,6 +20,7 @@ ht-degree: 100%
 + Notes de mise à jour {#release-notes}
    + [Dernière version](rn/release-notes.md)
    + Versions précédentes {#previous-releases}
+      + [Notes de mise à jour 2023](rn/release-notes-2023.md)
       + [Notes de mise à jour 2022](rn/release-notes-2022.md)
       + [Notes de mise à jour 2021](rn/release-notes-2021.md)
       + [Notes de mise à jour 2020](rn/release-notes-2020.md)
@@ -42,10 +43,11 @@ ht-degree: 100%
    + [Marque des sous-domaines](subdomains-certificates/using/subdomains-branding.md)
    + [Surveiller les sous-domaines](subdomains-certificates/using/monitoring-subdomains.md)
    + [Configurer un nouveau sous-domaine](subdomains-certificates/using/setting-up-new-subdomain.md)
+   + [Suppression de la délégation de sous-domaines à Adobe](subdomains-certificates/using/remove-delegated-subdomains.md)
    + [Gérer les enregistrements TXT](subdomains-certificates/using/managing-txt-records.md)
-   + [Surveiller les certificats SSL](subdomains-certificates/using/monitoring-ssl-certificates.md)
-   + Renouveler les certificats SSL {#renew-ssl}
-      + [À propos du renouvellement des certificats SSL](subdomains-certificates/using/renewing-subdomain-certificate.md)
+   + Gestion des certificats SSL {#manage-certificates}
+      + [Surveiller les certificats SSL](subdomains-certificates/using/monitoring-ssl-certificates.md)
+      + [Renouveler les certificats SSL](subdomains-certificates/using/renewing-subdomain-certificate.md)
       + [Générer la demande de signature de certificat (CSR)](subdomains-certificates/using/generate-csr.md)
       + [Installer le certificat SSL](subdomains-certificates/using/install-ssl-certificate.md)
 + Suivi des performances {#performance-monitoring}

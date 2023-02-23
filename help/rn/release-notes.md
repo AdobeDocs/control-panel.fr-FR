@@ -2,10 +2,10 @@
 title: Dernière version
 description: Cette page répertorie toutes les nouvelles fonctionnalités et améliorations apportées au Panneau de contrôle.
 exl-id: 13aceffb-ceaa-4cfe-8741-95d66c5c6caa
-source-git-commit: e72d3809eddc47cf0b41422f6c703671ebefad38
+source-git-commit: 37e4d287a82f9b750eb7fdac64d0ac9602a803c8
 workflow-type: tm+mt
-source-wordcount: '71'
-ht-degree: 100%
+source-wordcount: '94'
+ht-degree: 34%
 
 ---
 
@@ -13,12 +13,14 @@ ht-degree: 100%
 
 Cette page répertorie les nouvelles fonctionnalités et améliorations apportées au Panneau de contrôle.
 
-## Janvier 2023 {#january-2023}
+## Février 2023 {#february-2023}
 
-**Nouvelle fonctionnalité de modèle d’hébergement hybride**
+**Suppression de la délégation pour les sous-domaines délégués à Adobe**
 
-Les clientes et clients disposant d’un modèle d’hébergement hybride peuvent désormais ajouter des adresses IP à la liste autorisée pour accéder aux instances MID. [En savoir plus](../instances-settings/using/ip-allow-listing-instance-access.md)
+Vous pouvez désormais supprimer la délégation d’un sous-domaine qui a été délégué à l’Adobe, y compris la configuration CNAME. [En savoir plus](../subdomains-certificates/using/remove-delegated-subdomains.md)
 
-**Amélioration de la demande de signature de certificat (CSR)**
+**Calendrier des services**
 
-Le champ Ville/Localité est désormais facultatif pendant la génération de la demande de signature de certificat.
+Le calendrier du service fournit désormais une vue Calendrier pour suivre les événements importants qui se produisent sur vos instances. Des informations ont également été ajoutées sur les notifications envoyées aux utilisateurs abonnés aux alertes de Panneau de Contrôle. [En savoir plus](../service-events/service-events.md)
+
+![](assets/do-not-localize/gif-calendar.gif)
