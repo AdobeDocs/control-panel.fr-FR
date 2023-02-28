@@ -5,10 +5,10 @@ feature: Control Panel
 role: Architect
 level: Beginner
 exl-id: 2b2cfaed-e42e-4c3a-a8d8-224b936890ab
-source-git-commit: 9fc94d403a0cd4229feea112f460514bef9a2104
+source-git-commit: 861061eefcb38235a7f056192237842bceec55eb
 workflow-type: tm+mt
-source-wordcount: '242'
-ht-degree: 100%
+source-wordcount: '236'
+ht-degree: 73%
 
 ---
 
@@ -26,19 +26,13 @@ Le Panneau de contrôle de Campaign accroît votre efficacité en tant quʼadmin
 
 ## Nouveautés
 
-**Les 10 fichiers qui consomment le plus d’espace sur les serveurs SFTP**
+**Suppression de la délégation pour les sous-domaines délégués à Adobe**
 
-Vous pouvez maintenant identifier les 10 fichiers qui consomment le plus d’espace sur un serveur SFTP. [En savoir plus](sftp/using/sftp-storage-management.md)
+Vous pouvez désormais supprimer la délégation d’un sous-domaine qui a été délégué à l’Adobe, y compris la configuration CNAME. [En savoir plus](../subdomains-certificates/using/remove-delegated-subdomains.md)
 
+**Calendrier des services**
 
-**Rappels du calendrier de service**
-
-Le calendrier de service vous permet désormais de définir des rappels afin d’être averti par e-mail avant qu’un événement ne se produise sur vos instances. [En savoir plus](service-events/service-events.md)
-
-**Améliorations de la génération de la CSR des sous-domaines**
-
-Plusieurs améliorations ont été apportées au processus de génération de la demande de signature de certificat (CSR). [En savoir plus](subdomains-certificates/using/renewing-subdomain-certificate.md)
-
+Le calendrier du service fournit désormais une vue Calendrier pour suivre les événements importants qui se produisent sur vos instances. Des informations ont également été ajoutées sur les notifications envoyées aux utilisateurs abonnés aux alertes de Panneau de Contrôle. [En savoir plus](../service-events/service-events.md)
 
 >[!CAUTION]
 >
