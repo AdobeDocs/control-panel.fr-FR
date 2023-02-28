@@ -2,7 +2,7 @@
 title: Dernière version
 description: Cette page répertorie toutes les nouvelles fonctionnalités et améliorations apportées au Panneau de contrôle.
 exl-id: 13aceffb-ceaa-4cfe-8741-95d66c5c6caa
-source-git-commit: 85726597c62cbca7d1055a5cb45271a63218a012
+source-git-commit: 975ed013a50c6f5e15178e3c8700c554c5baa34c
 workflow-type: tm+mt
 source-wordcount: '94'
 ht-degree: 34%
@@ -20,6 +20,7 @@ Cette page répertorie les nouvelles fonctionnalités et améliorations apporté
 Vous pouvez désormais supprimer la délégation d’un sous-domaine qui a été délégué à l’Adobe, y compris la configuration CNAME. [En savoir plus](../subdomains-certificates/using/remove-delegated-subdomains.md)
 
 ![](assets/do-not-localize/gif-delegation.gif)
+
 
 **Calendrier des services**
 
