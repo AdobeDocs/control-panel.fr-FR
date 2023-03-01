@@ -8,9 +8,9 @@ role: Architect
 level: Experienced
 exl-id: 02819bfc-9886-43fc-8014-9bfe64c42048
 source-git-commit: 78ac04811f0110fa8f90d4ec51bc33a0ac97c4eb
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '536'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -37,8 +37,8 @@ La fonctionnalité Détails de l’instance vous permet d’afficher l’archite
 
 **Rubriques connexes :**
 
-* [Réalisation d’un upgrade de build](https://experienceleague.adobe.com/docs/campaign-classic/using/monitoring-campaign-classic/updating-adobe-campaign/build-upgrade.html)
-* [Mise à jour d’Adobe Campaign](https://experienceleague.adobe.com/docs/campaign-classic/using/monitoring-campaign-classic/updating-adobe-campaign/introduction.html)
+* [Réalisation d’un upgrade de build](https://experienceleague.adobe.com/docs/campaign-classic/using/monitoring-campaign-classic/updating-adobe-campaign/build-upgrade.html?lang=fr)
+* [Mise à jour d’Adobe Campaign](https://experienceleague.adobe.com/docs/campaign-classic/using/monitoring-campaign-classic/updating-adobe-campaign/introduction.html?lang=fr)
 
 ## Récupération d’informations sur vos instances {#retrieving-information-about-instances}
 
@@ -70,7 +70,7 @@ Les informations disponibles sont les suivantes :
    * Jaune : vous devez envisager un upgrade. Vous ne disposez pas des fonctionnalités et des correctifs les plus récents.
    * Rouge : effectuez un upgrade dès que possible. Vous ne disposez pas des nouvelles fonctionnalités et les performances du serveur ne sont peut-être pas optimales.
 
-Si l’un de vos serveurs nécessite un upgrade, reportez-vous à [cette documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/monitoring-campaign-classic/updating-adobe-campaign/build-upgrade.html) pour plus de détails sur la manière de procéder.
+Si l’un de vos serveurs nécessite un upgrade, reportez-vous à [cette documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/monitoring-campaign-classic/updating-adobe-campaign/build-upgrade.html?lang=fr) pour plus de détails sur la manière de procéder.
 
 ## Questions courantes {#common-questions}
 
