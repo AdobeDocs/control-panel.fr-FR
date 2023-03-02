@@ -6,9 +6,9 @@ description: Découvrez comment supprimer la délégation de sous-domaines à Ad
 feature: Control Panel
 role: Architect
 level: Experienced
-source-git-commit: deb99ceb789f40c905de1a76cca8deca6b979765
+source-git-commit: 349eb8778a19263b83b70b8c920c401aff7fa24a
 workflow-type: tm+mt
-source-wordcount: '505'
+source-wordcount: '516'
 ht-degree: 16%
 
 ---
@@ -20,7 +20,11 @@ ht-degree: 16%
 >title="Supprimer la délégation de sous-domaine"
 >abstract="Cet écran vous permet de supprimer la délégation d’un sous-domaine à Adobe. Gardez à l’esprit que ce processus ne peut pas être annulé et est irréversible tant que son exécution n’est pas terminée.<br><br>Si vous essayez de supprimer la délégation d’un domaine Principal pour l’instance sélectionnée, vous serez invité à choisir le domaine qui le remplacera."
 
-Panneau de Contrôle vous permet de supprimer la délégation d’un sous-domaine qui a été délégué à l’Adobe, y compris la configuration CNAME.
+Panneau de Contrôle vous permet de supprimer la délégation d’un sous-domaine qui a été délégué à l’Adobe.
+
+>[!NOTE]
+>
+>La suppression de la délégation n’est actuellement pas disponible pour les sous-domaines qui ont été configurés à l’aide de CNAME.
 
 ## Remarques importantes {#important}
 
