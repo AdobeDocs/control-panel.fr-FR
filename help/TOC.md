@@ -7,9 +7,9 @@ feature: Control Panel
 role: Architect
 level: Beginner
 source-git-commit: a62bf4913a97c12ab282709d06c9a50b8b503d8d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '160'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -43,9 +43,9 @@ ht-degree: 94%
    + [Marque des sous-domaines](subdomains-certificates/using/subdomains-branding.md)
    + [Surveiller les sous-domaines](subdomains-certificates/using/monitoring-subdomains.md)
    + [Configurer un nouveau sous-domaine](subdomains-certificates/using/setting-up-new-subdomain.md)
-   + [Suppression de la délégation de sous-domaines à Adobe](subdomains-certificates/using/remove-delegated-subdomains.md)
+   + [Supprimer la délégation de sous-domaines à Adobe](subdomains-certificates/using/remove-delegated-subdomains.md)
    + [Gérer les enregistrements TXT](subdomains-certificates/using/managing-txt-records.md)
-   + Gestion des certificats SSL {#manage-certificates}
+   + Gérer les certificats SSL {#manage-certificates}
       + [Surveiller les certificats SSL](subdomains-certificates/using/monitoring-ssl-certificates.md)
       + [Renouveler les certificats SSL](subdomains-certificates/using/renewing-subdomain-certificate.md)
       + [Générer la demande de signature de certificat (CSR)](subdomains-certificates/using/generate-csr.md)
