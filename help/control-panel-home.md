@@ -6,9 +6,9 @@ role: Architect
 level: Beginner
 exl-id: 2b2cfaed-e42e-4c3a-a8d8-224b936890ab
 source-git-commit: d0ba7f99eefd565ffa52dbe22771df0cd5438899
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '236'
-ht-degree: 73%
+ht-degree: 100%
 
 ---
 
@@ -28,11 +28,11 @@ Le Panneau de contrôle de Campaign accroît votre efficacité en tant quʼadmin
 
 **Suppression de la délégation pour les sous-domaines délégués à Adobe**
 
-Vous pouvez désormais supprimer la délégation d’un sous-domaine qui a été délégué à l’Adobe, y compris la configuration CNAME. [En savoir plus](../help/subdomains-certificates/using/remove-delegated-subdomains.md)
+Vous pouvez désormais supprimer la délégation d’un sous-domaine qui a été délégué à Adobe, y compris la configuration CNAME. [En savoir plus](../help/subdomains-certificates/using/remove-delegated-subdomains.md)
 
-**Calendrier des services**
+**Calendrier de service**
 
-Le calendrier du service fournit désormais une vue Calendrier pour suivre les événements importants qui se produisent sur vos instances. Des informations ont également été ajoutées sur les notifications envoyées aux utilisateurs abonnés aux alertes de Panneau de Contrôle. [En savoir plus](../help/service-events/service-events.md)
+Le calendrier de service fournit maintenant une vue Calendrier pour suivre les événements importants qui se produisent sur vos instances. Des informations ont également été ajoutées dans les notifications envoyées aux utilisateurs et utilisatrices abonnés aux alertes du panneau de contrôle. [En savoir plus](../help/service-events/service-events.md)
 
 >[!CAUTION]
 >
