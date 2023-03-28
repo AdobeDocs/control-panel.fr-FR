@@ -6,10 +6,10 @@ description: Découvrez comment supprimer la délégation des sous-domaines à A
 feature: Control Panel
 role: Architect
 level: Experienced
-source-git-commit: 349eb8778a19263b83b70b8c920c401aff7fa24a
+source-git-commit: dbd1b2dd31cf732609f8a515e9adc1c43cbf39c6
 workflow-type: tm+mt
-source-wordcount: '516'
-ht-degree: 100%
+source-wordcount: '819'
+ht-degree: 61%
 
 ---
 
@@ -20,11 +20,7 @@ ht-degree: 100%
 >title="Supprimer la délégation de sous-domaine"
 >abstract="Cet écran vous permet de supprimer la délégation d’un sous-domaine à Adobe. Notez que ce processus ne peut pas être annulé et qu’il est irréversible tant que son exécution n’est pas terminée.<br><br>Si vous essayez de supprimer la délégation d’un domaine principal de l’instance sélectionnée, il vous sera demandé de choisir le domaine qui le remplacera."
 
-Le panneau de contrôle vous permet de supprimer la délégation d’un sous-domaine qui a été délégué à Adobe.
-
->[!NOTE]
->
->La suppression de la délégation n’est actuellement pas disponible pour les sous-domaines qui ont été configurés à l’aide de CNAME.
+Panneau de Contrôle vous permet de supprimer la délégation d’un sous-domaine qui a été entièrement délégué à l’Adobe ou délégué à l’aide de CNAME.
 
 ## Remarques importantes {#important}
 
@@ -52,6 +48,8 @@ Pour supprimer la délégation d’un sous-domaine à Adobe, procédez comme sui
 
    ![](assets/undelegate-subdomain-details.png)
 
+1. Si vous supprimez une délégation de type CNAME ou si vous remplacez un domaine Principal par un domaine délégué à l’aide de CNAME, une **[!UICONTROL Action]** s’affiche pour gérer les enregistrements DNS. [En savoir plus dans cette section](#dns)
+
 1. Examinez le résumé qui s’affiche. Pour confirmer la suppression, saisissez l’URL du domaine pour lequel vous souhaitez supprimer la délégation, puis cliquez sur **[!UICONTROL Envoyer]**.
 
    ![](assets/undelegate-submit.png)
@@ -59,6 +57,39 @@ Pour supprimer la délégation d’un sous-domaine à Adobe, procédez comme sui
 Une fois la suppression de la délégation initiée, le traitement en attente s’affiche dans les logs de traitements jusqu’à ce qu’il soit terminé.
 
 ![](assets/undelegate-job.png)
+
+## Gestion des enregistrements DNS {#dns}
+
+Pour configurer une délégation de domaine à l’aide de CNAME, Panneau de Contrôle exige que vous ajoutiez des enregistrements spécifiques sur votre serveur DNS. [Découvrez comment configurer des sous-domaines à l’aide de CNAME](setting-up-new-subdomain.md#use-cnames)
+
+Lors de la suppression d’une délégation de type CNAME, vous devez **supprimer ces enregistrements DNS ;** de votre serveur pour éviter tout problème. En outre, si vous souhaitez supprimer la délégation d’un sous-domaine Principal et le remplacer par un domaine qui a été délégué à l’aide de CNAME, vous devrez peut-être **ajout d’enregistrements DNS** sur votre serveur, en fonction des affinités IP définies pour le sous-domaine.
+
+Le tableau ci-dessous répertorie la ou les actions à effectuer en fonction du type de délégation que vous supprimez et du type de délégation utilisé pour configurer le domaine de remplacement.
+
+| Délégation supprimée | Domaine de remplacement | Action requise |
+|  ---  |  ---  |  ---  |
+| Complet | Aucun domaine de remplacement | Aucune action requise |
+| Complet | CNAME | Ajouter des enregistrements DNS (facultatif en fonction des affinités IP) |
+| Complet | Complet | Aucune action requise |
+| CNAME | Aucun domaine de remplacement | Suppression d’enregistrements DNS |
+| CNAME | CNAME | Supprimer et ajouter des enregistrements DNS (facultatif en fonction des affinités IP) |
+| CNAME | Complet | Suppression d’enregistrements DNS |
+
+Pour ce faire, une **[!DNL Action]** s’affiche avant de confirmer la suppression de la délégation. Cet écran répertorie les enregistrements DNS à supprimer ou à ajouter, selon le contexte.
+
+![](assets/action-step.png)
+
+### Suppression d’enregistrements DNS
+
+1. Accédez à votre serveur DNS et supprimez les enregistrements répertoriés dans Panneau de Contrôle.
+1. Revenez au Panneau de Contrôle et cliquez sur **[!UICONTROL Suivant]** pour procéder à la suppression de la délégation.
+
+### Ajout d’enregistrements DNS
+
+1. Accédez à votre serveur DNS et ajoutez les enregistrements répertoriés dans Panneau de Contrôle.
+1. Attendez que l’ajout DNS soit effectif.
+1. Revenez au Panneau de Contrôle et cliquez sur **[!UICONTROL Vérifier]**.
+1. Une fois l&#39;ajout des enregistrements vérifié, cliquez sur **[!UICONTROL Suivant]** pour procéder à la suppression de la délégation.
 
 ## Codes d’erreur {#FAQ}
 
