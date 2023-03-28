@@ -6,10 +6,10 @@ description: Découvrez comment supprimer la délégation des sous-domaines à A
 feature: Control Panel
 role: Architect
 level: Experienced
-source-git-commit: dbd1b2dd31cf732609f8a515e9adc1c43cbf39c6
+source-git-commit: 4cf7fc767deaff12ca63c844e5c0842eea558078
 workflow-type: tm+mt
-source-wordcount: '819'
-ht-degree: 61%
+source-wordcount: '821'
+ht-degree: 60%
 
 ---
 
@@ -66,14 +66,16 @@ Lors de la suppression d’une délégation de type CNAME, vous devez **supprime
 
 Le tableau ci-dessous répertorie la ou les actions à effectuer en fonction du type de délégation que vous supprimez et du type de délégation utilisé pour configurer le domaine de remplacement.
 
-| Délégation supprimée | Domaine de remplacement | Action requise |
+| Délégation supprimée | Délégation de domaine de remplacement | Action requise |
 |  ---  |  ---  |  ---  |
-| Complet | Aucun domaine de remplacement | Aucune action requise |
-| Complet | CNAME | Ajouter des enregistrements DNS (facultatif en fonction des affinités IP) |
-| Complet | Complet | Aucune action requise |
 | CNAME | Aucun domaine de remplacement | Suppression d’enregistrements DNS |
-| CNAME | CNAME | Supprimer et ajouter des enregistrements DNS (facultatif en fonction des affinités IP) |
+| CNAME | CNAME | Suppression d’enregistrements DNS<br/>Ajout d’enregistrements DNS *(facultatif selon les affinités IP)* |
 | CNAME | Complet | Suppression d’enregistrements DNS |
+| Complet | Aucun domaine de remplacement | Aucune action requise |
+| Complet | CNAME | Ajout d’enregistrements DNS *(facultatif selon les affinités IP)* |
+| Complet | Complet | Aucune action requise |
+
+{style="table-layout:auto"}
 
 Pour ce faire, une **[!DNL Action]** s’affiche avant de confirmer la suppression de la délégation. Cet écran répertorie les enregistrements DNS à supprimer ou à ajouter, selon le contexte.
 
