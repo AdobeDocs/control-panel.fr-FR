@@ -1,20 +1,30 @@
 ---
 title: Notes de mise à jour 2023
 description: Cette page répertorie toutes les versions 2023 du panneau de contrôle.
-source-git-commit: cca897c84f5b4db9233931086c1befc5719666b9
+source-git-commit: 83138e63558125757259849064552904594e2e0b
 workflow-type: tm+mt
-source-wordcount: '78'
-ht-degree: 75%
+source-wordcount: '134'
+ht-degree: 100%
 
 ---
 
 # Notes de mise à jour 2023 {#rn-2023}
 
-## Mars 2023 {#march-2023}
+## Février 2023 {#february-2023}
 
-**Suppression de la délégation de sous-domaine pour les CNAME**
+**Suppression de la délégation pour les sous-domaines délégués à Adobe**
 
-Vous pouvez désormais supprimer la délégation des sous-domaines qui ont été configurés à l’aide de CNAME. [En savoir plus](../subdomains-certificates/using/remove-delegated-subdomains.md)
+Vous pouvez maintenant supprimer la délégation d’un sous-domaine entièrement délégué à Adobe. [En savoir plus](../subdomains-certificates/using/remove-delegated-subdomains.md)
+
+>[!NOTE]
+>
+>La suppression de la délégation n’est actuellement pas disponible pour les sous-domaines qui ont été configurés à l’aide de CNAME.
+
+**Calendrier de service**
+
+Le calendrier de service fournit maintenant une vue Calendrier pour suivre les événements importants qui se produisent sur vos instances. Des informations ont également été ajoutées dans les notifications envoyées aux utilisateurs et utilisatrices abonnés aux alertes du panneau de contrôle. [En savoir plus](../service-events/service-events.md)
+
+![](assets/do-not-localize/gif-calendar.gif)
 
 ## Janvier 2023 {#january-2023}
 
