@@ -2,8 +2,8 @@
 title: Notes de mise à jour 2023
 description: Cette page répertorie toutes les versions 2023 du panneau de contrôle.
 source-git-commit: 83138e63558125757259849064552904594e2e0b
-workflow-type: tm+mt
-source-wordcount: '134'
+workflow-type: ht
+source-wordcount: '0'
 ht-degree: 100%
 
 ---
