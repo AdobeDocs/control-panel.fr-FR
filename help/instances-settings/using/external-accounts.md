@@ -7,10 +7,10 @@ feature: Control Panel
 role: Architect
 level: Intermediate
 exl-id: ff64acbe-d8cb-499b-b20f-b0934fb0f695
-source-git-commit: 803068a1f6dec68afba11a4ea49edae1eafcedd5
+source-git-commit: 96d18b56f70a6a8bf0270a5c94f5ba16923d0e9f
 workflow-type: tm+mt
-source-wordcount: '484'
-ht-degree: 100%
+source-wordcount: '581'
+ht-degree: 79%
 
 ---
 
@@ -21,7 +21,10 @@ ht-degree: 100%
 >title="Comptes externes"
 >abstract="Dans cette fenêtre, les clients disposant d’un modèle d’hébergement hybride peuvent fournir l’URL de leur instance MID/RT configurée dans l’instance marketing dans le panneau de contrôle, afin de tirer parti des fonctionnalités du panneau de contrôle."
 
-Le panneau de contrôle permet aux clients disposant d’un modèle d’hébergement hybride de tirer parti des fonctionnalités spécifiques du panneau de contrôle. Pour ce faire, ils doivent fournir l’URL de l’instance MID/RT configurée dans leur instance marketing dans le panneau de contrôle.
+Le panneau de contrôle permet aux clients disposant d’un modèle d’hébergement hybride de tirer parti des fonctionnalités spécifiques du panneau de contrôle. Pour ce faire, vous devez :
+
+* [Fournissez l’URL de l’instance MID/RT](#add) configuré dans votre instance marketing en Panneau de Contrôle,
+* [Ajoutez l’adresse IP de l’instance MID/RT à la liste autorisée.](#ip) pour permettre à l’instance marketing de s’y connecter.
 
 Pour plus d’informations sur les modèles d’hébergement, reportez-vous à la [documentation de Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html?lang=fr).
 
@@ -85,6 +88,14 @@ Vous pouvez supprimer ou désactiver l’URL d&#39;une instance MID/RT à tout m
 Notez que vous pouvez surveiller toute action effectuée dans l’onglet **[!UICONTROL Comptes externes]** sur une URL d’instance MID/RT à partir des **[!UICONTROL Logs de traitement]** :
 
 ![](assets/external-account-logs.png)
+
+## Ajout de l’adresse IP à la liste autorisée {#ip}
+
+Une fois l’instance MID/RT ajoutée, vous devez ajouter son adresse IP à la liste autorisée afin que votre instance marketing puisse s’y connecter.
+
+Cette opération peut être effectuée à partir de la fonction **[!UICONTROL Listes autorisées des adresses IP]** dans le **[!UICONTROL Paramètres des instances]** carte. [Découvrez comment ajouter des adresses IP à la liste autorisée](ip-allow-listing-instance-access.md)
+
+Une fois cette opération terminée, vous pourrez utiliser les fonctionnalités de Panneau de Contrôle avec votre instance MID/RT.
 
 ## Fonctionnalités disponibles pour les clients hybrides {#capabilities}
 
