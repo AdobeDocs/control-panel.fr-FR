@@ -8,9 +8,9 @@ role: Architect
 level: Experienced
 exl-id: 517818c9-8557-49fd-b49c-b98b60e48f1c
 source-git-commit: ea738ea3764e4651e0eb7b4bcc68a9f7b3c8d1e5
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '828'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -78,7 +78,7 @@ Le tableau ci-dessous répertorie la ou les actions à effectuer en fonction du 
 
 {style="table-layout:auto"}
 
-Si l’une de ces actions est requise pour supprimer la délégation, une **[!DNL Action]** s’affiche avant de confirmer la suppression de la délégation. Cet écran répertorie les enregistrements DNS à supprimer ou à ajouter, selon le contexte.
+Si l’une de ces actions est requise pour supprimer la délégation, une étape **[!DNL Action]** supplémentaire s’affiche avant de confirmer la suppression de la délégation. Cet écran répertorie les enregistrements DNS à supprimer ou à ajouter, selon le contexte.
 
 ![](assets/action-step.png)
 
