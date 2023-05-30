@@ -7,10 +7,10 @@ feature: Control Panel
 role: Architect
 level: Experienced
 exl-id: 366dd2ea-c6be-41a2-a4d6-4ffecb5f3d39
-source-git-commit: 5d2f0d08b7f9ae78fecfaa169190d6248ec4505b
+source-git-commit: e6b518e8a935b523972302c8efa92a889d36735f
 workflow-type: tm+mt
-source-wordcount: '1216'
-ht-degree: 100%
+source-wordcount: '1232'
+ht-degree: 98%
 
 ---
 
@@ -64,6 +64,11 @@ Pour cela, vous devez générer une paire de clés GPG à partir d’un outil de
    * **longueur de clé** : 3 072 à 4 096 bits
    * **nom réel** et **adresse email** : permet de suivre qui a créé la paire de clés. Entrez un nom et une adresse email associés à votre organisation ou votre service.
    * **commentaire** : l’ajout d’un libellé au champ de commentaire vous aidera à identifier facilement la clé à utiliser pour chiffrer vos données.
+
+      >[!IMPORTANT]
+      >
+      >Assurez-vous que ce champ n’est pas vide et qu’un commentaire est renseigné.
+
    * **Expiration** : date ou « 0 » pour aucune date d’expiration.
    * **mot de passe**
 
