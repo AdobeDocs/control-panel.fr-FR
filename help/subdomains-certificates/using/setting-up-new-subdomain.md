@@ -7,10 +7,10 @@ feature: Control Panel
 role: Architect
 level: Experienced
 exl-id: d92781c3-14cc-4716-a131-580ccff46d6e
-source-git-commit: 05c199984ec1282a0135841dd168430dec374a2e
+source-git-commit: 503280181293df6ec5ffaf6c148042d54c5c1958
 workflow-type: tm+mt
-source-wordcount: '1543'
-ht-degree: 86%
+source-wordcount: '1564'
+ht-degree: 85%
 
 ---
 
@@ -26,7 +26,7 @@ ht-degree: 86%
 >[!CONTEXTUALHELP]
 >id="cp_managed_ssl"
 >title="Délégation des certificats SSL des sous-domaines à l’Adobe"
->abstract="Panneau de Contrôle vous permet de gérer par Adobe les certificats SSL de vos sous-domaines. Si vous utilisez des CNAME pour configurer votre sous-domaine, les enregistrements de certificats seront automatiquement générés et fournis afin de générer un certificat dans votre solution d’hébergement de domaine."
+>abstract="Panneau de Contrôle vous permet de gérer par Adobe les certificats SSL de vos sous-domaines. Si vous utilisez des CNAME pour configurer votre sous-domaine, les enregistrements de certificats seront automatiquement générés et fournis afin de générer un certificat dans votre solution d’hébergement de domaine. Notez que cette fonctionnalité n’est disponible que lors de la configuration d’un nouveau sous-domaine. Vous ne pouvez pas déléguer des certificats pour les sous-domaines délégués existants."
 
 ## À lire absolument {#must-read}
 
