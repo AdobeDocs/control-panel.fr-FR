@@ -2,10 +2,10 @@
 title: Dernière version
 description: Cette page répertorie toutes les nouvelles fonctionnalités et améliorations apportées au Panneau de contrôle.
 exl-id: 13aceffb-ceaa-4cfe-8741-95d66c5c6caa
-source-git-commit: 83138e63558125757259849064552904594e2e0b
-workflow-type: ht
-source-wordcount: '49'
-ht-degree: 100%
+source-git-commit: f43dbc1d28ff22ca1f9092d6ca416c43eed2ebec
+workflow-type: tm+mt
+source-wordcount: '77'
+ht-degree: 37%
 
 ---
 
@@ -13,8 +13,8 @@ ht-degree: 100%
 
 Cette page répertorie les nouvelles fonctionnalités et améliorations apportées au Panneau de contrôle.
 
-## Mars 2023 {#march-2023}
+## Améliorations de juin 2023 {#june-2023}
 
-**Suppression de la délégation de sous-domaines pour les CNAME**
+**Délégation de certificats SSL des sous-domaines à Adobe**
 
-Vous pouvez désormais supprimer la délégation des sous-domaines configurés à l’aide de CNAME. [En savoir plus](../subdomains-certificates/using/remove-delegated-subdomains.md)
+Vous pouvez désormais gérer par Adobe les certificats SSL de vos sous-domaines. Si vous utilisez des CNAME pour configurer votre sous-domaine, les enregistrements de certificats seront automatiquement générés et fournis afin de générer un certificat dans votre solution d’hébergement de domaine. [En savoir plus](../subdomains-certificates/using/setting-up-new-subdomain.md)
