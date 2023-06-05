@@ -7,10 +7,10 @@ feature: Control Panel
 role: Architect
 level: Experienced
 exl-id: a7888e1c-259d-4601-951b-0f1062d90dc2
-source-git-commit: a6a77cf6e564f4607c0c12facb2061cfb102a5a5
+source-git-commit: 0628e9eb12da4dcc33b2ea21c9ef31bb7ba4f9c4
 workflow-type: tm+mt
-source-wordcount: '378'
-ht-degree: 100%
+source-wordcount: '484'
+ht-degree: 78%
 
 ---
 
@@ -27,6 +27,18 @@ Le **chiffrement SSL (Secure Socket Layer)** garantit la sécurité des sous-dom
 **Les certificats SSL sont fournis pour une période spécifique** (1 an, 60 jours, etc.). Lorsqu’un certificat arrive à expiration, vous pouvez rencontrer des problèmes lors de l’accès aux landing pages ou de l’utilisation de ressources du sous-domaine. Pour éviter cela, le Panneau de contrôle permet de surveiller les certificats SSL de vos sous-domaines et de lancer une procédure de renouvellement.
 
 ![](assets/no_certificate.png)
+
+## Délégation des certificats SSL des sous-domaines à l’Adobe
+
+Lors de la configuration d’un nouveau sous-domaine, le certificat SSL peut être géré par Adobe. Ceci est vivement recommandé, car l’Adobe crée automatiquement le certificat et le renouvelle tous les ans avant l’expiration du certificat.
+
+Si vous utilisez des CNAME pour configurer une délégation de sous-domaine, Adobe fournira des enregistrements de certificat à utiliser dans votre solution d’hébergement de domaine pour générer votre certificat.
+
+>[!NOTE]
+>
+>La délégation de certificats SSL n’est disponible que lors de la configuration d’un nouveau sous-domaine. Elle n’est pas disponible pour les sous-domaines déjà délégués.
+
+La délégation des certificats SSL est activée lors de la configuration d’un nouveau sous-domaine. Découvrez comment procéder dans [cette section](setting-up-new-subdomain.md).
 
 ## Surveillance des certificats SSL {#monitoring-certificates}
 
