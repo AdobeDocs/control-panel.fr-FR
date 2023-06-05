@@ -7,10 +7,10 @@ feature: Control Panel
 role: Architect
 level: Experienced
 exl-id: d92781c3-14cc-4716-a131-580ccff46d6e
-source-git-commit: 503280181293df6ec5ffaf6c148042d54c5c1958
+source-git-commit: 3adb780dbff27cf40d519af1bc59e0946110604a
 workflow-type: tm+mt
-source-wordcount: '1564'
-ht-degree: 85%
+source-wordcount: '1652'
+ht-degree: 80%
 
 ---
 
@@ -41,6 +41,16 @@ Cette page fournit des informations sur la configuration de nouveaux sous-domain
 La configuration de sous-domaine n’est disponible que pour les instances de **production**.
 
 Si l’instance sélectionnée dans l’assistant ne comporte aucun sous-domaine configuré précédemment, le premier sous-domaine configuré deviendra le **sous-domaine principal** pour cette instance et vous ne pourrez plus le modifier par la suite. Des **enregistrements DNS inversés** seront créés pour d’autres sous-domaines utilisant ce sous-domaine principal. **Les adresses de réponse et bounce pour les autres sous-domaines seront générées à partir du sous-domaine principal.**
+
+### Délégation des certificats SSL des sous-domaines à l’Adobe
+
+Lors de la configuration d’un nouveau sous-domaine, le certificat SSL peut être géré par Adobe. Ceci est vivement recommandé, car l’Adobe crée automatiquement le certificat et le renouvelle tous les ans avant l’expiration du certificat.
+
+Si vous utilisez des CNAME pour configurer une délégation de sous-domaine, Adobe fournira des enregistrements de certificat à utiliser dans votre solution d’hébergement de domaine pour générer votre certificat.
+
+>[!NOTE]
+>
+>La délégation de certificats SSL n’est disponible que lors de la configuration d’un nouveau sous-domaine. Elle n’est pas disponible pour les sous-domaines déjà délégués.
 
 ### Configuration des serveurs de noms
 
