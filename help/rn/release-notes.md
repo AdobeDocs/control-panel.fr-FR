@@ -2,10 +2,10 @@
 title: Dernière version
 description: Cette page répertorie toutes les nouvelles fonctionnalités et améliorations apportées au Panneau de contrôle.
 exl-id: 13aceffb-ceaa-4cfe-8741-95d66c5c6caa
-source-git-commit: 503280181293df6ec5ffaf6c148042d54c5c1958
+source-git-commit: 47a11cbafe3c81aba81c2f16c83e7d31e571fb95
 workflow-type: tm+mt
-source-wordcount: '98'
-ht-degree: 29%
+source-wordcount: '113'
+ht-degree: 25%
 
 ---
 
@@ -20,3 +20,7 @@ Cette page répertorie les nouvelles fonctionnalités et améliorations apporté
 Vous pouvez désormais gérer par Adobe les certificats SSL de vos sous-domaines. Si vous utilisez des CNAME pour configurer votre sous-domaine, les enregistrements de certificats seront automatiquement générés et fournis afin de générer un certificat dans votre solution d’hébergement de domaine.
 
 Notez que cette fonctionnalité n’est disponible que lors de la configuration d’un nouveau sous-domaine. Vous ne pouvez pas déléguer des certificats pour les sous-domaines délégués existants. [En savoir plus](../subdomains-certificates/using/setting-up-new-subdomain.md)
+
+>[!NOTE]
+>
+>Le protocole SSL géré par Adobe est une fonctionnalité gratuite qui est disponible gratuitement pour les utilisateurs.
