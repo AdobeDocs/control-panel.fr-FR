@@ -81,7 +81,6 @@ Pour ajouter des adresses IP à la liste autorisée, procédez comme suit :
    * **[!UICONTROL Libellé]** : libellé qui s’affichera dans la liste autorisée.
    * **[!UICONTROL Nom]** : le nom doit être unique pour le type d’accès, l’instance (dans le cas d’une connexion API externe) et l’adresse IP.
 
-
 1. Spécifiez le type d’accès que vous souhaitez accorder aux adresses IP :
 
    * **[!UICONTROL Accès à la console Campaign]** : les adresses IP seront autorisées pour se connecter à la console cliente Campaign. Notez que l’accès à la console n’est activé que pour les instances Marketing. L’accès aux instances MID et RT n’est pas autorisé et n’est donc pas activé.

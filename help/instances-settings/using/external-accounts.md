@@ -8,7 +8,7 @@ role: Architect
 level: Intermediate
 exl-id: ff64acbe-d8cb-499b-b20f-b0934fb0f695
 source-git-commit: 96d18b56f70a6a8bf0270a5c94f5ba16923d0e9f
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '581'
 ht-degree: 100%
 
@@ -67,13 +67,13 @@ Pour pouvoir accéder aux fonctionnalités du panneau de contrôle, vous devez f
 
    * **[!UICONTROL URL]** : URL de l’instance, qui peut être trouvée dans la console client de Campaign dans le menu **[!UICONTROL Administration]** > **[!UICONTROL Plateforme]** > **[!UICONTROL Comptes externes]**.
 
-      ![](assets/external-account-url.png)
+     ![](assets/external-account-url.png)
 
    * **[!UICONTROL Opérateur]**/**[!UICONTROL Mot de passe]** : les informations d’identification de l’opérateur fournies après l’approvisionnement initial par Adobe Admin.
 
-      >[!NOTE]
-      >
-      >Si ces informations ne sont pas disponibles, contactez l’assistance clientèle.
+     >[!NOTE]
+     >
+     >Si ces informations ne sont pas disponibles, contactez l’assistance clientèle.
 
 1. Cliquez sur **[!UICONTROL Enregistrer]** pour confirmer.
 

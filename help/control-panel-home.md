@@ -40,7 +40,6 @@ Le calendrier de service fournit maintenant une vue Calendrier pour suivre les �
 >
 >* Pour Campaign v7, des restrictions de déploiement s’appliquent. [En savoir plus](faq.md#v7-restrictions)
 
-
 ## Ressources supplémentaires {#additional-resources}
 
 <table>

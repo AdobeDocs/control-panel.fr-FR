@@ -3,7 +3,7 @@ title: Dernière version
 description: Cette page répertorie toutes les nouvelles fonctionnalités et améliorations apportées au Panneau de contrôle.
 exl-id: 13aceffb-ceaa-4cfe-8741-95d66c5c6caa
 source-git-commit: 47a11cbafe3c81aba81c2f16c83e7d31e571fb95
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '113'
 ht-degree: 100%
 

@@ -25,7 +25,7 @@ La zone **[!UICONTROL Présentation de l’espace de stockage]** contient une re
 
 * **[!UICONTROL Ressources du système]**
 
-   Notez que si les ressources du système consomment une grande partie de l’espace de la base de données, nous recommandons de contacter l’assistance clientèle.
+  Notez que si les ressources du système consomment une grande partie de l’espace de la base de données, nous recommandons de contacter l’assistance clientèle.
 
 * **[!UICONTROL Tables d’usine]** fournies par défaut avec vos instances Campaign
 * **[!UICONTROL Tables temporaires]** créées par les workflows et les diffusions

@@ -61,7 +61,6 @@ Pour ce faire, procédez comme suit :
 >* workflow [« Facturation »](https://experienceleague.adobe.com/docs/campaign-standard/using/administrating/application-settings/technical-workflows.html?lang=fr) pour Campaign Standard ;
 >* Workflow [« Nombre de profils de facturation actifs »](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/advanced-management/about-technical-workflows.html?lang=fr#automating-with-workflows) pour Campaign v7/v8.
 
-
 La zone inférieure contient une représentation graphique de l’utilisation des profils actifs au cours des 30 derniers jours. Vous pouvez modifier la période affichée sur 1 an à l’aide des filtres proposés dans l’angle supérieur droit.
 
 Pointez sur l’une des barres de graphique pour obtenir le nombre exact de profils actifs utilisés au cours de la période sélectionnée.
