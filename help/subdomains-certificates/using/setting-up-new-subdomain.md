@@ -8,9 +8,9 @@ role: Architect
 level: Experienced
 exl-id: d92781c3-14cc-4716-a131-580ccff46d6e
 source-git-commit: 47a11cbafe3c81aba81c2f16c83e7d31e571fb95
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1669'
-ht-degree: 79%
+ht-degree: 100%
 
 ---
 
@@ -25,8 +25,8 @@ ht-degree: 79%
 
 >[!CONTEXTUALHELP]
 >id="cp_managed_ssl"
->title="Délégation des certificats SSL des sous-domaines à l’Adobe"
->abstract="Panneau de Contrôle vous permet de gérer par Adobe les certificats SSL de vos sous-domaines. Si vous utilisez des CNAME pour configurer votre sous-domaine, les enregistrements de certificats seront automatiquement générés et fournis afin de générer un certificat dans votre solution d’hébergement de domaine. Notez que cette fonctionnalité n’est disponible que lors de la configuration d’un nouveau sous-domaine. Vous ne pouvez pas déléguer des certificats pour les sous-domaines délégués existants."
+>title="Déléguer des certificats SSL de sous-domaines à Adobe"
+>abstract="Le panneau de contrôle vous permet de laisser Adobe gérer les certificats SSL de vos sous-domaines. Si vous utilisez des CNAME pour configurer votre sous-domaine, les enregistrements de certificats seront automatiquement générés et fournis afin de générer un certificat dans votre solution d’hébergement de domaine. Notez que cette fonctionnalité n’est disponible que lors de la configuration d’un nouveau sous-domaine. Vous ne pouvez pas déléguer de certificats pour les sous-domaines délégués existants."
 
 ## À lire absolument {#must-read}
 
@@ -42,15 +42,15 @@ La configuration de sous-domaine n’est disponible que pour les instances de **
 
 Si l’instance sélectionnée dans l’assistant ne comporte aucun sous-domaine configuré précédemment, le premier sous-domaine configuré deviendra le **sous-domaine principal** pour cette instance et vous ne pourrez plus le modifier par la suite. Des **enregistrements DNS inversés** seront créés pour d’autres sous-domaines utilisant ce sous-domaine principal. **Les adresses de réponse et bounce pour les autres sous-domaines seront générées à partir du sous-domaine principal.**
 
-### Délégation des certificats SSL des sous-domaines à l’Adobe
+### Déléguer des certificats SSL de sous-domaines à Adobe
 
-Lors de la configuration d’un nouveau sous-domaine, le certificat SSL peut être géré par Adobe. Ceci est vivement recommandé, car l’Adobe crée automatiquement le certificat et le renouvelle tous les ans avant l’expiration du certificat. Notez que la délégation de certificats SSL n’est disponible que lors de la configuration d’un nouveau sous-domaine. Elle n’est pas disponible pour les sous-domaines déjà délégués.
+Lors de la configuration d’un nouveau sous-domaine, vous pouvez laisser Adobe gérer le certificat SSL. Il est vivement recommandé de choisir cette option, car Adobe crée automatiquement le certificat et le renouvelle tous les ans avant l’expiration de ce dernier. Notez que la délégation de certificats SSL n’est disponible que lors de la configuration d’un nouveau sous-domaine. Elle n’est pas disponible pour les sous-domaines déjà délégués.
 
 Si vous utilisez des CNAME pour configurer une délégation de sous-domaine, Adobe fournira des enregistrements de certificat à utiliser dans votre solution d’hébergement de domaine pour générer votre certificat.
 
 >[!NOTE]
 >
->Le protocole SSL géré par Adobe est une fonctionnalité gratuite qui est disponible gratuitement pour les utilisateurs.
+>Le protocole SSL géré par Adobe est une fonctionnalité gratuite.
 
 ### Configuration des serveurs de noms
 
@@ -111,11 +111,11 @@ Pour déléguer complètement un sous-domaine à Adobe Campaign, procédez comm
 
    Veillez à indiquer le **nom complet** du sous-domaine à déléguer. Par exemple, pour déléguer le sous-domaine « usoffers.email.weretail.com », saisissez « usoffers.email.weretail.com ».
 
-1. Pour déléguer la génération du certificat SSL du sous-domaine à l’Adobe, activez l’option **[!UICONTROL Souscription du protocole SSL géré par Adobe pour les sous-domaines]** .
+1. Pour déléguer la génération du certificat SSL du sous-domaine à Adobe, activez l’option **[!UICONTROL Opter pour le protocole SSL géré par Adobe pour les sous-domaines]**.
 
    ![](assets/subdomain6.png)
 
-Une fois le sous-domaine soumis, le Panneau de contrôle procède à différents contrôles et étapes de configuration. Pour plus d’informations à ce propos, consultez la section [Vérifications et configuration des sous-domaines](#subdomain-checks-and-configuration).
+Une fois le sous-domaine soumis, le panneau de contrôle procède à différents contrôles et étapes de configuration. Pour plus d’informations à ce propos, consultez la section [Vérifications et configuration des sous-domaines](#subdomain-checks-and-configuration).
 
 ## Configuration de sous-domaines à l’aide de CNAME {#use-cnames}
 
@@ -153,7 +153,7 @@ Pour configurer un sous-domaine à l’aide de CNAME, procédez comme suit.
 
    ![](assets/cname-use-case.png)
 
-1. Saisissez le sous-domaine que vous avez créé dans votre solution d’hébergement. Pour déléguer la génération du certificat SSL du sous-domaine à l’Adobe, activez l’option **[!UICONTROL Souscription du protocole SSL géré par Adobe pour les sous-domaines]** .
+1. Entrez le sous-domaine que vous avez créé dans votre solution d’hébergement. Pour déléguer la génération du certificat SSL du sous-domaine à Adobe, activez l’option **[!UICONTROL Opter pour le protocole SSL géré par Adobe pour les sous-domaines]**.
 
    ![](assets/cname-adobe-managed.png)
 
@@ -165,26 +165,26 @@ Pour configurer un sous-domaine à l’aide de CNAME, procédez comme suit.
 
    ![](assets/cname-generate-record.png)
 
-1. Assurez-vous que tous les enregistrements DNS des étapes précédentes ont été générés dans votre solution d’hébergement de domaine. Si tout est configuré correctement, sélectionnez la première instruction, puis cliquez sur **[!UICONTROL Suivant]** pour confirmer.
+1. Assurez-vous que tous les enregistrements DNS des étapes précédentes ont été générés dans votre solution d’hébergement de domaine. Si tout est correctement configuré, sélectionnez la première instruction, puis cliquez sur **[!UICONTROL Suivant]** pour confirmer.
 
    Si vous souhaitez créer les enregistrements et soumettre ultérieurement la configuration du sous-domaine, sélectionnez la deuxième instruction. Vous pourrez ensuite reprendre la configuration du sous-domaine directement à partir de la zone de **[!UICONTROL traitement]** de l’écran de gestion des sous-domaines. Notez que les enregistrements DNS à placer dans votre serveur seront conservés par le Panneau de contrôle pendant 30 jours. Au-delà de cette période, vous devrez configurer le sous-domaine à partir de zéro.
 
 
    >[!NOTE]
    >
-   >Si vous choisissez de ne pas déléguer le certificat SSL à l’Adobe, il s’agit de la dernière étape de la configuration du sous-domaine. Cliquez sur le bouton **[!UICONTROL Envoyer]** bouton .
+   >Si vous choisissez de ne pas déléguer le certificat SSL à Adobe, il s’agit de la dernière étape de la configuration du sous-domaine. Cliquez sur le bouton **[!UICONTROL Soumettre]**.
 
    ![](assets/cname-confirmation.png)
 
-1. Si vous choisissez de déléguer le certificat des sous-domaines à l’Adobe, les enregistrements de certificat sont générés automatiquement. Copiez ces enregistrements un par un ou en téléchargeant un fichier CSV, puis accédez à votre solution d’hébergement de domaine pour générer le certificat correspondant.
+1. Si vous choisissez de déléguer le certificat des sous-domaines Adobe, les enregistrements de certificat sont générés automatiquement. Copiez ces enregistrements un par un ou en téléchargeant un fichier CSV, puis accédez à votre solution d’hébergement de domaine pour générer le certificat correspondant.
 
    ![](assets/cname-csr-generation.png)
 
-1. Assurez-vous que tous les enregistrements de certificat ont été générés dans votre solution d’hébergement de domaine. Si tout est correctement configuré, sélectionnez la première instruction, puis cliquez sur **[!UICONTROL Soumettre]** pour confirmer.
+1. Assurez-vous que tous les enregistrements des certificats ont été générés dans votre solution d’hébergement de domaine. Si tout est correctement configuré, sélectionnez la première instruction, puis cliquez sur **[!UICONTROL Soumettre]** pour confirmer.
 
    ![](assets/cnames-submit.png)
 
-Une fois le sous-domaine soumis, le Panneau de contrôle procède à différents contrôles et étapes de configuration. Pour plus d’informations à ce propos, consultez la section [Vérifications et configuration des sous-domaines](#subdomain-checks-and-configuration).
+Une fois le sous-domaine soumis, le panneau de contrôle procède à différents contrôles et étapes de configuration. Pour plus d’informations à ce propos, consultez la section [Vérifications et configuration des sous-domaines](#subdomain-checks-and-configuration).
 
 ## Vérifications et configuration des sous-domaines {#subdomain-checks-and-configuration}
 
