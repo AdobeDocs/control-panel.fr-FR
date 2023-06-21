@@ -8,9 +8,9 @@ role: Architect
 level: Experienced
 exl-id: 366dd2ea-c6be-41a2-a4d6-4ffecb5f3d39
 source-git-commit: e6b518e8a935b523972302c8efa92a889d36735f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1232'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -64,10 +64,9 @@ Pour cela, vous devez générer une paire de clés GPG à partir d’un outil de
    * **longueur de clé** : 3 072 à 4 096 bits
    * **nom réel** et **adresse email** : permet de suivre qui a créé la paire de clés. Entrez un nom et une adresse email associés à votre organisation ou votre service.
    * **commentaire** : l’ajout d’un libellé au champ de commentaire vous aidera à identifier facilement la clé à utiliser pour chiffrer vos données.
-
-      >[!IMPORTANT]
-      >
-      >Assurez-vous que ce champ n’est pas vide et qu’un commentaire est renseigné.
+     >[!IMPORTANT]
+     >
+     >Assurez-vous que ce champ n’est pas vide et qu’un commentaire est renseigné.
 
    * **Expiration** : date ou « 0 » pour aucune date d’expiration.
    * **mot de passe**
@@ -168,9 +167,9 @@ La liste contient toutes les clés GPG de chiffrement et de déchiffrement qui o
 * **[!UICONTROL Nom]** : nom défini lors de l’installation ou de la génération de la clé.
 * **[!UICONTROL Cas pratique]** : cette colonne indique le cas pratique de la clé :
 
-   ![](assets/gpg_icon_encrypt.png) : la clé a été installée pour le chiffrement des données.
+  ![](assets/gpg_icon_encrypt.png) : la clé a été installée pour le chiffrement des données.
 
-   ![](assets/gpg_icon_decrypt.png) : la clé a été générée pour permettre le déchiffrement des données.
+  ![](assets/gpg_icon_decrypt.png) : la clé a été générée pour permettre le déchiffrement des données.
 
 * **[!UICONTROL Empreinte]** : empreinte de la clé.
 * **[!UICONTROL Expire]** : date d’expiration de la clé. Remarque : le Panneau de contrôle donne des indications visuelles à l’approche de sa date d’expiration :
@@ -179,9 +178,9 @@ La liste contient toutes les clés GPG de chiffrement et de déchiffrement qui o
    * Avertissement (jaune) s’affiche 60 jours avant.
    * Une bannière rouge « Expirée » s’affiche une fois qu’une clé arrive à expiration.
 
-   >[!NOTE]
-   >
-   >Aucune notification par email ne sera envoyée par le Panneau de contrôle.
+  >[!NOTE]
+  >
+  >Aucune notification par email ne sera envoyée par le Panneau de contrôle.
 
 Il est recommandé de supprimer toute clé dont vous n’avez plus besoin. Pour cela, cliquez sur le bouton **...**, puis sélectionnez **[!UICONTROL Supprimer la clé].**.
 
