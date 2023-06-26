@@ -2,14 +2,26 @@
 title: Notes de mise à jour 2023
 description: Cette page répertorie toutes les versions 2023 du panneau de contrôle.
 exl-id: 9a83e32a-4c11-4784-a6fe-341ce9ebc7a7
-source-git-commit: f43dbc1d28ff22ca1f9092d6ca416c43eed2ebec
+source-git-commit: 40654418f0c5b298cc4fbd66a5d835355876a12c
 workflow-type: tm+mt
-source-wordcount: '156'
-ht-degree: 100%
+source-wordcount: '242'
+ht-degree: 99%
 
 ---
 
 # Notes de mise à jour 2023 {#rn-2023}
+
+## Améliorations de mai 2023 {#june-2023}
+
+**Délégation des certificats SSL des sous-domaines à Adobe**
+
+Vous pouvez désormais laisser Adobe gérer les certificats SSL de vos sous-domaines. Si vous utilisez des CNAME pour configurer votre sous-domaine, les enregistrements de certificats seront automatiquement générés et fournis afin de générer un certificat dans votre solution d’hébergement de domaine.
+
+Notez que cette fonctionnalité n’est disponible que lors de la configuration d’un nouveau sous-domaine. Vous ne pouvez pas déléguer de certificats pour les sous-domaines délégués existants. [En savoir plus](../subdomains-certificates/using/setting-up-new-subdomain.md)
+
+>[!NOTE]
+>
+>Le protocole SSL géré par Adobe est une fonctionnalité gratuite.
 
 ## Mars 2023 {#march-2023}
 

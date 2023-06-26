@@ -7,10 +7,10 @@ feature: Control Panel
 role: Architect
 level: Experienced
 exl-id: a7888e1c-259d-4601-951b-0f1062d90dc2
-source-git-commit: 0628e9eb12da4dcc33b2ea21c9ef31bb7ba4f9c4
+source-git-commit: 40654418f0c5b298cc4fbd66a5d835355876a12c
 workflow-type: tm+mt
-source-wordcount: '484'
-ht-degree: 100%
+source-wordcount: '419'
+ht-degree: 91%
 
 ---
 
@@ -30,15 +30,7 @@ Le **chiffrement SSL (Secure Socket Layer)** garantit la sécurité des sous-dom
 
 ## Déléguer des certificats SSL de sous-domaines à Adobe
 
-Lors de la configuration d’un nouveau sous-domaine, vous pouvez laisser Adobe gérer le certificat SSL. Il est vivement recommandé de choisir cette option, car Adobe crée automatiquement le certificat et le renouvelle tous les ans avant l’expiration de ce dernier.
-
-Si vous utilisez des CNAME pour configurer une délégation de sous-domaine, Adobe fournira des enregistrements de certificat à utiliser dans votre solution d’hébergement de domaine pour générer votre certificat.
-
->[!NOTE]
->
->La délégation de certificats SSL n’est disponible que lors de la configuration d’un nouveau sous-domaine. Elle n’est pas disponible pour les sous-domaines déjà délégués.
-
-La délégation des certificats SSL est activée lors de la configuration d’un nouveau sous-domaine. Découvrez comment procédez dans [cette section](setting-up-new-subdomain.md).
+Il est vivement recommandé de déléguer les certificats SSL de vos sous-domaines à Adobe, car l’Adobe crée automatiquement le certificat et le renouvelle chaque année avant l’expiration du certificat. [Découvrez comment déléguer les certificats SSL des sous-domaines à Adobe](delegate-ssl.md)
 
 ## Surveillance des certificats SSL {#monitoring-certificates}
 

@@ -6,10 +6,10 @@ user-guide-title: Guide du Panneau de contrôle
 feature: Control Panel
 role: Architect
 level: Beginner
-source-git-commit: a62bf4913a97c12ab282709d06c9a50b8b503d8d
+source-git-commit: 40654418f0c5b298cc4fbd66a5d835355876a12c
 workflow-type: tm+mt
-source-wordcount: '160'
-ht-degree: 100%
+source-wordcount: '165'
+ht-degree: 96%
 
 ---
 
@@ -47,6 +47,7 @@ ht-degree: 100%
    + [Gérer les enregistrements TXT](subdomains-certificates/using/managing-txt-records.md)
    + Gérer les certificats SSL {#manage-certificates}
       + [Surveiller les certificats SSL](subdomains-certificates/using/monitoring-ssl-certificates.md)
+      + [Délégation de certificats SSL à Adobe](subdomains-certificates/using/delegate-ssl.md)
       + [Renouveler les certificats SSL](subdomains-certificates/using/renewing-subdomain-certificate.md)
       + [Générer la demande de signature de certificat (CSR)](subdomains-certificates/using/generate-csr.md)
       + [Installer le certificat SSL](subdomains-certificates/using/install-ssl-certificate.md)
