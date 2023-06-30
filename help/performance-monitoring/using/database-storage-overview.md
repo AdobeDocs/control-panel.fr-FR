@@ -18,7 +18,7 @@ ht-degree: 100%
 
 >[!CONTEXTUALHELP]
 >id="cp_dbdetails_storagedetails"
->title="À propos de la présentation du stockage"
+>title="À propos de la vue d’ensemble de l’espace de stockage"
 >abstract="Dans cet onglet, vous trouverez des informations détaillées sur les différentes ressources de Campaign qui consomment de l’espace sur la base de données."
 
 La zone **[!UICONTROL Présentation de l’espace de stockage]** contient une représentation graphique de l’espace occupé par :
