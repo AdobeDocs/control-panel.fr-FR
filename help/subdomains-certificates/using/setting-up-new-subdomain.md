@@ -8,9 +8,9 @@ role: Architect
 level: Experienced
 exl-id: d92781c3-14cc-4716-a131-580ccff46d6e
 source-git-commit: 40654418f0c5b298cc4fbd66a5d835355876a12c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1590'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -105,7 +105,7 @@ Pour déléguer complètement un sous-domaine à Adobe Campaign, procédez comm
 
    Veillez à indiquer le **nom complet** du sous-domaine à déléguer. Par exemple, pour déléguer le sous-domaine « usoffers.email.weretail.com », saisissez « usoffers.email.weretail.com ».
 
-1. Pour déléguer la génération du certificat SSL du sous-domaine à Adobe, activez l’option **[!UICONTROL Opter pour le protocole SSL géré par Adobe pour les sous-domaines.]** [En savoir plus sur la délégation des certificats SSL](delegate-ssl.md)
+1. Pour déléguer la génération du certificat SSL du sous-domaine à Adobe, activez l’option **[!UICONTROL Choisir le protocole SSL géré par Adobe pour les sous-domaines.]** [En savoir plus sur la délégation des certificats SSL](delegate-ssl.md)
 
    ![](assets/subdomain6.png)
 
@@ -149,7 +149,7 @@ Pour configurer un sous-domaine à l’aide de CNAME, procédez comme suit.
 
 1. Entrez le sous-domaine que vous avez créé dans votre solution d’hébergement.
 
-   Pour déléguer la génération du certificat SSL du sous-domaine à Adobe, activez l’option **[!UICONTROL Opter pour le protocole SSL géré par Adobe pour les sous-domaines.]** [En savoir plus sur la délégation des certificats SSL](delegate-ssl.md)
+   Pour déléguer la génération du certificat SSL du sous-domaine à Adobe, activez l’option **[!UICONTROL Choisir le protocole SSL géré par Adobe pour les sous-domaines.]** [En savoir plus sur la délégation des certificats SSL](delegate-ssl.md)
 
    ![](assets/cname-adobe-managed.png)
 
