@@ -3,7 +3,7 @@ title: Notes de mise à jour 2023
 description: Cette page répertorie toutes les versions 2023 du panneau de contrôle.
 exl-id: 9a83e32a-4c11-4784-a6fe-341ce9ebc7a7
 source-git-commit: 40654418f0c5b298cc4fbd66a5d835355876a12c
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '242'
 ht-degree: 100%
 
