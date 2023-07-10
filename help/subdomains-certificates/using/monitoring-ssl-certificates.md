@@ -8,9 +8,9 @@ role: Architect
 level: Experienced
 exl-id: a7888e1c-259d-4601-951b-0f1062d90dc2
 source-git-commit: 40654418f0c5b298cc4fbd66a5d835355876a12c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '419'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -30,7 +30,7 @@ Le **chiffrement SSL (Secure Socket Layer)** garantit la sécurité des sous-dom
 
 ## Déléguer des certificats SSL de sous-domaines à Adobe
 
-Il est vivement recommandé de déléguer les certificats SSL de vos sous-domaines à Adobe, car l’Adobe crée automatiquement le certificat et le renouvelle chaque année avant l’expiration du certificat. [Découvrez comment déléguer les certificats SSL des sous-domaines à Adobe](delegate-ssl.md)
+Il est vivement recommandé de déléguer les certificats SSL de vos sous-domaines à Adobe, car Adobe crée automatiquement le certificat et le renouvelle tous les ans avant l’expiration de ce dernier. [Découvrez comment déléguer les certificats SSL des sous-domaines à Adobe](delegate-ssl.md)
 
 ## Surveillance des certificats SSL {#monitoring-certificates}
 
