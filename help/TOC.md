@@ -6,10 +6,10 @@ user-guide-title: Guide du Panneau de contrôle
 feature: Control Panel
 role: Architect
 level: Beginner
-source-git-commit: 40654418f0c5b298cc4fbd66a5d835355876a12c
+source-git-commit: 7a355dee0482a519878a44407d133a8b6d94f00c
 workflow-type: tm+mt
-source-wordcount: '165'
-ht-degree: 100%
+source-wordcount: '161'
+ht-degree: 96%
 
 ---
 
@@ -42,15 +42,14 @@ ht-degree: 100%
 + Sous-domaines et certificats {#subdomains-and-certificates}
    + [Marque des sous-domaines](subdomains-certificates/using/subdomains-branding.md)
    + [Surveiller les sous-domaines](subdomains-certificates/using/monitoring-subdomains.md)
-   + [Configurer un nouveau sous-domaine](subdomains-certificates/using/setting-up-new-subdomain.md)
-   + [Supprimer la délégation de sous-domaines à Adobe](subdomains-certificates/using/remove-delegated-subdomains.md)
-   + [Gérer les enregistrements TXT](subdomains-certificates/using/managing-txt-records.md)
-   + Gérer les certificats SSL {#manage-certificates}
+   + Délégation de sous-domaines {#delegate-subdomains}
+      + [Configurer un nouveau sous-domaine](subdomains-certificates/using/setting-up-new-subdomain.md)
+      + [Supprimer la délégation de sous-domaines à Adobe](subdomains-certificates/using/remove-delegated-subdomains.md)
+      + [Gérer les enregistrements TXT](subdomains-certificates/using/managing-txt-records.md)
+   + Gestion des certificats SSL des sous-domaines {#manage-certificates}
       + [Surveiller les certificats SSL](subdomains-certificates/using/monitoring-ssl-certificates.md)
       + [Déléguer des certificats SSL à Adobe](subdomains-certificates/using/delegate-ssl.md)
       + [Renouveler les certificats SSL](subdomains-certificates/using/renewing-subdomain-certificate.md)
-      + [Générer la demande de signature de certificat (CSR)](subdomains-certificates/using/generate-csr.md)
-      + [Installer le certificat SSL](subdomains-certificates/using/install-ssl-certificate.md)
 + Suivi des performances {#performance-monitoring}
    + [À propos du suivi des performances](performance-monitoring/using/about-performance-monitoring.md)
    + Surveillance des bases de données {#database-monitoring}

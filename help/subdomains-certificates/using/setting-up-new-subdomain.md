@@ -7,10 +7,10 @@ feature: Control Panel
 role: Architect
 level: Experienced
 exl-id: d92781c3-14cc-4716-a131-580ccff46d6e
-source-git-commit: 40654418f0c5b298cc4fbd66a5d835355876a12c
+source-git-commit: 7a355dee0482a519878a44407d133a8b6d94f00c
 workflow-type: tm+mt
-source-wordcount: '1590'
-ht-degree: 100%
+source-wordcount: '1596'
+ht-degree: 99%
 
 ---
 
@@ -45,7 +45,7 @@ Si vous utilisez des CNAME pour configurer une délégation de sous-domaine, Ado
 
 >[!NOTE]
 >
->Le protocole SSL géré par Adobe est une fonctionnalité gratuite.
+>Le protocole SSL géré par Adobe est une fonctionnalité gratuite. [En savoir plus sur la gestion des certificats SSL](monitoring-ssl-certificates.md#management)
 
 ### Configuration des serveurs de noms
 
