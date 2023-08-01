@@ -7,9 +7,9 @@ feature: Control Panel
 role: Architect
 level: Experienced
 source-git-commit: 01da21a883804b9c79c7ee4056d984f3df6cb96c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '337'
-ht-degree: 83%
+ht-degree: 100%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 83%
 >title="Déléguer des certificats SSL de sous-domaines à Adobe"
 >abstract="Le panneau de contrôle vous permet de laisser Adobe gérer les certificats SSL de vos sous-domaines. Si vous utilisez des CNAME pour configurer votre sous-domaine, les enregistrements de certificats seront automatiquement générés et fournis afin de générer un certificat dans votre solution d’hébergement de domaine."
 
-Il est vivement recommandé de déléguer la gestion des certificats SSL de vos sous-domaines à Adobe, car l’Adobe créera automatiquement le certificat et le renouvellera chaque année avant l’expiration du certificat.
+Il est vivement recommandé de déléguer la gestion des certificats SSL de vos sous-domaines à Adobe, car Adobe crée automatiquement le certificat et le renouvelle tous les ans avant l’expiration de ce dernier.
 
 Si vous utilisez des CNAME pour configurer une délégation de sous-domaine, Adobe fournira des enregistrements de certificat à utiliser dans votre solution d’hébergement de domaine pour générer votre certificat.
 
@@ -28,7 +28,7 @@ La délégation des certificats SSL à Adobe peut être effectuée lors de la co
 
 >[!NOTE]
 >
->Le protocole SSL géré par Adobe est une fonctionnalité gratuite. La délégation du certificat d’un sous-domaine à l’Adobe est transparente et n’a aucun impact sur vos campagnes et sur la délivrabilité. [En savoir plus sur la gestion des certificats SSL](monitoring-ssl-certificates.md#management)
+>Le protocole SSL géré par Adobe est une fonctionnalité gratuite. La délégation du certificat d’un sous-domaine à Adobe est transparente et n’a aucun impact sur vos campagnes et sur la délivrabilité. [En savoir plus sur la gestion des certificats SSL](monitoring-ssl-certificates.md#management)
 
 
 ## Déléguer les certificats SSL des nouveaux sous-domaines {#new}
