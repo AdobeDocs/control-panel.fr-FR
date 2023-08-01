@@ -8,9 +8,9 @@ role: Architect
 level: Experienced
 exl-id: a7888e1c-259d-4601-951b-0f1062d90dc2
 source-git-commit: 01da21a883804b9c79c7ee4056d984f3df6cb96c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '573'
-ht-degree: 67%
+ht-degree: 100%
 
 ---
 
@@ -30,19 +30,19 @@ Le **chiffrement SSL (Secure Socket Layer)** garantit la sécurité des sous-dom
 
 ## Gestion des certificats SSL {#management}
 
-La surveillance des certificats SSL est essentielle pour garantir la sécurité de vos sous-domaines. Avec Panneau de Contrôle, vous pouvez installer et renouveler les certificats SSL de vos sous-domaines directement par vous-même, ou les déléguer à l’Adobe afin que ce processus soit exécuté automatiquement sans intervention de votre part.
+La surveillance des certificats SSL est essentielle pour garantir la sécurité de vos sous-domaines. Depuis le panneau de contrôle, vous pouvez installer et renouveler vous-même les certificats SSL de vos sous-domaines, ou bien les déléguer à Adobe afin que ce processus soit exécuté automatiquement sans intervention de votre part.
 
-Il est vivement recommandé de déléguer la gestion des certificats SSL de vos sous-domaines à Adobe, car l’Adobe créera automatiquement le certificat et le renouvellera chaque année avant son expiration. Cela réduit le risque d’erreurs pouvant se produire lors de la gestion manuelle des certificats. [Découvrez comment déléguer les certificats SSL des sous-domaines à Adobe](delegate-ssl.md)
+Il est vivement recommandé de déléguer la gestion des certificats SSL de vos sous-domaines à Adobe, car Adobe crée automatiquement le certificat et le renouvelle tous les ans avant l’expiration. Vous réduisez ainsi le risque d’erreurs pouvant se produire lors de la gestion manuelle des certificats. [Découvrez comment déléguer les certificats SSL des sous-domaines à Adobe](delegate-ssl.md)
 
-Vous trouverez ci-dessous une liste complète des impacts associés à la gestion manuelle des certificats, plutôt que de déléguer cette opération à l’Adobe :
+Vous trouverez ci-dessous une liste complète des conséquences liées à la gestion manuelle des certificats, par opposition à la délégation de cette opération à Adobe :
 
-|       | Certificat géré par le client | Certificat géré par Adobe |
+|       | Certificat géré par le client ou la cliente | Certificat géré par Adobe |
 |  ---  |  ---  |  ---  |
-| Fournisseur de certificats | Autorités de certification tierces | Adobe via les responsables de certificats AWS |
+| Fournisseur de certificats | Autorités de certification tierces | Adobe via les gestionnaires de certificats AWS |
 | Étapes manuelles | Génération, achat et installation de CSR | Aucun |
-| Processus de renouvellement | Responsabilité du client | Géré automatiquement par Adobe |
-| Sécurité des sous-domaines | Le domaine peut comporter des sous-domaines non sécurisés (tracking, miroir et res), sauf si vous installez/renouvelez des certificats. | Chaque nouveau domaine (s’il est sélectionné pour la gestion des Adobes) comporte tous les sous-domaines sécurisés par défaut. |
-| Coût du certificat | Le client supporte le coût des certificats | Libre |
+| Processus de renouvellement | Responsabilité du client ou de la cliente | Géré automatiquement par Adobe |
+| Sécurité des sous-domaines | Le domaine peut comporter des sous-domaines non sécurisés (tracking, miroir et ressources), sauf si vous installez/renouvelez des certificats. | Chaque nouveau domaine (s’il est sélectionné pour la gestion par Adobe) comporte tous les sous-domaines sécurisés par défaut. |
+| Coût du certificat | Le client ou la cliente supporte le coût des certificats | Gratuit |
 
 ## Surveillance des certificats SSL {#monitoring-certificates}
 
