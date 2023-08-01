@@ -8,9 +8,9 @@ role: Architect
 level: Experienced
 exl-id: e9b7c67d-6afa-44f9-b19d-39c0ec9a7edd
 source-git-commit: 01da21a883804b9c79c7ee4056d984f3df6cb96c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1027'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 92%
 
 >[!NOTE]
 >
->Le renouvellement des certificats SSL de vos sous-domaines n’est nécessaire que si vous choisissez de gérer les certificats vous-même plutôt que de déléguer ce processus à l’Adobe. Il est vivement recommandé de déléguer la gestion des certificats SSL de vos sous-domaines à Adobe, car l’Adobe créera automatiquement le certificat et le renouvellera chaque année avant son expiration. [En savoir plus sur la gestion des certificats SSL](monitoring-ssl-certificates.md#management)
+>Le renouvellement des certificats SSL de vos sous-domaines n’est nécessaire que si vous choisissez de gérer les certificats vous-même plutôt que de déléguer ce processus à Adobe. Il est vivement recommandé de déléguer la gestion des certificats SSL de vos sous-domaines à Adobe, car Adobe crée automatiquement le certificat et le renouvelle tous les ans avant l’expiration. [En savoir plus sur la gestion des certificats SSL](monitoring-ssl-certificates.md#management)
 
 La procédure de renouvellement des certificats SSL comprend 3 étapes :
 
