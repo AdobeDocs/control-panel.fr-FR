@@ -6,10 +6,10 @@ user-guide-title: Guide du Panneau de contrôle
 feature: Control Panel
 role: Architect
 level: Beginner
-source-git-commit: 7a355dee0482a519878a44407d133a8b6d94f00c
+source-git-commit: 355abf48cce3036d1c3e0f6c5fe3ca8fb63cf645
 workflow-type: tm+mt
-source-wordcount: '161'
-ht-degree: 100%
+source-wordcount: '181'
+ht-degree: 87%
 
 ---
 
@@ -45,7 +45,11 @@ ht-degree: 100%
    + Déléguer les sous-domaines {#delegate-subdomains}
       + [Configurer un nouveau sous-domaine](subdomains-certificates/using/setting-up-new-subdomain.md)
       + [Supprimer la délégation de sous-domaines à Adobe](subdomains-certificates/using/remove-delegated-subdomains.md)
-      + [Gérer les enregistrements TXT](subdomains-certificates/using/managing-txt-records.md)
+   + Utilisation d’enregistrements TXT (Google, BIMI, DMARC) {#txt-records}
+      + [Prise en main des enregistrements TXT](subdomains-certificates/using/gs-txt-records.md)
+      + [Ajout d’enregistrements de vérification de site Google](subdomains-certificates/using/managing-txt-records.md)
+      + [Ajout d’enregistrements DMARC](subdomains-certificates/using/dmarc.md)
+      + [Ajout d’enregistrements BIMI](subdomains-certificates/using/bimi.md)
    + Gérer les certificats SSL des sous-domaines {#manage-certificates}
       + [Surveiller les certificats SSL](subdomains-certificates/using/monitoring-ssl-certificates.md)
       + [Déléguer des certificats SSL à Adobe](subdomains-certificates/using/delegate-ssl.md)

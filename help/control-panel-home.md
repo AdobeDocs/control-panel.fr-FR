@@ -5,10 +5,10 @@ feature: Control Panel
 role: Architect
 level: Beginner
 exl-id: 2b2cfaed-e42e-4c3a-a8d8-224b936890ab
-source-git-commit: d0ba7f99eefd565ffa52dbe22771df0cd5438899
+source-git-commit: fc026f157346253fc79bde4ce624e7efa3373af2
 workflow-type: tm+mt
-source-wordcount: '236'
-ht-degree: 100%
+source-wordcount: '240'
+ht-degree: 70%
 
 ---
 
@@ -26,13 +26,14 @@ Le Panneau de contrôle de Campaign accroît votre efficacité en tant quʼadmin
 
 ## Nouveautés
 
-**Suppression de la délégation pour les sous-domaines délégués à Adobe**
+**Gestion des enregistrements DMARC &amp; BIMI**
 
-Vous pouvez désormais supprimer la délégation d’un sous-domaine qui a été délégué à Adobe, y compris la configuration CNAME. [En savoir plus](../help/subdomains-certificates/using/remove-delegated-subdomains.md)
+Vous pouvez maintenant ajouter des enregistrements DMARC &amp; BIMI directement depuis le Panneau de Contrôle :
 
-**Calendrier de service**
+* **Enregistrements DMARC** fournir un moyen d’authentifier le domaine de l’expéditeur et d’empêcher l’utilisation non autorisée du domaine à des fins malveillantes. [Découvrez comment ajouter des enregistrements DMARC](subdomains-certificates/using/dmarc.md)
 
-Le calendrier de service fournit maintenant une vue Calendrier pour suivre les événements importants qui se produisent sur vos instances. Des informations ont également été ajoutées dans les notifications envoyées aux utilisateurs et utilisatrices abonnés aux alertes du panneau de contrôle. [En savoir plus](../help/service-events/service-events.md)
+
+* **Enregistrements BIMI** vous permettent d’afficher un logo approuvé en regard de vos emails dans les boîtes de réception des fournisseurs de messagerie afin d’améliorer la reconnaissance et la confiance de la marque. [Découvrez comment ajouter des enregistrements BIMI](subdomains-certificates/using/bimi.md)
 
 >[!CAUTION]
 >

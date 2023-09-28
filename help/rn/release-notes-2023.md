@@ -2,16 +2,22 @@
 title: Notes de mise à jour 2023
 description: Cette page répertorie toutes les versions 2023 du panneau de contrôle.
 exl-id: 9a83e32a-4c11-4784-a6fe-341ce9ebc7a7
-source-git-commit: 40654418f0c5b298cc4fbd66a5d835355876a12c
+source-git-commit: 2a1119022af2ced06052cf48b50d6ff7be2d1faa
 workflow-type: tm+mt
-source-wordcount: '242'
+source-wordcount: '270'
 ht-degree: 100%
 
 ---
 
 # Notes de mise à jour 2023 {#rn-2023}
 
-## Améliorations de mai 2023 {#june-2023}
+## Juin 2023 {#june-2023}
+
+* Vous pouvez désormais déléguer les certificats SSL des sous-domaines déjà délégués à Adobe directement à partir de la liste des sous-domaines. [En savoir plus](../subdomains-certificates/using/delegate-ssl.md).
+
+* L’expéditeur des e-mails d’alerte a été remplacé par `"alert@notifications.campaign.adobe.com"`.
+
+## Améliorations de mai 2023 {#may-2023}
 
 **Délégation des certificats SSL des sous-domaines à Adobe**
 
