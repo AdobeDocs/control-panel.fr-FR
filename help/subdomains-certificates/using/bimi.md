@@ -6,9 +6,9 @@ description: Découvrez comment ajouter un enregistrement BIMI pour un sous-doma
 feature: Control Panel
 role: Architect
 level: Experienced
-source-git-commit: 0ad4c1f12eb035c8d543777be2a8806d507be5be
+source-git-commit: dfb6f548c4d53df7eb807d9aa21065449927f945
 workflow-type: tm+mt
-source-wordcount: '483'
+source-wordcount: '508'
 ht-degree: 0%
 
 ---
@@ -45,7 +45,7 @@ Pour ajouter un enregistrement BIMI pour un sous-domaine, procédez comme suit :
 
 1. Dans le **[!UICONTROL URL du logo de l’entreprise]**, spécifiez l’URL du fichier du SVG contenant votre logo.
 
-1. La variable **[!UICONTROL URL du certificat]** est facultatif. Il vous permet d’ajouter une URL de certificat de marque vérifié (VMC) pour attester que votre organisation est le propriétaire légal du logo, afin d’empêcher les spammeurs et autres utilisateurs malveillants d’utiliser des logos de marque qu’ils ne détiennent pas.
+1. Bien **[!UICONTROL URL du certificat]** est facultatif. Il est nécessaire pour certains fournisseurs de messagerie tels que Gmail et Apple, qui couvrent 80 % du marché des boîtes aux lettres. Par conséquent, nous vous recommandons d’obtenir un certificat de marque vérifié (VMC) pour vraiment tirer parti de BIMI.
 
    +++Comment obtenir un VMC ?
 
@@ -56,6 +56,8 @@ Pour ajouter un enregistrement BIMI pour un sous-domaine, procédez comme suit :
    1. Une fois que vous avez vérifié que votre logo est une marque, contactez DigiCert ou l’autorité de certification d’Entrust pour demander un VMC.
 
    1. Une fois votre VMC approuvé, vous recevrez un fichier PEM (Privacy Enhanced Mail) de certificat d’entité. Ajoutez tous les autres certificats intermédiaires que vous obtenez de l’autorité de certification à ce fichier PEM. Téléchargez le fichier PEM (ainsi que les fichiers ajoutés) sur votre serveur web public et notez l’URL du fichier PEM. Vous utiliserez l’URL dans votre enregistrement TXT BIMI.
+
+   1. Une fois que l’enregistrement BIMI est visible dans la page des détails du sous-domaine pour un sous-domaine particulier, vous pouvez utiliser l’Inspecteur BIMI disponible. [here](https://bimigroup.org/bimi-generator/) pour vérifier si l’enregistrement BIMI fonctionne correctement.
 
    Vous trouverez des informations détaillées sur l’implémentation de BIMI dans la section [Documentation BIMI standard](https://bimigroup.org/implementation-guide/)
 +++

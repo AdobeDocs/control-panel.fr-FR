@@ -6,9 +6,9 @@ description: Découvrez comment ajouter un enregistrement DMARC pour un sous-dom
 feature: Control Panel
 role: Architect
 level: Experienced
-source-git-commit: fc026f157346253fc79bde4ce624e7efa3373af2
+source-git-commit: f87a13c8553173e4303c9b95cfea5de05ff49cee
 workflow-type: tm+mt
-source-wordcount: '553'
+source-wordcount: '714'
 ht-degree: 0%
 
 ---
@@ -19,6 +19,8 @@ ht-degree: 0%
 ## À propos des enregistrements DMARC {#about}
 
 DMARC (Domain-based Message Authentication, Reporting and Conformance) est une norme de protocole d’authentification des emails qui aide les entreprises à protéger leurs domaines d’email contre les attaques de phishing et d’usurpation de nom d’utilisateur. Il vous permet de décider comment un fournisseur de messagerie doit gérer les emails qui ne parviennent pas aux contrôles SPF et DKIM, ce qui permet d’authentifier le domaine de l’expéditeur et d’empêcher toute utilisation non autorisée du domaine à des fins malveillantes.
+
+<!--Detailed information on DMARC implementation is available in [Adobe Deliverability Best Practice Guide](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/technotes/implement-bimi.html)-->
 
 ## Limites et conditions préalables {#limitations}
 
@@ -37,11 +39,17 @@ Pour ajouter un enregistrement DMARC pour un sous-domaine, procédez comme suit 
 
 1. Choisissez la **[!UICONTROL Type de stratégie]** que le serveur destinataire doit suivre en cas d&#39;échec de l&#39;un de vos emails. Les types de stratégie disponibles sont les suivants :
 
-   * Aucun,
-   * Quarantaine (emplacement du dossier spam),
-   * Rejeter (bloquer l&#39;email).
+   * **[!UICONTROL Aucun]**,
+   * **[!UICONTROL Quarantaine]** (placement de dossier de spam),
+   * **[!UICONTROL Rejeter]** (bloquer l’email).
 
-   Si votre sous-domaine vient d’être configuré, nous vous recommandons de définir cette valeur sur &quot;Aucun&quot; jusqu’à ce que votre sous-domaine soit entièrement configuré et que vos emails soient envoyés correctement. Une fois que tout est correctement configuré, vous pouvez remplacer le type de stratégie par &quot;Quarantaine&quot; ou &quot;Rejeter&quot;.
+   Il est recommandé de déployer lentement la mise en oeuvre DMARC en réaffectant votre stratégie DMARC de p=none à p=quarantine, puis de p=reject lorsque vous acquérez une compréhension DMARC de l’impact potentiel de DMARC.
+
+   * **Étape 1 :** Analysez les commentaires que vous recevez et utilisez (p=none), qui indique au destinataire d’effectuer aucune action contre les messages qui ne parviennent pas à s’authentifier, tout en envoyant des rapports par e-mail à l’expéditeur. En outre, passez en revue et corrigez les problèmes liés à SPF/DKIM si les messages légitimes échouent à l’authentification.
+
+   * **Étape 2 :** Déterminez si SPF et DKIM sont harmonisés et passent une authentification pour tous les emails légitimes, puis déplacez la stratégie vers (p=quarantine), ce qui indique au serveur de messagerie de réception de mettre en quarantaine les emails qui ne parviennent pas à s’authentifier (cela signifie généralement placer ces messages dans le dossier spam). Si la stratégie est définie pour être mise en quarantaine, il est recommandé de commencer avec un petit pourcentage de vos emails.
+
+   * **Étape 3 :** Ajustez la stratégie à (p=rejets). REMARQUE : Utilisez cette politique avec précaution et déterminez si elle convient à votre entreprise. La stratégie p= rejet indique au destinataire de refuser complètement (rebond) tout courrier électronique pour le domaine qui échoue à l’authentification. Lorsque cette stratégie est activée, seul le courrier électronique vérifié comme authentifié à 100 % par votre domaine aura une chance d’être envoyé en boîte de réception.
 
    >[!NOTE]
    >
@@ -52,9 +60,9 @@ Pour ajouter un enregistrement DMARC pour un sous-domaine, procédez comme suit 
    * Les rapports DMARC d’agrégat fournissent des informations de haut niveau, telles que le nombre d’emails ayant échoué pour une période donnée.
    * Les rapports d’échec DMARC de l’autorité judiciaire fournissent des informations détaillées, telles que l’adresse IP d’où provient l’échec de l’email.
 
-1. Par défaut, la stratégie DMARC sélectionnée est appliquée à tous les emails. Vous pouvez modifier ce paramètre afin de ne l’appliquer qu’à un pourcentage spécifique d’emails.
+1. Si la stratégie DMARC est définie sur &quot;Aucun&quot;, saisissez un pourcentage applicable à 100 % des emails.
 
-   Lorsque vous déployez progressivement DMARC, vous pouvez commencer avec un petit pourcentage de vos messages. À mesure que davantage de messages de votre domaine transmettent l’authentification aux serveurs de réception, mettez à jour votre enregistrement avec un pourcentage plus élevé, jusqu’à ce que vous atteigniez 100 %.
+   Si la stratégie est définie sur &quot;Rejeter&quot; ou &quot;Quarantaine&quot;, il est recommandé de commencer avec un petit pourcentage de vos emails. À mesure que davantage de courriers électroniques de votre domaine transmettent l’authentification aux serveurs de réception, mettez à jour votre enregistrement lentement avec un pourcentage plus élevé.
 
    >[!NOTE]
    >
