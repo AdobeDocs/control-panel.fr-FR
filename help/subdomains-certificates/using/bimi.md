@@ -6,19 +6,21 @@ description: Découvrez comment ajouter un enregistrement BIMI pour un sous-doma
 feature: Control Panel
 role: Architect
 level: Experienced
-source-git-commit: dfb6f548c4d53df7eb807d9aa21065449927f945
+exl-id: eb7863fb-6e6d-4821-a156-03fee03cdd0e
+source-git-commit: 64ea5e26786eea107983ee5025025c81334b0a91
 workflow-type: tm+mt
 source-wordcount: '508'
 ht-degree: 0%
 
 ---
 
-
 # Ajout d’enregistrements BIMI {#dmarc}
 
 ## À propos des enregistrements BIMI {#about}
 
-Les indicateurs de marque pour l’identification des messages (BIMI) sont une norme du secteur qui permet l’affichage d’un logo approuvé en regard de l’adresse électronique de l’expéditeur dans les boîtes de réception des fournisseurs de messagerie afin d’améliorer la reconnaissance et la confiance de la marque. Il permet d&#39;empêcher l&#39;usurpation et le phishing des emails en vérifiant l&#39;identité de l&#39;expéditeur via l&#39;authentification DMARC, rendant plus difficile l&#39;usurpation d&#39;identité des marques légitimes dans les emails de la part d&#39;acteurs malveillants. Des informations détaillées sur la mise en oeuvre de BIMI sont disponibles dans la section [Guide des bonnes pratiques de délivrabilité des Adobes](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/technotes/implement-bimi.html)
+Les indicateurs de marque pour l’identification des messages (BIMI) sont une norme du secteur qui permet l’affichage d’un logo approuvé en regard de l’adresse électronique de l’expéditeur dans les boîtes de réception des fournisseurs de messagerie afin d’améliorer la reconnaissance et la confiance de la marque. Il permet d&#39;empêcher l&#39;usurpation et le phishing des emails en vérifiant l&#39;identité de l&#39;expéditeur via l&#39;authentification DMARC, rendant plus difficile l&#39;usurpation d&#39;identité des marques légitimes dans les emails de la part d&#39;acteurs malveillants.
+
+Des informations détaillées sur la mise en oeuvre de BIMI sont disponibles dans la section [Guide des bonnes pratiques de délivrabilité des Adobes](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/technotes/implement-bimi.html)
 
 ![](assets/bimi-example.png){width="70%" align="center"}
 
