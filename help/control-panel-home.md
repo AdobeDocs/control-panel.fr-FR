@@ -6,9 +6,9 @@ role: Architect
 level: Beginner
 exl-id: 2b2cfaed-e42e-4c3a-a8d8-224b936890ab
 source-git-commit: fc026f157346253fc79bde4ce624e7efa3373af2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '240'
-ht-degree: 70%
+ht-degree: 100%
 
 ---
 
@@ -26,14 +26,14 @@ Le Panneau de contrôle de Campaign accroît votre efficacité en tant quʼadmin
 
 ## Nouveautés
 
-**Gestion des enregistrements DMARC &amp; BIMI**
+**Gestion des enregistrements DMARC et BIMI**
 
-Vous pouvez maintenant ajouter des enregistrements DMARC &amp; BIMI directement depuis le Panneau de Contrôle :
+Vous pouvez maintenant ajouter des enregistrements DMARC et BIMI directement depuis le panneau de contrôle :
 
-* **Enregistrements DMARC** fournir un moyen d’authentifier le domaine de l’expéditeur et d’empêcher l’utilisation non autorisée du domaine à des fins malveillantes. [Découvrez comment ajouter des enregistrements DMARC](subdomains-certificates/using/dmarc.md)
+* Les **enregistrements DMARC** offrent un moyen d’authentifier le domaine de la personne expéditrice et d’empêcher l’utilisation non autorisée du domaine à des fins malveillantes. [Découvrez comment ajouter des enregistrements DMARC.](subdomains-certificates/using/dmarc.md)
 
 
-* **Enregistrements BIMI** vous permettent d’afficher un logo approuvé en regard de vos emails dans les boîtes de réception des fournisseurs de messagerie afin d’améliorer la reconnaissance et la confiance de la marque. [Découvrez comment ajouter des enregistrements BIMI](subdomains-certificates/using/bimi.md)
+* Les **enregistrements BIMI** vous permettent d’afficher un logo approuvé en regard de vos e-mails dans les boîtes de réception des fournisseurs de messagerie afin d’améliorer la reconnaissance de la marque et la confiance en elle. [Découvrez comment ajouter des enregistrements BIMI.](subdomains-certificates/using/bimi.md)
 
 >[!CAUTION]
 >
