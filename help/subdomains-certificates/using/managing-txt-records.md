@@ -1,32 +1,32 @@
 ---
 product: campaign
 solution: Campaign
-title: Ajout d’enregistrements de vérification de site Google pour un sous-domaine
-description: Découvrez comment ajouter un enregistrement de vérification de site Google pour un sous-domaine pour la vérification de la propriété du domaine.
+title: Ajouter des enregistrements de vérification de site Google pour un sous-domaine
+description: Découvrez comment ajouter un enregistrement de vérification de site Google pour un sous-domaine afin de vérifier la propriété du domaine.
 feature: Control Panel
 role: Architect
 level: Experienced
 exl-id: 547ca6f2-720f-4d58-b31b-5b2611ba9156
 source-git-commit: 355abf48cce3036d1c3e0f6c5fe3ca8fb63cf645
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '300'
-ht-degree: 76%
+ht-degree: 100%
 
 ---
 
-# Ajout d’enregistrements de vérification de site Google {#adding-a-google-txt-record}
+# Ajouter des enregistrements de vérification de site Google {#adding-a-google-txt-record}
 
 Pour garantir des taux de réception d’emails élevés et des taux de spam bas, certains services comme Google exigent que vous ajoutiez un enregistrement TXT aux paramètres de votre domaine pour vérifier que vous en êtes propriétaire.
 
-Actuellement, Gmail est l’un des fournisseurs d’adresses email les plus utilisés. Pour garantir une bonne délivrabilité et une diffusion réussie des emails vers les adresses Gmail, Adobe Campaign permet d’ajouter des enregistrements TXT de vérification de site Google spéciaux à vos sous-domaines afin de s’assurer qu&#39;ils soient vérifiés.
+Actuellement, Gmail est l’un des fournisseurs d’adresses e-mail les plus utilisés. Pour garantir une bonne délivrabilité et une diffusion réussie des emails vers les adresses Gmail, Adobe Campaign permet d’ajouter des enregistrements TXT de vérification de site Google spéciaux à vos sous-domaines afin de s’assurer qu&#39;ils soient vérifiés.
 
-Pour ajouter un enregistrement TXT Google à un sous-domaine utilisé pour envoyer des emails à des adresses Gmail, procédez comme suit :
+Pour ajouter un enregistrement TXT Google à un sous-domaine utilisé pour envoyer des e-mails à des adresses Gmail, procédez comme suit :
 
 1. Dans la liste des sous-domaines, cliquez sur le bouton représentant des points de suspension en regard du sous-domaine souhaité, puis sélectionnez **[!UICONTROL Détails du sous-domaine]**.
 
-1. Cliquez sur le bouton **[!UICONTROL Ajout d’un enregistrement TXT]** , puis choisissez **[!UICONTROL Vérification du site Google]** de la **[!UICONTROL Type d’enregistrement]** liste déroulante.
+1. Cliquez sur le bouton **[!UICONTROL Ajouter un enregistrement TXT]**, puis choisissez **[!UICONTROL Vérification de site Google]** dans la liste déroulante **[!UICONTROL Type d’enregistrement]**.
 
-1. Saisissez la valeur générée dans les outils G Suite Admin. Pour plus d’informations, consultez [l’aide de G Suite Admin](https://support.google.com/a/answer/183895).
+1. Saisissez la valeur générée dans les outils G Suite Admin. Pour plus d’informations, consultez [l’aide de G Suite Admin](https://support.google.com/a/answer/183895).
 
    ![](assets/txt_addtxt.png)
 
