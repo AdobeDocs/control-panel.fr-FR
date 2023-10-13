@@ -7,8 +7,8 @@ feature: Control Panel
 role: Architect
 level: Beginner
 exl-id: cb6cc63b-d6cc-4c8b-870f-e108d05aa740
-source-git-commit: c1c80c03a351613ec0c6870a11ab39a634e8eab7
-workflow-type: tm+mt
+source-git-commit: f41b5ac04c3bb82599337a0dc2679c6ea406923e
+workflow-type: ht
 source-wordcount: '295'
 ht-degree: 100%
 
@@ -50,12 +50,12 @@ Principaux avantages :
     <td>
         <a href="../../instances-settings/using/ip-allow-listing-instance-access.md"><img alt="conditions" src="assets/do-not-localize/instance_settings.png"/></a>
         <div><a href="../../instances-settings/using/ip-allow-listing-instance-access.md"><strong>Gestion des paramètres des instances</strong></a></div>
-        <br/><em>Découvrez comment gérer les paramètres des instances (Campaign v7/v8 uniquement).</em>
+        <em>Découvrez comment gérer les paramètres des instances (Campaign v7/v8 uniquement).</em>
     </td>
     <td>
         <a href="../../performance-monitoring/using/about-performance-monitoring.md"><img alt="conditions" src="assets/do-not-localize/monitoring-performance.png"/></a>
         <div><a href="../../performance-monitoring/using/about-performance-monitoring.md"><strong>Surveillance des performances</strong></a></div>
-        <br/><em>Découvrez comment surveiller l’utilisation des ressources clés sur vos instances.</em>
+        <em>Découvrez comment surveiller l’utilisation des ressources clés sur vos instances.</em>
     </td>
 </tr>
 </table>
