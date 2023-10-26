@@ -2,10 +2,10 @@
 title: Dernière version
 description: Cette page répertorie toutes les nouvelles fonctionnalités et améliorations apportées au Panneau de contrôle.
 exl-id: 13aceffb-ceaa-4cfe-8741-95d66c5c6caa
-source-git-commit: 2a1119022af2ced06052cf48b50d6ff7be2d1faa
-workflow-type: ht
-source-wordcount: '98'
-ht-degree: 100%
+source-git-commit: a8e2fb9789e9755aa6b9c55019816d7e748606ec
+workflow-type: tm+mt
+source-wordcount: '148'
+ht-degree: 26%
 
 ---
 
@@ -13,22 +13,21 @@ ht-degree: 100%
 
 Cette page répertorie les nouvelles fonctionnalités et améliorations apportées au Panneau de contrôle.
 
-## Septembre 2023 {#september-2023}
+## Octobre 2023 {#october-2023}
 
-<table>
-<thead>
-<tr>
-<th><strong>Gestion des enregistrements DMARC et BIMI</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p><p>Vous pouvez maintenant ajouter des enregistrements DMARC et BIMI directement depuis le panneau de contrôle :
+**Interface utilisateur**
 
-<ul><li>Les <strong>enregistrements DMARC</strong> offrent un moyen d’authentifier le domaine de la personne expéditrice et d’empêcher l’utilisation non autorisée du domaine à des fins malveillantes. <a href="../subdomains-certificates/using/dmarc.md">Découvrez comment ajouter des enregistrements DMARC.</a></li>
-<li>Les <strong>enregistrements BIMI</strong> vous permettent d’afficher un logo approuvé en regard de vos e-mails dans les boîtes de réception des fournisseurs de messagerie afin d’améliorer la reconnaissance de la marque et la confiance en elle. <a href="../subdomains-certificates/using/bimi.md">Découvrez comment ajouter des enregistrements BIMI.</a></li></ul>
-</td>
-</tr>
-</tbody>
-</table>
+* Panneau de Contrôle est désormais disponible dans d’autres langues. [En savoir plus](../discover/using/discovering-the-interface.md#supported-languages-languages)
+
+**Surveillance des profils actifs**
+
+* Vous pouvez désormais surveiller le nombre de profils actifs auxquels vous avez droit pour votre organisation et le nombre total de profils utilisés dans votre organisation dans toutes les instances, si vous utilisez plusieurs instances. [En savoir plus](../performance-monitoring/using/active-profiles-monitoring.md)
+
+**Enregistrements DMARC**
+
+* Plusieurs adresses électroniques peuvent désormais recevoir des emails de rapport agrégé et de rapport d’échec. [En savoir plus](../subdomains-certificates/using/dmarc.md)
+* Des modifications ont été apportées si des enregistrements DMARC et BIMI existent pour un sous-domaine :
+
+   * Les enregistrements DMARC ne peuvent pas être supprimés. Si vous souhaitez en supprimer un, vous devez d’abord supprimer l’enregistrement BIMI.
+   * Les enregistrements DMARC peuvent être modifiés, mais la mise à niveau de la stratégie vers &quot;Aucun&quot; n’est pas autorisée et sa valeur en pourcentage doit être de 100.
+
