@@ -7,7 +7,7 @@ feature: Control Panel
 role: Architect
 level: Experienced
 exl-id: a157cc27-577f-490f-8c4f-0f203219cfb5
-source-git-commit: ebebff05669160b97de7e0d58d898ba0e3a30df1
+source-git-commit: cb18dbcbb3a575d88d3c13fe3f22a657caea1e7e
 workflow-type: tm+mt
 source-wordcount: '439'
 ht-degree: 51%
@@ -56,7 +56,11 @@ La section supérieure affiche les informations suivantes :
 
 * Le nombre de profils actifs actuellement utilisés dans l’instance sélectionnée, ainsi que l’horodatage de la dernière exécution du workflow de facturation pour votre instance.
 
-* Comptage total des profils actifs utilisés dans l’ensemble de votre organisation dans toutes les instances. Cette section n’est visible que si plusieurs instances sont associées à votre organisation.
+* Comptage total des profils actifs utilisés dans l’ensemble de votre organisation dans toutes les instances.
+
+  >[!NOTE]
+  >
+  >Cette section n’est visible que si plusieurs instances sont associées à votre organisation.
 
 * Comptage total des profils actifs affectés à votre organisation.
 
