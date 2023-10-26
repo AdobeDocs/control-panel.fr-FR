@@ -2,14 +2,34 @@
 title: Notes de mise à jour 2023
 description: Cette page répertorie toutes les versions 2023 du panneau de contrôle.
 exl-id: 9a83e32a-4c11-4784-a6fe-341ce9ebc7a7
-source-git-commit: 2a1119022af2ced06052cf48b50d6ff7be2d1faa
+source-git-commit: a8e2fb9789e9755aa6b9c55019816d7e748606ec
 workflow-type: ht
-source-wordcount: '270'
+source-wordcount: '341'
 ht-degree: 100%
 
 ---
 
 # Notes de mise à jour 2023 {#rn-2023}
+
+## Septembre 2023 {#september-2023}
+
+<table>
+<thead>
+<tr>
+<th><strong>Gestion des enregistrements DMARC et BIMI</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p><p>Vous pouvez maintenant ajouter des enregistrements DMARC et BIMI directement depuis le panneau de contrôle :
+
+<ul><li>Les <strong>enregistrements DMARC</strong> offrent un moyen d’authentifier le domaine de la personne expéditrice et d’empêcher l’utilisation non autorisée du domaine à des fins malveillantes. <a href="../subdomains-certificates/using/dmarc.md">Découvrez comment ajouter des enregistrements DMARC.</a></li>
+<li>Les <strong>enregistrements BIMI</strong> vous permettent d’afficher un logo approuvé en regard de vos e-mails dans les boîtes de réception des fournisseurs de messagerie afin d’améliorer la reconnaissance de la marque et la confiance en elle. <a href="../subdomains-certificates/using/bimi.md">Découvrez comment ajouter des enregistrements BIMI.</a></li></ul>
+</td>
+</tr>
+</tbody>
+</table>
 
 ## Juin 2023 {#june-2023}
 
