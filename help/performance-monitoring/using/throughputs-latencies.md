@@ -3,11 +3,11 @@ product: campaign
 solution: Campaign
 title: Surveillance des débits et de la latence
 description: Découvrez comment surveiller les débits et la latence de vos instances Campaign dans le panneau de contrôle.
-feature: Control Panel
+feature: Control Panel, Monitoring
 role: Admin
 level: Experienced
 exl-id: eddef17f-0667-4b43-bc56-2b1aeeae61bb
-source-git-commit: e8bffd8e7f571fd85c725adf837c2997f7615fcd
+source-git-commit: a3485766791387bd9422b4f29daf86296efafb98
 workflow-type: tm+mt
 source-wordcount: '436'
 ht-degree: 100%

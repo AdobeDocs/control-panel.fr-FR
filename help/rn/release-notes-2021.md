@@ -1,8 +1,11 @@
 ---
 title: Notes de mise à jour 2021
 description: Cette page répertorie toutes les versions 2021 du panneau de contrôle.
+feature: Control Panel, Release Notes
+role: Admin
+level: Experienced
 exl-id: ee974059-9ede-4c8e-9e77-d0e67bb4e849
-source-git-commit: 9be5a3ae48dccf74f509aa95fee29bbfdafddcdf
+source-git-commit: a3485766791387bd9422b4f29daf86296efafb98
 workflow-type: tm+mt
 source-wordcount: '185'
 ht-degree: 100%

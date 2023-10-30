@@ -3,11 +3,11 @@ product: campaign
 solution: Campaign
 title: Identifier les contacts principaux et les événements
 description: Découvrez comment identifier les événements se produisant sur vos instances et les contacts principaux chez Adobe.
-feature: Control Panel
+feature: Control Panel, Monitoring
 role: Admin
 level: Intermediate
 exl-id: d230aae6-4f0e-4201-bb3c-0e3f83a7c1b8
-source-git-commit: e8bffd8e7f571fd85c725adf837c2997f7615fcd
+source-git-commit: a3485766791387bd9422b4f29daf86296efafb98
 workflow-type: tm+mt
 source-wordcount: '780'
 ht-degree: 100%

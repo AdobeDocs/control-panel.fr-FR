@@ -3,11 +3,11 @@ product: campaign
 solution: Campaign
 title: Vue d’ensemble de l’espace de stockage
 description: Découvrez comment surveiller, dans le panneau de contrôle, les différentes ressources Campaign qui occupent de l’espace de base de données sur vos instances.
-feature: Control Panel
+feature: Control Panel, Monitoring
 role: Admin
 level: Experienced
 exl-id: bb9e1ce3-2472-4bc1-a82a-a301c6bf830e
-source-git-commit: e8bffd8e7f571fd85c725adf837c2997f7615fcd
+source-git-commit: a3485766791387bd9422b4f29daf86296efafb98
 workflow-type: tm+mt
 source-wordcount: '175'
 ht-degree: 100%

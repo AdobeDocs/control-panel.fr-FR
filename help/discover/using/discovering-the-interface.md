@@ -3,11 +3,11 @@ product: campaign
 solution: Campaign
 title: Découverte de l’interface du Panneau de contrôle
 description: En savoir plus sur l’interface du Panneau de contrôle
-feature: Control Panel
+feature: Control Panel, Overview
 role: Admin
 level: Intermediate
 exl-id: 20302017-d4b1-489b-a6b4-f086e5bad4d5
-source-git-commit: e8bffd8e7f571fd85c725adf837c2997f7615fcd
+source-git-commit: a3485766791387bd9422b4f29daf86296efafb98
 workflow-type: tm+mt
 source-wordcount: '226'
 ht-degree: 64%

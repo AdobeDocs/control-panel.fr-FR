@@ -3,11 +3,11 @@ product: campaign
 solution: Campaign
 title: Ajouter des enregistrements DMARC
 description: Découvrez comment ajouter un enregistrement DMARC pour un sous-domaine.
-feature: Control Panel
+feature: Control Panel, Subdomains and Certificates
 role: Admin
 level: Experienced
 exl-id: 2ca66983-5beb-495a-9639-a31905500cff
-source-git-commit: e8bffd8e7f571fd85c725adf837c2997f7615fcd
+source-git-commit: a3485766791387bd9422b4f29daf86296efafb98
 workflow-type: tm+mt
 source-wordcount: '795'
 ht-degree: 92%

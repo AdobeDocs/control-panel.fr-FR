@@ -3,11 +3,11 @@ product: campaign
 solution: Campaign
 title: Autorisations d’URL
 description: Découvrez comment gérer les autorisations d’URL dans le Panneau de contrôle
-feature: Control Panel
+feature: Control Panel, Access Management
 role: Admin
 level: Intermediate
 exl-id: a7df90da-a2ce-409f-9bc3-c7d4fa3024c8
-source-git-commit: e8bffd8e7f571fd85c725adf837c2997f7615fcd
+source-git-commit: a3485766791387bd9422b4f29daf86296efafb98
 workflow-type: tm+mt
 source-wordcount: '612'
 ht-degree: 100%

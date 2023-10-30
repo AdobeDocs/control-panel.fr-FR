@@ -3,11 +3,11 @@ product: campaign
 solution: Campaign
 title: Alertes par email
 description: Découvrez comment recevoir des notifications par email en cas de problèmes liés à vos instances Campaign
-feature: Control Panel
+feature: Control Panel, Monitoring
 role: Admin
 level: Experienced
 exl-id: 7942d2b1-d28f-4760-aa25-5ba94a627fd0
-source-git-commit: e8bffd8e7f571fd85c725adf837c2997f7615fcd
+source-git-commit: a3485766791387bd9422b4f29daf86296efafb98
 workflow-type: tm+mt
 source-wordcount: '285'
 ht-degree: 100%

@@ -3,11 +3,11 @@ product: campaign
 solution: Campaign
 title: Ajouter des enregistrements BIMI
 description: Découvrez comment ajouter un enregistrement BIMI pour un sous-domaine.
-feature: Control Panel
+feature: Control Panel, Subdomains and Certificates
 role: Admin
 level: Experienced
 exl-id: eb7863fb-6e6d-4821-a156-03fee03cdd0e
-source-git-commit: e8bffd8e7f571fd85c725adf837c2997f7615fcd
+source-git-commit: a3485766791387bd9422b4f29daf86296efafb98
 workflow-type: tm+mt
 source-wordcount: '508'
 ht-degree: 100%
