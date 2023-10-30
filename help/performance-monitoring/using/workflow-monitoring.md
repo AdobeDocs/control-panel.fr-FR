@@ -2,10 +2,10 @@
 title: Surveillance des workflows
 description: Découvrez comment surveiller les paramètres de workflows spécifiques qui peuvent nécessiter une attention particulière pour éviter tout problème sur vos instances.
 feature: Control Panel
-role: Architect
+role: Admin
 level: Experienced
 exl-id: 8016f800-430a-413d-a77b-b7f18f5ab733
-source-git-commit: 485069285709a7cc5c074f8813b322328e2840c0
+source-git-commit: e8bffd8e7f571fd85c725adf837c2997f7615fcd
 workflow-type: tm+mt
 source-wordcount: '320'
 ht-degree: 100%

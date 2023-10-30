@@ -4,10 +4,10 @@ solution: Campaign
 title: Surveiller vos sous-domaines
 description: Surveillez vos sous-domaines pour vous assurer qu’ils sont tous correctement configurés pour fonctionner avec Adobe Campaign.
 feature: Control Panel
-role: Architect
+role: Admin
 level: Experienced
 exl-id: edd55d07-bf0b-44b0-8281-be69c698d5e8
-source-git-commit: acf0334e894649d6b5edf0b96877c3f643894763
+source-git-commit: e8bffd8e7f571fd85c725adf837c2997f7615fcd
 workflow-type: tm+mt
 source-wordcount: '154'
 ht-degree: 100%

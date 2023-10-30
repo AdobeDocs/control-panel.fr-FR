@@ -4,10 +4,10 @@ solution: Campaign
 title: Renouvellement du certificat SSL d’un sous-domaine
 description: Découvrez comment renouveler les certificats SSL de vos sous-domaines
 feature: Control Panel
-role: Architect
+role: Admin
 level: Experienced
 exl-id: e9b7c67d-6afa-44f9-b19d-39c0ec9a7edd
-source-git-commit: 01da21a883804b9c79c7ee4056d984f3df6cb96c
+source-git-commit: e8bffd8e7f571fd85c725adf837c2997f7615fcd
 workflow-type: tm+mt
 source-wordcount: '1027'
 ht-degree: 100%

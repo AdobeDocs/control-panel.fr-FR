@@ -4,10 +4,10 @@ solution: Campaign
 title: Utilisation de la base de données
 description: Découvrez comment surveiller lʼutilisation de votre base de données Campaign dans le panneau de contrôle.
 feature: Control Panel
-role: Architect
+role: Admin
 level: Experienced
 exl-id: 5ecb4f0b-7f77-4856-9704-e1f317f3239d
-source-git-commit: 7078ff03bf2e4d156a71de4d900cbfcbd2ded312
+source-git-commit: e8bffd8e7f571fd85c725adf837c2997f7615fcd
 workflow-type: tm+mt
 source-wordcount: '116'
 ht-degree: 100%

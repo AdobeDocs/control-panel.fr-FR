@@ -4,10 +4,10 @@ solution: Campaign
 title: Gestion des clés GPG
 description: Découvrez comment gérer les clés GPG pour chiffrer et déchiffrer les données dans Adobe Campaign.
 feature: Control Panel
-role: Architect
+role: Admin
 level: Experienced
 exl-id: 366dd2ea-c6be-41a2-a4d6-4ffecb5f3d39
-source-git-commit: e6b518e8a935b523972302c8efa92a889d36735f
+source-git-commit: e8bffd8e7f571fd85c725adf837c2997f7615fcd
 workflow-type: tm+mt
 source-wordcount: '1232'
 ht-degree: 100%

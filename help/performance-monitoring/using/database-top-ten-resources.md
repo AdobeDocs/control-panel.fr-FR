@@ -4,10 +4,10 @@ solution: Campaign
 title: Top 10 des ressources temporaires
 description: Découvrez comment surveiller, dans le panneau de contrôle, les 10 ressources temporaires les plus importantes générées par les workflows et les diffusions de votre base de données Campaign.
 feature: Control Panel
-role: Architect
+role: Admin
 level: Experienced
 exl-id: 2fa2ffbb-102b-42c4-8feb-b0263ee9c930
-source-git-commit: b17abddf6bad7e58cb7bd825cd97322427a0b21f
+source-git-commit: e8bffd8e7f571fd85c725adf837c2997f7615fcd
 workflow-type: tm+mt
 source-wordcount: '182'
 ht-degree: 100%

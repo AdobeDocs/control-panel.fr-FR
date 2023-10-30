@@ -4,10 +4,10 @@ solution: Campaign
 title: Ajouter des instances MID/RT (modèle hybride)
 description: Découvrez comment ajouter des instances MID/RT au panneau de contrôle avec le modèle d’hébergement hybride.
 feature: Control Panel
-role: Architect
+role: Admin
 level: Intermediate
 exl-id: ff64acbe-d8cb-499b-b20f-b0934fb0f695
-source-git-commit: 96d18b56f70a6a8bf0270a5c94f5ba16923d0e9f
+source-git-commit: e8bffd8e7f571fd85c725adf837c2997f7615fcd
 workflow-type: tm+mt
 source-wordcount: '581'
 ht-degree: 100%

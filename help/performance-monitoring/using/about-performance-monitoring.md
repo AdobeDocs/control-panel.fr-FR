@@ -4,10 +4,10 @@ solution: Campaign
 title: À propos de la surveillance des performances
 description: Découvrez comment surveiller les performances de vos instances dans le Panneau de contrôle
 feature: Control Panel
-role: Architect
+role: Admin
 level: Experienced
 exl-id: 80a5dc43-205e-4764-805a-85d2faabc20a
-source-git-commit: 6430a1719528e6b4d8c219eb5a88b6ace93b209d
+source-git-commit: e8bffd8e7f571fd85c725adf837c2997f7615fcd
 workflow-type: tm+mt
 source-wordcount: '81'
 ht-degree: 100%

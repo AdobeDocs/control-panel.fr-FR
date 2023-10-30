@@ -4,10 +4,10 @@ solution: Campaign
 title: Détails de l’instance
 description: Découvrez comment surveiller les détails de votre instance dans le Panneau de contrôle
 feature: Control Panel
-role: Architect
+role: Admin
 level: Experienced
 exl-id: 02819bfc-9886-43fc-8014-9bfe64c42048
-source-git-commit: 78ac04811f0110fa8f90d4ec51bc33a0ac97c4eb
+source-git-commit: e8bffd8e7f571fd85c725adf837c2997f7615fcd
 workflow-type: tm+mt
 source-wordcount: '536'
 ht-degree: 100%
