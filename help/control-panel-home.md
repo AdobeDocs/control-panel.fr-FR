@@ -8,7 +8,7 @@ exl-id: 2b2cfaed-e42e-4c3a-a8d8-224b936890ab
 source-git-commit: e8bffd8e7f571fd85c725adf837c2997f7615fcd
 workflow-type: tm+mt
 source-wordcount: '290'
-ht-degree: 62%
+ht-degree: 100%
 
 ---
 
@@ -26,19 +26,19 @@ Le Panneau de contrôle de Campaign accroît votre efficacité en tant quʼadmin
 
 **Interface utilisateur**
 
-* Panneau de Contrôle est désormais disponible dans d’autres langues. [En savoir plus](discover/using/discovering-the-interface.md#supported-languages-languages)
+* Le panneau de contrôle est désormais disponible dans d’autres langues. [En savoir plus](discover/using/discovering-the-interface.md#supported-languages-languages)
 
 **Surveillance des profils actifs**
 
-* Vous pouvez désormais surveiller le nombre de profils actifs auxquels vous avez droit pour votre organisation et le nombre total de profils utilisés dans votre organisation dans toutes les instances, si vous utilisez plusieurs instances. [En savoir plus](performance-monitoring/using/active-profiles-monitoring.md)
+* Vous pouvez désormais surveiller le nombre de profils actifs auxquels vous avez droit et le nombre total de profils utilisés dans votre organisation dans toutes les instances, si vous utilisez plusieurs instances. [En savoir plus](performance-monitoring/using/active-profiles-monitoring.md)
 
 **Enregistrements DMARC**
 
-* Plusieurs adresses électroniques peuvent désormais recevoir des emails de rapport agrégé et de rapport d’échec. [En savoir plus](subdomains-certificates/using/dmarc.md)
-* Des modifications ont été apportées si des enregistrements DMARC et BIMI existent pour un sous-domaine :
+* Plusieurs adresses e-mail peuvent désormais recevoir des e-mails de rapport agrégé et de rapport d’échec. [En savoir plus](subdomains-certificates/using/dmarc.md)
+* Des modifications ont été apportées si des enregistrements DMARC et BIMI existent pour un sous-domaine :
 
    * Les enregistrements DMARC ne peuvent pas être supprimés. Si vous souhaitez en supprimer un, vous devez d’abord supprimer l’enregistrement BIMI.
-   * Les enregistrements DMARC peuvent être modifiés, mais la mise à niveau de la stratégie vers &quot;Aucun&quot; n’est pas autorisée et sa valeur en pourcentage doit être de 100.
+   * Les enregistrements DMARC peuvent être modifiés, mais la rétrogradation de la règle vers « Aucun » n’est pas autorisée et sa valeur en pourcentage doit être de 100.
 
 >[!CAUTION]
 >

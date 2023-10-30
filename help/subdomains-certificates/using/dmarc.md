@@ -10,7 +10,7 @@ exl-id: 2ca66983-5beb-495a-9639-a31905500cff
 source-git-commit: a3485766791387bd9422b4f29daf86296efafb98
 workflow-type: tm+mt
 source-wordcount: '795'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -26,9 +26,9 @@ Des informations détaillées sur la mise en œuvre de DMARC sont disponibles da
 
 * Les enregistrements SPF et DKIM sont indispensables pour la création d’un enregistrement DMARC.
 * Les enregistrements DMARC ne peuvent être ajoutés que pour les sous-domaines à l’aide de la délégation complète de sous-domaine. [En savoir plus sur les méthodes de configuration des sous-domaines.](subdomains-branding.md#subdomain-delegation-methods)
-* S’il existe des enregistrements DMARC et BIMI pour un sous-domaine :
+* S’il existe des enregistrements DMARC et BIMI pour un sous-domaine :
    * Les enregistrements DMARC ne peuvent pas être supprimés. Si vous souhaitez supprimer un enregistrement DMARC, supprimez d’abord l’enregistrement BIMI.
-   * Les enregistrements DMARC peuvent être modifiés, mais la mise à niveau de la stratégie DMARC sur &quot;Aucun&quot; n’est pas autorisée et la valeur de pourcentage doit être définie sur &quot;100&quot;.
+   * Les enregistrements DMARC peuvent être modifiés, mais la rétrogradation de la politique DMARC sur « Aucun » n’est pas autorisée et la valeur de pourcentage doit être définie sur « 100 ».
 
 ## Ajouter un enregistrement DMARC pour un sous-domaine {#add}
 
@@ -58,7 +58,7 @@ Pour ajouter un enregistrement DMARC pour un sous-domaine, procédez comme suit�
    >
    > La création d’enregistrement BIMI n’est pas possible avec un type de politique d’enregistrement DMARC défini sur « Aucun ».
 
-1. Renseignez les adresses e-mail qui doivent recevoir les rapports DMARC. Vous pouvez ajouter plusieurs adresses électroniques, séparées par des virgules. Lorsque l’un de vos e-mails échoue, les rapports DMARC sont automatiquement envoyés à l’adresse e-mail de votre choix :
+1. Renseignez les adresses e-mail qui doivent recevoir les rapports DMARC. Vous pouvez ajouter plusieurs adresses e-mail séparées par des virgules. Lorsque l’un de vos e-mails échoue, les rapports DMARC sont automatiquement envoyés à l’adresse e-mail de votre choix :
 
    * Les rapports Aggregate-DMARC fournissent des informations de haut niveau comme, par exemple, le nombre d’e-mails qui ont échoué sur une période donnée.
    * Les rapports d’échec Forensic DMARC fournissent des informations détaillées comme, par exemple, l’adresse IP d’où provient l’e-mail ayant échoué.
