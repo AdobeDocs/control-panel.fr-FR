@@ -7,9 +7,9 @@ feature: Control Panel
 role: Admin
 level: Experienced
 source-git-commit: a892d5ff82fd0160faca2dbe76d3cd1b71073cff
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '184'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -31,7 +31,7 @@ ht-degree: 98%
    + [Gérer les autorisations pour le panneau de contrôle](discover/using/managing-permissions.md)
    + [Découvrir l’interface du panneau de contrôle](discover/using/discovering-the-interface.md)
    + [Questions fréquentes](faq.md)
-+ Événements et alertes par email {#alerts-events}
++ Alertes événements et e-mail {#alerts-events}
    + [Surveiller les contacts et les événements principaux](service-events/service-events.md)
    + [Alertes par e-mail](performance-monitoring/using/email-alerting.md)
 + Gestion SFTP {#sftp-management}
