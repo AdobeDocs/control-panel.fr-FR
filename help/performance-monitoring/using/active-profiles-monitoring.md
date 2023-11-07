@@ -7,10 +7,10 @@ feature: Control Panel, Monitoring
 role: Admin
 level: Experienced
 exl-id: a157cc27-577f-490f-8c4f-0f203219cfb5
-source-git-commit: a3485766791387bd9422b4f29daf86296efafb98
-workflow-type: ht
-source-wordcount: '439'
-ht-degree: 100%
+source-git-commit: 9d0686cd3bb0a037ae66b1a090c3f77d215ff61c
+workflow-type: tm+mt
+source-wordcount: '438'
+ht-degree: 91%
 
 ---
 
@@ -41,11 +41,6 @@ Pour en savoir plus sur les profils actifs, consultez la documentation de [Campa
 >title="À propos de la surveillance des profils actifs"
 >abstract="Dans cet onglet, retrouvez des informations en temps réel sur lʼutilisation et lʼévolution des profils actifs les plus récents et historiques pour chacune de vos instances Campaign et votre organisation."
 
-Les informations relatives à l’utilisation des profils actifs sont mises à jour dans le panneau de contrôle en fonction des workflows techniques [!DNL Campaign] dédiés qui s’exécutent tous les jours sur vos instances :
-* workflow [« Facturation »](https://experienceleague.adobe.com/docs/campaign-standard/using/administrating/application-settings/technical-workflows.html?lang=fr) pour Campaign Standard ;
-* Workflow [« Nombre de profils de facturation actifs »](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/advanced-management/about-technical-workflows.html?lang=fr#automating-with-workflows) pour Campaign v7/v8.
-
-
 Pour surveiller l’utilisation de vos profil actifs dans le panneau de contrôle, accédez à la carte **[!UICONTROL Surveillance des performances]** > **[!UICONTROL Profils actifs]** et sélectionnez l’instance de votre choix dans la **[!UICONTROL Liste des instances]**.
 
 Des informations s’affichent concernant votre utilisation des profils actifs.
@@ -65,3 +60,10 @@ La section supérieure affiche les informations suivantes :
 * Le nombre total de profils actifs affectés à votre organisation.
 
 La section inférieure fournit une représentation visuelle de l’utilisation des profils actifs au cours des 30 derniers jours. Vous pouvez définir cette période sur 1 an à l’aide du filtre situé dans le coin supérieur droit. Pointez sur le graphique pour obtenir le nombre exact de profils actifs utilisés au cours de la période sélectionnée.
+
+Les informations relatives à l’utilisation des profils actifs sont mises à jour en Panneau de Contrôle en fonction des [!DNL Campaign] Workflows techniques de &quot;facturation&quot; qui s’exécutent à intervalle régulier sur vos instances.
+
+| Version de Campaign | Workflow technique | Exécutions |
+|  ---  |  ---  |  ---  |
+| Campaign Standard | [Facturation](https://experienceleague.adobe.com/docs/campaign-standard/using/administrating/application-settings/technical-workflows.html?lang=fr) | Quotidien |
+| Campaign v7/v8 | [Facturation](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflowsadvanced-management/about-technical-workflows.html) | Mensuel |
