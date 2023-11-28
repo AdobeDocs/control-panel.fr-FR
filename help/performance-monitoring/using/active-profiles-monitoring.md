@@ -7,10 +7,10 @@ feature: Control Panel, Monitoring
 role: Admin
 level: Experienced
 exl-id: a157cc27-577f-490f-8c4f-0f203219cfb5
-source-git-commit: 9d0686cd3bb0a037ae66b1a090c3f77d215ff61c
+source-git-commit: a9b150a4f24447d22d5c1ecff5d456ca39cb65e2
 workflow-type: tm+mt
-source-wordcount: '438'
-ht-degree: 91%
+source-wordcount: '442'
+ht-degree: 88%
 
 ---
 
@@ -30,7 +30,7 @@ Les profils sont considérés comme actifs s’ils ont été ciblés ou ont fait
 
 >[!NOTE]
 >
->Les canaux Facebook et Twitter ne sont pas pris en compte.
+>Les canaux facebook et X (anciennement appelés Twitter) ne sont pas pris en compte.
 
 Pour en savoir plus sur les profils actifs, consultez la documentation de [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard/using/profiles-and-audiences/managing-profiles/active-profiles.html?lang=fr) et de [Campaign v7/v8](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/profile-management/about-profiles.html?lang=fr#active-profiles).
 
