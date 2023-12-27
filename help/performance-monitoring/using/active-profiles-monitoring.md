@@ -8,9 +8,9 @@ role: Admin
 level: Experienced
 exl-id: a157cc27-577f-490f-8c4f-0f203219cfb5
 source-git-commit: a9b150a4f24447d22d5c1ecff5d456ca39cb65e2
-workflow-type: tm+mt
-source-wordcount: '442'
-ht-degree: 88%
+workflow-type: ht
+source-wordcount: '418'
+ht-degree: 100%
 
 ---
 
@@ -30,7 +30,7 @@ Les profils sont considérés comme actifs s’ils ont été ciblés ou ont fait
 
 >[!NOTE]
 >
->Les canaux facebook et X (anciennement appelés Twitter) ne sont pas pris en compte.
+>Les canaux Facebook et X (anciennement Twitter) ne sont pas pris en compte.
 
 Pour en savoir plus sur les profils actifs, consultez la documentation de [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard/using/profiles-and-audiences/managing-profiles/active-profiles.html?lang=fr) et de [Campaign v7/v8](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/profile-management/about-profiles.html?lang=fr#active-profiles).
 
@@ -61,9 +61,9 @@ La section supérieure affiche les informations suivantes :
 
 La section inférieure fournit une représentation visuelle de l’utilisation des profils actifs au cours des 30 derniers jours. Vous pouvez définir cette période sur 1 an à l’aide du filtre situé dans le coin supérieur droit. Pointez sur le graphique pour obtenir le nombre exact de profils actifs utilisés au cours de la période sélectionnée.
 
-Les informations relatives à l’utilisation des profils actifs sont mises à jour en Panneau de Contrôle en fonction des [!DNL Campaign] Workflows techniques de &quot;facturation&quot; qui s’exécutent à intervalle régulier sur vos instances.
+Les informations relatives à l’utilisation des profils actifs sont mises à jour dans le panneau de contrôle en fonction des workflows techniques « Facturation » de [!DNL Campaign], qui s’exécutent tous les jours sur vos instances.
 
 | Version de Campaign | Workflow technique | Exécutions |
 |  ---  |  ---  |  ---  |
 | Campaign Standard | [Facturation](https://experienceleague.adobe.com/docs/campaign-standard/using/administrating/application-settings/technical-workflows.html?lang=fr) | Quotidien |
-| Campaign v7/v8 | [Facturation](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflowsadvanced-management/about-technical-workflows.html) | Mensuel |
+| Campaign v7/v8 | [Facturation](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflowsadvanced-management/about-technical-workflows.html?lang=fr) | Mensuel |
