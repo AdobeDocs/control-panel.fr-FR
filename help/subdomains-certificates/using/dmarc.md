@@ -7,10 +7,10 @@ feature: Control Panel, Subdomains and Certificates
 role: Admin
 level: Experienced
 exl-id: 2ca66983-5beb-495a-9639-a31905500cff
-source-git-commit: a3485766791387bd9422b4f29daf86296efafb98
-workflow-type: ht
-source-wordcount: '795'
-ht-degree: 100%
+source-git-commit: aacaec4e6ed7b997c0d879c4a9d4bf85ddd18cf7
+workflow-type: tm+mt
+source-wordcount: '836'
+ht-degree: 95%
 
 ---
 
@@ -26,6 +26,9 @@ Des informations détaillées sur la mise en œuvre de DMARC sont disponibles da
 
 * Les enregistrements SPF et DKIM sont indispensables pour la création d’un enregistrement DMARC.
 * Les enregistrements DMARC ne peuvent être ajoutés que pour les sous-domaines à l’aide de la délégation complète de sous-domaine. [En savoir plus sur les méthodes de configuration des sous-domaines.](subdomains-branding.md#subdomain-delegation-methods)
+
+  Pour établir un enregistrement DMARC sur un sous-domaine basé sur CNAME, vous pouvez configurer l’enregistrement DMARC sur son domaine parent. Cela garantit que tous les sous-domaines associés héritent des paramètres d’enregistrement DMARC, même lorsqu’ils sont délégués via des CNAME.
+
 * S’il existe des enregistrements DMARC et BIMI pour un sous-domaine :
    * Les enregistrements DMARC ne peuvent pas être supprimés. Si vous souhaitez supprimer un enregistrement DMARC, supprimez d’abord l’enregistrement BIMI.
    * Les enregistrements DMARC peuvent être modifiés, mais la rétrogradation de la politique DMARC sur « Aucun » n’est pas autorisée et la valeur de pourcentage doit être définie sur « 100 ».
