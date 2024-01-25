@@ -8,9 +8,9 @@ role: Admin
 level: Experienced
 exl-id: eb7863fb-6e6d-4821-a156-03fee03cdd0e
 source-git-commit: e601f74ae9e53d3a008c55e1fd568013ca0196f8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '577'
-ht-degree: 86%
+ht-degree: 100%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 86%
 
 BIMI (Brand Indicators for Message Identification) est une norme du secteur qui permet l’affichage d’un logo approuvé en regard de l’adresse e-mail d’une personne expéditrice dans les boîtes de réception des fournisseurs de messagerie afin d’améliorer la reconnaissance de la marque et la confiance en elle. Elle permet d’empêcher l’usurpation d’identitié et le phishing en vérifiant l’identité de la personne expéditrice d’un e-mail via l’authentification DMARC, rendant plus difficile l’usurpation d’identité des marques légitimes dans les e-mails de la part de personnes malveillantes.
 
-Vous pouvez avoir plusieurs logos pour un sous-domaine donné. Pour ce faire, vous devez configurer un enregistrement BIMI pour chaque logo et attribuer un sélecteur BIMI à chaque enregistrement. [Découvrez comment ajouter un enregistrement BIMI](#add)
+Vous pouvez avoir plusieurs logos pour un sous-domaine donné. Pour cela, vous devez configurer un enregistrement BIMI pour chaque logo et affecter un sélecteur BIMI à chaque enregistrement. [Découvrez comment ajouter un enregistrement BIMI.](#add)
 
 Des informations détaillées sur la mise en œuvre de BIMI sont disponibles dans le [Guide des bonnes pratiques en matière de délivrabilité d’Adobe](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/technotes/implement-bimi.html?lang=fr).
 
@@ -47,7 +47,7 @@ Pour ajouter un enregistrement BIMI pour un sous-domaine, procédez comme suit 
 
    ![](assets/bimi-add.png)
 
-1. La variable **[!UICONTROL Sélecteur]** vous permet de spécifier un sélecteur BIMI pour l’enregistrement. Un sélecteur BIMI est un identifiant unique que vous pouvez affecter à un enregistrement BIMI. Vous pouvez ainsi définir plusieurs logos pour un sous-domaine donné.
+1. Le champ **[!UICONTROL Sélecteur]** vous permet de spécifier un sélecteur BIMI pour l’enregistrement. Un sélecteur BIMI est un identifiant unique que vous pouvez affecter à un enregistrement BIMI. Vous pouvez ainsi définir plusieurs logos pour un sous-domaine donné.
 
 1. Dans **[!UICONTROL URL du logo de l’entreprise]**, spécifiez l’URL du fichier du SVG contenant votre logo.
 
