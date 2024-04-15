@@ -7,10 +7,10 @@ feature: Control Panel, Subdomains and Certificates
 role: Admin
 level: Experienced
 exl-id: 2ca66983-5beb-495a-9639-a31905500cff
-source-git-commit: aacaec4e6ed7b997c0d879c4a9d4bf85ddd18cf7
-workflow-type: ht
-source-wordcount: '836'
-ht-degree: 100%
+source-git-commit: 80b9f62feb9f00758cf175762b1cf4dc26912ed8
+workflow-type: tm+mt
+source-wordcount: '885'
+ht-degree: 94%
 
 ---
 
@@ -65,6 +65,10 @@ Pour ajouter un enregistrement DMARC pour un sous-domaine, procédez comme suit�
 
    * Les rapports Aggregate-DMARC fournissent des informations de haut niveau comme, par exemple, le nombre d’e-mails qui ont échoué sur une période donnée.
    * Les rapports d’échec Forensic DMARC fournissent des informations détaillées comme, par exemple, l’adresse IP d’où provient l’e-mail ayant échoué.
+
+   >[!CAUTION]
+   >
+   >Si les adresses électroniques que vous ajoutez pour recevoir des rapports se trouvent en dehors du domaine pour lequel l’enregistrement DMARC est créé, vous devez autoriser leur domaine externe à spécifier au DNS que vous possédez ce domaine. Pour ce faire, procédez comme décrit dans la section [dmarc.org documentation](https://dmarc.org/2015/08/receiving-dmarc-reports-outside-your-domain)
 
 1. Si la politique DMARC est définie sur « Aucun », saisissez un pourcentage applicable à 100 % des e-mails.
 
