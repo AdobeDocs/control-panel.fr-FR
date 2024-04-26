@@ -8,9 +8,9 @@ role: Admin
 level: Experienced
 exl-id: 2ca66983-5beb-495a-9639-a31905500cff
 source-git-commit: 80b9f62feb9f00758cf175762b1cf4dc26912ed8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '885'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -68,7 +68,7 @@ Pour ajouter un enregistrement DMARC pour un sous-domaine, procédez comme suit�
 
    >[!CAUTION]
    >
-   >Si les adresses électroniques que vous ajoutez pour recevoir des rapports se trouvent en dehors du domaine pour lequel l’enregistrement DMARC est créé, vous devez autoriser leur domaine externe à spécifier au DNS que vous possédez ce domaine. Pour ce faire, procédez comme décrit dans la section [dmarc.org documentation](https://dmarc.org/2015/08/receiving-dmarc-reports-outside-your-domain)
+   >Si les adresses e-mail que vous ajoutez pour recevoir des rapports se trouvent en dehors du domaine pour lequel l’enregistrement DMARC est créé, vous devez autoriser leur domaine externe à indiquer au DNS que vous possédez ce domaine. Pour ce faire, procédez comme décrit dans la section [Documentation dmarc.org](https://dmarc.org/2015/08/receiving-dmarc-reports-outside-your-domain).
 
 1. Si la politique DMARC est définie sur « Aucun », saisissez un pourcentage applicable à 100 % des e-mails.
 
