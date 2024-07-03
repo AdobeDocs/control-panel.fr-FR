@@ -8,9 +8,9 @@ hide: true
 hidefromtoc: true
 exl-id: bb796bef-1a2b-4f2e-848e-ad682c6c7ea0
 source-git-commit: cc45dc517a8baa2583a082b99bc084bd84013918
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '156'
-ht-degree: 73%
+ht-degree: 100%
 
 ---
 
@@ -18,14 +18,14 @@ ht-degree: 73%
 
 ## Septembre 2019 {#september-2019}
 
-Nous avons ajouté de nouvelles fonctionnalités permettant aux utilisateurs administrateurs d’ajouter des adresses IP à la liste autorisée afin de se connecter aux instances Campaign v7/v8.
+Nous avons ajouté de nouvelles fonctionnalités permettant aux administrateurs et administratrices d’ajouter des adresses IP à la liste autorisée afin de se connecter aux instances Campaign v7/v8.
 De plus, les utilisateurs administrateurs peuvent maintenant afficher la liste des instances Campaign v7/v8 et l’éligibilité pour les mises à niveau de build.
 
 Pour plus d’informations, consultez la [documentation dédiée](../instances-settings/using/ip-allow-listing-instance-access.md).
 
 ## Août 2019 {#august-2019}
 
-De nouvelles fonctionnalités ont été ajoutées pour permettre aux utilisateurs administrateurs de recevoir des notifications avant l’expiration des certificats SSL de leurs domaines. Pour plus d’informations, consultez la [documentation détaillée](../subdomains-certificates/using/monitoring-ssl-certificates.md).
+Nous avons ajouté de nouvelles fonctionnalités permettant aux utilisateurs administrateurs et utilisatrices administratrices de recevoir des notifications avant l’expiration des certificats SSL de leurs domaines. Pour plus d’informations, consultez la [documentation détaillée](../subdomains-certificates/using/monitoring-ssl-certificates.md).
 
 De plus, ces utilisateurs peuvent maintenant supprimer les clés SSH qui ont été ajoutées pour accéder aux serveurs SFTP.
 

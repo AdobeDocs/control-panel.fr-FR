@@ -8,9 +8,9 @@ hide: true
 hidefromtoc: true
 exl-id: 70357a40-3dc1-486d-bba2-f500b3175d62
 source-git-commit: cc45dc517a8baa2583a082b99bc084bd84013918
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '437'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -165,7 +165,7 @@ ht-degree: 96%
 
 ## Janvier 2020 {#january-2020}
 
-De nouvelles fonctionnalités ont été ajoutées pour permettre aux utilisateurs administrateurs de configurer des sous-domaines et de renouveler des certificats SSL à partir de Panneau de Contrôle.
+De nouvelles fonctionnalités ont été ajoutées pour permettre aux utilisateurs administrateurs et utilisatrices administratrices de configurer des sous-domaines et de renouveler des certificats SSL à partir du panneau de contrôle.
 
 Pour plus d’informations, reportez-vous aux pages suivantes :
 * [Configuration d’un nouveau sous-domaine](../subdomains-certificates/using/setting-up-new-subdomain.md)
