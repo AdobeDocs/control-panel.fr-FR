@@ -8,8 +8,8 @@ role: Admin
 level: Experienced
 exl-id: d92781c3-14cc-4716-a131-580ccff46d6e
 source-git-commit: a3485766791387bd9422b4f29daf86296efafb98
-workflow-type: ht
-source-wordcount: '1596'
+workflow-type: tm+mt
+source-wordcount: '1526'
 ht-degree: 100%
 
 ---
@@ -35,7 +35,7 @@ Cette page fournit des informations sur la configuration de nouveaux sous-domain
 
 La configuration de sous-domaine n’est disponible que pour les instances de **production**.
 
-Si l’instance sélectionnée dans l’assistant ne comporte aucun sous-domaine configuré précédemment, le premier sous-domaine configuré deviendra le **sous-domaine principal** pour cette instance et vous ne pourrez plus le modifier par la suite. Des **enregistrements DNS inversés** seront créés pour d’autres sous-domaines utilisant ce sous-domaine principal. **Les adresses de réponse et bounce pour les autres sous-domaines seront générées à partir du sous-domaine principal.**
+Si l’instance sélectionnée dans l’assistant ne comporte aucun sous-domaine configuré précédemment, le premier sous-domaine configuré deviendra le **sous-domaine principal** pour cette instance et vous ne pourrez plus le modifier par la suite. Des **enregistrements DNS inversés** seront créés pour d’autres sous-domaines utilisant ce sous-domaine principal. **Les adresses de réponse et de rebond pour les autres sous-domaines seront générées à partir du sous-domaine principal.**
 
 ### Déléguer des certificats SSL de sous-domaines à Adobe
 
