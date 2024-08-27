@@ -7,10 +7,10 @@ feature: Control Panel
 role: Admin
 level: Intermediate
 exl-id: 4f329764-ed8b-4939-affc-ed994fd6101d
-source-git-commit: e8bffd8e7f571fd85c725adf837c2997f7615fcd
+source-git-commit: 98cf425548884c3a5e503c35ce5ea5b7ceaee67f
 workflow-type: tm+mt
-source-wordcount: '756'
-ht-degree: 100%
+source-wordcount: '719'
+ht-degree: 92%
 
 ---
 
@@ -78,19 +78,19 @@ Pour que vous puissiez gérer les paramètres de votre instance, nous voulons no
 
 ### Que faire si je possède plusieurs identifiants d’organisation ?
 
-Si vous avez accès à plusieurs solutions Adobe, il est possible que vous disposiez de plusieurs identifiants d’organisation. Dans ce cas, l’identifiant d’organisation correct à utiliser est celui qui est visible sous votre instance Adobe Campaign.
+Disposer d’un identifiant d’organisation entre Analytics et Campaign est nécessaire si vous prévoyez d’intégrer les solutions afin de tirer parti des cas pratiques complexes tels que l’abandon de panier d’achat (pour Adobe Analytics + Adobe Campaign). Si vous avez accès à plusieurs solutions Adobe, il est possible que vous disposiez de plusieurs identifiants d’organisation. Dans ce cas, l’identifiant d’organisation correct à utiliser est celui qui est visible sous votre instance Adobe Campaign.
 
+<!--
 >[!NOTE]
 >
->Si votre identifiant d’organisation est le même pour Adobe Campaign et Adobe Analytics, c’est une excellente nouvelle. En effet, un même identifiant d’organisation est nécessaire pour Analytics et Campaign si vous prévoyez d’intégrer les solutions afin de tirer parti des cas pratiques complexes tels que l’abandon d’un panier d’achat (pour AA + AC).
->
->Si vous avez deux identifiants d’organisation différents pour Adobe Campaign et Adobe Analytics, contactez l’assistance clientèle pour qu’ils soient les mêmes.
+>If you have different organization IDs for Adobe Campaign and Adobe Analytics, please reach out to Customer Care to get them aligned.
+-->
 
 ### Comment puis-je savoir si mon instance Adobe Campaign est hébergée sur AWS ?{#hosted-aws}
 
 Pour vérifier si votre instance est hébergée sur AWS, procédez comme suit :
 
-1. Récupérez votre URL de connexion. S’il s’agit de l’URL que vous utilisez pour vous connecter à votre instance Campaign, elle doit se terminer par « .campaign.adobe.com » ou « .neolane.net ».
+1. Récupérez votre URL de connexion. Il s’agit de l’URL que vous utilisez pour vous connecter à votre instance Campaign. Elle se termine principalement par &quot;.campaign.adobe.com&quot; ou&quot;.neolane.net&quot;.
 1. Ouvrez le terminal, puis exécutez une opération **[!DNL nslookup]** sur votre URL de connexion.
 
    `doe-macOS% nslookup myinstance.campaign.adobe.com`
