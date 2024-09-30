@@ -7,10 +7,10 @@ feature: Control Panel, Subdomains and Certificates
 role: Admin
 level: Experienced
 exl-id: eb7863fb-6e6d-4821-a156-03fee03cdd0e
-source-git-commit: e601f74ae9e53d3a008c55e1fd568013ca0196f8
+source-git-commit: c555a91ee0772fd615d38ebbb3964392649af907
 workflow-type: tm+mt
-source-wordcount: '577'
-ht-degree: 100%
+source-wordcount: '523'
+ht-degree: 80%
 
 ---
 
@@ -18,9 +18,7 @@ ht-degree: 100%
 
 ## À propos des enregistrements BIMI {#about}
 
-BIMI (Brand Indicators for Message Identification) est une norme du secteur qui permet l’affichage d’un logo approuvé en regard de l’adresse e-mail d’une personne expéditrice dans les boîtes de réception des fournisseurs de messagerie afin d’améliorer la reconnaissance de la marque et la confiance en elle. Elle permet d’empêcher l’usurpation d’identitié et le phishing en vérifiant l’identité de la personne expéditrice d’un e-mail via l’authentification DMARC, rendant plus difficile l’usurpation d’identité des marques légitimes dans les e-mails de la part de personnes malveillantes.
-
-Vous pouvez avoir plusieurs logos pour un sous-domaine donné. Pour cela, vous devez configurer un enregistrement BIMI pour chaque logo et affecter un sélecteur BIMI à chaque enregistrement. [Découvrez comment ajouter un enregistrement BIMI.](#add)
+Les indicateurs de marque pour l’identification des messages (BIMI) sont une norme du secteur qui permet l’affichage d’un logo approuvé en regard de l’adresse électronique de l’expéditeur dans les boîtes de réception des fournisseurs de messagerie afin d’améliorer la reconnaissance et la confiance de la marque.
 
 Des informations détaillées sur la mise en œuvre de BIMI sont disponibles dans le [Guide des bonnes pratiques en matière de délivrabilité d’Adobe](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/technotes/implement-bimi.html?lang=fr).
 
@@ -29,10 +27,12 @@ Des informations détaillées sur la mise en œuvre de BIMI sont disponibles dan
 ## Limites et prérequis {#limitations}
 
 * Les enregistrements SPF, DKIM et DMARC sont indispensables pour créer un enregistrement BIMI.
-* Les enregistrements BIMI ne peuvent être ajoutés que pour les sous-domaines à l’aide de la délégation complète de sous-domaines. [En savoir plus sur les méthodes de configuration des sous-domaines.](subdomains-branding.md#subdomain-delegation-methods)
+
+* L’enregistrement BIMI doit être publié dans DNS, pour un domaine entièrement délégué, cela est possible par le Panneau de Contrôle. [En savoir plus sur les méthodes de configuration des sous-domaines.](subdomains-branding.md#subdomain-delegation-methods)
+
 * Conditions préalables pour les enregistrements DMARC :
 
-   * Le type de politique d’enregistrement du sous-domaine doit être défini sur « Quarantaine » ou « Rejeter ». La création d’enregistrement BIMI n’est pas possible avec un type de politique DMARC défini sur « Aucun ».
+   * Le type de stratégie d’enregistrement pour le domaine d’organisation doit être défini sur &quot;Quarantaine&quot; ou &quot;Rejeter&quot;. La création d’enregistrement BIMI n’est pas possible avec un type de politique DMARC défini sur « Aucun ».
    * Le pourcentage d’e-mails auxquels la politique DMARC est appliquée doit être de 100 %. BIMI ne prend pas en charge les politiques DMARC avec ce pourcentage défini sur moins de 100 %.
 
 [Découvrez comment configurer des enregistrements DMARC.](dmarc.md)
@@ -47,11 +47,11 @@ Pour ajouter un enregistrement BIMI pour un sous-domaine, procédez comme suit 
 
    ![](assets/bimi-add.png)
 
-1. Le champ **[!UICONTROL Sélecteur]** vous permet de spécifier un sélecteur BIMI pour l’enregistrement. Un sélecteur BIMI est un identifiant unique que vous pouvez affecter à un enregistrement BIMI. Vous pouvez ainsi définir plusieurs logos pour un sous-domaine donné.
+1. Le champ **[!UICONTROL Sélecteur]** vous permet de spécifier un sélecteur BIMI pour l’enregistrement. Un sélecteur BIMI est un identifiant unique que vous pouvez affecter à un enregistrement BIMI. Vous pouvez ainsi définir plusieurs logos pour un sous-domaine donné. Ceci n’est actuellement pas pris en charge par les fournisseurs de messagerie.
 
 1. Dans **[!UICONTROL URL du logo de l’entreprise]**, spécifiez l’URL du fichier du SVG contenant votre logo.
 
-1. Bien que l’**[!UICONTROL URL du certificat]** soit facultative, elle est nécessaire pour certains fournisseurs de messagerie tels que Gmail et Apple, qui couvrent 80 % du marché des messageries. Nous vous recommandons donc d’obtenir un certificat VMC pour vraiment tirer parti de BIMI.
+1. Bien que **[!UICONTROL Certificate URL]** soit facultatif, il est nécessaire pour certains fournisseurs de messagerie tels que Gmail et Apple. Nous vous recommandons donc d’obtenir un certificat VMC pour vraiment tirer parti de BIMI.
 
    +++Comment obtenir un certificat VMC ?
 
