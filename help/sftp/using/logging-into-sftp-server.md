@@ -18,7 +18,7 @@ ht-degree: 100%
 
 Les étapes ci-dessous expliquent comment connecter votre serveur SFTP via votre application cliente SFTP.
 
-![](assets/do-not-localize/how-to-video.png)[ Découvrez cette fonctionnalité en vidéo](https://video.tv.adobe.com/v/27263?quality=12)
+![](assets/do-not-localize/how-to-video.png)[ Découvrez cette fonctionnalité en vidéo](https://video.tv.adobe.com/v/34770?quality=12&captions=fre_fr)
 
 Avant de vous connecter au serveur, vérifiez les points suivants :
 

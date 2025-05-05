@@ -196,4 +196,4 @@ La vidéo ci-dessous explique comment générer et installer des clés GPG pour 
 
 D’autres vidéos pratiques relatives à la gestion des clés GPG sont disponibles dans les pages de tutoriels [Campaign v7/v8](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/instance-settings/gpg-key-management/gpg-key-management-overview.html?lang=fr#instance-settings) et [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/instance-settings/gpg-key-management/gpg-key-management-overview.html?lang=fr#instance-settings).
 
->[!VIDEO](https://video.tv.adobe.com/v/36386?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/327884?quality=12&captions=fre_fr)
