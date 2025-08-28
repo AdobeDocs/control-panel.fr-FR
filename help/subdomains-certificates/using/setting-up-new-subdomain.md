@@ -86,7 +86,7 @@ Pour déléguer complètement un sous-domaine à Adobe Campaign, procédez comm
 
    ![](assets/subdomain3.png)
 
-1. Créez le sous-domaine et les serveurs de noms souhaités dans la solution d’hébergement utilisée par votre entreprise. Pour ce faire, copiez et collez les informations du serveur de noms Adobe affichées dans l’assistant. Pour plus d’informations sur la création d’un sous-domaine dans une solution d’hébergement, consultez ce [tutoriel vidéo](https://video.tv.adobe.com/v/30175).
+1. Créez le sous-domaine et les serveurs de noms souhaités dans la solution d’hébergement utilisée par votre entreprise. Pour ce faire, copiez et collez les informations du serveur de noms Adobe affichées dans l’assistant. Pour plus d’informations sur la création d’un sous-domaine dans une solution d’hébergement, consultez ce [tutoriel vidéo](https://video.tv.adobe.com/v/32929?captions=fre_fr).
 
 
    >[!NOTE]
