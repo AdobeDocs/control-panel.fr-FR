@@ -9,7 +9,7 @@ level: Experienced
 source-git-commit: cc45dc517a8baa2583a082b99bc084bd84013918
 workflow-type: tm+mt
 source-wordcount: '180'
-ht-degree: 100%
+ht-degree: 88%
 
 ---
 
@@ -25,13 +25,13 @@ ht-degree: 100%
       + [2021](rn/release-notes-2021.md)
       + [2020](rn/release-notes-2020.md)
       + [2019](rn/release-notes-2019.md)
-+ Découverte du Panneau de contrôle {#discover-control-panel}
++ Découverte du panneau de contrôle {#discover-control-panel}
    + [Principales fonctionnalités](discover/using/key-features.md)
    + [Panneau de contrôle d’accès](discover/using/accessing-control-panel.md)
    + [Gérer les autorisations pour le panneau de contrôle](discover/using/managing-permissions.md)
    + [Découvrir l’interface du panneau de contrôle](discover/using/discovering-the-interface.md)
    + [Questions fréquentes](faq.md)
-+ Alertes événements et e-mail {#alerts-events}
++ Événements et alertes par e-mail {#alerts-events}
    + [Surveiller les contacts et les événements principaux](service-events/service-events.md)
    + [Alertes par e-mail](performance-monitoring/using/email-alerting.md)
 + Gestion SFTP {#sftp-management}
@@ -44,15 +44,15 @@ ht-degree: 100%
 + Sous-domaines et certificats {#subdomains-and-certificates}
    + [Marque des sous-domaines](subdomains-certificates/using/subdomains-branding.md)
    + [Surveiller les sous-domaines](subdomains-certificates/using/monitoring-subdomains.md)
-   + Déléguer les sous-domaines {#delegate-subdomains}
+   + Délégation de sous-domaines {#delegate-subdomains}
       + [Configurer un nouveau sous-domaine](subdomains-certificates/using/setting-up-new-subdomain.md)
       + [Supprimer la délégation de sous-domaines à Adobe](subdomains-certificates/using/remove-delegated-subdomains.md)
-   + Utiliser des enregistrements TXT (Google, BIMI, DMARC) {#txt-records}
+   + Utiliser les enregistrements TXT (Google, BIMI, DMARC) {#txt-records}
       + [Commencer avec les enregistrements TXT](subdomains-certificates/using/gs-txt-records.md)
       + [Ajouter des enregistrements de vérification de site Google](subdomains-certificates/using/managing-txt-records.md)
       + [Ajouter des enregistrements DMARC](subdomains-certificates/using/dmarc.md)
       + [Ajouter des enregistrements BIMI](subdomains-certificates/using/bimi.md)
-   + Gérer les certificats SSL des sous-domaines {#manage-certificates}
+   + Gestion des certificats SSL des sous-domaines {#manage-certificates}
       + [Surveiller les certificats SSL](subdomains-certificates/using/monitoring-ssl-certificates.md)
       + [Déléguer des certificats SSL à Adobe](subdomains-certificates/using/delegate-ssl.md)
       + [Renouveler les certificats SSL](subdomains-certificates/using/renewing-subdomain-certificate.md)
