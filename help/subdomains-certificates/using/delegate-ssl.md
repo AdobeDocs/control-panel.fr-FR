@@ -8,9 +8,9 @@ role: Admin
 level: Experienced
 exl-id: a2b3d409-704b-4e81-ae40-b734f755b598
 source-git-commit: 31d181770474428a7b42e96f2e603cc820db48d4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '483'
-ht-degree: 61%
+ht-degree: 100%
 
 ---
 
@@ -34,11 +34,11 @@ La délégation des certificats SSL à Adobe peut être effectuée lors de la co
 
 ## Déléguer les certificats SSL des nouveaux sous-domaines {#new}
 
-Pour déléguer des certificats SSL lors de la configuration d’un nouveau sous-domaine, activez l’option **[!UICONTROL Choisir le protocole SSL géré par Adobe pour les sous-domaines]** de l’assistant de configuration de sous-domaine. Le processus de génération de certificat diffère en fonction de la méthode de délégation de sous-domaine :
+Pour déléguer des certificats SSL lors de la configuration d’un nouveau sous-domaine, activez l’option **[!UICONTROL Choisir le protocole SSL géré par Adobe pour les sous-domaines]** de l’assistant de configuration de sous-domaine. Le processus de génération de certificat diffère en fonction de la méthode de délégation de sous-domaine :
 
-* **Délégation complète de sous-domaine** : le certificat SSL est automatiquement demandé et installé par Adobe sans aucune action de votre part. Une fois que vous avez envoyé la configuration de sous-domaine, la demande d’installation du certificat est traitée immédiatement dans le cadre du workflow de configuration de sous-domaine. [En savoir plus sur la délégation complète de sous-domaine](setting-up-new-subdomain.md#full-subdomain-delegation)
+* **Délégation complète de sous-domaine** : le certificat SSL est automatiquement demandé et installé par Adobe sans aucune action de votre part. Une fois que vous avez envoyé la configuration de sous-domaine, la demande d’installation du certificat est traitée immédiatement dans le cadre du workflow de configuration de sous-domaine. [En savoir plus sur la délégation complète de sous-domaine](setting-up-new-subdomain.md#full-subdomain-delegation).
 
-* **Délégation CNAME** : les enregistrements de certificat à copier dans votre solution d’hébergement seront fournis ultérieurement dans l’assistant de configuration. Vous devez générer ces enregistrements de certificat dans votre solution d’hébergement de domaine avant d’envoyer la configuration de sous-domaine. [En savoir plus sur la délégation CNAME](setting-up-new-subdomain.md#use-cnames)
+* **Délégation CNAME** :les enregistrements de certificat à copier dans votre solution d’hébergement seront fournis ultérieurement dans l’assistant de configuration. Vous devez générer ces enregistrements de certificat dans votre solution d’hébergement de domaine avant d’envoyer la configuration de sous-domaine. [En savoir plus sur la délégation CNAME](setting-up-new-subdomain.md#use-cnames).
 
 ![](assets/cname-adobe-managed.png){width="70%" align="left"}
 
@@ -48,7 +48,7 @@ Pour déléguer des certificats SSL pour un sous-domaine déjà délégué, cliq
 
 ![](assets/delegate-ssl-list.png){width="70%" align="left"}
 
-Le processus de génération du certificat dépend de la configuration initiale du sous-domaine :
+Le processus de génération de certificat dépend de la configuration initiale du sous-domaine :
 
 ### Sous-domaines entièrement délégués
 
