@@ -66,4 +66,4 @@ Tous les utilisateurs administrateurs d’une instance Campaign ont accès au Pa
 
 ## Tutoriel vidéo {#video}
 
->[!VIDEO](https://video.tv.adobe.com/v/27147?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/34775?captions=fre_fr&quality=12)
