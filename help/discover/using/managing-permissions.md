@@ -7,10 +7,10 @@ feature: Control Panel, Permissions
 role: Admin
 level: Intermediate
 exl-id: 7314a679-78c3-4650-bf3a-2bde8be82747
-source-git-commit: a3485766791387bd9422b4f29daf86296efafb98
+source-git-commit: aff51e72ac2781264d0cd028a816e00c3fcb8bdd
 workflow-type: tm+mt
-source-wordcount: '287'
-ht-degree: 100%
+source-wordcount: '341'
+ht-degree: 74%
 
 ---
 
@@ -20,7 +20,7 @@ Tous les utilisateurs administrateurs d’une instance Campaign ont accès au Pa
 
 ![](assets/do-not-localize/how-to-video.png) Découvrez cette fonctionnalité en [vidéo](../../discover/using/managing-permissions.md#video)
 
-1. Accédez à la [page d’accueil Adobe Experience Cloud](https://experiencecloud.adobe.com/){target="_blank"}.
+1. Accédez à la page d’accueil de [Adobe Experience Cloud](https://experiencecloud.adobe.com/){target="_blank"}.
 
 1. Lancez **Admin Console** en cliquant sur le lien disponible dans la section **Accès rapide** ou dans le menu supérieur droit.
 
@@ -50,9 +50,11 @@ Tous les utilisateurs administrateurs d’une instance Campaign ont accès au Pa
 
    ![](assets/do-not-localize/control_panel_add_user_5.png)
 
-   >[!NOTE]
+   >[!IMPORTANT]
    >
-   >Par défaut, les utilisateurs administrateurs font partie du profil de produit « Administrateurs ». Selon la configuration de votre organisation, le profil de produit peut être appelé différemment (« admin », « admins », etc.).
+   >Par défaut, le Panneau de Contrôle est accessible aux utilisateurs administrateurs appartenant au profil de produit « Administrateurs ». Selon la configuration de votre organisation, le profil de produit peut être nommé différemment (« admin », « admins », « administrateur d’approbation », etc.). **Tout profil de produit contenant le mot « admin » dans son nom accordera automatiquement l’accès à Panneau de Contrôle.**
+   >
+   >Examinez attentivement les conventions de dénomination de votre profil de produit dans Admin Console pour vous assurer que seuls les utilisateurs autorisés disposent d’un accès au Panneau de Contrôle, car elles permettent d’apporter des modifications importantes aux instances Campaign.
 
 1. La liste des utilisateurs administrateurs s’affiche. Cliquez sur le bouton **[!UICONTROL Ajouter un utilisateur]** pour ajouter un nouvel utilisateur.
 
@@ -64,4 +66,4 @@ Tous les utilisateurs administrateurs d’une instance Campaign ont accès au Pa
 
 ## Tutoriel vidéo {#video}
 
->[!VIDEO](https://video.tv.adobe.com/v/34775?quality=12&captions=fre_fr)
+>[!VIDEO](https://video.tv.adobe.com/v/27147?quality=12)
