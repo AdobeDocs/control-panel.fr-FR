@@ -6,7 +6,7 @@ role: Admin
 level: Experienced
 exl-id: 9fb18bb6-c4e4-48aa-849c-d9129add5266
 source-git-commit: a3485766791387bd9422b4f29daf86296efafb98
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '601'
 ht-degree: 100%
 
@@ -87,7 +87,7 @@ Les clientes et clients disposant d’un modèle d’hébergement hybride peuven
 <tbody>
 <tr>
 <td>
-<p>Plusieurs améliorations ont été apportées au processus de génération de la demande de signature de certificat (CSR). <a href="../subdomains-certificates/using/renewing-subdomain-certificate.md">En savoir plus</a></p><ul><li>Lors de la génération d’une demande de signature de certificat, vous pouvez désormais sélectionner l’un des sous-domaines inclus comme nom commun.</li><li>Vous pouvez désormais copier le résumé de la demande de signature de certificat avant de la générer.</li><li>Une fois qu’une demande de signature de certificat a été générée, vous pouvez la télécharger à nouveau à partir des logs de traitement. Cette fonctionnalité ne s’applique pas aux certificats générés avant cette version.</li></ul><p>
+<p>Plusieurs améliorations ont été apportées au processus de génération de la demande de signature de certificat (CSR). <a href="../subdomains-certificates/using/renewing-subdomain-certificate.md">En savoir plus</a></p><ul><li>Lors de la génération d’une demande de signature de certificat, vous pouvez désormais sélectionner l’un des sous-domaines inclus comme nom commun.</li><li>Vous pouvez désormais copier le résumé de la demande de signature de certificat avant de la générer.</li><li>Une fois qu’une demande de signature de certificat a été générée, vous pouvez la télécharger de nouveau à partir des logs de traitement. Cette fonctionnalité ne s’applique pas aux certificats générés avant cette version.</li></ul><p>
 
 </td>
 </tr>
@@ -178,7 +178,7 @@ Les clientes et clients disposant d’un modèle d’hébergement hybride peuven
 <tbody>
 <tr>
 <td>
-<p>Vous pouvez désormais surveiller les paramètres de workflow qui peuvent nécessiter une attention particulière pour éviter tout problème sur vos instances. </p><p>Pour plus d’informations, consultez la <a href="../performance-monitoring/using/workflow-monitoring.md">documentation détaillée</a>.</p>
+<p>Vous pouvez désormais surveiller les paramètres de workflow qui peuvent nécessiter une attention particulière pour éviter tout problème sur vos instances. </p><p>Pour plus d'informations, consultez la <a href="../performance-monitoring/using/workflow-monitoring.md">documentation détaillée</a>.</p>
 </td>
 </tr>
 </tbody>
@@ -195,7 +195,7 @@ Les clientes et clients disposant d’un modèle d’hébergement hybride peuven
 <tbody>
 <tr>
 <td>
-<p>Le Panneau de contrôle vous permet désormais de surveiller les requêtes qui ont été exécutées le plus longtemps sur vos instances.</p><p>Pour plus d’informations, consultez la <a href="../performance-monitoring/using/database-active-queries.md">documentation détaillée</a>.</p>
+<p>Le Panneau de contrôle vous permet désormais de surveiller les requêtes qui ont été exécutées le plus longtemps sur vos instances.</p><p>Pour plus d'informations, consultez la <a href="../performance-monitoring/using/database-active-queries.md">documentation détaillée</a>.</p>
 </td>
 </tr>
 </tbody>
@@ -210,7 +210,7 @@ Les clientes et clients disposant d’un modèle d’hébergement hybride peuven
 <tbody>
 <tr>
 <td>
-<p>Vous pouvez désormais surveiller les fluctuations des débits de diffusion et de latence sur vos instances au cours d’une période donnée.</p><p>Pour plus d’informations, consultez la <a href="../performance-monitoring/using/throughputs-latencies.md">documentation détaillée</a>.</p>
+<p>Vous pouvez désormais surveiller les fluctuations des débits de diffusion et de latence sur vos instances au cours d’une période donnée.</p><p>Pour plus d'informations, consultez la <a href="../performance-monitoring/using/throughputs-latencies.md">documentation détaillée</a>.</p>
 </td>
 </tr>
 </tbody>
@@ -225,7 +225,7 @@ Les clientes et clients disposant d’un modèle d’hébergement hybride peuven
 <tbody>
 <tr>
 <td>
-<p>Les opérations liées aux certificats SSL peuvent désormais être effectuées sur un sous-domaine nouvellement créé, même si l’audit de délivrabilité est toujours en cours.</p><p>Pour plus d’informations, consultez la <a href="../subdomains-certificates/using/renewing-subdomain-certificate.md">documentation détaillée</a>.</p>
+<p>Les opérations liées aux certificats SSL peuvent désormais être effectuées sur un sous-domaine nouvellement créé, même si l’audit de délivrabilité est toujours en cours.</p><p>Pour plus d'informations, consultez la <a href="../subdomains-certificates/using/renewing-subdomain-certificate.md">documentation détaillée</a>.</p>
 </td>
 </tr>
 </tbody>

@@ -8,7 +8,7 @@ role: Admin
 level: Experienced
 exl-id: 2fa2ffbb-102b-42c4-8feb-b0263ee9c930
 source-git-commit: a3485766791387bd9422b4f29daf86296efafb98
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '188'
 ht-degree: 100%
 
@@ -28,4 +28,4 @@ La surveillance des workflows et des diffusions qui créent des ressources tempo
 
 ![](assets/database-top10.png)
 
-Le bouton **[!UICONTROL Afficher tout]** vous permet d’accéder aux détails de la **[!UICONTROL Présentation de l’espace de stockage]** pour obtenir des informations détaillées sur ces ressources temporaires. Pour en savoir plus, reportez-vous à [cette page](database-storage-overview.md).
+Le bouton **[!UICONTROL Afficher tout]** vous permet d’accéder aux détails de la **[!UICONTROL Présentation de l’espace de stockage]** pour obtenir des informations détaillées sur ces ressources temporaires. Pour plus d’informations, consultez [cette page](database-storage-overview.md).

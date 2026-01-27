@@ -8,7 +8,7 @@ hide: true
 hidefromtoc: true
 exl-id: 70357a40-3dc1-486d-bba2-f500b3175d62
 source-git-commit: cc45dc517a8baa2583a082b99bc084bd84013918
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '437'
 ht-degree: 100%
 
@@ -27,7 +27,7 @@ ht-degree: 100%
 <tbody>
 <tr>
 <td>
-<p>Le Panneau de contrôle permet désormais de configurer un sous-domaine pour qu’il fonctionne avec Adobe à l’aide de CNAME, directement depuis l’interface.</p><p>Pour plus d’informations, consultez la <a href="../subdomains-certificates/using/setting-up-new-subdomain.md">documentation détaillée</a>.</p>
+<p>Le Panneau de contrôle permet désormais de configurer un sous-domaine pour qu’il fonctionne avec Adobe à l’aide de CNAME, directement depuis l’interface.</p><p>Pour plus d'informations, consultez la <a href="../subdomains-certificates/using/setting-up-new-subdomain.md">documentation détaillée</a>.</p>
 </td>
 </tr>
 </tbody>
@@ -42,7 +42,7 @@ ht-degree: 100%
 <tbody>
 <tr>
 <td>
-<p>La surveillance des bases de données a été améliorée à l’aide de mesures supplémentaires. Vous pouvez ainsi obtenir des informations détaillées sur les ressources qui consomment de l’espace dans votre base de données.</p><p>Pour plus d’informations, consultez la <a href="../performance-monitoring/using/database-monitoring.md">documentation détaillée</a>.</p>
+<p>La surveillance des bases de données a été améliorée à l’aide de mesures supplémentaires. Vous pouvez ainsi obtenir des informations détaillées sur les ressources qui consomment de l’espace dans votre base de données.</p><p>Pour plus d'informations, consultez la <a href="../performance-monitoring/using/database-monitoring.md">documentation détaillée</a>.</p>
 </td>
 </tr>
 </tbody>
@@ -59,7 +59,7 @@ ht-degree: 100%
 <tbody>
 <tr>
 <td>
-<p>Après avoir délégué un nouveau sous-domaine, le Panneau de contrôle vous permet de suivre l’audit effectué par l’équipe chargée de la délivrabilité.</p><p>Pour plus d’informations, consultez la <a href="../subdomains-certificates/using/setting-up-new-subdomain.md">documentation détaillée</a>.</p>
+<p>Après avoir délégué un nouveau sous-domaine, le Panneau de contrôle vous permet de suivre l’audit effectué par l’équipe chargée de la délivrabilité.</p><p>Pour plus d'informations, consultez la <a href="../subdomains-certificates/using/setting-up-new-subdomain.md">documentation détaillée</a>.</p>
 </td>
 </tr>
 </tbody>
@@ -74,7 +74,7 @@ ht-degree: 100%
 <tbody>
 <tr>
 <td>
-<p>Le Panneau de contrôle vous permet désormais de générer une paire de clés GPG afin que vous puissiez facilement déchiffrer les données qui entrent dans Campaign de l’extérieur. De plus, nous avons ajouté une fonctionnalité permettant d’installer une clé GPG publique afin de chiffrer les données qui sortent de Campaign.</p><p>Pour plus d’informations, consultez la <a href="../instances-settings/using/gpg-keys-management.md">documentation détaillée</a>.</p>
+<p>Le Panneau de contrôle vous permet désormais de générer une paire de clés GPG afin que vous puissiez facilement déchiffrer les données qui entrent dans Campaign de l’extérieur. De plus, nous avons ajouté une fonctionnalité permettant d’installer une clé GPG publique afin de chiffrer les données qui sortent de Campaign.</p><p>Pour plus d'informations, consultez la <a href="../instances-settings/using/gpg-keys-management.md">documentation détaillée</a>.</p>
 </td>
 </tr>
 </tbody>
@@ -89,7 +89,7 @@ ht-degree: 100%
 <tbody>
 <tr>
 <td>
-<p>Le Panneau de contrôle vous permet désormais de surveiller le nombre de profils actifs utilisés par vos instances et comptabilisés à des fins de facturation.</p><p>Pour plus d’informations, consultez la <a href="../performance-monitoring/using/active-profiles-monitoring.md">documentation détaillée</a>.</p>
+<p>Le Panneau de contrôle vous permet désormais de surveiller le nombre de profils actifs utilisés par vos instances et comptabilisés à des fins de facturation.</p><p>Pour plus d'informations, consultez la <a href="../performance-monitoring/using/active-profiles-monitoring.md">documentation détaillée</a>.</p>
 </td>
 </tr>
 </tbody>
@@ -110,7 +110,7 @@ ht-degree: 100%
 <tbody>
 <tr>
 <td>
-<p>Le Panneau de contrôle permet désormais de renouveler les certificats SSL de vos sous-domaines qui ont été configurés par la méthode CNAME.</p><p>Pour plus d’informations, consultez la <a href="../subdomains-certificates/using/renewing-subdomain-certificate.md">documentation détaillée</a>.</p>
+<p>Le Panneau de contrôle permet désormais de renouveler les certificats SSL de vos sous-domaines qui ont été configurés par la méthode CNAME.</p><p>Pour plus d'informations, consultez la <a href="../subdomains-certificates/using/renewing-subdomain-certificate.md">documentation détaillée</a>.</p>
 </td>
 </tr>
 </tbody>
@@ -127,7 +127,7 @@ ht-degree: 100%
 <tbody>
 <tr>
 <td>
-<p>Grâce au Panneau de contrôle de Campaign, vous pouvez ajouter des enregistrements de vérification de site TXT Google aux sous-domaines utilisés pour envoyer des e-mails aux adresses Gmail.</p><p>Pour plus d’informations, consultez la <a href="../subdomains-certificates/using/managing-txt-records.md">documentation détaillée</a>.</p>
+<p>Grâce au Panneau de contrôle de Campaign, vous pouvez ajouter des enregistrements de vérification de site TXT Google aux sous-domaines utilisés pour envoyer des e-mails aux adresses Gmail.</p><p>Pour plus d'informations, consultez la <a href="../subdomains-certificates/using/managing-txt-records.md">documentation détaillée</a>.</p>
 </td>
 </tr>
 </tbody>
@@ -142,7 +142,7 @@ ht-degree: 100%
 <tbody>
 <tr>
 <td>
-<p>Le Panneau de contrôle de Campaign dispose de fonctionnalités de surveillance des bases de données, ce qui vous permet d’afficher l’utilisation de l’espace des bases de données à la demande et dans le temps.</p><p>Pour plus d’informations, consultez la <a href="../performance-monitoring/using/database-monitoring.md">documentation détaillée</a>.</p>
+<p>Le Panneau de contrôle de Campaign dispose de fonctionnalités de surveillance des bases de données, ce qui vous permet d’afficher l’utilisation de l’espace des bases de données à la demande et dans le temps.</p><p>Pour plus d'informations, consultez la <a href="../performance-monitoring/using/database-monitoring.md">documentation détaillée</a>.</p>
 </td>
 </tr>
 </tbody>
@@ -151,13 +151,13 @@ ht-degree: 100%
 <table>
 <thead>
 <tr>
-<th><strong>Alertes par e-mail</strong><br/></th>
+<th><strong>Alertes par email</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Le Panneau de contrôle de Campaign dispose de fonctionnalités d’alerte par e-mail en temps réel. Une fois connecté au Panneau de contrôle, vous pouvez vous abonner pour recevoir des alertes lorsque les performances de votre système risquent de se détériorer ou si une action est nécessaire pour garantir des performances élevées.</p><p>Pour plus d’informations, consultez la <a href="../performance-monitoring/using/email-alerting.md">documentation détaillée</a>.</p>
+<p>Le Panneau de contrôle de Campaign dispose de fonctionnalités d’alerte par e-mail en temps réel. Une fois connecté au Panneau de contrôle, vous pouvez vous abonner pour recevoir des alertes lorsque les performances de votre système risquent de se détériorer ou si une action est nécessaire pour garantir des performances élevées.</p><p>Pour plus d'informations, consultez la <a href="../performance-monitoring/using/email-alerting.md">documentation détaillée</a>.</p>
 </td>
 </tr>
 </tbody>
@@ -173,4 +173,4 @@ Pour plus d’informations, reportez-vous aux pages suivantes :
 
 >[!IMPORTANT]
 >
->Ces fonctionnalités seront disponibles en version bêta. Elle seront sujettes à de fréquentes mises à jour et modifications sans préavis.
+>Ces fonctionnalités seront disponibles en version Beta. Elle seront sujettes à de fréquentes mises à jour et modifications sans préavis.

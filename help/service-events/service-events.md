@@ -8,7 +8,7 @@ role: Admin
 level: Intermediate
 exl-id: d230aae6-4f0e-4201-bb3c-0e3f83a7c1b8
 source-git-commit: a3485766791387bd9422b4f29daf86296efafb98
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '781'
 ht-degree: 100%
 
@@ -69,7 +69,7 @@ Trois types d’événements s’affichent :
 
    * **[!UICONTROL Disponibilité générale]** : dernier build stable disponible.
    * **[!UICONTROL Disponibilité limitée]** : déploiement à la demande uniquement.
-   * **[!UICONTROL Release Candidate]** : validée par les ingénieurs Adobe. En attente de contrôle en production.
+   * **[!UICONTROL Release Candidate]** : validée par les ingénieurs Adobe. En attente de relecture pour la production.
    * **[!UICONTROL Version préliminaire]** : disponibilité anticipée pour les besoins spécifiques des clients.
    * **[!UICONTROL Plus disponible]** : cette version ne contient aucun problème majeur, mais un build plus récent est disponible avec des correctifs supplémentaires. Une mise à niveau est requise.
    * **[!UICONTROL Obsolète]** : le build contient des régressions connues. Le build n’est plus pris en charge. La mise à niveau est obligatoire.

@@ -8,7 +8,7 @@ role: Admin
 level: Intermediate
 exl-id: a7df90da-a2ce-409f-9bc3-c7d4fa3024c8
 source-git-commit: a3485766791387bd9422b4f29daf86296efafb98
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '572'
 ht-degree: 100%
 
@@ -28,9 +28,9 @@ ht-degree: 100%
 >
 >Cette fonctionnalité est disponible uniquement pour les instances Campaign v7/v8 à partir du build 8850. Si vous utilisez un build précédent, vous devez effectuer la mise à niveau pour utiliser cette fonctionnalité.
 
-La liste par défaut des URL pouvant être appelées par des codes JavaScript (workflows et autres) de vos instances Campaign est limitée. Il s’agit des URL qui permettent à vos instances de fonctionner correctement.
+La liste par défaut des URL pouvant être appelées par des codes JavaScript (workflows, etc.) par vos instances Campaign est limitée. Il s’agit des URL qui permettent à vos instances de fonctionner correctement.
 
-Par défaut, les instances ne sont pas autorisées à se connecter à des URL externes. Le Panneau de contrôle permet d’ajouter des URL externes à la liste des URL autorisées afin que votre instance puisse s’y connecter. Vous pouvez ainsi connecter vos instances Campaign à des systèmes externes, comme des serveurs SFTP ou des sites web, afin d’activer le transfert de fichiers et/ou de données.
+Par défaut, les instances ne sont pas autorisées à se connecter à des URL externes. Le Panneau de contrôle permet d’ajouter des URL externes à la liste des URL autorisées afin que votre instance puisse s’y connecter. Vous pouvez ainsi connecter vos instances Campaign à des systèmes externes, comme des serveurs SFTP ou des sites Web, afin d’activer le transfert de fichiers et/ou de données.
 
 Une fois qu’une URL est ajoutée, elle est référencée dans le fichier de configuration de l’instance (serverConf.xml).
 

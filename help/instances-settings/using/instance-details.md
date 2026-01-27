@@ -8,7 +8,7 @@ role: Admin
 level: Experienced
 exl-id: 02819bfc-9886-43fc-8014-9bfe64c42048
 source-git-commit: a3485766791387bd9422b4f29daf86296efafb98
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '515'
 ht-degree: 100%
 
@@ -29,7 +29,7 @@ ht-degree: 100%
 
 L’architecture de votre instance Adobe Campaign peut contenir plusieurs serveurs pour garantir la flexibilité des activités marketing. Par exemple, des serveurs Marketing, Real Time (ou Message Center) et Mid-sourcing peuvent prendre en charge votre instance.
 
-La fonctionnalité Détails de l’instance vous permet d’afficher l’architecture plane de votre instance. En plus de fournir des informations sur le serveur, elle vous permet également de savoir si le build de votre instance est à jour ou pas et vous indique les upgrades recommandés lorsque cela est nécessaire.
+La fonctionnalité Détails de l’instance vous permet d’afficher l’architecture plane de votre instance. En plus de fournir des informations sur le serveur, elle vous permet également de savoir si le build de votre instance est à jour ou pas et vous indique les mises à niveau recommandées lorsque cela est nécessaire.
 
 >[!NOTE]
 >
@@ -37,7 +37,7 @@ La fonctionnalité Détails de l’instance vous permet d’afficher l’archite
 
 **Rubriques connexes :**
 
-* [Réalisation d’un upgrade de build](https://experienceleague.adobe.com/docs/campaign-classic/using/monitoring-campaign-classic/updating-adobe-campaign/build-upgrade.html?lang=fr)
+* [Réalisation d’une mise à niveau de build](https://experienceleague.adobe.com/docs/campaign-classic/using/monitoring-campaign-classic/updating-adobe-campaign/build-upgrade.html?lang=fr)
 * [Mise à jour d’Adobe Campaign](https://experienceleague.adobe.com/docs/campaign-classic/using/monitoring-campaign-classic/updating-adobe-campaign/introduction.html?lang=fr)
 
 ## Récupération d’informations sur vos instances {#retrieving-information-about-instances}
@@ -66,11 +66,11 @@ Les informations disponibles sont les suivantes :
 * **[!UICONTROL Nom]** : nom du serveur.
 * **[!UICONTROL Build]** : la version de build installée sur le serveur.
 * **[!UICONTROL Infos sur la mise à niveau]** : cette colonne vous indique si une mise à jour est requise pour le serveur.
-   * Vert : votre serveur est à jour et aucun upgrade n’est requis.
+   * Vert : votre serveur est à jour et aucune mise à niveau n’est requise.
    * Jaune : vous devez envisager un upgrade. Vous ne disposez pas des fonctionnalités et des correctifs les plus récents.
-   * Rouge : effectuez un upgrade dès que possible. Vous ne disposez pas des nouvelles fonctionnalités et les performances du serveur ne sont peut-être pas optimales.
+   * Rouge : effectuez une mise à niveau dès que possible. Vous ne disposez pas des nouvelles fonctionnalités et les performances du serveur ne sont peut-être pas optimales.
 
-Si l’un de vos serveurs nécessite un upgrade, reportez-vous à [cette documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/monitoring-campaign-classic/updating-adobe-campaign/build-upgrade.html?lang=fr) pour plus de détails sur la manière de procéder.
+Si l’un de vos serveurs nécessite une mise à niveau, reportez-vous à [cette documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/monitoring-campaign-classic/updating-adobe-campaign/build-upgrade.html?lang=fr) pour plus de détails sur la manière de procéder.
 
 ## Questions courantes {#common-questions}
 

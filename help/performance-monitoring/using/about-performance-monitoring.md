@@ -8,7 +8,7 @@ role: Admin
 level: Experienced
 exl-id: 80a5dc43-205e-4764-805a-85d2faabc20a
 source-git-commit: a3485766791387bd9422b4f29daf86296efafb98
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '81'
 ht-degree: 100%
 
@@ -18,7 +18,7 @@ ht-degree: 100%
 
 Le Panneau de contrôle propose plusieurs fonctionnalités pour vous aider à surveiller vos instances et à garantir des performances optimales.
 
-La carte **[!UICONTROL Suivi des performances]** de la page d’accueil du Panneau de contrôle permet de surveiller l’utilisation de vos instances Campaign, comme, par exemple, leur capacité de base de données. Voir à ce propos [cette section](../../performance-monitoring/using/database-monitoring.md).
+La carte **[!UICONTROL Suivi des performances]** de la page d’accueil du Panneau de contrôle permet de surveiller l’utilisation de vos instances Campaign, comme, par exemple, leur capacité de base de données. Pour plus d’informations, consultez [cette section](../../performance-monitoring/using/database-monitoring.md).
 
 ![](assets/performance_card.png)
 

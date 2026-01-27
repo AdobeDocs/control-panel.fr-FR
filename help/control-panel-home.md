@@ -6,7 +6,7 @@ role: Admin
 level: Experienced
 exl-id: 2b2cfaed-e42e-4c3a-a8d8-224b936890ab
 source-git-commit: e8bffd8e7f571fd85c725adf837c2997f7615fcd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '248'
 ht-degree: 100%
 
@@ -42,7 +42,7 @@ Le Panneau de contrôle de Campaign accroît votre efficacité en tant quʼadmin
 
 >[!CAUTION]
 >
->* Le Panneau de contrôle est accessible aux utilisateurs administrateurs uniquement. [Apprenez-en davantage](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html?lang=fr#discover-control-panel)
+>* Le Panneau de contrôle est accessible aux utilisateurs administrateurs uniquement. [En savoir plus](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html?lang=fr#discover-control-panel)
 >
 >* Pour Campaign v7, des restrictions de déploiement s’appliquent. [En savoir plus](faq.md#v7-restrictions)
 

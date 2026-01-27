@@ -8,7 +8,7 @@ role: Admin
 level: Experienced
 exl-id: bb9e1ce3-2472-4bc1-a82a-a301c6bf830e
 source-git-commit: a3485766791387bd9422b4f29daf86296efafb98
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '175'
 ht-degree: 100%
 
@@ -39,4 +39,4 @@ Vous pouvez utiliser la liste déroulante pour affiner votre recherche et affich
 
 ![](assets/database-storage-details.png)
 
-Notez que cet écran vous permet également de surveiller les paramètres de workflow qui peuvent nécessiter une attention particulière pour éviter tout problème sur vos instances. En savoir plus sur [cette page](workflow-monitoring.md).
+Notez que cet écran vous permet également de surveiller les paramètres de workflow qui peuvent nécessiter une attention particulière pour éviter tout problème sur vos instances. En savoir plus à ce propos sur [cette page](workflow-monitoring.md).

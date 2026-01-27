@@ -6,7 +6,7 @@ role: Admin
 level: Experienced
 exl-id: 9a83e32a-4c11-4784-a6fe-341ce9ebc7a7
 source-git-commit: a3485766791387bd9422b4f29daf86296efafb98
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '350'
 ht-degree: 100%
 
@@ -36,7 +36,7 @@ ht-degree: 100%
 
 ## Juin 2023 {#june-2023}
 
-* Vous pouvez désormais déléguer les certificats SSL des sous-domaines déjà délégués à Adobe directement à partir de la liste des sous-domaines. [En savoir plus](../subdomains-certificates/using/delegate-ssl.md).
+* Vous pouvez désormais déléguer les certificats SSL des sous-domaines déjà délégués à Adobe directement à partir de la liste des sous-domaines. [En savoir plus](../subdomains-certificates/using/delegate-ssl.md)
 
 * L’expéditeur des e-mails d’alerte a été remplacé par `"alert@notifications.campaign.adobe.com"`.
 

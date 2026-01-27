@@ -66,7 +66,7 @@ Pour ajouter un enregistrement BIMI pour un sous-domaine, procédez comme suit 
    1. Une fois que l’enregistrement BIMI est visible dans la page des détails des sous-domaines pour un sous-domaine particulier, vous pouvez utiliser l’inspecteur BIMI disponible [ici](https://bimigroup.org/bimi-generator/) pour vérifier si l’enregistrement BIMI fonctionne correctement.
 
    Des informations détaillées sur la mise en œuvre de BIMI sont disponibles dans la [documentation sur la norme BIMI](https://bimigroup.org/implementation-guide/).
-+++
+   +++
 
 1. Cliquez sur **[!UICONTROL Ajouter]** pour confirmer la création de l’enregistrement BIMI.
 

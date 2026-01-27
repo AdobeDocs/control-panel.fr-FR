@@ -8,7 +8,7 @@ hide: true
 hidefromtoc: true
 exl-id: bb796bef-1a2b-4f2e-848e-ad682c6c7ea0
 source-git-commit: cc45dc517a8baa2583a082b99bc084bd84013918
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '156'
 ht-degree: 100%
 
@@ -25,7 +25,7 @@ Pour plus d’informations, consultez la [documentation dédiée](../instances-s
 
 ## Août 2019 {#august-2019}
 
-Nous avons ajouté de nouvelles fonctionnalités permettant aux utilisateurs administrateurs et utilisatrices administratrices de recevoir des notifications avant l’expiration des certificats SSL de leurs domaines. Pour plus d’informations, consultez la [documentation détaillée](../subdomains-certificates/using/monitoring-ssl-certificates.md).
+Nous avons ajouté de nouvelles fonctionnalités permettant aux utilisateurs administrateurs et utilisatrices administratrices de recevoir des notifications avant l’expiration des certificats SSL de leurs domaines. Pour plus d&#39;informations, consultez la [documentation détaillée](../subdomains-certificates/using/monitoring-ssl-certificates.md).
 
 De plus, ces utilisateurs peuvent maintenant supprimer les clés SSH qui ont été ajoutées pour accéder aux serveurs SFTP.
 
@@ -33,4 +33,4 @@ De plus, ces utilisateurs peuvent maintenant supprimer les clés SSH qui ont ét
 
 De nouvelles fonctionnalités ont été ajoutées pour permettre aux utilisateurs administrateurs de mieux contrôler les paramètres des instances Campaign v7/v8. Les nouvelles fonctionnalités du Panneau de contrôle comprennent la possibilité d’ajouter des URL auxquelles Adobe Campaign se connecte pour les transferts de données/fichiers.
 
-Pour plus d’informations, consultez la [documentation détaillée](../instances-settings/using/url-permissions.md).
+Pour plus d&#39;informations, consultez la [documentation détaillée](../instances-settings/using/url-permissions.md).

@@ -8,7 +8,7 @@ role: Admin
 level: Experienced
 exl-id: 03815e01-6371-4e1c-b4b8-7abe25957cee
 source-git-commit: a3485766791387bd9422b4f29daf86296efafb98
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1058'
 ht-degree: 100%
 
@@ -105,7 +105,7 @@ Dans de très rares cas, l’authentification par mot de passe est activée sur 
 
 >[!IMPORTANT]
 >
->Si la clé que vous avez créée est utilisée pour établir une connexion à un système qui n’a encore jamais été connecté au serveur SFTP sélectionné, vous devrez ajouter une adresse IP publique de ce système à la liste autorisée avant de pouvoir l’utiliser avec le serveur SFTP. Consultez [cette section](ip-range-allow-listing.md).
+>Si la clé que vous avez créée est utilisée pour établir une connexion à un système qui n’a encore jamais été connecté au serveur SFTP sélectionné, vous devrez ajouter une adresse IP publique de ce système à la liste autorisée avant de pouvoir l’utiliser avec le serveur SFTP. Voir [cette section](ip-range-allow-listing.md).
 
 Vous pouvez utiliser les empreintes pour faire correspondre les clés privées enregistrées sur votre ordinateur aux clés publiques correspondantes enregistrées dans le Panneau de contrôle.
 

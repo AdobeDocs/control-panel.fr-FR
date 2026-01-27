@@ -8,9 +8,9 @@ role: Admin
 level: Experienced
 exl-id: 45a3bfcd-500c-4139-b610-d39989260ab7
 source-git-commit: a3485766791387bd9422b4f29daf86296efafb98
-workflow-type: tm+mt
-source-wordcount: '1059'
-ht-degree: 99%
+workflow-type: ht
+source-wordcount: '1057'
+ht-degree: 100%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 99%
 >[!CONTEXTUALHELP]
 >id="cp_ip_whitelist"
 >title="À propos des listes autorisées d’adresses IP"
->abstract="Dans cet onglet, vous pouvez ajouter des plages d’adresses IP à la liste autorisée pour établir une connexion à vos serveurs SFTP. Seuls les serveurs SFTP auxquels vous avez accès sont visibles ici. Contactez l’administrateur pour demander un accès à d’autres serveurs SFTP."
+>abstract="Dans cet onglet, vous pouvez ajouter des plages d’adresses IP à la liste autorisée pour établir une connexion à vos serveurs SFTP. Seuls les serveurs SFTP auxquels vous avez accès sont visibles ici. Contactez l’administrateur pour demander un accès aux autres serveurs SFTP."
 >additional-url="https://images-tv.adobe.com/mpcv3/8a977e03-d76c-44d3-853c-95d0b799c870_1560205338.1920x1080at3000_h264.mp4#t=98" text="Regarder une vidéo de démonstration"
 
 Les serveurs SFTP sont protégés. Afin de pouvoir y accéder pour afficher des fichiers ou en écrire de nouveaux, vous devez ajouter à la liste autorisée l’adresse IP publique du système ou du client qui accède aux serveurs.
@@ -57,7 +57,7 @@ Pour ajouter une plage d’adresses IP à la liste autorisée, procédez comme s
 
    ![](assets/control_panel_add_range.png)
 
-1. Définissez la plage d’adresses IP que vous souhaitez ajouter à la liste autorisée. Ce champ accepte uniquement les plages d’adresses IP au format CIDR, par exemple *192.150.5.0/24*.
+1. Définissez la plage d’adresses IP que vous souhaitez ajouter à la liste autorisée. Ce champ accepte uniquement les plages d’adresses IP au format CIDR, par exemple *192.150.5.0/24*.
 
    ![](assets/control_panel_add_range4.png)
 
@@ -88,13 +88,13 @@ Pour ajouter une plage d’adresses IP à la liste autorisée, procédez comme s
 
 1. Dans le champ **[!UICONTROL Commentaire]**, vous pouvez indiquer la raison pour laquelle vous autorisez cette plage dʼadresses IP (pourquoi, pour qui, etc.).
 
-1. Cliquez sur le bouton **[!UICONTROL Enregistrer]**. L’ajout de la plage d’adresses IP à la liste autorisée apparaît comme **[!UICONTROL En attente]** jusqu’à ce que la demande soit entièrement traitée, ce qui ne prend en général que quelques secondes.
+1. Cliquez sur le bouton **[!UICONTROL Enregistrer]**. L’ajout de la plage d’adresses IP à la liste autorisée apparaît comme **[!UICONTROL En attente]** jusqu’à ce que la demande soit entièrement traitée, ce qui ne prend en général que quelques secondes.
 
    ![](assets/control_panel_add_range6.png)
 
 >[!IMPORTANT]
 >
->Si vous essayez de connecter vos serveurs SFTP à un nouveau système et ajoutez par conséquent de nouvelles plages d’adresses IP à la liste autorisée, il vous faudra peut-être saisir de nouvelles clés publiques pour établir la connexion. Pour plus d’informations, consultez [cette section](key-management.md).
+>Si vous essayez de connecter vos serveurs SFTP à un nouveau système et ajoutez par conséquent de nouvelles plages d’adresses IP à la liste autorisée, il vous faudra peut-être saisir de nouvelles clés publiques pour établir la connexion. Voir à ce propos [cette section](key-management.md).
 
 ## Gestion des plages dʼadresses IP {#managing-ip-ranges}
 
@@ -161,7 +161,7 @@ Pour modifier les plages dʼadresses IP, suivez les étapes ci-dessous.
 
 ## Suivi des modifications {#monitoring-changes}
 
-Les **[!UICONTROL Logs de traitement]** de la page dʼaccueil du Panneau de contrôle permettent de suivre et de surveiller toutes les modifications apportées aux adresses IP sur la liste autorisée.
+Les **[!UICONTROL Logs de traitement]** de la page dʼaccueil du Panneau de contrôle permettent de suivre et de surveiller toutes les modifications apportées aux adresses IP placées sur liste autorisée.
 
 Pour plus dʼinformations sur lʼinterface du Panneau de contrôle, reportez-vous à [cette section](../../discover/using/discovering-the-interface.md).
 
