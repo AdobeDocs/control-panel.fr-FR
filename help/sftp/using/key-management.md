@@ -8,9 +8,9 @@ role: Admin
 level: Experienced
 exl-id: 03815e01-6371-4e1c-b4b8-7abe25957cee
 source-git-commit: a3485766791387bd9422b4f29daf86296efafb98
-workflow-type: ht
-source-wordcount: '1058'
-ht-degree: 100%
+workflow-type: tm+mt
+source-wordcount: '1106'
+ht-degree: 96%
 
 ---
 
@@ -93,7 +93,7 @@ Dans de très rares cas, l’authentification par mot de passe est activée sur 
 
    Il se peut que vous deviez installer un outil tiers qui vous aidera à générer une paire de clés privée/publique au même format « name.pub ».
 
-1. Ouvrez le fichier .pub, puis copiez-collez toute la chaîne commençant par « ssh… » dans le Panneau de contrôle.
+1. Ouvrez le fichier .pub, puis copiez-collez toute la chaîne commençant par « ssh... » au Panneau de Contrôle.
 
    ![](assets/publickey.png)
 
@@ -111,7 +111,7 @@ Vous pouvez utiliser les empreintes pour faire correspondre les clés privées e
 
 ![](assets/fingerprint_compare.png)
 
-Le bouton « **…** » permet de supprimer une clé ou de copier dans le presse-papiers l’empreinte qui lui est associée.
+Le « **...** » vous permet de supprimer une clé existante ou de copier dans le presse-papiers l’empreinte qui lui est associée.
 
 ![](assets/key_options.png)
 
@@ -137,7 +137,7 @@ La colonne **[!UICONTROL Expire]** indique le nombre de jours restants avant l�
 
 Si vous êtes abonné aux [alertes par email](../../performance-monitoring/using/email-alerting.md), vous recevrez des notifications par email 10 jours et 5 jours avant l’expiration d’une clé publique. Vous en recevrez également une le jour de son expiration. À la réception de l’alerte, vous pouvez [modifier la clé publique](#editing-public-keys) afin d’étendre sa période de validité, si nécessaire.
 
-Une clé publique arrivée à expiration est automatiquement supprimée au bout de 7 jours. Le terme **[!UICONTROL Expirée]** apparaît alors dans la colonne **[!UICONTROL Expire]**. Durant cette période de 7 jours :
+Une clé publique arrivée à expiration est automatiquement supprimée au bout de 7 jours. Elle apparaît comme **[!UICONTROL Expirée]** dans la colonne **[!UICONTROL Expire]**. Durant cette période de 7 jours :
 
 * Une clé publique arrivée à expiration ne peut plus être utilisée pour se connecter au serveur SFTP.
 

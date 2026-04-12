@@ -8,8 +8,8 @@ role: Admin
 level: Experienced
 exl-id: d92781c3-14cc-4716-a131-580ccff46d6e
 source-git-commit: 0b7cb860592508f7323bcd30345d1853e4a4ac94
-workflow-type: ht
-source-wordcount: '1526'
+workflow-type: tm+mt
+source-wordcount: '1686'
 ht-degree: 100%
 
 ---
@@ -86,8 +86,7 @@ Pour déléguer complètement un sous-domaine à Adobe Campaign, procédez comm
 
    ![](assets/subdomain3.png)
 
-1. Créez le sous-domaine et les serveurs de noms souhaités dans la solution d’hébergement utilisée par votre entreprise. Pour ce faire, copiez et collez les informations du serveur de noms Adobe affichées dans l’assistant. Pour plus d’informations sur la création d’un sous-domaine dans une solution d’hébergement, consultez ce [tutoriel vidéo](https://video.tv.adobe.com/v/32929?captions=fre_fr).
-
+1. Créez le sous-domaine et les serveurs de noms souhaités dans la solution d’hébergement utilisée par votre entreprise. Pour ce faire, copiez et collez les informations du serveur de noms Adobe affichées dans l’assistant. Pour plus d’informations sur la création d’un sous-domaine dans une solution d’hébergement, consultez ce [tutoriel vidéo](https://video.tv.adobe.com/v/30175).
 
    >[!NOTE]
    >

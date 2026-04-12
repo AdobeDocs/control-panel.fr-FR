@@ -8,9 +8,9 @@ role: Admin
 level: Experienced
 exl-id: 366dd2ea-c6be-41a2-a4d6-4ffecb5f3d39
 source-git-commit: de33a10a168358d0f38ca776fbcd88e0ccf63ce2
-workflow-type: ht
-source-wordcount: '1146'
-ht-degree: 100%
+workflow-type: tm+mt
+source-wordcount: '1348'
+ht-degree: 99%
 
 ---
 
@@ -106,12 +106,12 @@ Pour plus d’informations, consultez la documentation d’Adobe Campaign :
 **Campaign v7/v8 :**
 
 * [Compresser ou chiffrer un fichier](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/importing-and-exporting-data/managing-data-encryption-compression/zip-encrypt.html?lang=fr#getting-started)
-* [Cas pratique : chiffrement et export de données à l’aide d’une clé installée sur le Panneau de contrôle](https://experienceleague.adobe.com/docs/campaign-standard/using/managing-processes-and-data/importing-and-exporting-data/managing-encrypted-data.html?lang=fr#use-case-gpg-encrypt)
+* [Cas d’utilisation : chiffrement et export de données à l’aide d’une clé installée sur le Panneau de contrôle](https://experienceleague.adobe.com/docs/campaign-standard/using/managing-processes-and-data/importing-and-exporting-data/managing-encrypted-data.html?lang=fr#use-case-gpg-encrypt)
 
 **Campaign Standard:**
 
 * [Gérer des données chiffrées](https://experienceleague.adobe.com/docs/campaign-standard/using/managing-processes-and-data/importing-and-exporting-data/managing-encrypted-data.html?lang=fr)
-* [Cas pratique : chiffrement et export de données à l’aide d’une clé installée sur le Panneau de contrôle](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/importing-and-exporting-data/managing-data-encryption-compression/zip-encrypt.html?lang=fr#use-case-gpg-encrypt)
+* [Cas d’utilisation : chiffrement et export de données à l’aide d’une clé installée sur le Panneau de contrôle](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/importing-and-exporting-data/managing-data-encryption-compression/zip-encrypt.html?lang=fr#use-case-gpg-encrypt)
 
 ## Déchiffrement des données {#decrypting-data}
 
@@ -149,12 +149,12 @@ Pour plus d’informations, consultez la documentation d’Adobe Campaign :
 **Campaign v7 et v8 :**
 
 * [Décompresser ou déchiffrer un fichier avant traitement](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/importing-and-exporting-data/managing-data-encryption-compression/unzip-decrypt.html?lang=fr)
-* [Cas pratique : import de données chiffrées à l’aide d’une clé générée par le Panneau de contrôle](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/importing-and-exporting-data/managing-data-encryption-compression/unzip-decrypt.html?lang=fr#use-case-gpg-decrypt)
+* [Cas d’utilisation : import de données chiffrées à l’aide d’une clé générée par le Panneau de contrôle](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/importing-and-exporting-data/managing-data-encryption-compression/unzip-decrypt.html?lang=fr#use-case-gpg-decrypt)
 
 **Campaign Standard:**
 
 * [Gérer des données chiffrées](https://experienceleague.adobe.com/docs/campaign-standard/using/managing-processes-and-data/importing-and-exporting-data/managing-encrypted-data.html?lang=fr)
-* [Cas pratique : import de données chiffrées à l’aide d’une clé générée par le Panneau de contrôle](https://experienceleague.adobe.com/docs/campaign-standard/using/managing-processes-and-data/importing-and-exporting-data/managing-encrypted-data.html?lang=fr#use-case-gpg-decrypt)
+* [Cas d’utilisation : import de données chiffrées à l’aide d’une clé générée par le Panneau de contrôle](https://experienceleague.adobe.com/docs/campaign-standard/using/managing-processes-and-data/importing-and-exporting-data/managing-encrypted-data.html?lang=fr#use-case-gpg-decrypt)
 
 ## Surveillance des clés GPG
 
@@ -196,4 +196,4 @@ La vidéo ci-dessous explique comment générer et installer des clés GPG pour 
 
 D’autres vidéos pratiques relatives à la gestion des clés GPG sont disponibles dans les pages de tutoriels [Campaign v7/v8](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/instance-settings/gpg-key-management/gpg-key-management-overview.html?lang=fr#instance-settings) et [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/instance-settings/gpg-key-management/gpg-key-management-overview.html?lang=fr#instance-settings).
 
->[!VIDEO](https://video.tv.adobe.com/v/327884?captions=fre_fr&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/36386?quality=12)
