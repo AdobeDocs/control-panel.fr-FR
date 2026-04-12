@@ -8,9 +8,9 @@ role: Admin
 level: Intermediate
 exl-id: 1d1eeff8-969e-4529-b947-2a68defb8d13
 source-git-commit: a3485766791387bd9422b4f29daf86296efafb98
-workflow-type: ht
-source-wordcount: '794'
-ht-degree: 100%
+workflow-type: tm+mt
+source-wordcount: '846'
+ht-degree: 99%
 
 ---
 
@@ -105,4 +105,4 @@ Pour supprimer une ou plusieurs plages dʼadresses IP de la liste autorisée, s�
 
 **Rubrique connexe :**
 
-* [Liaison d’une zone de sécurité à un opérateur](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/additional-configurations/security-zones.html?lang=fr#linking-a-security-zone-to-an-operator)
+* [Associer une zone de sécurité à un opérateur](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/additional-configurations/security-zones.html?lang=fr#linking-a-security-zone-to-an-operator)
