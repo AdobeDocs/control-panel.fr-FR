@@ -26,7 +26,7 @@ Les instances Campaign v8 hébergées sur Microsoft Azure ont également accès 
 
 >[!IMPORTANT]
 >
->Par défaut, le panneau de contrôle est accessible aux administrateurs et administratrices appartenant au profil de produit « Administration ». Selon la configuration de votre organisation, le profil de produit peut être appelé différemment (« admin », « admins », « admin d’approbation », etc.). **Tout profil de produit contenant le mot « admin » dans son nom accordera automatiquement l’accès à Panneau de Contrôle**. Examinez attentivement la dénomination de votre profil de produit pour vous assurer que seules les personnes autorisées ont accès au panneau de contrôle. [Découvrez comment gérer les autorisations de Panneau de Contrôle ](../../discover/using/managing-permissions.md).
+>Par défaut, le panneau de contrôle est accessible aux administrateurs et administratrices appartenant au profil de produit « Administration ». Selon la configuration de votre organisation, le profil de produit peut être appelé différemment (« admin », « admins », « admin d’approbation », etc.). **Tout profil de produit contenant le mot « admin » dans son nom accordera automatiquement l’accès à Panneau de Contrôle**. Examinez attentivement la dénomination de votre profil de produit pour vous assurer que seules les personnes autorisées ont accès au panneau de contrôle. [Découvrez comment gérer les autorisations de Panneau de Contrôle &#x200B;](../../discover/using/managing-permissions.md).
 
 ## Accès à partir de la plateforme Experience Cloud {#access-experience-cloud-platform}
 
