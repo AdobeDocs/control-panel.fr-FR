@@ -8,13 +8,10 @@ role: Admin
 level: Experienced
 exl-id: a2b3d409-704b-4e81-ae40-b734f755b598
 TQID: https://experienceleague.adobe.com/rkz8m-EBdNJEiimWc3YVlgsXSHYR9aA4R6y6cnZqRiw
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-feature_v2:
-  - id: a075b2c1-7748-4328-b7f6-343aa314616a
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: 06babfad697fb874f2b77c5204e30580c55cd0d1
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: a075b2c1-7748-4328-b7f6-343aa314616a
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+source-git-commit: e0e2ccba4ec069124297a26da48d210599671b48
 workflow-type: tm+mt
 source-wordcount: 485
 ht-degree: 100%
@@ -47,13 +44,13 @@ Pour déléguer des certificats SSL lors de la configuration d’un nouveau sous
 
 * **Délégation CNAME** :les enregistrements de certificat à copier dans votre solution d’hébergement seront fournis ultérieurement dans l’assistant de configuration. Vous devez générer ces enregistrements de certificat dans votre solution d’hébergement de domaine avant d’envoyer la configuration de sous-domaine. [En savoir plus sur la délégation CNAME](setting-up-new-subdomain.md#use-cnames).
 
-![](assets/cname-adobe-managed.png){width="70%" align="left"}
+![](assets/cname-adobe-managed.png){width="70%"}
 
 ## Déléguer des certificats SSL pour les sous-domaines déjà délégués {#delegated}
 
 Pour déléguer des certificats SSL pour un sous-domaine déjà délégué, cliquez sur le bouton représentant des points de suspension en regard du sous-domaine souhaité, puis cliquez sur **[!UICONTROL Basculer vers le protocole SSL géré]**.
 
-![](assets/delegate-ssl-list.png){width="70%" align="left"}
+![](assets/delegate-ssl-list.png){width="70%"}
 
 Le processus de génération de certificat dépend de la configuration initiale du sous-domaine :
 
@@ -67,4 +64,4 @@ Pour les sous-domaines configurés à l’aide de la délégation CNAME, une bo�
 
 Assurez-vous que tous les enregistrements des certificats ont été générés dans votre solution d’hébergement de domaine. Si tout est correctement configuré, confirmez la création des enregistrements puis cliquez sur **[!UICONTROL Envoyer]**.
 
-![](assets/delegate-ssl.png){width="70%" align="left"}
+![](assets/delegate-ssl.png){width="70%"}
