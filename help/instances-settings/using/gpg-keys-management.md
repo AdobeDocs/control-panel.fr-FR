@@ -8,16 +8,13 @@ role: Admin
 level: Experienced
 exl-id: 366dd2ea-c6be-41a2-a4d6-4ffecb5f3d39
 TQID: https://experienceleague.adobe.com/bASJhkj1kBwWQDiuSYzI0ULRLETI2Byw8y77wi7Acx0
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: d095671a-1355-40aa-8b5f-06c33c68080b
 source-git-commit: 06babfad697fb874f2b77c5204e30580c55cd0d1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 1348
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -53,7 +50,7 @@ Pour cela, vous devez générer une paire de clés GPG à partir d’un outil de
 >
 >Vous pouvez installer jusqu’à 60 clés GPG dans le panneau de contrôle.
 
-![](assets/do-not-localize/how-to-video.png) [&#x200B; Découvrez cette fonctionnalité en vidéo](#video)
+![](assets/do-not-localize/how-to-video.png)[ Découvrez cette fonctionnalité en vidéo](#video)
 
 1. Générez une paire de clés publique/privée à l’aide d’un outil de chiffrement PGP suivant la [spécification OpenPGP](https://www.openpgp.org/about/standard/). Pour cela, installez un utilitaire GPG ou un logiciel GNuPG.
 
@@ -106,7 +103,7 @@ Une fois la clé publique installée, elle apparaît dans la liste. Vous pouvez 
 
 La clé peut être ensuite utilisée dans les workflows Adobe Campaign. Vous pouvez l’utiliser pour chiffrer des données lors de l’utilisation d’activités d’extraction de données.
 
-![](assets/do-not-localize/how-to-video.png) [&#x200B; Découvrez cette fonctionnalité en vidéo](#video)
+![](assets/do-not-localize/how-to-video.png)[ Découvrez cette fonctionnalité en vidéo](#video)
 
 Pour plus d’informations, consultez la documentation d’Adobe Campaign :
 
@@ -129,7 +126,7 @@ Pour cela, vous devez générer une paire de clés GPG directement à partir du
 * La **clé publique** sera partagée avec le système externe. Ce dernier l&#39;utilisera pour chiffrer les données à envoyer à Campaign.
 * Campaign utilisera la **clé privée** pour déchiffrer les données chiffrées entrantes.
 
-![](assets/do-not-localize/how-to-video.png) [&#x200B; Découvrez cette fonctionnalité en vidéo](#video)
+![](assets/do-not-localize/how-to-video.png)[ Découvrez cette fonctionnalité en vidéo](#video)
 
 Pour générer une paire de clés dans le Panneau de contrôle, procédez comme suit :
 
@@ -155,7 +152,7 @@ Pour plus d’informations, consultez la documentation d’Adobe Campaign :
 
 **Campaign v7 et v8 :**
 
-* [Décompresser ou déchiffrer un fichier avant traitement](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/importing-and-exporting-data/managing-data-encryption-compression/unzip-decrypt.html?lang=fr)
+* [Décompression ou déchiffrement d’un fichier avant traitement](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/importing-and-exporting-data/managing-data-encryption-compression/unzip-decrypt.html?lang=fr)
 * [Cas d’utilisation : import de données chiffrées à l’aide d’une clé générée par le Panneau de contrôle](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/importing-and-exporting-data/managing-data-encryption-compression/unzip-decrypt.html?lang=fr#use-case-gpg-decrypt)
 
 **Campaign Standard:**
@@ -203,4 +200,4 @@ La vidéo ci-dessous explique comment générer et installer des clés GPG pour 
 
 D’autres vidéos pratiques relatives à la gestion des clés GPG sont disponibles dans les pages de tutoriels [Campaign v7/v8](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/instance-settings/gpg-key-management/gpg-key-management-overview.html?lang=fr#instance-settings) et [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/instance-settings/gpg-key-management/gpg-key-management-overview.html?lang=fr#instance-settings).
 
->[!VIDEO](https://video.tv.adobe.com/v/327884?captions=fre_fr&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/36386?quality=12)

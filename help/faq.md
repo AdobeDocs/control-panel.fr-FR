@@ -8,25 +8,16 @@ role: Admin
 level: Intermediate
 exl-id: 4f329764-ed8b-4939-affc-ed994fd6101d
 TQID: https://experienceleague.adobe.com/QzCaKeB3zqjFQTyDXRI5JQ2YoM98F5pZxOoMK1J9bjE
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-feature_v2:
-  - id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
-subfeature_v2:
-  - id: e3988c18-3cfa-4f16-b812-ac2d2b1056fa
-  - id: e739ee2b-6228-412e-878f-45de0791417d
-  - id: eff19c99-440a-4318-b319-444edc4d8d8f
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
+subfeature_v2: id: e3988c18-3cfa-4f16-b812-ac2d2b1056faid: e739ee2b-6228-412e-878f-45de0791417did: eff19c99-440a-4318-b319-444edc4d8d8f
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 57345245341bf2d04b9b01611d502532ba8f175b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 801
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -54,7 +45,7 @@ Oui, dans le Panneau de contrôle, vous pouvez gérer uniquement les paramètres
 
 ### Puis-je utiliser le Panneau de contrôle ?
 
-Le Panneau de Contrôle est accessible aux administrateurs de produit des clients pour lesquels Adobe Campaign est hébergé sur AWS. Les instances Campaign v8 hébergées sur Microsoft Azure ont également accès à un sous-ensemble de fonctionnalités de Panneau de Contrôle : les listes autorisées d’adresses IP pour l’accès aux instances, les listes autorisées d’adresses IP pour les serveurs SFTP et la gestion des certificats SSL gérés par le client.
+Le panneau de contrôle est accessible par les administrateurs et administratrices de produits de nos clientes et clients actuels pour lesquels Adobe Campaign est hébergé sur AWS.Les instances Campaign v8 hébergées sur Microsoft Azure ont également accès à un sous-ensemble de fonctionnalités du panneau de contrôle : liste autorisée d’adresses IP pour l’accès aux instances, liste autorisée d’adresses IP pour les serveurs SFTP et gestion des certificats SSL gérés par le client ou la cliente.
 
 Le panneau de contrôle permet aux clients disposant d’un modèle d’hébergement hybride de tirer parti des fonctionnalités spécifiques du panneau de contrôle. Pour ce faire, ils doivent fournir l’URL de l’instance MID/RT configurée dans leur instance marketing dans le panneau de contrôle. [En savoir plus](instances-settings/using/external-accounts.md)
 

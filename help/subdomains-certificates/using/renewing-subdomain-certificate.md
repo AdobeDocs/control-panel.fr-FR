@@ -8,16 +8,13 @@ role: Admin
 level: Experienced
 exl-id: e9b7c67d-6afa-44f9-b19d-39c0ec9a7edd
 TQID: https://experienceleague.adobe.com/rTb49TVxUqe2IeONpjiEMmhu1vZ-o6sStCwHxcWcAms
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: d095671a-1355-40aa-8b5f-06c33c68080b
 source-git-commit: 57345245341bf2d04b9b01611d502532ba8f175b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 1084
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -32,7 +29,7 @@ ht-degree: 96%
 >
 >Le renouvellement des certificats SSL de vos sous-domaines n’est nécessaire que si vous choisissez de gérer les certificats vous-même plutôt que de déléguer ce processus à Adobe. Il est vivement recommandé de déléguer la gestion des certificats SSL de vos sous-domaines à Adobe, car Adobe crée automatiquement le certificat et le renouvelle tous les ans avant l’expiration. [En savoir plus sur la gestion des certificats SSL](monitoring-ssl-certificates.md#management)
 >
->La gestion des certificats SSL par le client est disponible pour les instances Campaign v7/v8 hébergées sur AWS et pour les instances Campaign v8 hébergées sur Microsoft Azure.
+>La gestion des certificats SSL par le client ou la cliente est disponible pour les instances Campaign v7/v8 hébergées sur AWS et pour les instances Campaign v8 hébergées sur Microsoft Azure.
 
 La procédure de renouvellement des certificats SSL comprend 3 étapes :
 
@@ -52,7 +49,7 @@ La procédure de renouvellement des certificats SSL comprend 3 étapes :
 
 **Rubriques connexes :**
 
-* [Guide des bonnes pratiques en matière de délivrabilité - Processus de demande de certificat SSL pour Adobe Campaign](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/campaign/ac-ssl-certificate-request.html?lang=fr)
+* [Guide des bonnes pratiques en matière de délivrabilité : processus de demande de certificat SSL pour Adobe Campaign](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/campaign/ac-ssl-certificate-request.html?lang=fr)
 * [Marque des sous-domaines](../../subdomains-certificates/using/subdomains-branding.md)
 * [Surveillance de vos sous-domaines](../../subdomains-certificates/using/monitoring-subdomains.md)
 
