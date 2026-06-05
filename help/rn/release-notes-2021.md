@@ -12,9 +12,9 @@ product_v2:
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 source-git-commit: 06babfad697fb874f2b77c5204e30580c55cd0d1
-workflow-type: tm+mt
-source-wordcount: 193
-ht-degree: 99%
+workflow-type: ht
+source-wordcount: 176
+ht-degree: 100%
 
 ---
 
@@ -46,8 +46,7 @@ ht-degree: 99%
 <tbody>
 <tr>
 <td>
-<p>Vous pouvez désormais modifier les <a href="../sftp/using/ip-range-allow-listing.md#editing-ip-ranges">plages d’adresses IP</a> et les <a href="../sftp/using/key-management.md#editing-public-keys">clés publiques</a> que vous créez. Notez que les éléments créés avant la version actuelle du Panneau de contrôle ne prennent pas en charge cette fonctionnalité.
-</td>
+<p>Vous pouvez modifier les <a href="../sftp/using/ip-range-allow-listing.md#editing-ip-ranges">plages d’adresses IP</a> et les <a href="../sftp/using/key-management.md#editing-public-keys">clés publiques</a> que vous créez. Notez que les éléments créés avant la version actuelle du panneau de contrôle ne prennent pas en charge cette fonctionnalité.</td>
 </tr>
 </tbody>
 </table>

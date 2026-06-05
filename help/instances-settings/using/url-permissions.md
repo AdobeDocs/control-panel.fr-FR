@@ -19,9 +19,9 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
 source-git-commit: 06babfad697fb874f2b77c5204e30580c55cd0d1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 632
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -39,7 +39,7 @@ ht-degree: 92%
 >
 >Cette fonctionnalité est disponible uniquement pour les instances Campaign v7/v8 à partir du build 8850. Si vous utilisez un build précédent, vous devez effectuer la mise à niveau pour utiliser cette fonctionnalité.
 
-La liste par défaut des URL pouvant être appelées par les codes JavaScript (workflows, etc.) par vos instances Campaign est limité. Il s’agit des URL qui permettent à vos instances de fonctionner correctement.
+La liste par défaut des URL pouvant être appelées par des codes JavaScript (workflows, etc.)par vos instances Campaign est limitée.Il s’agit des URL qui permettent à vos instances de fonctionner correctement.
 
 Par défaut, les instances ne sont pas autorisées à se connecter à des URL externes. Le Panneau de contrôle permet d’ajouter des URL externes à la liste des URL autorisées afin que votre instance puisse s’y connecter. Vous pouvez ainsi connecter vos instances Campaign à des systèmes externes, comme des serveurs SFTP ou des sites Web, afin d’activer le transfert de fichiers et/ou de données.
 
@@ -97,7 +97,7 @@ Pour ajouter une URL à laquelle votre instance peut se connecter, procédez com
 
    >[!NOTE]
    >
-   >Les caractères « /.* » sont automatiquement ajoutés à la fin de l’URL que vous saisissez après sa validation, afin de couvrir toutes les sous-pages de la page saisie.
+   >Les caractères « /.* » sont automatiquement ajoutés à la fin de l’URL saisie après sa validation, afin de couvrir toutes les sous-pages de la page saisie.
 
    ![](assets/add_url_listnew.png)
 

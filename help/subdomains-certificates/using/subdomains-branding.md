@@ -17,9 +17,9 @@ role_v2:
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 source-git-commit: 06babfad697fb874f2b77c5204e30580c55cd0d1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 756
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -54,7 +54,7 @@ Le tableau ci-dessous résume le fonctionnement de ces méthodes, ainsi que le n
 
 | Méthode de configuration | Fonctionnement | Niveau d&#39;effort |
 |---|---|---|
-| **Délégation complète** | Créez l’enregistrement du sous-domaine et de l’espace de noms. Adobe configure ensuite tous les enregistrements DNS requis pour Adobe Campaign.<br/><br/>Dans cette configuration, Adobe est entièrement responsable de la gestion du sous-domaine et de tous les enregistrements DNS. | Faible |
+| **Délégation complète** | Créez l’enregistrement du sous-domaine et de l’espace de noms. Adobe configurera ensuite tous les enregistrements DNS requis pour Adobe Campaign.<br/><br/>Dans cette configuration, Adobe est entièrement responsable de la gestion du sous-domaine et de tous les enregistrements DNS. | Faible |
 | **CNAME, méthode personnalisée** | Créez l’enregistrement du sous-domaine et de l’espace de noms. Adobe fournira alors les enregistrements à placer sur vos serveurs DNS et configurera les valeurs correspondantes sur les serveurs DNS Adobe Campaign.<br/><br/>Dans cette configuration, vous partagez avec Adobe la responsabilité de la maintenance du DNS. | Élevée |
 
 Des informations supplémentaires sur la configuration de domaine sont disponibles dans [cette documentation](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/product-specific-resources/campaign/ac-domain-name-setup.html?lang=fr).

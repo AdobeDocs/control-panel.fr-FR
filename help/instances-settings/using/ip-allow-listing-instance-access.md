@@ -20,9 +20,9 @@ topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 57345245341bf2d04b9b01611d502532ba8f175b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 857
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -38,7 +38,7 @@ ht-degree: 96%
 
 >[!IMPORTANT]
 >
->Cette fonctionnalité est disponible pour les instances Campaign v7/v8 hébergées sur AWS et pour les instances Campaign v8 hébergées sur Microsoft Azure.
+>Cette fonctionnalité est disponible pour les instances Campaign v7/v8 hébergées sur AWS et pour les instances Campaign v8 hébergées sur Microsoft Azure.
 
 Par défaut, votre instance Adobe Campaign n’est accessible qu’à partir de certaines adresses IP.
 
@@ -117,4 +117,4 @@ Pour supprimer une ou plusieurs plages dʼadresses IP de la liste autorisée, s�
 
 **Rubrique connexe :**
 
-* [Associer une zone de sécurité à un opérateur](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/additional-configurations/security-zones.html?lang=fr#linking-a-security-zone-to-an-operator)
+* [Association d’une zone de sécurité à un opérateur](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/additional-configurations/security-zones.html?lang=fr#linking-a-security-zone-to-an-operator)

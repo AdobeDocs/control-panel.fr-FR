@@ -13,9 +13,9 @@ product_v2:
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 source-git-commit: 06babfad697fb874f2b77c5204e30580c55cd0d1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 154
-ht-degree: 77%
+ht-degree: 100%
 
 ---
 
@@ -33,7 +33,7 @@ La colonne **[!UICONTROL Dernière vérification]** indique à quel moment un so
 >
 >Adobe déconseille d’utiliser des sous-domaines sans date de certificat, car cela peut entraîner des problèmes de délivrabilité pour ceux-ci.
 
-Lors du lancement d’une vérification, plusieurs opérations sont effectuées pour vérifier que le sous-domaine est correctement configuré (vérification du tenant d’instance, test d’envoi d’e-mail, etc.) Si la vérification du sous-domaine échoue, contactez l’assistance clientèle Adobe pour plus d’informations.
+Lors du lancement d’une vérification, plusieurs opérations sont effectuées pour vérifier que le sous-domaine est correctement configuré (vérification du locataire de l’instance, test d’envoi d’e-mail, etc.).Si la vérification du sous-domaine échoue, contactez l’assistance clientèle Adobe pour plus d’informations.
 
 **Rubriques connexes :**
 

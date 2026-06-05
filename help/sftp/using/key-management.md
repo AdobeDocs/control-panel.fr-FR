@@ -13,9 +13,9 @@ product_v2:
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 source-git-commit: 06babfad697fb874f2b77c5204e30580c55cd0d1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 1106
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -98,7 +98,7 @@ Dans de très rares cas, l’authentification par mot de passe est activée sur 
 
    Il se peut que vous deviez installer un outil tiers qui vous aidera à générer une paire de clés privée/publique au même format « name.pub ».
 
-1. Ouvrez le fichier .pub, puis copiez-collez toute la chaîne commençant par « ssh... » au Panneau de Contrôle.
+1. Ouvrez le fichier .pub, puis copiez-collez toute la chaîne commençant par « ssh… »dans le panneau de contrôle.
 
    ![](assets/publickey.png)
 
@@ -116,7 +116,7 @@ Vous pouvez utiliser les empreintes pour faire correspondre les clés privées e
 
 ![](assets/fingerprint_compare.png)
 
-Le « **...** » vous permet de supprimer une clé existante ou de copier dans le presse-papiers l’empreinte qui lui est associée.
+Le bouton « **…** »permet de supprimer une clé existante ou de copier dans le presse-papiers l’empreinte qui lui est associée.
 
 ![](assets/key_options.png)
 
@@ -130,7 +130,7 @@ Vous pouvez également rechercher une clé publique en commençant à saisir un 
 
 ![](assets/control_panel_key_management_sort.png)
 
-Pour modifier une ou plusieurs plages dʼadresses IP, consultez [cette section](#editing-public-keys).
+Pour modifier une ou plusieurs plages d’adresses IP, consultez [cette section](#editing-public-keys).
 
 Pour supprimer une ou plusieurs clés publiques de la liste, sélectionnez-les puis cliquez sur le bouton **[!UICONTROL Supprimer la clé publique]**.
 

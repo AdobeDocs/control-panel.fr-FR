@@ -17,9 +17,9 @@ level_v2:
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
 source-git-commit: 06babfad697fb874f2b77c5204e30580c55cd0d1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 787
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -34,7 +34,7 @@ ht-degree: 96%
 >
 >Le calendrier de service est disponible en version Beta et est sujet à de fréquentes mises à jour et modifications sans préavis.
 
-Pour surveiller efficacement vos instances Campaign, il est essentiel de suivre les événements importants qui peuvent potentiellement avoir un impact sur vos instances. Le Panneau de Contrôle vous permet d’identifier des événements tels que de nouvelles versions, mises à niveau, correctifs, correctifs logiciels, etc. Il fournit également une liste des contacts principaux d’Adobe pour toutes les demandes ou problèmes.
+Pour surveiller efficacement vos instances Campaign, il est essentiel de suivre les événements importants qui peuvent potentiellement avoir un impact sur vos instances. Le panneau de contrôle vous permet d’identifier des événements tels que de nouvelles versions, les mises à niveau, les correctifs, les correctifs urgents, etc. Il fournit également une liste des contacts principaux d’Adobe pour les demandes ou problèmes.
 
 Ces informations sont accessibles depuis la vignette **[!UICONTROL Calendrier de service]** sur la page d’accueil du panneau de contrôle.
 
